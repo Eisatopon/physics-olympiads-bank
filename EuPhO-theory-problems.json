@@ -1,0 +1,265 @@
+{
+ "competition": "European Physics Olympiad (EuPhO) — theoretical problems",
+ "years": [
+  {
+   "year": 2017,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Oscillating rope",
+     "problem": "Oscillating rope\n\nA heavy uniform rope of length $L$ is suspended vertically from the ceiling. The rope may oscillate around its equilibrium position with different natural frequencies, which will be denoted by $f_i$ $(i = 1, 2, \\ldots)$ in an ascending order. The figure below presents the shape of the rope in the first three natural vibrations, as obtained by a computer simulation. Note that the horizontal and vertical scales in the figures are not equal. You may assume that the actual lateral displacement of the rope is much smaller than its length (small-amplitude approximation).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2017-1-fig1.png\n\nFigure: Shapes of the oscillating rope for the first three natural vibrations ($i = 1, 2, 3$ from left to right)\n\nA) Develop a simplified model, which will allow you to estimate the frequency $f_1$ of the first (fundamental) vibration of the rope. Hence, calculate approximately $f_1$ for a rope of length $L = 1.0\\ \\mathrm{m}$. Assume that $g = 9.8\\,\\mathrm{m/s^2}$.\n\nB) Take necessary readings from the figure to estimate the frequency ratio $f_1 : f_2 : f_3$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Disk in gas",
+     "problem": "Disk in gas\n\nConsider a thin flat disk of mass $M$ and face area $S$ at temperature $T_1$ resting initially in weightlessness in a gas of mass density $\\rho$ at temperature $T_0$ $(T_1 = 1000T_0)$. One of the faces of the disk is covered with a thermally insulating layer, the other face has a very good thermal contact with the surrounding gas: gas molecules of mass $m$ obtain the temperature of the disk during a single collision with the surface.\n\nEstimate the initial acceleration $a_0$ and maximal speed $v_\\mathrm{max}$ of the disk during its subsequent motion.\n\nAssume the heat capacity of the disk to be on the of order $Nk_B$, where $N$ is the number of atoms in it, and $k_B$ is the Boltzmann constant, and molar masses of the gas and the disk's material to be of the same order. The mean free path length of molecules is much larger than the size of the disk. Neglect any edge effects occuring at the edge of the disk."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Superconducting mesh",
+     "problem": "Superconducting mesh\n\nConsider a mesh made from a flat superconducting sheet by drilling a dense grid of small holes into it. Initially the sheet is in a non-superconducting state, and a magnetic dipole of dipole moment $m$ is at a distance $a$ from the mesh pointing perpendicularly towards the mesh. Now the mesh is cooled so that it becomes superconducting. Next, the dipole is displaced perpendicularly to the surface of the mesh so that its new distance from the mesh is $b$. Find the force between the mesh and the dipole. The pitch of the grid of holes is much smaller than both $a$ and $b$, and the linear size of the sheet is much larger than both $a$ and $b$."
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Three balls",
+     "problem": "Three balls\n\nThree small identical balls (denoted as $A$, $B$, and $C$) of mass $m$ each are connected with two massless rods of length $\\ell$ so that one of the rods connects the balls $A$ and $B$, and the other rod connects the balls $B$ and $C$. The connection at the ball $B$ is hinged, and the angle between the rods can change effortlessly. The system rests in weightlessness so that all the balls lie on one line. The ball $A$ is given instantaneously a velocity perpendicular to the rods.\n\nFind the minimal distance $d$ between the balls $A$ and $C$ during the subsequent motion of the system. Any friction is to be neglected."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Solenoid",
+     "problem": "Solenoid\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2018-2-fig1.png\n\nA solenoid of length $\\ell = 20\\,\\mathrm{cm}$ is wound around a vertical, cylindrical test tube made of glass, filled with water. The solenoid is thermally insulated from the water. The height of the water level is approximately $20\\,\\mathrm{cm}$ above the upper end of the solenoid, the diameter of the test tube is $1\\,\\mathrm{cm}$, the number of turns of the coil is $N = 6000$. The atmospheric pressure is $p_0 = 101\\,\\mathrm{kPa}$, the temperature of water is $293\\,\\mathrm{K}$. Magnetic susceptibility of water is $\\chi \\equiv \\mu_r - 1 = -9.04 \\times 10^{-6}$. Vacuum permeability $\\mu_0 = 12.57 \\times 10^{-7}\\ \\mathrm{H/m}$.\n\nThe current in the solenoid is slowly increased until the water starts boiling inside the coil. At which current strength would this happen? Make reasonable approximations when needed. Note that the required current strength might be slightly too large for the present technology."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Staircase",
+     "problem": "Staircase\n\nThe equilibrium shape of bodies in zero-gravity is determined by the minimum of their surface energy. Thus, for example, the equilibrium shape of a water droplet turns out to be spherical: the sphere has the smallest surface area among bodies of the same volume.\n\nAt low temperature, the equilibrium shape of crystals may have flat facets. The parts of the crystal surface that have a small angle $\\varphi$ with the facet are in fact staircases of rare steps on this facet. The height of such steps is equal to the period of the crystal lattice $h$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2018-3-fig1.png\n\nEquilibrium surface profile $y(x)$ of a certain crystal and the corresponding microscopic staircase are shown schematically in the figure, where $n$ denotes the step number, counting from $x = 0$. The profile shape at $x > 0$ can be approximated as $y(x) = -(x/\\lambda)^{3/2}h$, where $\\lambda = 45\\,\\mathrm{\\mu m}$ and $h = 0.3\\,\\mathrm{nm}$.\n\nA. Express the distance $d_n$ between two adjacent steps as a function of $n$ for $n \\gg 1$.\n\nB. The interaction energy $E$ of two steps depends on the distance $d$ between them as\n\n$$E(d) = \\mu\\, d^{\\nu},$$\n\nwhere $\\mu$ is a constant. Assume that only adjacent steps interact. Find the numerical value for the exponent $\\nu$."
+    }
+   ]
+  },
+  {
+   "year": 2019,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Ice pellets",
+     "problem": "Ice pellets\n\nAn interesting weather phenomenon can occur when the temperature profile in the atmosphere shows an inversion. The solid blue line in figure 1 shows such a temperature profile. The inversion occurs at heights between $1\\,\\mathrm{km}$ and $2\\,\\mathrm{km}$.\n\nUnder these conditions snow falling through the atmosphere (partially) melts in the warmer layer and (partially) freezes again before reaching the ground in the form of “ice pellets”.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2019-1-fig1.png\n\nFigure 1: Atmospheric temperature $T$ vs. height $h$ above the ground.\n\nAssume that a small, spherical ice droplet almost completely melts while falling through the atmospheric layer between $h_\\mathrm{A}$ and $h_\\mathrm{B}$ where the temperature is above freezing point.\n\na. Determine the mass fraction of the droplet that freezes before reaching the ground.\n\nb. Find, as precisely as possible, the temperature of the droplet at ground level if there were no inversion and the temperature profile followed the dashed line below a height of $2\\,\\mathrm{km}$.\n\nNeglect evaporation, condensation and size changes of the droplet. Assume that water and ice have very high thermal conductivity and that the density of the atmosphere is constant with height.\n\nUse $c_\\mathrm{water} = 4.2\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}}$ for the the specific heat of water and $c_\\mathrm{ice} = 2.1\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}}$ for that of ice. The specific latent heat for the melting of ice is $L = 334\\,\\mathrm{kJ\\,kg^{-1}}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Motion of a charged ball",
+     "problem": "Motion of a charged ball\n\nA solid, homogeneous spherical ball of mass $m$ and radius $R$ is made of insulating material and has charge $Q$ distributed uniformly throughout its volume. The ball is placed on a large horizontal surface, and set in rolling motion without slipping in such a way that its center starts to move with initial horizontal velocity $v_0$. There is a uniform magnetic field (flux density) of magnitude $B$ perpendicular to the surface. The coefficient of static friction is large enough to prevent the ball from slipping on the surface. The moment of inertia of the ball about an axis through its center is $2mR^2/5$.\n\nDescribe the motion of the center of the ball and the shape of its trajectory.\n\nHint: Depending on your approach you may use the following identity:\n\n$$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\vec{b}\\,(\\vec{a} \\cdot \\vec{c}) - \\vec{c}\\,(\\vec{a} \\cdot \\vec{b})$$\n\nvalid for any three vectors $\\vec{a}$, $\\vec{b}$ and $\\vec{c}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Water hose",
+     "problem": "Water hose\n\nA stream of water exits from the nozzle of a hose with a constant unknown speed $v$. A child plays with the hose by rotating it randomly in a fixed vertical $x$-$y$ plane. The nozzle is kept at $x = y = 0\\,\\mathrm{m}$, and the angle between the nozzle's axis and the horizon is never less than $45^\\circ$. At each moment in time, the stream in the air has an irregular shape. The shape at one instant is shown in the figure below.\n\nUsing this figure, determine the exit speed $v$ if the free fall acceleration is $g = 9.8\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2019-3-fig1.png\n\nFigure 2: Shape of the water stream at a certain moment in time (larger version provided on separate sheet)."
+    }
+   ]
+  },
+  {
+   "year": 2020,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Solenoid and loop",
+     "problem": "T1: Solenoid and loop\n\nA closed circular loop of radius $r$ consists of an ideal battery of electromotive force $\\mathcal{E}$ and a wire of resistance $R$. A long thin air-core solenoid is aligned with the axis of the loop ($z$-axis). Its length is $\\ell \\gg r$, cross-sectional area is $A$ ($\\sqrt{A} \\ll r$), and the number of turns is $N$. The solenoid is powered by a constant current $I$ provided by an ideal current source. The directions of the currents in the solenoid and in the loop are the same (clockwise in the figure).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2020-1-fig1.png\n\na. Find the force $F_1$ acting on the solenoid when its head $O_1$ is positioned in the loop centre $O$. What is the force $F_2$ acting on the solenoid when its tail $O_2$ is located in the centre of the loop?\n\nb. Suppose now, that the solenoid is moving slowly with a constant velocity $v$ along $z$-axis starting far away from the loop, going past its centre, and proceeding further to the right in positive $z$-direction. Plot the current $J$ flowing in the loop as a function of time. Highlight important features and values on the graph. The velocity $v$ is so small that self inductance of the loop can be neglected."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Mechanical accelerator",
+     "problem": "T2: Mechanical accelerator\n\nA massless thread makes $N$ turns around statically fixed cylinder, as shown in the figure. Initially, the free (unwound) ends of the thread are parallel to the axis $X$. Then, a heavy point-like object $P$ is attached to one end of the thread while the other end is pulled with a constant velocity $u$ along $X$. Find the maximum velocity attained by the heavy object.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2020-2-fig1.png\n\nThe thread is inextendable and flexible. Suppose that the turns of the thread are wound tightly to one another and are placed practically in the same plane, perpendicular to the cylinder axis. Neglect any friction in the system. Do not consider the force of gravity."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Cat eyes",
+     "problem": "T3: Cat eyes\n\nYou may have noticed that in darkness, when a cat is within the light beam of a headlamp, its eyes appear very bright, see the photo below (left). This phenomenon can be modelled by a lens setup, see the photo on right, and the diagram beneath the photos.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2020-3-fig1.jpg\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2020-3-fig2.png\n\nThe photo on right was taken by a digital single-lens reflex camera. The light intensity at the camera sensor pixels marked by a red line (in the photo) is shown in the graph below: the log base 10 of the light intensity (measured as the number of photons caught by each pixel) is plotted against the $x$-coordinate, with the pixels’ side length serving as the unit length.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2020-3-fig3.png\n\nThe lens modelling cat eyes can be treated as an ideal thin lens of focal length $f = 55\\,\\mathrm{mm}$ and diameter $D = 39\\,\\mathrm{mm}$; however, you should keep in mind that the given graph shows real measurement data, and the lens has certain non-ideal features. Most importantly, partial reflections of brightly lit areas from the lens surfaces may decrease the contrast: dark areas seen through the lens appear less dark than they actually are; this effect can be neglected for the camera lens, but not so for the lens serving as a model of a cat’s eye.\n\nBased on the given data, estimate (with the accuracy of ca $20\\%$) the distance $h$ between the axis of the camera and the axis of the lamp (which can be considered as a point source) if the distance of the camera from the paper sheet was $L = 4.8\\,\\mathrm{m}$."
+    }
+   ]
+  },
+  {
+   "year": 2021,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "A leak",
+     "problem": "T1: A leak\n\nA hollow insulated cylinder of height $2H$ and volume $2V$ is closed from below by an insulating piston. The cylinder is divided into two initially identical chambers by an insulating diaphragm of mass $m$. The diaphragm rests on a circular ledge and a gasket between them provides tight contact. Both chambers are filled with gaseous helium at pressure $p$ and temperature $T$. A force is applied to the piston, so that it moves upwards slowly.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2021-1-fig1.png\n\na. Find the volume of the lower chamber $V_0$ when the gas starts to leak between the chambers.\n\nb. Find the temperature $T_1$ in the upper chamber when the piston touches the diaphragm.\n\nc. Find the temperature $T_2$ in the lower chamber immediately before the piston touches the diaphragm."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Thread around a cylinder",
+     "problem": "T2: Thread around a cylinder\n\nOne end of a thread is tied into a loop of length $L > 2\\pi R$, and a cylinder of radius $R$ is put through the loop. The coefficient of friction between the thread and the cylinder is $\\mu$. The free end of the thread is being pulled parallel to the axis of the cylinder (as shown by arrow in the photo) while keeping the cylinder at rest. If the length of the loop is longer than a critical value, $L > L_0$, the loop can slide along the cylinder without changing its shape, otherwise the friction “locks” it into a place and increasing the pulling force would eventually just break the thread. Find this critical value $L_0$. The weight of the thread is to be neglected; the thread will not twist when being pulled.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2021-2-fig1.jpg\n\nIt might be useful to know that\n\n$$2\\int \\sqrt{1+x^2}\\,\\mathrm{d}x = x\\sqrt{1+x^2} + \\operatorname{arcsinh} x\\,,$$\n\nwhere $\\operatorname{arcsinh} x \\equiv \\ln\\left(x + \\sqrt{1+x^2}\\right)$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Glass ball",
+     "problem": "T3: Glass ball\n\nThe first photo here is taken with a digital camera and shows a glass ball, backlit with diffuse dichromatic light which has only two narrow spectral lines (red $630\\,\\mathrm{nm}$ and violet $400\\,\\mathrm{nm}$). This diffuse light comes from the white floor (marked with ‘1’ in the figure) and the white walls (marked with ‘2’), both illuminated with violet and red LED lamps. The sensor of the camera has only red, blue and green sensors so that violet light appears in the photo as blue. The photo is taken from a distance much greater than the radius of the ball. On the back side of the ball, a very narrow opaque thread is glued to the glass surface, forming an arc of a great circle on the ball. In the photo, the thread is obstructed by the ball and cannot be seen directly. However, hugely deformed images of a very short segment of the thread are seen as blue (marked with ‘b’) and red (‘r’) ellipses. The letter ‘p’ indicates purple-coloured areas in the photo.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2021-3-fig1.jpg\n\nIn the first photo, the centre of the ball is marked with a cross, and the perimeter of the ball is traced with a dashed line. You can find a larger version of the first photo on a separate sheet. You may take distance measurements there. In the larger photo, the boundary between the red and purple regions is also traced with a dashed line.\n\nThe second photo is taken while illuminating with a white LED with the ball turned so that the thread can be seen directly.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2021-3-fig2.jpg\n\na. Explain qualitatively using a ray diagram why a segment of the thread is seen as a closed loop in the first photo.\n\nb. Determine the coefficient of refraction $n_R$ for the red light.\n\nc. Determine the difference of the coefficients of refraction $\\Delta n \\equiv n_V - n_R$ for the red and violet light (with $n_V$ denoting the coefficient of refraction for the violet light).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2021-3-fig3.jpg"
+    }
+   ]
+  },
+  {
+   "year": 2022,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Floating cylinder",
+     "problem": "T1: Floating cylinder (10 pts)\n\nA solid, uniform cylinder of height $h = 10\\,\\mathrm{cm}$ and base area $s = 100\\,\\mathrm{cm^2}$ floats in a cylindrical beaker of height $H = 20\\,\\mathrm{cm}$ and inner bottom area $S = 102\\,\\mathrm{cm^2}$ filled with a liquid. The ratio between the density of the cylinder and that of the liquid is $\\gamma = 0.70$. The bottom of the cylinder is above the bottom of the beaker by a few centimeters. The cylinder is oscillating vertically, so that its axis always coincides with that of the beaker. The amplitude of the liquid level oscillations is $A = 1\\,\\mathrm{mm}$.\n\nFind the period of the motion $T$. Neglect the viscosity of the liquid."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Thermal oscillations",
+     "problem": "T2: Thermal oscillations (10 pts)\n\nA resistor is made of a material which undergoes a phase transition so that its resistance takes one of the two values, $R_1$ if its temperature is smaller than $T_c$, and $R_2 > R_1$ if the temperature is larger than $T_c$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2022-2-fig1.png\n\nThis resistor is connected to a voltage source through an inductor of inductance $L$. It appears that if the applied voltage $V$ is between two critical values, $V_1 < V < V_2$, the temperature of the resistor starts oscillating. Assume that (i) the heat flux $P$ from the resistor to the ambient medium is given by $P = \\alpha(T - T_0)$, where $\\alpha$ is a constant, $T$ denotes the temperature of the resistor, and $T_0$ is the ambient temperature; (ii) the geometrical size of the resistor is so small that it will reach a thermal equilibrium much faster than the characteristic time $L/R_2$.\n\n(a) (2 pts) Express $V_1$ and $V_2$ in terms of the other parameters defined above.\n\n(b) (6 pts) Assuming that $V_1 < V < V_2$, sketch qualitatively how the temperature of the resistor $T$ depends on time $t$, and find the ratio $(T_\\mathrm{max} - T_0)/(T_\\mathrm{min} - T_0)$, where $T_\\mathrm{max}$ and $T_\\mathrm{min}$ denote the maximal and minimal values of $T$, respectively.\n\n(c) (2 pts) Find the period of oscillations if $V = \\sqrt{V_1 V_2}$ and $R_2 = 16R_1$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Dipole in a magnetic field",
+     "problem": "T3: Dipole in a magnetic field (10 pts)\n\nTwo small balls of mass $m$ each with charges $+q$ and $-q$ respectively, connected by a rigid massless rod of length $d$, form a dipole. The dipole is parallel to plane $XY$ and is placed in a uniform magnetic field $\\vec{B}$ perpendicular to $XY$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2022-3-fig1.png\n\nInitially, the dipole is aligned with the direction $X$ and has initial angular velocity $\\omega_0$ in plane $XY$, as shown. Its center of mass is initially located at origin and given initial velocity $\\vec{v}_0$ parallel to $XY$, as well.\n\nConsider three distinct scenarios (a, b, c-d):\n\n(a) (2 pts) Find $\\omega_0$ and the direction of $\\vec{v}_0$, so that the center of mass will move with the constant velocity $\\vec{v} = \\vec{v}_0$?\n\n(b) (3 pts) Given $\\omega_0$, find such $\\vec{v}_0$ (direction and magnitude), so that the center of mass will travel in a circle. Find the circle radius $R_c$ and the coordinates $x_c$, $y_c$ of its center. You don’t need to prove the uniqueness of the solution.\n\n(c) (4 pts) Given $\\vec{v}_0 = 0$, find the minimal $\\omega_0 = \\omega_\\mathrm{min}$ necessary for the dipole to reverse its orientation during the motion.\n\n(d) (1 pt) If the dipole starts with $\\vec{v}_0 = 0$ and $\\omega_0 = \\omega_\\mathrm{min}$ found in part (c), the trajectory of its center of mass has an asymptote. Find the distance $D$ from the origin to the asymptote.\n\nUseful vector identity:\n\n$$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\vec{b}\\,(\\vec{a} \\cdot \\vec{c}) - \\vec{c}\\,(\\vec{a} \\cdot \\vec{b}),$$\n\nwhere “$\\times$” and “$\\cdot$” denote vector product and scalar product respectively."
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Thermal lens",
+     "problem": "T1: Thermal lens (10 pts)\n\nWhen an intense laser beam falls onto a semitransparent plate, the transmitted light can self-focus to a point behind the plate due to the inhomogeneous heating of the material. This effect, known as thermal lensing, is observed in materials whose index of refraction increases with temperature, characterized by a positive thermo-optic coefficient $\\gamma = \\frac{\\mathrm{d}n}{\\mathrm{d}T}$.\n\nA semitransparent disk with radius $a = 15.0\\,\\mathrm{mm}$, thickness $b = 0.2\\,\\mathrm{mm}$ and optical absorption coefficient $A = 0.1$ is composed of a material having thermal conductivity $k = 0.3\\,\\mathrm{W\\,m^{-1}\\,K^{-1}}$ and thermo-optic coefficient $\\gamma = 2.5 \\cdot 10^{-4}\\,\\mathrm{K^{-1}}$. The outer rim of the disk is thermally connected to a circular metallic holder (not shown in the figure) maintained at a constant temperature $T_\\mathrm{h} = 20^\\circ\\mathrm{C}$. A parallel laser beam of radius $\\sigma = 0.5\\,\\mathrm{mm}$ and power $P_\\mathrm{L} = 20\\,\\mathrm{mW}$ is incident normally onto the center of the disk. The intensity distribution is homogeneous across the cross-section of the beam.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2023-1-fig1.png\n\na) (2 pts) Sketch a qualitative graph of the temperature profile $T(r)$, where $r$ denotes the distance from the axis of the beam. Indicate clearly on the graph the illuminated region $0 \\le r \\le \\sigma$ and the outer region $\\sigma \\le r \\le a$.\n\nb) (4 pts) In the vicinity of the center of the disk, the temperature profile can be represented by a quadratic function $T(r) = T_\\mathrm{c} + mr^2$. Calculate the parameters $T_\\mathrm{c}$ and $m$.\n\nc) (4 pts) Show that the beam is focused in one point and find the distance $f$ from this point to the disk. If you failed to obtain $T_c$ and $m$ in part b), you may use them as parameters in your final answer.\n\nDo not consider the thermal expansion of the disk. Neglect the thermal radiation and the heat exchange between the disk and the surrounding air. Assume that the index of refraction of air is $n_\\mathrm{air} = 1$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Brick between two planes",
+     "problem": "T2: Brick between two planes (10 pts)\n\nA small brick is squeezed between two parallel planes in zero gravity. The planes are perpendicular to the $z$-axis. The lower plane is moving with constant velocity $u_1$ along the $x$-axis, whilst the upper one is moving with constant velocity $u_2$ along the $y$-axis.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2023-2-fig1.png\n\nInitially, the brick is at rest. The coefficient of kinetic friction between the brick and each plane is identical.\n\na) (4 pts) Find the speed of the brick $v_\\infty$ after a long time for $u_1 = u_2$.\n\nb) (6 pts) Find the speed of the brick $v_\\infty$ after a long time for $u_1 \\neq u_2$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Plate between magnets",
+     "problem": "T3: Plate between magnets (10 pts)\n\nTwo identical long, cylindrical rod magnets of radius $R$ are close to each other and share the same vertical symmetry axis. The polarity of the two magnets is the same. As a result, the magnetic field in the air gap between the magnets is directed towards the $+z$ direction (see figure) and uniform with flux density $B$. The magnetic field outside the gap is zero. A horizontal large non-magnetic metal plate is placed in the air gap and moved with constant horizontal velocity $v$ in $+y$-direction. The thickness of the plate is $\\delta$, the resistivity of the metal is $\\varrho$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2023-3-fig1.png\n\na) (3 pts) Sketch the shape of current streamlines in the metal plate at a given time. Indicate the axes on your sketch.\n\nb) (5 pts) Find and plot the current density inside the plate along a line parallel to the $y$ axis intersecting the symmetry axis of the magnets.\n\nc) (2 pts) Find the horizontal force required to move the plate."
+    }
+   ]
+  },
+  {
+   "year": 2024,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Sliding puck",
+     "problem": "T1: Sliding puck (10 pts)\n\nA puck (a small disc) with radius $r$ and uniform density is moving on a horizontal plane with the velocity $v_0$ without rotation. The puck meets a fixed half-circular wall with a radius $R \\gg r$ and starts to move along the wall. The coefficient of friction with the wall is $\\mu$, and friction with the horizontal plane is negligible.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2024-1-fig1.png\n\na) (8 pts) Find the velocity of the puck $v_e$ when it leaves the wall.\n\nb) (2 pts) Sketch the graph $v_e(\\mu)$. Indicate important features of the graph. You are encouraged to sketch the graph even if you haven't found the exact formula for $v_e$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Spaceships",
+     "problem": "T2: Spaceships (10 pts)\n\nAlice and Bob are twin astronauts on a long space mission. After many years, they are finally approaching each other to reunite. Alice's spaceship is moving towards Bob's spaceship at a speed of $u = \\tfrac{3}{5}c$, where $c$ is the speed of light.\n\nDuring their approach, both Alice and Bob send gifts to each other. Alice sends gifts to Bob at regular time intervals $\\Delta t_0$ in her own frame of reference, with each gift travelling at a velocity $v = \\tfrac{4}{5}c$ (again, in her frame of reference). Similarly, Bob sends gifts to Alice at the same regular time intervals $\\Delta t_0$ in his own frame of reference, with each gift also travelling at a velocity $v = \\tfrac{4}{5}c$ in his frame of reference. Assume that the distance $L$ between Alice and Bob is so large that there are many gifts in transit at any given moment.\n\na) (5 pts) In Bob's reference frame, find\n\n(i) the distance between two successive gifts sent by Alice, and\n\n(ii) the time interval $\\Delta t_1$ at which these gifts from Alice arrive at Bob's spaceship.\n\nb) (5 pts) At a given instant, Alice can see a number of gifts moving away from her and a number of gifts moving towards her. What is the ratio between these two numbers?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Fabry–Pérot interferometer",
+     "problem": "T3: Fabry–Pérot interferometer (10 pts)\n\nA Fabry–Pérot interferometer consists of two identical parallel planar mirrors separated by a distance $L$. The space between and outside the mirrors is filled with air. The mirrors are partially reflective; when light is aimed towards one of these mirrors along the normal direction, the reflected beam has intensity $R < 1$ times the intensity of the incident beam. Assume that the mirrors are symmetric, meaning they interact the same way with light incident from either side, and lossless. Assume also that they are highly reflective, meaning $1 - R \\ll 1$. A monochromatic laser beam of power $P$ is aimed towards the interferometer perpendicular to the mirrors. The distance $L$ is chosen so that the back-reflected beam vanishes, i.e. all the optical power is transmitted through the interferometer.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2024-3-fig1.png\n\na) (3pts) Show that the laser beam must acquire a nonzero phase shift $\\phi$ when it passes through either of the mirrors.\n\nb) (2pts) Find the magnitude of $\\phi$.\n\nc) (4pts) At a certain moment, the incident laser beam is switched off rapidly. Find the total energy of the light that travels back from the interferometer towards the laser after the laser is switched off.\n\nd) (1pt) Estimate the duration of the light pulse that travels back towards the laser."
+    }
+   ]
+  },
+  {
+   "year": 2025,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Sunny",
+     "problem": "T1: Sunny (10 pts)\n\nYou are asked to study the features of the brightly lit circle and dark rings in the figures below. Make your calculations for an idealized situation: the chair leg is strictly cylindrical of radius $a$, strictly vertical, with a perfectly smooth, cylindrical, and perfectly reflecting surface. You may make any additional model assumptions and approximations you deem reasonable that will simplify your calculations.\n\na) (5 pts) Determine how the illuminance surplus $I(r,\\theta)$ inside the brightly lit circle on the floor depends on the polar coordinates $r \\gg a$ and $\\theta$. The illuminance quantifies the amount of incoming light per area. By “surplus” we mean the additional illuminance introduced due to the presence of the cylinder. Express the answer in terms of $I_0$ defined as the illuminance difference between points A and B in the figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2025-1-fig1.jpg\n\nb) (5 pts) In the following figure some fingers are blocking some of the light from reaching the chair leg. Let $R(\\theta)$ denote the radial distance of the middle dark ring as a function of the angle $\\theta$ and let $R_\\mathrm{min}$ be the minimal value of $R(\\theta)$. Determine $R(\\theta) - R_\\mathrm{min}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2025-1-fig2.jpg"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Floating table",
+     "problem": "T2: Floating table (10 pts)\n\nA table is made by fastening a metal frame to a massive uniform plate (so they form a rigid body) and attaching it with chains to another frame that is fixed on the horizontal ground. The motion of the table is limited to the plane of the side view (right picture).\n\na) (4 pts) Show that in the configuration on the side view, the table is in a stable equilibrium.\n\nb) (6 pts) Find the period $T$ of the small oscillations.\n\nThe masses of the chains and the frame can be neglected. The chains are frictionless, inextensible, and remain tensioned in oscillations. The grid step is $a = 0.100\\,\\mathrm{m}$, the acceleration of gravity $g = 9.81\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2025-2-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Crossed wires",
+     "problem": "T3: Crossed wires (10 pts)\n\na) (1 pt) Current flows through an infinite, straight, thin wire. There is an externally imposed, uniform magnetic field directed parallel to the wire. Qualitatively sketch one of the magnetic field lines.\n\nb) (5 pts) Now consider two infinite, straight, thin wires (wires $X$ and $Y$), each carrying a current $I$ as shown in the figure. The $x$-axis coincides with wire $X$, while wire $Y$ is parallel to the $y$-axis and passes through the point $(0,0,-a)$. Let P be the point $(3a,0,r)$. Assuming $r \\ll a$, calculate $d$, the distance of closest approach of the magnetic field line that passes through P to the wire $X$.\n\nc) (4 pts) Let $L$ be the length of this field line between P and its point of closest approach to wire $X$. Using values $a = 10\\,\\mathrm{cm}$ and $r = 1.0\\,\\mathrm{mm}$, calculate $L$ to within 20% relative error.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2025-3-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Jumper",
+     "problem": "T1: Jumper (10 pts)\n\nTwo uniform rods, each of mass $m$ and length $\\ell$, are connected at one end by a hinge equipped with a torsional spring. The spring exerts equal and opposite restoring torques $\\tau$ on the rods about the hinge,\n\n$$ \\tau = 2k\\theta, $$\n\nwhere $2\\theta$ is the angle between the rods (in radians), and $k$ ($k \\gg mg\\ell$) is the torsional spring constant.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2026-1-fig1.png\n\nThe system is placed on a flat horizontal surface with the free ends of the rods resting on the floor and the hinge above them. The hinge is then pushed downward until the rods lie flat on the floor in opposite directions, corresponding to $\\theta = \\pi/2$. Friction between the rods and the floor is negligible.\n\nJumper jumps after the hinge is released. Determine the maximum height $h$ reached by the center of mass of the system to a precision better than 1%."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Hysteresis",
+     "problem": "T2: Hysteresis (10 pts)\n\nConsider a solenoid with $N \\gg 1$ turns, radius $R$ and length $\\ell \\gg R$. The solenoid has a ferromagnetic core with hysteresis curve as shown in the picture. $M$ denotes the magnetization of the core and would be zero without core material. It is related to $H$, the magnetic field strength generated by the current in the solenoid coil, and $B$ by $B = \\mu_0\\,(H + M)$. $M_0$ and $H_0$ are of the same order of magnitude. Assume that $M$ can only change if $|H| \\geq H_0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2026-2-fig1.png\n\nAn ideal capacitor with capacitance $C$ is now connected to the solenoid forming a closed circuit. Assume that all wires have negligible resistance.\n\na) (3.0 pts) Initially there is a current $I_\\mathrm{i}$ flowing through the circuit and the capacitor is uncharged. $I_\\mathrm{i}$ is large enough that $H(I_\\mathrm{i}) \\gg H_0$. After one oscillation the current again reaches a maximum value. Determine the difference between $I_\\mathrm{i}$ and this value.\n\nb) (2.3 pts) Find the maximum current that can be attained after many oscillations.\n\nc) (4.7 pts) The current $I(t)$ exhibits two qualitatively distinct phases of behaviour, A and B. The system can remain in phase A indefinitely, whereas any single interval spent in phase B has bounded duration. Find the maximal possible duration of a phase-B interval, if $I_\\mathrm{i}$ is chosen optimally."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Dry ice hockey",
+     "problem": "T3: Dry ice hockey (10 pts)\n\nAt pressure $p_0 = 100\\,\\mathrm{kPa}$, solid CO$_2$ (dry ice) sublimates (goes from solid to gaseous state) at $T_s = -78.5\\,{}^\\circ\\mathrm{C}$. Its saturated vapour pressure follows the Clausius–Clapeyron relation:\n\n$$ \\frac{\\mathrm{d}p_\\mathrm{sat}}{\\mathrm{d}T} = \\frac{\\mu\\lambda p_\\mathrm{sat}}{RT^2}, $$\n\nwhere the latent heat of sublimation is $\\lambda = 600\\,\\mathrm{kJ/kg}$, the molar mass is $\\mu = 0.044\\,\\mathrm{kg/mol}$, and the gas constant is $R = 8.3\\,\\mathrm{J/(mol \\cdot K)}$. The thermal conductivity of the CO$_2$ gas is $\\kappa = 10\\,\\mathrm{mW/(m \\cdot K)}$ and its dynamic viscosity is $\\eta = 10\\,\\mathrm{\\mu}\\mathrm{Pa \\cdot s}$. The density of dry ice is $\\rho = 1500\\,\\mathrm{kg/m^3}$ and the gravitational acceleration is $g = 10\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/eupho-2026-3-fig1.png\n\nA puck of radius $r = 10\\,\\mathrm{mm}$ consists of a disc of dry ice of thickness $h = 1\\,\\mathrm{mm}$, and a metal disc of mass $M = 0.01\\,\\mathrm{kg}$ on top of it. The initial temperature of the puck is $T_s$ and the ambient pressure is $p_0$.\n\nThe puck is placed on a horizontal metal plate which is held at a constant temperature $T = T_s + \\Delta T$, and given an initial horizontal velocity $v = 10\\,\\mathrm{mm/s}$. After a very long time, the horizontal displacement $L$ of the metal disc is measured.\n\na) (2 pts) When $\\Delta T$ is sufficiently small, $L$ is negligible and independent of $\\Delta T$. However, when $\\Delta T$ reaches a critical value $\\Delta T_c$, the function $L(\\Delta T)$ starts to grow. Estimate $\\Delta T_c$.\n\nb) (8 pts) Estimate the maximal value $L_\\mathrm{max}$ of the function $L(\\Delta T)$.\n\nTreat the CO$_2$ gas as ideal. Assume no tilting of the puck at any moment, all surfaces are perfectly smooth, and the thermal conductivities of the metal, dry ice, and gas satisfy $\\kappa_\\mathrm{metal} \\gg \\kappa_\\mathrm{ice} \\gg \\kappa$."
+    }
+   ]
+  }
+ ]
+}

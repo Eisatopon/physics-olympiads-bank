@@ -2,6 +2,124 @@
  "competition": "International Physics Olympiad (IPhO) — theoretical problems",
  "years": [
   {
+   "year": 1982,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Fluorescent lamp",
+     "problem": "Problem 1: Fluorescent lamp\n\nAn alternating voltage of $50\\,\\mathrm{Hz}$ frequency is applied to the fluorescent lamp shown in the accompanying circuit diagram.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1982-1-fig1.png\n\nThe following quantities are measured:\n\n$$\\begin{array}{ll} \\text{overall voltage (main voltage)} & U=228.5\\,\\mathrm{V} \\\\ \\text{electric current} & I=0.6\\,\\mathrm{A} \\\\ \\text{partial voltage across the fluorescent lamp} & U'=84\\,\\mathrm{V} \\\\ \\text{ohmic resistance of the series reactor} & R_d=26.3\\,\\Omega \\end{array}$$\n\nThe fluorescent lamp itself may be considered as an ohmic resistor in the calculations.\n\na) What is the inductance $L$ of the series reactor?\n\nb) What is the phase shift $\\varphi$ between voltage and current?\n\nc) What is the active power $P_w$ transformed by the apparatus?\n\nd) Apart from limiting the current the series reactor has another important function. Name and explain this function!\n\nHint: The starter S includes a contact which closes shortly after switching on the lamp, opens up again and stays open.\n\ne) In a diagram with a quantitative time scale sketch the time sequence of the luminous flux emitted by the lamp.\n\nf) Why has the lamp to be ignited only once although the applied alternating voltage goes through zero in regular intervals?\n\ng) According to the statement of the manufacturer, for a fluorescent lamp of the described type a capacitor of about $4.7\\,\\mathrm{\\mu F}$ can be switched in series with the series reactor. How does this affect the operation of the lamp and to what intent is this possibility provided for?\n\nh) Examine both halves of the displayed demonstrator lamp with the added spectroscope. Explain the differences between the two spectra. You may walk up to the lamp and you may keep the spectroscope as a souvenir."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Oscillating coat hanger",
+     "problem": "Problem 2: Oscillating coat hanger\n\nA (suitably made) wire coat hanger can perform small amplitude oscillations in the plane of the figure around the equilibrium positions shown. In positions a) and b) the long side is horizontal. The other two sides have equal length. The period of oscillation is the same in all cases.\n\nWhat is the location of the center of mass, and how long is the period?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1982-2-fig1.png\n\nThe figure does not contain any information beyond the dimensions given. Nothing is known, e.g., concerning the detailed distribution of mass."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Hot-air-balloon",
+     "problem": "Problem 3: Hot-air-balloon\n\nConsider a hot-air balloon with fixed volume $V_B=1.1\\,\\mathrm{m^3}$. The mass of the balloon-envelope, whose volume is to be neglected in comparison to $V_B$, is $m_H=0.187\\,\\mathrm{kg}$.\n\nThe balloon shall be started, where the external air temperature is $\\vartheta_1=20\\,^{\\circ}\\mathrm{C}$ and the normal external air pressure is $p_o=1.013\\cdot10^{5}\\,\\mathrm{Pa}$. Under these conditions the density of air is $\\rho_1=1.2\\,\\mathrm{kg/m^3}$.\n\na) What temperature $\\vartheta_2$ must the warmed air inside the balloon have to make the balloon just float?\n\nb) First the balloon is held fast to the ground and the internal air is heated to a steady-state temperature of $\\vartheta_3=110\\,^{\\circ}\\mathrm{C}$. The balloon is fastened with a rope.\n\nCalculate the force on the rope.\n\nc) Consider the balloon being tied up at the bottom (the density of the internal air stays constant). With a steady-state temperature $\\vartheta_3=110\\,^{\\circ}\\mathrm{C}$ of the internal air the balloon rises in an isothermal atmosphere of $20\\,^{\\circ}\\mathrm{C}$ and a ground pressure of $p_0=1.013\\cdot10^{5}\\,\\mathrm{Pa}$. Which height $h$ can be gained by the balloon under these conditions?\n\nd) At the height $h$ the balloon (question c)) is pulled out of its equilibrium position by $10\\,\\mathrm{m}$ and then is released again.\n\nFind out by qualitative reasoning what kind of motion it is going to perform!"
+    }
+   ]
+  },
+  {
+   "year": 1983,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Jumping particle",
+     "problem": "Mechanics – Problem I (8 points)\n\nJumping particle\n\nA particle moves along the positive axis $Ox$ (one-dimensional situation) under a force that’s projection on $Ox$ is $F_x = F_0$ as represented in the figure below (as function of $x$). At the origin of $Ox$ axis is placed a perfectly reflecting wall.\n\nA friction force of constant modulus $F_f = 1{,}00\\,\\mathrm{N}$ acts anywhere the particle is situated.\n\nThe particle starts from the point $x = x_0 = 1{,}00\\,\\mathrm{m}$ having the kinetic energy $E_c = 10{,}0\\,\\mathrm{J}$.\n\na. Find the length of the path of the particle before it comes to a final stop\n\nb. Sketch the potential energy $U(x)$ of the particle in the force field $F_x$.\n\nc. Draw qualitatively the dependence of the particle speed as function of his coordinate $x$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1983-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Different kind of oscillation",
+     "problem": "Electricity – Problem II (8 points)\n\nDifferent kind of oscillation\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1983-2-fig1.png\n\nLet’s consider the electric circuit in the figure, for which $L_1 = 10\\,\\mathrm{mH}$, $L_2 = 20\\,\\mathrm{mH}$, $C_1 = 10\\,\\mathrm{nF}$, $C_2 = 5\\,\\mathrm{nF}$ and $R = 100\\,\\mathrm{k\\Omega}$. The switch $K$ being closed the circuit is coupled with a source of alternating current. The current furnished by the source has constant intensity while the frequency of the current may be varied.\n\na. Find the ratio of frequency $f_m$ for which the active power in circuit has the maximum value $P_m$ and the frequency difference $\\Delta f = f_+ - f_-$ of the frequencies $f_+$ and $f_-$ for which the active power in the circuit is half of the maximum power $P_m$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1983-2-fig2.png\n\nThe switch $K$ is now open. In the moment $t_0$ immediately after the switch is open the intensities of the currents in the coils $L_1$ and $i_{01} = 0{,}1\\,\\mathrm{A}$ and $i_{02} = 0{,}2\\,\\mathrm{A}$ $L_1$ (the currents flow as in the figure); at the same moment, the potential difference on the capacitor with capacity $C_1$ is $u_0 = 40\\,\\mathrm{V}$:\n\nb. Calculate the frequency of electromagnetic oscillation in $L_1C_1C_2L_2$ circuit;\n\nc. Determine the intensity of the electric current in the $AB$ conductor;\n\nd. Calculate the amplitude of the oscillation of the intensity of electric current in the coil $L_1$.\n\nNeglect the mutual induction of the coils, and the electric resistance of the conductors. Neglect the fast transition phenomena occurring when the switch is closed or opened."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Prisms",
+     "problem": "Optics – Problem III (7points)\n\nPrisms\n\nTwo dispersive prisms having apex angles $\\hat{A}_1 = 60^\\circ$ and $\\hat{A}_2 = 30^\\circ$ are glued as in the figure below ($\\hat{C} = 90^\\circ$). The dependences of refraction indexes of the prisms on the wavelength are given by the relations\n\n$$n_1(\\lambda) = a_1 + \\frac{b_1}{\\lambda^2};$$\n\n$$n_2(\\lambda) = a_2 + \\frac{b_2}{\\lambda^2}$$\n\nwere\n\n$$a_1 = 1{,}1,\\quad b_1 = 1\\cdot 10^5\\,\\mathrm{nm^2},\\quad a_2 = 1{,}3,\\quad b_2 = 5\\cdot 10^4\\,\\mathrm{nm^2}.$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1983-3-fig1.png\n\na. Determine the wavelength $\\lambda_0$ of the incident radiation that pass through the prisms without refraction on $AC$ face at any incident angle; determine the corresponding refraction indexes of the prisms.\n\nb. Draw the ray path in the system of prisms for three different radiations $\\lambda_{\\mathrm{red}}$, $\\lambda_0$, $\\lambda_{\\mathrm{violet}}$ incident on the system at the same angle.\n\nc. Determine the minimum deviation angle in the system for a ray having the wavelength $\\lambda_0$.\n\nd. Calculate the wavelength of the ray that penetrates and exits the system along directions parallel to DC."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Compton scattering",
+     "problem": "Atomics - Problem IV (7 points)\n\nCompton scattering\n\nA photon of wavelength $\\lambda_i$ is scattered by a moving, free electron. As a result the electron stops and the resulting photon of wavelength $\\lambda_0$ scattered at an angle $\\theta = 60^\\circ$ with respect to the direction of the incident photon, is again scattered by a second free electron at rest. In this second scattering process a photon with wavelength of $\\lambda_f = 1{,}25\\times10^{-10}\\,\\mathrm{m}$ emerges at an angle $\\theta = 60^\\circ$ with respect to the direction of the photon of wavelength $\\lambda_0$. Find the de Broglie wavelength for the first electron before the interaction. The following constants are known:\n\n$h = 6{,}6\\times10^{-34}\\,\\mathrm{J\\cdot s}$ - Planck’s constant\n\n$m = 9{,}1\\times10^{-31}\\,\\mathrm{kg}$ - mass oh the electron\n\n$c = 3{,}0\\times10^{8}\\,\\mathrm{m/s}$ - speed of light in vacuum"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "IPhO's LOGO",
+     "problem": "IPhO’s LOGO – Problem V\n\nThe Logo of the International Physics Olympiad is represented in the figure below.\n\nThe figure presents the phenomenon of the curving of the trajectory of a jet of fluid around the shape of a cylindrical surface. The trajectory of fluid is not like the expected dashed line but as the circular solid line.\n\nQualitatively explain this phenomenon (first observed by Romanian engineer Henry Coanda in 1936).\n\nThis problem will be not considered in the general score of the Olympiad. The best solution will be awarded a special prize.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1983-5-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 1984,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Mirage",
+     "problem": "Problem 1\n\na) Consider a plane-parallel transparent plate, where the refractive index, $n$, varies with distance, $z$, from the lower surface (see figure). Show that $n_A\\sin\\alpha = n_B\\sin\\beta$. The notation is that of the figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1984-1-fig1.png\n\nb) Assume that you are standing in a large flat desert. At some distance you see what appears to be a water surface. When you approach the “water” is seems to move away such that the distance to the “water” is always constant. Explain the phenomenon.\n\nc) Compute the temperature of the air close to the ground in b) assuming that your eyes are located $1.60\\,\\mathrm{m}$ above the ground and that the distance to the “water” is $250\\,\\mathrm{m}$. The refractive index of the air at $15\\,^\\circ\\mathrm{C}$ and at normal air pressure ($101.3\\,\\mathrm{kPa}$) is $1.000276$. The temperature of the air more than $1\\,\\mathrm{m}$ above the ground is assumed to be constant and equal to $30\\,^\\circ\\mathrm{C}$. The atmospheric pressure is assumed to be normal. The refractive index, $n$, is such that $n-1$ is proportional to the density of the air. Discuss the accuracy of your result."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Seiching",
+     "problem": "Problem 2\n\nIn certain lakes there is a strange phenomenon called “seiching” which is an oscillation of the water. Lakes in which you can see this phenomenon are normally long compared with the depth and also narrow. It is natural to see waves in a lake but not something like the seiching, where the entire water volume oscillates, like the coffee in a cup that you carry to a waiting guest.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1984-2-fig1.png\n\nIn order to create a model of the seiching we look at water in a rectangular container. The length of the container is $L$ and the depth of the water is $h$. Assume that the surface of the water to begin with makes a small angle with the horizontal. The seiching will then start, and we assume that the water surface continues to be plane but oscillates around an axis in the horizontal plane and located in the middle of the container.\n\nCreate a model of the movement of the water and derive a formula for the oscillation period $T$. The starting conditions are given in figure above. Assume that $\\xi \\ll h$. The table below shows experimental oscillation periods for different water depths in two containers of different lengths. Check in some reasonable way how well the formula that you have derived agrees with the experimental data. Give your opinion on the quality of your model.\n\nTable 1. $L = 479\\,\\mathrm{mm}$\n\n$$\\begin{array}{c|ccccccc} h/\\,\\mathrm{mm} & 30 & 50 & 69 & 88 & 107 & 124 & 142 \\\\ \\hline T/\\,\\mathrm{s} & 1.78 & 1.40 & 1.18 & 1.08 & 1.00 & 0.91 & 0.82 \\end{array}$$\n\nTable 2. $L = 143\\,\\mathrm{mm}$\n\n$$\\begin{array}{c|ccccc} h/\\,\\mathrm{mm} & 31 & 38 & 58 & 67 & 124 \\\\ \\hline T/\\,\\mathrm{s} & 0.52 & 0.52 & 0.43 & 0.35 & 0.28 \\end{array}$$\n\nThe graph below shows results from measurements in lake Vättern in Sweden. This lake has a length of $123\\,\\mathrm{km}$ and a mean depth of $50\\,\\mathrm{m}$. What is the time scale in the graph?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1984-2-fig2.png\n\nThe water surface level in Bastudalen (northern end of lake Vättern) and Jönköping (southern end)."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Electrical filter",
+     "problem": "Problem 3\n\nAn electronic frequency filter consists of four components coupled as in the upper figure. The impedance of the source can be neglected and the impedance of the load can be taken as infinite. The filter should be such that the voltage ratio $U_{out}/U_{in}$ has a frequency dependence shown in the lower where $U_{in}$ is the input voltage and $U_{out}$ is the output voltage. At frequency $f_0$ the phase lag between the two voltages is zero.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1984-3-fig1.png\n\nIn order to build the filter you can choose from the following components:\n\n• 2 resistors, $10\\,\\mathrm{k\\Omega}$\n• 2 capacitors, $10\\,\\mathrm{nF}$\n• 2 solenoids, $160\\,\\mathrm{mH}$ (iron-free and with neglible resistance)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1984-3-fig2.png\n\nConstruct, by combining four of these components, a filter that fulfils the stated conditions. Determine the frequency $f_0$ and the ratio $U_{out}/U_{in}$ at this frequency for as many component combinations as possible."
+    }
+   ]
+  },
+  {
+   "year": 1985,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Antenna Array",
+     "problem": "Problem 1\n\nA young radio amateur maintains a radio link with two girls living in two towns. He positions an aerial array such that when the girl living in town A receives a maximum signal, the girl living in town B receives no signal and vice versa. The array is built from two vertical rod aerials transmitting with equal intensities uniformly in all directions in the horizontal plane.\n\na) Find the parameters of the array, i. e. the distance between the rods, its orientation and the phase shift between the electrical signals supplied to the rods, such that the distance between the rods is minimum.\n\nb) Find the numerical solution if the boy has a radio station transmitting at $27\\,\\mathrm{MHz}$ and builds up the aerial array at Portorož. Using the map he has found that the angles between the north and the direction of A (Koper) and of B (small town of Buje in Istria) are $72^\\circ$ and $157^\\circ$, respectively."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Hall Effect",
+     "problem": "Problem 2\n\nIn a long bar having the shape of a rectangular parallelepiped with sides $a$, $b$, and $c$ ($a \\gg b \\gg c$), made from the semiconductor InSb flows a current $I$ parallel to the edge $a$. The bar is in an external magnetic field $B$ which is parallel to the edge $c$. The magnetic field produced by the current $I$ can be neglected. The current carriers are electrons. The average velocity of electrons in a semiconductor in the presence of an electric field only is $v = \\mu E$, where $\\mu$ is called mobility. If the magnetic field is also present, the electric field is no longer parallel to the current. This phenomenon is known as the Hall effect.\n\na) Determine what the magnitude and the direction of the electric field in the bar is, to yield the current described above.\n\nb) Calculate the difference of the electric potential between the opposite points on the surfaces of the bar in the direction of the edge $b$.\n\nc) Find the analytic expression for the DC component of the electric potential difference in case b) if the current and the magnetic field are alternating (AC); $I = I_0 \\sin \\omega t$ and $B = B_0 \\sin(\\omega t + \\delta)$.\n\nd) Design and explain an electric circuit which would make possible, by exploiting the result c), to measure the power consumption of an electric apparatus connected with the AC network.\n\nData: The electron mobility in InSb is $7.8\\,\\mathrm{m^2T/Vs}$, the electron concentration in InSb is $2.5 \\cdot 10^{22}\\,\\mathrm{m^{-3}}$, $I = 1.0\\,\\mathrm{A}$, $B = 0.10\\,\\mathrm{T}$, $b = 1.0\\,\\mathrm{cm}$, $c = 1.0\\,\\mathrm{mm}$, $e_0 = -1.6 \\cdot 10^{-19}\\,\\mathrm{As}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Escaping the Solar System",
+     "problem": "Problem 3\n\nIn a space research project two schemes of launching a space probe out of the Solar system are discussed. The first scheme (i) is to launch the probe with a velocity large enough to escape from the Solar system directly. According to the second one (ii), the probe is to approach one of the outer planets, and with its help change its direction of motion and reach the velocity necessary to escape from the Solar system. Assume that the probe moves under the gravitational field of only the Sun or the planet, depending on whichever field is stronger at that point.\n\na) Determine the minimum velocity and its direction relative to the Earth's motion that should be given to the probe on launching according to scheme (i).\n\nb) Suppose that the probe has been launched in the direction determined in a) but with another velocity. Determine the velocity of the probe when it crosses the orbit of Mars, i. e., its parallel and perpendicular components with respect to this orbit. Mars is not near the point of crossing, when crossing occurs.\n\nc) Let the probe enter the gravitational field of Mars. Find the minimum launching velocity from the Earth necessary for the probe to escape from the Solar system.\n\nHint: From the result a) you know the optimal magnitude and the direction of the velocity of the probe that is necessary to escape from the Solar system after leaving the gravitational field of Mars. (You do not have to worry about the precise position of Mars during the encounter.) Find the relation between this velocity and the velocity components before the probe enters the gravitational field of Mars; i. e., the components you determined in b). What about the conservation of energy of the probe?\n\nd) Estimate the maximum possible fractional saving of energy in scheme (ii) with respect to scheme (i). Notes: Assume that all the planets revolve round the Sun in circles, in the same direction and in the same plane. Neglect the air resistance, the rotation of the Earth around its axis as well as the energy used in escaping from the Earth's gravitational field.\n\nData: Velocity of the Earth round the Sun is $30\\,\\mathrm{km/s}$, and the ratio of the distances of the Earth and Mars from the Sun is $2/3$."
+    }
+   ]
+  },
+  {
    "year": 1986,
    "problems": [
     {

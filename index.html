@@ -1,0 +1,2809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Physics Olympiads Bank – eisatopon.gr</title>
+<meta name="description" content="A searchable archive of physics olympiad problems — the International Physics Olympiad (IPhO) theoretical problems first, then APhO, EuPhO and national physics olympiads — in English with LaTeX, statements only. Build a printable problem set.">
+<meta name="theme-color" content="#0f2a44">
+<link rel="icon" type="image/png" href="assets/eisatopon-logo.png">
+<link rel="apple-touch-icon" href="assets/eisatopon-logo.png">
+<link rel="canonical" href="https://eisatopon.github.io/physics-olympiads-bank/">
+<!-- Link previews (Facebook, X, LinkedIn, Reddit, Viber, WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="eisatopon.gr">
+<meta property="og:title" content="World Physics Olympiads Bank">
+<meta property="og:description" content="Physics olympiad problems from IPhO and other physics olympiads, in English with LaTeX, with figures and data tables. Statements only. Free, searchable, printable.">
+<meta property="og:url" content="https://eisatopon.github.io/physics-olympiads-bank/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="World Physics Olympiads Bank">
+<meta name="twitter:description" content="Physics olympiad problems (IPhO and more), in English with LaTeX. Statements only. Free, searchable, printable.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..800&family=Public+Sans:wght@400;500;600;700;800&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..800&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..800&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+
+<script>
+    document.documentElement.classList.add('booting');
+    setTimeout(() => document.documentElement.classList.remove('booting'), 4000);
+    MathJax = {
+        tex: {
+            inlineMath: [['\\(', '\\)'], ['$', '$']],
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],
+            processEscapes: true
+        },
+        startup: { typeset: false }
+    };
+</script>
+
+<style>
+/* ==========================================================
+   Tokens
+   ========================================================== */
+:root {
+    color-scheme: light;
+
+    --ink: #0f2a44;
+    --ink-deep: #0a1f34;
+    --paper: #f1f4f7;
+    --surface: #ffffff;
+    --text: #16212c;
+    --muted: #55636f;
+    --line: #d4dce3;
+    --line-strong: #a3b2bd;
+    --accent: #e11d26;          /* the red of the eisatopon logo, white text on it */
+    --accent-text: #ff6b6f;     /* the same red, light enough for text on the dark blue */
+    --focus: #1f5fd6;
+
+    --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --sans: 'Public Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
+
+    /* Country -> colour */
+    --gr: #1f5fbf; --gr-ink: #163f82; --gr-tint: #e6eefb;
+    --ar: #0b8fae; --ar-ink: #0a5b70; --ar-tint: #e0f4f8;
+    --cn: #c62828; --cn-ink: #8f1c1c; --cn-tint: #fbe3e3;
+    --az: #2e7d32; --az-ink: #1f5723; --az-tint: #e3f2e4;
+    --sg: #b8590f; --sg-ink: #7c3c09; --sg-tint: #fbeadb;
+    --us: #5b3fa0; --us-ink: #3f2b70; --us-tint: #ece6f7;
+    --uk1: #ad1457; --uk1-ink: #780e3c; --uk1-tint: #fbe4ee;
+    --uk2: #6d4c41; --uk2-ink: #4a332c; --uk2-tint: #f1e8e4;
+    --ca: #d84315; --ca-ink: #9a2f0e; --ca-tint: #fde9e2;
+    --ie: #2e7d32; --ie-ink: #1b5e20; --ie-tint: #e3f1e4;
+    --in: #00838f; --in-ink: #005662; --in-tint: #e0f4f5;
+    --kr: #283593; --kr-ink: #1a237e; --kr-tint: #e8eaf6;
+    --kf: #37474f; --kf-ink: #263238; --kf-tint: #eceff1;
+    --id: #827717; --id-ink: #524c00; --id-tint: #f4f3dc;
+    --br: #558b2f; --br-ink: #33691e; --br-tint: #eef5e6;
+    --mx: #00695c; --mx-ink: #004d40; --mx-tint: #e0f2f1;
+    --vn: #c79100; --vn-ink: #6d4c00; --vn-tint: #fff8e1;
+    --jp: #8e24aa; --jp-ink: #4a148c; --jp-tint: #f3e5f5;
+    --it: #0277bd; --it-ink: #01579b; --it-tint: #e1f5fe;
+    --ph: #f4511e; --ph-ink: #bf360c; --ph-tint: #fbe9e7;
+    --tr: #d81b60; --tr-ink: #880e4f; --tr-tint: #fce4ec;
+    --ru: #1565c0; --ru-ink: #0d47a1; --ru-tint: #e3f2fd;
+    --pl: #c2185b; --pl-ink: #880e4f; --pl-tint: #fce4ec;
+    --es: #ef6c00; --es-ink: #a84300; --es-tint: #fff0e0;
+    --at: #b71c1c; --at-ink: #7f0000; --at-tint: #fdecea;
+    --cz: #3949ab; --cz-ink: #1f2a6b; --cz-tint: #e9ebf8;
+    --ut: #455a64; --ut-ink: #263238; --ut-tint: #eceff1;
+    --rs: #6a1b9a; --rs-ink: #4a148c; --rs-tint: #f3e5f5;
+    --rst: #9c27b0; --rst-ink: #6a1b9a; --rst-tint: #f6e8f8;
+    --hr: #1e88e5; --hr-ink: #0d47a1; --hr-tint: #e3f0fc;
+    --hrt: #3f51b5; --hrt-ink: #283593; --hrt-tint: #e8eaf8;
+    --no: #00897b; --no-ink: #00574f; --no-tint: #e0f2ef;
+    --ukt: #5d4037; --ukt-ink: #3e2723; --ukt-tint: #efebe9;
+    --nl: #ff6f00; --nl-ink: #b34700; --nl-tint: #fff3e0;
+    --nlt: #ffa000; --nlt-ink: #b36b00; --nlt-tint: #fff7e0;
+    --ch: #e53935; --ch-ink: #9b1c1c; --ch-tint: #fdeaea;
+    --cht: #ef5350; --cht-ink: #a32f2d; --cht-tint: #fdeeee;
+    --de: #424242; --de-ink: #212121; --de-tint: #eeeeee;
+    --dem: #616161; --dem-ink: #303030; --dem-tint: #f2f2f2;
+    --hk: #ec407a; --hk-ink: #a3134d; --hk-tint: #fdebf2;
+    --hkt: #f06292; --hkt-ink: #a8325b; --hkt-tint: #fdeef4;
+    --ro: #fbc02d; --ro-ink: #8a6400; --ro-tint: #fff8e1;
+    --rot: #f9a825; --rot-ink: #7a5500; --rot-tint: #fff6dc;
+    --lt: #43a047; --lt-ink: #1b5e20; --lt-tint: #e8f5e9;
+    --ltt: #66bb6a; --ltt-ink: #2e6b31; --ltt-tint: #edf7ee;
+    --si: #29b6f6; --si-ink: #01579b; --si-tint: #e1f5fe;
+    --lv: #8e2430; --lv-ink: #5e1820; --lv-tint: #f7e9eb;
+    --eet: #0072ce; --eet-ink: #004b87; --eet-tint: #e5f1fb;
+    --pt: #2e7d32; --pt-ink: #1b4d1e; --pt-tint: #e8f3e8;
+    --dk: #c8102e; --dk-ink: #8a0b20; --dk-tint: #fbe7ea;
+    --fi: #1a5fb4; --fi-ink: #103d75; --fi-tint: #e6eef8;
+    --is: #02529c; --is-ink: #013566; --is-tint: #e5eef6;
+    --frt: #0055a4; --frt-ink: #003a70; --frt-tint: #e5eef7;
+    --cyt: #d57800; --cyt-ink: #8f5000; --cyt-tint: #fdf1e1;
+    --um: #c62828; --um-ink: #8e0000; --um-tint: #fde7e7;
+    --hu: #7a8f00; --hu-ink: #4d5a00; --hu-tint: #f3f6dc;
+    --au: #0a7d6e; --au-ink: #055046; --au-tint: #dff3ef;
+    --nz: #3a3a8c; --nz-ink: #25255c; --nz-tint: #e8e8f6;
+    --mk: #b5651d; --mk-ink: #7a4210; --mk-tint: #f8ebdf;
+    --ua: #2d6fb5; --ua-ink: #1b4a7a; --ua-tint: #e3eef9;
+    --bg: #00966e; --bg-ink: #005c43; --bg-tint: #dcf3ec;
+    --kz: #00a3c4; --kz-ink: #006a80; --kz-tint: #dcf4f9;
+    --ee: #4891d9; --ee-ink: #2b5e94; --ee-tint: #e6f0fb;
+    --huo: #a0522d; --huo-ink: #6b3519; --huo-tint: #f6e9e1;
+    --cl: #745a9c; --cl-ink: #483267; --cl-tint: #f0eaf7;
+    --uy: #247d86; --uy-ink: #135860; --uy-tint: #e1f2f3;
+    --clf: #9c493e; --clf-ink: #713329; --clf-tint: #fbefec;
+    --gra: #0d5eaf; --gra-ink: #083f78; --gra-tint: #e7f0fa;
+    --su: #a3262a; --su-ink: #741a1d; --su-tint: #fbeaea;
+    --thst: #267f88; --thst-ink: #185d65; --thst-tint: #e8f5f6;
+    --tht: #647942; --tht-ink: #43582a; --tht-tint: #eff4e8;
+    --th: #75449a; --th-ink: #502573; --th-tint: #f1e9f7;
+    --itt: #697a21; --itt-ink: #445313; --itt-tint: #eef2de;
+    --se: #247ba0; --se-ink: #135570; --se-tint: #e1f1f8;
+    --be: #996515; --be-ink: #684207; --be-tint: #faf0d9;
+    --irt: #1f7a5c; --irt-ink: #11523c; --irt-tint: #e0f2ea;
+    --tw: #b5123a; --tw-ink: #7c0c27; --tw-tint: #fae3e9;
+    --il: #2b5fa8; --il-ink: #1b3f73; --il-tint: #e3ecf8;
+    --ilg: #326e92; --ilg-ink: #204961; --ilg-tint: #e8f1f6;
+    --cy: #bc761a; --cy-ink: #7a4b0d; --cy-tint: #fcf2e3;
+    --ilt: #51729d; --ilt-ink: #334b6e; --ilt-tint: #edf1f8;
+    --by: #3a7d44; --by-ink: #24542c; --by-tint: #e4f1e6;
+    --za: #d4a017; --za-ink: #8a6608; --za-tint: #fbf1d3;
+    --cnt: #9e1b32; --cnt-ink: #5e0f1d; --cnt-tint: #f9e6e9;
+    --vnt: #b8860b; --vnt-ink: #6b4e06; --vnt-tint: #fbf3dc;
+    --int: #e07b00; --int-ink: #7a4300; --int-tint: #fdf0de;
+    --uat: #2b6cb0; --uat-ink: #163a63; --uat-tint: #e3eefa;
+    --bgt: #2f855a; --bgt-ink: #1a4a32; --bgt-tint: #e2f3ea;
+    --ba: #002395; --ba-ink: #001452; --ba-tint: #e0e6f7;
+    --pe: #d91023; --pe-ink: #7a0914; --pe-tint: #fbe3e6;
+    --md: #0046ae; --md-ink: #00337f; --md-tint: #e6edf8;
+    --xk: #244aa5; --xk-ink: #1a3577; --xk-tint: #e8edf8;
+    --ec: #e0a800; --ec-ink: #7a5c00; --ec-tint: #fdf6dc;
+    --cr: #5b3fa8; --cr-ink: #3f2b75; --cr-tint: #efeaf8;
+    --al: #a3182b; --al-ink: #6f101d; --al-tint: #fae8ea;
+    --bd: #1b7a4c; --bd-ink: #125234; --bd-tint: #e6f4ec;
+    --bmo: #5c2d91; --bmo-ink: #3e1e63; --bmo-tint: #f0e9f7;
+    --jbmo: #9c4dcc; --jbmo-ink: #5e2b7d; --jbmo-tint: #f6ecfb;
+    --imo: #a67c00; --imo-ink: #6b5000; --imo-tint: #fbf3dc;
+    --egmo: #b0306a; --egmo-ink: #7a1f48; --egmo-tint: #fbe6ef;
+    --isl: #2f6f8f; --isl-ink: #1d4a60; --isl-tint: #e3f0f6;
+    --apmo: #0f7c8c; --apmo-ink: #0a5560; --apmo-tint: #e2f4f6;
+    --bw: #2e6fb5; --bw-ink: #1d4a7a; --bw-tint: #e3eef9;
+    --memo: #7b4fa0; --memo-ink: #52346b; --memo-tint: #f0e8f7;
+    --srmc: #98652b; --srmc-ink: #5c3c18; --srmc-tint: #f6ecdc;
+    --mat: #587c39; --mat-ink: #354d21; --mat-tint: #eef4e7;
+    --kg: #aa543f; --kg-ink: #783b2d; --kg-tint: #f8e9e4;
+    --py: #426783; --py-ink: #23445e; --py-tint: #e7f0f6;
+    --my: #916323; --my-ink: #5d3f15; --my-tint: #f7eedf;
+    --pamo: #32754e; --pamo-ink: #19492d; --pamo-tint: #e3f1e8;
+    --hmmt: #8b3440; --hmmt-ink: #5b2028; --hmmt-tint: #f6e6e9;
+    --kgj: #ac6030; --kgj-ink: #6f3b18; --kgj-tint: #f8ece1;
+    --kgs: #6e568b; --kgs-ink: #483661; --kgs-tint: #efe9f6;
+    --bx: #1f6f8b; --bx-ink: #134657; --bx-tint: #e3f1f6;
+    --nmc: #3b7d4f; --nmc-ink: #255232; --nmc-tint: #e5f2e8;
+    --oim: #b5532e; --oim-ink: #7a3519; --oim-tint: #f8e9e2;
+    --cono: #2f7d8c; --cono-ink: #1d525c; --cono-tint: #e2f2f5;
+    --omcc: #8a6d1f; --omcc-ink: #5c4813; --omcc-tint: #f6efdc;
+    --cps: #8c3b5e; --cps-ink: #5e2740; --cps-tint: #f6e6ed;
+    --cpsj: #3d6e3a; --cpsj-ink: #284a26; --cpsj-tint: #e6f1e4;
+    --put: #7a2e2e; --put-ink: #521f1f; --put-tint: #f5e4e4;
+    --imc: #2c5f8a; --imc-ink: #1d3f5c; --imc-tint: #e2edf6;
+    --smmc: #5a7d2b; --smmc-ink: #3c541d; --smmc-tint: #ebf2df;
+    --vjimc: #6a4c93; --vjimc-ink: #463263; --vjimc-tint: #ede6f5;
+    --seemous: #1f7a7a; --seemous-ink: #145252; --seemous-tint: #ddf0f0;
+    --schw: #8a5a1f; --schw-ink: #5c3c14; --schw-tint: #f5ebdc;
+    --vtrmc: #7d1f4f; --vtrmc-ink: #541535; --vtrmc-tint: #f5e0eb;
+    --aime: #1f4e8c; --aime-ink: #14335c; --aime-tint: #e1eaf6;
+    --amc12: #2a6f97; --amc12-ink: #1b4a66; --amc12-tint: #e2eff6;
+    --amc10: #3d7f6e; --amc10-ink: #28564a; --amc10-tint: #e3f1ec;
+    --ahsme: #6b5a8e; --ahsme-ink: #463b5e; --ahsme-tint: #ece8f3;
+    --amc8: #4f7d3a; --amc8-ink: #345226; --amc8-tint: #e7f0e1;
+    --kgca: #9a5a2c; --kgca-ink: #643a1c; --kgca-tint: #f6eadf;
+    --kgbe: #b7791f; --kgbe-ink: #7a5014; --kgbe-tint: #f8eedd;
+    --kgec: #5f8a3a; --kgec-ink: #3e5c25; --kgec-tint: #e9f1e1;
+    --kgpe: #7a6aa8; --kgpe-ink: #504473; --kgpe-tint: #ece8f5;
+    --ujm: #3d5a99; --ujm-ink: #263b66; --ujm-tint: #e6ecf7;
+    --elmo: #8a4fbf; --elmo-ink: #5c3380; --elmo-tint: #f1e8f8;
+    --usemo: #c0663a; --usemo-ink: #7f4025; --usemo-tint: #f9ebe3;
+    --rmm: #1f7a6b; --rmm-ink: #14524a; --rmm-tint: #e0f2ee;
+    --izho: #7a6a1f; --izho-ink: #524714; --izho-tint: #f3efdc;
+    --ir2: #2e8b57; --ir2-ink: #1d5c39; --ir2-tint: #e3f3ea;
+    --ir3: #8b5e2e; --ir3-ink: #5c3d1d; --ir3-tint: #f5ece2;
+    --trt: #a33a3a; --trt-ink: #6e2626; --trt-tint: #f7e4e4;
+    --cmo: #3a6ea5; --cmo-ink: #244a70; --cmo-tint: #e4edf6;
+    --shg: #7d4c93; --shg-ink: #523163; --shg-tint: #f1e7f6;
+    --cgmo: #b5473a; --cgmo-ink: #7a2f27; --cgmo-tint: #f8e6e3;
+    --cwmo: #8f3a5c; --cwmo-ink: #5f263d; --cwmo-tint: #f5e4eb;
+    --csmo: #5c8f3a; --csmo-ink: #3d5f26; --csmo-tint: #e9f3e2;
+    --cn2: #3a5c8f; --cn2-ink: #263d5f; --cn2-tint: #e2e9f3;
+    --tot: #4f6b2a; --tot-ink: #34471c; --tot-tint: #ebf1e3;
+    --inr: #c27c0e; --inr-ink: #815309; --inr-tint: #fbf0dd;
+    --sat: #0f766e; --sat-ink: #0a4f4a; --sat-tint: #ddf3f0;
+    --brt: #047857; --brt-ink: #03543d; --brt-tint: #d9f2e8;
+    --obmu: #b45309; --obmu-ink: #7a3906; --obmu-tint: #fbecd9;
+    --ciim: #be185d; --ciim-ink: #7f1040; --ciim-tint: #fbe3ef;
+    --med: #1d4ed8; --med-ink: #14328f; --med-tint: #e0e8fb;
+    --emc: #7c3aed; --emc-ink: #521fa8; --emc-tint: #eee5fd;
+    --tuy: #0e7490; --tuy-ink: #09505f; --tuy-tint: #dcf1f6;
+    --igo: #a16207; --igo-ink: #6d4404; --igo-tint: #fbf0d6;
+    --hmmti: #9f1239; --hmmti-ink: #6b0c27; --hmmti-tint: #fde4ea;
+    --mn: #4d7c0f; --mn-ink: #335209; --mn-tint: #e8f3d9;
+    --pr: #c2410c; --pr-ink: #832b08; --pr-tint: #fde6da;
+    --uz: #0369a1; --uz-ink: #02466b; --uz-tint: #dcedf8;
+    --caq: #9a3412; --caq-ink: #66220b; --caq-tint: #fbe7dc;
+    --det: #334155; --det-ink: #1e2733; --det-tint: #e5e9ef;
+    --pumac: #4338ca; --pumac-ink: #2c2385; --pumac-tint: #e6e5fb;
+    --arml: #0f4c81; --arml-ink: #0a3256; --arml-tint: #dde9f5;
+    --hmmtg: #be123c; --hmmtg-ink: #7f0c28; --hmmtg-tint: #fde3e9;
+    --hmmtn: #15803d; --hmmtn-ink: #0e5228; --hmmtn-tint: #dcf3e4;
+    --twt: #7e22ce; --twt-ink: #541689; --twt-tint: #f1e4fb;
+    --ofm: #0891b2; --ofm-ink: #065b70; --ofm-tint: #dcf2f7;
+    --rio: #65a30d; --rio-ink: #416a08; --rio-tint: #e9f5da;
+    --ro12: #b91c1c; --ro12-ink: #7a1212; --ro12-tint: #fbe1e1;
+    --ro11: #a21caf; --ro11-ink: #6b1374; --ro11-tint: #f7e2f9;
+    --ro9: #0d9488; --ro9-ink: #085e57; --ro9-tint: #daf3f0;
+    --rur: #57534e; --rur-ink: #3a3734; --rur-tint: #ecebea;
+    --inq: #c026d3; --inq-ink: #7e1a8a; --inq-tint: #f8e3fb;
+    --jpp: #854d0e; --jpp-ink: #583308; --jpp-tint: #f8eedb;
+    --grj: #4c1d95; --grj-ink: #321363; --grj-tint: #ede5fb;
+    --rum: #be4b0b; --rum-ink: #7e3207; --rum-tint: #fce7da;
+    --usamts: #0e7c86; --usamts-ink: #095259; --usamts-tint: #dcf3f5;
+    --bamo: #9333ea; --bamo-ink: #611f9b; --bamo-tint: #f2e7fd;
+    --mpg: #db2777; --mpg-ink: #91194e; --mpg-tint: #fde4ef;
+    --iom: #64748b; --iom-ink: #424d5c; --iom-tint: #e9edf2;
+    --shgc: #475569; --shgc-ink: #2f3946; --shgc-tint: #e5e9ee;
+    --rus: #b45f06; --rus-ink: #783f04; --rus-tint: #fbecd9;
+    --cplp: #7c3a2d; --cplp-ink: #5a2519; --cplp-tint: #f6e7e3;
+    --cmimc: #8a3b12; --cmimc-ink: #5e270b; --cmimc-tint: #f7e9e1;
+    --smt: #3d5a80; --smt-ink: #263a54; --smt-tint: #e5ecf4;
+    --bmt: #6b2d5c; --bmt-ink: #48193d; --bmt-tint: #f3e6ef;
+    --icmc: #2f6f4f; --icmc-ink: #1d4a34; --icmc-tint: #e3f1ea;
+    --mitib: #9a6b00; --mitib-ink: #664700; --mitib-tint: #f8efd9;
+    --igoi: #4a6b1f; --igoi-ink: #2f4512; --igoi-tint: #ebf2df;
+    --igoe: #7a5c1f; --igoe-ink: #513c12; --igoe-tint: #f3ecdc;
+    --stars: #1f4f7a; --stars-ink: #123352; --stars-tint: #e0eaf4;
+    --omo: #5b4a8a; --omo-ink: #3b2f5c; --omo-tint: #ece8f5;
+    --duke: #00539b; --duke-ink: #003566; --duke-tint: #dde9f5;
+    --bmosl: #4b6584; --bmosl-ink: #2f4157; --bmosl-tint: #e6ecf3;
+    --jbmosl: #7a6a4b; --jbmosl-ink: #514630; --jbmosl-tint: #f2ede3;
+    --mayo: #2a7a8c; --mayo-ink: #1a4f5c; --mayo-tint: #e0f0f3;
+    --am: #c2410c; --am-ink: #7c2d12; --am-tint: #fbe7dc;
+    --ge: #b91c1c; --ge-ink: #7f1d1d; --ge-tint: #fbe4e4;
+    --me: #a16207; --me-ink: #6b4105; --me-tint: #f8efd6;
+    --ve: #ca8a04; --ve-ink: #7a5303; --ve-tint: #faf0d3;
+    --ukf: #1e3a8a; --ukf-ink: #132559; --ukf-tint: #e1e7f7;
+    --ukg: #9d174d; --ukg-ink: #650f32; --ukg-tint: #f9e1ec;
+    --uka: #475569; --uka-ink: #2c3542; --uka-tint: #e5e9ee;
+    --iowa: #3f6212; --iowa-ink: #283e0b; --iowa-tint: #eaf2dc;
+    --utor: #1e40af; --utor-ink: #132a70; --utor-tint: #e1e8f8;
+    --irlu: #15803d; --irlu-ink: #0d5228; --irlu-tint: #def3e5;
+    --umd: #b45309; --umd-ink: #7a3906; --umd-tint: #fbecd9;
+    --fou: #0f766e; --fou-ink: #0a4d48; --fou-tint: #dbf1ee;
+    --apmc: #7c2d12; --apmc-ink: #521d0b; --apmc-tint: #f6e6df;
+    --hue: #57534e; --hue-ink: #3a3734; --hue-tint: #ecebe9;
+    --plr2: #be123c; --plr2-ink: #7f0c28; --plr2-tint: #fbe3e9;
+    --rug9: #9f1239; --rug9-ink: #6a0c26; --rug9-tint: #fae1e8;
+    --rug10: #881337; --rug10-ink: #5b0d25; --rug10-tint: #f8e0e7;
+    --debw1: #3f3f46; --debw1-ink: #27272a; --debw1-tint: #e8e8ea;
+    --itf: #047857; --itf-ink: #03543c; --itf-tint: #dcf3ea;
+}
+.f-gr { --f: var(--gr); --f-ink: var(--gr-ink); --f-tint: var(--gr-tint); }
+.f-ar { --f: var(--ar); --f-ink: var(--ar-ink); --f-tint: var(--ar-tint); }
+.f-cn { --f: var(--cn); --f-ink: var(--cn-ink); --f-tint: var(--cn-tint); }
+.f-az { --f: var(--az); --f-ink: var(--az-ink); --f-tint: var(--az-tint); }
+.f-sg { --f: var(--sg); --f-ink: var(--sg-ink); --f-tint: var(--sg-tint); }
+.f-us { --f: var(--us); --f-ink: var(--us-ink); --f-tint: var(--us-tint); }
+.f-uk1 { --f: var(--uk1); --f-ink: var(--uk1-ink); --f-tint: var(--uk1-tint); }
+.f-uk2 { --f: var(--uk2); --f-ink: var(--uk2-ink); --f-tint: var(--uk2-tint); }
+.f-ca { --f: var(--ca); --f-ink: var(--ca-ink); --f-tint: var(--ca-tint); }
+.f-ie { --f: var(--ie); --f-ink: var(--ie-ink); --f-tint: var(--ie-tint); }
+.f-in { --f: var(--in); --f-ink: var(--in-ink); --f-tint: var(--in-tint); }
+.f-kr { --f: var(--kr); --f-ink: var(--kr-ink); --f-tint: var(--kr-tint); }
+.f-kf { --f: var(--kf); --f-ink: var(--kf-ink); --f-tint: var(--kf-tint); }
+.f-id { --f: var(--id); --f-ink: var(--id-ink); --f-tint: var(--id-tint); }
+.f-br { --f: var(--br); --f-ink: var(--br-ink); --f-tint: var(--br-tint); }
+.f-mx { --f: var(--mx); --f-ink: var(--mx-ink); --f-tint: var(--mx-tint); }
+.f-vn { --f: var(--vn); --f-ink: var(--vn-ink); --f-tint: var(--vn-tint); }
+.f-jp { --f: var(--jp); --f-ink: var(--jp-ink); --f-tint: var(--jp-tint); }
+.f-it { --f: var(--it); --f-ink: var(--it-ink); --f-tint: var(--it-tint); }
+.f-ph { --f: var(--ph); --f-ink: var(--ph-ink); --f-tint: var(--ph-tint); }
+.f-tr { --f: var(--tr); --f-ink: var(--tr-ink); --f-tint: var(--tr-tint); }
+.f-ru { --f: var(--ru); --f-ink: var(--ru-ink); --f-tint: var(--ru-tint); }
+.f-pl { --f: var(--pl); --f-ink: var(--pl-ink); --f-tint: var(--pl-tint); }
+.f-es { --f: var(--es); --f-ink: var(--es-ink); --f-tint: var(--es-tint); }
+.f-at { --f: var(--at); --f-ink: var(--at-ink); --f-tint: var(--at-tint); }
+.f-cz { --f: var(--cz); --f-ink: var(--cz-ink); --f-tint: var(--cz-tint); }
+.f-ut { --f: var(--ut); --f-ink: var(--ut-ink); --f-tint: var(--ut-tint); }
+.f-rs { --f: var(--rs); --f-ink: var(--rs-ink); --f-tint: var(--rs-tint); }
+.f-rst { --f: var(--rst); --f-ink: var(--rst-ink); --f-tint: var(--rst-tint); }
+.f-hr { --f: var(--hr); --f-ink: var(--hr-ink); --f-tint: var(--hr-tint); }
+.f-hrt { --f: var(--hrt); --f-ink: var(--hrt-ink); --f-tint: var(--hrt-tint); }
+.f-no { --f: var(--no); --f-ink: var(--no-ink); --f-tint: var(--no-tint); }
+.f-ukt { --f: var(--ukt); --f-ink: var(--ukt-ink); --f-tint: var(--ukt-tint); }
+.f-nl { --f: var(--nl); --f-ink: var(--nl-ink); --f-tint: var(--nl-tint); }
+.f-nlt { --f: var(--nlt); --f-ink: var(--nlt-ink); --f-tint: var(--nlt-tint); }
+.f-ch { --f: var(--ch); --f-ink: var(--ch-ink); --f-tint: var(--ch-tint); }
+.f-cht { --f: var(--cht); --f-ink: var(--cht-ink); --f-tint: var(--cht-tint); }
+.f-de { --f: var(--de); --f-ink: var(--de-ink); --f-tint: var(--de-tint); }
+.f-dem { --f: var(--dem); --f-ink: var(--dem-ink); --f-tint: var(--dem-tint); }
+.f-hk { --f: var(--hk); --f-ink: var(--hk-ink); --f-tint: var(--hk-tint); }
+.f-hkt { --f: var(--hkt); --f-ink: var(--hkt-ink); --f-tint: var(--hkt-tint); }
+.f-ro { --f: var(--ro); --f-ink: var(--ro-ink); --f-tint: var(--ro-tint); }
+.f-rot { --f: var(--rot); --f-ink: var(--rot-ink); --f-tint: var(--rot-tint); }
+.f-lt { --f: var(--lt); --f-ink: var(--lt-ink); --f-tint: var(--lt-tint); }
+.f-ltt { --f: var(--ltt); --f-ink: var(--ltt-ink); --f-tint: var(--ltt-tint); }
+.f-si { --f: var(--si); --f-ink: var(--si-ink); --f-tint: var(--si-tint); }
+.f-lv { --f: var(--lv); --f-ink: var(--lv-ink); --f-tint: var(--lv-tint); }
+.f-eet { --f: var(--eet); --f-ink: var(--eet-ink); --f-tint: var(--eet-tint); }
+.f-pt { --f: var(--pt); --f-ink: var(--pt-ink); --f-tint: var(--pt-tint); }
+.f-dk { --f: var(--dk); --f-ink: var(--dk-ink); --f-tint: var(--dk-tint); }
+.f-fi { --f: var(--fi); --f-ink: var(--fi-ink); --f-tint: var(--fi-tint); }
+.f-is { --f: var(--is); --f-ink: var(--is-ink); --f-tint: var(--is-tint); }
+.f-frt { --f: var(--frt); --f-ink: var(--frt-ink); --f-tint: var(--frt-tint); }
+.f-cyt { --f: var(--cyt); --f-ink: var(--cyt-ink); --f-tint: var(--cyt-tint); }
+.f-um { --f: var(--um); --f-ink: var(--um-ink); --f-tint: var(--um-tint); }
+.f-hu { --f: var(--hu); --f-ink: var(--hu-ink); --f-tint: var(--hu-tint); }
+.f-au { --f: var(--au); --f-ink: var(--au-ink); --f-tint: var(--au-tint); }
+.f-nz { --f: var(--nz); --f-ink: var(--nz-ink); --f-tint: var(--nz-tint); }
+.f-mk { --f: var(--mk); --f-ink: var(--mk-ink); --f-tint: var(--mk-tint); }
+.f-ua { --f: var(--ua); --f-ink: var(--ua-ink); --f-tint: var(--ua-tint); }
+.f-bg { --f: var(--bg); --f-ink: var(--bg-ink); --f-tint: var(--bg-tint); }
+.f-kz { --f: var(--kz); --f-ink: var(--kz-ink); --f-tint: var(--kz-tint); }
+.f-ee { --f: var(--ee); --f-ink: var(--ee-ink); --f-tint: var(--ee-tint); }
+.f-huo { --f: var(--huo); --f-ink: var(--huo-ink); --f-tint: var(--huo-tint); }
+.f-cl { --f: var(--cl); --f-ink: var(--cl-ink); --f-tint: var(--cl-tint); }
+.f-uy { --f: var(--uy); --f-ink: var(--uy-ink); --f-tint: var(--uy-tint); }
+.f-clf { --f: var(--clf); --f-ink: var(--clf-ink); --f-tint: var(--clf-tint); }
+.f-gra { --f: var(--gra); --f-ink: var(--gra-ink); --f-tint: var(--gra-tint); }
+.f-su { --f: var(--su); --f-ink: var(--su-ink); --f-tint: var(--su-tint); }
+.f-thst { --f: var(--thst); --f-ink: var(--thst-ink); --f-tint: var(--thst-tint); }
+.f-tht { --f: var(--tht); --f-ink: var(--tht-ink); --f-tint: var(--tht-tint); }
+.f-th { --f: var(--th); --f-ink: var(--th-ink); --f-tint: var(--th-tint); }
+.f-itt { --f: var(--itt); --f-ink: var(--itt-ink); --f-tint: var(--itt-tint); }
+.f-se { --f: var(--se); --f-ink: var(--se-ink); --f-tint: var(--se-tint); }
+.f-be { --f: var(--be); --f-ink: var(--be-ink); --f-tint: var(--be-tint); }
+.f-irt { --f: var(--irt); --f-ink: var(--irt-ink); --f-tint: var(--irt-tint); }
+.f-tw { --f: var(--tw); --f-ink: var(--tw-ink); --f-tint: var(--tw-tint); }
+.f-il { --f: var(--il); --f-ink: var(--il-ink); --f-tint: var(--il-tint); }
+.f-ilg { --f: var(--ilg); --f-ink: var(--ilg-ink); --f-tint: var(--ilg-tint); }
+.f-cy { --f: var(--cy); --f-ink: var(--cy-ink); --f-tint: var(--cy-tint); }
+.f-ilt { --f: var(--ilt); --f-ink: var(--ilt-ink); --f-tint: var(--ilt-tint); }
+.f-by { --f: var(--by); --f-ink: var(--by-ink); --f-tint: var(--by-tint); }
+.f-za { --f: var(--za); --f-ink: var(--za-ink); --f-tint: var(--za-tint); }
+.f-cnt { --f: var(--cnt); --f-ink: var(--cnt-ink); --f-tint: var(--cnt-tint); }
+.f-vnt { --f: var(--vnt); --f-ink: var(--vnt-ink); --f-tint: var(--vnt-tint); }
+.f-int { --f: var(--int); --f-ink: var(--int-ink); --f-tint: var(--int-tint); }
+.f-uat { --f: var(--uat); --f-ink: var(--uat-ink); --f-tint: var(--uat-tint); }
+.f-bgt { --f: var(--bgt); --f-ink: var(--bgt-ink); --f-tint: var(--bgt-tint); }
+.f-ba { --f: var(--ba); --f-ink: var(--ba-ink); --f-tint: var(--ba-tint); }
+.f-pe { --f: var(--pe); --f-ink: var(--pe-ink); --f-tint: var(--pe-tint); }
+.f-md { --f: var(--md); --f-ink: var(--md-ink); --f-tint: var(--md-tint); }
+.f-xk { --f: var(--xk); --f-ink: var(--xk-ink); --f-tint: var(--xk-tint); }
+.f-ec { --f: var(--ec); --f-ink: var(--ec-ink); --f-tint: var(--ec-tint); }
+.f-cr { --f: var(--cr); --f-ink: var(--cr-ink); --f-tint: var(--cr-tint); }
+.f-al { --f: var(--al); --f-ink: var(--al-ink); --f-tint: var(--al-tint); }
+.f-bd { --f: var(--bd); --f-ink: var(--bd-ink); --f-tint: var(--bd-tint); }
+.f-bmo { --f: var(--bmo); --f-ink: var(--bmo-ink); --f-tint: var(--bmo-tint); }
+.f-jbmo { --f: var(--jbmo); --f-ink: var(--jbmo-ink); --f-tint: var(--jbmo-tint); }
+.f-imo { --f: var(--imo); --f-ink: var(--imo-ink); --f-tint: var(--imo-tint); }
+.f-egmo { --f: var(--egmo); --f-ink: var(--egmo-ink); --f-tint: var(--egmo-tint); }
+.f-isl { --f: var(--isl); --f-ink: var(--isl-ink); --f-tint: var(--isl-tint); }
+.f-apmo { --f: var(--apmo); --f-ink: var(--apmo-ink); --f-tint: var(--apmo-tint); }
+.f-bw { --f: var(--bw); --f-ink: var(--bw-ink); --f-tint: var(--bw-tint); }
+.f-memo { --f: var(--memo); --f-ink: var(--memo-ink); --f-tint: var(--memo-tint); }
+.f-srmc { --f: var(--srmc); --f-ink: var(--srmc-ink); --f-tint: var(--srmc-tint); }
+.f-mat { --f: var(--mat); --f-ink: var(--mat-ink); --f-tint: var(--mat-tint); }
+.f-kg { --f: var(--kg); --f-ink: var(--kg-ink); --f-tint: var(--kg-tint); }
+.f-py { --f: var(--py); --f-ink: var(--py-ink); --f-tint: var(--py-tint); }
+.f-my { --f: var(--my); --f-ink: var(--my-ink); --f-tint: var(--my-tint); }
+.f-pamo { --f: var(--pamo); --f-ink: var(--pamo-ink); --f-tint: var(--pamo-tint); }
+.f-hmmt { --f: var(--hmmt); --f-ink: var(--hmmt-ink); --f-tint: var(--hmmt-tint); }
+.f-kgj { --f: var(--kgj); --f-ink: var(--kgj-ink); --f-tint: var(--kgj-tint); }
+.f-kgs { --f: var(--kgs); --f-ink: var(--kgs-ink); --f-tint: var(--kgs-tint); }
+.f-bx { --f: var(--bx); --f-ink: var(--bx-ink); --f-tint: var(--bx-tint); }
+.f-nmc { --f: var(--nmc); --f-ink: var(--nmc-ink); --f-tint: var(--nmc-tint); }
+.f-oim { --f: var(--oim); --f-ink: var(--oim-ink); --f-tint: var(--oim-tint); }
+.f-cono { --f: var(--cono); --f-ink: var(--cono-ink); --f-tint: var(--cono-tint); }
+.f-omcc { --f: var(--omcc); --f-ink: var(--omcc-ink); --f-tint: var(--omcc-tint); }
+.f-cps { --f: var(--cps); --f-ink: var(--cps-ink); --f-tint: var(--cps-tint); }
+.f-cpsj { --f: var(--cpsj); --f-ink: var(--cpsj-ink); --f-tint: var(--cpsj-tint); }
+.f-put { --f: var(--put); --f-ink: var(--put-ink); --f-tint: var(--put-tint); }
+.f-imc { --f: var(--imc); --f-ink: var(--imc-ink); --f-tint: var(--imc-tint); }
+.f-smmc { --f: var(--smmc); --f-ink: var(--smmc-ink); --f-tint: var(--smmc-tint); }
+.f-vjimc { --f: var(--vjimc); --f-ink: var(--vjimc-ink); --f-tint: var(--vjimc-tint); }
+.f-seemous { --f: var(--seemous); --f-ink: var(--seemous-ink); --f-tint: var(--seemous-tint); }
+.f-schw { --f: var(--schw); --f-ink: var(--schw-ink); --f-tint: var(--schw-tint); }
+.f-vtrmc { --f: var(--vtrmc); --f-ink: var(--vtrmc-ink); --f-tint: var(--vtrmc-tint); }
+.f-aime { --f: var(--aime); --f-ink: var(--aime-ink); --f-tint: var(--aime-tint); }
+.f-amc12 { --f: var(--amc12); --f-ink: var(--amc12-ink); --f-tint: var(--amc12-tint); }
+.f-amc10 { --f: var(--amc10); --f-ink: var(--amc10-ink); --f-tint: var(--amc10-tint); }
+.f-ahsme { --f: var(--ahsme); --f-ink: var(--ahsme-ink); --f-tint: var(--ahsme-tint); }
+.f-amc8 { --f: var(--amc8); --f-ink: var(--amc8-ink); --f-tint: var(--amc8-tint); }
+.f-kgca { --f: var(--kgca); --f-ink: var(--kgca-ink); --f-tint: var(--kgca-tint); }
+.f-kgbe { --f: var(--kgbe); --f-ink: var(--kgbe-ink); --f-tint: var(--kgbe-tint); }
+.f-kgec { --f: var(--kgec); --f-ink: var(--kgec-ink); --f-tint: var(--kgec-tint); }
+.f-kgpe { --f: var(--kgpe); --f-ink: var(--kgpe-ink); --f-tint: var(--kgpe-tint); }
+.f-ujm { --f: var(--ujm); --f-ink: var(--ujm-ink); --f-tint: var(--ujm-tint); }
+.f-elmo { --f: var(--elmo); --f-ink: var(--elmo-ink); --f-tint: var(--elmo-tint); }
+.f-usemo { --f: var(--usemo); --f-ink: var(--usemo-ink); --f-tint: var(--usemo-tint); }
+.f-rmm { --f: var(--rmm); --f-ink: var(--rmm-ink); --f-tint: var(--rmm-tint); }
+.f-izho { --f: var(--izho); --f-ink: var(--izho-ink); --f-tint: var(--izho-tint); }
+.f-ir2 { --f: var(--ir2); --f-ink: var(--ir2-ink); --f-tint: var(--ir2-tint); }
+.f-ir3 { --f: var(--ir3); --f-ink: var(--ir3-ink); --f-tint: var(--ir3-tint); }
+.f-trt { --f: var(--trt); --f-ink: var(--trt-ink); --f-tint: var(--trt-tint); }
+.f-cmo { --f: var(--cmo); --f-ink: var(--cmo-ink); --f-tint: var(--cmo-tint); }
+.f-shg { --f: var(--shg); --f-ink: var(--shg-ink); --f-tint: var(--shg-tint); }
+.f-cgmo { --f: var(--cgmo); --f-ink: var(--cgmo-ink); --f-tint: var(--cgmo-tint); }
+.f-cwmo { --f: var(--cwmo); --f-ink: var(--cwmo-ink); --f-tint: var(--cwmo-tint); }
+.f-csmo { --f: var(--csmo); --f-ink: var(--csmo-ink); --f-tint: var(--csmo-tint); }
+.f-cn2 { --f: var(--cn2); --f-ink: var(--cn2-ink); --f-tint: var(--cn2-tint); }
+.f-tot { --f: var(--tot); --f-ink: var(--tot-ink); --f-tint: var(--tot-tint); }
+.f-inr { --f: var(--inr); --f-ink: var(--inr-ink); --f-tint: var(--inr-tint); }
+.f-sat { --f: var(--sat); --f-ink: var(--sat-ink); --f-tint: var(--sat-tint); }
+.f-brt { --f: var(--brt); --f-ink: var(--brt-ink); --f-tint: var(--brt-tint); }
+.f-obmu { --f: var(--obmu); --f-ink: var(--obmu-ink); --f-tint: var(--obmu-tint); }
+.f-ciim { --f: var(--ciim); --f-ink: var(--ciim-ink); --f-tint: var(--ciim-tint); }
+.f-med { --f: var(--med); --f-ink: var(--med-ink); --f-tint: var(--med-tint); }
+.f-emc { --f: var(--emc); --f-ink: var(--emc-ink); --f-tint: var(--emc-tint); }
+.f-tuy { --f: var(--tuy); --f-ink: var(--tuy-ink); --f-tint: var(--tuy-tint); }
+.f-igo { --f: var(--igo); --f-ink: var(--igo-ink); --f-tint: var(--igo-tint); }
+.f-hmmti { --f: var(--hmmti); --f-ink: var(--hmmti-ink); --f-tint: var(--hmmti-tint); }
+.f-mn { --f: var(--mn); --f-ink: var(--mn-ink); --f-tint: var(--mn-tint); }
+.f-pr { --f: var(--pr); --f-ink: var(--pr-ink); --f-tint: var(--pr-tint); }
+.f-uz { --f: var(--uz); --f-ink: var(--uz-ink); --f-tint: var(--uz-tint); }
+.f-caq { --f: var(--caq); --f-ink: var(--caq-ink); --f-tint: var(--caq-tint); }
+.f-det { --f: var(--det); --f-ink: var(--det-ink); --f-tint: var(--det-tint); }
+.f-pumac { --f: var(--pumac); --f-ink: var(--pumac-ink); --f-tint: var(--pumac-tint); }
+.f-arml { --f: var(--arml); --f-ink: var(--arml-ink); --f-tint: var(--arml-tint); }
+.f-hmmtg { --f: var(--hmmtg); --f-ink: var(--hmmtg-ink); --f-tint: var(--hmmtg-tint); }
+.f-hmmtn { --f: var(--hmmtn); --f-ink: var(--hmmtn-ink); --f-tint: var(--hmmtn-tint); }
+.f-twt { --f: var(--twt); --f-ink: var(--twt-ink); --f-tint: var(--twt-tint); }
+.f-ofm { --f: var(--ofm); --f-ink: var(--ofm-ink); --f-tint: var(--ofm-tint); }
+.f-rio { --f: var(--rio); --f-ink: var(--rio-ink); --f-tint: var(--rio-tint); }
+.f-ro12 { --f: var(--ro12); --f-ink: var(--ro12-ink); --f-tint: var(--ro12-tint); }
+.f-ro11 { --f: var(--ro11); --f-ink: var(--ro11-ink); --f-tint: var(--ro11-tint); }
+.f-ro9 { --f: var(--ro9); --f-ink: var(--ro9-ink); --f-tint: var(--ro9-tint); }
+.f-rur { --f: var(--rur); --f-ink: var(--rur-ink); --f-tint: var(--rur-tint); }
+.f-inq { --f: var(--inq); --f-ink: var(--inq-ink); --f-tint: var(--inq-tint); }
+.f-jpp { --f: var(--jpp); --f-ink: var(--jpp-ink); --f-tint: var(--jpp-tint); }
+.f-grj { --f: var(--grj); --f-ink: var(--grj-ink); --f-tint: var(--grj-tint); }
+.f-rum { --f: var(--rum); --f-ink: var(--rum-ink); --f-tint: var(--rum-tint); }
+.f-usamts { --f: var(--usamts); --f-ink: var(--usamts-ink); --f-tint: var(--usamts-tint); }
+.f-bamo { --f: var(--bamo); --f-ink: var(--bamo-ink); --f-tint: var(--bamo-tint); }
+.f-mpg { --f: var(--mpg); --f-ink: var(--mpg-ink); --f-tint: var(--mpg-tint); }
+.f-iom { --f: var(--iom); --f-ink: var(--iom-ink); --f-tint: var(--iom-tint); }
+.f-shgc { --f: var(--shgc); --f-ink: var(--shgc-ink); --f-tint: var(--shgc-tint); }
+.f-rus { --f: var(--rus); --f-ink: var(--rus-ink); --f-tint: var(--rus-tint); }
+.f-cplp { --f: var(--cplp); --f-ink: var(--cplp-ink); --f-tint: var(--cplp-tint); }
+.f-cmimc { --f: var(--cmimc); --f-ink: var(--cmimc-ink); --f-tint: var(--cmimc-tint); }
+.f-smt { --f: var(--smt); --f-ink: var(--smt-ink); --f-tint: var(--smt-tint); }
+.f-bmt { --f: var(--bmt); --f-ink: var(--bmt-ink); --f-tint: var(--bmt-tint); }
+.f-icmc { --f: var(--icmc); --f-ink: var(--icmc-ink); --f-tint: var(--icmc-tint); }
+.f-mitib { --f: var(--mitib); --f-ink: var(--mitib-ink); --f-tint: var(--mitib-tint); }
+.f-igoi { --f: var(--igoi); --f-ink: var(--igoi-ink); --f-tint: var(--igoi-tint); }
+.f-igoe { --f: var(--igoe); --f-ink: var(--igoe-ink); --f-tint: var(--igoe-tint); }
+.f-stars { --f: var(--stars); --f-ink: var(--stars-ink); --f-tint: var(--stars-tint); }
+.f-omo { --f: var(--omo); --f-ink: var(--omo-ink); --f-tint: var(--omo-tint); }
+.f-duke { --f: var(--duke); --f-ink: var(--duke-ink); --f-tint: var(--duke-tint); }
+.f-bmosl { --f: var(--bmosl); --f-ink: var(--bmosl-ink); --f-tint: var(--bmosl-tint); }
+.f-jbmosl { --f: var(--jbmosl); --f-ink: var(--jbmosl-ink); --f-tint: var(--jbmosl-tint); }
+.f-mayo { --f: var(--mayo); --f-ink: var(--mayo-ink); --f-tint: var(--mayo-tint); }
+.f-am { --f: var(--am); --f-ink: var(--am-ink); --f-tint: var(--am-tint); }
+.f-ge { --f: var(--ge); --f-ink: var(--ge-ink); --f-tint: var(--ge-tint); }
+.f-me { --f: var(--me); --f-ink: var(--me-ink); --f-tint: var(--me-tint); }
+.f-ve { --f: var(--ve); --f-ink: var(--ve-ink); --f-tint: var(--ve-tint); }
+.f-ukf { --f: var(--ukf); --f-ink: var(--ukf-ink); --f-tint: var(--ukf-tint); }
+.f-ukg { --f: var(--ukg); --f-ink: var(--ukg-ink); --f-tint: var(--ukg-tint); }
+.f-uka { --f: var(--uka); --f-ink: var(--uka-ink); --f-tint: var(--uka-tint); }
+.f-iowa { --f: var(--iowa); --f-ink: var(--iowa-ink); --f-tint: var(--iowa-tint); }
+.f-utor { --f: var(--utor); --f-ink: var(--utor-ink); --f-tint: var(--utor-tint); }
+.f-irlu { --f: var(--irlu); --f-ink: var(--irlu-ink); --f-tint: var(--irlu-tint); }
+.f-umd { --f: var(--umd); --f-ink: var(--umd-ink); --f-tint: var(--umd-tint); }
+.f-fou { --f: var(--fou); --f-ink: var(--fou-ink); --f-tint: var(--fou-tint); }
+.f-apmc { --f: var(--apmc); --f-ink: var(--apmc-ink); --f-tint: var(--apmc-tint); }
+.f-hue { --f: var(--hue); --f-ink: var(--hue-ink); --f-tint: var(--hue-tint); }
+.f-plr2 { --f: var(--plr2); --f-ink: var(--plr2-ink); --f-tint: var(--plr2-tint); }
+.f-rug9 { --f: var(--rug9); --f-ink: var(--rug9-ink); --f-tint: var(--rug9-tint); }
+.f-rug10 { --f: var(--rug10); --f-ink: var(--rug10-ink); --f-tint: var(--rug10-tint); }
+.f-debw1 { --f: var(--debw1); --f-ink: var(--debw1-ink); --f-tint: var(--debw1-tint); }
+.f-itf { --f: var(--itf); --f-ink: var(--itf-ink); --f-tint: var(--itf-tint); }
+
+/* ==========================================================
+   Base
+   ========================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+html, body { max-width: 100%; overflow-x: hidden; }
+body { margin: 0; background: var(--paper); color: var(--text); font-family: var(--sans); font-size: 1rem; line-height: 1.6; }
+button, input { font: inherit; color: inherit; }
+h1, h2, h3, h4, p, ol, ul { margin: 0; }
+ol, ul { padding: 0; list-style: none; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--surface); color: var(--ink); padding: 10px 16px; border-radius: 4px; font-weight: 700; text-decoration: none; }
+.skip:focus { top: 12px; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ==========================================================
+   Hero
+   ========================================================== */
+.hero { background: var(--ink); color: #fff; overflow: hidden; }
+/* Until the grid is built (init), keep what it pushes down invisible, so nothing jumps on phones. */
+.booting .hero > .wrap:last-child, .booting #main, .booting .footer, .booting #statUpdated { visibility: hidden; }
+.brandbar { padding-top: 18px; padding-bottom: 4px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.subjects { display: flex; gap: 8px; flex-wrap: wrap; }
+.subj { display: inline-flex; align-items: center; gap: 7px; padding: 7px 13px; border: 1px solid rgba(255,255,255,.28); border-radius: 999px; color: #fff; text-decoration: none; font-size: .88rem; font-weight: 600; background: rgba(255,255,255,.06); transition: background .15s, border-color .15s; }
+.subj span { font-size: 1rem; line-height: 1; }
+.subj:hover, .subj:focus-visible { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.6); }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 700; }
+.logo { width: 32px; height: 32px; flex: 0 0 auto; display: block; }
+
+.hero-body { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 40px; align-items: end; padding-top: 18px; padding-bottom: 14px; }
+.hero h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(2rem, 4.4vw, 3.3rem); line-height: 1.06; letter-spacing: -.01em; }
+.lede { color: #d3dde6; font-size: 1.02rem; max-width: 54ch; padding-bottom: 4px; }
+.stats { display: flex; flex-wrap: wrap; gap: 22px; justify-content: flex-end; padding-bottom: 6px; }
+.stat { text-align: right; }
+.stat b { display: block; font: 800 1.7rem/1 var(--serif); }
+.stat span { font-size: .82rem; color: #aebccb; }
+.updated { flex-basis: 100%; text-align: right; font-size: .8rem; color: #aebccb; margin-top: -10px; }
+.updated:empty { display: none; }
+@media (max-width: 820px) { .updated { text-align: left; margin-top: -6px; } }
+
+/* ---------- Country × year grid ---------- */
+.mx-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+.mx-tabs[hidden] { display: none; }
+.mx-tabs button { appearance: none; border: 1px solid rgba(255, 255, 255, .25); background: transparent; color: #cfd9e3; font: 600 .9rem/1 var(--sans); padding: 8px 14px; border-radius: 4px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+.mx-tabs button:hover { color: #fff; border-color: rgba(255, 255, 255, .5); }
+.mx-tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.mx-tabs .tn { font-weight: 500; font-size: .8rem; opacity: .85; font-variant-numeric: tabular-nums; }
+.mx-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; margin-top: 18px; }
+.mx-help { font-size: .9rem; color: #aebccb; }
+.mx-status { font-size: .85rem; color: #aebccb; font-variant-numeric: tabular-nums; }
+.mx-wrap { overflow: auto; max-height: max(320px, calc(100vh - 150px)); padding: 0 0 16px; margin-top: 4px; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.35) transparent; }
+.mx-years { position: sticky; top: 0; z-index: 4; background: var(--ink); padding: 22px 0 6px; box-shadow: 0 6px 8px -6px rgba(0, 0, 0, .45); }
+.mx-years .corner { z-index: 5; }
+.yh.flash { color: #fff; background: var(--accent); }
+.mx-find { position: relative; flex: 0 1 280px; }
+.mx-find input { width: 100%; height: 34px; padding: 0 30px 0 12px; background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .25); border-radius: 4px; color: #fff; font: 400 .9rem/1 var(--sans); }
+.mx-find input::placeholder { color: #9fb0c1; }
+.mx-find input:focus { outline: 2px solid var(--accent); outline-offset: 1px; background: rgba(255, 255, 255, .12); }
+.mx-find button { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); appearance: none; border: 0; background: none; color: #cfd9e3; font-size: 1.1rem; line-height: 1; padding: 4px 6px; cursor: pointer; }
+.mx-find button[hidden] { display: none; }
+.mx-nomatch { color: #aebccb; font-size: .9rem; padding: 10px 0; }
+.mx { --cols: 39; --lw: 184px; --cw: 21px; display: grid; gap: 4px; min-width: calc(var(--lw) + var(--cols) * (var(--cw) + 4px)); }
+.mx-row { display: flex; align-items: center; gap: 3px; }
+.mx-row > .yh, .mx-row > .cell { flex: 1 1 0; min-width: var(--cw); }
+.mx-row > .rl, .mx-row > .corner { flex: 0 0 var(--lw); width: var(--lw); }
+.corner { position: sticky; left: 0; z-index: 2; background: var(--ink); height: 24px; }
+.yh { appearance: none; position: relative; background: none; border: 0; padding: 0; height: 24px; color: #aebccb; font: 500 .72rem/1 var(--sans); font-variant-numeric: tabular-nums; cursor: pointer; border-radius: 3px; }
+.yh:hover { color: #fff; background: rgba(255, 255, 255, .12); }
+.yh .dec { position: absolute; left: 0; bottom: 100%; margin-bottom: 4px; font: 600 .72rem/1 var(--sans); color: #fff; white-space: nowrap; pointer-events: none; }
+.yh.sel { color: #fff; background: var(--accent); font-weight: 700; }
+.rl { appearance: none; position: sticky; left: 0; z-index: 2; text-align: left; background: var(--ink); border: 0; padding: 4px 10px 4px 0; color: #eef2f6; font: 600 .86rem/1.2 var(--sans); cursor: pointer; height: 26px; white-space: nowrap; border-radius: 0 3px 3px 0; display: flex; align-items: center; gap: 8px; }
+.rl:hover { color: #fff; }
+.rl .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.rl.sel { color: var(--accent-text); }
+.mx-row[hidden] { display: none; }
+.mx-grp { margin-top: 6px; }
+.mx-grp:first-of-type { margin-top: 0; }
+.grp { color: #aebccb; font: 700 .74rem/1.2 var(--sans); letter-spacing: .08em; text-transform: uppercase; }
+.grp:hover { color: #fff; }
+.grp .car { display: inline-block; width: 12px; transition: transform .15s ease; }
+.grp[aria-expanded="true"] .car { transform: rotate(90deg); }
+.grp .gn { margin-left: 6px; font-weight: 600; letter-spacing: 0; color: #7f93a8; }
+.gcell { flex: 1 1 0; min-width: var(--cw); height: 6px; border-radius: 2px; background: rgba(255, 255, 255, .07); }
+.gcell.on { background: rgba(255, 255, 255, .32); }
+.flag { font-size: 1.05rem; }
+.cell { appearance: none; position: relative; height: 26px; border: 0; padding: 0; border-radius: 3px; background: transparent; }
+.cell::after { content: ""; position: absolute; inset: 0; margin: auto; width: 4px; height: 4px; border-radius: 50%; background: rgba(255, 255, 255, .13); }
+.cell.on { background: rgba(255, 255, 255, .27); cursor: pointer; }
+.cell.on::after { display: none; }
+.cell.on:hover { background: rgba(255, 255, 255, .6); }
+.cell.on.line { background: rgba(255, 255, 255, .46); }
+.cell.pick { background: var(--accent); }
+.cell.pend::after { background: rgba(255, 255, 255, .06); }
+.cell.err::after { background: #ff8a80; width: 6px; height: 6px; }
+/* A country with several competitions: one row, its competitions below it. */
+.rl.cg .cn { flex: 0 0 auto; font: 600 .7rem/1 var(--sans); color: #9fb0c1; border: 1px solid rgba(255, 255, 255, .25); border-radius: 8px; padding: 2px 5px; }
+.rl.cg .car { flex: 0 0 auto; display: inline-block; color: #9fb0c1; font-size: .7rem; transition: transform .15s ease; }
+.rl.cg[aria-expanded="true"] .car { transform: rotate(90deg); }
+.mx-row.sub > .rl { padding-left: 30px; font-weight: 500; font-size: .8rem; color: #cfd9e3; }
+.mx-row.sub > .rl.sel { color: var(--accent-text); }
+.cell.hint { outline: 2px solid var(--accent); outline-offset: -2px; }
+.mx-years .corner { align-self: stretch; display: flex; align-items: flex-end; }
+.early { appearance: none; background: none; border: 1px solid rgba(255, 255, 255, .25); border-radius: 3px; color: #cfd9e3; font: 600 .72rem/1 var(--sans); padding: 5px 8px; cursor: pointer; white-space: nowrap; }
+.early:hover { color: #fff; border-color: rgba(255, 255, 255, .5); }
+/* Phones: a list of countries instead of the grid. */
+.mxl[hidden] { display: none; }
+.mxl { margin-top: 8px; }
+.mxl .lgrp { display: flex; align-items: center; gap: 6px; width: 100%; appearance: none; background: none; border: 0; border-top: 1px solid rgba(255, 255, 255, .12); padding: 12px 0; text-align: left; color: #cfd9e3; font: 700 .78rem/1.2 var(--sans); letter-spacing: .08em; text-transform: uppercase; cursor: pointer; }
+.mxl .lgrp .gn { font-weight: 600; letter-spacing: 0; color: #7f93a8; }
+.mxl .lgrp .car, .mxl .li-h .car { display: inline-block; width: 12px; transition: transform .15s ease; }
+.mxl [aria-expanded="true"] > .car { transform: rotate(90deg); }
+.mxl .li { border-top: 1px solid rgba(255, 255, 255, .07); }
+.mxl .li-h { display: flex; align-items: center; gap: 10px; width: 100%; appearance: none; background: none; border: 0; padding: 11px 0; text-align: left; color: #eef2f6; font: 600 .95rem/1.25 var(--sans); cursor: pointer; }
+.mxl .li-h .meta { margin-left: auto; color: #9fb0c1; font: 500 .78rem/1.2 var(--sans); white-space: nowrap; }
+.mxl .li-b { padding: 0 0 14px 22px; }
+.mxl .lc + .lc { margin-top: 12px; }
+.mxl .lc-h { appearance: none; background: none; border: 0; padding: 4px 0; color: #fff; font: 600 .86rem/1.3 var(--sans); text-decoration: underline; text-decoration-color: rgba(255, 255, 255, .35); text-underline-offset: 3px; cursor: pointer; text-align: left; }
+.mxl .lc-h.sel { color: var(--accent-text); }
+.mxl .yrs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.mxl .ly { appearance: none; min-width: 52px; height: 34px; border: 1px solid rgba(255, 255, 255, .22); border-radius: 4px; background: rgba(255, 255, 255, .08); color: #eef2f6; font: 600 .82rem/1 var(--sans); font-variant-numeric: tabular-nums; cursor: pointer; }
+.mxl .ly.sel { background: var(--accent); border-color: var(--accent); color: #fff; }
+.mxl .ly-more { appearance: none; background: none; border: 0; color: #cfd9e3; font: 600 .8rem/1 var(--sans); padding: 8px 4px; cursor: pointer; text-decoration: underline; }
+.mxl .li[hidden], .mxl .lgrp[hidden] { display: none; }
+
+/* ==========================================================
+   Layout
+   ========================================================== */
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 40px; padding-top: 32px; padding-bottom: 80px; align-items: start; }
+
+.filters { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 20px 22px; display: grid; gap: 18px; }
+.f-title { font: 600 .95rem/1.3 var(--sans); color: var(--ink); margin-bottom: 8px; display: block; }
+.f-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: end; }
+.searchbox { position: relative; }
+.searchbox svg.i { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 1.05rem; }
+.searchbox input { width: 100%; height: 46px; padding: 0 14px 0 40px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px; font-size: 1rem; color: var(--text); }
+.searchbox input::placeholder { color: #7a8793; }
+.seg { display: inline-flex; border: 1px solid var(--line-strong); border-radius: 4px; overflow: hidden; }
+.seg button { appearance: none; border: 0; background: var(--surface); min-height: 46px; padding: 0 16px; font-size: .92rem; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line-strong); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.seg button:not([aria-pressed="true"]):hover { background: var(--paper); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { appearance: none; display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 0 13px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 4px; color: var(--text); font-size: .92rem; cursor: pointer; transition: border-color .12s, background-color .12s, color .12s; }
+.chip:hover { border-color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.chip .dot { width: 10px; height: 10px; border-radius: 2px; background: var(--f); }
+.chip[aria-pressed="true"] .dot { outline: 1.5px solid #fff; }
+.chip .n { font-size: .8rem; opacity: .7; font-variant-numeric: tabular-nums; }
+
+/* ---------- Results ---------- */
+.results { margin-top: 28px; scroll-margin-top: 12px; }
+.res-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 10px 20px; padding-bottom: 12px; border-bottom: 3px solid var(--ink); }
+.res-title { font: 800 1.7rem/1.15 var(--serif); color: var(--ink); }
+.res-title .sub { display: block; font: 500 .96rem/1.4 var(--sans); color: var(--muted); margin-top: 2px; }
+.res-count { margin-left: 12px; font: 400 .92rem var(--sans); color: var(--muted); }
+.res-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+.yr-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-top: 32px; padding-bottom: 8px; border-bottom: 1px solid var(--line-strong); }
+.yr-head .yr { font: 800 1.45rem/1 var(--serif); color: var(--ink); }
+.yr-head .kd { font: 600 1rem/1.2 var(--sans); color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+
+/* Off-screen problem cards are laid out only when they come near the screen. */
+.results .problem { content-visibility: auto; contain-intrinsic-size: auto 320px; }
+/* An open Ask AI menu must not be clipped by the card's paint containment or hidden under the next card. */
+.results .problem:has(.ai-menu[open]) { content-visibility: visible; position: relative; z-index: 5; }
+.problem { margin-top: 18px; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--f); border-radius: 2px; padding: 18px 24px 22px; scroll-margin-top: 16px; }
+.p-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 14px; margin-bottom: 10px; }
+.p-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.ai-menu { position: relative; }
+.ai-menu > summary { list-style: none; }
+.ai-menu > summary::-webkit-details-marker { display: none; }
+.ai-options { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; width: min(300px, calc(100vw - 16px)); padding: 8px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 6px; box-shadow: 0 8px 24px rgba(15,42,68,.18); }
+.ai-choice { display: block; width: 100%; padding: 11px 10px; border: 0; border-radius: 3px; background: transparent; color: var(--ink); text-align: left; text-decoration: none; font: 600 .88rem/1.4 var(--sans); cursor: pointer; }
+.ai-choice:hover, .ai-choice:focus-visible { background: #edf3f8; }
+.ai-custom textarea { width: 100%; min-height: 85px; padding: 9px; resize: vertical; border: 1px solid var(--line-strong); border-radius: 3px; font: .88rem/1.5 var(--sans); }
+.ai-custom .btn[hidden] { display: none; }
+.ai-custom .btn { width: 100%; margin-top: 6px; }
+.ai-prov { display: flex; gap: 4px; padding: 2px 2px 8px; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
+.ai-prov button { flex: 1; padding: 6px 8px; border: 1px solid var(--line-strong); border-radius: 3px; background: transparent; color: var(--muted); font: 600 .8rem/1.2 var(--sans); cursor: pointer; }
+.ai-prov button[aria-pressed="true"] { background: #245b86; border-color: #245b86; color: #fff; }
+#aiToast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); max-width: calc(100vw - 32px); padding: 12px 18px; border-radius: 6px; background: #0f2a44; color: #fff; font: 600 .9rem/1.4 var(--sans); box-shadow: 0 8px 24px rgba(0,0,0,.25); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 100; }
+#aiToast.show { opacity: 1; transform: translate(-50%, 0); }
+.ai-note { margin: 6px 4px 2px; font-size: .75rem; color: var(--muted); }
+.ai-copy { margin-top: 6px; border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted); }
+.p-id { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.p-num { display: inline-grid; place-items: center; min-width: 40px; height: 40px; padding: 0 8px; border-radius: 4px; background: var(--f); color: #fff; font: 800 1.15rem/1 var(--serif); }
+.p-meta { font: 600 .96rem var(--serif); color: var(--ink); }
+.p-tag { font-size: .82rem; font-weight: 600; color: var(--f-ink); background: var(--f-tint); padding: 2px 9px; border-radius: 3px; }
+
+.statement { font: 400 1.08rem/1.75 var(--serif); max-width: 74ch; overflow-wrap: anywhere; }
+.statement .para + .para { margin-top: .6em; }
+.statement .choices .choice { display: block; }
+.statement .fig { margin: .9em 0; text-align: center; }
+.statement .fig img { max-width: min(100%, 480px); height: auto; background: #fff; border: 1px solid var(--line); }
+mjx-container { margin: .2em 0 !important; }
+mjx-container[display="true"] { margin: .6em 0 !important; overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+
+.more { display: flex; justify-content: center; margin-top: 28px; }
+.state { margin-top: 24px; padding: 44px 24px; text-align: center; background: var(--surface); border: 1px dashed var(--line-strong); border-radius: 4px; color: var(--muted); display: grid; gap: 14px; justify-items: center; }
+.state h3 { font: 700 1.15rem/1.3 var(--serif); color: var(--ink); }
+.state.error { border-color: #c2483d; }
+.state .actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.spinner { width: 26px; height: 26px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--ink); animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.note { margin-top: 16px; padding: 12px 16px; background: #fff4d6; border-left: 4px solid #d9a520; color: #4d3a05; font-size: .93rem; }
+
+/* ---------- Buttons ---------- */
+.btn { appearance: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 16px; border: 1px solid var(--ink); border-radius: 4px; background: var(--surface); color: var(--ink); font-weight: 600; font-size: .92rem; cursor: pointer; transition: background-color .12s, color .12s, border-color .12s; }
+.btn:hover { background: var(--ink); color: #fff; }
+.btn-primary { background: var(--ink); color: #fff; }
+.btn-primary:hover { background: #16385c; }
+.btn-quiet { border-color: transparent; background: transparent; color: var(--muted); }
+.btn-quiet:hover { background: transparent; color: #a4312a; text-decoration: underline; }
+.btn-sm { min-height: 34px; padding: 0 12px; font-size: .88rem; }
+.btn.ask-ai { text-decoration: none; background: #245b86; border-color: #245b86; color: #fff; }
+.btn.ask-ai:hover { background: #194666; border-color: #194666; }
+.btn.like { gap: 4px; }
+.btn.like .lh { color: var(--muted, #6b7280); }
+.btn.like[aria-pressed="true"] { background: var(--card, #fff); color: inherit; border-color: #e11d26; }
+.btn.like[aria-pressed="true"] .lh { color: #e11d26; }
+.btn.like .lc:empty { display: none; }
+.p-views { font-size: 12px; color: var(--muted, #6b7280); white-space: nowrap; align-self: center; }
+.p-views:empty { display: none; }
+.btn:disabled { opacity: .45; cursor: not-allowed; pointer-events: none; }
+.add .on { display: none; }
+.add .off, .add[aria-pressed="true"] .on { display: inline-flex; align-items: center; gap: 8px; }
+.add[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.add[aria-pressed="true"] .off { display: none; }
+
+/* ---------- "My set" panel ---------- */
+.exam { position: sticky; top: 20px; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--ink); border-radius: 4px; }
+.exam-toggle { appearance: none; width: 100%; background: none; border: 0; cursor: default; pointer-events: none; display: flex; align-items: center; gap: 10px; padding: 16px 18px 12px; text-align: left; font: 800 1.2rem/1.2 var(--serif); color: var(--ink); }
+.exam-toggle .count { min-width: 28px; height: 28px; padding: 0 8px; border-radius: 14px; background: var(--ink); color: #fff; font: 600 .85rem/28px var(--sans); text-align: center; }
+.exam-toggle .chev { display: none; margin-left: auto; }
+.exam-body { padding: 0 18px 18px; display: grid; gap: 14px; }
+@media (min-width: 1024px) { #examList { max-height: calc(100vh - 400px); min-height: 72px; overflow: auto; } }
+.ex-empty { color: var(--muted); font-size: .92rem; }
+.ex-list { display: grid; gap: 6px; }
+.ex-item { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 8px 8px 8px 10px; border: 1px solid var(--line); border-left: 4px solid var(--f); border-radius: 2px; }
+.ex-n { font: 700 .95rem var(--serif); color: var(--muted); }
+.ex-t { min-width: 0; line-height: 1.3; }
+.ex-t strong { display: block; font-size: .93rem; }
+.ex-t span { display: block; font-size: .8rem; color: var(--muted); }
+.ex-ctl { display: flex; gap: 2px; }
+.icon-btn { appearance: none; width: 30px; height: 30px; display: grid; place-items: center; background: transparent; border: 1px solid transparent; border-radius: 4px; color: var(--muted); cursor: pointer; }
+.icon-btn:hover { border-color: var(--line-strong); color: var(--ink); }
+.icon-btn.rm:hover { color: #a4312a; border-color: #e0b1ac; }
+.icon-btn:disabled { opacity: .3; pointer-events: none; }
+.field { display: grid; gap: 4px; font-size: .85rem; color: var(--muted); }
+.field select, .field input[type="text"] { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .93rem; color: var(--text); background: var(--surface); }
+.check { display: flex; gap: 8px; align-items: center; font-size: .88rem; cursor: pointer; }
+.check input { width: 17px; height: 17px; accent-color: var(--ink); }
+.ex-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.ex-actions .btn-quiet { grid-column: 1 / -1; }
+
+/* ---------- Share dialog ---------- */
+dialog { border: 1px solid var(--line); border-top: 4px solid var(--ink); border-radius: 4px; padding: 24px; width: min(420px, calc(100vw - 32px)); color: var(--text); background: var(--surface); }
+dialog::backdrop { background: rgba(10, 31, 52, .6); }
+dialog h2 { font: 800 1.3rem/1.2 var(--serif); color: var(--ink); margin-bottom: 6px; }
+dialog p { color: var(--muted); font-size: .92rem; }
+.related-card { border-top: 1px solid var(--line-strong); padding: 18px 0; }
+#relatedDialog { width: min(850px, 94vw); max-height: 88vh; overflow-y: auto; }
+.math-profile .p-tag { display: inline-block; margin-bottom: 6px; }
+.share-url { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .82rem; color: var(--muted); }
+.dlg-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; flex-wrap: wrap; }
+.copy-status { font-size: .85rem; color: var(--az-ink); min-height: 1.4em; margin-top: 6px; }
+
+/* ---------- Footer ---------- */
+.footer { background: var(--ink-deep); color: #b9c6d2; font-size: .9rem; }
+.footer .wrap { padding-top: 22px; padding-bottom: 22px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
+.footer a { color: #fff; }
+.footer .thanks { flex-basis: 100%; margin: 0; font-size: .85rem; color: #9fb0bf; }
+
+/* ---------- Print sheet ---------- */
+#printSheet { position: absolute; left: -10000px; top: 0; width: 720px; font-family: var(--serif); color: #000; background: #fff; }
+.ps-head { border-bottom: 2px solid #000; padding-bottom: 8px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.ps-head h1 { font: 700 18pt/1.2 var(--serif); }
+.ps-head p { font: 10pt var(--sans); color: #444; }
+.ps-item { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 4px; margin-bottom: 22px; }
+.solution-space { border-bottom: 1px solid #ddd; }
+.ps-num { font: 700 12pt/1.7 var(--serif); }
+.provenance { margin-top: 16px; color: #4d5966; font-size: .85rem; }
+.provenance summary { cursor: pointer; }
+.provenance p, .provenance ul { margin-top: 8px; }
+.ps-src { font: 9pt var(--sans); color: #555; margin-bottom: 4px; }
+.ps-body .statement { font-size: 12pt; line-height: 1.65; max-width: none; }
+
+/* ==========================================================
+   Mobile
+   ========================================================== */
+@media (max-width: 1023px) {
+    .layout { grid-template-columns: minmax(0, 1fr); padding-bottom: 110px; }
+    .exam { position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 40; border-radius: 0; border-left: 0; border-right: 0; box-shadow: 0 -10px 28px rgba(10, 31, 52, .22); }
+    .exam-toggle { cursor: pointer; pointer-events: auto; padding: 14px 18px; }
+    .exam-toggle .chev { display: block; transition: transform .2s; }
+    .exam.open .exam-toggle .chev { transform: rotate(180deg); }
+    .exam-body { display: none; max-height: 62vh; overflow: auto; }
+    .exam.open .exam-body { display: grid; }
+    .footer .wrap { padding-bottom: 84px; }
+}
+@media (max-width: 820px) {
+    .hero-body { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+    .stats { justify-content: flex-start; }
+    .subjects { gap: 6px; }
+    .ai-menu { position: static; }
+    .ai-options { top: auto; left: 10px; right: 10px; width: auto; margin-top: 6px; }
+    .subj { padding: 5px 10px; font-size: .8rem; }
+    .stat { text-align: left; }
+}
+@media (max-width: 640px) {
+    .wrap { padding-left: 16px; padding-right: 16px; }
+    .filters { padding: 18px 16px; }
+    .f-top { grid-template-columns: minmax(0, 1fr); }
+    .problem { padding: 16px 16px 20px; }
+    .statement { font-size: 1.03rem; }
+    .mx { --lw: 146px; --cw: 16px; }
+    .rl { font-size: .8rem; gap: 6px; }
+    .mx-wrap { max-height: max(300px, calc(100vh - 120px)); }
+    .mx-find { flex: 1 1 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .spinner { animation: none; border-top-color: var(--line); }
+    html { scroll-behavior: auto; }
+    * { transition: none !important; }
+}
+
+/* ==========================================================
+   Print
+   ========================================================== */
+@page { margin: 18mm 16mm; }
+@media print {
+    body { background: #fff; }
+    .skip, .hero, .layout, .footer, dialog, noscript { display: none !important; }
+    .ps-item { break-inside: avoid; page-break-inside: avoid; }
+    .ps-head { break-after: avoid; }
+    .ps-body .fig { break-inside: avoid; }
+    .ps-body img { max-width: 100%; max-height: 180mm; object-fit: contain; }
+    .ps-body .statement { overflow-wrap: anywhere; orphans: 3; widows: 3; }
+    #printSheet { position: static; left: auto; width: auto; }
+}
+
+.imc-historical{margin-top:14px;border-top:1px solid var(--line);padding-top:14px;font-size:.88rem}.imc-historical summary{cursor:pointer;font-weight:700;color:var(--ink)}.imc-historical p{margin-top:10px}.imc-year-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(54px,1fr));gap:6px;margin:10px 0}.imc-year-links a{display:block;padding:7px 4px;text-align:center;border:1px solid var(--line);border-radius:6px;text-decoration:none}.imc-year-links a:hover,.imc-year-links a:focus-visible{border-color:var(--focus);text-decoration:underline}
+
+.imc-source-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:7px;margin-top:12px}.imc-source-year{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border:1px solid var(--line);border-radius:7px;padding:8px}.imc-source-year>a{min-width:36px}.imc-source-year span{display:flex;gap:8px;flex-wrap:wrap}.imc-source-year span a{font-size:.8rem}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#results">Skip to the problems</a>
+
+<header class="hero">
+    <div class="wrap brandbar">
+        <a class="brand" href="https://eisatopon.gr" target="_top" aria-label="eisatopon.gr"><img class="logo" src="assets/eisatopon-logo.png" width="32" height="32" alt=""><span>eisatopon.gr</span></a>
+        <nav class="subjects" aria-label="Other olympiad banks">
+            <a class="subj" href="https://eisatopon.github.io/national-olympiads-bank/"><span aria-hidden="true">←</span>Mathematics</a>
+            <a class="subj" href="./" aria-current="page"><span aria-hidden="true">⚛️</span>Physics</a>
+        </nav>
+    </div>
+
+    <div class="wrap hero-body">
+        <div>
+            <h1>World Physics Olympiads Bank</h1>
+            <p class="lede">Physics olympiad problems from international, regional and national competitions, in English with LaTeX: statements with every part, data table and figure. Statements only — no solutions. Browse the competition-year grid.</p>
+        </div>
+        <div class="stats" id="stats" aria-hidden="true">
+            <div class="stat"><b id="statTotal">—</b><span>problems</span></div>
+            <div class="stat"><b id="statRows">—</b><span>competitions</span></div>
+            <div class="stat"><b id="statYears">—</b><span>years</span></div>
+            <p class="updated" id="statUpdated"></p>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="mx-tabs" id="mxTabs" role="tablist" aria-label="Sections of the bank"></div>
+        <div class="mx-head">
+            <p class="mx-help" id="mxHelp">Click a cell to open one competition's year. Click a competition or a year to see all of it.</p>
+            <div class="mx-find" role="search">
+                <label class="sr-only" for="mxFind">Find a country, competition or year in the grid</label>
+                <input type="text" id="mxFind" placeholder="Country, competition or year" enterkeyhint="search" autocomplete="off" spellcheck="false">
+                <button type="button" id="mxFindClear" aria-label="Clear" hidden>&times;</button>
+            </div>
+            <p class="mx-status" id="mxStatus" role="status"></p>
+        </div>
+        <div class="mx-wrap">
+            <div class="mx" id="mx" role="group" aria-label="Country and year grid"></div>
+        </div>
+        <div class="mxl" id="mxList" hidden></div>
+
+
+    </div>
+</header>
+
+<main class="wrap layout" id="main">
+    <div class="col-main">
+
+        <section class="filters" aria-label="Search and filters">
+            <div class="f-top">
+                <div>
+                    <label class="f-title" for="q">Search the problems</label>
+                    <div class="searchbox">
+                        <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+                        <input type="search" id="q" placeholder="Try “pendulum”, “capacitor” or “lens”" autocomplete="off">
+                    </div>
+                </div>
+                <div>
+                    <h2 class="f-title" id="scopeTitle">Where to look</h2>
+                    <div class="seg" id="scope" role="group" aria-labelledby="scopeTitle"></div>
+                </div>
+            </div>
+            <div>
+                <h2 class="f-title" id="dayTitle">Day / Round</h2>
+                <div class="chips" id="dayChips" role="group" aria-labelledby="dayTitle"></div>
+            </div>
+            <div>
+                <h2 class="f-title" id="topicTitle">Topic</h2>
+                <div class="chips" id="topicChips" role="group" aria-labelledby="topicTitle"></div>
+            </div>
+        </section>
+
+        <section class="results" id="results" aria-labelledby="resTitle" tabindex="-1">
+            <div id="resultsBox"></div>
+        </section>
+    </div>
+
+    <aside class="exam" id="exam" aria-label="My problem set">
+        <h2>
+            <button type="button" class="exam-toggle" id="examToggle" aria-expanded="false" aria-controls="examBody">
+                <span>My problem set</span>
+                <span class="count" id="examCount">0</span>
+                <svg class="i chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>
+            </button>
+        </h2>
+        <div class="exam-body" id="examBody">
+            <div id="examList"></div>
+
+            <label class="field">Title for the printout
+                <input type="text" id="examTitle" placeholder="Physics Olympiads problem set" autocomplete="off">
+            </label>
+            <label class="check"><input type="checkbox" id="showSource" checked> Show the source of each problem</label>
+
+            <label class="field">Space for solutions
+                <select id="solutionSpace"><option value="0">None</option><option value="40">Small (4 cm)</option><option value="80">Large (8 cm)</option></select>
+            </label>
+            <div class="ex-actions">
+                <button type="button" class="btn" id="saveSetBtn">Save collection</button>
+            </div>
+            <label class="field">Saved collections on this device
+                <select id="savedSets"><option value="">Choose a collection</option></select>
+            </label>
+            <div class="ex-actions">
+                <button type="button" class="btn" id="loadSetBtn" disabled>Open</button>
+                <button type="button" class="btn btn-quiet" id="deleteSetBtn" disabled>Delete saved collection</button>
+            </div>
+            <p id="collectionStatus" role="status" class="ex-empty"></p>
+            <div class="ex-actions">
+                <button type="button" class="btn btn-primary" id="printBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-2M7 14h10v7H7z"/></svg>
+                    Print
+                </button>
+                <button type="button" class="btn" id="shareBtn">
+                    <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h3v3h-3zM20 14v3M14 20h3M20 20h1"/></svg>
+                    Share
+                </button>
+                <button type="button" class="btn btn-quiet" id="clearBtn">Clear the set</button>
+            </div>
+        </div>
+    </aside>
+</main>
+
+<footer class="footer">
+    <div class="wrap">
+        <span>eisatopon.gr © 2026–<span id="yr">2026</span> – World Physics Olympiads Bank</span>
+        <a href="https://github.com/Eisatopon/physics-olympiads-bank" target="_blank" rel="noopener">Data on GitHub</a>
+        <p class="thanks">Statements are reproduced from the official IPhO papers for study; the problems remain the work of their authors and organising committees. Sister project of the <a href="https://eisatopon.github.io/national-olympiads-bank/">World Mathematical Olympiads Bank</a>.</p>
+    </div>
+</footer>
+
+<dialog id="shareDialog" aria-labelledby="shareTitle">
+    <h2 id="shareTitle">Share this problem set</h2>
+    <p>Copy the link to share the same set of problems.</p>
+    <input class="share-url" id="shareUrl" type="text" readonly aria-label="Share link">
+    <div class="copy-status" id="copyStatus" role="status"></div>
+    <div class="dlg-actions">
+        <button type="button" class="btn" id="copyBtn">Copy link</button>
+        <button type="button" class="btn btn-primary" id="closeShare">Close</button>
+    </div>
+</dialog>
+
+<dialog id="aiDialog" aria-labelledby="aiTitle">
+    <h2 id="aiTitle">Ask AI</h2>
+    <p id="aiHelp"></p>
+    <textarea id="aiPrompt" readonly aria-label="Problem and instructions for the AI assistant" style="width:100%;min-height:160px;margin-top:12px;padding:10px;resize:vertical"></textarea>
+    <div class="copy-status" id="aiCopyStatus" role="status"></div>
+    <div class="dlg-actions">
+        <button type="button" class="btn" id="copyAi">Copy prompt</button>
+        <a class="btn" id="openAi" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Open ChatGPT</a>
+        <button type="button" class="btn btn-primary" id="closeAi">Close</button>
+    </div>
+    <p>Use your own ChatGPT, Claude or Gemini account. Solutions are not saved in this bank. AI answers can be wrong — check every step.</p>
+</dialog>
+
+<dialog id="relatedDialog" aria-labelledby="relatedTitle">
+    <h2 id="relatedTitle">Physics connections</h2>
+    <div class="dlg-actions"><button type="button" class="btn" id="closeRelated">Close</button></div>
+    <div id="relatedContent" aria-live="polite"></div>
+</dialog>
+<div id="printSheet" aria-hidden="true"></div>
+<div class="sr-only" id="srStatus" role="status"></div>
+
+<noscript><p style="padding:24px">This page needs JavaScript to load the problems.</p></noscript>
+
+<script>
+(() => {
+'use strict';
+
+/* ==========================================================
+   Data and constants
+   ========================================================== */
+// Collections are served next to index.html (GitHub Pages of the public repository).
+const BASE = './';
+// Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
+const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
+// Bump on every data change so browsers never mix old and new files.
+const DATA_VERSION = '20261017-ipho-2024-2026';
+const FIRST = 1967, LAST = 2026;
+const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
+const REGION_OF = { ipho: 'world' };
+const regionOf = key => REGION_OF[key] || 'other';
+const PAGE = 20;
+const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
+
+const COUNTRIES = [
+    { key: 'ipho', name: 'IPhO', flag: '🌐', file: 'IPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International Physics Olympiad, theoretical problems' }
+];
+COUNTRIES.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
+const CBY = Object.fromEntries(COUNTRIES.map(c => [c.key, c]));
+/* Sections of the grid; a section appears once it has a collection. */
+const TABS = [['international', 'International'], ['regional', 'Regional'], ['national', 'National']];
+const scopeOf = c => c.scope || 'national';
+const tabRows = () => COUNTRIES.filter(c => scopeOf(c) === state.tab);
+
+const ICON = {
+    plus:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
+    check: '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+    up:    '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>',
+    down:  '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
+    x:     '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
+};
+
+/* ==========================================================
+   State
+   ========================================================== */
+const state = { tab: 'international', country: null, year: null, day: 'all', topic: 'all', q: '' };
+const cache = new Map();      // country key -> records[]
+const inflight = new Map();
+const failed = new Map();
+const byUid = new Map();
+let collectionMetadata = {};
+let topicOverrides = {};
+let problemDna = {records:{}, techniques:{}};
+let metadataUnavailable = false;
+let collectionMetadataReady = null;  // resolves when metadata/runtime/collections.json has been read
+let manifest = null;          // metadata/runtime/manifest.json: problem counts per file and year
+let selected = [];
+let shownUids = [];
+let limit = PAGE;
+let renderToken = 0;
+
+/* ==========================================================
+   Utilities
+   ========================================================== */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const say = msg => { $('#srStatus').textContent = ''; setTimeout(() => { $('#srStatus').textContent = msg; }, 30); };
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+const countText = n => plural(n, 'problem', 'problems');
+
+// Typeset each problem card when it comes near the screen instead of the whole list at once.
+let typesetObserver = null;
+function typesetVisible(root) {
+    if (typesetObserver) { typesetObserver.disconnect(); typesetObserver = null; }
+    const cards = [...root.querySelectorAll('article.problem')];
+    if (!cards.length) return /[$\\]/.test(root.textContent) ? typeset(root) : Promise.resolve();
+    if (typeof IntersectionObserver !== 'function') return typeset(root);
+    typesetObserver = new IntersectionObserver(entries => {
+        const near = entries.filter(e => e.isIntersecting).map(e => e.target);
+        near.forEach(c => typesetObserver.unobserve(c));
+        if (near.length) typeset(near);
+    }, {rootMargin: '300px 0px'});
+    cards.forEach(c => typesetObserver.observe(c));
+}
+// Likes and view counts (Cloudflare Worker nob-stats + D1). Loaded after the cards are drawn, only for
+// cards near the screen, in one small batched request; if the service is slow or down nothing is shown.
+const STATS_URL = '';  // Likes/views are off until the owner approves reusing nob-stats with ph- uids.
+const statsStore = (k, v) => { try { if (v === undefined) return JSON.parse(localStorage.getItem(k) || 'null'); localStorage.setItem(k, JSON.stringify(v)); } catch (e) { return null; } };
+const statsLiked = new Set(statsStore('phob-liked') || []);
+const statsCache = new Map();
+let statsObserver = null, statsQueue = new Set(), statsTimer = 0;
+function statsPaint(uid) {
+    const v = statsCache.get(uid) || [0, 0];
+    $$(`[data-like="${uid}"]`).forEach(b => { b.setAttribute('aria-pressed', String(statsLiked.has(uid))); b.querySelector('.lc').textContent = v[0] > 0 ? v[0] : ''; });
+    $$(`[data-views="${uid}"]`).forEach(e => { e.textContent = v[1] > 0 ? `${v[1].toLocaleString('en')} view${v[1] === 1 ? '' : 's'}` : ''; });
+}
+function statsFlush() {
+    statsTimer = 0;
+    const uids = [...statsQueue].slice(0, 60); statsQueue = new Set([...statsQueue].slice(60));
+    if (statsQueue.size) statsTimer = setTimeout(statsFlush, 50);
+    if (!uids.length || !STATS_URL) return;
+    fetch(`${STATS_URL}/s?u=${uids.map(encodeURIComponent).join(',')}`).then(r => r.ok ? r.json() : {}).then(d => {
+        uids.forEach(u => { statsCache.set(u, d[u] || [0, 0]); statsPaint(u); });
+    }).catch(() => {});
+    // One view per problem per browser per day.
+    const seen = statsStore('phob-seen') || {}, today = new Date().toISOString().slice(0, 10), fresh = uids.filter(u => seen[u] !== today);
+    // Automated browsers (our own tests, the daily health check) and local copies never count as views.
+    if (fresh.length && !navigator.webdriver && !/^(localhost|127\.)/.test(location.hostname)) {
+        fresh.forEach(u => { seen[u] = today; });
+        for (const k in seen) if (seen[k] !== today) delete seen[k];
+        statsStore('phob-seen', seen);
+        fetch(`${STATS_URL}/v`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({u: fresh})}).catch(() => {});
+    }
+}
+function statsObserve(root) {
+    if (statsObserver) { statsObserver.disconnect(); statsObserver = null; }
+    const cards = [...root.querySelectorAll('article.problem')];
+    if (!STATS_URL || !cards.length || typeof IntersectionObserver !== 'function') return;
+    statsObserver = new IntersectionObserver(entries => {
+        entries.filter(e => e.isIntersecting).forEach(e => {
+            statsObserver.unobserve(e.target);
+            const uid = e.target.id.slice(2);
+            if (statsCache.has(uid)) statsPaint(uid); else statsQueue.add(uid);
+        });
+        if (statsQueue.size && !statsTimer) statsTimer = setTimeout(statsFlush, 400);
+    }, {rootMargin: '100px 0px'});
+    cards.forEach(c => statsObserver.observe(c));
+}
+document.addEventListener('click', ev => {
+    const b = ev.target.closest('[data-like]');
+    if (!b || !STATS_URL) return;
+    const uid = b.dataset.like, on = !statsLiked.has(uid), v = statsCache.get(uid) || [0, 0];
+    if (on) statsLiked.add(uid); else statsLiked.delete(uid);
+    statsStore('phob-liked', [...statsLiked]);
+    statsCache.set(uid, [Math.max(0, v[0] + (on ? 1 : -1)), v[1]]); statsPaint(uid);
+    fetch(`${STATS_URL}/l`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({u: uid, on})})
+        .then(r => r.ok ? r.json() : null).then(d => { if (d && typeof d.likes === 'number') { statsCache.set(uid, [d.likes, (statsCache.get(uid) || [0, 0])[1]]); statsPaint(uid); } }).catch(() => {});
+});
+// MathJax (about 1 MB) is loaded on the first formula that has to be shown, or on the first
+// scroll, tap or key press, so it does not compete with the first paint on phones.
+function ensureMathJax() {
+    if (document.querySelector('script[data-mathjax]')) return;
+    const sc = document.createElement('script');
+    sc.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+    sc.async = true;
+    sc.dataset.mathjax = '1';
+    document.head.appendChild(sc);
+}
+['scroll', 'pointerdown', 'keydown'].forEach(t => addEventListener(t, ensureMathJax, {once: true, passive: true, capture: true}));
+function typeset(el) {
+    ensureMathJax();
+    return new Promise(resolve => {
+        let tries = 0;
+        const go = () => {
+            if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+                const next = MathJax.startup.promise.then(() => MathJax.typesetPromise(Array.isArray(el) ? el : [el])).catch(err => console.error('MathJax:', err));
+                MathJax.startup.promise = next;
+                next.then(resolve);
+            } else if (tries++ < 400) {
+                setTimeout(go, 150);
+            } else { resolve(); }
+        };
+        go();
+    });
+}
+
+const IMG_RE = /(https?:\/\/\S+?)[ \t]*\.(png|jpe?g|gif|webp|svg)\b\.?/gi;
+// A paragraph that is only a figure URL shows the figure in place (long physics statements have many);
+// a figure URL inside other text is shown after the statement.
+const FIG_ONLY_RE = /^(https?:\/\/\S+?\.(?:png|jpe?g|gif|webp|svg))$/i;
+function bodyHtml(text, record) {
+    const local = typeof location !== 'undefined' && /^(localhost|127\.)/.test(location.hostname);
+    const src = u => local && u.startsWith(RAW) ? './' + u.slice(RAW.length) : u;
+    const fig = u => `<figure class="fig"><img src="${esc(src(u))}" alt="${esc(record?.figureAlt || 'Figure')}" loading="lazy" referrerpolicy="no-referrer"></figure>`;
+    let figs = [];
+    // A paragraph made only of answer-choice lines "(A) …" … "(E) …" keeps one choice per line.
+    const isChoices = x => { const ls = x.split('\n').map(l => l.trim()).filter(Boolean); return ls.length > 1 && ls.every(l => /^\([A-E]\)/.test(l)); };
+    let html = String(text).split(/\n{2,}/).map(x => x.trim()).filter(Boolean).map(raw => {
+        if (FIG_ONLY_RE.test(raw)) return fig(raw);
+        const x = esc(raw).replace(IMG_RE, (m, url, ext) => { figs.push(`${url}.${ext}`); return ''; }).trim();
+        if (!x) return '';
+        return isChoices(x)
+            ? `<div class="para choices">${x.split('\n').map(l => l.trim()).filter(Boolean).map(l => `<span class="choice">${l}</span>`).join('')}</div>`
+            : `<div class="para">${x.replace(/\n(?=\s*•)/g, '<br>')}</div>`;
+    }).join('');
+    figs.forEach(u => { html += fig(u.replace(/&amp;/g, '&')); });
+    return html;
+}
+
+/* ==========================================================
+   Data loading and normalization
+   ========================================================== */
+/* ---------- Statement fingerprints ----------
+   The browser receives a short fingerprint of each reviewed statement instead of a full copy
+   (see scripts/build_runtime_metadata.py). 32-bit FNV-1a over UTF-16 code units. */
+function textHash(text) {
+    const s = String(text);
+    let h = 0x811c9dc5;
+    for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193); }
+    return (h >>> 0).toString(16).padStart(8, '0');
+}
+function sameStatement(record, text) {
+    if (!record) return false;
+    if (typeof record.reviewed_statement === 'string') return record.reviewed_statement === text;
+    return typeof record.h === 'string' && record.h === textHash(text);
+}
+const TOPICS = ['Mechanics', 'Electromagnetism', 'Thermodynamics & Statistical physics', 'Optics & Waves', 'Modern physics', 'Experimental & Data analysis'];
+// Keyword fallback for statements without a reviewed topic record (metadata/topic-overrides.json).
+function classifyStatement(text) {
+    const t = String(text).replace(/https?:\/\/\S+/g, '').normalize('NFKC').toLowerCase();
+    const tests = [
+        ['Mechanics', /\b(mass(?:es)?|forces?|friction|momentum|collisions?|pendulums?|springs?|rotat\w*|torque|inertia|orbits?|gravit\w*|planets?|satellites?|projectiles?|accelerat\w*|velocit\w*|rigid|rolling|elastic|fluids?|viscos\w*|buoyan\w*|pressure|carts?|rods?)\b/],
+        ['Electromagnetism', /\b(charges?|charged|electric\w*|magnet\w*|capacit\w*|inductors?|inductance|resist\w*|currents?|voltages?|circuits?|coils?|solenoids?|dielectric|conductors?|electrons? beams?|lorentz|induction|emf|batter(?:y|ies))\b/],
+        ['Thermodynamics & Statistical physics', /\b(heat|temperatures?|thermal|thermo\w*|entropy|ideal gas|gas(?:es)?|adiabatic|isothermal|calorimet\w*|boltzmann|evaporat\w*|vapou?r|melting|boiling|latent|cycles?)\b/],
+        ['Optics & Waves', /\b(lens(?:es)?|mirrors?|refract\w*|reflect\w*|light rays?|optic\w*|interferen\w*|diffract\w*|wavelengths?|waves?|polari[sz]\w*|prisms?|sound|acoustic\w*|oscillat\w*|resonan\w*|doppler)\b/],
+        ['Modern physics', /\b(relativ\w*|photons?|quantum|atoms?|atomic|nucle\w*|radioactiv\w*|decay|lasers?|electrons?|protons?|neutrons?|neutrinos?|compton|spectr\w*|planck|de broglie|bohr|positrons?|mesons?|stars?|galax\w*|cosmolog\w*|black holes?)\b/]
+    ];
+    const topics = tests.filter(([, re]) => re.test(t)).map(([name]) => name);
+    return topics.length ? topics.slice(0, 3) : ['Unclassified'];
+}
+function topicFields(text, category, uid) {
+    const reviewed = typeof topicOverrides !== 'undefined' && topicOverrides[uid];
+    const topics = category ? [category] : sameStatement(reviewed, text) ? reviewed.topics : classifyStatement(text);
+    return {topics, topic: topics.filter(t => t !== 'Unclassified').join(' · ') || null};
+}
+
+function normalizeYears(country, raw) {
+    const out = [];
+    // A selection-test row stores the test number as `day`: a year with more than two shows "Test N".
+    const tst = /\bTST/.test(country.name || '') || /-(tst|tstst|selection)-problems\.json$/i.test(country.file || '');
+    (raw.years || []).forEach(y => {
+        const days = (y.problems || []).map(p => p.day ?? p.paper_id ?? 0);
+        const tests = tst && (new Set(days).size > 2 || Math.max(0, ...days) > 2);
+        (y.problems || []).forEach((p, i) => {
+            const num = p.number ?? (i + 1);
+            const day = p.day ?? p.paper_id ?? null;
+            out.push({
+                uid: `${country.key}.${y.year}.${day ?? 0}.${num}`,
+                country: country.key, year: y.year, day, num,
+                paperLabel: p.paper_label || (tests && day ? 'Test ' + day : null), figureAlt: p.figure_alt || null,
+                ...topicFields(p.problem, p.category, `${country.key}.${y.year}.${day ?? 0}.${num}`), text: String(p.problem || '')
+            });
+        });
+    });
+    return out;
+}
+function normalizeUsa(country, raw) {
+    const out = [];
+    Object.entries(raw.data || {}).forEach(([yr, v]) => {
+        const year = +yr;
+        Object.values(v.problems || {}).forEach(byRegion => {
+            Object.values(byRegion).forEach(list => {
+                (list || []).forEach(p => {
+                    out.push({
+                        uid: `${country.key}.${year}.0.${p.number}`,
+                        country: country.key, year, day: null, num: String(p.number),
+                        ...topicFields(p.statement, p.category, `${country.key}.${year}.0.${p.number}`), text: String(p.statement || '')
+                    });
+                });
+            });
+        });
+    });
+    return out;
+}
+
+function loadCountry(key) {
+    if (cache.has(key)) return Promise.resolve(cache.get(key));
+    if (inflight.has(key)) return inflight.get(key);
+    const country = CBY[key];
+    // Preserve the original archive, but never offer corrupted records for selection.
+    if (country.quarantined) {
+        const message = 'This collection is under review because its statements and numbering need repair. It is temporarily excluded from search and problem sets.';
+        failed.set(key, message);
+        onCountrySettled(key);
+        return Promise.reject(new Error(message));
+    }
+    // The statement checks of a collection are a separate small file, downloaded alongside it.
+    const checks = (collectionMetadataReady || Promise.resolve()).then(() => {
+        const meta = collectionMetadata[country.file];
+        if (!meta?.statement_checks_file || meta.statement_checks) return;
+        return fetch('./metadata/runtime/' + meta.statement_checks_file + '?v=' + DATA_VERSION, {cache: 'no-cache'})
+            .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+            .then(data => { if (data.schema_version === 1 && data.statement_checks) meta.statement_checks = data.statement_checks; })
+            .catch(() => { metadataUnavailable = true; });
+    });
+    const p = Promise.all([fetch(BASE + country.file + '?v=' + DATA_VERSION, {cache: 'no-cache'})
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); }), checks])
+        .then(([txt]) => {
+            let raw;
+            try { raw = JSON.parse(txt); }
+            catch (e) { throw new Error(`${country.file} is not valid JSON`); }
+            const list = country.kind === 'usa' ? normalizeUsa(country, raw) : normalizeYears(country, raw);
+            const ids = new Set();
+            for (const record of list) {
+                if (ids.has(record.uid)) throw new Error('Duplicate problem identifiers: this collection needs repair');
+                ids.add(record.uid);
+            }
+            list.forEach(p => byUid.set(p.uid, p));
+            list.sort((a, b) => b.year - a.year || (a.day || 0) - (b.day || 0) || (parseFloat(a.num) || 0) - (parseFloat(b.num) || 0));
+            cache.set(key, list);
+            failed.delete(key);
+            inflight.delete(key);
+            onCountrySettled(key);
+            return list;
+        })
+        .catch(err => { inflight.delete(key); failed.set(key, err.message); onCountrySettled(key); throw err; });
+    inflight.set(key, p);
+    return p;
+}
+function loadAll() { return Promise.allSettled(COUNTRIES.map(c => loadCountry(c.key))); }
+
+/* ---------- Manifest: counts without downloading the collections ---------- */
+function manifestYears(key) {
+    const m = manifest && manifest.files && manifest.files[CBY[key].file];
+    return m ? m.years : null;
+}
+function yearCount(key, y) {
+    if (cache.has(key)) return cache.get(key).filter(p => p.year === y).length;
+    const ys = manifestYears(key);
+    return ys ? (ys[y] || 0) : 0;
+}
+function bankTotal() {
+    if (!manifest) return COUNTRIES.filter(c => cache.has(c.key)).reduce((s, c) => s + cache.get(c.key).length, 0);
+    return COUNTRIES.reduce((s, c) => s + (cache.has(c.key) ? cache.get(c.key).length : (manifest.files[c.file] || {}).total || 0), 0);
+}
+/* "All problems" without filters shows the newest problems first, so only the
+   collections that reach the visible page are downloaded. */
+function tabTotal(tab) {
+    return COUNTRIES.filter(c => scopeOf(c) === tab).reduce((s, c) => s + (cache.has(c.key) ? cache.get(c.key).length : manifest ? ((manifest.files[c.file] || {}).total || 0) : 0), 0);
+}
+function browseTotal() {
+    if (!manifest || state.country || state.year !== null || filtersOn()) return 0;
+    return tabTotal(state.tab);
+}
+// The list is ordered by year (newest first), then by collection name, exactly as COUNTRIES.
+// Returns the last (year, collection index) needed to fill the first `limit` results.
+function browseCutoff() {
+    const rows = tabRows();
+    let sum = 0;
+    for (let y = LAST; y >= FIRST; y--) {
+        for (let i = 0; i < rows.length; i++) {
+            const ys = manifestYears(rows[i].key);
+            sum += ys ? (ys[y] || 0) : 0;
+            if (sum >= limit) return [y, i];
+        }
+    }
+    return [FIRST, rows.length - 1];
+}
+
+
+/* ==========================================================
+   Country × year grid
+   ========================================================== */
+let gridBtns = [];
+
+/* The grid shows the recent years; "Show earlier years" adds the rest (remembered per browser). */
+const RECENT_FROM = FIRST;  // every year is shown; raise it when the grid grows too wide
+let earlyYears = (() => { try { return localStorage.getItem('phob-early') === '1'; } catch (e) { return false; } })();
+const gridFrom = () => earlyYears ? FIRST : RECENT_FROM;
+function setEarly(on) {
+    if (earlyYears === on) return;
+    earlyYears = on;
+    try { localStorage.setItem('phob-early', on ? '1' : '0'); } catch (e) {}
+    buildMatrix();
+    paintTab();
+    if (gridFilter) applyGridFilter();
+}
+
+/* In the National section a country with several competitions gets one row
+   (its flag groups them); its competitions open below it. */
+const openCountries = new Set();
+let entriesById = new Map(), entryOf = {};
+function gridEntries(list) {
+    // National rows group by country flag; in the other tabs only rows sharing a `group` (e.g. HMMT) are grouped.
+    const groupKey = c => state.tab === 'national' ? c.flag : (c.group || c.key);
+    const byFlag = new Map();
+    list.forEach(c => { const g = groupKey(c); if (!byFlag.has(g)) byFlag.set(g, []); byFlag.get(g).push(c); });
+    return [...byFlag.values()].map(members => {
+        if (members.length === 1) return { id: members[0].key, members };
+        const words = members.map(c => c.name.split(' '));
+        let n = 0;
+        while (words.every(w => w.length > n && w[n] === words[0][n])) n++;
+        const name = (members.find(c => c.groupName) || {}).groupName || (n ? words[0].slice(0, n).join(' ').replace(/\s*—$/, '') : members[0].name);
+        const subName = c => (n ? c.name.split(' ').slice(n).join(' ').replace(/^—\s*/, '').replace(/\s*\([^)]*\)$/, '') : c.name) || 'National olympiad';
+        const names = new Map(members.map(c => [c.key, c.sub || (c.name === name ? 'National olympiad' : subName(c))]));
+        // The national olympiad first, then the other finals, junior contests, then the selection tests.
+        const rank = c => names.get(c.key) === 'National olympiad' ? 0 : /TST/.test(names.get(c.key)) ? 3 : /Junior|Elementary/.test(names.get(c.key)) ? 2 : 1;
+        members = [...members].sort((a, b) => rank(a) - rank(b) || names.get(a.key).localeCompare(names.get(b.key), 'en', { numeric: true }));
+        return { id: 'g-' + members[0].key, name, flag: members[0].flag, members, sub: c => names.get(c.key) };
+    });
+}
+
+/* A country with a single competition is shown by the country's name; the competition is in the tooltip and the results title. */
+const countryLabel = c => state.tab !== 'national' ? c.name
+    : c.name.replace(/\s+(?:TST|SMT|All-Union|Republican Final|Final V|OMB MAXI|IMONST 2 \(Senior\)|OMAPA \(Level 3\))$/, '').replace(' and Herzegovina', ' & Herzegovina');
+
+function buildMatrix() {
+    const mx = $('#mx'), from = gridFrom();
+    applyGridMode();
+    // Undergraduate competitions use the same year-by-year grid as national collections.
+    mx.style.setProperty('--cols', LAST - from + 1);
+    entriesById = new Map(); entryOf = {};
+    const early = `${FIRST}–${RECENT_FROM - 1}`;
+    let html = `<div class="mx-row mx-years"><span class="corner">${RECENT_FROM > FIRST ? `<button type="button" class="early" data-early aria-pressed="${earlyYears}" title="${earlyYears ? 'Show only the years from ' + RECENT_FROM : 'Add the years ' + early}">${earlyYears ? '&#9666; Only ' + RECENT_FROM + '–' + LAST : 'Show ' + early + ' &#9656;'}</button>` : ''}</span>`;
+    for (let y = LAST; y >= from; y--) {
+        const dec = (y % 5 === 0) ? `<span class="dec" aria-hidden="true">${y}</span>` : '';
+        html += `<button type="button" class="yh" data-yh="${y}" tabindex="-1" aria-label="Year ${y}, all countries">${dec}${String(y).slice(2)}</button>`;
+    }
+    html += '</div>';
+    const openG = defaultOpenGroup();
+    REGIONS.forEach(([rk, rname]) => {
+        const list = tabRows().filter(c => regionOf(c.key) === rk);
+        if (!list.length) return;
+        const entries = gridEntries(list);
+        const open = rk === openG;
+        html += `<div class="mx-row mx-grp" data-grp-row="${rk}"><button type="button" class="rl grp" data-grp="${rk}" tabindex="-1" aria-expanded="${open}"><span class="car" aria-hidden="true">&#9656;</span>${rname}<span class="gn">${entries.length}</span></button>`;
+        for (let y = LAST; y >= from; y--) html += `<span class="gcell" data-gy="${y}" aria-hidden="true"></span>`;
+        html += '</div>';
+        entries.forEach(e => {
+            if (e.members.length === 1) {
+                const c = e.members[0];
+                html += `<div class="mx-row" data-region="${rk}"${open ? '' : ' hidden data-lazy'}><button type="button" class="rl" data-rl="${c.key}" tabindex="-1" aria-label="${c.name}, all years" title="${c.name}"><span class="flag" aria-hidden="true">${c.flag}</span><span class="nm">${countryLabel(c)}</span></button>`;
+                if (open) html += rowCells(c);
+                html += '</div>';
+                return;
+            }
+            entriesById.set(e.id, e);
+            const ex = openCountries.has(e.id);
+            html += `<div class="mx-row mx-cg" data-region="${rk}" data-cg-row="${e.id}"${open ? '' : ' hidden data-lazy'}><button type="button" class="rl cg" data-cg="${e.id}" tabindex="-1" aria-expanded="${ex}" aria-label="${e.name}: ${e.members.length} competitions" title="${e.members.map(c => c.name).join(' · ')}"><span class="flag" aria-hidden="true">${e.flag}</span><span class="nm">${e.name}</span><span class="cn" aria-hidden="true">${e.members.length}</span><span class="car" aria-hidden="true">&#9656;</span></button>`;
+            if (open) html += groupCells(e);
+            html += '</div>';
+            e.members.forEach(c => {
+                entryOf[c.key] = e;
+                html += `<div class="mx-row sub" data-region="${rk}" data-sub="${e.id}" data-lazy${open && ex ? '' : ' hidden'}><button type="button" class="rl" data-rl="${c.key}" tabindex="-1" aria-label="${c.name}, all years" title="${c.name}"><span class="nm">${e.sub(c)}</span></button></div>`;
+            });
+        });
+    });
+    mx.innerHTML = html;
+    mx.querySelectorAll('.grp').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); toggleGroup(b.dataset.grp); }));
+    refreshGrid();
+    syncMatrix();
+    if (useList()) buildList();
+}
+function renderTabs() {
+    const used = TABS.filter(([k]) => COUNTRIES.some(c => scopeOf(c) === k));
+    const el = $('#mxTabs');
+    if (used.length < 2) { el.hidden = true; return; }
+    el.hidden = false;
+    el.innerHTML = used.map(([k, label]) => {
+        const n = tabTotal(k);
+        return `<button type="button" role="tab" data-tab="${k}" aria-selected="${state.tab === k}">${label}${n ? `<span class="tn">${n.toLocaleString('en-US')}</span>` : ''}</button>`;
+    }).join('');
+}
+function paintTab() {
+    tabRows().forEach(c => paintCountry(c.key));
+    entriesById.forEach((e, id) => paintEntry(id));
+    if (useList()) buildList();
+    REGIONS.forEach(([rk]) => paintGroup(rk));
+}
+function setTab(tab, keepScope) {
+    if (tab === state.tab) return;
+    state.tab = tab;
+    document.querySelector('.mx-wrap').hidden = false;
+    document.querySelector('#main').hidden = false;
+    document.querySelector('.mx-head').hidden = false;
+    if (gridFilter) { gridFilter = ''; const inp = $('#mxFind'); if (inp) inp.value = ''; $('#mxFindClear').hidden = true; }
+    buildMatrix();
+    paintTab();
+    renderTabs();
+    $('.mx-wrap').scrollTop = 0;
+    if (!keepScope) { state.country = null; state.year = null; limit = PAGE; refresh(); }
+}
+// Cells of a collapsed continent are created the first time its rows are shown.
+function rowCells(c) {
+    let html = '';
+    for (let y = LAST; y >= gridFrom(); y--) {
+        const pick = state.country === c.key && state.year === y;
+        const line = !pick && ((state.year === y && state.country === null) || (state.country === c.key && state.year === null));
+        html += `<button type="button" class="cell pend${pick ? ' pick' : line ? ' line' : ''}" data-country="${c.key}" data-year="${y}" tabindex="-1" disabled aria-pressed="${pick}" aria-label="${c.name}, ${y}"></button>`;
+    }
+    return html;
+}
+function groupCells(e) {
+    let html = '';
+    for (let y = LAST; y >= gridFrom(); y--) html += `<button type="button" class="cell pend" data-cg-cell="${e.id}" data-year="${y}" tabindex="-1" disabled aria-label="${e.name}, ${y}"></button>`;
+    return html;
+}
+function paintEntry(id) {
+    const e = entriesById.get(id), row = $(`#mx .mx-row[data-cg-row="${id}"]`);
+    if (!e || !row) return;
+    const known = e.members.every(c => cache.has(c.key) || manifestYears(c.key) || failed.has(c.key));
+    for (const cell of row.querySelectorAll('.cell')) {
+        const y = +cell.dataset.year;
+        const parts = e.members.map(c => [e.sub(c), failed.has(c.key) && !cache.has(c.key) ? 0 : yearCount(c.key, y)]).filter(([, n]) => n > 0);
+        cell.classList.toggle('pend', !known);
+        cell.classList.toggle('on', parts.length > 0);
+        cell.disabled = !parts.length;
+        if (parts.length) {
+            cell.title = `${e.name}, ${y}: ` + parts.map(([s, n]) => `${s} ${n}`).join(' · ');
+            cell.setAttribute('aria-label', cell.title);
+        }
+    }
+}
+/* Show or hide a country's competitions. */
+function toggleCountry(id, force) {
+    const e = entriesById.get(id), b = $(`#mx .rl[data-cg="${id}"]`);
+    if (!e || !b) return;
+    const open = force === undefined ? !openCountries.has(id) : force;
+    open ? openCountries.add(id) : openCountries.delete(id);
+    b.setAttribute('aria-expanded', String(open));
+    const visible = !b.closest('.mx-row').hidden;
+    $$(`#mx .mx-row[data-sub="${id}"]`).forEach(r => { r.hidden = !(open && visible); });
+    refreshGrid();
+    syncMatrix();
+}
+/* A country cell opens the competition when only one has that year; otherwise it shows the competitions. */
+function countryCellClick(id, y) {
+    const e = entriesById.get(id);
+    if (!e) return;
+    const has = e.members.filter(c => yearCount(c.key, y) > 0);
+    if (has.length === 1) { setScope(has[0].key, y); return; }
+    toggleCountry(id, true);
+    has.forEach(c => {
+        const cell = $(`#mx .cell[data-country="${c.key}"][data-year="${y}"]`);
+        if (cell) { cell.classList.add('hint'); setTimeout(() => cell.classList.remove('hint'), 1600); }
+    });
+    const first = has[0] && $(`#mx .cell[data-country="${has[0].key}"][data-year="${y}"]`);
+    if (first) first.focus({ preventScroll: true });
+}
+function refreshGrid() {
+    $$('#mx .mx-row[data-lazy]:not([hidden])').forEach(row => {
+        row.removeAttribute('data-lazy');
+        if (row.dataset.cgRow) {
+            row.insertAdjacentHTML('beforeend', groupCells(entriesById.get(row.dataset.cgRow)));
+            paintEntry(row.dataset.cgRow);
+            return;
+        }
+        const key = row.querySelector('.rl').dataset.rl;
+        row.insertAdjacentHTML('beforeend', rowCells(CBY[key]));
+        paintCountry(key);
+    });
+    gridBtns = [...$('#mx').children].filter(row => !row.hidden && !row.classList.contains('mx-grp')).map(row => [...row.children]);
+}
+// A section with a single continent group shows it open; otherwise the last opened group.
+function defaultOpenGroup() {
+    const groups = REGIONS.filter(([rk]) => tabRows().some(c => regionOf(c.key) === rk));
+    return groups.length === 1 ? groups[0][0] : loadOpenGroup();
+}
+function loadOpenGroup() {
+    try { return localStorage.getItem('phob-open-group') || ''; } catch (e) { return ''; }
+}
+function setGroupOpen(rk, open) {
+    const b = $(`.grp[data-grp="${rk}"]`);
+    if (!b) return;
+    b.setAttribute('aria-expanded', String(open));
+    $$(`#mx .mx-row[data-region="${rk}"]`).forEach(r => { r.hidden = !open || (r.dataset.sub !== undefined && !openCountries.has(r.dataset.sub)); });
+}
+function toggleGroup(rk) {
+    if (gridFilter) clearGridFilter();
+    const b = $(`.grp[data-grp="${rk}"]`);
+    const open = b.getAttribute('aria-expanded') !== 'true';
+    $$('#mx .grp').forEach(g => setGroupOpen(g.dataset.grp, false));
+    if (open) setGroupOpen(rk, true);
+    try { localStorage.setItem('phob-open-group', open ? rk : ''); } catch (e) {}
+    refreshGrid();
+    if (useList()) { buildList(); return; }
+    if (open) scrollGridTo(b.closest('.mx-row'));
+}
+/* Keep a row visible below the sticky year header inside the scrolling grid. */
+function scrollGridTo(row) {
+    const wrap = $('.mx-wrap'), head = $('#mx .mx-years');
+    if (!wrap || !row) return;
+    const top = row.getBoundingClientRect().top - wrap.getBoundingClientRect().top + wrap.scrollTop - (head ? head.offsetHeight : 0) - 4;
+    if (row.getBoundingClientRect().top < wrap.getBoundingClientRect().top + (head ? head.offsetHeight : 0) || row.getBoundingClientRect().bottom > wrap.getBoundingClientRect().bottom) wrap.scrollTop = Math.max(0, top);
+}
+
+/* ---------- Find in the grid ----------
+   Text keeps only the matching rows (all continents open); a year scrolls to its column. */
+let gridFilter = '';
+const fold = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+function clearGridFilter() {
+    gridFilter = '';
+    const inp = $('#mxFind'); if (inp) inp.value = '';
+    $('#mxFindClear').hidden = true;
+    applyGridFilter();
+}
+function applyGridFilter() {
+    const q = fold(gridFilter.trim());
+    const words = q.split(/\s+/).filter(Boolean);
+    const openG = defaultOpenGroup();
+    let any = false;
+    REGIONS.forEach(([rk]) => {
+        const grpRow = $(`#mx .mx-grp[data-grp-row="${rk}"]`);
+        if (!grpRow) return;
+        const rows = $$(`#mx .mx-row[data-region="${rk}"]`);
+        const gn = grpRow.querySelector('.gn');
+        if (!words.length) {
+            grpRow.hidden = false;
+            gn.textContent = rows.length;
+            setGroupOpen(rk, rk === openG);
+            return;
+        }
+        let n = 0;
+        const fits = text => { const hay = fold(`${text} ${regionName(rk)}`); return words.every(w => hay.includes(w)); };
+        rows.forEach(r => {
+            if (r.dataset.sub !== undefined) return;   // decided with its country below
+            if (r.dataset.cgRow) {
+                // The country matches: show it as it is. Otherwise show only its matching competitions.
+                const e = entriesById.get(r.dataset.cgRow), whole = fits(e.name);
+                let any = whole;
+                $$(`#mx .mx-row[data-sub="${e.id}"]`).forEach(s => {
+                    const ok = whole ? openCountries.has(e.id) : fits(CBY[s.querySelector('.rl').dataset.rl].name);
+                    s.hidden = !ok; if (ok) any = true;
+                });
+                r.hidden = !any; if (any) n++;
+                r.querySelector('.rl').setAttribute('aria-expanded', String($$(`#mx .mx-row[data-sub="${e.id}"]`).some(s => !s.hidden)));
+                return;
+            }
+            const ok = fits(CBY[r.querySelector('.rl').dataset.rl].name);
+            r.hidden = !ok; if (ok) n++;
+        });
+        grpRow.hidden = n === 0;
+        gn.textContent = n;
+        grpRow.querySelector('.grp').setAttribute('aria-expanded', String(n > 0));
+        if (n) any = true;
+    });
+    let msg = $('#mx .mx-nomatch');
+    if (words.length && !any) {
+        if (!msg) { msg = document.createElement('p'); msg.className = 'mx-nomatch'; $('#mx').appendChild(msg); }
+        msg.textContent = 'No country or competition matches.';
+    } else if (msg) msg.remove();
+    refreshGrid();
+    if (useList()) buildList();
+    if (words.length) $('.mx-wrap').scrollTop = 0;
+}
+function regionName(rk) { const r = REGIONS.find(([k]) => k === rk); return r ? r[1] : ''; }
+function gotoYear(y) {
+    if (y < gridFrom()) setEarly(true);
+    const h = $(`#mx .yh[data-yh="${y}"]`), wrap = $('.mx-wrap');
+    if (!h || !wrap) return false;
+    const a = h.getBoundingClientRect(), b = wrap.getBoundingClientRect();
+    const lw = $('#mx .corner').offsetWidth;
+    wrap.scrollLeft += (a.left + a.width / 2) - (b.left + lw + (b.width - lw) / 2);
+    h.classList.remove('flash'); void h.offsetWidth; h.classList.add('flash');
+    setTimeout(() => h.classList.remove('flash'), 1600);
+    return true;
+}
+let findTimer = null;
+$('#mxFind').addEventListener('input', e => {
+    clearTimeout(findTimer);
+    const v = e.target.value;
+    $('#mxFindClear').hidden = !v;
+    findTimer = setTimeout(() => {
+        const t = v.trim();
+        if (/^\d{4}$/.test(t) && +t >= FIRST && +t <= LAST) { if (gridFilter) { gridFilter = ''; applyGridFilter(); } gotoYear(+t); return; }
+        if (/^\d{1,3}$/.test(t)) return;   // a year is still being typed
+        gridFilter = v; applyGridFilter();
+    }, 150);
+});
+$('#mxFind').addEventListener('keydown', e => {
+    if (e.key === 'Escape') { clearGridFilter(); return; }
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+    const t = e.target.value.trim();
+    if (/^\d{4}$/.test(t) && +t >= FIRST && +t <= LAST) { setScope(null, +t); return; }
+    if (useList()) { const items = $$('#mxList .li').filter(li => !li.hidden); if (gridFilter && items.length === 1) toggleListItem(items[0].dataset.li, true); return; }
+    const rows = $$('#mx .mx-row[data-region]').filter(r => !r.hidden && r.querySelector('.rl[data-rl]'));
+    const countries = $$('#mx .mx-row[data-cg-row]').filter(r => !r.hidden);
+    if (gridFilter && rows.length === 1) setScope(rows[0].querySelector('.rl').dataset.rl, null);
+    else if (gridFilter && !rows.length && countries.length === 1) toggleCountry(countries[0].dataset.cgRow, true);
+});
+$('#mxFindClear').addEventListener('click', () => { clearGridFilter(); $('#mxFind').focus(); });
+function revealCountry(key) {
+    const rk = regionOf(key);
+    const b = $(`.grp[data-grp="${rk}"]`);
+    if (b && b.getAttribute('aria-expanded') !== 'true') toggleGroup(rk);
+    const e = entryOf[key];
+    if (e && !openCountries.has(e.id)) toggleCountry(e.id, true);
+    if (useList()) revealListItem(key);
+}
+/* ---------- Phones: a list of countries instead of the grid ----------
+   Same continents and countries as the grid; a country opens to its competitions and years. */
+const listMq = typeof matchMedia === 'function' ? matchMedia('(max-width: 640px)') : { matches: false };
+const useList = () => listMq.matches;
+const openItems = new Set(), allYearsKeys = new Set();
+const LIST_YEARS = 12;
+function listYears(key) {
+    const ys = cache.has(key) ? [...new Set(cache.get(key).map(p => p.year))] : Object.keys(manifestYears(key) || {}).map(Number).filter(y => yearCount(key, y) > 0);
+    return ys.sort((a, b) => b - a);
+}
+function listItemBody(e, only) {
+    return e.members.filter(c => !only || only.includes(c.key)).map(c => {
+        const ys = listYears(c.key);
+        const all = allYearsKeys.has(c.key) || ys.length <= LIST_YEARS + 2 || (state.country === c.key && ys.indexOf(state.year) >= LIST_YEARS);
+        const shown = all ? ys : ys.slice(0, LIST_YEARS);
+        const label = e.members.length > 1 ? e.sub(c) : 'All years';
+        return `<div class="lc"><button type="button" class="lc-h" data-lc="${c.key}" aria-pressed="false">${esc(label)}</button>`
+            + `<div class="yrs">${shown.map(y => `<button type="button" class="ly" data-lc="${c.key}" data-ly="${y}" aria-pressed="false" aria-label="${esc(c.name)} ${y}">${y}</button>`).join('')}`
+            + `${all ? '' : `<button type="button" class="ly-more" data-ly-more="${c.key}">All ${ys.length} years</button>`}</div></div>`;
+    }).join('');
+}
+function listMeta(e) {
+    const ys = e.members.flatMap(c => listYears(c.key));
+    if (!ys.length) return '';
+    const lo = Math.min(...ys), hi = Math.max(...ys);
+    return (e.members.length > 1 ? `${e.members.length} competitions · ` : '') + (lo === hi ? lo : `${lo}–${hi}`);
+}
+function buildList() {
+    const el = $('#mxList');
+    const q = fold(gridFilter.trim()), words = q.split(/\s+/).filter(Boolean);
+    const openG = defaultOpenGroup();
+    let html = '';
+    REGIONS.forEach(([rk, rname]) => {
+        const list = tabRows().filter(c => regionOf(c.key) === rk);
+        if (!list.length) return;
+        const fits = text => { const hay = fold(`${text} ${regionName(rk)}`); return words.every(w => hay.includes(w)); };
+        let entries = gridEntries(list).map(e => {
+            if (!words.length) return [e, null];
+            const name = e.members.length > 1 ? e.name : e.members[0].name;
+            if (fits(name)) return [e, null];
+            const only = e.members.filter(c => fits(c.name)).map(c => c.key);
+            return only.length ? [e, only] : null;
+        }).filter(Boolean);
+        if (words.length && !entries.length) return;
+        const open = words.length ? true : rk === openG;
+        html += `<button type="button" class="lgrp" data-lgrp="${rk}" aria-expanded="${open}"><span class="car" aria-hidden="true">&#9656;</span>${rname}<span class="gn">${entries.length}</span></button>`;
+        if (!open) return;
+        entries.forEach(([e, only]) => {
+            e.sub = e.sub || (() => 'All years');
+            if (e.members.length > 1) entriesById.set(e.id, e);
+            const ex = openItems.has(e.id) || !!only;
+            const name = e.members.length > 1 ? e.name : countryLabel(e.members[0]);
+            html += `<div class="li" data-li="${e.id}"><button type="button" class="li-h" data-li-h="${e.id}" aria-expanded="${ex}"><span class="car" aria-hidden="true">&#9656;</span><span class="flag" aria-hidden="true">${(e.members[0]).flag}</span><span>${esc(name)}</span><span class="meta">${listMeta(e)}</span></button>`
+                + `<div class="li-b"${ex ? '' : ' hidden'}>${ex ? listItemBody(e, only) : ''}</div></div>`;
+        });
+    });
+    el.innerHTML = html || '<p class="mx-nomatch">No country or competition matches.</p>';
+    syncList();
+}
+function listEntry(id) {
+    const key = entriesById.has(id) ? null : id;
+    return key ? { id: key, members: [CBY[key]], sub: () => 'All years' } : entriesById.get(id);
+}
+function toggleListItem(id, force) {
+    const li = $(`#mxList .li[data-li="${id}"]`);
+    if (!li) return;
+    const open = force === undefined ? !openItems.has(id) : force;
+    open ? openItems.add(id) : openItems.delete(id);
+    li.querySelector('.li-h').setAttribute('aria-expanded', String(open));
+    const body = li.querySelector('.li-b');
+    body.hidden = !open;
+    if (open) { body.innerHTML = listItemBody(listEntry(id)); syncList(); }
+}
+function showAllListYears(key) {
+    allYearsKeys.add(key);
+    const li = $(`#mxList .ly-more[data-ly-more="${key}"]`)?.closest('.li');
+    if (li) { li.querySelector('.li-b').innerHTML = listItemBody(listEntry(li.dataset.li)); syncList(); }
+}
+function revealListItem(key) {
+    const id = entryOf[key] ? entryOf[key].id : key;
+    if (!$(`#mxList .li[data-li="${id}"]`)) buildList();
+    if (!openItems.has(id)) toggleListItem(id, true);
+}
+function syncList() {
+    $$('#mxList .ly').forEach(b => { const on = b.dataset.lc === state.country && +b.dataset.ly === state.year; b.classList.toggle('sel', on); b.setAttribute('aria-pressed', String(on)); });
+    $$('#mxList .lc-h').forEach(b => { const on = b.dataset.lc === state.country && state.year === null; b.classList.toggle('sel', on); b.setAttribute('aria-pressed', String(on)); });
+}
+function scrollToResults() {
+    if (!useList()) return;
+    const m = $('#main');
+    if (m) setTimeout(() => m.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+}
+function applyGridMode() {
+    const list = useList();
+    $('.mx-wrap').hidden = list;
+    $('#mxList').hidden = !list;
+    $('#mxHelp').textContent = list ? 'Tap a country to see its competitions and years.' : "Click a cell to open one competition's year. Click a competition or a year to see all of it.";
+}
+if (listMq.addEventListener) listMq.addEventListener('change', () => { applyGridMode(); buildMatrix(); paintTab(); });
+
+function paintGroup(rk) {
+    const keys = tabRows().filter(c => regionOf(c.key) === rk).map(c => c.key);
+    $$(`#mx .mx-grp[data-grp-row="${rk}"] .gcell`).forEach(g => {
+        const y = +g.dataset.gy;
+        g.classList.toggle('on', keys.some(k => yearCount(k, y) > 0));
+    });
+}
+
+function paintCountry(key) {
+    if (!$(`#mx .rl[data-rl="${key}"]`)) return;   // the row belongs to another section
+    const list = cache.get(key);
+    const known = !!(list || manifestYears(key));
+    const bad = failed.has(key) && !list;
+    const c = CBY[key];
+    if (bad) $(`.rl[data-rl="${key}"]`).title = 'This file did not load';
+    // Inspect only this country's row; avoid a document-wide query for each year.
+    const row = $('#mx .rl[data-rl="' + key + '"]').closest('.mx-row');
+    if (!row) return;
+    for (const cell of row.querySelectorAll('.cell')) {
+        const y = +cell.dataset.year;
+        const n = bad ? 0 : yearCount(key, y);
+        cell.classList.toggle('pend', !known && !bad);
+        cell.classList.toggle('err', bad);
+        cell.classList.toggle('on', n > 0);
+        cell.disabled = n === 0;
+        if (n > 0) {
+            cell.title = `${c.name}, ${y}: ${countText(n)}`;
+            cell.setAttribute('aria-label', cell.title);
+        }
+    }
+}
+function onCountrySettled(key) { paintCountry(key); if (entryOf[key]) paintEntry(entryOf[key].id); paintGroup(regionOf(key)); syncMatrix(); }
+
+function syncMatrix() {
+    if (state.country && scopeOf(CBY[state.country]) !== state.tab) setTab(scopeOf(CBY[state.country]), true);
+    if (state.year !== null && state.year < gridFrom()) setEarly(true);
+    if (useList()) syncList();
+    if (state.country) revealCountry(state.country);
+    $$('#mx .yh').forEach(b => b.classList.toggle('sel', state.country === null && +b.dataset.yh === state.year));
+    $$('#mx .rl').forEach(b => b.classList.toggle('sel', state.year === null && b.dataset.rl === state.country));
+    // Touch only the cells whose pick/line state changes, not the whole grid.
+    let pickCell = null, lineCells = [];
+    if (state.country && state.year !== null) pickCell = $(`#mx .cell[data-country="${state.country}"][data-year="${state.year}"]`);
+    else if (state.country) lineCells = $$(`#mx .cell[data-country="${state.country}"]`);
+    else if (state.year !== null) lineCells = $$(`#mx .cell[data-year="${state.year}"]`);
+    const lineSet = new Set(lineCells);
+    $$('#mx .cell.pick, #mx .cell.line').forEach(c => {
+        if (c !== pickCell && c.classList.contains('pick')) { c.classList.remove('pick'); c.setAttribute('aria-pressed', 'false'); }
+        if (!lineSet.has(c)) c.classList.remove('line');
+    });
+    lineCells.forEach(c => { if (!c.classList.contains('line')) c.classList.add('line'); });
+    if (pickCell && !pickCell.classList.contains('pick')) { pickCell.classList.remove('line'); pickCell.classList.add('pick'); pickCell.setAttribute('aria-pressed', 'true'); }
+    const cur = $('#mx .cell.pick') || $('#mx .cell.on') || $('#mx .yh:not(:disabled)');
+    $$('#mx button[tabindex="0"]').forEach(b => { if (b !== cur) b.tabIndex = -1; });
+    if (cur && cur.tabIndex !== 0) cur.tabIndex = 0;
+    const done = COUNTRIES.filter(c => cache.has(c.key)).length + failed.size;
+    $('#mxStatus').textContent = !manifest && done < COUNTRIES.length ? `Loading ${done} of ${COUNTRIES.length} countries` : '';
+    const total = bankTotal();
+    if (total) $('#statTotal').textContent = total.toLocaleString('en-US');
+    $$('#mxTabs [data-tab]').forEach(b => { const n = tabTotal(b.dataset.tab), t = b.querySelector('.tn'); if (t && n) t.textContent = n.toLocaleString('en-US'); });
+}
+
+function gridPos(el) {
+    for (let r = 0; r < gridBtns.length; r++) { const c = gridBtns[r].indexOf(el); if (c >= 0) return [r, c]; }
+    return null;
+}
+$('#mx').addEventListener('keydown', e => {
+    const pos = gridPos(document.activeElement);
+    const moves = { ArrowLeft: [0, -1], ArrowRight: [0, 1], ArrowUp: [-1, 0], ArrowDown: [1, 0] };
+    if (!pos || !(e.key in moves || e.key === 'Home' || e.key === 'End')) return;
+    e.preventDefault();
+    let [r, c] = pos;
+    const R = gridBtns.length, C = gridBtns[0].length;
+    const ok = (rr, cc) => rr >= 0 && rr < R && cc >= 0 && cc < C && gridBtns[rr][cc] && gridBtns[rr][cc].tagName === 'BUTTON' && !gridBtns[rr][cc].disabled;
+    let target = null;
+    if (e.key === 'Home') { for (let cc = 0; cc < C && !target; cc++) if (ok(r, cc)) target = gridBtns[r][cc]; }
+    else if (e.key === 'End') { for (let cc = C - 1; cc >= 0 && !target; cc--) if (ok(r, cc)) target = gridBtns[r][cc]; }
+    else {
+        const [dr, dc] = moves[e.key]; let rr = r + dr, cc = c + dc;
+        while (rr >= 0 && rr < R && cc >= 0 && cc < C) { if (ok(rr, cc)) { target = gridBtns[rr][cc]; break; } rr += dr; cc += dc; }
+    }
+    if (target) { $$('#mx button').forEach(b => { b.tabIndex = -1; }); target.tabIndex = 0; target.focus(); }
+});
+
+/* ==========================================================
+   Filters
+   ========================================================== */
+function scoped() {
+    const keys = state.country ? [state.country] : tabRows().map(c => c.key);
+    let list = keys.flatMap(k => cache.get(k) || []);
+    if (state.year !== null) list = list.filter(p => p.year === state.year);
+    else if (browseTotal()) { const [cy, ci] = browseCutoff(); const idx = Object.fromEntries(tabRows().map((c, i) => [c.key, i])); list = list.filter(p => p.year > cy || (p.year === cy && idx[p.country] <= ci)); }
+    return list;
+}
+function matchesQuery(p) {
+    if (!state.q) return true;
+    const hay = `${p.text} ${p.year} ${p.num} ${CBY[p.country].name}`.toLowerCase();
+    return state.q.toLowerCase().split(/\s+/).filter(Boolean).every(t => hay.includes(t));
+}
+const matchesDay = p => state.day === 'all' || String(p.day) === state.day;
+const matchesTopic = p => state.topic === 'all' || p.topics.includes(state.topic);
+const filtersOn = () => state.day !== 'all' || state.topic !== 'all' || state.q.trim() !== '';
+
+function compare(a, b) {
+    if (a.year !== b.year) return b.year - a.year;
+    if (a.country !== b.country) return CBY[a.country].name.localeCompare(CBY[b.country].name, 'en', { sensitivity: 'base' });
+    if ((a.day || 0) !== (b.day || 0)) return (a.day || 0) - (b.day || 0);
+    return (parseFloat(a.num) || 0) - (parseFloat(b.num) || 0);
+}
+
+function syncFilters() {
+    const list = scoped();
+    const base = list.filter(matchesQuery);
+    $('#scope').innerHTML = `
+        <button type="button" data-scope="cur" aria-pressed="${true}">${state.country ? CBY[state.country].name : state.tab === 'national' ? 'All countries' : 'All competitions'}${state.year !== null ? ' ' + state.year : ''}</button>
+        <button type="button" data-scope="all" aria-pressed="${false}" ${!(state.country || state.year !== null) ? 'hidden' : ''}>Everything</button>`;
+
+    const days = [...new Set(list.map(p => p.day).filter(d => d !== null))].sort((a, b) => a - b);
+    const dcounts = {}; days.forEach(d => dcounts[d] = base.filter(p => p.day === d).length);
+    const partial = browseTotal();
+    const dayLabel = d => {
+        const labels = new Set(list.filter(p => p.day === d).map(p => p.paperLabel || 'Day ' + d));
+        if (labels.size > 1 && [...labels].every(l => /^(?:Session|Paper) [A-C]$/.test(l))) {
+            const letters = new Set([...labels].map(l => l.slice(-1)));
+            if (letters.size === 1) return 'Paper ' + [...letters][0];
+        }
+        return labels.size === 1 ? [...labels][0] : 'Day / Paper ' + d;
+    };
+    const dayOpts = [['all', 'All', partial || base.length]].concat(days.map(d => [String(d), dayLabel(d), dcounts[d]]));
+    $('#dayChips').closest('div').style.display = days.length ? '' : 'none';
+    $('#dayChips').innerHTML = dayOpts.map(([v, l, n]) => `<button type="button" class="chip" data-day="${v}" aria-pressed="${state.day === v}">${l}${partial && v !== 'all' ? '' : `<span class="n">${n}</span>`}</button>`).join('');
+
+    const rank = t => TOPICS.includes(t) ? TOPICS.indexOf(t) : TOPICS.length;
+    const topics = [...new Set(list.flatMap(p => p.topics))].sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
+    const tcounts = {}; topics.forEach(t => tcounts[t] = base.filter(p => p.topics.includes(t)).length);
+    $('#topicChips').closest('div').style.display = topics.length ? '' : 'none';
+    const topicOpts = [['all', 'All', partial || base.length]].concat(topics.map(t => [t, t, tcounts[t]]));
+    $('#topicChips').innerHTML = topicOpts.map(([v, l, n]) => `<button type="button" class="chip" data-topic="${esc(v)}" aria-pressed="${state.topic === v}">${esc(l)}${partial && v !== 'all' ? '' : `<span class="n">${n}</span>`}</button>`).join('');
+}
+
+/* ==========================================================
+   Results
+   ========================================================== */
+const box = () => $('#resultsBox');
+
+function scopeTitle() {
+    if (state.country && state.year !== null) return [`${CBY[state.country].flag} ${CBY[state.country].name} ${state.year}`, CBY[state.country].full || ''];
+    if (state.country) return [`${CBY[state.country].flag} ${CBY[state.country].name}`, CBY[state.country].full ? `${CBY[state.country].full} · All years` : 'All years'];
+    const nat = state.tab === 'national';
+    const tabLabel = (TABS.find(([k]) => k === state.tab) || TABS[0])[1];
+    const label = tabLabel.toLowerCase();
+    if (state.year !== null) return [String(state.year), nat ? 'All countries' : `All ${label} competitions`];
+    return [nat ? 'All problems' : `All ${label} problems`, nat ? 'Every country, every year' : 'Every competition, every year'];
+}
+function headHtml(count) {
+    const [t, sub] = scopeTitle();
+    const wide = state.country || state.year !== null;
+    return `
+    <div class="res-head">
+        <h2 class="res-title" id="resTitle">${esc(t)}<span class="res-count">${count === null ? '' : countText(count)}</span>${sub ? `<span class="sub">${esc(sub)}</span>` : ''}</h2>
+        <div class="res-actions">
+            ${filtersOn() ? '<button type="button" class="btn btn-sm btn-quiet" data-clear-filters>Clear filters</button>' : ''}
+            ${wide || filtersOn() ? '<button type="button" class="btn btn-sm btn-quiet" data-copy-view>Copy link to this view</button>' : ''}
+            ${wide ? `<button type="button" class="btn btn-sm" data-all-scope>${state.tab === 'national' ? 'All countries, all years' : 'All competitions, all years'}</button>` : ''}
+            ${count && count <= 60 ? `<button type="button" class="btn btn-sm" data-add-all>${ICON.plus} Add all (${count})</button>` : ''}
+        </div>
+    </div>`;
+}
+
+function safeSourceUrl(value) {
+    try { const url = new URL(value); return /^https?:$/.test(url.protocol) ? url.href : null; }
+    catch (e) { return null; }
+}
+function provenanceHtml(p, print = false) {
+    const meta = collectionMetadata[CBY[p.country].file];
+    const gaps = meta?.missing_problem_numbers?.[String(p.year)];
+    const candidate = meta?.statement_checks?.[p.uid];
+    const editorial = meta?.statement_notes?.[p.uid];
+    const editorialText = editorial && sameStatement(editorial, p.text) ? editorial.text : '';
+    const source = candidate && safeSourceUrl(candidate.source_url);
+    const sourcePages = Number.isInteger(candidate?.source_page) && candidate.source_page > 0
+        ? [candidate.source_page] : Array.isArray(candidate?.source_pages) && candidate.source_pages.length
+            && candidate.source_pages.every(n => Number.isInteger(n) && n > 0) ? candidate.source_pages : [];
+    const pageReference = `${sourcePages.length === 1 ? 'page' : 'pages'} ${sourcePages.join(', ')}`;
+    // A changed statement must lose its checked badge immediately, even before CI.
+    const archiveChecked = candidate?.status === 'statement_checked_against_archive_tex'
+        && candidate.verification_basis === 'archive_tex_textual_comparison_with_focused_pdf_checks'
+        && sameStatement(candidate, p.text) && source;
+    const checked = archiveChecked || candidate?.status === 'statement_checked_against_source'
+        && sameStatement(candidate, p.text) && source
+        && sourcePages.length > 0;
+    const compared = candidate?.status === 'statement_compared_against_secondary_source'
+        && candidate.source_format === 'Reworded secondary HTML archive by John Scholes'
+        && sameStatement(candidate, p.text) && source;
+    const sourceDownload = checked && safeSourceUrl(candidate.source_download_url);
+    const originalLink = sourceDownload ? ` <a href="${esc(sourceDownload)}" target="_blank" rel="noopener noreferrer">${candidate.source_download_kind === 'statements_only' ? 'Statements PDF (no solutions)' : candidate.source_format === 'doc' ? 'Original document (Word)' : 'Original PDF'}</a>.` : '';
+    const editedChecked = checked && !archiveChecked && candidate.original_wording_verified === false;
+    const unresolved = (checked || compared) && /^(?:Source ambiguity|Incomplete source condition|Unresolved source (?:error|variant)|Potential source typo|Source omission|Source convention omission)/.test(editorialText);
+    const status = unresolved ? 'Source issue — awaiting verification' : archiveChecked ? 'Statement checked against archive transcription (AI-assisted)' : editedChecked ? 'Edited statement — source correction recorded' : checked ? 'Statement checked against source (AI-assisted)' : compared ? 'Secondary-source comparison (AI-assisted)' : 'Sources and notes';
+    const note = gaps ? `Incomplete year: missing problem ${gaps.join(', ')}.` : '';
+    const checkDetail = compared ? `<p>Compared textually on ${esc(candidate.checked_at)} with <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">John Scholes’ reworded secondary archive</a>, problem ${esc(candidate.source_problem_number)}. This is an edited transcription; original examination wording has not been verified.</p>${candidate.source_variant_note ? `<p>${esc(candidate.source_variant_note)}</p>` : ''}` : archiveChecked ? `<p>Checked textually on ${esc(candidate.checked_at)} against the archive’s declared verbatim examination transcription: <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">TeX statement source</a>, problem ${esc(candidate.source_problem_number)}. Source differences and visual dependencies received focused PDF checks. This does not assert visual comparison with every original MAA examination scan.</p>` : editedChecked ? `<p>The source was reviewed on ${esc(candidate.checked_at)}: <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">Printed statement source${candidate.source_contains_solutions ? ' (includes solutions)' : ''}</a>, ${pageReference}, problem ${esc(candidate.source_problem_number)}. The explicit editorial correction is described above; the displayed formulation is not presented as the original printed wording.</p>` : checked ? `<p>Compared visually and textually on ${esc(candidate.checked_at)}. <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">Exam source${candidate.source_contains_solutions ? ' (includes solutions)' : ''}</a>, ${pageReference}, source problem ${esc(candidate.source_problem_number)}. This checks statement fidelity, not the solution or independent mathematical correctness.${originalLink}</p>` : '';
+    const links = (meta?.source_links || []).map(link => {
+        const url = safeSourceUrl(link.url);
+        return url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Archive research link</a>` : '';
+    }).filter(Boolean);
+    if (print) {
+        const text = [(checked || compared) ? status + '.' : '', note ? esc(note) : '', editorialText ? esc(editorialText) : '', (checked || compared) ? `Source: ${esc(source)}, ${checked && !archiveChecked ? pageReference + ', ' : ''}problem ${esc(candidate.source_problem_number)}; checked ${esc(candidate.checked_at)}.` : ''].filter(Boolean).join(' ');
+        return text ? `<p class="ps-src">${text}</p>` : '';
+    }
+    if (!checked && !compared && !note && !editorialText && !links.length) return '';
+    return `${editorialText ? `<p class="ps-src">${esc(editorialText)}</p>` : ''}<details class="provenance"><summary>${status}${note ? ' · Incomplete year' : ''}</summary>
+        ${note ? `<p>${esc(note)}</p>` : ''}${checkDetail}
+        ${meta?.verification_notes ? `<p>${esc(meta.verification_notes)}</p>` : ''}
+        ${links.length ? `<ul>${links.map(link => `<li>${link}</li>`).join('')}</ul>` : '<p>No archive research link has been recorded for this collection yet.</p>'}
+    </details>`;
+}
+
+/* ---------- Physics connections (shared concepts) ---------- */
+const CONCEPTS = [
+    ['rigid','Rigid bodies and rotation', /\b(rigid|rotat\w*|angular momentum|moment of inertia|torque|rolling)\b/i],
+    ['oscillations','Oscillations', /\b(oscillat\w*|pendulums?|harmonic|springs?|resonan\w*|normal modes?)\b/i],
+    ['gravitation','Gravitation and orbits', /\b(gravitation\w*|orbits?|planets?|satellites?|kepler)\b/i],
+    ['fluids','Fluids', /\b(fluids?|liquids?|viscos\w*|buoyan\w*|surface tension|hydrostatic|flow)\b/i],
+    ['collisions','Collisions and momentum', /\b(collisions?|momentum|impulse|recoil)\b/i],
+    ['electrostatics','Electrostatics', /\b(charges?|electric field|potential|capacit\w*|dielectric)\b/i],
+    ['circuits','Circuits', /\b(circuits?|resist\w*|inductors?|inductance|currents?|batter(?:y|ies))\b/i],
+    ['magnetism','Magnetism and induction', /\b(magnetic|magnets?|induction|induced|lorentz|solenoids?|coils?)\b/i],
+    ['gases','Gases and heat engines', /\b(ideal gas|gas(?:es)?|adiabatic|isothermal|cycles?|heat engines?)\b/i],
+    ['heat','Heat transfer and phase changes', /\b(heat|conduction|radiation|evaporat\w*|melting|boiling|latent|vapou?r)\b/i],
+    ['geometric-optics','Geometrical optics', /\b(lens(?:es)?|mirrors?|refract\w*|prisms?|focal)\b/i],
+    ['wave-optics','Interference and diffraction', /\b(interferen\w*|diffract\w*|gratings?|slits?|coherent)\b/i],
+    ['waves','Waves and sound', /\b(waves?|sound|acoustic\w*|doppler|wavelengths?)\b/i],
+    ['relativity','Relativity', /\b(relativ\w*|lorentz factor|speed of light|rest mass)\b/i],
+    ['quantum','Quantum and atomic physics', /\b(quantum|photons?|atoms?|atomic|bohr|planck|de broglie|spectr\w*)\b/i],
+    ['nuclear','Nuclear and particle physics', /\b(nucle\w*|radioactiv\w*|decay|neutrons?|protons?|neutrinos?|mesons?)\b/i],
+    ['astro','Astrophysics', /\b(stars?|sun|galax\w*|cosmolog\w*|black holes?|telescopes?)\b/i]
+];
+function reviewedDna(p) {
+    const record = problemDna.records?.[p.uid];
+    return record && record.reviewed_statement === p.text && Array.isArray(record.techniques)
+        && record.techniques.every(t => problemDna.techniques?.[t])
+        && Number.isInteger(record.practice_level) && record.practice_level >= 1 && record.practice_level <= 3 ? record : null;
+}
+function problemConcepts(p) {
+    const dna = reviewedDna(p);
+    const text = p.text.replace(/https?:\/\/\S+/g, '');
+    return [...new Set([...CONCEPTS.filter(([, , regex]) => regex.test(text)).map(([id]) => id), ...(dna?.concepts || [])])];
+}
+function conceptLabel(id) { return CONCEPTS.find(([key]) => key === id)?.[1] || id; }
+function dnaHtml(p) {
+    const dna = reviewedDna(p);
+    const concepts = problemConcepts(p);
+    return `<details class="provenance math-profile"><summary>Physics connections</summary>
+        ${concepts.length ? `<p>${concepts.map(id => `<span class="p-tag">${esc(conceptLabel(id))}</span>`).join(' ')}</p>` : ''}
+        ${dna ? `<details><summary>Problem DNA — reveal techniques</summary><p>${dna.techniques.map(t => esc(problemDna.techniques[t])).join(' → ')}</p><p>Practice level ${dna.practice_level}/3 · AI-assisted solution analysis</p></details>` : ''}
+        <button type="button" class="btn btn-sm" data-related="${esc(p.uid)}">Explore related problems</button>
+    </details>`;
+}
+function relatedProblems(source, candidates) {
+    const sourceConcepts = new Set(problemConcepts(source));
+    const dna = reviewedDna(source);
+    const techniques = new Set(dna?.techniques || []);
+    return candidates.filter(p => p.uid !== source.uid && p.text.trim() !== source.text.trim()).map(p => {
+        const shared = problemConcepts(p).filter(t => sourceConcepts.has(t));
+        const other = reviewedDna(p);
+        const methods = (other?.techniques || []).filter(t => techniques.has(t));
+        return {problem:p, shared, methods, dna:other, score:shared.length + methods.length * 4};
+    }).filter(x => x.methods.length || x.shared.length >= 2).sort((a,b) => b.score-a.score || Number(a.problem.country === source.country)-Number(b.problem.country === source.country) || a.problem.uid.localeCompare(b.problem.uid));
+}
+function relatedCard(item) {
+    const p = item.problem, country = CBY[p.country];
+    const reason = item.methods.length ? 'Shared techniques: ' + item.methods.map(t => problemDna.techniques[t]).join(', ') : 'Shared concepts: ' + item.shared.map(conceptLabel).join(', ');
+    return `<article class="related-card"><h3>${esc(country.name)} ${p.year}${p.paperLabel ? `, ${esc(p.paperLabel)}` : p.day ? `, Day ${p.day}` : ''}, #${esc(p.num)}</h3><p>${esc(reason)}</p>
+        <div class="statement">${bodyHtml(p.text, p)}</div><div class="ex-actions"><button type="button" class="btn btn-sm" data-open-problem="${esc(p.uid)}">Open problem</button><button type="button" class="btn btn-sm" data-toggle-uid="${esc(p.uid)}" aria-pressed="${selected.includes(p.uid)}">Add / remove from my set</button></div></article>`;
+}
+let relatedToken = 0;
+async function showRelated(uid) {
+    const source = byUid.get(uid); if (!source) return;
+    const token = ++relatedToken, dialog = $('#relatedDialog');
+    $('#relatedTitle').textContent = `${CBY[source.country].name} ${source.year}${source.paperLabel ? ", " + source.paperLabel : ""}, #${source.num} — Connections`;
+    $('#relatedContent').textContent = 'Finding related problems…';
+    if (!dialog.open) dialog.showModal();
+    await loadAll();
+    if (token !== relatedToken || !dialog.open) return;
+    const related = relatedProblems(source, [...byUid.values()]);
+    const dna = reviewedDna(source);
+    const easier = dna ? related.filter(x => x.dna && x.dna.practice_level < dna.practice_level).slice(0,2) : [];
+    const harder = dna ? related.filter(x => x.dna && x.dna.practice_level > dna.practice_level).slice(0,2) : [];
+    const used = new Set([...easier,...harder].map(x => x.problem.uid));
+    const similar = related.filter(x => !used.has(x.problem.uid)).slice(0,5);
+    $('#relatedContent').innerHTML = '<p>Explore common concepts. Shared concepts suggest a connection; shared techniques come from the reviewed DNA sample.</p>'
+        + (failed.size ? '<p>Some collections are unavailable and are omitted from these suggestions.</p>' : '')
+        + (easier.length ? '<h3>Earlier practice step</h3>' + easier.map(relatedCard).join('') : '')
+        + (similar.length ? '<h3>Related problems</h3>' + similar.map(relatedCard).join('') : '')
+        + (harder.length ? '<h3>Next challenge</h3>' + harder.map(relatedCard).join('') : '')
+        + (!related.length ? '<p>No sufficiently close connection was found yet.</p>' : '');
+    await typeset($('#relatedContent'));
+}
+async function openRelatedProblem(uid) {
+    const p = byUid.get(uid); if (!p) return;
+    ++relatedToken; $('#relatedDialog').close();
+    state.country = p.country; state.year = p.year; state.day = 'all'; state.topic = 'all'; state.q = ''; $('#q').value = ''; limit = PAGE;
+    await refresh();
+    const card = document.getElementById('p-' + uid);
+    if (card) { card.tabIndex = -1; card.focus(); card.scrollIntoView({behavior:'smooth',block:'start'}); }
+}
+
+function problemHtml(p) {
+    const c = CBY[p.country];
+    return `
+    <article class="problem f-${p.country}" id="p-${p.uid}">
+        <div class="p-head">
+            <div class="p-id">
+                <span class="p-num">${esc(p.num)}</span>
+                <span class="p-meta">${c.flag} ${c.name} ${p.year}${p.paperLabel ? `, ${esc(p.paperLabel)}` : p.day ? `, Day ${p.day}` : ''}</span>
+                ${p.topic ? `<span class="p-tag">${esc(p.topic)}</span>` : ''}
+            </div>
+            <div class="p-actions">
+            ${STATS_URL ? `<span class="p-views" data-views="${p.uid}" title="Views"></span>
+            <button type="button" class="btn btn-sm like" data-like="${p.uid}" aria-pressed="${typeof statsLiked !== 'undefined' && statsLiked.has(p.uid)}" aria-label="Like this problem" title="Like"><span class="lh" aria-hidden="true">♥</span><span class="lc"></span></button>` : ''}
+            ${aiActionHtml(p)}
+            <button type="button" class="btn btn-sm add" data-toggle-uid="${p.uid}" aria-pressed="false">
+                <span class="off">${ICON.plus} Add</span>
+                <span class="on">${ICON.check} In my set</span>
+            </button>
+            </div>
+        </div>
+        <div class="statement">${bodyHtml(p.text, p)}</div>
+        ${provenanceHtml(p)}
+        ${dnaHtml(p)}
+    </article>`;
+}
+
+function showLoading(text) { box().innerHTML = headHtml(null) + `<div class="state" role="status"><span class="spinner" aria-hidden="true"></span><p id="loadText">${text}</p></div>`; }
+function neededCountries() {
+    if (state.country) return [state.country];
+    const all = tabRows().map(c => c.key);
+    if (!manifest) return all;
+    const has = (k, test) => { const ys = manifestYears(k); return !ys || Object.keys(ys).some(y => test(+y)); };
+    if (state.year !== null) return all.filter(k => has(k, y => y === state.year));
+    if (filtersOn()) return all;
+    const [cy, ci] = browseCutoff();
+    return all.filter((k, i) => !manifestYears(k) || has(k, y => y > cy || (y === cy && i <= ci)));
+}
+function pendingCountries() { return neededCountries().filter(k => !cache.has(k) && !failed.has(k)); }
+function progressText() {
+    const need = neededCountries();
+    const done = need.filter(k => cache.has(k) || failed.has(k)).length;
+    return need.length > 1 ? `Loading… ${done} of ${need.length} collections` : 'Loading…';
+}
+function showCountryError(key) {
+    const msg = failed.get(key) || 'The file could not be loaded';
+    box().innerHTML = headHtml(null) + `
+        <div class="state error" role="alert">
+            <h3>${CBY[key].name}'s problems did not load</h3>
+            ${/valid JSON|identifiers|under review/.test(msg)
+                ? `<p>${esc(msg)}, This collection cannot be shown until the data is repaired. Other countries work normally.</p>`
+                : `<p>${esc(msg)}. Check your connection and try again.</p><button type="button" class="btn btn-primary" data-retry>Try again</button>`}
+        </div>`;
+}
+
+function renderResults() {
+    syncFilters();
+    const list = scoped();
+    const items = list.filter(p => matchesQuery(p) && matchesDay(p) && matchesTopic(p)).sort(compare);
+    shownUids = items.map(p => p.uid);
+
+    if (!items.length) {
+        const wide = state.country || state.year !== null;
+        box().innerHTML = headHtml(0) + `
+            <div class="state">
+                <h3>No problems match</h3>
+                <p>${filtersOn() ? 'Try fewer words or another filter.' : 'There is nothing in this selection yet.'}</p>
+                <div class="actions">
+                    ${filtersOn() ? '<button type="button" class="btn" data-clear-filters>Clear filters</button>' : ''}
+                    ${wide ? '<button type="button" class="btn btn-primary" data-all-scope>Search everything</button>' : ''}
+                </div>
+            </div>`;
+        say('No problems match.');
+        if (typeof syncUrl === 'function') syncUrl();
+        return;
+    }
+
+    const shown = items.slice(0, limit);
+    const total = (typeof browseTotal === 'function' && browseTotal()) || items.length;
+    let html = headHtml(total);
+    if (metadataUnavailable) html += '<p class="note">Source notes are temporarily unavailable.</p>';
+    if (!state.country && failed.size) {
+        const names = [...failed.keys()].map(k => CBY[k].name).join(', ');
+        html += `<p class="note">${failed.size === 1 ? 'One country' : failed.size + ' countries'} could not be loaded (${names}), so results may be incomplete.</p>`;
+    }
+
+    const singleGroup = state.country && state.year !== null;
+    if (singleGroup) {
+        html += shown.map(problemHtml).join('');
+    } else {
+        let cur = null;
+        shown.forEach(p => {
+            const key = p.country + '|' + p.year;
+            if (key !== cur) {
+                cur = key;
+                html += `<div class="yr-head"><h3 class="yr">${p.year}</h3><span class="kd">${CBY[p.country].flag} ${CBY[p.country].name}</span></div>`;
+            }
+            html += problemHtml(p);
+        });
+    }
+    if (total > shown.length) {
+        html += `<div class="more"><button type="button" class="btn" data-more>Show ${Math.min(PAGE, total - shown.length)} more</button></div>`;
+    }
+
+    box().innerHTML = html;
+    syncAddButtons();
+    typesetVisible(box());
+    statsObserve(box());
+    say(`${countText(total)}.`);
+    if (typeof syncUrl === 'function') syncUrl();
+}
+
+async function refresh() {
+    const token = ++renderToken;
+    syncMatrix();
+    syncFilters();
+    if (state.country && failed.has(state.country) && !cache.has(state.country)) { showCountryError(state.country); return; }
+    const need = pendingCountries();
+    if (need.length) {
+        showLoading(progressText());
+        await Promise.allSettled(need.map(loadCountry));
+        if (token !== renderToken) return;
+        if (state.country && failed.has(state.country) && !cache.has(state.country)) { showCountryError(state.country); return; }
+    }
+    renderResults();
+}
+
+/* ==========================================================
+   My problem set
+   ========================================================== */
+const getSelected = () => selected.map(u => byUid.get(u)).filter(Boolean);
+function persist() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(selected)); } catch (e) { /* private browsing */ } }
+function readSaved() {
+    try { const v = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); return Array.isArray(v) ? v.filter(x => typeof x === 'string') : []; }
+    catch (e) { return []; }
+}
+function syncAddButtons() { $$('[data-toggle-uid]').forEach(b => b.setAttribute('aria-pressed', String(selected.includes(b.dataset.toggleUid)))); }
+
+function renderExam() {
+    const items = getSelected();
+    $('#examCount').textContent = items.length;
+    $('#examList').innerHTML = items.length
+        ? `<ol class="ex-list">${items.map((p, i) => `
+            <li class="ex-item f-${p.country}">
+                <span class="ex-n">${i + 1}</span>
+                <div class="ex-t"><strong>${CBY[p.country].flag} ${CBY[p.country].name} ${p.year}, #${esc(p.num)}</strong><span>${p.paperLabel ? esc(p.paperLabel) : p.day ? `Day ${p.day}` : ''}${p.topic ? (p.day ? ', ' : '') + esc(p.topic) : ''}</span></div>
+                <div class="ex-ctl">
+                    <button type="button" class="icon-btn" data-up="${p.uid}" aria-label="Move up: item ${i + 1}" ${i === 0 ? 'disabled' : ''}>${ICON.up}</button>
+                    <button type="button" class="icon-btn" data-down="${p.uid}" aria-label="Move down: item ${i + 1}" ${i === items.length - 1 ? 'disabled' : ''}>${ICON.down}</button>
+                    <button type="button" class="icon-btn rm" data-remove="${p.uid}" aria-label="Remove item ${i + 1}">${ICON.x}</button>
+                </div>
+            </li>`).join('')}</ol>`
+        : '<p class="ex-empty">Your set is empty. Press “Add” next to any problem to collect it here.</p>';
+    ['#printBtn', '#shareBtn', '#clearBtn', '#saveSetBtn'].forEach(s => { $(s).disabled = !items.length; });
+    syncAddButtons();
+    renderPrintSheet();
+}
+
+function changeSelection(fn, message) { fn(); persist(); renderExam(); if (message) say(message); }
+function toggleUid(uid) {
+    const p = byUid.get(uid);
+    const label = p ? `${CBY[p.country].name} ${p.year}, problem ${p.num}` : 'Problem';
+    if (selected.includes(uid)) changeSelection(() => { selected = selected.filter(u => u !== uid); }, `${label} removed from your set.`);
+    else changeSelection(() => { selected.push(uid); }, `${label} added to your set.`);
+}
+function move(uid, delta) {
+    const i = selected.indexOf(uid), j = i + delta;
+    if (i < 0 || j < 0 || j >= selected.length) return;
+    changeSelection(() => { [selected[i], selected[j]] = [selected[j], selected[i]]; });
+    const btn = $(`[data-${delta < 0 ? 'up' : 'down'}="${uid}"]`);
+    if (btn && !btn.disabled) btn.focus();
+}
+
+/* ---------- Named collections ---------- */
+const COLLECTIONS_KEY = STORAGE_KEY + ':collections';
+const OPTIONS_KEY = STORAGE_KEY + ':options';
+function currentOptions() {
+    return {title: $('#examTitle').value.trim(), showSource: $('#showSource').checked, space: $('#solutionSpace').value};
+}
+function applyOptions(options = {}) {
+    $('#examTitle').value = typeof options.title === 'string' ? options.title.slice(0, 200) : '';
+    $('#showSource').checked = options.showSource !== false;
+    $('#solutionSpace').value = ['0','40','80'].includes(String(options.space)) ? String(options.space) : '0';
+}
+function saveOptions() { try { localStorage.setItem(OPTIONS_KEY, JSON.stringify(currentOptions())); } catch (e) {} }
+function readCollections() {
+    try {
+        const value = JSON.parse(localStorage.getItem(COLLECTIONS_KEY) || '[]');
+        return Array.isArray(value) ? value.filter(x => x && typeof x.id === 'string' && typeof x.name === 'string' && Array.isArray(x.uids) && x.uids.every(u => typeof u === 'string')) : [];
+    } catch (e) { return []; }
+}
+function renderCollections() {
+    const list = readCollections();
+    const previous = $('#savedSets').value;
+    $('#savedSets').innerHTML = '<option value="">Choose a collection</option>' + list.map(x => `<option value="${esc(x.id)}">${esc(x.name)} (${x.uids.length})</option>`).join('');
+    $('#savedSets').value = list.some(x => x.id === previous) ? previous : '';
+    syncCollectionButtons();
+}
+function syncCollectionButtons() {
+    const chosen = !!$('#savedSets').value;
+    $('#loadSetBtn').disabled = !chosen;
+    $('#deleteSetBtn').disabled = !chosen;
+}
+function saveCollection() {
+    if (!selected.length) return;
+    const name = window.prompt('Name this collection:', $('#examTitle').value.trim() || 'My problem set');
+    if (!name || !name.trim()) return;
+    const list = readCollections();
+    const record = {id: Date.now().toString(36) + Math.random().toString(36).slice(2,8), name: name.trim().slice(0,200), uids: [...selected], options: currentOptions()};
+    list.push(record);
+    try { localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list)); }
+    catch (e) { $('#collectionStatus').textContent = 'Could not save. Allow browser storage or keep a share link.'; return; }
+    renderCollections(); $('#savedSets').value = record.id; syncCollectionButtons();
+    $('#collectionStatus').textContent = 'Collection saved on this device.';
+}
+async function openCollection() {
+    const record = readCollections().find(x => x.id === $('#savedSets').value);
+    if (!record) return;
+    if (selected.length && !window.confirm('Replace the current set with this saved collection?')) return;
+    $('#loadSetBtn').disabled = true;
+    try {
+        const uids = await hydrate(record.uids);
+        applyOptions(record.options); saveOptions();
+        changeSelection(() => { selected = [...new Set(uids)]; });
+        const unavailable = record.uids.filter(u => !byUid.has(u)).length;
+        $('#collectionStatus').textContent = unavailable ? `Collection opened; ${unavailable} problems are unavailable. The saved collection is retained.` : 'Collection opened.';
+    } finally { syncCollectionButtons(); }
+}
+function deleteCollection() {
+    const id = $('#savedSets').value;
+    if (!id || !window.confirm('Delete this saved collection? The current set will stay open.')) return;
+    try { localStorage.setItem(COLLECTIONS_KEY, JSON.stringify(readCollections().filter(x => x.id !== id))); }
+    catch (e) { $('#collectionStatus').textContent = 'Could not delete the saved collection.'; return; }
+    renderCollections(); $('#collectionStatus').textContent = 'Saved collection deleted.';
+}
+
+/* ---------- Print ---------- */
+function renderPrintSheet() {
+    const items = getSelected();
+    const showSrc = $('#showSource').checked;
+    const title = $('#examTitle').value.trim() || 'Physics Olympiads problem set';
+    $('#printSheet').innerHTML = items.length
+        ? `<header class="ps-head"><h1></h1><p>eisatopon.gr</p></header>` + items.map((p, i) => `
+            <section class="ps-item">
+                <div class="ps-num">${i + 1}.</div>
+                <div class="ps-body">
+                    ${showSrc ? `<p class="ps-src">${CBY[p.country].name} ${p.year}${p.paperLabel ? `, ${esc(p.paperLabel)}` : p.day ? `, Day ${p.day}` : ''}, Problem ${esc(p.num)}${p.topic ? ` (${esc(p.topic)})` : ''}</p>` : ''}
+                    <div class="statement">${bodyHtml(p.text, p)}</div>
+                    ${showSrc ? provenanceHtml(p, true) : ''}
+                    ${$('#solutionSpace').value !== '0' ? `<div class="solution-space" style="height:${Number($('#solutionSpace').value)}mm" aria-label="Space for solution"></div>` : ''}
+                </div>
+            </section>`).join('')
+        : '';
+    const h1 = $('#printSheet h1');
+    if (h1) h1.textContent = title;
+    return items.length ? typeset($('#printSheet')) : Promise.resolve();
+}
+async function doPrint() {
+    if (!getSelected().length) return;
+    await renderPrintSheet();
+    await Promise.all([...$('#printSheet').querySelectorAll('img')].map(img => {
+        img.loading = 'eager';
+        if (img.complete) return Promise.resolve();
+        return new Promise(resolve => { const timer = setTimeout(resolve, 8000); const done = () => { clearTimeout(timer); resolve(); }; img.addEventListener('load', done, {once:true}); img.addEventListener('error', done, {once:true}); });
+    }));
+    window.print();
+}
+
+/* ---------- Share ---------- */
+function shareUrl() {
+    const url = new URL(location.href.split(/[?#]/)[0]);
+    const options = currentOptions();
+    url.searchParams.set('set', selected.join(','));
+    if (options.title) url.searchParams.set('title', options.title);
+    url.searchParams.set('sources', options.showSource ? '1' : '0');
+    url.searchParams.set('space', options.space);
+    return url.href;
+}
+function openShare() {
+    if (!selected.length) return;
+    const url = shareUrl();
+    $('#shareUrl').value = url;
+    $('#copyStatus').textContent = '';
+    const dlg = $('#shareDialog');
+    if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+}
+async function copyLink() {
+    const input = $('#shareUrl');
+    try { await navigator.clipboard.writeText(input.value); }
+    catch (e) { input.select(); document.execCommand('copy'); }
+    $('#copyStatus').textContent = 'Link copied.';
+}
+
+/* ---------- ChatGPT handoff; no API calls or solution storage ---------- */
+function aiPrompt(p, request) {
+    const c = CBY[p.country];
+    const label = `${c.name} ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : p.day ? `, Day / Test ${p.day}` : ''}, problem ${p.num}`;
+    const figure = /https?:\/\/\S+\.(?:png|jpe?g|gif|webp)\b/i.test(p.text);
+    return `${request || 'Give a complete solution to the following physics olympiad problem, part by part (1.1, 1.2, …), with clear explanations and standard LaTeX. State the physical principles and every approximation you use, keep track of units, and give numerical answers with sensible significant figures, using only the data and constants given in the statement. If you cannot complete a part, say what remains unresolved.'}\n\n${label}\n\n${p.text}` +
+        (figure ? '\n\nThe statement includes figure links. Inspect the figures before using them. If you cannot access them, ask me to upload the images; do not guess their contents.' : '');
+}
+const AI_PROVIDERS = {chatgpt: {name: 'ChatGPT', q: 'https://chatgpt.com/?q=', home: 'https://chatgpt.com/'},
+    claude: {name: 'Claude', q: 'https://claude.ai/new?q=', home: 'https://claude.ai/new'},
+    // Gemini has no prefill link: the prompt is copied to the clipboard and Gemini opens for pasting.
+    gemini: {name: 'Gemini', q: '', home: 'https://gemini.google.com/app', paste: true}};
+function aiProvider() { try { const v = localStorage.getItem('nob-ai'); return AI_PROVIDERS[v] ? v : 'chatgpt'; } catch (e) { return 'chatgpt'; } }
+function aiUrl(text, provider = aiProvider()) {
+    const pr = AI_PROVIDERS[provider] || AI_PROVIDERS.chatgpt;
+    if (pr.paste) return pr.home;
+    const url = pr.q + encodeURIComponent(text);
+    // Practical portable URL budget; never truncate the statement.
+    return url.length <= 8000 ? url : pr.home;
+}
+function aiRequest(mode, question) {
+    if (mode === 'hint') return 'Give only one small, useful hint for the following physics olympiad problem (for the first part I have not solved yet, or for the part I name). Point to the physical idea, not the computation. Preserve all given data and approximations. Do not reveal the full solution, the final answer or subsequent steps. Wait for my next question.';
+    if (mode === 'check') return 'Check my solution to the following physics olympiad problem. Go through it part by part and step by step, point out every wrong principle, unjustified approximation, algebra or unit error and wrong numerical value, and say clearly which parts are correct and complete. Preserve all given data and approximations. Do not give a different full solution unless I ask for one.\n\nMy solution:\n' + question;
+    if (mode === 'custom') return 'Address only my request about the following physics olympiad problem. Preserve all given data and approximations. Do not provide a full solution unless I ask for one.\n\nMy request: ' + question;
+    return undefined;
+}
+// href and fallback flag of an Ask AI link: a direct prefill link, the paste-provider home page, or '#' (open the copy dialog).
+function aiLinkState(url) {
+    const paste = !!(AI_PROVIDERS[aiProvider()] || {}).paste, direct = url.includes('?q=');
+    return {href: direct || paste ? url : '#', fallback: !direct && !paste};
+}
+function aiActionHtml(p) {
+    const uid = esc(p.uid), prov = aiProvider();
+    const link = (mode, label) => {
+        const st = aiLinkState(aiUrl(aiPrompt(p, aiRequest(mode))));
+        return `<a class="ai-choice" href="${esc(st.href)}" target="_blank" rel="noopener noreferrer" data-ai-link="${uid}" data-ai-mode="${mode}" data-ai-fallback="${st.fallback}">${label}</a>`;
+    };
+    return `<details class="ai-menu" data-ai-uid="${uid}">
+        <summary class="btn btn-sm ask-ai" aria-label="Ask AI: problem ${esc(p.num)}">Ask AI ▾</summary>
+        <div class="ai-options">
+            <div class="ai-prov" role="group" aria-label="AI assistant">${Object.entries(AI_PROVIDERS).map(([k, v]) => `<button type="button" data-ai-provider="${k}" aria-pressed="${k === prov}">${v.name}</button>`).join('')}</div>
+            ${link('hint', '💡 One small hint')}
+            ${link('solution', '📝 Full solution')}
+            <details class="ai-custom"><summary class="ai-choice">✅ Check my solution</summary>
+                <textarea data-ai-question="${uid}" data-ai-kind="check" aria-label="Your solution to problem ${esc(p.num)}" placeholder="Write or paste your solution here."></textarea>
+                <a class="btn btn-sm ask-ai" data-ai-link="${uid}" data-ai-mode="check" target="_blank" rel="noopener noreferrer" hidden>Check in <span data-ai-name>${AI_PROVIDERS[prov].name}</span> ↗</a>
+            </details>
+            <details class="ai-custom"><summary class="ai-choice">✍️ My own question</summary>
+                <textarea data-ai-question="${uid}" aria-label="Your question about problem ${esc(p.num)}" placeholder="For example: Give me only the first step."></textarea>
+                <a class="btn btn-sm ask-ai" data-ai-link="${uid}" data-ai-mode="custom" target="_blank" rel="noopener noreferrer" hidden>Open in <span data-ai-name>${AI_PROVIDERS[prov].name}</span> ↗</a>
+            </details>
+            <button type="button" class="ai-choice ai-copy" data-ask-ai="${uid}">Copy statement / request</button>
+            <p class="ai-note">AI answers can be wrong — check every step.</p>
+        </div>
+    </details>`;
+}
+function updateAiQuestion(input) {
+    const p = byUid.get(input.dataset.aiQuestion);
+    if (!p) return;
+    const link = input.closest('.ai-custom').querySelector('[data-ai-link]');
+    const question = input.value.trim();
+    link.hidden = !question;
+    const st = aiLinkState(aiUrl(aiPrompt(p, aiRequest(input.dataset.aiKind || 'custom', question))));
+    link.href = st.href;
+    link.dataset.aiFallback = String(st.fallback);
+}
+function setAiProvider(provider) {
+    if (!AI_PROVIDERS[provider]) return;
+    try { localStorage.setItem('nob-ai', provider); } catch (e) {}
+    document.querySelectorAll('[data-ai-provider]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.aiProvider === provider)));
+    document.querySelectorAll('[data-ai-name]').forEach(n => { n.textContent = AI_PROVIDERS[provider].name; });
+    document.querySelectorAll('a[data-ai-link]').forEach(a => {
+        const p = byUid.get(a.dataset.aiLink), mode = a.dataset.aiMode;
+        if (!p) return;
+        if (mode === 'custom' || mode === 'check') { const q = a.closest('.ai-custom')?.querySelector('[data-ai-question]'); if (q) updateAiQuestion(q); return; }
+        const st = aiLinkState(aiUrl(aiPrompt(p, aiRequest(mode))));
+        a.href = st.href;
+        a.dataset.aiFallback = String(st.fallback);
+    });
+}
+function aiCopyAndTell(text, name) {
+    const done = ok => {
+        let t = document.getElementById('aiToast');
+        if (!t) { t = document.createElement('div'); t.id = 'aiToast'; t.setAttribute('role', 'status'); document.body.appendChild(t); }
+        t.textContent = ok ? `Copied — paste it into ${name} (Ctrl+V).` : `Could not copy automatically: use “Copy statement / request”.`;
+        t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 6000);
+    };
+    try { navigator.clipboard.writeText(text).then(() => done(true), () => done(false)); } catch (e) { done(false); }
+}
+function askAi(uid, request) {
+    const p = byUid.get(uid);
+    if (!p) return;
+    const text = aiPrompt(p, request), url = aiUrl(text), direct = url.includes('?q=');
+    $('#aiPrompt').value = text;
+    const pr = AI_PROVIDERS[aiProvider()] || AI_PROVIDERS.chatgpt;
+    $('#openAi').href = url;
+    $('#openAi').textContent = 'Open ' + pr.name;
+    $('#aiCopyStatus').textContent = '';
+    $('#aiHelp').textContent = pr.paste
+        ? `Copy the prompt below, open ${pr.name} and paste it into your conversation (Ctrl+V).`
+        : direct
+        ? `Copy the prompt below if it did not appear in ${pr.name}, then open ${pr.name} and paste it into your conversation.`
+        : `This problem is too long for a reliable link. Copy the full prompt below, open ${pr.name} and paste it into your conversation.`;
+    const dlg = $('#aiDialog');
+    if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+}
+async function copyAiPrompt() {
+    const input = $('#aiPrompt'), status = $('#aiCopyStatus');
+    try {
+        await navigator.clipboard.writeText(input.value);
+        status.textContent = 'Prompt copied.';
+    } catch (e) {
+        input.focus(); input.select();
+        let copied = false;
+        try { copied = document.execCommand('copy'); } catch (ignored) {}
+        status.textContent = copied ? 'Prompt copied.' : 'Text selected. Press Ctrl+C (or Command+C) to copy.';
+    }
+}
+
+/* ---------- Link to the current view ----------
+   ?c=<row key>&y=<year>&d=<day>&t=<topic>&q=<search> reopens exactly this selection. */
+function viewQuery() {
+    const p = new URLSearchParams();
+    if (state.tab !== TABS[0][0] && !state.country) p.set('s', state.tab);
+    if (state.country) p.set('c', state.country);
+    if (state.year !== null) p.set('y', state.year);
+    if (state.day !== 'all') p.set('d', state.day);
+    if (state.topic !== 'all') p.set('t', state.topic);
+    if (state.q.trim()) p.set('q', state.q.trim());
+    return p.toString();
+}
+let urlReady = false;
+function syncUrl() {
+    if (!urlReady) return;
+    const qs = viewQuery();
+    const url = location.pathname + (qs ? '?' + qs : '') + location.hash;
+    if (url !== location.pathname + location.search + location.hash) history.replaceState(null, '', url);
+}
+function readView() {
+    const p = new URLSearchParams(location.search);
+    const c = p.get('c'), y = +p.get('y'), d = p.get('d'), t = p.get('t'), q = p.get('q'), s = p.get('s');
+    if (s && TABS.some(([k]) => k === s)) state.tab = s;
+    if (c && CBY[c]) { state.country = c; state.tab = scopeOf(CBY[c]); }
+    if (p.has('y') && Number.isInteger(y) && y >= FIRST && y <= LAST) state.year = y;
+    if (d && /^\d{1,2}$/.test(d)) state.day = d;
+    if (t && t.length < 40) state.topic = t;
+    if (q) { state.q = q.slice(0, 120); $('#q').value = state.q; }
+    return !!(c || p.has('y') || d || t || q);
+}
+async function copyView() {
+    const url = location.origin + location.pathname + (viewQuery() ? '?' + viewQuery() : '');
+    try { await navigator.clipboard.writeText(url); say('Link to this view copied.'); }
+    catch (e) { prompt('Copy this link:', url); }
+    const b = $('[data-copy-view]'); if (b) { b.textContent = 'Link copied'; setTimeout(() => { if (b.isConnected) b.textContent = 'Copy link to this view'; }, 1800); }
+}
+function showUpdated() {
+    const m = /^(\d{4})-?(\d{2})-?(\d{2})/.exec(DATA_VERSION);
+    if (!m) return;
+    const d = new Date(Date.UTC(+m[1], +m[2] - 1, +m[3]));
+    if (isNaN(d)) return;
+    // Same text as toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'}), without loading Intl at startup.
+    const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+    $('#statUpdated').textContent = `Updated ${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
+}
+
+function parseIncoming() {
+    const set = new URLSearchParams(location.search).get('set');
+    const out = [];
+    if (set) set.split(',').forEach(t => { if (/^[a-z][a-z0-9]*\.\d{4}\.\S+\.\S+$/.test(t) && CBY[t.split('.')[0]]) out.push(t); });
+    return out;
+}
+async function hydrate(uids) {
+    const keys = [...new Set(uids.map(u => u.split('.')[0]))];
+    const results = await Promise.allSettled(keys.map(loadCountry));
+    const bad = new Set(keys.filter((k, i) => results[i].status === 'rejected'));
+    return uids.filter(u => byUid.has(u) || bad.has(u.split('.')[0]));
+}
+
+/* ==========================================================
+   Events
+   ========================================================== */
+function setScope(country, year) { state.country = country; state.year = year; limit = PAGE; refresh(); }
+
+document.addEventListener('input', e => {
+    if (e.target.matches('[data-ai-question]')) updateAiQuestion(e.target);
+});
+// Keep an opened Ask AI menu inside the screen (on phones the button can sit near the left edge).
+function fitAiMenu(menu) {
+    const panel = menu.querySelector('.ai-options');
+    if (!panel) return;
+    panel.style.right = '';
+    if (matchMedia('(max-width: 640px)').matches) return; // phones: the panel spans the card (CSS)
+    panel.style.right = '0px';
+    const r = panel.getBoundingClientRect(), gap = 8, vw = document.documentElement.clientWidth;
+    if (r.left < gap) panel.style.right = (r.left - gap) + 'px';
+    else if (r.right > vw - gap) panel.style.right = (r.right - (vw - gap)) + 'px';
+}
+document.addEventListener('toggle', e => {
+    if (e.target.matches && e.target.matches('.ai-menu') && e.target.open) fitAiMenu(e.target);
+}, true);
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') document.querySelectorAll('.ai-menu[open]').forEach(menu => { menu.open = false; menu.querySelector('summary').focus(); });
+});
+document.addEventListener('click', e => {
+    const currentMenu = e.target.closest('.ai-menu');
+    document.querySelectorAll('.ai-menu[open]').forEach(menu => { if (menu !== currentMenu) menu.open = false; });
+    const aiLink = e.target.closest('[data-ai-link]');
+    if (aiLink) {
+        const question = aiLink.closest('.ai-custom')?.querySelector('[data-ai-question]')?.value.trim() || '';
+        if (currentMenu) currentMenu.dataset.aiMode = aiLink.dataset.aiMode;
+        if ((aiLink.dataset.aiMode === 'custom' || aiLink.dataset.aiMode === 'check') && !question) { e.preventDefault(); return; }
+        if (aiLink.dataset.aiFallback === 'true') {
+            e.preventDefault(); askAi(aiLink.dataset.aiLink, aiRequest(aiLink.dataset.aiMode, question));
+        } else if ((AI_PROVIDERS[aiProvider()] || {}).paste) {
+            const p = byUid.get(aiLink.dataset.aiLink);
+            if (p) aiCopyAndTell(aiPrompt(p, aiRequest(aiLink.dataset.aiMode, question)), AI_PROVIDERS[aiProvider()].name);
+        }
+        if (currentMenu) currentMenu.open = false;
+        return;
+    }
+    const t = e.target.closest('button');
+    if (!t) return;
+
+    if (t.dataset.tab) { setTab(t.dataset.tab); return; }
+    if (t.hasAttribute('data-early')) { setEarly(!earlyYears); return; }
+    if (t.dataset.cgCell) { if (!t.disabled) countryCellClick(t.dataset.cgCell, +t.dataset.year); return; }
+    if (t.dataset.cg) { toggleCountry(t.dataset.cg); return; }
+    if (t.dataset.lgrp) { toggleGroup(t.dataset.lgrp); return; }
+    if (t.dataset.liH) { toggleListItem(t.dataset.liH); return; }
+    if (t.dataset.lyMore) { showAllListYears(t.dataset.lyMore); return; }
+    if (t.dataset.ly) { setScope(t.dataset.lc, +t.dataset.ly); scrollToResults(); return; }
+    if (t.dataset.lc) { const k = t.dataset.lc; (state.country === k && state.year === null) ? setScope(null, null) : (setScope(k, null), scrollToResults()); return; }
+    if (t.classList.contains('cell')) { if (!t.disabled) setScope(t.dataset.country, +t.dataset.year); return; }
+    if (t.dataset.yh) { const y = +t.dataset.yh; (state.year === y && state.country === null) ? setScope(null, null) : setScope(null, y); return; }
+    if (t.dataset.rl) { const k = t.dataset.rl; (state.country === k && state.year === null) ? setScope(null, null) : setScope(k, null); return; }
+    if (t.dataset.day !== undefined) { state.day = t.dataset.day; limit = PAGE; pendingCountries().length ? refresh() : renderResults(); return; }
+    if (t.dataset.topic !== undefined) { state.topic = t.dataset.topic; limit = PAGE; pendingCountries().length ? refresh() : renderResults(); return; }
+    if (t.hasAttribute('data-clear-filters')) { state.day = 'all'; state.topic = 'all'; state.q = ''; $('#q').value = ''; limit = PAGE; pendingCountries().length ? refresh() : renderResults(); return; }
+    if (t.hasAttribute('data-all-scope')) { setScope(null, null); return; }
+    if (t.hasAttribute('data-copy-view')) { copyView(); return; }
+    if (t.hasAttribute('data-retry')) { failed.clear(); refresh(); return; }
+    if (t.hasAttribute('data-more')) {
+        limit += PAGE;
+        const need = pendingCountries();
+        if (!need.length) { renderResults(); return; }
+        t.disabled = true; t.textContent = 'Loading…';
+        const token = renderToken;
+        Promise.allSettled(need.map(loadCountry)).then(() => { if (token === renderToken) renderResults(); });
+        return;
+    }
+
+    if (t.dataset.aiProvider) { setAiProvider(t.dataset.aiProvider); return; }
+    if (t.dataset.askAi) {
+        const open = [...(currentMenu?.querySelectorAll('.ai-custom[open] [data-ai-question]') || [])].find(x => x.value.trim());
+        const question = open ? open.value.trim() : '';
+        askAi(t.dataset.askAi, question ? aiRequest(open.dataset.aiKind || 'custom', question) : aiRequest(currentMenu?.dataset.aiMode));
+        if (currentMenu) currentMenu.open = false;
+        return;
+    }
+    if (t.dataset.related) { showRelated(t.dataset.related); return; }
+    if (t.dataset.openProblem) { openRelatedProblem(t.dataset.openProblem); return; }
+    if (t.dataset.toggleUid) { toggleUid(t.dataset.toggleUid); return; }
+    if (t.hasAttribute('data-add-all')) {
+        const missing = shownUids.filter(u => !selected.includes(u));
+        if (missing.length) changeSelection(() => { selected.push(...missing); }, `${missing.length} problems added to your set.`);
+        return;
+    }
+    if (t.dataset.up) { move(t.dataset.up, -1); return; }
+    if (t.dataset.down) { move(t.dataset.down, 1); return; }
+    if (t.dataset.remove) { const uid = t.dataset.remove; changeSelection(() => { selected = selected.filter(u => u !== uid); }, 'Problem removed from your set.'); return; }
+});
+
+$('#mx').addEventListener('keydown', () => {}); // (navigation handled above)
+
+let qTimer = null;
+$('#q').addEventListener('input', e => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => {
+        state.q = e.target.value.trim(); limit = PAGE;
+        if (pendingCountries().length) { refresh(); return; }
+        renderResults();
+    }, 200);
+});
+
+$('#copyAi').addEventListener('click', copyAiPrompt);
+$('#closeAi').addEventListener('click', () => $('#aiDialog').close());
+$('#closeRelated').addEventListener('click', () => { ++relatedToken; $('#relatedDialog').close(); });
+$('#saveSetBtn').addEventListener('click', saveCollection);
+$('#savedSets').addEventListener('change', syncCollectionButtons);
+$('#loadSetBtn').addEventListener('click', openCollection);
+$('#deleteSetBtn').addEventListener('click', deleteCollection);
+['examTitle','showSource','solutionSpace'].forEach(id => $('#' + id).addEventListener('change', () => { saveOptions(); renderPrintSheet(); }));
+$('#printBtn').addEventListener('click', doPrint);
+$('#shareBtn').addEventListener('click', openShare);
+$('#copyBtn').addEventListener('click', copyLink);
+$('#closeShare').addEventListener('click', () => $('#shareDialog').close());
+$('#clearBtn').addEventListener('click', () => {
+    if (!selected.length) return;
+    if (!confirm('Remove every problem from your set?')) return;
+    changeSelection(() => { selected = []; }, 'Your set was cleared.');
+});
+$('#showSource').addEventListener('change', renderPrintSheet);
+$('#examTitle').addEventListener('input', () => { const h1 = $('#printSheet h1'); if (h1) h1.textContent = $('#examTitle').value.trim() || 'Physics Olympiads problem set'; });
+
+const examEl = $('#exam'), toggleEl = $('#examToggle');
+const wide = window.matchMedia('(min-width: 1024px)');
+function syncToggle() { toggleEl.setAttribute('aria-expanded', wide.matches ? 'true' : String(examEl.classList.contains('open'))); }
+toggleEl.addEventListener('click', () => { examEl.classList.toggle('open'); syncToggle(); });
+wide.addEventListener('change', syncToggle);
+
+/* ==========================================================
+   Initialization
+   ========================================================== */
+function centerPick() {
+    const el = $('#mx .cell.pick') || $('#mx .yh.sel') || $('#mx .rl.sel');
+    const wrap = $('.mx-wrap');
+    if (!el || !wrap) return;
+    const a = el.getBoundingClientRect(), b = wrap.getBoundingClientRect();
+    wrap.scrollLeft += (a.left + a.width / 2) - (b.left + b.width / 2);
+    const row = el.closest('.mx-row');
+    if (row && !row.classList.contains('mx-years')) scrollGridTo(row);
+}
+
+async function init() {
+    $('#yr').textContent = new Date().getFullYear();
+    $('#statRows').textContent = COUNTRIES.length;
+    $('#statYears').textContent = `${FIRST}–${LAST}`;
+
+    // Start every metadata request at once and draw the grid without waiting for them.
+    const getJson = url => fetch(url, {cache: 'no-cache'}).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+    const META_V = '?v=' + DATA_VERSION;
+    // Counts per collection and year: the grid and the totals come from here, not from the full files.
+    const manifestReady = getJson('./metadata/runtime/manifest.json' + META_V).then(m => {
+        if (m.schema_version !== 1 || !m.files) throw new Error('Invalid manifest');
+        manifest = m;
+        paintTab();
+        renderTabs();
+        syncMatrix();
+    }).catch(() => { manifest = null; });
+    collectionMetadataReady = getJson('./metadata/runtime/collections.json' + META_V).then(data => {
+        if (data.schema_version !== 1 || !data.collections) throw new Error('Invalid metadata');
+        collectionMetadata = data.collections;
+    }).catch(() => { metadataUnavailable = true; });
+    const metadataReady = Promise.allSettled([
+        collectionMetadataReady,
+        getJson('./metadata/runtime/topics.json' + META_V).then(topics => {
+            if (topics.schema_version !== 1 || !topics.records) return;
+            const out = {};
+            for (const [uid, rec] of Object.entries(topics.records)) out[uid] = {topics: rec[0], h: rec[1]};
+            topicOverrides = out;
+        }).catch(() => { /* Recorded categories and fallback classification remain available. */ })
+    ]);
+    const incoming = parseIncoming();
+    const merged = incoming.length ? [...new Set(incoming)] : [...readSaved()];
+    if (incoming.length) {
+        const params = new URLSearchParams(location.search);
+        applyOptions({title: params.get('title') || '', showSource: params.get('sources') !== '0', space: params.get('space') || '0'});
+    } else {
+        try { applyOptions(JSON.parse(localStorage.getItem(OPTIONS_KEY) || '{}')); } catch (e) { applyOptions(); }
+    }
+    saveOptions(); renderCollections();
+    if (incoming.length) { const [k, y] = incoming[0].split('.'); state.country = k; state.year = +y; state.tab = scopeOf(CBY[k]); }
+    else readView();
+    showUpdated();
+
+    buildMatrix();
+    renderTabs();
+    centerPick();
+    syncToggle();
+    renderExam();
+    document.documentElement.classList.remove('booting');
+
+    // Topics and source notes are attached while each collection is normalised, so wait for them here.
+    await Promise.all([metadataReady, manifestReady]);
+    await refresh();
+
+    // Without the manifest the grid needs every collection, so fall back to loading them all.
+    const rest = manifest ? [] : COUNTRIES.map(c => c.key).filter(k => !cache.has(k) && !inflight.has(k));
+    let idx = 0;
+    const worker = async () => { while (idx < rest.length) { const k = rest[idx++]; try { await loadCountry(k); } catch (e) { /* recorded in failed */ } } };
+    const restDone = Promise.all(Array.from({ length: 4 }, worker));
+
+    selected = merged;
+    const keep = new Set(await hydrate(merged));
+    selected = selected.filter(u => keep.has(u) || failed.has(u.split('.')[0]));
+    persist();
+    renderExam();
+
+    urlReady = true;
+    syncUrl();
+    if (incoming.length) {
+        examEl.classList.add('open');
+        syncToggle();
+        say(`${countText(incoming.length)} from a shared set are ready.`);
+    }
+    await restDone;
+    syncMatrix();
+}
+
+// Build the grid and fetch the data only after the header has been painted, so phones show the page at once.
+let started = false;
+const start = () => { if (!started) { started = true; init(); } };
+try {
+    new PerformanceObserver((list, obs) => {
+        if (list.getEntries().some(e => e.name === 'first-contentful-paint')) { obs.disconnect(); setTimeout(start, 0); }
+    }).observe({type: 'paint', buffered: true});
+} catch (e) { /* no paint timing: the timer below starts the page */ }
+setTimeout(start, document.hidden ? 0 : 1000);
+})();
+</script>
+</body>
+</html>

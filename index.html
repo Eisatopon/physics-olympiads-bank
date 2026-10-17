@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>World Physics Olympiads Bank – eisatopon.gr</title>
 <meta name="description" content="A searchable archive of physics olympiad problems — the International Physics Olympiad (IPhO) theoretical problems first, then APhO, EuPhO and national physics olympiads — in English with LaTeX, statements only. Build a printable problem set.">
-<meta name="theme-color" content="#0f2a44">
+<meta name="theme-color" content="#241452">
 <link rel="icon" type="image/png" href="assets/eisatopon-logo.png">
 <link rel="apple-touch-icon" href="assets/eisatopon-logo.png">
 <link rel="canonical" href="https://eisatopon.github.io/physics-olympiads-bank/">
@@ -45,17 +45,19 @@
 :root {
     color-scheme: light;
 
-    --ink: #0f2a44;
-    --ink-deep: #0a1f34;
-    --paper: #f1f4f7;
+    /* Physics palette: deep-space violet with an electric cyan (light, fields, energy).
+       Each subject bank has its own: mathematics navy + red, physics violet + cyan. */
+    --ink: #241452;
+    --ink-deep: #180c3b;
+    --paper: #f4f3fa;
     --surface: #ffffff;
-    --text: #16212c;
-    --muted: #55636f;
-    --line: #d4dce3;
-    --line-strong: #a3b2bd;
-    --accent: #e11d26;          /* the red of the eisatopon logo, white text on it */
-    --accent-text: #ff6b6f;     /* the same red, light enough for text on the dark blue */
-    --focus: #1f5fd6;
+    --text: #1b1730;
+    --muted: #5b5672;
+    --line: #dbd7ea;
+    --line-strong: #aaa3c6;
+    --accent: #0e7490;          /* electric cyan, white text on it */
+    --accent-text: #67e8f9;     /* the same cyan, light enough for text on the dark violet */
+    --focus: #7c3aed;
 
     --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
     --sans: 'Public Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -679,7 +681,7 @@ svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; s
 .ai-menu { position: relative; }
 .ai-menu > summary { list-style: none; }
 .ai-menu > summary::-webkit-details-marker { display: none; }
-.ai-options { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; width: min(300px, calc(100vw - 16px)); padding: 8px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 6px; box-shadow: 0 8px 24px rgba(15,42,68,.18); }
+.ai-options { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; width: min(300px, calc(100vw - 16px)); padding: 8px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 6px; box-shadow: 0 8px 24px rgba(36,20,82,.18); }
 .ai-choice { display: block; width: 100%; padding: 11px 10px; border: 0; border-radius: 3px; background: transparent; color: var(--ink); text-align: left; text-decoration: none; font: 600 .88rem/1.4 var(--sans); cursor: pointer; }
 .ai-choice:hover, .ai-choice:focus-visible { background: #edf3f8; }
 .ai-custom textarea { width: 100%; min-height: 85px; padding: 9px; resize: vertical; border: 1px solid var(--line-strong); border-radius: 3px; font: .88rem/1.5 var(--sans); }
@@ -688,7 +690,7 @@ svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; s
 .ai-prov { display: flex; gap: 4px; padding: 2px 2px 8px; margin-bottom: 4px; border-bottom: 1px solid var(--line); }
 .ai-prov button { flex: 1; padding: 6px 8px; border: 1px solid var(--line-strong); border-radius: 3px; background: transparent; color: var(--muted); font: 600 .8rem/1.2 var(--sans); cursor: pointer; }
 .ai-prov button[aria-pressed="true"] { background: #245b86; border-color: #245b86; color: #fff; }
-#aiToast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); max-width: calc(100vw - 32px); padding: 12px 18px; border-radius: 6px; background: #0f2a44; color: #fff; font: 600 .9rem/1.4 var(--sans); box-shadow: 0 8px 24px rgba(0,0,0,.25); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 100; }
+#aiToast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); max-width: calc(100vw - 32px); padding: 12px 18px; border-radius: 6px; background: var(--ink); color: #fff; font: 600 .9rem/1.4 var(--sans); box-shadow: 0 8px 24px rgba(0,0,0,.25); opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 100; }
 #aiToast.show { opacity: 1; transform: translate(-50%, 0); }
 .ai-note { margin: 6px 4px 2px; font-size: .75rem; color: var(--muted); }
 .ai-copy { margin-top: 6px; border-top: 1px solid var(--line); font-size: .8rem; color: var(--muted); }
@@ -701,7 +703,7 @@ svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; s
 .statement .para + .para { margin-top: .6em; }
 .statement .choices .choice { display: block; }
 .statement .fig { margin: .9em 0; text-align: center; }
-.statement .fig img { max-width: min(100%, 480px); height: auto; background: #fff; border: 1px solid var(--line); }
+.statement .fig img { max-width: min(100%, 520px); height: auto; background: #fff; border: 1px solid var(--line); cursor: zoom-in; }
 mjx-container { margin: .2em 0 !important; }
 mjx-container[display="true"] { margin: .6em 0 !important; overflow-x: auto; overflow-y: hidden; max-width: 100%; }
 
@@ -844,7 +846,7 @@ dialog p { color: var(--muted); font-size: .92rem; }
     .ps-item { break-inside: avoid; page-break-inside: avoid; }
     .ps-head { break-after: avoid; }
     .ps-body .fig { break-inside: avoid; }
-    .ps-body img { max-width: 100%; max-height: 180mm; object-fit: contain; }
+    .ps-body img { max-width: 100%; max-height: 120mm; object-fit: contain; }
     .ps-body .statement { overflow-wrap: anywhere; orphans: 3; widows: 3; }
     #printSheet { position: static; left: auto; width: auto; }
 }
@@ -1031,17 +1033,16 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261017-ipho-1967-2026';
+const DATA_VERSION = '20261017-physics-palette';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', idpho: 'world' };
+const REGION_OF = { ipho: 'world' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
 
 const COUNTRIES = [
     { key: 'ipho', name: 'IPhO', flag: '🌐', file: 'IPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International Physics Olympiad, theoretical problems' },
-    { key: 'idpho', name: 'IdPhO 2020', flag: '🌐', file: 'IdPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International distanced Physics Olympiad 2020 (online, Lithuania; held in place of the cancelled IPhO 2020), theoretical problems' }
 ];
 COUNTRIES.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
 const CBY = Object.fromEntries(COUNTRIES.map(c => [c.key, c]));
@@ -1192,7 +1193,8 @@ const FIG_ONLY_RE = /^(https?:\/\/\S+?\.(?:png|jpe?g|gif|webp|svg))$/i;
 function bodyHtml(text, record) {
     const local = typeof location !== 'undefined' && /^(localhost|127\.)/.test(location.hostname);
     const src = u => local && u.startsWith(RAW) ? './' + u.slice(RAW.length) : u;
-    const fig = u => `<figure class="fig"><img src="${esc(src(u))}" alt="${esc(record?.figureAlt || 'Figure')}" loading="lazy" referrerpolicy="no-referrer"></figure>`;
+    // Figures are cropped at 200 dpi: shown at their printed size (half the pixels), full resolution on click.
+    const fig = u => `<figure class="fig"><a href="${esc(src(u))}" target="_blank" rel="noopener" title="Open the figure at full size"><img src="${esc(src(u))}" alt="${esc(record?.figureAlt || 'Figure')}" loading="lazy" referrerpolicy="no-referrer" onload="this.style.width=Math.round(this.naturalWidth/2)+'px'"></a></figure>`;
     let figs = [];
     // A paragraph made only of answer-choice lines "(A) …" … "(E) …" keeps one choice per line.
     const isChoices = x => { const ls = x.split('\n').map(l => l.trim()).filter(Boolean); return ls.length > 1 && ls.every(l => /^\([A-E]\)/.test(l)); };

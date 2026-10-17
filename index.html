@@ -1031,16 +1031,17 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261017-ipho-2018-2026';
+const DATA_VERSION = '20261017-idpho-2020';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world' };
+const REGION_OF = { ipho: 'world', idpho: 'world' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
 
 const COUNTRIES = [
-    { key: 'ipho', name: 'IPhO', flag: '🌐', file: 'IPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International Physics Olympiad, theoretical problems' }
+    { key: 'ipho', name: 'IPhO', flag: '🌐', file: 'IPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International Physics Olympiad, theoretical problems' },
+    { key: 'idpho', name: 'IdPhO 2020', flag: '🌐', file: 'IdPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International distanced Physics Olympiad 2020 (online, Lithuania; held in place of the cancelled IPhO 2020), theoretical problems' }
 ];
 COUNTRIES.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
 const CBY = Object.fromEntries(COUNTRIES.map(c => [c.key, c]));

@@ -1031,7 +1031,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261017-ipho-2021-2026';
+const DATA_VERSION = '20261017-ipho-stats';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world' };
@@ -1102,7 +1102,9 @@ function typesetVisible(root) {
 }
 // Likes and view counts (Cloudflare Worker nob-stats + D1). Loaded after the cards are drawn, only for
 // cards near the screen, in one small batched request; if the service is slow or down nothing is shown.
-const STATS_URL = '';  // Likes/views are off until the owner approves reusing nob-stats with ph- uids.
+const STATS_URL = 'https://nob-stats.sokkorom.workers.dev';
+// Shared with the math bank (same worker and origin): physics uids are sent with the prefix ph-.
+const statsId = uid => 'ph-' + uid;
 const statsStore = (k, v) => { try { if (v === undefined) return JSON.parse(localStorage.getItem(k) || 'null'); localStorage.setItem(k, JSON.stringify(v)); } catch (e) { return null; } };
 const statsLiked = new Set(statsStore('phob-liked') || []);
 const statsCache = new Map();
@@ -1117,8 +1119,8 @@ function statsFlush() {
     const uids = [...statsQueue].slice(0, 60); statsQueue = new Set([...statsQueue].slice(60));
     if (statsQueue.size) statsTimer = setTimeout(statsFlush, 50);
     if (!uids.length || !STATS_URL) return;
-    fetch(`${STATS_URL}/s?u=${uids.map(encodeURIComponent).join(',')}`).then(r => r.ok ? r.json() : {}).then(d => {
-        uids.forEach(u => { statsCache.set(u, d[u] || [0, 0]); statsPaint(u); });
+    fetch(`${STATS_URL}/s?u=${uids.map(u => encodeURIComponent(statsId(u))).join(',')}`).then(r => r.ok ? r.json() : {}).then(d => {
+        uids.forEach(u => { statsCache.set(u, d[statsId(u)] || [0, 0]); statsPaint(u); });
     }).catch(() => {});
     // One view per problem per browser per day.
     const seen = statsStore('phob-seen') || {}, today = new Date().toISOString().slice(0, 10), fresh = uids.filter(u => seen[u] !== today);
@@ -1127,7 +1129,7 @@ function statsFlush() {
         fresh.forEach(u => { seen[u] = today; });
         for (const k in seen) if (seen[k] !== today) delete seen[k];
         statsStore('phob-seen', seen);
-        fetch(`${STATS_URL}/v`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({u: fresh})}).catch(() => {});
+        fetch(`${STATS_URL}/v`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({u: fresh.map(statsId)})}).catch(() => {});
     }
 }
 function statsObserve(root) {
@@ -1151,7 +1153,7 @@ document.addEventListener('click', ev => {
     if (on) statsLiked.add(uid); else statsLiked.delete(uid);
     statsStore('phob-liked', [...statsLiked]);
     statsCache.set(uid, [Math.max(0, v[0] + (on ? 1 : -1)), v[1]]); statsPaint(uid);
-    fetch(`${STATS_URL}/l`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({u: uid, on})})
+    fetch(`${STATS_URL}/l`, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({u: statsId(uid), on})})
         .then(r => r.ok ? r.json() : null).then(d => { if (d && typeof d.likes === 'number') { statsCache.set(uid, [d.likes, (statsCache.get(uid) || [0, 0])[1]]); statsPaint(uid); } }).catch(() => {});
 });
 // MathJax (about 1 MB) is loaded on the first formula that has to be shown, or on the first

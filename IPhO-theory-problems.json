@@ -2,6 +2,162 @@
  "competition": "International Physics Olympiad (IPhO) — theoretical problems",
  "years": [
   {
+   "year": 1974,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Hydrogen atoms colliding",
+     "problem": "Problem 1\n\nA hydrogen atom in the ground state, moving with velocity $v$, collides with another hydrogen atom in the ground state at rest. Using the Bohr model find the smallest velocity $v_0$ of the atom below which the collision must be elastic.\n\nAt velocity $v_0$ the collision may be inelastic and the colliding atoms may emit electromagnetic radiation. Estimate the difference of frequencies of the radiation emitted in the direction of the initial velocity of the hydrogen atom and in the opposite direction as a fraction (expressed in percents) of their arithmetic mean value.\n\nData:\n\n$$E_i=\\frac{me^4}{2\\hbar^2}=13.6\\,\\mathrm{eV}=2.18\\cdot18^{-18}\\,\\mathrm{J};\\ \\text{(ionization energy of hydrogen atom)}$$\n\n$$m_H=1.67\\cdot10^{-27}\\,\\mathrm{kg};\\ \\text{(mass of hydrogen atom)}$$\n\n($m$ - mass of electron; $e$ - electric charge of electron; $\\hbar$ - Planck constant; numerical values of these quantities are not necessary.)"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Bending light",
+     "problem": "Problem 2\n\nConsider a parallel, transparent plate of thickness $d$ – Fig. 1. Its refraction index varies as\n\n$$n=\\frac{n_0}{1-\\dfrac{x}{R}}.$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1974-2-fig1.png\n\nFig. 1\n\nA light beam enters from the air perpendicularly to the plate at the point A $(x_A=0)$ and emerges from it at the point B at an angle $\\alpha$.\n\n1. Find the refraction index $n_B$ at the point B.\n\n2. Find $x_B$ (i.e. value of $x$ at the point B)\n\n3. Find the thickness $d$ of the plate.\n\nData:\n\n$$n_0=1.2;\\quad R=13\\,\\mathrm{cm};\\quad \\alpha=30^\\circ.$$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Surviving with thermodynamics",
+     "problem": "Problem 3\n\nA scientific expedition stayed on an uninhabited island. The members of the expedition had had some sources of energy, but after some time these sources exhausted. Then they decided to construct an alternative energy source. Unfortunately, the island was very quiet: there were no winds, clouds uniformly covered the sky, the air pressure was constant and the temperatures of air and water in the sea were the same during day and night. Fortunately, they found a source of chemically neutral gas outgoing very slowly from a cavity. The pressure and temperature of the gas are exactly the same as the pressure and temperature of the atmosphere.\n\nThe expedition had, however, certain membranes in its equipment. One of them was ideally transparent for gas and ideally non-transparent for air. Another one had an opposite property: it was ideally transparent for air and ideally non-transparent for gas. The members of the expedition had materials and tools that allowed them to make different mechanical devices such as cylinders with pistons, valves etc. They decided to construct an engine by using the gas from the cavity.\n\nShow that there is no theoretical limit on the power of an ideal engine that uses the gas and the membranes considered above."
+    }
+   ]
+  },
+  {
+   "year": 1975,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Rotating rod",
+     "problem": "Theoretical problem 1: “Rotating rod”\n\nA rod revolves with a constant angular velocity $\\omega$ around a vertical axis A. The rod includes a fixed angle of $\\pi/2-\\alpha$ with the axis. A body of mass $m$ can glide along the rod. The coefficient of friction is $\\mu=\\tan\\beta$. The angle $\\beta$ is called „friction angle“.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1975-1-fig1.png\n\na) Determine the angles $\\alpha$ under which the body remains at rest and under which the body is in motion if the rod is not rotating (i.e. $\\omega=0$).\n\nb) The rod rotates with constant angular velocity $\\omega>0$. The angle $\\alpha$ does not change during rotation. Find the condition for the body to remain at rest relative to the rod.\n\nYou can use the following relations:\n\n$$\\sin(\\alpha\\pm\\beta)=\\sin\\alpha\\cdot\\cos\\beta\\pm\\cos\\alpha\\cdot\\sin\\beta$$\n\n$$\\cos(\\alpha\\pm\\beta)=\\cos\\alpha\\cdot\\cos\\beta\\mp\\sin\\alpha\\cdot\\sin\\beta$$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Thick lens",
+     "problem": "Theoretical problem 2: “Thick lens”\n\nThe focal length f of a thick glass lens in air with refractive index $n$, radius curvatures $r_1$, $r_2$ and vertex distance $d$ (see figure) is given by:\n\n$$f=\\frac{n\\,r_1r_2}{(n-1)\\left[n(r_2-r_1)+d(n-1)\\right]}$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1975-2-fig1.png\n\nRemark: $r_i>0$ means that the central curvature point $\\mathrm{M}_i$ is on the right side of the aerial vertex $\\mathrm{S}_i$, $r_i<0$ means that the central curvature point $\\mathrm{M}_i$ is on the left side of the aerial vertex $\\mathrm{S}_i$ $(i=1,2)$.\n\nFor some special applications it is required, that the focal length is independent from the wavelength.\n\na) For how many different wavelengths can the same focal length be achieved?\n\nb) Describe a relation between $r_i$ $(i=1,2)$, $d$ and the refractive index $n$ for which the required wavelength independence can be fulfilled and discuss this relation. Sketch possible shapes of lenses and mark the central curvature points $\\mathrm{M}_1$ and $\\mathrm{M}_2$.\n\nc) Prove that for a given planconvex lens a specific focal length can be achieved by only one wavelength.\n\nd) State possible parameters of the thick lens for two further cases in which a certain focal length can be realized for one wavelength only. Take into account the physical and the geometrical circumstances."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Ions in a magnetic field",
+     "problem": "Theoretical problem 3: “Ions in a magnetic field”\n\nA beam of positive ions (charge $+e$) of the same and constant mass $m$ spread from point Q in different directions in the plane of paper (see figure). The ions were accelerated by a voltage $U$. They are deflected in a uniform magnetic field $B$ that is perpendicular to the plane of paper. The boundaries of the magnetic field are made in a way that the initially diverging ions are focussed in point A $(\\overline{\\mathrm{QA}}=2\\cdot a)$. The trajectories of the ions are symmetric to the middle perpendicular on $\\overline{\\mathrm{QA}}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1975-3-fig1.png\n\nRemark: This illustrative figure was not part of the original problem formulation.\n\nAmong different possible boundaries of magnetic fields a specific type shall be considered in which a contiguous magnetic field acts around the middle perpendicular and in which the points Q and A are in the field free area.\n\na) Describe the radius curvature $R$ of the particle path in the magnetic field as a function of the voltage $U$ and the induction $B$.\n\nb) Describe the characteristic properties of the particle paths in the setup mentioned above.\n\nc) Obtain the boundaries of the magnetic field boundaries by geometrical constructions for the cases $R<a$, $R=a$ and $R>0$.\n\nd) Describe the general equation for the boundaries of the magnetic field."
+    }
+   ]
+  },
+  {
+   "year": 1976,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Spinning Block Inside a Sphere",
+     "problem": "Problem 1\n\nA hollow sphere of radius $R=0.5\\,\\mathrm{m}$ rotates about a vertical axis through its centre with an angular velocity of $\\omega=5\\,\\mathrm{s^{-1}}$. Inside the sphere a small block is moving together with the sphere at the height of $R/2$ (Fig. 6). ($g=10\\,\\mathrm{m/s^2}$.)\n\na) What should be at least the coefficient of friction to fulfill this condition?\n\nb) Find the minimal coefficient of friction also for the case of $\\omega=8\\,\\mathrm{s^{-1}}$.\n\nc) Investigate the problem of stability in both cases,\n\n$\\alpha$) for a small change of the position of the block,\n\n$\\beta$) for a small change of the angular velocity of the sphere.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1976-1-fig1.png\n\nFigure 6"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "A Valve in a Cylinder",
+     "problem": "Problem 2\n\nThe walls of a cylinder of base $1\\,\\mathrm{dm^2}$, the piston and the inner dividing wall are perfect heat insulators (Fig. 10). The valve in the dividing wall opens if the pressure on the right side is greater than on the left side. Initially there is $12\\,\\mathrm{g}$ helium in the left side and $2\\,\\mathrm{g}$ helium in the right side. The lengths of both sides are $11.2\\,\\mathrm{dm}$ each and the temperature is $0\\,^{\\circ}\\mathrm{C}$. Outside we have a pressure of $100\\,\\mathrm{kPa}$. The specific heat at constant volume is $c_v=3.15\\,\\mathrm{J/gK}$, at constant pressure it is $c_p=5.25\\,\\mathrm{J/gK}$. The piston is pushed slowly towards the dividing wall. When the valve opens we stop then continue pushing slowly until the wall is reached. Find the work done on the piston by us.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1976-2-fig1.png\n\nFigure 10"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Air Bubble inside a Glass Sphere",
+     "problem": "Problem 3\n\nSomewhere in a glass sphere there is an air bubble. Describe methods how to determine the diameter of the bubble without damaging the sphere."
+    }
+   ]
+  },
+  {
+   "year": 1977,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Otto Cycle",
+     "problem": "Problem 1\n\nThe compression ratio of a four-stroke internal combustion engine is $\\varepsilon=9.5$. The engine draws in air and gaseous fuel at a temperature $27\\,^{\\circ}\\mathrm{C}$ at a pressure $1\\,\\mathrm{atm}=100\\,\\mathrm{kPa}$. Compression follows an adiabatic process from point 1 to point 2, see Fig. 1. The pressure in the cylinder is doubled during the mixture ignition (2–3). The hot exhaust gas expands adiabatically to the volume $V_2$ pushing the piston downwards (3–4). Then the exhaust valve opens and the pressure gets back to the initial value of 1 atm. All processes in the cylinder are supposed to be ideal. The Poisson constant (i.e. the ratio of specific heats $C_p/C_V$) for the mixture and exhaust gas is $\\kappa=1.40$. (The compression ratio is the ratio of the volume of the cylinder when the piston is at the bottom to the volume when the piston is at the top.)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1977-1-fig1.png\n\nFigure 1:\n\na) Which processes run between the points 0–1, 2–3, 4–1, 1–0?\n\nb) Determine the pressure and the temperature in the states 1, 2, 3 and 4.\n\nc) Find the thermal efficiency of the cycle.\n\nd) Discuss obtained results. Are they realistic?"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Rectangular Soap Film",
+     "problem": "Problem 2\n\nDipping the frame in a soap solution, the soap forms a rectangle film of length $b$ and height $h$. White light falls on the film at an angle $\\alpha$ (measured with respect to the normal direction). The reflected light displays a green color of wavelength $\\lambda_0$.\n\na) Find out if it is possible to determine the mass of the soap film using the laboratory scales which has calibration accuracy of $0.1\\,\\mathrm{mg}$.\n\nb) What color does the thinnest possible soap film display being seen from the perpendicular direction? Derive the related equations.\n\nConstants and given data: relative refractive index $n=1.33$, the wavelength of the reflected green light $\\lambda_0=500\\,\\mathrm{nm}$, $\\alpha=30^{\\circ}$, $b=0.020\\,\\mathrm{m}$, $h=0.030\\,\\mathrm{m}$, density $\\varrho=1000\\,\\mathrm{kg\\,m^{-3}}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Electron Gun",
+     "problem": "Problem 3\n\nAn electron gun $T$ emits electrons accelerated by a potential difference $U$ in a vacuum in the direction of the line $a$ as shown in Fig. 2. The target $M$ is placed at a distance $d$ from the electron gun in such a way that the line segment connecting the points $T$ and $M$ and the line $a$ subtend the angle $\\alpha$ as shown in Fig. 2. Find the magnetic induction $B$ of the uniform magnetic field\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1977-3-fig1.png\n\nFigure 2:\n\na) perpendicular to the plane determined by the line $a$ and the point $M$\n\nb) parallel to the segment $TM$\n\nin order that the electrons hit the target $M$. Find first the general solution and then substitute the following values: $U=1000\\,\\mathrm{V}$, $e=1.60\\cdot10^{-19}\\,\\mathrm{C}$, $m_e=9.11\\cdot10^{-31}\\,\\mathrm{kg}$, $\\alpha=60^{\\circ}$, $d=5.0\\,\\mathrm{cm}$, $B<0.030\\,\\mathrm{T}$."
+    }
+   ]
+  },
+  {
+   "year": 1979,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "To the Moon!",
+     "problem": "Problem 1.\n\nA space rocket with mass $M=12\\,\\mathrm{t}$ is moving around the Moon along the circular orbit at the height of $h=100\\,\\mathrm{km}$. The engine is activated for a short time to pass at the lunar landing orbit. The velocity of the ejected gases $\\mathrm{u}=10^{4}\\,\\mathrm{m/s}$. The Moon radius $R_M=1{,}7\\cdot10^{3}\\,\\mathrm{km}$, the acceleration of gravity near the Moon surface $g_M=1.7\\,\\mathrm{m/s^2}$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1979-1-fig1.png\n\nFig.1\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1979-1-fig2.png\n\nFig.2\n\n1). What amount of fuel should be spent so that when activating the braking engine at point A of the trajectory, the rocket would land on the Moon at point B (Fig.1)?\n\n2). In the second scenario of landing, at point A the rocket is given an impulse directed towards the center of the Moon, to put the rocket to the orbit meeting the Moon surface at point C (Fig.2). What amount of fuel is needed in this case?"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Influence of Humidity on Scales",
+     "problem": "Problem 2.\n\nBrass weights are used to weigh an aluminum-made sample on an analytical balance. The weighing is ones in dry air and another time in humid air with the water vapor pressure $P_h=2\\cdot10^{3}\\,\\mathrm{Pa}$. The total atmospheric pressure ($P=10^{5}\\,\\mathrm{Pa}$) and the temperature ($t=20^{\\circ}\\,\\mathrm{C}$) are the same in both cases.\n\nWhat should the mass of the sample be to be able to tell the difference in the balance readings provided their sensitivity is $m_0=0.1\\,\\mathrm{mg}$?\n\nAluminum density $\\rho_1=2700\\,\\mathrm{kg/m^3}$, brass density $\\rho_2=.8500\\,\\mathrm{kg/m^3}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Reflectors on the Moon",
+     "problem": "Problem 3\n\n.During the Soviet-French experiment on the optical location of the Moon the light pulse of a ruby laser ($\\lambda=0{,}69\\,\\mathrm{\\mu m}$) was directed to the Moon’s surface by the telescope with a diameter of the mirror $D=2{,}6\\,\\mathrm{m}$. The reflector on the Moon’s surface reflected the light backward as an ideal mirror with the diameter $d=20\\,\\mathrm{cm}$. The reflected light was then collected by the same telescope and focused at the photodetector.\n\n1) What must the accuracy to direct the telescope optical axis be in this experiment?\n\n2) What part of emitted laser energy can be detected after reflection on the Moon, if we neglect the light loses in the Earth’s atmosphere?\n\n3) Can we see a reflected light pulse with naked eye if the energy of single laser pulse $E=1\\,\\mathrm{J}$ and the threshold sensitivity of eye is equal $n=100$ light quantum?\n\n4) Suppose the Moon’s surface reflects $\\alpha=10\\%$ of the incident light in the spatial angle $2\\pi$ steradian, estimate the advantage of a using reflector.\n\nThe distance from the Earth to the Moon is $L=380000\\,\\mathrm{km}$. The diameter of pupil of the eye is $d_p=5\\,\\mathrm{mm}$. Plank constant is $\\mathrm{h}=6.6\\cdot10^{-34}\\,\\mathrm{J\\cdot s}$."
+    }
+   ]
+  },
+  {
+   "year": 1981,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Gas Container Rocket",
+     "problem": "Theoretical Problem 1\n\nA static container of mass $M$ and cylindrical shape is placed in vacuum. One of its ends is closed. A fixed piston of mass $m$ and negligible width separates the volume of the container into two equal parts. The closed part contains $n$ moles of monoatomic perfect gas with molar mass $M_0$ and temperature $T$. After releasing of the piston, it leaves the container without friction. After that the gas also leaves the container. What is the final velocity of the container?\n\nThe gas constant is $R$. The momentum of the gas up to the leaving of the piston can be neglected. There is no heat exchange between the gas, container and the piston. The change of the temperature of the gas, when it leaves the container, can be neglected. Do not account for the gravitation of the Earth."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Electric Lamp",
+     "problem": "Theoretical Problem 2\n\nAn electric lamp of resistance $R_0=2\\,\\Omega$ working at nominal voltage $U_0=4.5\\,\\mathrm{V}$ is connected to accumulator of electromotive force $\\mathrm{E}=6\\,\\mathrm{V}$ and negligible internal resistance.\n\n1. The nominal voltage of the lamp is ensured as the lamp is connected potentiometrically to the accumulator using a rheostat with resistance $R$. What should be the resistance $R$ and what is the maximal electric current $I_{max}$, flowing in the rheostat, if the efficiency of the system must not be smaller than $\\eta_0=0.6$?\n\n2. What is the maximal possible efficiency $\\eta$ of the system and how the lamp can be connected to the rheostat in this case?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Detecting Astronomical Radiowaves",
+     "problem": "Theoretical Problem 3\n\nA detector of radiowaves in a radioastronomical observatory is placed on the sea beach at height $h=2\\,\\mathrm{m}$ above the sea level. After the rise of a star, radiating electromagnetic waves of wavelength $\\lambda=21\\,\\mathrm{cm}$, above the horizont the detector registers series of alternating maxima and minima. The registered signal is proportional to the intensity of the detected waves. The detector registers waves with electric vector, vibrating in a direction parallel to the sea surface.\n\n1. Determine the angle between the star and the horizont in the moment when the detector registers maxima and minima (in general form).\n\n2. Does the signal decrease or increase just after the rise of the star?\n\n3. Determine the signal ratio of the first maximum to the next minimum. At reflection of the electromagnetic wave on the water surface, the ratio of the intensities of the electric field of the reflected ($E_r$) and incident ($E_i$) wave follows the low:\n\n$$\\frac{E_r}{E_i}=\\frac{n-\\cos\\varphi}{n+\\cos\\varphi},$$\n\nwhere $n$ is the refraction index and $\\varphi$ is the incident angle of the wave. For the surface “air-water” for $\\lambda=21\\,\\mathrm{cm}$, the refraction index $n=9$.\n\n4. Does the ratio of the intensities of consecutive maxima and minima increase or decrease with rising of the star?\n\nAssume that the sea surface is flat."
+    }
+   ]
+  },
+  {
    "year": 1982,
    "problems": [
     {

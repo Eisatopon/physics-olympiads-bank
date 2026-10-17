@@ -2,6 +2,197 @@
  "competition": "International Physics Olympiad (IPhO) — theoretical problems",
  "years": [
   {
+   "year": 1967,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Shooting a Ball",
+     "problem": "Problem 1\n\nA small ball with mass $M=0.2\\,\\mathrm{kg}$ rests on a vertical column with height $h=5\\,\\mathrm{m}$. A bullet with mass $m=0.01\\,\\mathrm{kg}$, moving with velocity $v_0=500\\,\\mathrm{m/s}$, passes horizontally through the center of the ball (Fig. 1). The ball reaches the ground at a distance $s=20\\,\\mathrm{m}$. Where does the bullet reach the ground? What part of the kinetic energy of the bullet was converted into heat when the bullet passed trough the ball? Neglect resistance of the air. Assume that $g=10\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1967-1-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Infinite Network of Resistors",
+     "problem": "Problem 2\n\nConsider an infinite network consisting of resistors (resistance of each of them is $r$) shown in Fig. 3. Find the resultant resistance $R_{AB}$ between points A and B.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1967-2-fig1.png\n\nFig. 3"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Heating Balls",
+     "problem": "Problem 3\n\nConsider two identical homogeneous balls, A and B, with the same initial temperatures. One of them is at rest on a horizontal plane, while the second one hangs on a thread (Fig. 6). The same quantities of heat have been supplied to both balls. Are the final temperatures of the balls the same or not? Justify your answer. (All kinds of heat losses are negligible.)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1967-3-fig1.png\n\nFig. 6"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Heating a Vessel",
+     "problem": "Problem 4\n\nA closed vessel with volume $V_0=10\\,\\mathrm{l}$ contains dry air in the normal conditions ($t_0=0^\\circ\\mathrm{C}$, $p_0=1\\,\\mathrm{atm}$). In some moment $3\\,\\mathrm{g}$ of water were added to the vessel and the system was warmed up to $t=100^\\circ\\mathrm{C}$. Find the pressure in the vessel. Discuss assumption you made to solve the problem."
+    }
+   ]
+  },
+  {
+   "year": 1968,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Block and Cylinder on an Inclined Plane",
+     "problem": "Problem 1\n\nOn an inclined plane of $30^\\circ$ a block, mass $m_2=4\\,\\mathrm{kg}$, is joined by a light cord to a solid cylinder, mass $m_1=8\\,\\mathrm{kg}$, radius $r=5\\,\\mathrm{cm}$ (Fig. 1). Find the acceleration if the bodies are released. The coefficient of friction between the block and the inclined plane $\\mu=0.2$. Friction at the bearing and rolling friction are negligible.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1968-1-fig1.png\n\nFigure 1"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Mixing Toluene",
+     "problem": "Problem 2\n\nThere are $300\\,\\mathrm{cm^3}$ toluene of $0^\\circ\\mathrm{C}$ temperature in a glass and $110\\,\\mathrm{cm^3}$ toluene of $100^\\circ\\mathrm{C}$ temperature in another glass. (The sum of the volumes is $410\\,\\mathrm{cm^3}$.) Find the final volume after the two liquids are mixed. The coefficient of volume expansion of toluene $\\beta=0.001\\,(^\\circ\\mathrm{C})^{-1}$. Neglect the loss of heat."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Glass Semi-cylinder",
+     "problem": "Problem 3\n\nParallel light rays are falling on the plane surface of a semi-cylinder made of glass, at an angle of $45^\\circ$, in such a plane which is perpendicular to the axis of the semi-cylinder (Fig. 4). (Index of refraction is $\\sqrt{2}$.) Where are the rays emerging out of the cylindrical surface?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1968-3-fig1.png\n\nFigure 4"
+    }
+   ]
+  },
+  {
+   "year": 1969,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Three Carts",
+     "problem": "Problem 1.\n\nFigure 1 shows a mechanical system consisting of three carts $A$, $B$ and $C$ of masses $m_1=0.3\\,\\mathrm{kg}$, $m_2=0.2\\,\\mathrm{kg}$ and $m_3=1.5\\,\\mathrm{kg}$ respectively. Carts $B$ and $A$ are connected by a light taut inelastic string which passes over a light smooth pulley attaches to the cart $C$ as shown. For this problem, all resistive and frictional forces may be ignored as may the moments of inertia of the pulley and of the wheels of all three carts. Take the acceleration due to gravity $g$ to be $9.81\\,\\mathrm{m\\,s^{-2}}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1969-1-fig1.png\n\nFigure 1:\n\n1. A horizontal force $\\vec{F}$ is now applied to cart $C$ as shown. The size of $\\vec{F}$ is such that carts $A$ and $B$ remain at rest relative to cart $C$.\n\na) Find the tension in the string connecting carts $A$ and $B$.\n\nb) Determine the magnitude of $\\vec{F}$.\n\n2. Later cart $C$ is held stationary, while carts $A$ and $B$ are released from rest.\n\na) Determine the accelerations of carts $A$ and $B$.\n\nb) Calculate also the tension in the string."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Water inside a Copper Calorimeter",
+     "problem": "Problem 2.\n\nWater of mass $m_2$ is contained in a copper calorimeter of mass $m_1$. Their common temperature is $t_2$. A piece of ice of mass $m_3$ and temperature $t_3<0\\,^\\circ\\mathrm{C}$ is dropped into the calorimeter.\n\na) Determine the temperature and masses of water and ice in the equilibrium state for general values of $m_1$, $m_2$, $m_3$, $t_2$ and $t_3$. Write equilibrium equations for all possible processes which have to be considered.\n\nb) Find the final temperature and final masses of water and ice for $m_1=1.00\\,\\mathrm{kg}$, $m_2=1.00\\,\\mathrm{kg}$, $m_3=2.00\\,\\mathrm{kg}$, $t_2=10\\,^\\circ\\mathrm{C}$, $t_3=-20\\,^\\circ\\mathrm{C}$.\n\nNeglect the energy losses, assume the normal barometric pressure. Specific heat of copper is $c_1=0.1\\,\\mathrm{kcal/kg\\cdot{}^\\circ C}$, specific heat of water $c_2=1\\,\\mathrm{kcal/kg\\cdot{}^\\circ C}$, specific heat of ice $c_3=0.492\\,\\mathrm{kcal/kg\\cdot{}^\\circ C}$, latent heat of fusion of ice $l=78{,}7\\,\\mathrm{kcal/kg}$. Take $1\\,\\mathrm{cal}=4.2\\,\\mathrm{J}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Suspended Charged Ball",
+     "problem": "Problem 3.\n\nA small charged ball of mass $m$ and charge $q$ is suspended from the highest point of a ring of radius $R$ by means of an insulating cord of negligible mass. The ring is made of a rigid wire of negligible cross section and lies in a vertical plane. On the ring there is uniformly distributed charge $Q$ of the same sign as $q$. Determine the length $l$ of the cord so as the equilibrium position of the ball lies on the symmetry axis perpendicular to the plane of the ring.\n\nFind first the general solution a then for particular values $Q=q=9.0\\cdot10^{-8}\\,\\mathrm{C}$, $R=5\\,\\mathrm{cm}$, $m=1.0\\,\\mathrm{g}$, $\\varepsilon_0=8.9\\cdot10^{-12}\\,\\mathrm{F/m}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Glass Plate above a Glass Cube",
+     "problem": "Problem 4.\n\nA glass plate is placed above a glass cube of $2\\,\\mathrm{cm}$ edges in such a way that there remains a thin air layer between them, see Figure 5. Electromagnetic radiation of wavelength between $400\\,\\mathrm{nm}$ and $1150\\,\\mathrm{nm}$ (for which the plate is penetrable) incident perpendicular to the plate from above is reflected from both air surfaces and interferes. In this range only two wavelengths give maximum reinforcements, one of them is $\\lambda=400\\,\\mathrm{nm}$. Find the second wavelength. Determine how it is necessary to warm up the cube so as it would touch the plate. The coefficient of linear thermal expansion is $\\alpha=8.0\\cdot10^{-6}\\,{}^\\circ\\mathrm{C}^{-1}$, the refractive index of the air $n=1$. The distance of the bottom of the cube from the plate does not change during warming up.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1969-4-fig1.png\n\nFigure 5:"
+    }
+   ]
+  },
+  {
+   "year": 1970,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Carrying a Bar",
+     "problem": "Problem 1.\n\nA long bar with the mass $M=1\\,\\mathrm{kg}$ is placed on a smooth horizontal surface of a table where it can move frictionless. A carriage equipped with a motor can slide along the upper horizontal panel of the bar, the mass of the carriage is $m=0.1\\,\\mathrm{kg}$. The friction coefficient of the carriage is $\\mu=0.02$. The motor is winding a thread around a shaft at a constant speed $v_0=0.1\\,\\mathrm{m/s}$. The other end of the thread is tied up to a rather distant stationary support in one case (Fig. 1, a), whereas in the other case it is attached to a picket at the edge of the bar (Fig. 1, b). While holding the bar fixed one allows the carriage to start moving at the velocity $V_0$ then the bar is let loose.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1970-1-fig1.png\n\nFig. 1\n\nBy the moment the bar is released the front edge of the carriage is at the distance $l=0.5\\,\\mathrm{m}$ from the front edge of the bar. For both cases find the laws of movement of both the bar and the carriage and the time during which the carriage will reach the front edge of the bar."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "A Chemistry Problem (Salt Crystals)",
+     "problem": "Problem 2.\n\nA unit cell of a crystal of natrium chloride (common salt- NaCl) is a cube with the edge length $a=5.6\\cdot10^{-10}\\,\\mathrm{m}$ (Fig. 2). The black circles in the figure stand for the position of natrium atoms whereas the white ones are chlorine atoms. The entire crystal of common salt turns out to be a repetition of such unit cells. The relative atomic mass of natrium is 23 and that of chlorine is 35,5. The density of the common salt $\\rho=2.22\\cdot10^{3}\\,\\mathrm{kg/m^3}$. Find the mass of a hydrogen atom.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1970-2-fig1.png\n\nFig. 2"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Spherical Capacitors",
+     "problem": "Problem 3.\n\nInside a thin-walled metal sphere with radius $R=20\\,\\mathrm{cm}$ there is a metal ball with the radius $r=10\\,\\mathrm{cm}$ which has a common centre with the sphere. The ball is connected with a very long wire to the Earth via an opening in the sphere (Fig. 3). A charge $Q=10^{-8}\\,\\mathrm{C}$ is placed onto the outside sphere. Calculate the potential of this sphere, electrical capacity of the obtained system of conducting bodies and draw out an equivalent electric scheme.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1970-3-fig1.png\n\nFig. 3"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "A Telescope with a Spherical Mirror",
+     "problem": "Problem 4.\n\nA spherical mirror is installed into a telescope. Its lateral diameter is $D=0{,}5\\,\\mathrm{m}$ and the radius of the curvature $R=2\\,\\mathrm{m}$. In the main focus of the mirror there is an emission receiver in the form of a round disk. The disk is placed perpendicular to the optical axis of the mirror (Fig. 4). What should the radius $r$ of the receiver be so that it could receive the entire flux of the emission reflected by the mirror? How would the received flux of the emission decrease if the detector's dimensions decreased by 8 times?\n\nDirections: 1) When calculating small values $\\alpha$ $(\\alpha\\ll1)$ one may perform a substitution $\\sqrt{1-\\alpha}\\approx1-\\dfrac{\\alpha}{2}$; 2) diffraction should not be taken into account.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1970-4-fig1.png\n\nFig. 4"
+    }
+   ]
+  },
+  {
+   "year": 1971,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Connected Masses on a Prism",
+     "problem": "Question 1.\n\nA triangular prism of mass $M$ is placed one side on a frictionless horizontal plane as shown in Fig. 1. The other two sides are inclined with respect to the plane at angles $\\alpha_1$ and $\\alpha_2$ respectively. Two blocks of masses $m_1$ and $m_2$, connected by an inextensible thread, can slide without friction on the surface of the prism. The mass of the pulley, which supports the thread, is negligible.\n\n• Express the acceleration $a$ of the blocks relative to the prism in terms of the acceleration $a_0$ of the prism.\n• Find the acceleration $a_0$ of the prism in terms of quantities given and the acceleration $g$ due to gravity.\n• At what ratio $m_1/m_2$ the prism will be in equilibrium?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1971-1-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Mercury Barometer",
+     "problem": "Question 2.\n\nA vertical glass tube of cross section $S=1.0\\,\\mathrm{cm^2}$ contains unknown amount of hydrogen. The upper end of the tube is closed. The other end is opened and is immersed in a pan filled with mercury. The tube and the pan are placed in a sealed chamber containing air at temperature $T_0=273\\,\\mathrm{K}$ and pressure $P_0=1.334\\times10^{5}\\,\\mathrm{Pa}$. Under these conditions the height of mercury column in the tube above the mercury level in the pan is $h_0=0.70\\,\\mathrm{m}$.\n\nOne of the walls of the chamber is a piston, which expands the air isothermally to a pressure of $P_1=8.00\\times10^{4}\\,\\mathrm{Pa}$. As a result the height of the mercury column in the tube decreases to $h_1=0.40\\,\\mathrm{m}$. Then the chamber is heated up at a constant volume to some temperature $T_2$ until the mercury column rises to $h_2=0.50\\,\\mathrm{m}$. Finally, the air in the chamber is expanded at constant pressure and the mercury level in the tube settles at $h_3=0.45\\,\\mathrm{m}$ above the mercury level in the pan.\n\nProvided that the system is in mechanical and thermal equilibrium during all the processes calculate the mass $m$ of the hydrogen, the intermediate temperature $T_2$, and the pressure $P$ in the final state.\n\nThe density of mercury at temperature $T_0$ is $\\rho_0=1.36\\times10^{4}\\,\\mathrm{kg/m^3}$, the coefficient of expansion for mercury $\\beta=1.84\\times10^{-4}\\,\\mathrm{K^{-1}}$, and the gas constant $R=8.314\\,\\mathrm{J/(mol\\times K)}$. The thermal expansion of the glass tube and the variations of the mercury level in the pan are not considered.\n\nHint. If $\\Delta T$ is the interval of temperature variations of the system then $\\beta\\Delta T=x\\ll1$ In that case you can use the approximation: $\\dfrac{1}{1+x}\\approx1-x$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Batteries, Capacitors and Resistors in a Cube",
+     "problem": "Question 3.\n\nFour batteries of EMF $E_1=4\\,\\mathrm{V}$, $E_2=8\\,\\mathrm{V}$, $E_3=12\\,\\mathrm{V}$, and $E_4=16\\,\\mathrm{V}$, four capacitors with the same capacitance $C_1=C_2=C_3=C_4=1\\,\\mathrm{\\mu F}$, and four equivalent resistors are connected in the circuit shown in Fig. 3. The internal resistance of the batteries is negligible.\n\n• Calculate the total energy $W$ accumulated on the capacitors when a steady state of the system is established.\n• The points H and B are short connected. Find the charge on the capacitor $C_2$ in the new steady state.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1971-3-fig1.png\n\nFig. 3"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Spherical Aquarium",
+     "problem": "Question 4.\n\nA spherical aquarium, filled with water, is placed in front of a flat vertical mirror. The radius of the aquarium is $R$, and the distance between its center and the mirror is $3R$. A small fish, which is initially at the point nearest to the mirror, starts to move with velocity $v$ along the wall. An observer looks at the fish from a very large distance along a horizontal line passing trough the center of the aquarium.\n\nWhat is the relative velocity $v_{rel}$ at which the two images of the fish seen by the observer will move apart? Express your answer in terms of $v$. Assume that:\n\n• The wall of the aquarium is made of a very thin glass.\n• The index of refraction of water is $n=4/3$."
+    }
+   ]
+  },
+  {
+   "year": 1972,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Three Cylinders",
+     "problem": "Problem 1 (Mechanics)\n\nThree cylinders with the same mass, the same length and the same external radius are initially resting on an inclined plane. The coefficient of sliding friction on the inclined plane, $\\mu$, is known and has the same value for all the cylinders. The first cylinder is empty (tube), the second is homogeneous filled, and the third has a cavity exactly like the first, but closed with two negligible mass lids and filled with a liquid with the same density like the cylinder's walls. The friction between the liquid and the cylinder wall is considered negligible. The density of the material of the first cylinder is $n$ times greater than that of the second or of the third cylinder.\n\nDetermine:\n\na) The linear acceleration of the cylinders in the non-sliding case. Compare all the accelerations.\n\nb) Condition for angle $\\alpha$ of the inclined plane so that no cylinders is sliding.\n\nc) The reciprocal ratios of the angular accelerations in the case of roll over with sliding of all the three cylinders. Make a comparison between these accelerations.\n\nd) The interaction force between the liquid and the walls of the cylinder in the case of sliding of this cylinder, knowing that the liquid mass is $m_l$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Molecular Physics",
+     "problem": "Problem 2 (Molecular Physics)\n\nTwo cylinders A and B, with equal diameters have inside two pistons with negligible mass connected by a rigid rod. The pistons can move freely. The rod is a short tube with a valve. The valve is initially closed (fig. 2.1).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1972-2-fig1.png\n\nFig. 2.1\n\nThe cylinder A and his piston is adiabatically insulated and the cylinder B is in thermal contact with a thermostat which has the temperature $\\theta=27\\,^{\\circ}\\mathrm{C}$.\n\nInitially the piston of the cylinder A is fixed and inside there is a mass $m=32\\,\\mathrm{kg}$ of argon at a pressure higher than the atmospheric pressure. Inside the cylinder B there is a mass of oxygen at the normal atmospheric pressure.\n\nLiberating the piston of the cylinder A, it moves slowly enough (quasi-static) and at equilibrium the volume of the gas is eight times higher, and in the cylinder B de oxygen's density increased two times. Knowing that the thermostat received the heat $Q'=747{,}9\\cdot10^{4}\\,\\mathrm{J}$, determine:\n\na) Establish on the base of the kinetic theory of the gases, studying the elastic collisions of the molecules with the piston, that the thermal equation of the process taking place in the cylinder A is $TV^{2/3}=\\text{constant}$.\n\nb) Calculate the parameters $p$, $V$, and $T$ of argon in the initial and final states.\n\nc) Opening the valve which separates the two cylinders, calculate the final pressure of the mixture of the gases.\n\nThe kilo-molar mass of argon is $\\mu=40\\,\\mathrm{kg/kmol}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Dielectric Liquid",
+     "problem": "Problem 3 (Electricity)\n\nA plane capacitor with rectangular plates is fixed in a vertical position having the lower part in contact with a dielectric liquid (fig. 3.1)\n\nDetermine the height, $h$, of the liquid between the plates and explain the phenomenon.\n\nThe capillarity effects are neglected.\n\nIt is supposed that the distance between the plates is much smaller than the linear dimensions of the plates.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1972-3-fig1.png\n\nFig. 3.1\n\nIt is known: the initial intensity of the electric field of the charged capacitor, $E$, the density $\\rho$, the relative electric permittivity $\\varepsilon_r$ of the liquid, and the height $H$ of the plates of the capacitor.\n\nDiscussion."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Geometrical Optics and Interference",
+     "problem": "Problem 4 (Optics)\n\nA thin lens plane-convex with the diameter $2r$, the curvature radius $R$ and the refractive index $n_o$ is positioned so that on its left side is air ($n_1=1$), and on its right side there is a transparent medium with the refractive index $n_2\\neq1$. The convex face of the lens is directed towards air. In the air, at the distance $s_1$ from the lens, measured on the principal optic ax, there is a punctual source of monochromatic light.\n\na) Demonstrate, using Gauss approximation, that between the position of the image, given by the distance $s_2$ from the lens, and the position of the light source, exists the relation:\n\n$$\\frac{f_1}{s_1}+\\frac{f_2}{s_2}=1$$\n\nwhere $f_1$ and $f_2$ are the focal distances of the lens, in air, respectively in the medium with the refractive index $n_2$.\n\nObservation: All the refractive indexes are absolute indexes.\n\nb) The lens is cut perpendicular on its plane face in two equal parts. These parts are moved away at a distance $\\delta\\ll r$ (Billet lens). On the symmetry axis of the system obtained is led a punctual source of light at the distance $s_1$ ($s_1>f_1$) (fig. 4.1). On the right side of the lens there is a screen E at the distance $d$. The screen is parallel with the plane face of the lens. On this screen there are $N$ interference fringes, if on the right side of the lens is air.\n\nDetermine $N$ function of the wave length.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1972-4-fig1.png\n\nFig. 4.1"
+    }
+   ]
+  },
+  {
    "year": 1974,
    "problems": [
     {

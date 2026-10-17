@@ -570,6 +570,7 @@ svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; s
 .mx-find button { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); appearance: none; border: 0; background: none; color: #cfd9e3; font-size: 1.1rem; line-height: 1; padding: 4px 6px; cursor: pointer; }
 .mx-find button[hidden] { display: none; }
 .mx-nomatch { color: #aebccb; font-size: .9rem; padding: 10px 0; }
+.mx-coming { padding: 18px 0 8px; font-size: .95rem; color: #d9d3f0; }
 .mx { --cols: 39; --lw: 184px; --cw: 21px; display: grid; gap: 4px; min-width: calc(var(--lw) + var(--cols) * (var(--cw) + 4px)); }
 .mx-row { display: flex; align-items: center; gap: 3px; }
 .mx-row > .yh, .mx-row > .cell { flex: 1 1 0; min-width: var(--cw); }
@@ -1033,7 +1034,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261017-physics-palette';
+const DATA_VERSION = '20261017-tabs';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world' };
@@ -1046,8 +1047,15 @@ const COUNTRIES = [
 ];
 COUNTRIES.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
 const CBY = Object.fromEntries(COUNTRIES.map(c => [c.key, c]));
-/* Sections of the grid; a section appears once it has a collection. */
-const TABS = [['international', 'International'], ['regional', 'Regional'], ['national', 'National']];
+/* Sections of the grid, as in the math bank; a section without collections yet says what is coming. */
+const TABS = [['national', 'National'], ['regional', 'Regional'], ['international', 'International'], ['undergraduate', 'Undergraduate']];
+const COMING = {
+    national: 'National physics olympiads (USAPhO, BPhO, Russia, Estonia–Finland, Germany, Greece and more) are being prepared.',
+    regional: 'Regional physics olympiads (APhO, EuPhO, Nordic-Baltic NBPhO, Iberoamerican OIbF and more) are being prepared.',
+    international: 'International physics olympiads are being prepared.',
+    undergraduate: 'University physics competitions (PLANCKS, IUPT and more) are being prepared.'
+};
+const comingHtml = tab => `<p class="mx-nomatch mx-coming">${esc(COMING[tab] || 'This section is being prepared.')}</p>`;
 const scopeOf = c => c.scope || 'national';
 const tabRows = () => COUNTRIES.filter(c => scopeOf(c) === state.tab);
 
@@ -1458,18 +1466,16 @@ function buildMatrix() {
             });
         });
     });
-    mx.innerHTML = html;
+    mx.innerHTML = tabRows().length ? html : comingHtml(state.tab);
     mx.querySelectorAll('.grp').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); toggleGroup(b.dataset.grp); }));
     refreshGrid();
     syncMatrix();
     if (useList()) buildList();
 }
 function renderTabs() {
-    const used = TABS.filter(([k]) => COUNTRIES.some(c => scopeOf(c) === k));
     const el = $('#mxTabs');
-    if (used.length < 2) { el.hidden = true; return; }
     el.hidden = false;
-    el.innerHTML = used.map(([k, label]) => {
+    el.innerHTML = TABS.map(([k, label]) => {
         const n = tabTotal(k);
         return `<button type="button" role="tab" data-tab="${k}" aria-selected="${state.tab === k}">${label}${n ? `<span class="tn">${n.toLocaleString('en-US')}</span>` : ''}</button>`;
     }).join('');
@@ -1757,7 +1763,7 @@ function buildList() {
                 + `<div class="li-b"${ex ? '' : ' hidden'}>${ex ? listItemBody(e, only) : ''}</div></div>`;
         });
     });
-    el.innerHTML = html || '<p class="mx-nomatch">No country or competition matches.</p>';
+    el.innerHTML = html || (tabRows().length ? '<p class="mx-nomatch">No country or competition matches.</p>' : comingHtml(state.tab));
     syncList();
 }
 function listEntry(id) {
@@ -1912,6 +1918,8 @@ function compare(a, b) {
 }
 
 function syncFilters() {
+    // A section without collections yet has nothing to search or filter.
+    $('.filters').style.display = !state.country && !tabRows().length ? 'none' : '';
     const list = scoped();
     const base = list.filter(matchesQuery);
     $('#scope').innerHTML = `
@@ -2174,8 +2182,8 @@ function renderResults() {
         const wide = state.country || state.year !== null;
         box().innerHTML = headHtml(0) + `
             <div class="state">
-                <h3>No problems match</h3>
-                <p>${filtersOn() ? 'Try fewer words or another filter.' : 'There is nothing in this selection yet.'}</p>
+                <h3>${!state.country && !tabRows().length ? "Coming soon" : "No problems match"}</h3>
+                <p>${filtersOn() ? 'Try fewer words or another filter.' : !tabRows().length ? esc(COMING[state.tab] || 'This section is being prepared.') : 'There is nothing in this selection yet.'}</p>
                 <div class="actions">
                     ${filtersOn() ? '<button type="button" class="btn" data-clear-filters>Clear filters</button>' : ''}
                     ${wide ? '<button type="button" class="btn btn-primary" data-all-scope>Search everything</button>' : ''}

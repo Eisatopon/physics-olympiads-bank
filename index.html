@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>World Physics Olympiads Bank – eisatopon.gr</title>
+<title>Archimedes – World Physics Olympiads Bank – eisatopon.gr</title>
 <meta name="description" content="A searchable archive of physics olympiad problems — the International Physics Olympiad (IPhO) theoretical problems first, then APhO, EuPhO and national physics olympiads — in English with LaTeX, statements only. Build a printable problem set.">
 <meta name="theme-color" content="#241452">
 <link rel="icon" type="image/png" href="assets/eisatopon-logo.png">
@@ -12,11 +12,11 @@
 <!-- Link previews (Facebook, X, LinkedIn, Reddit, Viber, WhatsApp) -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="eisatopon.gr">
-<meta property="og:title" content="World Physics Olympiads Bank">
+<meta property="og:title" content="Archimedes – World Physics Olympiads Bank">
 <meta property="og:description" content="Physics olympiad problems from IPhO and other physics olympiads, in English with LaTeX, with figures and data tables. Statements only. Free, searchable, printable.">
 <meta property="og:url" content="https://eisatopon.github.io/physics-olympiads-bank/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="World Physics Olympiads Bank">
+<meta name="twitter:title" content="Archimedes – World Physics Olympiads Bank">
 <meta name="twitter:description" content="Physics olympiad problems (IPhO and more), in English with LaTeX. Statements only. Free, searchable, printable.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -539,6 +539,7 @@ svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; s
 .logo { width: 32px; height: 32px; flex: 0 0 auto; display: block; }
 
 .hero-body { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 40px; align-items: end; padding-top: 18px; padding-bottom: 14px; }
+.hero h1 .bank-name { display: block; font-size: .5em; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #facc15; margin-bottom: .25em; }
 .hero h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(2rem, 4.4vw, 3.3rem); line-height: 1.06; letter-spacing: -.01em; }
 .lede { color: #d3dde6; font-size: 1.02rem; max-width: 54ch; padding-bottom: 4px; }
 .stats { display: flex; flex-wrap: wrap; gap: 22px; justify-content: flex-end; padding-bottom: 6px; }
@@ -865,14 +866,17 @@ dialog p { color: var(--muted); font-size: .92rem; }
     <div class="wrap brandbar">
         <a class="brand" href="https://eisatopon.gr" target="_top" aria-label="eisatopon.gr"><img class="logo" src="assets/eisatopon-logo.png" width="32" height="32" alt=""><span>eisatopon.gr</span></a>
         <nav class="subjects" aria-label="Other olympiad banks">
-            <a class="subj" href="https://eisatopon.github.io/national-olympiads-bank/"><span aria-hidden="true">←</span>Mathematics</a>
-            <a class="subj" href="./" aria-current="page"><span aria-hidden="true">⚛️</span>Physics</a>
+            <a class="subj" href="https://eisatopon.github.io/national-olympiads-bank/" title="Pythagoras – World Mathematical Olympiads Bank"><span aria-hidden="true">←</span>Mathematics</a>
+            <a class="subj" href="./" aria-current="page" title="Archimedes – World Physics Olympiads Bank"><span aria-hidden="true">⚛️</span>Physics</a>
+            <a class="subj" href="https://eisatopon.github.io/chemistry-olympiads-bank/" title="Democritus – World Chemistry Olympiads Bank"><span aria-hidden="true">🧪</span>Chemistry</a>
+            <a class="subj" href="https://eisatopon.github.io/informatics-olympiads-bank/" title="Antikythera – World Informatics Olympiads Bank"><span aria-hidden="true">💻</span>Informatics</a>
+            <a class="subj" href="https://eisatopon.github.io/biology-olympiads-bank/" title="Aristotle – World Biology Olympiads Bank"><span aria-hidden="true">🧬</span>Biology</a>
         </nav>
     </div>
 
     <div class="wrap hero-body">
         <div>
-            <h1>World Physics Olympiads Bank</h1>
+            <h1><span class="bank-name">Archimedes</span>World Physics Olympiads Bank</h1>
             <p class="lede">Physics olympiad problems from international, regional and national competitions, in English with LaTeX: statements with every part, data table and figure. Statements only — no solutions. Browse the competition-year grid.</p>
         </div>
         <div class="stats" id="stats" aria-hidden="true">
@@ -982,9 +986,9 @@ dialog p { color: var(--muted); font-size: .92rem; }
 
 <footer class="footer">
     <div class="wrap">
-        <span>eisatopon.gr © 2026–<span id="yr">2026</span> – World Physics Olympiads Bank</span>
+        <span>eisatopon.gr © 2026–<span id="yr">2026</span> – Archimedes, World Physics Olympiads Bank</span>
         <a href="https://github.com/Eisatopon/physics-olympiads-bank" target="_blank" rel="noopener">Data on GitHub</a>
-        <p class="thanks">Statements are reproduced from the official IPhO papers for study; the problems remain the work of their authors and organising committees. Sister project of the <a href="https://eisatopon.github.io/national-olympiads-bank/">World Mathematical Olympiads Bank</a>.</p>
+        <p class="thanks">Statements are reproduced from the competitions' official papers for study; the problems remain the work of their authors and organising committees. Sister project of <a href="https://eisatopon.github.io/national-olympiads-bank/">Pythagoras – World Mathematical Olympiads Bank</a>.</p>
     </div>
 </footer>
 
@@ -1034,7 +1038,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261019-nbpho-2003-2026';
+const DATA_VERSION = '20261019-archimedes';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world' };

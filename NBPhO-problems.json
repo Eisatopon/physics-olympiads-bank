@@ -2,6 +2,330 @@
  "competition": "Nordic-Baltic Physics Olympiad (NBPhO) — theoretical problems",
  "years": [
   {
+   "year": 2003,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Volleyball",
+     "problem": "Volleyball (8 points)\n\nConsider a simplified model of a volleyball: a thin spherical envelope filled with air. The envelope material is non-stretchable, easily foldable. The excess pressure inside the ball $\\Delta p = 20\\,\\mathrm{kPa}$, the ball radius $R = 10\\,\\mathrm{cm}$ and mass $m = 400\\,\\mathrm{g}$ (the air mass inside the ball is negligible). You can neglect the dependence of the excess pressure on the deformation of the ball.\n\n1) The ball is pressed between two parallel rigid plates, the distance between of which is $2R - 2h$ (so that the height of the deformed segments is $h = 1\\,\\mathrm{cm}$). Find the force between the ball and a plate $N$.\n\n2) Ball moves with velocity $v_0 = 2\\,\\mathrm{m/s}$ and hits a rigid wall. Find the maximal height of the deformed segment $h_m$ …\n\n3) … and the collision time $\\tau$.\n\n4) For small excess pressures, the ball can lose its spherical shape even in those points, which are not in touch with the wall. Which condition between the quantities $\\Delta p$, $R$, $m$ and $h$ has to be satisfied in order to ensure that such a loss of sphericity is negligible?"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Heat flux",
+     "problem": "Heat flux (4 points)\n\nHeat resistivity is equal to the ratio of the temperature difference between the end-points of a wire of unit cross-section and unit length, and the heat flux (unit: W) through this wire.\n\n1) Microprocessor of power $P = 90\\,\\mathrm{W}$ has a water-cooling system. The chip and flowing water are separated by a copper plate of thickness $d = 5\\,\\mathrm{mm}$ and cross-section area $s = 100\\,\\mathrm{mm^2}$. What is the temperature difference between the processor and water? The copper heat resistivity is $\\rho = 2{,}6\\,\\mathrm{mm\\cdot K/W}$.\n\n2) A wire is made of different alloys, its heat resistivity $\\rho$ as a function of the coordinate along the wire is given in the attached graph. The cross-section area of the wire is $S = 1\\,\\mathrm{mm^2}$, its length $l = 4\\,\\mathrm{cm}$. Find the heat flux through the wire, if one end of the wire is kept at the temperature $100^\\circ\\mathrm{C}$, and the other end — at $0^\\circ\\mathrm{C}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2003-2-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Gravitation",
+     "problem": "Gravitation (6 points)\n\n1) Find the free falling acceleration $g_0$ at the surface of such a spherical planet, which has mass $M$ and material density $\\rho$ (in what follows, $M$ and $\\rho$ are assumed to be constant).\n\n2) Is it possible that at the surface of a non-spherical planet, there is a point with free falling acceleration $g > g_0$? Motivate your answer.\n\n3) For which planet shape the maximum of the free falling acceleration is achieved? Answer can be given in polar coordinates, the expression can contain one unspecified constant."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Tunnel diode",
+     "problem": "Tunnel diode (8 points)\n\nTunnel diode is a semi-conductor device, similar to the ordinary diode, the volt-amper characteristic of which is given in the attached graph. The circuit below describes a simple amplifier. The resistance $R = 10\\,\\Omega$, battery voltage $\\mathcal{E} = 0{,}25\\,\\mathrm{V}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2003-4-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2003-4-fig2.png\n\n1) Find the current in the circuit, if $U_{\\mathrm{in}} + \\mathcal{E} = 0{,}08\\,\\mathrm{V}$.\n\n2) Find the output voltage $U_{\\mathrm{out}\\,0}$ if $U_{\\mathrm{in}} = 0\\,\\mathrm{V}$.\n\n3) Find the output signal $U_{\\mathrm{out}} - U_{\\mathrm{out}\\,0}$ if $U_{\\mathrm{in}} = 1\\,\\mathrm{mV}$.\n\n4) The input signal is given in the graph below. Sketch the output signal as a function of time.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2003-4-fig3.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Vibration",
+     "problem": "Vibration (10 points)\n\nConsider a smooth horizontal surface, which is moved periodically back and forth along the horizontal $x$-axis: during the first semi-period $\\tau$, the surface velocity is $u$, during the second semi-period — $-u$. A brick of mass $m$ is put on that surface; the friction coefficient between the surface and brick is $\\mu$, free falling acceleration is $g$.\n\n1) The brick has initial $x$-directional velocity $v$. Which condition between the quantities $g$, $\\mu$, $v$, and $\\tau$ has to be satisfied in order to ensure that the brick velocity change during a semi-period is negligible? Further we assume that this condition is satisfied.\n\n2) The brick is kept in motion along $x$-axis by a force $F_x$ in such a way that the mean brick velocity is $v$. Sketch graphically the dependance $F_x(v)$.\n\n3) The brick is kept in motion along (horizontal) $y$-axis by a force $F_y$ in such a way that the mean brick velocity is $v$. Find the dependance $F_y(v)$.\n\n4) Until now we have ignored the dependance of the friction coefficient on the sliding velocity. Further let us assume this dependance is given by the graph below. The brick is kept in motion along $x$-axis by a force $F_x$ in such a way that the mean brick velocity is $v$. Sketch graphically the dependance $F_x(v)$ taking $u = \\frac{3}{4}w_0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2003-5-fig1.png\n\n5) The brick is put on the surface, there are no external forces. What is the brick’s terminal velocity $v$? Provide the answer as a function of $u$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Charged particle",
+     "problem": "Charged particle (12 points)\n\nA particle of mass $m$ and charge $q$ is in a homogeneous magnetic field with induction $B$ (the vector is parallel to the $z$-axis). The characteristic time of the system is the cyclotron period of the particle $T_B = 2\\pi m/Bq$. The system is situated in between two parallel electrodes, which can be used to create an homogeneous, parallel to the $x$-axis electric field $E$.\n\n1) The particle is at rest. At the moment of time $t = 0$, the electric field $E$ is switched on; after a short time interval $\\tau$ ($\\tau \\ll T_B$), it is switched off, again. What will be the trajectory of the particle?\n\n2) Let $p_x$ and $p_y$ denote the $x$- and $y$ components of the momentum of the particle. Sketch the trajectory of the particle in $(p_x, p_y)$-plane and depict the vectors of the momentum for the moments of time $t_n = nT_B/4$ ($n = 1, 2, 3$ and $4$).\n\n3) Consider the situation when the on-off switching of the electric field is done periodically, starting with $t = 0$, after equal time intervals $\\Delta t = T_B/4$. Sketch the particle trajectories in $(p_x, p_y)$- and $(x, y)$-planes.\n\n4) Let the period be short, $\\Delta t \\ll T_B$ (but still much longer than the duration of pulse, $\\Delta t \\gg \\tau$). Show that after the $n$-th pulse (at the time moment $t_n = n\\Delta t$), the momentum of the particle can be represented as the sum of $n$ vectors $\\vec{p}_i$, where all the component-vectors are equal in modulus (the modulus being independent of $n$), and the neighboring vectors ($\\vec{p}_i$ and $\\vec{p}_{i+1}$, $i = 1, 2, \\ldots$) have equal angles between them.\n\n5) Consider the limit case $\\Delta t \\to 0$, so that $E\\tau/\\Delta t \\to E_k$ ($E_k$ denotes the time-average of the elctric field). Sketch the particles trajectory in $(p_x, p_y)$-plane and express the particles mean velocity (vectorially; averaged over the cyclotron period) via the quantities $E_k$ and $B$.\n\n6) Let us return to the non-zero (but still small, $\\Delta t \\ll T_B$) time-intervals. Let us consider the case when the pulses are of variable polarity: for the $2n$-th pulse, the electric field is $+E$, and for the $2n+1$st pulse $-E$. Find the particles average velocity, (vectorially) averaged over the cyclotron period."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Telescope",
+     "problem": "Telescope (12 points)\n\nAs it is well known, a telescope makes it possible to see the stars in daylight. Let us study the problem in more details. Consider a simplified model of the eye: a single lens with focal length $f = 4\\,\\mathrm{cm}$ and diameter $d = 3\\,\\mathrm{mm}$ creating an image on screen (retina). The model of a telescope is similar: a lens of focal length $F = 2\\,\\mathrm{m}$ and diameter $D = 20\\,\\mathrm{cm}$ creating an image in focal plane (where eg. a film can be put). In your calculations, the following quantities can be used: the density of the light energy radiated from a unit Solar surface in unit time $w_0$ (the light power surface density); the ratio of the star and Sun distances $q = 4 \\cdot 10^5$ (we assume that the star is identical to the Sun); Solar angular diameter $\\phi \\approx 9\\,\\mathrm{mrad}$. Remark: If the answer contains $w_0$ then numerical answer is not required.\n\n1) Consider a sheet of paper, the normal of which is directed towards the Sun. What is the surface density of the light power $w_1$ arriving to the sheet from the Sun?\n\n2) Find the net power $P_2$ of the light, which is focused by the telescope into the image of the star.\n\n3) Assume that blue sky is as bright as a sheet of gray paper illuminated by Sun. You may assume that in the direction, perpendicular to the sheet, the ratio of the light power scattered by the paper into a 1-steradian space angle, to the net light power arriving to the sheet, is $\\alpha \\approx 0{,}1$ (this corresponds to the dissipation of ca 70 % light energy in the gray paper). What is the surface density of the light power in the focal plane of the telescope $w_3$, due to the blue sky?\n\n4) While studying the star image, let us ignore all the effects other than diffraction. Estimate the surface density of the light power in the center of the star image $w_2$ (in the focal plane of the telescope), due to the light arriving from the star.\n\n5) Provide an expression for the ratio of the surface densities of the light powers $k$ in the middle of the star image, and in a point farther away from it.\n\n6) Is it possible to see a star in daylight using a telescope? Plain eye? Motivate yourself."
+    }
+   ]
+  },
+  {
+   "year": 2004,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Rubber fiber",
+     "problem": "Rubber fiber (12 pts)\n\nFibers made of elastic rubber can be stretched to lengths $l$, much longer than the length in undeformed state $l_0$. For such rubbers, the net volume of the fiber remains constant.\n\n1) Express the cross-sectional area $S$ of such a fiber in a deformed state via its length $l$ and initial dimensions $l_0$, $S_0$ (1 pt).\n\n2) For small deformations of an elastic material, the stretching force $F$ and deformation $x$ are related to each other by the Hooke’s law $F = k_0 x$, where the stiffness $k_0 = E_0 S_0/l_0$ and $E_0$ is the Young’s modulus of the rubber. For non-small (possibly large, $l \\gg l_0$) deformations of elastic rubber, however, the Hooke’s law is substituted by a non-linear law, $F(l) = a + \\frac{b}{l}$ (breaking of this law at very large values of $l$ will not be studied here). Express the constants $a$ and $b$ in terms of $l_0$, $S_0$, and $E_0$ (2 pt).\n\n3) Suppose such a fiber is stretched by some force up to the length $l$. A small change $\\Delta F$ of the stretching force results in a small change in the length $\\Delta l \\ll l$. Express $\\Delta F$ in terms of $l$, $l_0$, $S_0$, $E_0$, and $\\Delta l$ (1 pt).\n\n4) Suppose a small body is fixed to an one end of the fiber and the system is put into rotation around the other end of the fiber. In the case of a circular motion of the body, express the length of the fiber $l$ via $l_0$, $S_0$, $E_0$, and the kinetic energy of the body $K$ (the kinetic energy of the fiber and gravity can be neglected). (1.5 pts)\n\n5) Let us analyse a slightly non-circular motion of the body. Let us describe the motion of the system by the length change of the fiber $r(t) = l(t) - l(0)$, the radial $v_r(t)$ and tangential $v_t(t)$ velocities of the body (the components respectively parallel and perpendicular to the fiber). The initial values of these quantities are designated as $L \\equiv l(0)$, $V_r \\equiv v_r(0)$, and $V_t \\equiv v_t(0)$. The values $L$ and $V_t$ are chosen so that if the initial radial velocity were zero, the motion would be circular. Write down two independent equations relating $r(t)$, $v_r(t)$, and $v_t(t)$ to each other (using also the mass of the body $m$, together with the parameters $L$, $V_r$, $V_t$, $l_0$, $S_0$, $E_0$). (3.5 pts).\n\n6) Find the relationship between $r(t)$ and $v_r(t)$ (containing also the parameters $m$, $L$, $V_r$, $V_t$, $l_0$, $S_0$, $E_0$) assuming that $|r| \\ll L$, and find the period $T$ of small oscillations of $r(t)$. Simplify the expression of $T$ for $L \\gg l_0$ (3 pts)."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Planets",
+     "problem": "Planets (6 pts)\n\nTwo planets move along circular orbits around a star of mass $M = 2.0 \\cdot 10^{30}\\,\\mathrm{kg}$; gravitational constant $G = 6.67 \\cdot 10^{-11}\\,\\mathrm{m^3/kg \\cdot s^2}$. The dependence of the angular distance between a planet and the star on time, as seen from the other planet, is depicted in figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-2-fig1.png\n\n1) What is the ratio of the radii of the planets $k$ (2 pts)?\n\n2) Determine the value of the unit on the vertical axis (or express it in terms of $k$, if you were unable to find it) (2 pts).\n\n3) What are the orbital radii of the planets, if the unit on the horizontal axis equals to one year (2 pts)?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Tilt-shift lens",
+     "problem": "Tilt-shift lens (6 pts)\n\n1) Show that an image of a straight line created by a thin lens is also a straight line. Consider two-dimensional geometry only, i.e. assume that the main optical axis and the straight line lay in the same $(x, y)$ surface. Hint: use the coordinate system, where the origin coincides with the center of the lens and represent lines algebraically, e.g. $y = ax + b$. Make use of the formula of thin lens $f^{-1} = x^{-1} - x'^{-1}$ ($x > 0$ and $x'$ are the $x$-coordinates of a point and its image, respectively) (2 pts).\n\n2) In figure (a), draw the image of the given line and indicate, which parts of the image are virtual, and which are real (2 pts).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-3-fig1.png\n\n3) Photographer wants to take a photo of a field of flowers. In order to get image where all the flowers (both the close and far ones) are sharp, he has to use a lens with tilt-shift (TS) capabilities (either an ordinary camera with TS lens, or a large-format camera, where the entire lens compartment can be freely positioned). The field of flowers (which extends effectively to infinity) and the image of its distant edge, together with the image plane are depicted in figure (b). Reconstruct the position of the lens, the focal length of which is provided as a scale (2 pts).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-3-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Transparent film",
+     "problem": "Transparent film (6 pts)\n\nA thick glass plate is coated by a thin transparent film. The transmission spectrum of the system is depicted in graph (light falls normal to the plate). The refractive index of the film $n \\approx 1.3$. What is the thickness of the film $d$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-4-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "4th order ellipse",
+     "problem": "4th order ellipse (6 pts)\n\n4th order ellipse is defined by equation $\\frac{x^4}{a^4} + \\frac{y^4}{b^4} = 1$, where $a$ and $b$ are the lengths of the half- axes. Consider an homogeneous cylinder, the cross-section of which is 4th order ellipse. The position of the cylinder is measured by the angle $0 \\le \\varphi \\le \\pi/2$ between the vertical direction and a longer half-axes, see figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-5-fig1.png\n\n1) What are the equilibrium positions of the cylinder laying on an horizontal surface (3.5 pts)?\n\n2) Sketch on graph the net torque of gravity and surface reaction forces with respect to the contact point of the cylinder and surface as a function of $\\varphi$ ($0 \\le \\varphi \\le \\pi/2$). For the axis of torque, you do not need to indicate any quantitative scale (1.3 pts).\n\n3) Which equilibrium positions are stable and which are not? Motivate your answer (1.2 pts)."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Magnets",
+     "problem": "Magnets (6 pts)\n\nCertain type of magnetic toys are made up of ferromagnetic spheres and permanent magnets of cylindrical shape. These building blocks can be used to build, for instance, a tetrahedron, see figure (letter “$N$” marks the northern end of a magnet). Assume that all these permanent magnets are identical and each of them alone can create a magnetic flux $\\Phi$ (assuming the both ends of the magnet are in contact with a U-shaped large piece of ferromagnetic material, so that a closed ferromagnetic contour is formed). Assume also that due to high magnetic permeability of the material of the building blocks, all the magnetic field lines are constrained inside of them (i.e. in the surrounding medium, the magnetic inductance $B = 0$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-6-fig1.png\n\n1) Let us designated the fluxes in each permanent magnet (magnets $A$–$F$ in figure) by $\\Phi_A$ – $\\Phi_F$. Write down equation relating $\\Phi_A$, $\\Phi_B$, and $\\Phi_C$ to each other (and possibly to $\\Phi$) (1 pt).\n\n2) Write down equation relating $\\Phi_A$, $\\Phi_B$, and $\\Phi_F$ to each other (and possibly to $\\Phi$) (1 pt).\n\n3) Find the ratio $\\Phi_F/\\Phi_C$ (1 pt).\n\n4) Find the magnetic fluxes in each permanent magnet (2 pts).\n\n5) Which of the magnets is the most difficult one to remove? Motivate your answer (1 pts)."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Passive air-cooling",
+     "problem": "Passive air-cooling (9 pts)\n\nConsider a passive cooling system depicted in figure. Cold air (at normal conditions: $p_0 = 10^5\\,\\mathrm{Pa}$, $T_0 = 293\\,\\mathrm{K}$) flows over the heat sink of a chip of power dissipation $P = 100\\,\\mathrm{W}$, into a vertical pipe of length $L = 1\\,\\mathrm{m}$ and cross-sectional area $S = 25\\,\\mathrm{cm^2}$. After passing the pipe, air enters the ambient room. Assume that the air inside the pipe becomes well mixed; neglect the viscous and turbulent friction of air inside the pipe and heat sink. Air can be considered as an ideal gas with adiabatic exponent $\\gamma = 1.4$ and molar mass $\\mu = 29\\,\\mathrm{g/mol}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-7-fig1.png\n\n1) Express heat capacitance at constant pressure $c_p$ via quantites $\\gamma$ and $R$ (1 pt).\n\n2) Find a relationship between the outflowing air density $\\rho$ and temperature $T$ (the relationship may contain also the parameters defined above) (2 pts).\n\n3) Find a relationship between the air flow velocity in the pipe $v$ and outflowing air density $\\rho$ (the relationship may contain also the parameters defined above) (2 pts).\n\n4) Express the power disspation $P$ in terms of the air flow velocity $v$, the outflowing air temperature $T$, and density $\\rho$ (the relationship may contain also the parameters defined above) (2 pts).\n\n5) What is the temperature $T$ of the outflowing air? In your calculations, you may use approximation $T - T_0 \\ll T_0$ (2 pts)?"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Loop of wire",
+     "problem": "Loop of wire (7 pts)\n\nConsider a rectangular loop of wire with dimensions $a = 0.03\\,\\mathrm{m}$ and $b = 1.0\\,\\mathrm{m}$, one side of which is parallel to another long straight wire carrying current $I_0 = 1000\\,\\mathrm{A}$, at distance $l = 0{,}01\\,\\mathrm{m}$, see figure. The magnetic inductance of such current is plotted as a function of the distance from the wire in attached graph. The Ohmic resistance of the loop is $R = 1{,}0\\,\\Omega$, the inductance is negligible.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-8-fig1.png\n\n1) Calculate the magnetic flux $\\Phi$ through the loop (2 pts).\n\n2) At a certain moment of time, the current in the long wire is switched off. What is the net charge $Q$ flowing through a fixed cross-section of the wire of the loop (3 pts)?\n\n3) What is the net momentum $p$ given to the loop during the switch-off of the current (express it in terms of $Q$ and the given quantities, if you were unable to calculate $Q$) (2 pts)?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2004-8-fig2.png"
+    }
+   ]
+  },
+  {
+   "year": 2005,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Rock Climber",
+     "problem": "Rock Climber (6 points)\n\nA rock climber of mass $m = 80\\,\\mathrm{kg}$ ascends along a vertical rock. For self-protection, the climber uses the following method. One end of an elastic rope is anchored to the ground. The rope goes through smooth protection loops (carabiners), which are anchored to the rock. The height of the last carabiner is $H = 20\\,\\mathrm{m}$. The other end of the rope goes through a special braking clip which is tied to the harness of the climber. During the climb, this clip keeps rope tight, but enables the climber to lengthen protective part of the rope. (Assume that the rope between the clip and carabiners is always tight) When falling, the maximum acceleration must not exceed $a_{\\max} = 5g$ (to protect from injuries). You may assume that the rope is always vertical, the distance between the clip and the centre of mass of the climber is very small, and friction between the rope and carabiners is negligible. Relationship between the strain and stress of the rope is sketched on the graph below.\n\n1) Assume that the distance between the climber and the last carabiner is $L$ (see Figure). If the climber happens to fall, the distance between the highest carabiner and the climber will reach a maximal value $l$ (afterwards, the elasticity of the rope starts lifting the climber). Which inequality should be satisfied for $l$? (1.5 pts)\n\n2) Find the maximal safe length $L$ between the climber and the last carabiner (upon reaching of which he has to anchor a next carabiner; 4.5 pts).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2005-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Magnetic break",
+     "problem": "Magnetic break (12 points)\n\nFoucault currents can be used to decelerate moving metal objects, e.g. a rotating disc. Consider the following simple model. For the sake of simplicity, the disc is substituted by a “circular railway”, see Figure. Plastic “can” of radius $r = 15\\,\\mathrm{cm}$, mass $m = 100\\,\\mathrm{g}$, and height $h = 1\\,\\mathrm{cm}$ consists of a homogeneous disc (the bottom of the “can”), and of a much thinner cylindrical wall. Along the edges of the cylinder, there are two wire rings (“rails”), which are connected with a set of parallel wire bars (“sleepers”). Both the “sleepers” and “rails” are made of a copper wire of diameter $\\delta = 0{,}2\\,\\mathrm{mm}$; the distance between the “sleepers” $L = \\alpha h$, where $\\alpha = 0{,}3$. Frictionless rotation of the system is decelerated with an homogeneous magnetic field ($B = 1\\,\\mathrm{T}$) in the slit between the poles of a permanent magnet, see Figure. Assume that the homogeneous field fills a region of rectangular cross-section, equal to the area between three subsequent “sleepers” (i.e. of size $h \\times 2\\alpha h$). Outside of that region, the field is negligible. The specific resistance of the copper $\\rho = 1.724 \\cdot 10^{-8}\\,\\Omega\\mathrm{m}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2005-2-fig1.png\n\nSuppose the system is motionless.\n\n1) Find the resistance $R$ of a single “sleeper” (1 pt).\n\n2) Suppose the “rails” are cut near the end-points of a certain “sleeper” $A$ and $B$. Prove that the resistance between $A$ and $B$ is approximately given by $R_0 = R[\\sqrt{\\alpha(\\alpha+2)} - \\alpha]$ (2 pts).\n\nNow suppose the system is rotating with an angular speed $\\omega = 1\\,\\mathrm{rad/s}$, and the “rails” are uncut.\n\n3) Sketch an equivalent DC circuit, so that the currents through the resistors are equal to the currents in the respective “railway” elements: “sleepers” and “rail” segments (between subsequent “sleepers”; 2 pts).\n\n4) Using the above obtained results, prove that the (Joule) dissipation power is given by formula $P = kB^2\\omega^2/R$, and express the constant $k$ (3 pts).\n\n5) Find the decelerating torque $M$ (2 pts).\n\n6) Prove that the angular speed will vanish as $\\omega = \\omega_0 e^{-t/\\tau}$, and determine the time constant $\\tau$ (2 pts)."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Ballistic rocket",
+     "problem": "Ballistic rocket (8 p)\n\nA rocket is launched from a pole of the Earth with the first cosmic velocity (near-Earth orbital velocity) in such a way that it lands at the Equator. The radius of the Earth $R = 6400\\ \\mathrm{km}$.\n\n1) Find the longer semi-axes $a$ of the rocket’s orbit (1.5 pts).\n\n2) What is the maximal height of the rocket’s orbit $h$ (from the Earth’s surface; 3.5 pts)?\n\n3) What is the rocket’s flight time $\\tau$ (3 p)?\n\nRemark: The mechanical energy of a planet rotating around a star $E = -GMm/2a$, where $G$ is the gravitation constant, $M$ — the star mass, $m$ — the planet mass, and $a$ — the orbit’s longer semi-axes (zero potential energy corresponds to an infinite departure). The surface area of an ellipse $S = \\pi ab$, where $b$ is the shorter semi-axes."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Water pump",
+     "problem": "Water pump (10 p)\n\nConsider the following construction of a water pump. A vertical tube of cross-sectional area $S_1$ leads from an open water reservoir to a cylindric rotating tank of radius $r$. All the vessels are filled with water; there are holes of net cross-sectional area $S_2$ along the perimeter of the tank, which are open for the operating regime of the pump. The height of the tank from the free water surface of the reservoir is $h$ (the height of the tank itself is small). An electric engine keeps the vessel rotating at the angular velocity $\\omega$. The water density is $\\rho$, the air pressure — $p_0$, and the saturated vapour pressure — $p_k$. Assume the water flow to be laminar (neglect the energy of vortices) and neglect the friction. Inside the tank, there are metal blades, which make the water rotating together with the tank.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2005-4-fig1.png\n\n1) Calculate the pressure $p_2$ at the perimeter of the tank, when all the holes are closed (2 p).\n\n2) From now on, all the holes are open. Find the velocity $v_2$ of the water jets with respect to the ground (2 p).\n\n3) If the tank rotates too fast, the pump efficiency drops due to cavitation: the water starts “boiling” in some parts of the pump. Find the highest cavitation-free angular speed $\\omega_{\\max}$ (3 pts).\n\n4) If the power of the electric engine is $P$, what is the theoretical upper limit of the volume productivity of the pump $\\mu_{\\max}$ (volume of the pumped water per unit time)?"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Anemometer",
+     "problem": "Anemometer (6 points)\n\nAnemometer is a device measuring flow rate of a gas or a fluid. Let us look the construction of a simple laser-anemometer. In a rectangular pipe with thin glass walls flows a fluid (refractive index $n = 1{,}3$), which contains light dissipating particles. Two coherent plane waves with wavelength $\\lambda = 515\\,\\mathrm{nm}$ and angle $\\alpha = 4^\\circ$ between their wave vectors, are incident on a plate so that (a) angle bisector of the angle between wave vectors is normal to one wall of the pipe and (b) pipe is parallel to the plane defined by wave vectors. Behind the pipe is a photodetector, that measures the frequency of changes in dissipated light intensity.\n\n1) How long is the (spatial) period $\\Delta$ of the interference pattern created along $x$-axis (see Figure; 2 pts)?\n\n2) Let the oscillation frequency of the photometer signal be $\\nu = 50\\,\\mathrm{kHz}$. How large is the fluid’s speed $v$? What can be said about the direction of the fluid flow (2 pts)?\n\n3) Let us consider a situation, when the wavelengths of the plane waves differ by $\\delta\\lambda = 4{,}4\\,\\mathrm{fm}$ ($1\\,\\mathrm{fm} = 10^{-15}\\,\\mathrm{m}$). What is the frequency of signal oscillations now (fluid’s speed is the same as in previous section)? Is it possible to determine the flow direction with such a device (2 pts)?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2005-5-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Mechano-electrical oscillator",
+     "problem": "Mechano-electrical oscillator (7 points)\n\nMechanical and electrical processes are sometimes strongly coupled. Very important examples are systems containing piezoelectric materials, e.g. quartz resonator. Here we investigate a somewhat simpler situation.\n\nThere are two metal plates with area $S$ and mass $m$. One plate is situated atop of the other one. Plates are connected to each other with springs, whose total spring constant is $k$ and what are made of insulator. The lower plate is mounted on a steady base. Equilibrium distance between the plates is $X_0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2005-6-fig1.png\n\n1) Let us assume that there is a small vertical shift $x$ of the upper plate from its equilibrium position. Derive acceleration $\\ddot{x}$ of $x$ in terms of system parameters. What is the angular frequency $\\omega_0$ of the small vertical oscillations of the upper plate (1 pts)?\n\n2) Plates are now connected to a constant high voltage source, so that they form a capacitor. Electrostatic force between the plates causes an additional shift of the upper plate. The equilibrium distance between the plates is now $X_1$. Derive expressions of the electrical attractive force $F_e$ and voltage applied to the plates $U$ in terms of $X_0$, $X_1$, $S$, $m$ and $k$ (2 pts).\n\n3) System is set to oscillate again, keeping voltage $U$ constant. Let $x$ stand still for the shift from the equilibrium position. Derive an expression for the acceleration $\\ddot{x}$ of $x$ in terms of $X_0$, $X_1$, $S$, $m$, $k$ and shift $x$. What is the angular frequency $\\omega_1$ of upper plate’s small vertical oscillations (2 pts)?\n\n4) Let us modify the situation of the previous question and connect an inductor with inductance $L$ in series to the capacitor and voltage source. We describe the situation in terms of plate shift $x$ and capacitor’s charge $q$. Derive expressions for the accelerations $\\ddot{x}$ and $\\ddot{q}$ in terms of $X_0$, $X_1$, $S$, $m$, $k$, $x$ and $q$. Which angular frequencies of harmonic oscillation are possible in the system? (2 pts)"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Heat exchange",
+     "problem": "Heat exchange (8 points)\n\n1) Consider a simplified model of the air ventilation system of a house using a passive heat exchanger. The exchanger consists of a metal plate of length $x$ and width $y$ and thickness $d$ dividing the air channel into two halves, one for incoming cold air, and another for outgoing warm air. Both channels have constant thickness $h$, air flow velocity is $v$ see Figure. Thermal conductance of the metal is $\\sigma$ (the heat flux through a unit area of the plate per unit time, assuming that the temperature drops by one degree per unit thickness of the plate). Specific heat capacity of the air by constant pressure is $c_p$, air density is $\\rho$ (neglect its temperature dependance). You may assume that the air is turbulently mixed in the channel, so that the incoming and outgoing air temperatures $T_{\\mathrm{in}}$ and $T_{\\mathrm{out}}$ depend only on the coordinate $x$ (the $x$-axes is taken parallel to the flow velocity), i.e. $T_{\\mathrm{in}} \\equiv T_{\\mathrm{in}}(x)$ and $T_{\\mathrm{out}} \\equiv T_{\\mathrm{out}}(x)$. Assuming that the inside and outside temperatures are $T_0$ and $T_1$, respectively, what is the temperature $T_2$ of the incoming air at the entrance to the room (4 pts)?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2005-7-fig1.png\n\n2) Attached is a plot of the heat exchange rate $P$ of the wire of an electric heater as a function of temperature (assuming the room temperature is $T_0 = 20^\\circ\\mathrm{C}$). The operating temperature of the wire is $T_1 = 800^\\circ\\mathrm{C}$. The heater is switched off; find the time after which the temperature of the wire will drop down to $T_2 = 100^\\circ\\mathrm{C}$. The heat capacitance of the wire is $C = 10\\,\\mathrm{J/K}$ (4 pts).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2005-7-fig2.png"
+    }
+   ]
+  },
+  {
+   "year": 2006,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Drying",
+     "problem": "Drying (12 p)\n\nAccording to the wide-spread belief, it is useful to keep window open wen drying laundry even if the relative humidity outside is 100%, because the temperature of the incoming air rises and thereby the relative humidity drops. Let us analyse, do these arguments hold, when heating is switched off.\n\nSuppose that inside a room, the volume of air $V_1 = 20\\,\\mathrm{m^3}$ from inside at the temperature $t_1 = 25\\,\\mathrm{C^\\circ}$ is mixed with the volume of air $V_2 = 10\\,\\mathrm{m^3}$ from outside at the temperature $t_2 = 1\\,\\mathrm{C^\\circ}$. The specific heat of the air (by fixed pressure) $c_p = 1005\\,\\mathrm{J/(kg\\cdot K)}$ can be assumed to be constant for the given temperature range; the heat exchange with the medium can be neglected. For the time being, you may neglect the possibility of (partial) condensation of the vapour.\n\n1) Prove that the total volume of the air will not change i.e. that the volume of the mixed air $V = V_1 + V_2$.\n\n2) What is the temperature of the mixed air $T$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2006-1-fig1.png\n\n3) The graph below shows the dependence of the saturated vapour density for water as a function of temperature. Before mixing, both the interior and exterior air had relative humidity of $r_0 = 100\\%$. What is the relative humidity $r$ of the mixed air (if it happens to increase then assume that an oversaturated vapour with $r > 100\\%$ is formed)?\n\n4) If you happened to obtain $r > 100\\%$ then the oversaturated vapour breaks down into a fog which contains tiny water droplets. In that case, what is the mass $m$ of the condensed water (i.e. the total mass of the water droplets)? Air density $\\rho_0 = 1{,}189\\,\\mathrm{Kg/m^3}$; latent heat of vaporization for water $q = 2500\\,\\mathrm{kJ/kg}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Photography",
+     "problem": "Photography (7 p)\n\nBy taking measurements from the photo at the end of the page, determine the diameter of the camera lens used for this photo. You can assume that images created by this camera lens are identical to ones created by ideal thin lens of matching focal length and diameter.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2006-2-fig1.jpg"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Sucking",
+     "problem": "Sucking (7 p)\n\nLet a large vessel be filled with an incompressible dielectric liquid of density of mass density $\\rho_m$ (the relative dielectric permeability $\\varepsilon \\approx 1$). This liquid carries homogeneous volume charge of density $\\rho_e$ which is so small that the electric field $E_0$ created by it is negligible: $E_0\\rho_e \\ll g\\rho_m$, where $g$ is the free fall acceleration. Surface tension can be also neglected. All the heights will be measured from the unperturbed height of the liquid surface. A point charge $-q$ of opposite sign is brought to the height $H$, due to which a kink is formed on the liquid surface.\n\n1) Determine the height of the kink $a$.\n\n2) If the height of the charge is slowly decreased, at which height $h$ the liquid will start flowing to the point charge?"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Empty bag",
+     "problem": "Empty bag (12 p)\n\nA cylindrical bag is made from a freely deformable fabric, impermeable for air, which has surface mass density $\\sigma$; its perimeter $L$ is much less than its length $l$. If this bag is filled with air, it resembles a sausage. The bag is laid on a horizontal smooth floor (coefficient of friction $\\mu = 0$). The excess pressure inside the bag is $p$, the free fall acceleration — $g$. The density of air is negligible.\n\n1) Find the width of the contact surface between the bag and the floor $c$.\n\n2) Prove that the tension in the bag's fabric $T = \\alpha x + \\beta$, where $x$ is the height of the given point $P$ above the floor, and find the coefficient $\\alpha$. Remark: fabric's tension is (loosely speaking) the force per unit length. Actually, fabric's tension is not as simple concept as a rope's tension, because different force directions are possible; here, however, we neglect the force component along the “sausage's” axis. Thus, we can describe the fabric's tension here with a single number, the force per unit length $T$ acting across an horizontal cut of the “sausage”.\n\nHint: consider the force balance for a small piece of fabric (using the vertical cut shown in figure).\n\n3) Let the highest point of the bag be at height $a$ from the floor. What is the tension $T_1$ at this highest point? Express your answer in terms of $a$, $\\sigma$ and $p$ (or $\\alpha$, if you were unable to answer the previous question).\n\nHint: consider the force balance between two halves of the bag.\n\n4) Assuming that $p \\gg \\sigma g$, determine the quantity $\\varepsilon = \\frac{b-a}{b+a}$, where $b$ is the width of the bag.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2006-5-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Car",
+     "problem": "Car (7 p)\n\nA car attempts driving over a road barrier, starting from rest, as shown in figure. The diameter of its wheel $d = 1\\,\\mathrm{m}$, coefficient of friction between the wheels and ground $\\mu = 1$. The sketch is drawn using correct proportions, point $C$ marks the position of the car's centre of mass. Determine the maximal height of those road barriers which can driven over with such a car, assuming that there is no drag in the non-driving axis (i.e. wheels rotate without friction), and the driving wheels are\n\n1) front wheels;\n\n2) rear axis.\n\n3) Suppose that the car has four-wheel-drive, and the road barrier is substituted with a wall. Would it be possible to rise the front of the car by driving slowly against the wall?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2006-6-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Mass-spectrometer",
+     "problem": "Mass-spectrometer(9 p)\n\nIn the figure below, a simplified scheme of a mass-spectrometer is given. It is a device for measuring the masses of molecules. The substance under investigation is ionised by heating up to a temperature $T$ on a hot filament (molecules undergo a single-electron ionisation). The ions are accelerated using voltage $U$. At first, let us neglect the thermal energy of the ions ($eU \\gg kT$, where $e$ is elementary charge and $k$— the Boltzmann's constant). A narrow beam of accelerated ions enters a region with magnetic field. For the sake of simplicity, let us assume that the region has a rectangular shape, and the magnetic field is homogeneous inside it. The magnetic fields deflects the ions and depending on their mass, they may hit the detector. Let us assume that those ions which hit the centre of the detector enter and exit the region with magnetic field perpendicularly with its boundary, and the distance between the entry and exit points is $l$ (see figure)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2006-7-fig1.png\n\n1) Express the mass $M$ of those ions which hit the centre of the detector via the quantities $B$, $l$, $U$ and $e$.\n\n2) The entrance to the detector is a circle with radius $r$ ($r \\ll l$). Because of the finite size of the detector entrance, ions within a mass range from $M - \\Delta M$ to $M + \\Delta M$ will enter the detector; find the range width $\\Delta M$.\n\n3) Under the assumptions of the previous question, what is the width of the range of the exit angles $\\Delta\\varphi$ of those ions which can still hit the detector?\n\n4) Now let us assume that $r$ is negligibly small, but we cannot neglect the thermal effects (still $eU \\gg kT$). Due to difference in energies, the detector can be hit by ions of different masses, within the range from $M - \\delta M$ to $M + \\delta M$. What is the resolving power $\\delta M$ of the mass-spectrometer?"
+    }
+   ]
+  },
+  {
+   "year": 2007,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Wire",
+     "problem": "Wire (7 pts)\n\nA conducting wire is formed of a cylindrical copper core with a diameter of $a = 2{,}5\\ \\mathrm{mm}$. The core is wrapped in a concentric, cylindrical aluminium coating, the total diameter of the wire being $b = 4\\ \\mathrm{mm}$. A current of $I = 2{,}4\\ \\mathrm{A}$ flows through the wire. The specific resistivity of copper is $\\rho_c = 0{,}0168\\cdot10^{-6}\\,\\Omega\\cdot\\mathrm{m}$ and of aluminium, $\\rho_a = 0{,}028\\cdot10^{-6}\\,\\Omega\\cdot\\mathrm{m}$.\n\n1) What are the current densities $j$ in different parts of the wire (current density is defined as the current per cross-section area)?\n\n2) What is the magnetic inductance $B_1$ at the distance $c = 1\\ \\mathrm{cm}$ from the axis of the wire?\n\n3) What is the magnetic inductance $B_2$ at the surface between the copper and aluminium?\n\nRemark It may be useful to know the circulation theorem: $\\int \\vec{B}\\cdot\\vec{dl} = \\mu_0 I$, where the integral is taken along a closed trajectory (loop) and $I$ is the net current flowing though that loop; $\\mu_0 = 4\\pi\\cdot10^{-7}\\ \\mathrm{H\\cdot m^{-1}}$. This formula is completely analogous to the formula for the work done by a force along a trajectory: $\\vec{F}$, $A = \\int \\vec{F}\\cdot\\vec{dl}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Pendulum",
+     "problem": "Pendulum (7 pts)\n\nConsider an elastic rod, the mass and the compressibility of which (i.e. the length change) can be neglected in this problem. It can be assumed that if one end of the rod is firmly fixed, and a force $F$ is applied to the other end of the rod, perpendicularly to the rod at the point of application, then the rod takes a form of a circle segment. The radius of that circle is inversely proportional to the force, $R = k/F$, where the factor $k$ is a characteristic of the rod.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2007-2-fig1.png\n\n1) Let the rod be fixed vertically, at its bottom end, and a ball of mass $m$ be attached to its upper end. Knowing the factor $k$, the length of the rod $l$, and the free fall acceleration $g$, find the period of small oscillations of the ball. In this question, you may assume that $gml \\ll k$.\n\n2) What is the maximal mass $M$ of the ball, which can be stably held on such a vertical rod?\n\nRemark: you may use approximate expressions $\\sin x \\approx x - x^3/6$ and $\\cos x \\approx 1 - x^2/2$ (for $x \\ll 1$)."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Temporal focusing",
+     "problem": "Temporal focusing (10 pts)\n\nSuppose that at the point $A$, there is a source of thermal electrons (of negligible thermal energy), which are accelerated initially by the voltage $U_0 = 36\\ \\mathrm{V}$ in horizontal direction (see figure). At the path of the electrons, there are two voltage gaps $B$ and $C$ of negligible size, at the distance $a$ from each other. These gaps receive a voltage signal $U_C(t) = -U_B(t) \\equiv U(t)$ from a waveform generator. We can assume that $|U(t)| \\ll U_0$. The electrons starting at different moments of time are to be gathered together (focused) at the probe $D$, which is at distance $b$ from the gap $C$. In order to analyze this setup, answer the following questions.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2007-3-fig1.png\n\n1) Assuming that $U(t) \\equiv 0$, what is the time needed for the electrons to travel from the gap $B$ to the probe $D$?\n\n2) Find the same travel time assuming that the voltage $U(t) \\equiv U \\ll U_0$ is constant (your approximating expression should be a linear function of $U$).\n\n3) What functional equation should be satisfied for the waveform $U(t)$ in order to ensure the focusing of all the electrons at the probe $D$. Solve this equation by assuming $a \\ll b$ and $|U(t)| \\ll U_0$.\n\n4) The waveform generator yields a periodic signal of period $T$ in such a way that the profile $U(t)$ is followed up to achieving some maximal value $U_m$; after that, the voltage drops immediately to 0 and the process starts repeating. What is the fraction of electrons missing the time focus at the probe $D$?"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Rotating disk",
+     "problem": "Rotating disk (7 pts)\n\nA lamp is attached to the edge of a disk, which moves (slides) rotating on ice. The lamp emits light pulses: the duration of each pulse is negligible, the interval between two pulses is $\\tau = 100\\,\\mathrm{ms}$. The first pulse is of orange light, the next one is blue, followed by red, green, yellow, and again orange (the process starts repeating periodically). The motion of the disk is photographed using so long exposure time that exactly four pulses are recorded on the photo (see figure). Due to the shortness of the pulses and small size of the lamp, each pulse corresponds to a colored dot on the photo. The colors of the dots are provided with lettering: O— orange, S — blue, P —red, R — green, and K — yellow). The friction forces acting on the disk can be neglected.\n\n1) Mark on the figure by numbers (1–4) the order of the pulses (dots). Motivate your answer. What can be said about the value of the exposure time?\n\n2) Using the provided figure, find the radius of the disk $R$, the velocity of the center of the disk $v$ and the angular velocity $\\omega$ (it is known that $\\omega < 60\\,\\mathrm{rad/s}$). The scale of the figure is provided by the image of a line of length $l = 10\\,\\mathrm{cm}$;\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2007-5-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Truck",
+     "problem": "Truck (7 pts)\n\n1) A rope is put over a pole so that the plane of the rope is perpendicular to the axes of the pole, and the length of that segment of the rope, which touches the pole is $l$, much shorter than the radius of the pole $R$, see figure (a). To the one end of the rope, a force $T$ is applied; the sliding of the rope can be prevented by applying a force $T_1$ to the other end of the rope. Express the ratio $T_1/T$ via $l$, $R$, and $\\mu$, where $\\mu$ is the coefficient of friction between the rope and the pole.\n\n2) Answer the first question, if $l$ is not small (i.e. without the assumption $l \\ll R$).\n\nRemark: you may use equality\n\n$$\\lim_{x\\to 0}(1 + nx)^{1/x} = e^n.$$\n\n3) The rope makes exactly $n = 2$ winds around the pole. One end of the rope is attached to a truck standing on a slope (slanting angle $\\phi = 10^\\circ$); the mass of the truck $m = 20\\ \\mathrm{t}$, see figure (b). Find the force $F$, needed to apply to the other end of the rope, in order to keep the truck at rest. Use the numerical value $\\mu = 0{,}3$. All the other friction forces acting upon the truck can be neglected.\n\n4) How does the answer change, if the cross-section of the pole is not circular, but instead, egg-shaped? Motivate your answer.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2007-6-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "To the Mars",
+     "problem": "To the Mars (10 pts)\n\nIn this problem, we study a project for flying to Mars. At the first stage, the space ship switches on the rocket engines and obtains an initial velocity $v_0$. You may assume that during the first stage, the height of the space ship (from the surface of the Earth) remains much smaller than the radius of the Earth $R_0 = 6400\\,\\mathrm{km}$. At the second stage, the space ship performs a ballistic motion in the gravity field of the Earth: upon achieving a height, which is much larger than the radius of the Earth $R_0$, but much smaller than the orbital radius of the Earth, $R_e = 1.5\\cdot10^{8}\\,\\mathrm{km}$.\n\n1) Find the relationship between the residual velocity $v_1$ (with respect to the Earth) at the end of the second stage, and the quantities $v_0$, $R_0$, and the free fall acceleration at the surface of the Earth $g$ (for the subsequent questions you may use the numeric value $g \\approx 9.8\\,\\mathrm{m/s^2}$).\n\nAt the third stage, the space ship performs a ballistic motion in the gravity field of the Sun, up to reaching an immediate neighborhood of the Mars. The trajectory is chosen by minimizing the residual launch velocity $v_1$ (required for achieving the Mars).\n\n2) Sketch the trajectory.\n\n3) Find the flight time $T$. You may use the following numeric data: the orbital velocity of the Earth $v_e = 30\\,\\mathrm{km/s}$, orbital radius of the Mars $R_m = 2.3\\cdot10^{8}\\,\\mathrm{km}$.\n\n4) Find the previously considered launch velocity $v_0$ and the terminal (i.e. at the end of the third stage) velocity $v_t$ of the space ship with respect to the Mars.\n\n5) The required mass of the fuel $M$ can be found from the formula $v = u\\ln[(M + m)/m]$, where $u$ is the speed of the gas at the outlet of the engine (with respect to the space ship), and $m$ is the useful mass of the ship (when all the fuel is exhausted). You may assume $m \\ll M$ and use the numerical value $u = 1\\,\\mathrm{km/s}$. Find, how much more fuel is needed for the Mars flight, as compared to simply escaping the Earth gravity field, if the useful space ship mass is equal in both cases."
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Dumbbell",
+     "problem": "Dumbbell (6 points)\n\nTwo perfectly elastic identic balls of mass $m$ are connected by a spring of stiffness $k$ so that a dumbbell-like system is formed. That dumbbell lays at rest on a slippery horizontal surface (all the friction forces can be neglected). Third ball (identic to the ones making up the dumbbell) approaches coaxially the dumbbell from the left side with velocity $v$ (see Figure). Fourth ball (identic to the other ones) lays coaxially rightwards to the dumbbell.\n\n1) Find the velocity of the centre of mass of the dumbbell after being hit by the ball approaching from the left.\n\n2) For which distances $L$ between the dumbbell and the rightmost ball, the final velocity of the latter will be exactly the same, as the initial velocity $v$ of the leftmost ball?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2008-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Microcalorimeter",
+     "problem": "Microcalorimeter (9 points)\n\nA microcalorimeter is a thin circular silicon nitride membrane, thermally isolated from the surroundings, except that it is thermally connected to the wafer by four thin and narrow thermal bridges (see Figure). The microcalorimeter is equipped with a small heater in the middle of the membrane and a similar structure on the edge of the membrane working as a thermometer. This micro calorimeter is used to study the thermal properties of nanoscale Ti disks (light tiny dots in Fig). The thermal power of the heater depends sinusoidally on time, $P = P_0\\cos(\\omega t)$ (negative power implies a withdrawal of heat). The circular frequency $\\omega$ is sufficiently low, so that for any moment of time $t$, the temperature of the microcalorimeter $T(t)$ can be considered constant across its entire surface, and the temperature profile along the thermal bridges can be considered linear. The wafer, to which the bridges are connected, is large and thick enough, so that its temperature $T_0$ can be considered to be constant all the time. Each of the four bridges have length $L$ and cross sectional area of $S$; the thermal conductance of them is $\\kappa$. Thermal conductance is defined as the heat flux (measured in Watts) per surface area, assuming that the temperature drop is $1\\,^\\circ\\mathrm{C}$ per $1\\,\\mathrm{m}$. The heat capacity of the microcalorimeter (with Ti-disks) is $C$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2008-2-fig1.jpg\n\n1) Find the thermal resistance $R$ between the microcalorimeter and the wafer (i.e. the ratio of the temperature difference and heat flux).\n\nFor questions (ii) and (iii), use quantity $R$, without substituting it via the answer of question (i).\n\n2) Write down the heat balance equation for the microcalorimeter and find the temperature of the microcalorimeter as a function of time $T(t)$ [you may seek it in the form $T = T_0 + \\Delta T\\sin(\\omega t + \\phi)$].\n\n3) In order to study the thermal properties of the Ti-nanodisks, the amplitude of the sinusoidal oscillations of $T(t)$ should change by as large as possible value, as a response to a small change of $C$ (which is caused by the Ti-disks). Find the optimal circular frequency $\\omega_0$.\n\n4) We have assumed that the temperature profile along the bridges is linear, i.e. their heat capacity can be neglected. For high frequencies $\\omega \\gtrsim \\omega_c$, this is not the case. Estimate the critical frequency $\\omega_c$ in terms of $\\kappa$, $l$, specific heat $c$ and density $\\rho$ of the bridge material."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Tractor",
+     "problem": "Tractor (6 points)\n\nProvided sketches $(a)$ and $(b)$ are made on the basis of satellite images, preserving proportions. They represent tractors, together their smoke trails. The tractors were moving along the roads in the direction indicated by the arrows. The velocity of all the tractors was $v_0 = 30\\,\\mathrm{km/h}$. For sketch $(a)$, the direction of wind is indicated by another arrow.\n\n1) Using the provided sketch, find the wind speed for case $(a)$.\n\n2) Using the provided sketch, find the wind speed for case $(b)$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2008-3-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Magnetic field",
+     "problem": "Magnetic field (6 points)\n\nMagnetic field with inductance $B$ (parallel to the $z$-axis) fills the region $x^2 + y^2 < R^2$. Let us consider an electron of velocity $v = RBe/m$ (where $e$ is its charge and $m$ — its mass).\n\n1) Sketch the trajectory of the particle, if initially, it moves along the line $y = 0$ towards the region filled with magnetic field.\n\n2) How long time does the electron spend inside the magnetic field?\n\n3) Now, let us consider the situation, when initially the electron moves along the line $y = a$ ($a < R$). Find the angle $\\alpha$, by which the electron is inclined after passing through magnetic field."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Rectifier",
+     "problem": "Rectifier (8 points)\n\nA voltage rectifier is made according to the circuit depicted in Figure. The load $R = 10\\,\\mathrm{k\\Omega}$ is fed with DC, equal to $I = 2\\,\\mathrm{mA}$. In what follows we approximate the U-I characteristic of the diode with the curve depicted in Figure. The relative variation of the current at the load has to satisfy the condition $\\Delta I/I < 1\\%$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2008-6-fig1.png\n\n1) Find the average power dissipation at the diode at the working regime of such a circuit.\n\n2) Determine the amplitude of the AC voltage (with frequency $\\nu = 50\\,\\mathrm{Hz}$), which has to be applied at the input of the circuit.\n\n3) Find the required capacitance $C$.\n\n4) Find the average power dissipation at the diode during the first period (of AC input voltage) immediately following the application of AC voltage to the input of the circuit."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Fire",
+     "problem": "Fire (6 points)\n\nThere is wet wood burning in a fireplace on the ground. Seven meters above ground, the smoke is at a temperature of $t_7 = 40\\,^\\circ\\mathrm{C}$. Disregard the exchange of heat with the surrounding air and assume that the atmospheric pressure at the ground is constant in time and equal to $p_0 = 1000\\,\\mathrm{hPa}$; the air temperature $t_0 = 20\\,^\\circ\\mathrm{C}$ is independent of height¹. Assume that the smoke represents an ideal gas of a molar mass $\\mu = 29\\,\\mathrm{g/mol}$ (i.e. equal to the molar mass of the air), and of a molar specific heat at constant volume $C_V = 2.5R$; universal gas constant $R = 8.31\\,\\mathrm{J/kg\\cdot K}$. How high will the smoke column rise?\n\n¹ Actually, during day time, this is not the case: air temperature decreases with height. However, during evening and night, due to heat radiation, the lower layers of air cool more rapidly than upper layers, and it may easily happen that the temperature is roughly independent of height."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Electron",
+     "problem": "Electron (5 points)\n\nElectron rests at the origin. At the moment of time $t = 0$, an electric field is switched in: its modulus is constant and equal to $E_0$, but its direction rotates with a constant circular velocity $\\omega$ in the $x-y$ plane. At the moment $t = 0$, it is directed along the $x$-axes.\n\n1) Find the average velocity of the electron over a long time interval for $t > 0$.\n\n2) Sketch the trajectory of the electron and calculate the geometrical characteristics of it."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Asteroid",
+     "problem": "Asteroid (7 points)\n\nIt is believed that the impacts of the Earth with asteroids have played an important role in the history of Earth. In this problem, you are required to study such an impact. As an example, let us use the orbital data of the Apollo asteroid. Its perihelion is $0.65\\ \\mathrm{AU}$, i.e. its closest distance from the Sun is $r_1 = \\beta R$, where $\\beta = 0.65$ and $R$ denotes the radius of the Earth's orbit; its aphelion is $2.3\\ \\mathrm{AU}$, i.e. its farthest distance from the Sun is $r_2 = \\alpha R$, where $\\alpha = 2.3$. In your calculations, you may use the orbital velocity of Earth, $v_0 = 30\\,\\mathrm{km/h}$, Earth radius $R_0 = 6400\\,\\mathrm{km}$, and the free fall acceleration at the Earth's surface, $g = 9.8\\,\\mathrm{m/s^2}$. You may also use the formula $E = -GmM/2a$, expressing the total energy of a body of mass $m$, which moves along an elliptic orbit of longer semiaxis $a$, in the gravity field of a much heavier body of mass $M$. You may assume that the orbital planes of the Earth and of the asteroid coincide, and that they rotate in the same direction around the Sun.\n\n1) Find the velocity $v$ of the asteroid in the vicinity of the Earth, in the Sun's system of reference, neglecting the effect of Earth's attraction.\n\n2) Find the radial and tangential components $v_r$ and $v_t$ of that velocity (i.e. the components, respectively parallel and perpendicular to the vector, drawn from the centre of the Sun to current position of the asteroid).\n\n3) Find the same velocity components $u_r$ and $u_t$ in the Earth's system of reference.\n\n4) Find the velocity of the asteroid $w$, immediately before entering the Earth's atmosphere (at the height $h = 100\\,\\mathrm{km}$ from the Earth's surface)."
+    }
+   ]
+  },
+  {
    "year": 2009,
    "problems": [
     {

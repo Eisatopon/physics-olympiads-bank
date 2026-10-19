@@ -1034,15 +1034,16 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261018-usapho-2007-2026';
+const DATA_VERSION = '20261018-plancks';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', apho: 'asia', usapho: 'americas' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
 
 const COUNTRIES = [
+    { key: 'plancks', name: 'PLANCKS', flag: '🎓', file: 'PLANCKS-problems.json', kind: 'years', scope: 'undergraduate', full: 'PLANCKS (IAPS), international final of the theoretical physics competition for undergraduate and master students' },
     { key: 'usapho', name: 'USAPhO', flag: '🇺🇸', file: 'USAPhO-problems.json', kind: 'years', full: 'United States Physics Olympiad (AAPT), Parts A and B · problems © AAPT' },
     { key: 'apho', name: 'APhO', flag: '🌏', file: 'APhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'Asian Physics Olympiad, theoretical problems' },
     { key: 'eupho', name: 'EuPhO', flag: '🇪🇺', file: 'EuPhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'European Physics Olympiad, theoretical problems' },

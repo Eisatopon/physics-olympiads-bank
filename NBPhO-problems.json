@@ -2,6 +2,548 @@
  "competition": "Nordic-Baltic Physics Olympiad (NBPhO) — theoretical problems",
  "years": [
   {
+   "year": 2009,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Boat",
+     "problem": "Boat (9 points)\n\nConsider a boat of effective mass $m$, which moves along the (horizontal) $x$-axes, and for which the friction force of the water is given by $F_f = -\\alpha v$, where $v$ is the velocity of the boat. (Effective mass is somewhat larger than the real mass, because any change of the boat's velocity incurs a velocity change of those regions of water, which are close to the boat; hence, the boat's inertia is complemented by the inertia of the surrounding water.)\n\ni) Prove that during this motion,\n\n$$v + kx = \\text{Const},$$\n\nand find the factor $k$.\n\nii) Now, a boy of mass $M$ moves inside the boat, back and forth, with velocity $u(t)$ (also, along the $x$-axis). What term must be added to the conservation law $v + kx = \\text{Const}$, to describe this situation?\n\niii) Now, let the boat rest initially close to the coast and ready to depart. The boy jumps from the coast into the boat, turns around and jumps back to the coast. The horizontal component of the boy's velocity during the first jump was $u_1$, and during the second jump $-u_2$. What is the maximum distance $s$ travelled by the boat? Neglect the effect of a vertical motion on the horizontal friction force of the water."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Nanoclock",
+     "problem": "Nanoclock (10 points)\n\nNanotechnology allows controllable fabrication of very small structures. Let us consider a tiny homogeneously charged thin ring, having a radius $R$ and carrying a positive net charge $Q$.\n\ni) Find the electric potential $\\varphi$ at a point $P$, which is on the axes of the ring, at a distance $z$ from the centre of the ring.\n\nii) Find the electric field $E$ at the point $P$.\n\niii) Show that the force acting on an electron moving along the symmetry axes in the vicinity of the centre of the ring ($|z| \\ll R$) is harmonic (i.e. depends linearly on $z$).\n\niv) Define the frequency of oscillations of such an electron. Use numerical values $R = 1\\,\\mathrm{\\mu m}$ and $Q = 1.0\\times10^{-13}\\,\\mathrm{C}$.\n\nv) Now, let us assume that the electron can perform also off-axis movements. Is the position at the symmetry centre of the ring (on-axis, $z = 0$) stable or unstable? Motivate your answer.\n\nHint: You may use the approximate formula\n\n$$(1+x)^\\alpha \\approx 1 + \\alpha x + \\tfrac{1}{2}\\alpha(\\alpha-1)x^2.$$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Ball",
+     "problem": "Ball (8 points)\n\nA homogeneous ball of radius $R$ and mass $m$ is thrown horizontally onto a table at the moment of time $t = 0$. Its initial velocity before contact is purely horizontal and equal to $v$; it is non-rotating. Coefficient of kinetic friction between the table and the ball is $\\mu$.\n\ni) Find the moment of time $t$, when the ball stops sliding, i.e. starts rolling without sliding.\n\nii) Calculate the angular velocity of the ball $\\omega_*$ and its total mechanical energy $E_*$ at the moment when it stops sliding. In the case of a hollow sphere, would the energy $E_*$ be larger or smaller than in the case of a homogeneous ball?\n\niii) Now, assume that the horizontal surface is treated so that the coefficient of kinetic friction depends on the horizontal coordinate $x$ as $\\mu = a + b\\cos x$ (with $a > b$). Find the expression for the terminal mechanical energy $E'_*$ in this new case.\n\niv) Now, let us return to the case of constant kinetic friction coefficient $\\mu$. However, let us assume that the surface is not perfectly rigid (e.g. covered by a felt cloth). This gives rise to a second friction force — the rolling friction force $F_r = \\mu_r mg$. Unlike the kinetic friction force, it is not tangential to the touching point of the ball and the surface. Instead, it can be interpreted as the horizontal component of the surface reaction force (the entire reaction force is, of course, normal to the surface), see Fig. Find the expression for the terminal mechanical energy $E''_*$ in this case. What is the most important (qualitative) difference between the expressions for $E_*$ and $E''_*$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2009-3-fig1.png\n\nHint: The moment of inertia of a ball is $I = \\frac{2}{5}MR^2$."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Soap film",
+     "problem": "Soap film (6 points)\n\nLord Rayleigh had in 1891 a lecture about taking photos of physical processes. Among others, he showed a photo of a soap film, which is falling apart (see Fig.). Instead of a flash, he used an electric spark (well, nowadays the flashes are also based on electric sparks). Estimate, how precise must have been the timing, i.e. estimate the time for a soap film to fall apart. Let the thickness of the soap film be $h = 1\\,\\mathrm{\\mu m}$, the ring diameter $D = 10\\,\\mathrm{cm}$ and the surface tension $\\sigma = 0.025\\,\\mathrm{N/m}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2009-7-fig1.png\n\nHint: you may use a model, according to which the already broken part of the soap film gathers into a single front and moves all together towards the still preserved part of the film."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Magnetic pulse",
+     "problem": "Magnetic pulse (7 points)\n\nConsider an electric circuit consisting of a coil of negligibly small inductance, consisting of $N = 10$ turns and with the surface area of a single loop $S = 10\\,\\mathrm{cm^2}$), resistors $R_1 = R_2 = 3\\,\\Omega$, capacitor $C = 0.2\\,\\mathrm{F}$, and an inductance $L = 1H$, connected as shown in Fig. At the moment of time $t = 0$, a magnetic field, parallel to the axis of the coil is switched on. The inductance of the magnetic field starts growing linearly, starting from $B = 0$ until the maximal value $B = 1\\,\\mathrm{T}$ is achieved at $t = 10\\,\\mathrm{ms}$. Further, the inductance of the magnetic field remains constant (and equal to $1\\,\\mathrm{T}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2009-8-fig1.png\n\ni) Find the current through the resistors $R_1$ and $R_2$ at the moment of time $t_1 = 5\\,\\mathrm{ms}$.\n\nii) Find the current through the resistors $R_1$ and $R_2$ at the moment of time $t_2 = 15\\,\\mathrm{ms}$.\n\niii) What is the net charge passing through the resistor $R_2$?"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Stratostat",
+     "problem": "Stratostat (5 points)\n\ni) Show that the pressure of an isothermal gas of molar mass $\\mu$ follows the law $p = p_0 e^{-\\alpha z}$, where $p_0$ is the pressure at the origin, and $z$ is the height. Find the constant $\\alpha$. The temperature is $T$, the free fall acceleration is $g$.\n\nii) Consider a stratostat, the envelope of which (a freely deformable non-elastic sack) is filled at the Earth's surface by helium to the volume fraction of $\\beta = 10\\%$. At which height $h$ does the helium expand so that it fills the entire volume of the stratostat? The molar masses of the air and helium are $\\mu_a = 29\\,\\mathrm{g/mol}$ and $\\mu_{He} = 4\\,\\mathrm{g/mol}$, respectively. You may neglect the temperature variations of the atmosphere, and use the value $T = 250\\,\\mathrm{K}$."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory",
+     "title": "Wedge",
+     "problem": "Wedge (5 points)\n\nA wedge of mass $M$ is kept at rest on an horizontal surface, and a block of mass $m$ is kept on the wedge at the height $h$ from the surface. The angle of the wedge is $\\alpha$, see Fig. There is no friction neither between the block and wedge nor between the surface and the wedge. The system is released into a free motion. Find the time $t$ needed for the block to reach the surface.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2009-10-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Charges in E",
+     "problem": "Charges in E (8 points)\n\nTwo particles (the blue and the red) of mass $m$ are connected with a spring, the stress-free length of which is $L$ and stiffness $k$; the blue carries charge $q$ ($q > 0$) and the red is chargeless. In the region $x > 0$, there is an homogeneous electric field $E$, antiparallel to the $x$-axis; In the region $x < 0$, there is no electric field. Initially, the “dumbbell” of charges moves in region $x < 0$ with velocity $v$, parallel to the $x$-axis; the dumbbell's axis is also parallel to the $x$-axis and the spring is stress-free. It is known that after a while, the dumbbell moves in the region $x < 0$ with velocity $-v$, and that the red particle never enters the region $x > 0$. Also, the spring's length achieves minimum only once.\n\ni) (2.5 pt) How long time $\\tau$ does the blue particle spend in the region $x > 0$?\n\nThe process takes place exactly as described, if one equality and one inequality are satisfied for the quantities $m$, $v$, $k$, $q$, $E$ and $L$.\n\nii) (3 pt) Which equality must be satisfied?\n\niii) (2.5 pt) Which inequality must be satisfied?"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Thermos bottle",
+     "problem": "Thermos bottle (6 points)\n\nIn order to study the thermal properties of a thermos bottle, let us model it as two concentric spherical vessels, with radii $R_1 = 7\\,\\mathrm{cm}$ and $R_2 = 10\\,\\mathrm{cm}$. The gap between the walls of the vessels contains vacuum (hence, the heat conductivity can be neglected).\n\ni) (3,5 pt) Find the radiative heat flux (i.e. transmitted heat per unit time) between the walls of the bottle, assuming that the ambient temperature is $T_2 = 293\\,\\mathrm{K}$ and the inner sphere is filled with liquid nitrogen at the boiling temperature $T_1 = 77\\,\\mathrm{K}$. The emissivities of all the surfaces are equal to that of stainless steel: $\\varepsilon = 0.1$. Remark: The emitted heat flux per unit area is given Stefan-Boltzmann's law $P = \\varepsilon\\sigma T^4$, where $\\sigma = 5.67\\times10^{-8}\\,\\mathrm{W/m^2K^4}$ (assuming that $\\varepsilon$ is independent of the wavelength.\n\nii) (2,5 pt) Estimate, how long time does it take for a full evaporization of the liquid nitrogen (the vapor escapes through an over pressure valve). For the liquid nitrogen, density $\\rho = 810\\,\\mathrm{g/l}$ and latent heat for vaporization $\\lambda = 5.580\\,\\mathrm{kJ/mol}$). NB! If you were unable to find $P$ (for question i), express the evaporization time symbolically (i.e. using the symbol $P$)."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Tyrannosaur (T. Rex)",
+     "problem": "Tyrannosaur (T. Rex) (6 points)\n\nPaleontologists have discovered tracks of a tyrannosaur where the footprints of the same leg are $A = 4.0$ meters apart. They have also recovered a piece of a tyrannosaur leg bone that has bone cross-sectionalo area $N = 10000$ times that of a chicken (which the tyrannosaur is related to).\n\ni) (3 pt) Knowing that the chicken leg is approximately $l = 15$ cm tall, estimate the length of a tyrannosaur leg $L$. You may assume that the length of a leg scales as the length of the whole animal, and that the bone stress (force per area) is the same for both animals. Is your result consistent with the step length $A$?\n\nii) (3 pt) Estimate the natural walking speed of the tyrannosaur by approximating the walking motion of a leg with a freely oscillating pendulum motion. State clearly all the assumptions you make."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Ball",
+     "problem": "Ball (6 points)\n\nMassive spherical ball has a mass $M = 100$ kg; an attempt is made to roll the ball upwards, along a vertical wall, by applying a force $F$ to some point $P$ on the ball. The coefficient of friction between the wall and the ball is $\\mu = 0.7$.\n\ni) (5 pt) What is the minimal force $F_{\\min}$ required to achieve this goal?\n\nii) (1 pt) On a side view of the ball and the wall, construct geometrically the point $P$, where the force has to be applied to, together with the direction of the applied force."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Charges in B",
+     "problem": "Charges in B (5 points)\n\nThere is an homogeneous, parallel to the $z$-axis magnetic field of inductance $B$ in region $x > 0$. In region $x < 0$, there is no field. There are two particles of mass $m$ and charge $q$. Initially, the particles have coordinates $y = z = 0$, and respectively $x = -L_0$ and $x = -2L_0$ (with $L_0 > 0$). Initial velocity of both particles is $v$, along the $x$-axis, towards the magnetic field. Neglect the electrostatic repulsion force of the two charges.\n\ni) (1,5 pt) Sketch the trajectory of the first particle, and the dependance of its $y$-coordinate on time.\n\nii) (3,5 pt) Sketch the distance $L$ between the particles as a function of time $t$, assuming that $\\pi mv/Bq > L$. What is the minimal distance $L_{\\min}$?"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Satellite",
+     "problem": "Satellite (5 points)\n\ni) (3 pt) A large ball of mass $m_1$ is kept at the height $h$ from the floor (so that the center of the ball is at the height $h + d/2$, where $d$ is its diameter). A small ball of mass $m_2$ is placed upon the large one, and the system is released (so that it starts falling). To which height (from the floor) will the small ball rise, assuming that the collision between the lower ball and ground, and the collision between the balls are absolutely elastic, and $m_1 \\gg m_2$?\n\nii) (2 pt) Consider the following satellite launching project. There are $N$ absolutely elastic balls of masses $m_1 \\gg m_2 \\gg \\ldots \\gg m_N$: the first ball (the heaviest) is the lowest; the second ball is placed on top of the first; the third — on top of the second etc. The upmost ball is supposed to become a satellite, i.e. to obtain the velocity $v_N = 7.8\\,\\mathrm{km/s}$). The lowest ball is at the height $h = 1$ m from the floor, and the system is released. What should be the number of balls $N$? What should be the mass of the lowest ball, if $m_i/m_{i+1} = 10$, and the mass of the satellite $M_N = 1$ kg?"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Sprinkler",
+     "problem": "Sprinkler (3 points)\n\nA sprinkler has a shape of hemisphere, which has small holes drilled into the spherical part of its surface. From these small holes, water flows out with velocity $v = 10\\,\\mathrm{m/s}$. Near the sprinkler, the water flow is distributed evenly over all the directions of the upper half-space. The sprinkler is installed at the ground level so that its axis is vertical. In what follows, the air resistance can be neglected, and the dimensions of the sprinkler can be assumed to be very small.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2010-8-fig1.png\n\ni) (1.5 pt) Find the surface area of the ground watered by the sprinkler.\n\nii) (1.5 pt) At which distance from the sprinkler is the watering intensity (mm/h) the highest?"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Power supply",
+     "problem": "Power supply (6 points)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2010-9-fig1.png\n\ni) (2 pt) Consider the cirquit given in Fig (a), where the diode can be assumed to be ideal (i.e. having zero resistance for forward current and infinite resistance for reverse current. The key is switched on for a time $\\tau_c$ and then switched off, again. The input and output voltages are during the whole process constant and equal to $U_i$ and $U_o$, respectively ($2U_i < U_o$). Plot the graphs of input and output currents as functions of time.\n\nii) (2 pt) Now, the key is switched on and off periodically; each time, the key is kept closed for time interval $\\tau_c$ and open — also for $\\tau_c$. Find the average output current.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2010-9-fig2.png\n\niii) (2 pt) Now, cirquit (a) is substituted by cirquit (b); the switch is switched on and off as in part ii. What will be the voltage on the load $R$, when a stationary working regime has been reached? You may assume that $\\tau_c \\ll RC$, i.e. the voltage variation on the load (and capacitor) is negligible during the whole period (i.e. the charge on the capacitor has no time to change significantly)."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory",
+     "title": "Ice-rally",
+     "problem": "Ice-rally (7 points)\n\nThe car accelerates on a slippery ground so that the wheels are always at the limit of slipping (e.g. via using an electronic traction control). Such an acceleration would result in the velocity vs time graph as given in the Figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2010-10-fig1.png\n\ni) (2 pt) What is the coefficient of friction, assuming a four-wheel drive?\n\nBecause of a manual gear change, there is time period of $\\tau_1 = 0.5\\,\\mathrm{s}$, during which there is no driving force (so that the car decelerates due to air friction). Except for that period, the acceleration follows the law given by the graph. As a result, the terminal velocity $v_t = 40\\,\\mathrm{m/s}$ is reached $\\tau_2 = 1.0\\,\\mathrm{s}$ later than it would have been reached, if there were no delay caused by the gear change. Upon reaching the terminal velocity, the car continues moving at constant speed. In your calculations, you can assume that the air friction was constant during the gear change period.\n\nii) (2,5 pt) At which speed the gear was changed?\n\niii) (2,5 pt) How many meters shorter distance will be covered during the first 100 seconds, as compared to ideal acceleration (i.e. without the delay due to the gear change)?"
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Spool",
+     "problem": "Spool (12 points)\n\nA spool with inner radius $r$ and outer radius $R$ lies on a horizontal table; the axis of the spool is horizontal. A weightless rope is wound around the inner part as shown in the picture. The loose end of the rope makes an angle $\\alpha$ with the horizont (the angle $\\alpha$ can be also negative). The moment of inertia of the spool is $J$ and mass — $M$. In what follows you may assume that the spool rolls on the table without slipping.\n\ni) (2 pts) We pull the loose end of the rope with velocity $u$ (parallel to the loose part of the rope; that loose part can be thought to be very long). What is the velocity of the spool?\n\nii) (3 pts) Suppose now that the spool is at rest, and we apply force $F$ to the loose end of the rope (parallel to the loose part of the rope). What is the acceleration of axis of the spool?\n\niii) (2 pts) How large does the coefficient of friction $\\mu$ need to be (as a function of $\\alpha$) to ensure that there is no slipping between the spool and the table?\n\niv) (1.5 pts) Now the spool rolls, again, with velocity $u$; however there is no rope. The spool hits a threshold of height $H$ (see Figure); the impact is perfectly inelastic. What is the speed $v$ of the spool immediately after the impact?\n\nv) (1.5 pts) What is the speed $w$ of the spool after rolling over the threshold? Assume that $u$ is such that the spool will roll over the threshold without losing contact with its edge.\n\nvi) (2 pts) If the speed $u$ is too large, $u > u_0$, the spool will jump up and lose contact with the edge of the threshold. Determine $u_0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2011-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Capacitor",
+     "problem": "Capacitor (6 points)\n\nAn ideal plate capacitor has plates with area $A$ and separation $d$ and is charged so that the electric field between the plates equals to $E$.\n\ni) (2 pts) Find the energy density of the electric field inside the capacitor and the total energy of the field.\n\nii) (1.5 pts) What is the force required to keep the plates separated?\n\niii) (2.5 pts) Now, this capacitor is submerged into distilled water of dielectric permittivity $\\varepsilon = 80$; the electric field between the plates equals still to $E$. What is the hydrostatic pressure between the plates if the atmospheric pressure is $p_0$ and the pressure of the water column can be neglected?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Charged cylinder",
+     "problem": "Charged cylinder (8 points)\n\nDielectric cylinder of radius $r$ carries a charge of surface density $\\sigma$ on its cylindrical surface and rotates with angular velocity $\\omega$.\n\ni) (3 pts) Determine the magnetic induction $B$ inside the cylinder. Remark: if you wish, you can use the expression for the inductance $L = \\mu_0 N^2 S/l$ of a solenoidal coil of radius $r$, length $l \\gg r$, area of cross-section $S$ and number of loops $N$.\n\nii) (3 pts) A radial conducting wire connects the axis of the cylinder with the cylindrical surface (it rotates together with the cylinder). Find the electromotive force (voltage) $\\mathcal{E}$ between the ends of the wire.\n\niii) (2 pts) Suppose that the wire connecting the axis of the cylinder with the cylindrical surface is not radial and has an arbitary shape (still, there are no segments protruding outside the cylinder). Show that $\\mathcal{E}$ does not depend on the shape of the wire."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Plutonium decay",
+     "problem": "Plutonium decay (3 points)\n\nPlutonium is an unstable element, a $\\mathrm{Pu}^{239}$ atom decays with a half-life of $\\tau_{1/2} = 24\\,000$ years by creating smaller nuclei, including an $\\alpha$-particle. Find the $\\alpha$-particle flux density (i.e the number of passing nuclei per unit time and per unit cross-sectional area) near the surface of a plate of $\\mathrm{Pu}^{239}$. The plate has thickness $d = 1\\,\\mathrm{mm}$; its width and length are much larger than that. The density of plutonium $\\rho = 19\\,800\\,\\mathrm{kg/m^3}$. Remark: half-life is the period of time it takes for a substance undergoing decay to decrease in size (in the number of particles) by half. The mass of an atom of $\\mathrm{Pu}^{239}$ is $m_0 = 3.84\\times10^{-25}\\,\\mathrm{kg}$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Violin string",
+     "problem": "Violin string (9 points)\n\nThe motion of a bow puts a violin string into a periodic motion. Let us make a simplified model of this process. The string has elasticity and inertia, so we substitute it by a block of mass $m$, fixed via a spring of stiffness $k$ to a motionless wall and laying on a frictionless horizontal surface. The bow is substituted by a horizontal plate, which is pressed with constant force $N$ downwards, and which moves with a constant velocity $u$, parallel to the axis of the spring, see Figure. The static coefficient of friction between the plate and the block is $\\mu_1$, and the kinetic coefficient of friction is $\\mu_2 < \\mu_1$. So, as long as the plate does not slide with respect to the block, the coefficient of friction equals to $\\mu_1$; as soon as there is some slip, it decreases down to $\\mu_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2011-6-fig1.png\n\ni) (2 pts) For questions (i) and (ii), let us assume that the speed of the plate $u$ is very small as compared to the maximal velocity of the block. What is the maximal velocity of the block $v_{\\max}$ (maximized over time)?\n\nii) (2 pts) Sketch qualitatively the graph of the displacement of the block as a function of time and indicate on the graph the durations of the prominent stages of the block motion (graph segments).\n\niii) (1,5 pts) Now, let us abandon the assumption about the smallness of $u$. Sketch qualitatively the graph of the velocity of the block as a function of time.\n\niv) (2,5 pts) Determine the amplitude $A$ of the block's oscillations.\n\nv) (1 pt) Which condition (strong inequality, $\\gg$ or $\\ll$) must be satisfied for $u$ in order to ensure that the oscillations will be almost harmonic?"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Vacuum bulb",
+     "problem": "Vacuum bulb (8 points)\n\nLet us study how a vacuum can be created inside a bulb by pumping. Let the volume of the bulb be $V$, and the pump consist in a piston moving inside a cylinder of volume $\\alpha V$, where $\\alpha \\ll 1$. The pumping cycles starts with piston being pulled up; when the pressure inside the cylinder becomes smaller than inside the bulb, a valve $V_A$ (connecting the cylinder and the bulb) opens and remains open as long as the piston moves up. When piston is released, it starts moving down, at that moment, the valve $V_A$ closes. As long as the valve $V_A$ is open, the pressures of the bulb and the cylinder can be considered as equal to each other. When the piston moves down, the pressure in the cylinder increases adiabatically until becoming equal to the outside pressure $p_0 = 10^5\\,\\mathrm{Pa}$; at that moment, another valve $V_B$ opens leting the gas out of the cylinder. When the piston reaches the bottommost position, there is no residual air left inside the cylinder. Now, the piston is ready for being lift up: the valve $V_B$ closes and $V_A$ opens, marking the beginning of the next pumping cycle. The air inside the bulb can be considered isothermal, with the temperature being equal to the surrondin temperature $T_0$. The adiabatic exponent of air $\\gamma = c_p/c_V = 1.4$.\n\ni) (2 pts) How many pumping cycles $N$ needs to be done to reduce the pressure inside bulb from $p = p_0$ down to $p = \\beta p_0$, where $\\beta \\ll 1$?\n\nii) (2 pts) What is the net mechanical work done during such a pumping (covering all the $N$ cycles)?\n\niii) (2 pts) What is the temperature of the air released from the cylinder to the surroundings at the end of the pumping process (when the pressure inside the bulb has become equal to $\\beta p_0$)?\n\niv) (2 pts) According to the above described pumping scheme, there is a considerable loss of mechanical work during the period when the piston is released and moves down. Such a loss can be avoided if there is another pump, which moves in an opposite phase: the force due to outside air pressure pushing the piston down can be transmitted to the other pump for lifting the piston up. What is the net mechanical work done when such a pumping scheme is used?"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Heat sink",
+     "problem": "Heat sink (6 points)\n\nConsider a heat sink in the form of a copper plate of a constant thickness (much smaller than the diameter $d$ of the plate). An electronic component is fixed to the plate, and a temperature sensor is fixed to the plate at some distance from that compnent. You may assume that the heat flux (i.e. power per unit area) from the plate to the surrounding air is proportional to the difference of the plate temperature at the given point (the coefficient of proportionality is constant over the entire plate, including the site of the electronic component).\n\ni) (2 pts) The electronic component has been dissipating energy with a constant power of $P = 35\\,\\mathrm{W}$ for a long time, and the average plate temperature has stabilized at the value $T_0 = 49\\,^\\circ\\mathrm{C}$. Now, the component is switched off, and the average plate temperature starts dropping; it takes $\\tau = 10\\,\\mathrm{s}$ to reach the value $T_1 = 48\\,^\\circ\\mathrm{C}$. Determine the heat capacity $C$ (units $\\mathrm{J/^\\circ C}$) of the plate. The capacities of the electronic component and the temperature sensor are negligible.\n\nii) (4 pts) Now, the electronic component has been switched off for a long time; at the moment $t = 0$, a certain amount of heat $Q$ is dissipated at it during a very short time. In the Figure and Table, the temperature is given as a function of time, as recorded by the sensor. Determine the dissipated heat amount $Q$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2011-8-fig1.png\n\n$$\\begin{array}{c||c|c|c|c|c|c} t\\ (\\mathrm{s}) & 0 & 20 & 30 & 100 & 200 & 300 \\\\ \\hline T\\ (^\\circ\\mathrm{C}) & 20.0 & 20.0 & 20.4 & 32.9 & 41.6 & 42.2 \\\\ \\hline t\\ (\\mathrm{s}) & 400 & 600 & 800 & 1000 & 1200 & 1400 \\\\ \\hline T\\ (^\\circ\\mathrm{C}) & 39.9 & 33.4 & 27.9 & 24.4 & 22.3 & 21.2 \\end{array}$$"
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Asteroid",
+     "problem": "Asteroid (14 points)\n\nConsider a hypothetical asteroid of mass $m_a$ and radius $r_a$, which moves along an elliptical orbit around the Sun (of mass $M_s$) in the same direction as Earth. Let us assume that the Earth's orbit is a circle of radius $R_e$ (neglecting thus its eccentricity) and that the two orbits lay in the same plane. The asteroid's shortest distance to the Sun (at its perihelion) $R_\\mathrm{min} = \\frac{1}{2}R_e$ and the longest distance (at the apohelion) $R_\\mathrm{max} = 1.51R_e \\approx 1.5R_e$ (you may use the approximate value to simplify your calculations). The orbital velocity of the Earth $v_0 = 30\\,\\mathrm{km/s}$. You can also use the following numerical values: the radius of the Earth $r_e = 6400\\,\\mathrm{km}$, free fall acceleration at the Earth's surface $g = 9.81\\,\\mathrm{m/s^2}$, angular diameter of the Sun as seen from the Earth $\\alpha = 0.5^\\circ$, duration of one year $T_0 = 365$ days, the temperature of the Sun's surface $T_s = 6000\\,\\mathrm{K}$, free fall acceleration at the Sun's surface $g_s = 275\\,\\mathrm{m/s^2}$, Stefan Boltzmann constant $\\sigma = 5.6704\\times10^{-8}\\,\\mathrm{kg\\cdot s^{-3}\\cdot K^{-4}}$, the speed of light $c = 3\\times10^{8}\\,\\mathrm{m/s}$. The asteroid is of a spherical shape, its radius $r_a = 10\\,\\mathrm{m}$ and mass $m_a = 1\\times10^{7}\\,\\mathrm{kg}$; both the Sun and the asteroid can be considered as perfectly black bodies.\n\nPart A. Collision with Earth (5 points)\n\ni. (2 pts) Suppose that the asteroid will collide with the Earth and is already very close, at a distance $l \\ll R_e$ from the Earth's surface; what is the velocity of the asteroid with respect to the Earth assuming that (a) $l \\gg r_e$; (b) $l \\ll r_e$.\n\nii. (2 pts) Impact parameter $b$ is defined in the Earth's reference frame as the distance between the Earth and a line, tangent to the asteroid's trajectory at a point which is far enough (at a distance $l$, $r_e \\ll l \\ll R_e$). Determine the maximal value of the impact parameter $b_\\mathrm{max}$ for which the asteroid will still collide with the Earth.\n\niii. (1 pt) According to calculations, the asteroid is going to hit the Earth centrally after $N = 10$ orbital periods. In order to avert the collision, the period of the asteroid needs to be changed; by how many seconds? (Assume simplifyingly that the intersection point of the two orbits remains at rest.)\n\nPart B. Changing the solar pull (9 points)\n\nTheoretically, it is possible to change the asteroid's period by making use of the pressure of the solar radiation. Let us study, how realistic is such a project. The Sun pulls the asteroid with the gravitational force equal to $F_0 = GM_s m_a/R^2$, where $G$ is the gravitational constant and $R$ is the distance between the Sun and the asteroid at the given moment of time. Let us denote $GM_s = \\gamma_0$, so that\n\n$$F = \\gamma_0 m_a/R^2.$$\n\nSuppose that when the asteroid is at its perihelion, the constant $\\gamma_0$ is decreased instantaneously, down to a new value $\\gamma_1$, which remains constant during the subsequent motion.\n\ni. (2 pts) Find the new apohelion distance $R'_\\mathrm{max}$ of the asteroid; express it in terms of $\\kappa = (\\gamma_0 - \\gamma_1)/\\gamma_0$.\n\nii. (2 pts) Find the change of the asteroid's orbital period assuming that $\\kappa \\ll 1$ (express it in terms of $\\kappa$).\n\niii. (4 pts) Suppose that at its perihelion, the asteroid is coated with a perfectly retro-reflective paint (which directs all the incident light directly back, towards the source). Such a painting will result in a change of the effective pull of the asteroid towards the Sun; find the respective value of $\\kappa$ (provide also a numerical estimate).\n\niv. (1 pt) Estimate, is it realistic to avert the collision with this asteroid using the retroreflective paint."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Thermodynamic cycle",
+     "problem": "Thermodynamic cycle (5 points)\n\nCalculate the thermal efficiency of an ideal-gas cycle consisting of two isotherms at temperatures $T_1$ and $T_2$, and two isochores joining them. (An isochore is a constant-volume process.) The engine is constructed so that the heat released during the cooling isochore is used for feeding the heating isochore."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Bars and rod",
+     "problem": "Bars and rod (5 points)\n\nTwo cylindrical horizontal bars are fixed one above the other; the distance between the axes of the bars is $4d$, where $d$ is the diameter of the rod. Between the bars, a cylindrical rod of diameter $d$ is placed as shown in Figure (this is a vertical cross-section of the system). The coefficient of friction between the rod and the bars is $\\mu = \\frac{1}{2}$. If the rod is long enough, it will remain in equilibrium in such a position. What is the minimal length $L$ of the rod required for such an equilibrium?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2012-3-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "RLC-circuit",
+     "problem": "RLC-circuit (5 points)\n\nFor the circuit shown in Figure, $R_1 = 3R$, $R_2 = R$, $C_1 = C_2 = C$, and $L_1 = L_2 = L$. The electromotive force of the battery is $\\mathcal{E}$. Initially the switch is closed and the system is operating in a stationary regime.\n\ni. (1 pt) Find the reading of the voltmeter in the stationary regime.\n\nii. (2 pts) Now, the switch is opened. Find the reading of the voltmeter immediately after the opening.\n\niii. (2 pts) Find the total amount of heat which will be dissipated on each of the resistors after opening the switch, and until a new equilibrium state is achieved.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2012-4-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Uranium decay",
+     "problem": "Uranium decay (7 points)\n\nNatural uranium consists of $99.3\\%$ $\\mathrm{U}^{238}$, and in this problem we can ignore the presence of other isotopes. $\\mathrm{U}^{238}$ decays according to the table at the bottom of the page, where an isotope decays into the isotope indicated in its neighbouring cell (to the right), the decay energy is given in the cell below in megaelectronvolts (MeV), $1\\,\\mathrm{MeV} = 1.6\\times10^{-13}\\,\\mathrm{J}$, and the last row indicates the logarithm of the respective half-life in seconds, $\\log_{10}\\tau_{\\frac{1}{2}}$ (so that 17.15 below $\\mathrm{U}^{238}$ means that the half-life of $\\mathrm{U}^{238}$ is $10^{17.15}\\,\\mathrm{s} \\approx 1.41\\times10^{17}\\,\\mathrm{s}$.\n\nYou may also use the value of the Avogadro number $N_A = 6.02\\times10^{23}\\,\\mathrm{mol^{-1}}$, and the following physical properties of uranium: melting point $T_0 = 1408\\,\\mathrm{K}$, density $\\rho = 1.89\\times10^{4}\\,\\mathrm{kg/m^3}$, thermal conductivity $\\kappa = 27.5\\,\\mathrm{W/m\\cdot K}$, molar mass $\\mu = 0.238\\,\\mathrm{kg/mol}$. It can be assumed that the radon which appears in the chain of nuclear decays does not escape the bulk of uranium. Remark: thermal conductivity is the coefficient of proportionality between the heat flux density ($\\mathrm{W/m^2}$) and $dT/dx$ (temperature drop per unit distance).\n\ni. (2 pts) Assuming that the only source of natural $\\mathrm{U}^{234}$ is the decay chain of $\\mathrm{U}^{238}$, what is the percentage of $\\mathrm{U}^{234}$ in the natural uranium ore?\n\nii. (2 pts) Determine the heat production volume rate of natural uranium $w$ (in watts per cubic meter) due to nuclear decay.\n\niii. (3 pts) If the radius of a uranium ball is large enough, it will melt inside. How large radius $R_0$ is needed for such a melting, if ambient temperature is $T_a = 300\\,\\mathrm{K}$?\n\n$$\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \\hline \\mathrm{U}^{238} & \\mathrm{Th}^{234} & \\mathrm{Pa}^{234} & \\mathrm{U}^{234} & \\mathrm{Th}^{230} & \\mathrm{Ra}^{226} & \\mathrm{Rn}^{222} & \\mathrm{Po}^{218} & \\mathrm{Pb}^{214} & \\mathrm{Bi}^{214} & \\mathrm{Po}^{214} & \\mathrm{Pb}^{210} & \\mathrm{Bi}^{210} & \\mathrm{Po}^{210} & \\mathrm{Pb}^{206} \\\\ \\hline 4.27 & 0.27 & 2.27 & 4.86 & 4.77 & 4.87 & 5.59 & 6.12 & 1.02 & 3.27 & 7.88 & 0.06 & 1.43 & 5.41 & - \\\\ \\hline 17.15 & 6.32 & 4.38 & 12.89 & 12.38 & 10.70 & 5.52 & 2.27 & 3.21 & 3.08 & -3.78 & 8.85 & 5.64 & 7.08 & \\text{stable} \\\\ \\hline \\end{array}$$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Lifting by current",
+     "problem": "Lifting by current (7 points)\n\nConsider a loop of freely deformable conducting wire with insulation of length $2l$, the two ends of which are fixed (permanently) to the ceiling. A load of mass $m$ is fixed to the middle of the wire (the mass of the wire is negligible). There is also a horizontal magnetic field of induction $B$; free fall acceleration is $g$. A current $I$ is lead through the wire. Neglect the field induced by the wires.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2012-7-fig1.png\n\ni. (2 pts) Sketch the shape of the wire.\n\nii. (2 pts) What is the maximal height by which the load can be lifted in such a way (increasing the current, if necessary)?\n\niii. (2 pts) Write an equation from which it is possible to determine the lifting height $\\Delta h$.\n\niv. (1 pt) How large current $I_0$ is needed to lift the load by $\\Delta h_0 = l(1 - \\frac{3}{\\pi})$?"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Elastic collision",
+     "problem": "Elastic collision (7 points)\n\nConsider a perfectly elastic collision of two balls, one of which has mass $M$ and is moving with velocity $v$. The other has mass $m \\le M$ and stays initially at rest. The collision is not necessarily central. The surface of the balls is slippery, so the balls will not rotate.\n\ni. (1 pt) What are the momenta of the balls before the collision in the frame of reference where the centre of mass of the whole system stays at rest?\n\nii. (3 pts) What are the momenta of the balls (by moduli) after the collision in the mass centre's frame of reference?\n\niii. (3 pts) What is the maximal angle $\\alpha$ by which the trajectory of the initially moving ball can be inclined as a result of the collision?"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Power lines",
+     "problem": "Power lines (7 points)\n\ni. (2 pts) Consider a rope of linear density $\\sigma$ (mass per unit length), which is stretched so as to maintain a mechanical tension $T$ in the rope. Show that along such a rope, perturbations (eg. waves) will travel with the speed $k\\sqrt{T/\\sigma}$, and find the coefficient $k$.\n\nii. (2 pts) Now, consider a power line between two poles, the distance between of which is $L$; the linear density of the wire is $\\sigma$, and the middle point of the wire hangs below the horizontal level at which the wire is fixed to the poles by a distance $d$. Find the tension $T$ in the wires assuming that $d \\ll L$. Hint: make use of the torque balance for a half of the wire.\n\niii. (3 pts) Find the lowest frequency $f_0$ of free oscillations of such a power line (the amplitude of the oscillations is so small that the tension in the wire remains essentially constant)."
+    }
+   ]
+  },
+  {
+   "year": 2013,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Prism",
+     "problem": "Prism (8 points)\n\ni) (4 points) A right prism that has an equilateral triangular base with length $a$ is placed in a horizontal slit between two tables, so that one of the side faces is vertical. How small can the width $d$ of the slit be made before the prism falls out of the slit? There is no friction between the prism and the tables and the prism is made of a homogeneous material. The edges of the slit are parallel.\n\nii) (4 points) Now the prism is placed in the slit so that one of its side faces is horizontal. How small can the width $l$ of the slit be made before that position becomes unstable?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2013-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Cellphone Camera",
+     "problem": "Cellphone Camera (6 points)\n\nA photographer focussed his camera to distance $L$ and took a photo. On the photo, all farther objects (up to infinity) turned also out to be sharp. Additionally, all closer objects down to distance $s$ were sharp.\n\ni) (4 points) What is the minimum possible $L$?\n\nii) (2 points) Find the corresponding $s$.\n\nBackground. We consider the image of a pointlike object to be sharp if its image is smaller than one pixel on the sensor. Otherwise the image is blurry. The lens of the camera may be viewed as a convex lens. The camera is focussed by changing the distance between the sensor and the lens.\n\nParameters. Calculate the answer for a cellphone made by a well-known company. The focal length of its camera $f = 4.3\\,\\mathrm{mm}$ and the diameter of the lens $D = 1.8\\,\\mathrm{mm}$. The sensor is $w = 4.6\\,\\mathrm{mm}$ wide corresponding to $N = 3264$ pixels."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Mission to Mars",
+     "problem": "Mission to Mars (7 points)\n\nA crew of astronauts is going to be sent to explore the polar region of Mars and search for buried water ice. Their spaceship will travel from Earth to Mars along an elliptic transfer orbit tangential to the orbits of both planets. Despite its shortcomings, this orbit is commonly used in space travel due to its relatively good fuel economy. Future manned missions to Mars are very likely based on this kind of transfer. In this problem you will examine some aspects of this orbit.\n\nThe mean orbital radius of Mars is $R_a = 1.52\\,\\mathrm{AU}$. The mean orbital radius of Earth is $R_g = 1\\,\\mathrm{AU} = 149\\,600\\,000\\,\\mathrm{km}$. Mars has a mean radius of $r_a = 3397\\,\\mathrm{km}$ and surface gravity $g_a = 3.71\\,\\mathrm{m/s^2}$. Earth has a mean radius of $r_g = 6371\\,\\mathrm{km}$.\n\ni) (1 point) Find the orbital period $T_a$ of Mars, i.e. find the length of Martian \"year\" in Earth years.\n\nii) (1.5 points) How long ($t_t$) does a one-way trip to Mars take?\n\niii) (1.5 points) The spaceship is put into this orbit by using a powerful rocket. It is more efficient to burn fuel as a short burst when the spaceship is still near Earth. How much additional speed ($\\Delta v_1$) does the booster have to be able to give to the spaceship to enter the transfer orbit, starting from the north pole? Neglect the air resistance.\n\niv) (1.5 points) Estimate the $\\Delta v_2$ needed to enter a circular orbit close to Mars.\n\nv) (1.5 points) What is the minimal duration of the trip to Mars and back?"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Magnetic Dipoles",
+     "problem": "Magnetic Dipoles (7 points)\n\nLet us consider the following model for a magnetic dipole. Some wire with no resistance has been bent into the shape of a square with side length $a$. At some point on the wire is a small ideal current source that keeps current $I$ flowing in the circuit in all situations. The magnetic moment $m$ of a planar circuit is given by the relation $m = IA$, with vector $\\vec m$ pointing in the normal direction of the circuit according to the right hand rule ($A$ is the area bounded by the circuit).\n\ni) (3 points) The dipole is placed inside a homogeneous magnetic field $\\vec B$, so that the angle between $\\vec m$ and $\\vec B$ is $\\theta$. Find the angles $\\theta_s$ and $\\theta_u$ that correspond to stable and unstable equilibria, respectively. Calculate the amount of work ($w$) needed to rotate the dipole from $\\theta_s$ to $\\theta_u$. Give your answer in terms of $m$ and $B$.\n\nWe can use this model to calculate the magnetic properties of materials containing unpaired electrons that have negligibly weak interactions with one another. Let us consider a sample of material with $n$ such unpaired electrons per unit volume, placed inside a homogeneous magnetic field $\\vec B$. Due to spin, each unpaired electron acts as a small magnetic dipole. However, owing to the quantum nature the electron, the projection of its magnetic moment along $\\vec B$ can only be $\\mu_B$ or $-\\mu_B$ ($\\mu_B$ is called the Bohr magneton).\n\nii) (4 points) Calculate $M$, the magnetic moment per unit volume of the sample, if the temperature of the material is $T$ and the external magnetic field is $B$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Sphere and Cylinder",
+     "problem": "Sphere and Cylinder (7 points)\n\nA sphere and a cylinder are lying on an inclined surface with inclination angle $\\alpha$. Both have mass $m$ and radius $r$. The bodies are released from equal initial heights $H$. The moments of inertia of the sphere and the cylinder are, respectively, $I_\\mathrm{sph} = \\frac{2}{5}mr^2$ and $I_\\mathrm{cyl} = \\frac{1}{2}mr^2$. The coefficient of friction between the surface and the bodies is $\\mu$.\n\ni) (2 points) Which of the bodies comes down faster? What was the relative lag of the slower body $\\gamma = (t_2 - t_1)/t_1$? The times $t_1$ and $t_2$, respectively, denote the traveling times of the faster or the slower body. Assume that the rolling occurs without slipping.\n\nii) (2.5 points) Find the minimal angle of inclination $\\alpha_0$ for which the cylinder starts to slide in addition to rolling.\n\niii) (2.5 points) If $\\alpha \\to 90^\\circ$, the bodies obviously lose contact with the surface and fall down in free fall with equal times. What is the minimal angle of inclination $\\alpha_m$, for which both the sphere and the cylinder come down with equal times?"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Burning with a Lens",
+     "problem": "Burning with a Lens (7 points)\n\nSunrays are focused with a lens of diameter $d = 10\\,\\mathrm{cm}$ and focal length of $f = 7\\,\\mathrm{cm}$ to a black thin plate. Behind the plate is a mirror. Angular diameter of the Sun is $\\alpha = 32'$ and its intensity on the surface of the Earth is $I = 1000\\,\\mathrm{W/m^2}$, Stefan-Boltzmann constant $\\sigma = 5.670\\times10^{-8}\\,\\mathrm{W/(m^2K^4)}$.\n\ni) (4 points) Find the temperature of the heated point of the plate.\n\nii) (3 points) Using thermodynamic arguments, estimate the maximal diameter of the lens for which this model can be used."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Zener Diode",
+     "problem": "Zener Diode (7 points)\n\nAn inductance $L$ and a capacitor $C$ are connected in series with a switch. Initially the switch is open and the capacitor is given a charge $q_0$. Now the switch is closed.\n\ni) (1 point) What are the charge $q$ on the capacitor and the current $I$ in the circuit as functions of time? Draw the phase diagram of the system — the evolution of the system on a $I-q$ graph — and note the curve's parameters. Note the direction of the system's evolution with arrow(s).\n\nA Zener diode is a non-linear circuit element that acts as a bi-directional diode: it allows the current to flow in the positive direction when a forward voltage on it exceeds a certain threshold value, but it also allows a current to flow in the opposite direction when exposed to sufficiently large negative voltage. Normally the two voltage scales are quite different, but for our purposes we will take a Zener diode with the following volt-ampere characteristics: for forward currents, the voltage on the diode is $V_d$, for reverse currents, the voltage on the diode is $-V_d$, for zero current the voltage on the diode is $-V_d < V < V_d$.\n\nNow we connect the inductance $L$, the capacitor $C$ all in series with a switch and a Zener diode. The switch is initially open. The capacitor is again given the charge $q_0 > CV_d$ and the switch is then closed.\n\nii) (2 points) Make a drawing of the phase diagram for the system. Note the direction of the system's evolution with arrow(s).\n\niii) (2 points) Does the evolution of the system only necessarily stop for $q = 0$? Find the range of values of $q$ on the capacitor for which the evolution of the system will necessarily come to a halt.\n\niv) (2 points) Find the decrease $\\Delta q$ in the maximum positive value of the capacitor's charge $q$ after one full oscillation. How long does it take before oscillation halts?"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Glass Cylinder",
+     "problem": "Glass Cylinder (7 points)\n\nIn the following figure, there is a half-cylinder, made of glass and put on a paper with stripes (the inter-stripe distance is everywhere the same). Find the coefficient of refraction of the glass.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2013-9-fig1.jpg"
+    }
+   ]
+  },
+  {
+   "year": 2014,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "DC-DC Converter",
+     "problem": "DC-DC Converter (8 points)\n\nIn order to obtain high voltage supply using a battery, the following circuit is used.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2014-1-fig1.png\n\nAn electromagnetic switch $K_1$ connects a battery of electromotive force $\\mathcal{E}$ to an inductor of inductance $L$: it is closed if there is no current in the inductor (a spring keeps it closed), but if the inductor current reaches a critical value $I_0$, magnetic field created by the inductor pulls it open. Due to inertia, once the key is open, it takes a certain time $\\tau_K$ to close again even if the current falls to zero.\n\nFor the diode $D$ you may assume that its current is zero for any reverse voltage ($V_D < 0$), and also for any forward voltage smaller than the opening voltage $V_0$ (i.e. for $0 < V_D < V_0$). For any non-zero forward current, the diode voltage $V_D$ remains equal to $V_0$.\n\nYou may express your answers in terms of $L$, $\\mathcal{E}$, $I_0$, $V_0$, and the capacitance $C$ (see figure).\n\ni) (1 point) At first, let the key $K_2$ be open. If the initial inductor current is zero, how long time $\\tau_L$ will it take to open the key $K_1$?\n\nii) (1 point) Assuming (here and in what follows) that $L/R \\ll \\tau_K \\ll \\tau_L$, plot the inductor current as a function of time $t$ (for $0 \\le t < 3\\tau_L$).\n\niii) (1 point) What is the maximal voltage $V_{\\max}$ on the resistor $R$?\n\niv) (2 points) Assuming that $V_{\\max} \\gg V_0$, what is the average power dissipation on the diode?\n\nv) (2 points) Now, let the key $K_2$ be closed, and let us assume simplifyingly that $V_0 = 0$; also, $RC \\gg \\tau_L$ and $\\tau_K > \\pi\\sqrt{LC}$. Suppose that the circuit has been operated for a very long time. Find the average voltage on the resistor.\n\nvi) (1 point) Find the amplitude of voltage variations on the resistor."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Waste Project",
+     "problem": "Waste Project (8 points)\n\nIn 2114, Europarliament decided that all radioactive wastes need to be sent to the Sun, so as to avoid contamination of Earth and orbital space. In what follows, you can use the following numerical data: duration of one year $T = 365.25\\,\\mathrm{days}$, orbital speed on Earth $v_0 = 29.8\\,\\mathrm{km/s}$, angular diameter of Sun as seen from the Earth $\\alpha = 0.5^\\circ$, radius of the Earth $R = 6400\\,\\mathrm{km}$, free fall acceleration at the Earth's surface $g = 9.81\\,\\mathrm{m/s^2}$.\n\nAccording to the project, the waste is sent to the Sun using ballistic spaceships: the engine operates only during a short period of time during which the displacement of the spaceship remains much shorter than the radius of Earth. In the Earth's frame of reference, the spaceship obtains a velocity opposite to the orbital velocity of Earth in the Sun's frame of reference. Further, the ship moves along a ballistic trajectory until it hits the Sun. The trajectory is such as to minimize the consumption of fuel.\n\ni) (1 point) Sketch the trajectory of the spaceship.\n\nAs a first approximation, calculations can be done when neglecting the angular size of the Sun (i.e. by putting $\\alpha \\approx 0^\\circ$); you can use this approach for the next two questions.\n\nii) (1.5 points) How long will it take for the spaceship to travel from the Earth to the Sun?\n\niii) (1.5 points) What is the speed of the spaceship in the Earth's frame of reference when the distance from the Earth is much larger than the Earth's radius, but still much shorter than the distance to the Sun?\n\niv) (2.5 points) Answer the previous question without making the approximation $\\alpha \\approx 0^\\circ$.\n\nv) (1.5 points) What is the speed of the spaceship in the Earth's frame of reference when the distance from the Earth is much smaller then the Earth's radius?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Magnets",
+     "problem": "Magnets (6 points)\n\nTo explore the force between two small magnets, the following experiment is performed. One of the magnets is hanged from a thread with length $l = 1\\,\\mathrm{m}$. Other magnet is moved slowly closer while keeping the axes of the magnets always on the same horizontal line. At the moment when the distance between the magnets is $d_1 = 4\\,\\mathrm{cm}$ and the hanged magnet has moved $x_1 = 1\\,\\mathrm{cm}$ from initial position, balance is lost and the magnets pull together. By making the assumption that the pulling force between the magnets $F_\\mathrm{m}$ depends on the distance $d$ according to the relation $F_\\mathrm{m} \\propto d^{-n}$, find the value of the exponent $n$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Superballs",
+     "problem": "Superballs (5 points)\n\n$n+1$ elastic balls are dropped so that they are exactly above each other, with a very small gap between each. Bottom ball has a mass of $m_0$, the one above has a mass of $f m_0$, next $f^2 m_0$ and so on, until the topmost ball with mass $f^n m_0$, where $f < 1$. At the moment when the bottom ball touches the ground, all the balls are moving with the speed $v$.\n\ni) (1 point) After the collision between the two bottommost balls, what is the speed $v_1$ of the second ball from the bottom?\n\nii) (3 points) What is the speed of the topmost ball $v_n$ after all collisions?\n\niii) (1 point) How many times higher would that ball fly compared to the initial drop height $h$? Take $f = 0.5$ and $n = 10$.\n\nIt maybe useful that that sequence $a_0 = 1$, $a_{k+1} = a_k\\alpha + \\beta$ has a general term $a_n = \\alpha^n + \\beta\\frac{\\alpha^n - 1}{\\alpha - 1}$, where $\\alpha$ and $\\beta$ are constants."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Running on Ice",
+     "problem": "Running on Ice (4 points)\n\nA boy is running on a large field of ice with velocity $v = 5\\,\\mathrm{m/s}$ toward the north. The coefficient of friction between his feet and the ice is $\\mu = 0.1$. Assume as a simplification that the reaction force between the boy and the ice stays constant (in reality it varies with every push, but the assumption is justified by the fact that the value averaged over one step stays constant).\n\ni) (2 points) What is the minimum time necessary for him to change his moving direction to point towards the east so that the final speed is also $v = 5\\,\\mathrm{m/s}$?\n\nii) (2 points) What is the shape of the optimal trajectory called?"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Spin System",
+     "problem": "Spin System (8 points)\n\nLet us consider a system of $N$ independent magnetic dipoles (spins) in a magnetic field $B$ and temperature $T$. Our goal is to determine some properties of this system by using statistical physics. It is known that the energy of a single spin is $E = \\epsilon m$, where $m = \\pm\\frac{1}{2}$ and $\\epsilon = \\alpha B$.\n\ni) (2 points) What is the probability $p_\\uparrow$ for a spin to be in exited state, i.e. have positive energy?\n\nii) (2 points) What is the average value of the total energy $E_s$ of the spin system as a function of $B$ and $T$?\n\niii) (2 points) Using high temperature approximation $T \\gg \\frac{\\alpha B m}{k}$, simplify the expression of $E_s$.\n\niv) (2 points) Using high temperature approximation $T \\gg \\frac{\\alpha B m}{k}$, find the heat capacity $C$ of the spin system."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Mirror Interference",
+     "problem": "Mirror Interference (5 points)\n\nA point source $S$ emits coherent light of wavelength $\\lambda$ isotropically in all directions; thus, the wavefronts are concentric spheres. The waves reflect from a dielectric surface placed at a distance $l = N\\lambda$ (where $N$ is a large integer) from the point source, and the interference pattern is observed on a screen which is placed to a distance $L \\gg l$ from the point source (see figure).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2014-8-fig1.png\n\nIn what follows we use the $x$, $y$, and $z$ coordinates as defined in the figure. The screen is parallel to the mirror and lies in the $y-z$-plane.\n\ni) (2 points) At which values of the $y$-coordinate (for $z = 0$) are the interference maxima observed on the screen? You may assume that $y \\ll L$.\n\nii) (1 point) Sketch the shape of few smallest-sized interference maxima on the screen (in $y-z$-plane).\n\niii) (2 points) Now the flat screen is replaced with a spherical screen of radius $L$, centred around the point source. How many interference maxima can be observed?"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Thermal Acceleration",
+     "problem": "Thermal Acceleration (9 points)\n\nConsider a cube of side length $a = 1\\,\\mathrm{cm}$, made of aluminium (density $\\rho = 2.7\\,\\mathrm{g/cm^3}$, molar mass $M_A = 23\\,\\mathrm{g/mol}$). The heat capacitance of one mole of aluminium is given as a function of temperature in the graph below. The speed of light $c = 3\\times10^{8}\\,\\mathrm{m/s}$, universal gas constant $R = 8.31\\,\\mathrm{J/(kg\\cdot K)}$. The initial temperature of the cube is $T_0 = 300\\,\\mathrm{K}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2014-9-fig1.png\n\ni) (1 point) What is the total heat energy of such a cube at the initial temperature $T_0$?\n\nii) (3 points) Now, the cube has 5 faces painted in white (reflects all relevant wavelengths) and one face painted in black (absorbs all these waves). The cube is surrounded by vacuum at a very low temperature (near absolute zero); there is no gravity field. Initially, the cube is at rest; as it cools down due to heat radiation, it starts slowly moving. Estimate its terminal speed $v_1$.\n\niii) (2 points) At very low temperatures, the heat capacitance of aluminium is proportional to $T^3$, where $T$ is its temperature. Which functional dependance $f(t)$ describes the temperature as a function of time [$T = A\\cdot f(Bt)$, where $A$ and $B$ are constants] for such very low temperatures under the assumptions of the previous question?\n\niv) (3 points) Now, the cube has 5 faces covered with a thermal insulation layer (you may neglect heat transfer through these faces). One face is left uncovered. The cube is surrounded by hydrogen atmosphere at a very low temperature (molar mass of hydrogen molecules $M_H = 2\\,\\mathrm{g/mol}$). The cube starts cooling down due to heat transfer to the surrounding gas; you may neglect the heat radiation. Initially, the cube is at rest; as it cools down, it starts slowly moving. Estimate the order of magnitude of its terminal speed $v_2$. Assume that the surrounding gas is sparse, so that the mean free path of the molecules is much larger than $a$. Assume that $v_2 \\ll c_s$ where $c_s$ is the speed sound in the atmosphere surrounding the cube."
+    }
+   ]
+  },
+  {
+   "year": 2015,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Annihilation",
+     "problem": "Annihilation (6 points) — L. Franti\n\nAn electron with kinetic energy $1\\,\\mathrm{MeV}$ travels along the $z$-axis and collides with a positron at rest. The particles annihilate producing a pair of two photons A and B with equal energies.\n\ni) (1.5 points) Find the speed of the electron $v_e$ in the lab frame.\n\nii) (0.5 points) Find the energy $E_\\gamma$ of photon A in the lab frame.\n\niii) (1 point) Find the momentum $p_\\gamma$ of photon A in the lab frame.\n\niv) (2 points) Find the angle $\\alpha$ between the $z$-axis and the momentum of photon A in the lab frame.\n\nv) (1 point) Why is it not possible for a collision process to produce just one single photon?\n\nThe rest mass of electron $m_e = 511\\,\\mathrm{keV}/c^2$. You can express your results in electron volts and related units."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Holographic lens",
+     "problem": "Holographic lens (7 points) — J. Kalda\n\nMonochromatic light can be focused into a point using an holographic lens (better known as a Fresnel zone plate). This is a thin film which has a system of opaque and transparent concentric rings: the opaque rings obstruct those light waves which would arrive at the focus in the opposite phase (as compared with the light from the transparent rings). In what follows, let us assume that the diameter and focal length of such a lens $d = f = 10\\,\\mathrm{cm}$; the wavelength of the monochromatic incident light radiation is $\\lambda = 5\\times10^{-7}\\,\\mathrm{m}$.\n\ni) (1.5 points) Starting enumeration from the (opaque) centre of the lens, what is the radius of the $m$-th transparent ring (more precisely, the circle at the middle of the ring)?\n\nii) (1.5 points) Let us consider also a glass lens of the same focal length $f$ and diameter $d$, such that a parallel incident beam is collected perfectly into the focus (has aspheric surfaces). What is the minimal possible thickness of such a lens if the coefficient of refraction of the glass is $n = 1.5$?\n\niii) (2 points) If a short light pulse falls onto a lens, the behaviour of the holographic lens is very different from that of the glass lens. Indeed, if we ignore the dispersion of the glass (the dependence of $n$ on the wavelength), the pulse duration at the focus of the glass lens is the same as that of the incident beam. Meanwhile, in the case of a short pulse ($\\tau = 3\\times10^{-14}\\,\\mathrm{s}$), the pulse duration at the focus of the holographic lens becomes significantly dilated. Sketch qualitatively the light intensity $I$ at the focus of the holographic lens as a function of time. A scale is required for time $t$, but not for $I$. The speed of light $c = 3\\times10^{8}\\,\\mathrm{m/s}$.\n\niv) (1 point) Even if the light source is an ideal laser providing a perfectly monochromatic radiation, the short pulse is no longer strictly monochromatic. Estimate the width of the range of wavelengths in the pulse of duration $\\tau$.\n\nv) (1 point) Estimate the duration of this light pulse in the focus of the glass lens. Assume that in the glass, the light wave group velocity $v_g$ depends on the wavelength at the rate $\\frac{\\mathrm{d}v_g}{\\mathrm{d}\\lambda} = 0.02\\times\\frac{v_g}{\\lambda}$ and that for the wavelength $\\lambda$, group speed is equal to the phase speed."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Gear shift",
+     "problem": "Gear shift (3 points) — K.A. Saar\n\nThe maximum torque of a car’s engine depends on the engine’s rotation speed (see the following figure, a larger copy is on an extra sheet).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2015-3-fig1.png\n\nThe rotations of the engine are transferred to the wheels through a transmission gearbox. When the car is in the first gear, then the gear ratio from the engine to the wheels is 14:1; in the second gear, the gear ratio is 7:1.\n\ni) (2 points) At what speed of the car should the transmission be shifted from the first gear into the second, in order for the average acceleration of the car to be maximum?\n\nii) (1 point) What is the acceleration of the car immediately before and immediately after the gear change?\n\nNeglect any drag force. The mass of the car $m = 1400\\,\\mathrm{kg}$, the diameter of a wheel is $d = 60\\,\\mathrm{cm}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2015-3-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Star wars",
+     "problem": "Star wars (8 points) — J. Kalda\n\nHere we’ll study, in which region of space targets can be hit with an interplanetary ballistic missile. The launching point $P$ is motionless in the inertial frame of reference of a gravitationally attracting star centred at $S$. The launching speed of the missile is fixed throughout this problem and equal to $v_0$, the same applies to the distance to launching point $|SP| = R$. The mass of the star is $M$, and the gravity constant is $G$. Hint: the total energy of a missile of mass $m$ moving on an elliptical orbit is $E = -GMm/(2a)$, where $a$ is the longer semiaxis of its orbit.\n\ni) (2 points) The missile is launched as described above in an arbitrary direction. What is the period of the missile on its elliptic orbit?\n\nii) (2 points) According to the Kepler’s I law, the missile’s orbit is an ellipse, with one of the foci being at $S$. The position of the other focus $F$ depends on the launching angle. While the launching angle is changed, the focus $F$ moves along a certain curve; what curve is it? Also, determine the geometric dimensions of that curve.\n\niii) (1 point) Let us consider such a point $Q$ on the missile’s trajectory, the distance of which from the star equals to $|SQ| = r$. Determine the distance $|QF|$.\n\niv) (1 point) The position of point $Q$ (as defined above) depends on the launching angle of the missile, and so does the distance $|PQ|$. Among all the possible positions of the point $Q$, what is the largest possible distance $|PQ|$?\n\nv) (2 points) For questions iii and iv, we assumed that the distance $r$ had a fixed value. Now, if we consider $r$ as a free parameter, the position of the point $Q$ is a function of both $r$ and of the launching angle. What is the boundary of that region of space to which the point $Q$ can belong?"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Two balls",
+     "problem": "Two balls (5 points) — J. Kalda\n\nThe following snapshot (a larger version is on an extra sheet) depicts two balls that were thrown simultaneously and with the same initial speed, but in different directions from point $P$. What was the initial speed? Use $g = 9.8\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2015-6-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2015-6-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Bouncy ball",
+     "problem": "Bouncy ball (5 points) — J. Toots\n\nA homogeneous elastic ball with radius $R$ bounces from a vertical wall in such a way that it rebounds back exactly in the same direction it came from. The ball’s speed before the bounce is $v$ at an angle $\\alpha$ to the vertical; the ball also has an angular speed $\\omega$. There was no slipping at the contact point, but do not assume that $\\omega R = v\\cos\\alpha$. The bounce was completely elastic, ie no kinetic energy was lost; also, the horizontal components of incident and rebound velocities have the same magnitude. The moment of inertia for a homogeneous ball is $I = \\frac{2}{5}mR^2$.\n\ni) (1 point) Find the angular speed $\\omega_2$ of the ball after the bounce.\n\nii) (2 points) Find the initial angular speed $\\omega$ in terms of $v$, $\\alpha$ and $R$.\n\niii) (2 points) What is the minimum value for coefficient of friction $\\mu$ that such bounce could happen?"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Electric field",
+     "problem": "Electric field (6 points) — L. Franti\n\nA conducting ring with radius $R$ carries a large current $I$. The ring lies stationary in the $xy$-plane with its centerpoint at (0,0,0). An observer approaches the ring parallel to the $z$-axis with velocity $v$ and measures the electric field at distance $r$ from the axis. Assume that $v \\ll c$ and $r \\ll R$.\n\ni) (2 points) Find the direction and magnitude of the magnetic field $B(z)$ on $z$ axis in stationary reference frame.\n\nii) (4 points) Estimate the magnitude and direction of electric field $E(z,r)$ measured by the observer when he is at a distance $z$ from the ring’s plane."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Solenoids",
+     "problem": "Solenoids (8 points) — S. Ainsaar\n\nA tightly-wound rigid solenoid coil has been partly inserted into another. They are connected to a constant current source so that the same current $I$ flows through them; both generate a magnetic field in the same direction. The solenoids have $N$ turns both, their length is $l$, their cross-sectional areas are $A_1$ and $A_2$. It may be assumed that $A_1, A_2 \\ll l^2$. You may find it useful to know that the magnetic field at the centre of one solenoid taken separately is $B = \\mu_0 IN/l$, where $\\mu_0$ is the permeability of vacuum.\n\ni) (2 points) The centres of the coils are at a distance $x < l$ along their common axis $[A_1, A_2 \\ll (x-l)^2, x^2]$. Find the total energy $E_m$ of the magnetic field in the system.\n\nii) (4 points) Find the electromotive forces $\\mathcal{E}_1$ and $\\mathcal{E}_2$ generated on the coils when one is pulled out with a speed $v$.\n\niii) (2 points) Find the force $F$ needed to pull one coil outwards."
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Fuel consumption",
+     "problem": "Fuel consumption (5 points) — Jaan Kalda\n\nThe given graph (a larger copy is on an extra sheet) shows a car’s fuel consumption as a function of time. It is known that the car started moving from a horizontal road segment with initial acceleration $a_0 = 5\\,\\mathrm{m/s^2}$. At time $t_1 = 11\\,\\mathrm{s}$, the road was horizontal and the driver switched on the cruise control for constant speed $v_0 = 90\\,\\mathrm{km/h}$. Shortly afterwards, the car started moving up a hill. How high was the highest point on the road over that hill, relative to the height at $t_1$? Assume that the efficiency of the car was constant at all times. Remark: between seconds 2 and 10, there might have been ascents and/or descents on the road.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2016-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Glass plate",
+     "problem": "Glass plate (10 points) — Rasmus Kisel and Mihkel Heidelberg\n\nLight from a laser with a wavelength of $\\lambda$ and power of $P$ falls perpendicularly on to a thin glass plate of thickness $a = (100.25\\lambda)/n$ where $n$ is the index of refraction of glass. The reflection coefficient of the glass surfaces is $r$, which can be interpreted as the probability for a photon to be reflected from a single glass surface.\n\ni) (2 points) Calculate the force $F_a$ applied to the glass by the laser light when the incident side of the glass is painted totally black.\n\nii) (3 points) Calculate the force $F_b$ applied to the glass by the laser light when the opposite side of the glass is painted totally black.\n\niii) (5 points) Calculate the force $F_c$ applied to the glass by the laser light when neither of the sides is painted."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Music",
+     "problem": "Music (8 points) — Lasse Frantti\n\nA band consisting of three physicists is on tour. The band plays progressive world music and is equipped with an electric guitar, pipe organ and tubular bells made of steel. Their first gig is at Tavastia-club in Helsinki, where they tune their instruments before the show. The air is comfortably dry and the temperature is 25 degrees Celsius.\n\ni) (6.5 points) Their second gig is in Libya, where the temperature is 45 degrees Celsius. Their instruments are out of tune because of the scorching heat but all the tuning equipment has been left home. How badly out of tune are they? Estimate the audible change in the original $330\\,\\mathrm{Hz}$ tuning in all of the three instruments.\n\nii) (1.5 points) The tour ends with a private gig at a pulmonary clinic. The temperature in the treatment room is 25 degrees, but instead of air the room is filled with a mixture of helium and air (heliox). How does this affect the audible sound produced by the three instruments?\n\n• Speed of sound in air $v_a = 331.3\\,\\mathrm{m/s}\\sqrt{1+\\frac{t(^\\circ\\mathrm{C})}{273.15}}$\n• Speed of sound in heliox $v_t = 1.7v_a$\n• Heat capacity of steel $450\\,\\mathrm{J/kg\\cdot K}$\n• Density of steel $7900\\,\\mathrm{kg/m^3}$\n• Melting point of steel $1540\\,^\\circ\\mathrm{C}$\n• Heat conductivity of steel $50\\,\\mathrm{W/mK}$\n• Young modulus of steel $200\\,\\mathrm{GPa}$\n• Coefficient of thermal expansion (steel) $12.0\\times10^{-6}\\,\\mathrm{K^{-1}}$\n• Power of the guitar amplifier $500\\,\\mathrm{W}$\n• Diameter of the guitar E string $0.30\\,\\mathrm{mm}$\n• Free length of the E string $65\\,\\mathrm{cm}$\n• Frequency of the E string $330\\,\\mathrm{Hz}$\n\nYou can neglect the effects of temperature on the guitar body. The guitar string pitch is determined by the transverse standing wave frequency on the guitar string. The pipe organ pitch is determined by the longitudinal standing wave frequency of air in the pipe. The tubular bell pitch is determined by the transverse standing wave of the (steel) tube. You may use dimensional analysis where possible. Assume that the Young modulus of steel is constant in temperature."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Dimmer",
+     "problem": "Dimmer (9 points) — Siim Ainsaar\n\nA dimmer for controlling the brightness of lighting consists of a rheostat, a capacitor, a diac and a triac, connected as in the schematics.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2016-4-fig1.png\n\nA diac is a component whose behaviour is determined by the voltage-current diagram shown above. A triac, on the other hand, can be thought of as a switch controlled by current — look at the following equivalent schematics.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2016-4-fig2.png\n\nThe switch $K_t$ is open as long as the current through the triac’s gate stays under the threshold current $I_t$; closes when the threshold current is applied (in either direction) and stays closed while a current is flowing through the switch $K_t$ (the gate current is irrelevant until the switch opens again).\n\ni) (3 points) Assume that the resistance $R_t$ is large enough that the charge moving through the diac can be neglected. Let the sinusoidal supply voltage have a maximum value of $U$ and a frequency of $f$; the rheostat be set to the resistance $R$ and the capacitor’s capacitance be $C$. Find the maximum value of the voltage $U_C$ on the capacitor, and its phase shift $\\varphi$ with respect to the supply voltage.\n\nii) (2 points) What inequality should be satisfied by the diac’s characteristic voltages $U_b$ and $U_d$, triac’s threshold current $I_t$ and gate resistance $R_t$ to ensure that when the diac starts to conduct (while the voltage on the capacitor rises), then the triac would also immediately start to conduct? You may assume that $I_b < I_t$ and that the diac’s voltage at current $I_t$ is $U_d$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2016-4-fig3.png\n\niii) (2 points) The voltage $U_l$ on the lamp follows the plot above. Let’s assume that the assumption of part i) and the inequality of part ii) hold. Find the time $t_0$ during which the voltage on the lamp is zero.\n\niv) (2 points) Express through $t_0$ and $f$, how many times the average power of the lamp is lower than the one of a lamp without a dimmer, assuming that the resistance of the lamp is unchanged."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Charge on a ring",
+     "problem": "Charge on a ring (7 points) — Andreas Isacsson\n\nA pointlike particle with mass $m$ and charge $q$ is free to slide without friction along a fixed horizontal circular ring with radius $r$. In the plane of the ring, another charge $Q$ is placed in a fixed position, at a distance $d$ from the center of the ring, with $d < r$ (see figure).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2016-6-fig1.png\n\ni) (3 points) The particle on the ring is given an initial velocity $v_0$. Calculate its velocity $v$ as a function of the angle $\\phi$, $v(\\phi)$.\n\nii) (2 points) How large is the force from the ring on the particle, as a function of the angle $\\phi$?\n\niii) (2 points) Viscous friction can be modelled with a force directed against the velocity, with a magnitude proportional to the speed, i.e. $|F_f| = m\\gamma v$, where $\\gamma$ is a positive constant. Assume that this kind of frictional force acts on the particle on the ring. Given an initial $v_0$, determine the position where the particle comes to rest."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Helium",
+     "problem": "Helium (6 points) — Jaan Toots\n\nLiquid helium is cooled under low pressure by vaporizing it and pumping the gas away. The heat of vaporization of helium is $\\lambda = 22\\,\\mathrm{kJ\\,kg^{-1}}$, which you can take to be constant. The specific heat of the liquid $c(T)$ is shown on the graph (a larger copy is on an extra sheet). What fraction of the liquid helium has to vaporize to cool the remaining liquid from $T_0 = 4.1\\,\\mathrm{K}$ to $T_1 = 2.3\\,\\mathrm{K}$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2016-7-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Oscillations",
+     "problem": "Oscillations (7 points) — Lasse Frantti\n\ni) (2 points) A steel ball (mass $m = 1\\,\\mathrm{kg}$) is attached to an ideal vertical spring. This causes the spring to lengthen by $x = 5\\,\\mathrm{cm}$. The ball is then pulled down by $s = 10\\,\\mathrm{cm}$ from its equilibrium point and released, which leads to an oscillation. What should be the length of a point mass pendulum in order to have the same small oscillations period as this system?\n\nii) (2 points) A hole is drilled diametrically through a spherical asteroid. An astronaut drops a stone into the hole to see what happens. Show that the stone starts to oscillate harmonically back and forth in the hole.\n\niii) (2 points) You want to send a parcel to your friend at the other end of the drilled hole. You can either throw the parcel horizontally (around the asteroid) or drop it into the hole. Which way is faster?\n\niv) (1 point) A perfectly elastic ball is dropped onto a horizontal table from height $h = 50\\,\\mathrm{cm}$. Estimate the period of bounces. Is this motion a simple harmonic oscillation? Why/why not?"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Deflection on falling",
+     "problem": "Deflection on falling (8 points) — Mihkel Kree\n\nImagine a vertical mine shaft of height $h = 100\\,\\mathrm{m}$ at the equator. Consider a free falling steel ball, released from the top of the shaft, and let us neglect the air drag (friction). Not surprisingly, due to the rotation of the Earth, the ball will reach the bottom of the shaft at a point which is slightly different from the point of the vertical projection of the release location. Let us denote the distance between these points by $\\Delta x$. (Historical note: the correct expression for $\\Delta x$ was first calculated independently by Laplace and Gauss in 1803.)\n\ni) (1 point) Calculate the velocity difference $\\Delta v$ of the top of the shaft and the bottom of the shaft as seen in an absolute, non-rotating frame of reference.\n\nii) (1 point) Neglecting the rotation of the Earth, but assuming that the steel ball is released with an initial horizontal velocity $\\Delta v$ as seen from the bottom of the shaft, calculate the horizontal displacement $\\Delta x_0$ of the steel ball by the time it reaches the bottom.\n\nObviously, the answer found in ii) is not physically correct, because we neglected the rotation of the Earth and, correspondingly, the Coriolis force. Luckily, the correct expression can still be found without integrating the Coriolis force (although Laplace and Gauss did it).\n\niii) (6 points) Considering the falling steel ball being on a Keplerian orbit and taking into account the curvature of the Earth, find the true value of the horizontal displacement $\\Delta x$. Hint: use appropriate approximations for small values and note that the small segment of ellipse corresponding to the fall of the steel ball can still be approximated as a parabola."
+    }
+   ]
+  },
+  {
+   "year": 2017,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Dragon",
+     "problem": "Dragon (5 points) — Aigar Vaigu\n\nHere is a photo of a dragon under water (there is a larger photo on a separate sheet). The length of the dragon is $l = 8\\,\\mathrm{cm}$ and its height is $h = 3\\,\\mathrm{cm}$. The diameter of the bottom of the bowl is $d = 10\\,\\mathrm{cm}$ and the angle between the table and the side of the bowl is $\\alpha = 60^\\circ$. The refractive index of water is $n = 1.33$. The photo has been taken so that the camera was pointing directly along the water surface. In the following questions the angle between the horizon when looking at some point on the image of the dragon is defined as the angle between the horizontal water surface (or any other horizontal surface) and the straight line from the eye to that point on the image.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2017-1-fig1.jpg\n\ni) (2 points) What is the largest angle below the horizon from which the reflection of the dragon from the water surface can be seen?\n\nii) (3 points) What is the highest angle above the horizon from which this reflection can be seen?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2017-1-fig2.jpg"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Comet",
+     "problem": "Comet (8 points) — Jaan Kalda\n\nA comet’s orbit intersects the Earth’s orbit (which can be assumed to be circular of radius $R_0 = 1.5\\times10^{8}\\,\\mathrm{km}$) at an angle $\\alpha = 45^\\circ$. The comet’s and the Earth’s orbits lie on the same plane.\n\ni) (3 points) Find the distance $R_{\\min}$ of the comet’s perihelion $P$ from the Sun (i.e. its shortest distance). The distance $R_{\\max}$ of the comet’s aphelion $A$ from the Sun (i.e. its longest distance) can be assumed to be much larger than $R_0$.\n\nii) (5 points) For how many days $t$ will the comet’s distance to the Sun be less that $R_0$?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Resistors and capacitors",
+     "problem": "Resistors and capacitors (5 points) — Mihkel Heidelberg\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2017-3-fig1.png\n\nA circuit is made out of a battery, a switch, resistors and capacitors as shown in the image. The resistors all have a resistance of $R$, the capacitors all have a capacitance of $C$ and the battery has a voltage of $U$. The point A is connected to the ground and so it has a potential of $0\\,\\mathrm{V}$. In the beginning the switch is open and all the capacitors have no charge.\n\ni) (2 points) What is the potential at points B and C after we have closed the switch and waited for all the potentials to stabilize?\n\nii) (3 points) What is the potential at point D after we have closed the switch and waited for all the potentials to stabilize?"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Gravitational waves",
+     "problem": "Gravitational waves (7 points) — Artūrs Bērziņš\n\nThe power radiated in gravitational waves by an orbiting binary system is given by $P(r,m_1,m_2) = \\frac{32}{5}\\frac{G^4}{c^5}\\frac{(m_1m_2)^2(m_1+m_2)}{r^5}$, where $r$ is the distance between the centers of the two orbiting masses $m_1$ and $m_2$. It is known that the most compact object is a black hole. The size of a black hole is defined by its Schwarzschild radius $r_s = \\frac{2Gm}{c^2}$, where $m$ is the mass of the black hole.\n\ni) (2 points) Estimate the upper limit of the power that can ever be emitted in gravitational waves by an orbiting binary system.\n\nThe gravitational wave detectors on Earth function by measuring the so called gravity wave strain $\\varepsilon(t)$ over time, which characterizes the deformation of spacetime. Data processing then yields the maximum strain $\\varepsilon$ and its corresponding wave frequency $f$. With the help of a theoretical spacetime model, the energy density $u$ associated with the wave can then be determined. We will use the analogy of linear elasticity to examine this model.\n\nii) (1.5 points) Derive the energy density $u = u(\\varepsilon,E)$ in a uniformly stretched elastic band in terms of the strain $\\varepsilon$ and the Elastic (Young’s) modulus $E$.\n\niii) (1.5 points) Use dimensional analysis to estimate the frequency-dependent elastic modulus of spacetime $E(f)$ in terms of the universal gravitational constant $G$, speed of light $c$ and gravitational wave frequency $f$.\n\niv) (2 points) Estimate the maximum distance $z = z(\\varepsilon,f)$ from the Earth to the gravitational wave source as a function of the strain $\\varepsilon$ and frequency $f$. Use the models derived previously in this problem."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Loop",
+     "problem": "Loop (6 points) — Lasse Franti\n\nA wire loop is hovering in outer space (weightless vacuum) with its plane parallel to the $xy$-plane. In $x < 0$ there is a homogeneous magnetic field parallel to the $z$-axis. The rigid rectangular loop is $l = 10\\,\\mathrm{cm}$ wide and $h = 30\\,\\mathrm{cm}$ long. The loop is made of copper wire with a circular cross section (radius $r = 1.0\\,\\mathrm{mm}$). At $t = 0\\,\\mathrm{s}$ the external magnetic field starts to decrease at a rate of $0.025\\,\\mathrm{T/s}$.\n\ni) (3 points) Find the acceleration of the loop right after $t = 0\\,\\mathrm{s}$. The magnetic flux density is initially $B = 2.0\\,\\mathrm{T}$ and the loop is immersed $d = 12\\,\\mathrm{cm}$ into the external field with its shorter side parallel to the $y$-axis.\n\nii) (3 points) We can try to increase the acceleration in many ways. How does the result in i) change if\n\na) the loop is made with twice thicker copper wire ($r = 2.0\\,\\mathrm{mm}$)?\n\nb) the original wire is wound three times instead of one (giving a short-circuited coil with three windings, the dimensions of the rectangle stay the same)?\n\nc) the mass of the coil is kept constant by using a wire with half the cross section which is then wound two times (the dimensions of the rectangle stay the same)?\n\nd) the loop is made of a different metal? Which of the metals given in the table gives the best result?\n\n$$\\begin{array}{|l|l|l|} \\hline \\text{Metal} & \\text{Resistivity} & \\text{Density} \\\\ & 10^{-8}\\,\\mathrm{m} & 10^{3}\\,\\mathrm{kg/m^3} \\\\ \\hline \\text{Iron} & 9.71 & 7.87 \\\\ \\hline \\text{Copper} & 1.67 & 8.96 \\\\ \\hline \\text{Aluminum} & 2.65 & 2.70 \\\\ \\hline \\text{Lithium} & 8.55 & 0.53 \\\\ \\hline \\end{array}$$\n\ne) What if we use the thicker copper wire to make a twice bigger loop ($r = 2.0\\,\\mathrm{mm}$, $l = 20\\,\\mathrm{cm}$, $h = 60\\,\\mathrm{cm}$) and immerse it $24\\,\\mathrm{cm}$ into the external field?"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Zener",
+     "problem": "Zener (7 points) — Jaan Kalda\n\nA Zener diode is connected to a source of alternating current as shown in the figure. The current is sinusoidal $I = I_0\\cos\\omega t$ with a constant amplitude. The inductance $L$ of the inductor is such that $L\\omega I_0 \\gg V_1, V_2$, where $V_1$ and $V_2$ are the breakdown voltages ($V_1 > V_2$). The current-voltage characteristic of the Zener diode is shown in the figure. In the following assume that a very long time has passed since the current source was first turned on.\n\ni) (5 points) Find the average current $\\langle I\\rangle$ through the inductor.\n\nii) (2 points) Find the peak-to-peak amplitude of the current changes $\\Delta I$ in the inductor.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2017-7-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Beams",
+     "problem": "Beams (6 points) — Andres Põldaru\n\nThere are three beams between two absolutely rigid plates. The weight of the plates and the beams can be neglected. The coefficient of thermal expansion of the beams is $\\alpha = 1.0\\times10^{-5}\\,\\mathrm{K^{-1}}$. The maximum strain (relative length change compared to the no load case) before permanent inelastic deformations of the material of the beam is $\\beta = 0.40\\,\\%$. The beams can support a maximum amount of weight on the top plate, at which point permanent deformations start taking place in some of the beams.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2017-8-fig1.png\n\ni) (2 points) Initially all the beams are at the same temperature. Then the temperature of the beam in the middle is increased by $\\Delta T = 100\\,\\mathrm{K}$. Compared to the case when the beams were at equal temperatures, what fraction of the original maximal weight can the beams now support on the top plate? Assume that the properties of the materials (specifically the maximum strain and the elastic modulus) don’t change during the heating.\n\nii) (4 points) All of the beams are originally at temperature $T_0 = 0\\,^\\circ\\mathrm{C}$. A load of $20\\,\\%$ of the maximal load is placed on the top plate. Keeping the same load on, to what temperature can the beam in the middle be heated such that no permanent deformations occur? This time the elastic modulus of the material changes depending on the temperature as shown in the figure below (a larger figure is given on an extra sheet).\n\nHint (added during the competition): the elastic modulus or Young modulus $E$ is defined by the formula $F/A = E\\Delta l/l$, where $F$ is the force, $A$ is the area and $\\Delta l/l$ is the relative lengthening.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nbpho-2017-8-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Spacecraft pressure",
+     "problem": "Spacecraft pressure (6 points) — Johan Runeson\n\nConsider a spacecraft shaped as a homogeneous pipe, which is closed at both ends. The spacecraft is rotating around its center of mass with angular velocity $\\omega$, around an axis perpendicular to the pipe, in order to simulate gravity. The spacecraft is filled with air of molar mass $\\mu$, which has pressure $p_0$ at the rotation axis. The diameter of the spacecraft is much smaller than its length. Added during the competition: the temperature is $T$.\n\ni) (4 points) Calculate the pressure $p$ as a function of the distance $r$ from the rotation axis.\n\nii) (2 points) As a comparison, consider a (non-rotating) tower in a constant gravitational field of strength $g$, filled with the same gas. If the ground level pressure is $p_0$, what is the pressure $p$ as a function of height $h$ above the ground in such a tower?"
+    }
+   ]
+  },
+  {
    "year": 2018,
    "problems": [
     {

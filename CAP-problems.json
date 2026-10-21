@@ -2,6 +2,1163 @@
  "competition": "Canada — CAP High School/CEGEP Prize Exam (Canadian Physics Olympiad)",
  "years": [
   {
+   "year": 2007,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA book is placed on a chair. Then a videocassette is placed on the book. The floor exerts a normal force:\n\n(a) on all three;\n\n(b) only on the book;\n\n(c) only on the chair;\n\n(d) upwards on the chair and downwards on the book."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe figure shows two point sources (A and B) of coherent mechanical waves of the same wavelength. Source B emits waves that are $+\\pi$ radians out of phase with the waves from source A. Source A is $3\\lambda$ distant from P and source B is $5\\lambda$ distant from P ($\\lambda$ is the wavelength).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-1-2-fig1.png\n\nThe phase difference between the waves arriving at P from A and B is\n\n(a) $0\\,\\mathrm{rad}$ (b) $\\pi/2\\,\\mathrm{rad}$ (c) $2\\pi\\,\\mathrm{rad}$ (d) $3\\pi\\,\\mathrm{rad}$ (e) $4\\pi\\,\\mathrm{rad}$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nWhat is the potential difference $V_B-V_A$ in the circuit segment below if the current $I=1.5\\,\\mathrm{A}$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-1-3-fig1.png\n\n(a) $+22\\,\\mathrm{V}$ (b) $-22\\,\\mathrm{V}$ (c) $-38\\,\\mathrm{V}$ (d) $+38\\,\\mathrm{V}$ (e) $+2.0\\,\\mathrm{V}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe graph on the right shows a velocity versus time graph for a ball.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-1-4-fig1.png\n\nWhich explanation best fits the motion of the ball as shown by the graph?\n\n(a) The ball falls, is caught, and is thrown down with a greater velocity.\n\n(b) The ball rises, hits the ceiling, and falls down.\n\n(c) The ball falls, hits the floor, and bounces up.\n\n(d) The ball rises, is caught, and then is thrown down."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA light bulb A is rated at $60\\,\\mathrm{W}$ and a light bulb B is rated at $100\\,\\mathrm{W}$. Both are designed to operate at $110\\,\\mathrm{V}$. Which statement is correct?\n\n(a) The $60\\,\\mathrm{W}$ bulb has a greater resistance and greater current than the $100\\,\\mathrm{W}$ bulb.\n\n(b) The $60\\,\\mathrm{W}$ bulb has a greater resistance and smaller current than the $100\\,\\mathrm{W}$ bulb.\n\n(c) The $60\\,\\mathrm{W}$ bulb has a smaller resistance and smaller current than the $100\\,\\mathrm{W}$ bulb.\n\n(d) The $60\\,\\mathrm{W}$ bulb has a smaller resistance and greater current than the $100\\,\\mathrm{W}$ bulb.\n\n(e) We need to know the resistivities of the filaments to answer this question."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nWhen a light ray travels between any two points, the path it takes is the one that\n\n(a) covers the greatest distance;\n\n(b) avoids travel in more than one medium;\n\n(c) covers the least distance;\n\n(d) takes the least time;\n\n(e) is the mean between the longest and the shortest paths."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA fountain sends water to a height of $100$ metres. What must be the pressurization (above atmospheric pressure) of the water system driving the fountain? $1\\,\\mathrm{ATM}=10^{5}\\,\\mathrm{N/m^2}$.\n\n(a) $10.8\\,\\mathrm{ATM}$; (b) $9.80\\,\\mathrm{ATM}$;\n\n(c) $8.80\\,\\mathrm{ATM}$; (d) $1.00\\,\\mathrm{ATM}$."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA bead of mass $m$, attached to a string, is pushed and starts to rotate in the vertical plane. Only the gravitaional force influences the rotation of the bead. The difference between the tension of the string when the bead is at the lowest point ($T_L$) and when the bead is at the upper point ($T_U$) is:\n\n(a) $T_U-T_L=2mg$;\n\n(b) $T_U-T_L=6mg$;\n\n(c) $T_L-T_U=2mg$;\n\n(d) $T_L-T_U=5mg$;\n\n(e) $T_L-T_U=6mg$."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nTwo identical particles, each with a mass of $4.5\\,\\mathrm{mg}$ and charge of $30\\,\\mathrm{nC}$, are moving directly toward each other with equal speeds of $4.0\\,\\mathrm{m/s}$ at the instant when the distance separating the two particles is equal to $25\\,\\mathrm{cm}$. How far apart will they be from each other at the point of closest approach?\n\n(a) $7.8\\,\\mathrm{cm}$; (b) $9.8\\,\\mathrm{cm}$; (c) $12\\,\\mathrm{cm}$;\n\n(d) $15\\,\\mathrm{cm}$; (e) $20\\,\\mathrm{cm}$."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA straight wire of length $L$ carries a current $I$ in the positive $z$ direction in a region where the magnetic field is uniform and specified by $B_x=3B$, $B_y=-2B$, and $B_z=B$, where $B$ is a constant. What is the magnitude of the magnetic force on the wire?\n\n(a) $1.0\\,ILB$; (b) $3.2\\,ILB$; (c) $3.6\\,ILB$;\n\n(d) $4.2\\,ILB$; (e) $5.0\\,ILB$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA spaceship of mass $m$ circles a planet of mass $M$ in a circular orbit of radius $R$. How much energy is required to transfer the spaceship to a circular orbit of radius $3R$?\n\n(a) $GmM/(2R)$; (b) $GmM/(3R)$; (c) $GmM/(4R)$;\n\n(d) $GmM/(6R)$; (e) $3GmM/(4R)$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nThree simple pendulums with strings of different lengths and bobs of different masses are pulled out from their position of equilibrium to angles of $\\theta_1$, $\\theta_2=2\\theta_1$, and $\\theta_3=3\\theta_1$, respectively. All angles $\\theta_1$, $\\theta_2$ and $\\theta_3$ are very small. The bobs are then released and start oscillating freely. Which answer better matches the results of measurements of the frequencies of the three pendulums?\n\n(a) $f_1=2f_2$ and $f_1=3f_3$;\n\n(b) $f_3=3f_1$ and $f_2=2f_1$;\n\n(c) $f_1=f_2=f_3$;\n\n(d) We need to know the mass of each bob to find the relationship between the frequencies;\n\n(e) We need to know the length of each pendulum to find the relationship between the frequencies."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nThe electric potential inside a charged solid spherical conductor in equilibrium:\n\n(a) is always zero;\n\n(b) decreases from its value at the surface to a value of zero at the centre;\n\n(c) is constant and is equal to its value at the surface;\n\n(d) increases from its value at the surface to a higher value at the centre."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nFor which process below will the internal energy of a system NOT change?\n\n(a) An adiabatic expansion or compression of an ideal gas;\n\n(b) An isothermal expansion or compression of an ideal gas;\n\n(c) An isobaric expansion or compression of an ideal gas;\n\n(d) The freezing of a quantity of a liquid at its melting point;\n\n(e) The evaporation of a quantity of a liquid at its boiling point."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA diver shines an underwater searchlight at the surface of a pond whose water has an index of refraction $n=1.33$. At what angle of incidence relative to the surface will the light be totally reflected?\n\n(a) $41^\\circ$ (b) $47^\\circ$ (c) $49^\\circ$\n\n(d) $51^\\circ$ (e) $58^\\circ$"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nAccording to the Bohr model of the atom, an electron can undergo a transition from one orbit that is closer to the nucleus to another which is farther from the nucleus, by absorbing a photon whose energy $E$ depends on its frequency $f$ as $E=hf$, where $h$ is Planck's constant. An energy of $13.6\\,\\mathrm{eV}$ is needed to ionize a hydrogen atom by ejccting an electron from the lowest energy level. What is the longest wavelength of a photon that can eject the electron from the lowest energy level of the atom?\n\n(a) $40\\,\\mathrm{nm}$;\n\n(b) $60\\,\\mathrm{nm}$;\n\n(c) $70\\,\\mathrm{nm}$;\n\n(d) $80\\,\\mathrm{nm}$;\n\n(e) $90\\,\\mathrm{nm}$."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nOne reason why we know that magnetic fields are not the same as electric fields is because the force they exert on a charge $+q$, is:\n\n(a) in opposite directions in electric and magnetic fields if the charge is moving;\n\n(b) parallel to the magnetic field and perpendicular to the electric field if the charge is moving;\n\n(c) parallel to the electric field and perpendicular to the magnetic field if the charge is moving;\n\n(d) zero in the electric field and nonzero in the magnetic field if the charge is not moving;"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nIn an experiment to prove the existence of the light pressure, two vertically oriented disks are attached as shown to the ends of a horizontal beam in an evacuated tube. The horizontal beam is suspended at its central point by a vertical wire. The surfaces of the disks are simultaneously illuminated by a parallel beam of light of high intensity.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-1-18-fig1.png\n\nWhich explanation best fits the behaviour of the two-disk system?\n\n(a) The horizontal beam is displaced from its equilibrium position due to the equal light pressure on both discs.\n\n(b) The horizontal beam rotates around the vertical wire with the mirror moving in the direction of light propagation and the black disk moving in the opposite direction.\n\n(c) The horizontal beam rotates around the vertical wire with the black disk moving in the direction of light propagation and the mirror moving in the opposite direction.\n\n(d) The experiment cannot show the existence of light pressure because light has no mass."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nYou are shown a photo of a car driven on a vertical inside wall of a huge cylinder with a radius of $50\\,\\mathrm{m}$. The coefficient of static friction between the car tires and the cylinder is $\\mu_s=0.8$. The minimum speed, at which the car can be driven like that, is:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-1-19-fig1.png\n\n(a) $20\\,\\mathrm{km/h}$; (b) $70\\,\\mathrm{km/h}$; (c) $90\\,\\mathrm{km/h}$;\n\n(d) $120\\,\\mathrm{km/h}$."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nAn emf may be induced in\n\n(a) a piece of linear wire when it moves in a uniform static magnetic field;\n\n(b) a closed loop of wire moving with a fixed orientation at a constant velocity in a non-uniform static magnetic field;\n\n(c) a closed loop of wire moving with a fixed orientation and accelerating in a uniform static magnetic field;\n\n(d) the cases described in (a) and (b) only;\n\n(e) the cases described in (b) and (c) only."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 21",
+     "problem": "Question 21\n\nTwo identical dielectric balls supported by insulating threads hang side by side, touching each other. The two balls are initially electrically neutral.\n\nSketch the position of the balls on their threads after one of the balls is positively charged and the other stays neutral. Sketch the electric field lines near the balls."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA $71$-kg man stands on a spring scale in an elevator. Starting from rest, the elevator ascends, attaining its maximum speed of $1.2\\,\\mathrm{m/s}$ in $0.80\\,\\mathrm{s}$. It travels with this constant speed for the next $2.0$ seconds. The elevator then undergoes a uniform deceleration downwards (in the negative $y$ direction) for $1.9\\,\\mathrm{s}$ and comes to rest.\n\nDraw a diagram for the reading of the scale versus time during the motion of the elevator."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA spool of thread on a horizontal surface may roll without slipping if someone pulls it by the free end of the thread. The spool may roll toward or away from the person who pulls the free end of the thread depending on the direction of the applied force.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-2-3-fig1.png\n\nSketch a side-view diagram of the spool of thread on the horizontal surface which shows the direction of the force applied to the free end of the thread in such a way that this force does not cause the rolling of the spool in either direction. The force belongs to the plane of the drawing."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Part B",
+     "title": "Question 24",
+     "problem": "Question 24\n\nConsider the motion of a mass attached to a spring.\n\nSketch the following two graphs one below the other using the same scale for the time axis (in units of period):\n\n1) Displacement of the mass versus time;\n\n2) Kinetic energy of the mass versus time."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Part B",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA system consists of two ideal spheres with equal diameters that move toward each other as shown.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-2-5-fig1.png\n\nThe spheres undergo a glancing collision.\n\nSketch a vector diagram for the linear momentum of each of the spheres and for the centre of mass of the system before and after the perfectly elastic collision of the spheres."
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Part C",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA student working in a laboratory has to remove a heavy box with new equipment from its initial position on the floor to the opposite wall of the room, which is $d$ metres away. She may choose: either to pick up the box, to carry it in her hands across the room, and then to drop it on the floor in the new place; or to attach a rope to one of the corners of the box and pull the box along the floor to the new place. The mass $M$ of the box and its contents is printed on the package. Acceleration due to gravity $g$, the coefficients of static and kinetic friction $\\mu_s$ and $\\mu_k$ for the box material and the floor, and other constants are available to the student in a handbook. After performing some calculations, the student notes that $\\mu_k<\\mu_s<1$ and chooses the second method.\n\n1) What physical quantities should the student compare to choose the proper method of moving the heavy box?\n\n2) What parameter related to a quantity above shows an advantage for one of the two methods? Estimate this parameter for the two methods.\n\n3) Draw a free-body diagram (i.e. a vector diagram) for the chosen method of pulling the box with the attached rope along the horizontal floor.\n\n4) Dragging the box may be easier or harder. Express the condition that makes dragging easiest in terms of physics. Identify the parameter responsible for this condition using your free-body diagram.\n\n5) Using the parameter found, give a numerical condition for the easiest way of moving the box by the student."
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Part C",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nTwo parallel rails with negligible resistance are $10.0\\,\\mathrm{cm}$ apart and are connected by a $5.00$-$\\Omega$ resistor. The circuit also contains two metal rods having resistances of $10.0\\,\\Omega$ and $15.0\\,\\Omega$ sliding along the rails as shown in the figure. The rods are pulled away from the resistor at constant speeds of $4.00\\,\\mathrm{m/s}$ and $2.00\\,\\mathrm{m/s}$, respectively. A uniform magnetic field of magnitude $0.0100\\,\\mathrm{T}$ is applied perpendicular to the plane of the rails.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-3-2-fig1.png\n\n1) Determine the direction and the value of the current in the $5.00\\,\\Omega$ resistor.\n\n2) Find the forces applied to the $10.0\\,\\Omega$ and the $15.0\\,\\Omega$ rods.\n\n3) What is the force applied to the segment of the circuit with the $5.00\\,\\Omega$ resistor?\n\n4) If the segment with the $5.00\\,\\Omega$ rod could slide along the rails and was released at a given time, how would this segment move (qualitatively)?"
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Part C",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nA soap film with an index of refraction $n=1.33$ is contained within a rectangular wire frame. The frame is held vertically so that the film drains downwards and approximates the shape of a wedge with flat faces near the top. The thickness of the film at the very top is essentially zero. The film is viewed in reflected white light with near-normal incidence, and the first violet ($\\lambda=420\\,\\mathrm{nm}$) interference band is observed $3.00\\,\\mathrm{cm}$ from the top edge of the film.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2007-3-3-fig1.png\n\n1) Locate the first red ($\\lambda=680\\,\\mathrm{nm}$) interference band.\n\n2) Determine the film thickness at the positions of the first violet and the first red bands.\n\n3) What is the wedge angle of the film?"
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nThe Figure on the right shows the electric field lines for two point objects separated by a small distance. The charges $q_1$ and $q_2$ can be identified as\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-1-1-fig1.png\n\n(a) $q_1$ is positive; $q_2$ is negative; $q_1/q_2=-3$;\n\n(b) $q_1$ is negative; $q_2$ is positive; $q_1/q_2=-3$;\n\n(c) $q_1$ is positive; $q_2$ is negative; $q_1/q_2=-1/3$;\n\n(d) $q_1$ is negative; $q_2$ is positive; $q_1/q_2=-1/3$;\n\n(e) $q_1$ is zero with charges redistributed over the surface of the object $1$ due to electrostatic induction; $q_2$ is positive."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nAs a simple pendulum swings back and forth, the forces acting on the suspended object may produce positive work, negative work or produce no work. Which of the forces if any from the listed three below does no work on the pendulum?\n\n(a) Tension.\n\n(b) Air resistance.\n\n(c) Gravitational force.\n\n(d) All the forces above do no work on the pendulum.\n\n(e) All the forces above do work on the pendulum."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA baseball bat is made of wood of uniform density. The bat is cut at the location of its centre of mass, as shown. Which of the following is true?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-1-3-fig1.png\n\n(a) The piece on the right has the smaller mass;\n\n(b) The piece on the left has the smaller mass;\n\n(c) Both pieces have the same mass;\n\n(d) Impossible to determine without knowledge of the wood density."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA section of a hollow pipe and a solid cylinder have the same radius, mass and length. They both rotate about their long central axes with the same angular speed. Which of the following is true?\n\n(a) The pipe has a higher rotational kinetic energy.\n\n(b) The solid cylinder has a higher rotational kinetic energy.\n\n(c) They have the same rotational kinetic energy.\n\n(d) Impossible to determine without numerical data for radii, masses and lengths of the pipe and cylinder."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nIn a comet-Sun system, the position of the comet closest to the Sun is called perihelion, and the position of the comet farthest from the Sun is called aphelion. The two quantities that both have their highest values when the comet is in perihelion are:\n\n(a) the acceleration and the potential energy of the comet;\n\n(b) the speed and the potential energy of the comet-Sun system;\n\n(c) the speed and the acceleration of the comet;\n\n(d) the acceleration and the total energy of the comet-Sun system."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nWhen an object is at point A on the graph of a simple harmonic motion below, what are respectively, its velocity and acceleration?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-1-6-fig1.png\n\n(a) both positive;\n\n(b) both negative;\n\n(c) positive and zero;\n\n(d) positive and negative;\n\n(e) negative and positive."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nDoes the kinetic energy of an electron have an upper limit?\n\n(a) Yes, $m_ec^2$.\n\n(b) Yes, $\\tfrac12 m_ec^2$.\n\n(c) Yes, with another value.\n\n(d) No."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nWhen you receive a chest x-ray at the hospital, the x-rays pass through a set of parallel ribs in your chest. Do your ribs act as a diffraction grating for the X-rays?\n\n(a) Yes. They produce diffracted beams that can be observed separately.\n\n(b) Not to a measurable extent. The ribs are too far apart.\n\n(c) Essentially not. The ribs are too close together.\n\n(d) Essentially not. The ribs are too few in number.\n\n(e) Absolutely not. X-rays cannot diffract."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA certain battery has some internal resistance. Can the potential difference across the terminals of the battery be equal to its emf?\n\n(a) No.\n\n(b) Yes, if the battery is absorbing energy by electrical transmission.\n\n(c) Yes, if more than one wire is connected to each terminal.\n\n(d) Yes, if the current in the battery is zero."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA long solenoid with closely spaced turns carries electric current. Each turn of wire exerts:\n\n(a) an attractive force on the next adjacent turn;\n\n(b) a repulsive force on the next adjacent turn;\n\n(c) zero force on the next adjacent turn; or\n\n(d) either an attractive or a repulsive force on the next adjacent turn, depending on the direction of current in solenoid?"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nAn apple is held completely submerged just below the surface of a container of water. The apple is then moved to a deeper point in the water. Compared with the force needed to hold the apple just below the surface, what is the force needed to hold it at a deeper point?\n\n(a) larger;\n\n(b) essentially the same;\n\n(c) smaller;\n\n(d) impossible to determine."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA small source radiates an electromagnetic wave with a single frequency into vacuum, equally in all directions. Indicate the pair of quantities that are decreasing as the wave moves away from the source:\n\n(a) the frequency of the wave and an amplitude of electric field;\n\n(b) the amplitude of the electric field and the intensity of the wave;\n\n(c) the frequency and the intensity of the wave;\n\n(d) the speed of propagation and the wavelength;"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nTwo identical balls with completely smooth surfaces are moving uniformly in free space without rotation. At some moment, they undergo a perfectly elastic glancing collision. After the collision, the angle between the two vectors of velocities is\n\n(a) $30^\\circ$\n\n(b) $45^\\circ$\n\n(c) $90^\\circ$\n\n(d) Impossible to answer without knowledge of the angle between the two velocities before the collision."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nCar batteries are often rated in ampere-hours. Does this information designate the amount of\n\n(a) potential that the battery can supply;\n\n(b) power;\n\n(c) charge;\n\n(d) energy?"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA laser beam travels from glass into air and strikes normally the smooth interface between the two media. In the air\n\n(a) the light travels with a lower speed normally to the interface;\n\n(b) the light travels with a higher speed normally to the interface;\n\n(c) the light travels with unchanged speed but bends away from the normal;\n\n(d) the light travels with a higher speed and bends away from the normal;\n\n(e) the light travels with a lower speed and bends away from the normal."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nIf only one external force acts on an object,\n\n(a) it always changes the kinetic energy of the object;\n\n(b) it always changes the speed of the object;\n\n(c) it always changes the momentum of the object."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA square conductive frame is moving in the vertical $YX$ plane at a constant velocity $\\boldsymbol{v}$ through a region of uniform magnetic field $\\boldsymbol{B}$ directed perpendicular to the plane of the frame as shown in the figure. Does charge separation occur in the frame?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-1-17-fig1.png\n\n(a) Yes, with the top positive.\n\n(b) Yes, with the top negative.\n\n(c) No.\n\n(d) Yes, with the left side negative.\n\n(e) Yes, with the left side positive."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA person spear-fishing from a boat sees a stationary fish a few meters away in a direction about $30^\\circ$ below the horizontal. The index of refraction of the water is $1.34$. Assume the dense spear does not change direction when it enters the water. To spear the fish, the person should\n\n(a) aim above where he sees the fish;\n\n(b) aim precisely at the fish; or\n\n(c) aim below the fish?"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA spacecraft built in the shape of a sphere moves past an observer on the Earth with a speed of $0.5c$. Approximately what shape does the observer measure for the spacecraft as it goes by?\n\n(a) A sphere.\n\n(b) A cigar shape, elongated along the direction of motion.\n\n(c) A round \"pillow\" shape, flattened along the direction of motion.\n\n(d) A conical shape, pointing in the direction of motion."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nOne litre of water in a light thin-walled vessel is heated up under atmospheric pressure by an electric heater with unknown power rating. Initially the temperature of the water is $20^\\circ\\mathrm{C}$. After the temperature becomes $60^\\circ\\mathrm{C}$, it stops increasing, while the heater is still on. As the heater is unable to boil water, it is turned off. During the first $20$ seconds the water becomes $2$ degrees cooler.\n\nEstimate the power output of the heater.\n\n(a) $8.40\\,\\mathrm{W}$.\n\n(b) $420\\,\\mathrm{W}$.\n\n(c) $1260\\,\\mathrm{W}$.\n\n(d) $8400\\,\\mathrm{W}$."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA car accelerates uniformly along a curved horizontal road, moving from left toward right, as it is seen from a helicopter. Draw\n\n(I) the vectors representing the forces exerted by the road on the car at points A and B;\n\n(II) the vector of velocity at point C.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-2-1-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nSingle-slit diffraction is observed with an interference pattern on a screen behind a slit for a red light source. The red light source is then replaced by a violet light source of same intensity, without any changes to distances and the slit width. Use the \"Intensity/Position\" system of coordinates as on the Figure below, to sketch the interference pattern on the screen for the two sources of light. If you think that the patterns are identical, show just one pattern. If you think that the two sources produce different patterns on the screen, make it clear which pattern corresponds to a given colour\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-2-2-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA skydiver jumps out of a plane at an altitude of $2000\\,\\mathrm{m}$ and begins her descent. At $1500\\,\\mathrm{m}$, the skydiver reaches her terminal speed of $55\\,\\mathrm{m/s}$. When the skydiver descends to a height of $500\\,\\mathrm{m}$ from the ground, she deploys her parachute which rapidly slows her down to $5\\,\\mathrm{m/s}$ to ensure a safe landing. Qualitatively, sketch the (vertical) speed of the skydiver as a function of height above ground starting just after she jumps out of the plane and finishing just before she lands."
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Part C",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA stepladder of negligible weight is constructed as shown in Figure 1C. A painter of mass $70.0\\,\\mathrm{kg}$ stands on the ladder $3.00\\,\\mathrm{m}$ from the bottom. Assuming the floor is frictionless, find\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-3-1-fig1.png\n\nFig.1C\n\n(a) the tension in the horizontal bar connecting the two halves of the ladder,\n\n(b) the normal forces at $A$ and $B$, and\n\n(c) the components of the reaction force at the single hinge $C$ that the left half of the ladder exerts on the right half."
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Part C",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nTwo horizontal metal plates, each $100\\,\\mathrm{mm}$ square, are aligned $10.0\\,\\mathrm{mm}$ apart, with one above the other. They are given equal-magnitude charges of opposite sign so that a uniform downward electric field of $2\\,000\\,\\mathrm{N/C}$ exists in the region between them. A particle of mass $2.00\\times10^{-16}\\,\\mathrm{kg}$ and with a positive charge of $1.00\\times10^{-6}\\,\\mathrm{C}$ leaves the centre of the bottom negative plate with an initial speed of $1.00\\times10^{5}\\,\\mathrm{m/s}$ at an angle of $37.0^\\circ$ above the horizontal.\n\n(a) Find the trajectory of the particle.\n\n(b) Which plate does it strike?\n\n(c) Where does it strike, relative to its starting point?"
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Part C",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nIn the arrangement shown in Figure 3C, an object is hung from a string (with linear mass density $\\mu=0.00200\\,\\mathrm{kg/m}$) that passes over a light pulley. The string is connected to a vibrator (of constant frequency $f$), and the length of the string between point $P$ and the pulley is $L=2.00\\,\\mathrm{m}$. When the mass $m$ of the object is either $16.0\\,\\mathrm{kg}$ or $25.0\\,\\mathrm{kg}$, standing waves are observed; however, no standing waves are observed with any mass between these values. The speed of a transverse wave in a string experiencing the tension $T$, is given by: $v=\\sqrt{T/\\mu}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2008-3-3-fig1.png\n\n(a) What is the frequency of the vibrator?\n\n(b) What is the total number of nodes observed along the compound string at this frequency, excluding the nodes at the vibrator and the pulley?\n\n(c) What is the largest object mass for which standing waves could be observed?"
+    }
+   ]
+  },
+  {
+   "year": 2009,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA ball falls to the earth from a height $h$ and bounces to a height $h'$. Momentum is conserved in the ball-earth system:\n\n(a) no matter what height $h'$ the ball reaches.\n\n(b) only if $h' < h$.\n\n(c) only if $h' = h$.\n\n(d) only if $h' > h$.\n\n(e) only if $h' \\ge h$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA tap water pipe is bent as shown in the diagram. Sections 1 and 2 of the pipe are horizontal but section 2 is placed higher at a height of $H$. The diameter of the pipe of section 1 is $1.5$ times larger than the diameter of section 2. Indicate which of the following is the most complete answer for the relationship between the hydrostatic pressures measured by the gauges in sections 1 and 2:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-2-fig1.png\n\n(a) $P_1 < P_2$ because water flows slower in section 1.\n\n(b) $P_1 > P_2$ because water flows slower in section 1.\n\n(c) $P_1 > P_2$ because section 1 is lower than section 2.\n\n(d) $P_1 > P_2$ because water flows slower in section 1, and section 1 is lower than section 2.\n\n(e) For some value of $H$, $P_1 = P_2$ because the lower speed of the flowing water in section 1 is compensated by the hydrostatic pressure due to the difference $H$ in the height of the two sections."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nWe know that a person emits about $500\\,\\mathrm{W}$ of radiation. We also know that a person sitting still uses about $100\\,\\mathrm{W}$ of chemical energy. Where is the rest of the energy mainly coming from?\n\n(a) Heat conducted from the air into our body.\n\n(b) Convection of the heat.\n\n(c) Radiation from objects around us.\n\n(d) The energy, emitted by the body does not have to have a source.\n\n(e) Burning fat that we have accumulated previously."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-4-fig1.png\n\nIn the two circuits shown above, the batteries are identical and maintain constant voltage. The light bulbs A, B, C and D, are identical and have resistance $R$. Assume that the bulbs are brighter when there is more current flowing through them. Which of the following relationships correctly describe the brightness of the bulbs?\n\n(a) A = B > C = D\n\n(b) C = D > A = B\n\n(c) A = B = C = D\n\n(d) A = C > B = D"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe figure shows an accelerometer: a device for measuring the horizontal acceleration of cars and airplanes. The device consists of a ball that is free to roll on a parabolic track. A scale along the bottom is used to measure the ball's horizontal position $x$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-5-fig1.png\n\nWhat is the acceleration of the car in $\\mathrm{m/s^2}$ when the displacement of the ball in the accelerometer equals $0.20\\,\\mathrm{m}$?\n\n(a) $3.9$\n\n(b) $3.6$\n\n(c) $26.5$\n\n(d) $24.5$\n\n(e) $9.1$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nObjects A and B that are initially separated from each other and well isolated from their surroundings are then brought into thermal contact. Initially $T_A = 0\\,\\mathrm{C}$ and $T_B = 100\\,\\mathrm{C}$. The specific heat of A is less than the specific heat of B. After some time, the system comes to an equilibrium state. The final temperatures are:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-6-fig1.png\n\n(a) $T_A = T_B > 50^\\circ\\mathrm{C}$\n\n(b) $T_A > T_B > 50^\\circ\\mathrm{C}$\n\n(c) $T_A = T_B < 50^\\circ\\mathrm{C}$\n\n(d) $T_B > T_A > 50^\\circ\\mathrm{C}$\n\n(e) $T_A = T_B = 50^\\circ\\mathrm{C}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nAn object is moving at a constant speed $v_0$ towards a source that is at rest and that is emitting sound waves of frequency $f_0$. The frequency of the echo that returns to the source after being reflected from the object is given by:\n\n(a) $f_{echo} = f_0\\,\\dfrac{v}{v - v_0}$\n\n(b) $f_{echo} = f_0\\,\\dfrac{v - v_0}{v + v_0}$\n\n(c) $f_{echo} = f_0\\,\\dfrac{v + v_0}{v - v_0}$\n\n(d) $f_{echo} = f_0\\,\\dfrac{v + v_0}{v}$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nAn astronaut lifts off from planet Zuton in a spaceship. The free-fall acceleration on Zuton is four times less than on the Earth. At the moment of liftoff the acceleration of the spaceship is $2.45\\,\\mathrm{m/s^2}$ (up). The weight of the astronaut at that instant is more than her weight on the surface of the earth by the factor of:\n\n(a) $4$\n\n(b) $2$\n\n(c) $1$\n\n(d) $0.5$\n\n(e) $0.25$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA $0.50$-kg mass attached to the end of a string swings in a vertical circle with a radius of $2.0\\,\\mathrm{m}$. When the string is horizontal, the speed of the mass is $8.0\\,\\mathrm{m/s}$. What is the magnitude of the force of the string on the mass at this position?\n\n(a) $16\\,\\mathrm{N}$\n\n(b) $17\\,\\mathrm{N}$\n\n(c) $21\\,\\mathrm{N}$\n\n(d) $11\\,\\mathrm{N}$\n\n(e) $25\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nWhat is the velocity of an electron that passes without being deviated through perpendicular electric and magnetic fields if $E = 4.0\\,\\mathrm{kV/m}$ and $B = 8.0\\,\\mathrm{mT}$?\n\n(a) $32\\,\\mathrm{m/s}$\n\n(b) $500\\,\\mathrm{km/s}$\n\n(c) $2\\times10^{-6}\\,\\mathrm{m/s}$\n\n(d) $500\\,\\mathrm{m/s}$\n\n(e) $2\\,\\mathrm{km/s}$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA body that is oscillating harmonically in the vertical direction is suspended from two identical springs connected in series. The frequency of oscillation is $f_1$. After the springs are disconnected and attached to the body in parallel, the frequency of the vertical oscillation of the body is equal to:\n\n(a) $f_1$\n\n(b) $2f_1$\n\n(c) $f_1/4$\n\n(d) $4f_1$\n\n(e) $f_1/2$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA piece of aluminum wire shown on the drawing is connected to a circuit with a source of constant current. Choose the correct conclusion on the values of the current ($I$), the amount of heat ($P$) emitted per second by a unit of length, and the electric field strength ($E$) inside the segments of the wire:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-12-fig1.png\n\n(a) $I_1 = I_2 = I_3$; $P_1 = P_2 = P_3$; $E_1 = E_2 = E_3$.\n\n(b) $I_1 = I_3 = \\tfrac{1}{2} I_2$; $P_1 = P_3 = 1/16\\,P_2$; $E_1 = E_2 = E_3$.\n\n(c) $I_1 = I_3 = \\tfrac{1}{2} I_2$; $P_1 = P_3 = 1/16\\,P_2$; $E_1 = E_3 = \\tfrac{1}{2} E_2$.\n\n(d) $I_1 = I_2 = I_3$; $P_1 = P_3 = \\tfrac{1}{4} P_2$; $E_1 = E_2 = E_3$.\n\n(e) $I_1 = I_2 = I_3$; $P_1 = P_3 = \\tfrac{1}{4} P_2$; $E_1 = E_3 = \\tfrac{1}{4} E_2$."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA spacecraft of mass $m$ orbits a planet of mass $M$ in a circular orbit of radius $R$. What is the minimum energy required to send this spacecraft to a distant point in space where the gravitational force of the planet on the spacecraft is negligible?\n\n(a) $GmM/(4R)$\n\n(b) $GmM/R$\n\n(c) $GmM/(2R)$\n\n(d) $GmM/(3R)$\n\n(e) $2GmM/(5R)$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nTwo identical thermally isolated containers are separated by a valve.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-14-fig1.png\n\nInitially, there is an ideal gas in container 1, and there is a vacuum in container 2. Some time after the valve is opened, the gas in the two containers comes to an equilibrium state. Which of the following statements about the gas during this process is true?\n\n(a) The molar mass of the gas decreases.\n\n(b) The work produced by the gas is zero.\n\n(c) The temperature of the gas drops.\n\n(d) The work produced by the gas is positive and is equal to the absolute value of the change of the internal energy of the gas."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nDuring the winter vacation, children use snow and water to build frictionless slides of different shapes in order to conduct various experiments. The side view of one of them is shown in the figure: the linear segment of the slide is smoothly transferred to a circle with a circumference of radius $R$. A puck starts sliding down from rest at an initial height of $2R$. The acceleration of the puck at the lowest point of its trajectory is:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-15-fig1.png\n\n(a) $g$\n\n(b) $2g$\n\n(c) $3g$\n\n(d) $4g$\n\n(e) $0$"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA star undergoes a supernova explosion. Just after the explosion, the material left behind forms a uniform sphere of radius $8.0\\times10^{6}\\,\\mathrm{m}$ with a rotation period of $15$ hours. This remaining material eventually collapses into a neutron star of radius $4.0\\,\\mathrm{km}$ with a period of rotation $T$ of:\n\n(a) $14\\,\\mathrm{s}$\n\n(b) $3.8\\,\\mathrm{h}$\n\n(c) $0.021\\,\\mathrm{s}$\n\n(d) $0.014\\,\\mathrm{s}$\n\n(e) $0.0075\\,\\mathrm{h}$"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nAn impulse laser may be treated as a source of photons that are emitted during the time interval of the pulse which is followed by a time interval when no photons are produced. Pulses are periodically repeated. A laser beam of diameter $d = 10$ microns is directed upward and is perpendicular to the thin foil surface which has an index of reflection $\\rho = 0.50$ (see the sketch of the experiment). The index of reflection of the surface is the ratio of the reflected energy to the impact energy. A pulse with duration of $0.13\\,\\mathrm{ms}$ has a total energy of $10\\,\\mathrm{J}$. What is the mass of the piece of foil that can be supported in the air solely by the light pressure of the laser beam?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-17-fig1.png\n\n(a) $< 39\\,\\mathrm{g}$\n\n(b) $< 3.1\\times10^{-12}\\,\\mathrm{g}$\n\n(c) $< 39\\,\\mathrm{mg}$\n\n(d) $< 3.7\\,\\mathrm{g}$\n\n(e) $< 0.38\\,\\mathrm{g}$"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nTwo sinusoidal waves traveling at the same speed in opposite directions interfere to produce a standing wave with the wave function $y = (1.50\\,\\mathrm{m})\\sin(0.400x)\\cos(200t)$, where $x$ is in meters and $t$ is in seconds. The speed of propagation of each of the interfering waves is\n\n(a) $159\\,\\mathrm{m/s}$\n\n(b) $200\\,\\mathrm{m/s}$\n\n(c) $300\\,\\mathrm{m/s}$\n\n(d) $47.7\\,\\mathrm{m/s}$\n\n(e) $500\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA bar magnet is dropped from above and falls through a loop of wire as shown. A student measures the current in the loop between a time when the north pole of the magnet is above the plane of the loop and another time when the south pole of the magnet is below the plane of the loop. Which statement is correct about the result of the student's measurement?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-1-19-fig1.png\n\n(a) The current in the loop flows in one direction increasing steadily to its maximum value when the centre of the bar crosses the centre of the loop plane, after which the current begins to steadily decrease.\n\n(b) The current in the loop undergoes harmonic oscillations because the magnetic flux through the loop is changing.\n\n(c) The current in the loop flows first in one direction, then, after the centre of the bar crosses the centre of the loop plane, the current begins to flow in the opposite direction.\n\n(d) No current flows in the loop because both ends of the magnet move through the loop."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nUnpolarized light goes through three successive Polaroid filters, each with its transmission axis at $45^\\circ$ relative to the preceding filter. What percentage of the light gets through?\n\n(a) $0\\%$\n\n(b) $12.5\\%$\n\n(c) $25\\%$\n\n(d) $50\\%$\n\n(e) $33\\%$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nThe drag force due to air resistance on a falling object depends on the instantaneous velocity of the object as: $D = -1/4\\,Av^2$. Sketch a diagram of height vs. distance for the trajectory of two projectile objects launched from the same point at ground level with the same angle to the horizontal: a) the projectile for which the air resistance is negligible, and b) the projectile that is experiencing a drag force in the air."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA diagram below shows the potential energy of an object in an isolated mechanical system with total energy $E$ and with conservative forces only. In the space below the given diagram, sketch a diagram for the $x$-component of the net force on the object as a function of x. Your diagram must show the correct trend of the function, zeros and vertex points.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-2-2-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA very thin stick is placed on the optical axis of a thin convex lens as shown in the diagram. Draw the image of the object. Show all rays used for the image construction.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-2-3-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Part B",
+     "title": "Question 4",
+     "problem": "Question 4\n\nMonochromatic light is produced by a laser and propagates through vacuum from left to right until it strikes normally the surface of a glass brick, as shown. The direction of the wave propagation coincides with the x-axis.\n\nOn the system of coordinates \"amplitude vs. position\", sketch the wave before it enters the glass brick, inside the glass brick, and after it exits the brick.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-2-4-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Part B",
+     "title": "Question 5",
+     "problem": "Question 5\n\nAn object, shown in the figure below, is made out of conducting material and has a hole completely hidden inside its body. A point charge $+Q$ is kept motionless in the hole by some external force. Sketch the electric field lines inside the hole, inside the conductor, and outside the conductor as close to reality as it is necessary to be consistent with the laws of electromagnetism.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-2-5-fig1.png"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Part C",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nAn ambulance needs to be delivered to a remote town devastated by a major earthquake. All roads leading into the town are blocked due to the earthquake and the ambulance can only be rushed to the area by airlift. The ambulance will be pushed out of a military cargo jet at $3000\\,\\mathrm{m}$ altitude and rescue staff need to find out what kind of parachute is needed for this mission. The drag force is given by the approximate formula: $F = \\tfrac{1}{4}\\rho A v^2$, where $\\rho$ is the density of air and $\\rho = 1.2\\,\\mathrm{kg/m^3}$, $A$ is the area of the cross-section of the parachute perpendicular to the motion and $v$ is the velocity.\n\nWhat should be the diameter of the parachute be so that the ambulance can land safely?\n\nNotice that you have to make assumptions on what is approximately a safe landing velocity and what is a weight of a typical ambulance.\n\nMake sure you justify all your assumptions.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2009-3-1-fig1.jpg"
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Part C",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nA very thin beam of protons is injected at non-relativistic velocities in a circular particle accelerator of radius $R$. The mass $m$ and the charge $e$ of the proton are known. The initial current in the accelerator is $I$ and the total number of particles is $n$. The magnetic flux through the beam circuit changes at a rate of $\\rho\\,\\mathrm{Wb/s}$, while the radius of the beam track remains unaltered. What is the value of the current after one turn of the particles?"
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Part C",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nVery cold fresh water fills a vessel with a depth of $3.00\\,\\mathrm{m}$ and a diameter of $1.00\\,\\mathrm{m}$. A vertically maintained ice cylinder with diameter $d = 30.0\\,\\mathrm{cm}$ and length $l = 30.0\\,\\mathrm{cm}$ is carefully moved downwards and submerged in the water perpendicular to its surface and in the centre of the vessel. When $\\tfrac{3}{4}$ of the cylinder is submerged, it is released. The density of the ice is $\\rho_i = 917\\,\\mathrm{kg/m^3}$; the density of the water is $\\rho_w = 1.00\\times10^{3}\\,\\mathrm{kg/m^3}$. For the following questions, you can neglect the melting of the ice.\n\n1) Describe the behaviour of the cylinder after it is released.\n\n2) Calculate the position of the centre of mass of the cylinder in equilibrium, taking the level of the water surface as zero and the vertical axis aimed upwards.\n\n3) Write and solve the equation of motion for the cylinder valid during the first few seconds after it is released. The equation must have a solution in the form $y(t)$ where $y$ is the displacement; and $t$ is time.\n\n4) Explain the physical significance of all parameters of the function $y(t)$ and give the numerical values for the parameters."
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA ball is dropped from a height $h$. It hits the ground and bounces back up with a momentum loss of 10% due to the impact. The maximum height it will reach is\n\na) $0.90\\,h$;\n\nb) $0.81\\,h$;\n\nc) $0.949\\,h$;\n\nd) $0.3\\,h$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA mass $m_1$ rests on a frictionless surface. It is attached to mass $m_2$ by a light string which passes over a massless, frictionless pulley, as shown in the figure. The system is released from rest. The initial acceleration $a$ of $m_2$ is given by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-2-fig1.png\n\na) $a = g$;\n\nb) $a = \\dfrac{m_2}{(m_1+m_2)}\\,g$;\n\nc) $a = (m_2 - m_1)\\,g$;\n\nd) $a = \\dfrac{m_1}{(m_1+m_2)}\\,g$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nThe system in question 2 is attached to a spring of spring constant $k$ which in turn is attached to a vertical wall, as shown to the right. The spring is neither stretched nor compressed. The system is released from rest. The mass $m_2$ falls and then oscillates about a mean displacement $x$ from its original position before release given by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-3-fig1.png\n\na) $x = \\dfrac{m_2 g}{k}$;\n\nb) $x = \\dfrac{m_1 g}{k}$;\n\nc) $x = \\dfrac{(m_1+m_2)\\,g}{k}$;\n\nd) $x = \\dfrac{k}{m_2 g}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nFour $100$ ohm resistors and a $1\\,\\mathrm{V}$ battery are connected as shown in the circuit diagram. The potential difference between points P1 and P2 is given by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-4-fig1.png\n\na) $0.250\\,\\mathrm{V}$;\n\nb) $0.333\\,\\mathrm{V}$;\n\nc) $.500\\,\\mathrm{V}$;\n\nd) $0.667\\,\\mathrm{V}$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA heavy plate is held horizontal resting on two frictionless pistons, each of which is placed in the opening of an asymmetric U tube filled with an incompressible fluid, as shown in the figure. Once the restraints on the plate are released, then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-5-fig1.png\n\na) piston A1 will rise and A2 will fall;\n\nb) piston A2 will rise and A1 will fall;\n\nc) the plate will remain level and not move;\n\nd) the plate will remain level and both pistons will sink a similar small distance."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nTwo identical glasses, one completely filled with water, and the other filled with vodka, are viewed directly from above. The refractive index of vodka is slightly greater than the refractive index of water. Which glass appears to have a greater depth of fluid?\n\na) the water glass;\n\nb) the vodka glass;\n\nc) neither glass because the apparent depth is the same as the real depth in both glasses;\n\nd) neither glass, because the effect of the clear fluid is to reduce the apparent depth by the same factor in both glasses."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nThe drawing shows a crown glass slab of refractive index $1.5$ with a rectangular cross section. As illustrated, a laser beam strikes the upper surface at an angle of $60^\\circ$. After reflecting from the upper surface, the beam reflects from the side and bottom surfaces. If the glass is surrounded by air, determine at which point part of the beam first exits the glass.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-7-fig1.png\n\na) A;\n\nb) B;\n\nc) C;\n\nd) none of the above."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA block of mass $m$ is sandwiched between a rough vertical wall and a horizontally oriented spring with spring constant $k$. If the spring is compressed a distance $x$ beyond its uncompressed length, then the minimum coefficient of static friction for which the block does not fall is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-8-fig1.png\n\na) $\\dfrac{mg}{kx}$;\n\nb) $\\dfrac{kx}{mg}$;\n\nc) $\\dfrac{kx}{mg+kx}$;\n\nd) $\\dfrac{mg}{mg+kx}$."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA light wave has a high enough frequency to ionize an atom. If the amplitude of the light wave is tripled, the chance of an atom being ionized by the light wave increases by a factor of\n\na) $1$;\n\nb) $\\sqrt{3}$;\n\nc) $3$;\n\nd) $9$."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA $100$-kg student eats a $200$-calorie doughnut. To 'burn off the sugar high', he decides to climb the steps of a tall building. How high would he have to climb to expend an equivalent amount of work? ($1$ food calorie $= 10^3$ calories $\\sim 4200\\,\\mathrm{J}$).\n\na) $273\\,\\mathrm{m}$;\n\nb) $428\\,\\mathrm{m}$;\n\nc) $857\\,\\mathrm{m}$;\n\nd) $8400\\,\\mathrm{m}$."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nIn an insulated vessel, $250\\,\\mathrm{g}$ of ice at $0^\\circ\\mathrm{C}$ is added to $600\\,\\mathrm{g}$ of water at $18^\\circ\\mathrm{C}$. The latent heat of fusion is $\\sim 3.33\\times10^{5}\\,\\mathrm{J/kg}$. The amount of ice remaining when the system reaches thermal equilibrium is\n\na) $0\\,\\mathrm{g}$;\n\nb) $114\\,\\mathrm{g}$;\n\nc) $136\\,\\mathrm{g}$;\n\nd) $45.2\\,\\mathrm{g}$."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA liquid will rise in a narrow tube (capillary action) if the adhesive forces between the molecules of the liquid and the molecules of the tube are greater than the cohesive forces between the molecules of the liquid. The height of a column of liquid of density $\\rho$ drawn up a tube of radius $r$ is given by\n\n$$h = \\frac{2\\gamma}{\\rho g r}\\cos\\theta$$\n\nwhere $\\theta$ is the contact angle between the surface of the liquid and the tube, $g$ is the acceleration due to gravity, and $\\gamma$ is a constant that depends on a number of parameters. The dimensions of $\\gamma$ are given by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-12-fig1.png\n\na) $\\mathrm{ML^{-2}}$;\n\nb) $\\mathrm{MLT^{-2}}$;\n\nc) $\\mathrm{M^{-1}LT^{-2}}$\n\nd) $\\mathrm{MT^{-2}}$;\n\ne) none of the above."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nIf the Earth's polar land-based glaciers melted, water would be redistributed on the planet, and the depression in the earth's crust made by the weight of the ice would rebound, as the land rises when the weight of the glaciers is removed (an effect known as Post-Glacial Rebound or Glacial Isostatic Adjustment). Following post-glacial rebound, the length of day would\n\na) increase;\n\nb) decrease;\n\nc) remain the same as the present length of day;\n\nd) at first increase but then shortly return to the present length of day;\n\ne) at first decrease but then shortly return to the present length of day."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nEight identical negative charges $-q$ are arranged symmetrically on a circle of radius $r$, each equidistant from the next. Assume the point charges have zero potential at infinity. If the constant of proportionality in Coulomb's law is $k$, then the magnitude of the electric field and the electrostatic potential at the centre of the circle are given by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-14-fig1.png\n\na) $E = \\dfrac{8kq}{r^2}$, $V = \\dfrac{-8kq}{r}$;\n\nb) $E = \\dfrac{8kq}{(2\\pi r)^2}$, $V = \\dfrac{-8kq}{(2\\pi r)}$;\n\nc) $E = \\dfrac{8kq}{r^2}$, $V = 0$;\n\nd) $E = 0$, $V = 0$;\n\ne) $E = 0$, $V = \\dfrac{-8kq}{r}$."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nThree of the negative charges in the previous questions are replaced with positive charges with the same magnitude, and are arranged as in the figure. The magnitude of the electric field and the electrostatic potential at the centre of the circle are given by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-15-fig1.png\n\na) $E = \\dfrac{2kq}{r^2}\\left(1+2\\sqrt{2}\\right)$, $V = 0$;\n\nb) $E = \\dfrac{2kq}{r^2}\\left(1+\\sqrt{2}\\right)$, $V = \\dfrac{-2qk}{r}$;\n\nc) $E = \\dfrac{2kq}{r^2}\\left(1+2\\sqrt{2}\\right)$, $V = \\dfrac{-2qk}{r}$;\n\nd) $E = 0$, $V = \\dfrac{-2qk}{r}$.\n\ne) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nAn electric dipole consists of two small particles. Each has mass $m$ but opposite electric charge $\\pm q$. They are separated by a light, non-conducting rod of length $l$. The dipole is placed in a uniform electric field $\\vec{E}$ such that it forms an angle $\\theta$ to the field, then is released. Its initial angular acceleration about its centre of mass is given by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-16-fig1.png\n\na) $\\dfrac{2qE\\cos\\theta}{ml}$;\n\nb) $\\dfrac{2qE\\sin\\theta}{ml}$;\n\nc) $\\dfrac{qEl\\cos\\theta}{m}$;\n\nd) $\\dfrac{qEl\\sin\\theta}{m}$;\n\ne) $\\dfrac{qE\\sin\\theta}{ml^2}$."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nAt time $t = 0$ a block of mass $m$ moves with momentum $p$ along a rough horizontal surface. If it comes to a complete stop in time $t$, then the coefficient of kinetic friction $\\mu_k$ is given by\n\na) $\\dfrac{p}{mgt}$;\n\nb) $\\dfrac{pg}{mt}$;\n\nc) $\\dfrac{ptg}{m}$;\n\nd) $\\dfrac{pt}{mg}$;\n\ne) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA fish swimming in water with constant velocity $v_0$ experiences a viscous drag force that is proportional to the square of its velocity (i.e. $F_{drag} \\propto v^2$). If the fish doubles its velocity, then the thrust force F that it must generate to maintain this new velocity is related to the fish's original thrust force $F_0$ via\n\na) $F = 2F_0$;\n\nb) $F = \\sqrt{2}F_0$;\n\nc) $F = 4F_0$;\n\nd) $F = F_0^{\\,2}$;\n\ne) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA solid object has a hole in it. Which of these illustrations more correctly shows how the size of the object and the hole change as the temperature increases?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-19-fig1.png\n\na) illustration #1;\n\nb) illustration #2;\n\nc) The answer depends on the material of which the object is made;\n\nd) The answer depends on how much the temperature increases;\n\ne) Both c) and d) are correct."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nTwo gear wheels of the same thickness, but with one twice the diameter of the other, are mounted on parallel light axles far enough apart not to mesh the teeth of the wheels. The larger wheel is spun with angular velocity $\\Omega$ and the wheels are then moved together so they mesh. What is the subsequent angular velocity of the larger wheel?\n\na) $\\dfrac{\\Omega}{2}$;\n\nb) $\\dfrac{\\Omega}{5}$;\n\nc) $\\dfrac{2\\Omega}{5}$;\n\nd) $\\dfrac{4\\Omega}{5}$."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nFor the meshed rotating gears of the previous question, what fraction of the original energy is lost?\n\na) $1/4$;\n\nb) $1/8$;\n\nc) $1/5$;\n\nd) $2/5$."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nThe drawing shows a copper wire (of negligible resistance) bent into a circular shape with a radius of $r$. The radial section BC is fixed in place, while the copper bar AC sweeps around at an angular speed of $\\omega$. The bar makes electrical contact with the wire at all times. The wire and the bar have negligible resistance. A uniform magnetic field exists everywhere, is perpendicular to the plane of the circle, and has a magnitude of $B$. Which of the following shows the magnitude of the current as a function of $\\theta$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-22-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-1-22-fig2.png"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA double inclined plane is in the form of a wedge of weight $10\\,\\mathrm{g}$, held on the ground with its base horizontal and rough faces inclined at $30^\\circ$ and $45^\\circ$ respectively to the horizontal. A $5\\,\\mathrm{g}$ particle on the face inclined at $30^\\circ$ is connected by a mass less, flexible, inextensible string over a smooth mass less pulley at the ridge of the wedge to a $7\\,\\mathrm{g}$ particle on the other face. If the coefficient of friction between each of the particles and the wedge is $1/5$, find the accelerations of the particles and the magnitude of the vertical force between the wedge and the ground.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2010-2-1-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nOceanographers have deployed an array of instruments off the west coast of Vancouver Island, connected together by cables carrying power and communication. The power is supplied through a single DC line. The return path is through the sea water. The grounds at each end of the line are large metal spheres.\n\nConsider two copper spheres, radii $a$, buried in an infinite medium of resistivity $\\rho$. Current flows out of one sphere and is collected by the second sphere. The current flow in vicinity of each sphere can be considered radially uniform as the distance between the spheres is large compared with $a$.\n\na) By considering the series resistance of many thin spherical shells around a sphere show graphically (or by direct integration) that much of the resistance between the spheres is due to material within a radius $2a$ of each sphere and thereby estimate the total resistance between the spheres.\n\nb) If the current flow between the spheres is $1\\,\\mathrm{A}$, calculate the charge in coulombs on each one."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nSir Ernest Rutherford, a very famous New Zealander who worked at McGill University in Montreal and the Cavendish Laboratory in Cambridge, won the Nobel Prize for his studies of the disintegration of nuclei. He established an important relationship for a nuclear reaction, in which a parent atom disintegrates into a daughter atom, which is called the Rutherford – Soddy law of radioactive disintegration. This law states that if $N$ is the number of radioactive nuclei present at some instant, the number of nuclei $\\Delta N$ that decay in a time $\\Delta t$ is given by:\n\n$$\\Delta N = -\\lambda N \\Delta t$$\n\nwhere $\\lambda$ is called the decay constant. We can integrate this expression to get the relationship\n\n$$N(t) = N_0 e^{-\\lambda t}$$\n\nwhere $N_0$ represents the number of radioactive nuclei at time $t = 0$.\n\na) Show that the time taken for $N(t) = N_0/2$ (known as the half-life), is given by $T_{1/2} = (\\ln 2)/\\lambda$.\n\nPotassium-argon (K-Ar) dating is used in earth science to determine the age of a rock sample. The potassium isotope ${}^{40}_{19}\\mathrm{K}$ is radioactive and decays over time to the argon isotope ${}^{40}_{18}\\mathrm{Ar}$. When a rock is molten the argon gas is released into the atmosphere but as the rock cools and crystallizes, the daughter argon atoms are trapped within the rock matrix. Time since crystallization is calculated by measuring the ratio of the amount of ${}^{40}_{18}\\mathrm{Ar}$ accumulated to the amount of ${}^{40}_{19}\\mathrm{K}$ remaining.\n\nThe two possible nuclear reaction for ${}^{40}_{19}\\mathrm{K}$ to change to ${}^{40}_{18}\\mathrm{Ar}$ are:\n\n$${}^{40}_{19}\\mathrm{K} + {}^{0}_{-1}\\mathrm{e} \\rightarrow {}^{40}_{18}\\mathrm{Ar} + \\text{a neutrino}$$\n\n$${}^{40}_{19}\\mathrm{K} \\rightarrow {}^{40}_{18}\\mathrm{Ar} + {}^{0}_{+1}\\mathrm{e} + \\text{a neutrino}$$\n\nb) Describe the physical process that is occurring in these reactions.\n\nc) Which of the two is the more likely to occur?\n\nd) Most of the potassium ${}^{40}_{19}\\mathrm{K}$ ($89.1\\%$) decays to ${}^{40}_{20}\\mathrm{Ca}$. What is the equation for this reaction?\n\nThe approximate ratio of the amount of ${}^{40}_{18}\\mathrm{Ar}$ to that of ${}^{40}_{19}\\mathrm{K}$ is directly related to the time elapsed since the rock was cool enough to trap the argon by the following equation:\n\n$$t = \\frac{t_{1/2}}{\\log_e(2)}\\,\\log_e\\!\\left(\\frac{K_f + \\dfrac{Ar_f}{0.109}}{K_f}\\right)$$\n\nWhere $T_{1/2}$ is the half-life of ${}^{40}_{19}\\mathrm{K}$, $K_f$ is the amount of ${}^{40}_{19}\\mathrm{K}$ remaining in the sample, and $Ar_f$ is the amount of ${}^{40}_{18}\\mathrm{Ar}$ found in the sample.\n\ne) If a rock sample has remained undisturbed for $50$ million years and the half-life of ${}^{40}_{19}\\mathrm{K}$ is $1.248\\times10^{9}$ years, what ratio of Ar/K should be measured in the sample?"
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nIncandescent light bulbs are notorious for being relatively inefficient in producing visible light. The tungsten wire inside such a bulb is at a temperature of approximately $3000\\,\\mathrm{K}$ and the emission spectrum is very similar to that of a blackbody. The efficiency is so low because\n\na) Most of the electrons are absorbed in the tungsten wire.\n\nb) Most of the power is lost due to the resistance of the bulb.\n\nc) The electric power actually is efficiently transformed into radiation but at $3000\\,\\mathrm{K}$, most of it is infrared.\n\nd) A blackbody absorbs more light than it emits, hence it appears black."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA solar panel installed on a spaceship has a maximum energy output of $5\\,\\mathrm{kW}$ near the Earth. What is the maximum energy output of the solar panel when the spaceship is near Mars? (The distance from the Earth to the Sun is 1 A.U. and from Mars to the Sun is 1.5 A.U.)\n\n(a) $3.3\\,\\mathrm{kW}$;\n\n(b) $2.2\\,\\mathrm{kW}$;\n\n(c) $1.0\\,\\mathrm{kW}$;\n\n(d) $0.55\\,\\mathrm{kW}$;\n\n(e) $0.20\\,\\mathrm{kW}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA scientist measured a $1\\mu A$ current in an area of a human brain. Unlike current in metals which is carried by free electrons, the current in the brain is mainly carried by potassium ions. Each potassium ion has one unit of charge $e$. This current corresponds to the flow of how many potassium ions per second?\n\n(a) $6\\times10^5$;\n\n(b) $6\\times10^6$;\n\n(c) $6\\times10^8$;\n\n(d) $6\\times10^{12}$;\n\n(e) $6\\times10^{18}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe gas supply to your physics professor's house suddenly stops due to a gas line failure. It is winter and the temperature outside is $-5^\\circ\\mathrm{C}$ and constant. Assuming all the doors and windows remain closed, which of these graphs best describes how the temperature in the house changes with time after the gas supply stops?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-4-fig1.png\n\n[The options (a)–(d) are the four graphs of temperature (°C) against time (hours) in the figure.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe ray of light travelling in air hits the parallel glass plate as shown. Which are the possible continuations of the light ray?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-5-fig1.png\n\na) 4 only.\n\nb) both 2 and 4.\n\nc) both 3 and 6.\n\nd) both 1 and 5."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nApproximately, what fraction of the energy emitted by the Sun reaches to the Earth?\n\n(a) $10^{-7}$;\n\n(b) $10^{-10}$;\n\n(c) $10^{-13}$;\n\n(d) $10^{-16}$."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nThe resistance of the tungsten in a light bulb increases with temperature. Which of the following graphs shows the current as a function of voltage for the light bulb?\n\n(a)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-7-fig1.png\n\n(b)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-7-fig2.png\n\n(c)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-7-fig3.png\n\n(d)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-7-fig4.png\n\n(e)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-7-fig5.png"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA fast rocket travels directly upwards at $0.5c$ (half the speed of light). There is an explosion directly below the rocket. If astronauts manage to measure how fast the light produced by the explosion is moving relative to their spacecraft, they will find the light to be moving:\n\na) Upwards at speed $0.5c$.\n\nb) Upwards at speed $c$.\n\nc) Upwards at speed $1.5c$.\n\nd) Downwards at speed $0.5c$.\n\ne) Downwards at speed $c$."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nTwo identical clocks are set to the same time as one passes the other at very high (relativistic) velocity as shown in the top figure. Which of the other figures represents a possible observation of the clocks at some later time in the reference frame of the stationary clock?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-9-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-9-fig2.png\n\n[The options a)–e) are the five pictures of the two clocks in the second figure.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nFor the statements:\n\n1) Mass can be directly converted into kinetic energy.\n\n2) Kinetic energy can be directly converted into mass.\n\na) Only first is true.\n\nb) Only second is true.\n\nc) Both are true.\n\nd) Neither is true."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA stable Helium-4 nucleus has two protons and two neutrons. If the mass of Helium-4 nucleus, proton and neutron are denoted by $m_{\\mathrm{He}}$, $m_{\\mathrm{p}}$ and $m_{\\mathrm{n}}$ respectively, we can conclude that:\n\na) $m_{\\mathrm{He}}=2m_{\\mathrm{p}}+2m_{\\mathrm{n}}$.\n\nb) $m_{\\mathrm{He}}>2m_{\\mathrm{p}}+2m_{\\mathrm{n}}$.\n\nc) $m_{\\mathrm{He}}<2m_{\\mathrm{p}}+2m_{\\mathrm{n}}$.\n\nd) Any of the above may be true."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA clean metal surface is placed in a vacuum. The surface is irradiated with monochromatic light of variable intensity $I$(number of photons per unit area) and frequency $f$. We measure the maximum kinetic energy $K$ of electrons emitted from the metal due to the photoelectric effect. How does $K$ behave when $I$ increases?\n\na) $K$ increases.\n\nb) $K$ is constant.\n\nc) $K$ decreases.\n\nd) Impossible to determine."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA point mass is moving in the xy plane. Its acceleration is a constant vector perpendicular to the x axis, then:\n\na) only $v_y$ is constant.\n\nb) only $v_x$ is constant.\n\nc) only the acceleration is constant.\n\nd) the acceleration and $v_x$ are constant.\n\ne) the position and $a_y$ are constant."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA huge case, attached to a cable, is descending at a constant velocity. The tension in the cable is (neglecting the air resistance):\n\na) greater than the weight of the case.\n\nb) smaller than the weight of the case.\n\nc) equal to the weight of the case.\n\nd) we cannot tell since we dont know the weight of the case."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nObjects A and B, isolated from the environment, are initially separated from each other and are then placed in thermal contact. Their initial temperatures are $T_A=0^\\circ\\mathrm{C}$ and $T_B=100^\\circ\\mathrm{C}$. The heat capacity of B is twice the one of A. After a certain time, the system reaches equilibrium. The final temperatures are:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-15-fig1.png\n\na) $T_A=T_B=50^\\circ\\mathrm{C}$.\n\nb) $T_A=T_B>50^\\circ\\mathrm{C}$.\n\nc) $T_A=T_B<50^\\circ\\mathrm{C}$.\n\nd) $T_A>T_B>50^\\circ\\mathrm{C}$.\n\ne) $T_A>50^\\circ\\mathrm{C}>T_B$."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nWhen a car is starting, its driving wheels experience:\n\na) The force of kinetic friction directed backward.\n\nb) The force of static friction directed backward.\n\nc) The force of kinetic friction directed forward.\n\nd) The force of static friction directed forward."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nAn aquarium partly filled with water accelerates down an incline which is at an angle $\\theta$ with respect to the horizon. The surface of water in the aquarium:\n\na) is horizontal.\n\nb) is parallel to the plane of the incline.\n\nc) forms an angle $\\alpha$ with the horizon, where $0^\\circ<\\alpha<\\theta$\n\nd) forms an angle $\\alpha$ with horizon, where $\\theta<\\alpha<90^\\circ$."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nObjects around us have different colours. This is because\n\na) They are at different temperatures.\n\nb) They are non-thermal radiation sources.\n\nc) Different materials or paints reflect light at different speeds.\n\nd) Different materials or paints reflect different wavelengths."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nThis graph shows the average temperature inside a room. At time $t_1$ the heater is turned on. We want to compare the power input to the room ($P_{\\mathrm{in}}$) and the power output from the room ($P_{\\mathrm{out}}$). For which region(s) on the graph is $P_{\\mathrm{in}}\\neq P_{\\mathrm{out}}$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-19-fig1.png\n\na) Only region I.\n\nb) Only region II.\n\nc) Only region III.\n\nd) Only regions I & III.\n\ne) Regions I, II & III."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA spherical asteroid with a radius of $1\\,\\mathrm{km}$ is illuminated by sunlight. In order to calculate the solar power absorbed by the asteroid, what area should be used?\n\na) $1\\,\\mathrm{km}^2$.\n\nb) $3.14\\,\\mathrm{km}^2$.\n\nc) $12.6\\,\\mathrm{km}^2$.\n\nd) Answer cannot be determined from the available data."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nIf you toss a ball up, at the highest point\n\na) The velocity changes direction.\n\nb) The acceleration changes direction.\n\nc) The acceleration is zero.\n\nd) Both velocity and acceleration are zero.\n\ne) More than one of the above is correct."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nMany cars are now equipped with anti-lock brakes (ABS), which prevents locking of the wheels during emergency braking. What is the main advantage?\n\na) This saves the tires. Otherwise too much rubber is left on the road.\n\nb) Provides more control over the car but stopping distance increases slightly.\n\nc) This leads to a shorter stopping distance because tires exert rolling friction which is larger than kinetic friction.\n\nd) This leads to a shorter stopping distance because tires exert rolling friction which is larger than static friction.\n\ne) This leads to a shorter stopping distance because tires exert static friction which is larger than kinetic friction."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nRank in order, from brightest to dimmest, the identical bulbs A to D.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-23-fig1.png\n\na) $A=B=C=D$.\n\nb) $A=B>C=D$.\n\nc) $A>C>B>D$.\n\nd) $A>C=D>B$.\n\ne) $C=D>B=A$."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nLast year, a customer tried to compare two cars. A manufacturer of the USA car claims fuel efficiency of 30 mpg (miles per gallon). The manufacturer of the European car states the fuel efficiency of $7.8\\,\\mathrm{l/100km}$ (liters per hundred kilometers).\n\n[From the paper's data table: 1 US mile = 1609 meters; 1 US gallon = 3.785 liters.]\n\n(a) Which car is more efficient and by how much?\n\nThis year, still undecided, this customer noticed that both manufacturers improved their fuel efficiency numbers by 20%.\n\n(b) Which car is more efficient now, and by how much?\n\nFig. 1 shows the velocity as a function of time graph for a trip you took with your car.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-2-1-fig1.png\n\nFigure 1\n\n(c) Determine the total distance travelled during this two hour trip.\n\n(d) Fig. 2 displays the air drag force as a function of velocity. What is the total work done by the drag force on the car during this two hour trip?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-2-1-fig2.png\n\nFigure 2\n\n(e) Each liter of gasoline has $35\\,\\mathrm{MJ}$ of energy. The efficiency of the motor as a function of the car's speed is shown on Fig. 3. How much gasoline is used to overcome the air drag during this two hour trip?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-2-1-fig3.png\n\nFigure 3\n\n(f) In which part of the trip the fuel was used most efficiently (least gasoline used per kilometer travelled)?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nPhoto A shows a pendulum for a grandfather clock. It consists of very thin sets of iron and zinc rods and the pendulum bob. At room temperature there is one iron rod of length $L_{0\\mathrm{Fe}}=68.00\\,\\mathrm{cm}$ , two iron rods of length $L_{1\\mathrm{Fe}}$ and two zinc rods of length $L_{\\mathrm{Zn}}$ connected as in diagram B. Both sets of rods are of negligible weight compared to the pendulum bob. The thickness of the connecting pieces is negligible compared to the length of the rods. The bob is attached to the iron rod. The pendulum length, then is $L=L_{0\\mathrm{Fe}}+(L_{1\\mathrm{Fe}}-L_{\\mathrm{Zn}})$, $L=70.00\\,\\mathrm{cm}$.\n\n[From the paper's data table: linear expansion coefficient of iron $\\alpha_{\\mathrm{Fe}}=1.1\\times10^{-5}\\,\\mathrm{K^{-1}}$; linear expansion coefficient of zinc $\\alpha_{\\mathrm{Zn}}=3.0\\times10^{-5}\\,\\mathrm{K^{-1}}$.]\n\n(a) Does the position of the rods in diagram B correspond to a warmer day or a colder day compared to their position in diagram C?\n\n(b) Find $L_{1\\mathrm{Fe}}$ and $L_{\\mathrm{Zn}}$ if the pendulum period does not change when the temperature changes.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-2-2-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nTwo radio antennas are $100\\,\\mathrm{m}$ apart on a north-south line. They broadcast identical radio waves at a frequency of $3.0\\,\\mathrm{MHz}$. Your job is to monitor the signal strength with a handheld receiver. To get to your first measuring point, you walk $800\\,\\mathrm{m}$ east from the midpoint between the antennas, then $600\\,\\mathrm{m}$ north.\n\n(a) What is the phase difference between the waves at this point?\n\n(b) Is the interference at this point maximally constructive, perfectly destructive, or somewhere in between? Explain.\n\n(c) If you now begin to walk further north, does the signal strength increase, decrease, or stay the same? Sketch the amplitude of the signal as a function of the distance."
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nTwo planets X and Y travel counterclockwise in circular orbits around a star as shown in the figure below:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-1-fig1.png\n\nThe radii of their orbits are in the ratio $3:1$. At some time, they are aligned as in Fig. 1, making a straight line with the star. After five Earth years, the angular displacement of planet X is $90.0^\\circ$, as in Fig. 2. What is the angular displacement of planet Y at this time?\n\na) $35^\\circ$\n\nb) $90^\\circ$\n\nc) $180^\\circ$\n\nd) $360^\\circ$\n\ne) $468^\\circ$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nYou are holding a bottle of sparkling water inside a car moving forward. When the driver applies the brakes:\n\na) Bubbles in the middle of the liquid will start to move forward with respect to the bottle.\n\nb) Bubbles will start to move backward with respect the bottle.\n\nc) Bubbles will stay at the same horizontal location in the water.\n\nd) Depending on the speed of the car, bubbles might move forward or backward."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nAn Earth satellite revolves in a circular orbit at a height $h$ from the surface of the Earth. If $R$ is the Earth's radius and $g$ is the acceleration due to gravity at the surface of the Earth, then the speed of the satellite is given by:\n\na) $\\sqrt{gR}$\n\nb) $\\sqrt{g(R+h)}$\n\nc) $\\sqrt{g\\frac{R^2}{R+h}}$\n\nd) $\\sqrt{g\\frac{(R+h)^2}{R}}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nAssume that sodium produces monochromatic light with a wavelength of $5.89\\times10^{-7}\\,\\mathrm{m}$. At what approximate rate would a 10 watt sodium-vapour light be emitting photons? Assume that the efficiency of the light bulb is about 30%.\n\na) $8.9\\times10^{18}$ photons/sec.\n\nb) $3.0\\times10^{19}$ photons/sec.\n\nc) $9.9\\times10^{19}$ photons/sec.\n\nd) $2.0\\times10^{20}$ photons/sec."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThree batteries are placed in series. Each battery has an internal resistance $r$. If one of the batteries is placed the wrong way around as shown in the picture, what will be the total resistance of the three cells now?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-5-fig1.png\n\na) $r/3$\n\nb) $r/2$\n\nc) $r$\n\nd) $2r$\n\ne) $3r$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nAt the designed intensity, the two beams circulating in the Large Hadron Collider (LHC) at CERN consist of 5616 bunches (2808 in each direction) of approximately $1.15\\times10^{11}$ protons per bunch. A small commercial hydrogen cylinder contains $40\\,\\mathrm{L}$ of gas at a pressure of $10\\,\\mathrm{MPa}$ and a temperature of $25^\\circ\\mathrm{C}$. Assuming an injection efficiency of 70%, how many times could the LHC be filled at the designed intensity using a single, perfectly hermetic cylinder?\n\na) $1.1\\times10^{11}$\n\nb) $1.5\\times10^{11}$\n\nc) $2.1\\times10^{11}$\n\nd) $1.1\\times10^{14}$\n\ne) $1.5\\times10^{14}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nThe Earth is constantly receiving energy from the Sun. To stay at approximately the same temperature, the Earth loses energy by:\n\na) Conduction\n\nb) Radiation\n\nc) Convection\n\nd) Evaporation\n\ne) The Earth does not lose energy, this is why we have global warming."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA car starts to move at time $t=0$. If the engine of the car is able to provide constant power, which of the following statements is correct about the speed of car at the beginning of the motion?\n\na) The speed is constant.\n\nb) The speed increases proportionally to time passed ($v\\propto t$).\n\nc) The speed increases as the square root of time ($v\\propto\\sqrt{t}$).\n\nd) The speed increases as time squared ($v\\propto t^2$)."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA detector far away from the source of a wave is detecting pulses of that wave every 0.2 second. If the detector starts to move towards the source at a speed of $6.0\\,\\mathrm{km/h}$, then it would detect a total of 18200 pulses per hour. What is the speed of the wave?\n\na) $100\\,\\mathrm{m/s}$\n\nb) $150\\,\\mathrm{m/s}$\n\nc) $200\\,\\mathrm{m/s}$\n\nd) $300\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThere are three different liquids, with densities $\\rho_1$, $\\rho_2$ and $\\rho_3$, in a U-shaped container as shown in the picture. The lengths shown are $H_1=15\\,\\mathrm{cm}$ and $H_2=10\\,\\mathrm{cm}$. Which of the following equations gives the correct relation between the densities of the fluids in the container?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-10-fig1.png\n\na) $3\\rho_3=2\\rho_1+\\rho_2$\n\nb) $\\rho_3=2\\rho_1+3\\rho_2$\n\nc) $2\\rho_3=3\\rho_1+\\rho_2$\n\nd) $\\rho_3=3\\rho_1+2\\rho_2$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThe intensity of light from a source decreases with the distance $x$ from the source, as $\\frac{1}{x^2}$. In the following picture, the intensity of light from the source $S$ at point $A$ on a curtain is 8.1U where U is some unit. We then add a big mirror parallel to the curtain at point $B$. The distances $AS$ and $SB$ are equal, and the points $A$, $S$ and $B$ are in line perpendicular to the curtain and the mirror. What is the intensity of light reaching point $A$ now?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-11-fig1.png\n\na) 9.0 U\n\nb) 10.15 U\n\nc) 10.8 U\n\nd) 16.2 U"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nWhich of the following is the correct free-body diagram for a cylinder floating in water?\n\na)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-12-fig1.png\n\nb)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-12-fig2.png\n\nc)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-12-fig3.png\n\nd)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-12-fig4.png"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nVancouver's latitude is about $49^\\circ$, and Earth's axial tilt is about $23^\\circ$. The power delivered by the Sun reaching a horizontal surface in Vancouver at noon differs in winter and summer. What is the approximate ratio of this quantity measured in winter, compared to that measured in summer?\n\na) $1:2$\n\nb) $1:3$\n\nc) $1:4$\n\nd) $1:5$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nConsider a metal rod firmly attached to a wall. When you strike the rod with a hammer, which kind of wave will you excite?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-14-fig1.png\n\na) A longitudinal wave.\n\nb) A transverse wave.\n\nc) Either kind, or both, depending on where and how you hit the rod.\n\nd) No wave will be excited, the metal is too strong."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nAssume that you videotaped the fall of a ball due to gravity in vacuum, and are now playing the video in reverse at the same speed. Which of the following statements is correct about the acceleration of the ball seen in these conditions, compared to that of the actual falling ball?\n\na) The accelerations are the same in both cases.\n\nb) They have the same value but opposite directions.\n\nc) They have different values but the same direction.\n\nd) Both the values and directions differ."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA rod (AB) is attached to a fixed point (C) using a light rope (AC). The other end of the rod (B) is sitting on ice with negligible friction and the system is in stationary position. Which of the following can be the equilibrium configuration of this system?\n\na)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-16-fig1.png\n\nb)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-16-fig2.png\n\nc)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-16-fig3.png\n\nd)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-16-fig4.png"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nWhich of the following is the closest to the total mass of the atmosphere around the Earth?\n\na) $10^{13}\\,\\mathrm{kg}$\n\nb) $10^{16}\\,\\mathrm{kg}$\n\nc) $10^{19}\\,\\mathrm{kg}$\n\nd) $10^{22}\\,\\mathrm{kg}$"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nAt shallow depth, $h$, the pressure in the ocean is simply given by $P=P_0+\\rho gh$, in which $\\rho$ is the density of water and $P_0$ is the air pressure. As we go deeper, the high pressure causes the water to compress and become denser. Which of the following sketches illustrates the correct dependence of the pressure on the depth $h$?\n\na)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-18-fig1.png\n\nb)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-18-fig2.png\n\nc)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-18-fig3.png\n\nd)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-18-fig4.png"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nAn aluminium plate and a glass plate are left in a room for a long time. Putting one ice cube on each plate, you notice that the ice melts faster on the aluminium plate. Why?\n\na) The ice is in thermal equilibrium with the glass plate, but not with the aluminium plate.\n\nb) Aluminium conducts heat to the ice more rapidly than glass.\n\nc) The aluminium plate holds more heat.\n\nd) The aluminium plate is warmer."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nYou are on the side of the highway, listening to the siren of a fast-approaching ambulance. When the ambulance is not moving the frequency of its siren is 1000 Hz. Which of the following graphs best describes the frequency that you hear as the ambulance approaches and then passes you?\n\na)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-20-fig1.png\n\nb)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-20-fig2.png\n\nc)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-20-fig3.png\n\nd)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-20-fig4.png"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nWhich of the following radiation types has the longest wavelength?\n\na) Radio waves\n\nb) Visible light\n\nc) X rays\n\nd) Infrared light\n\ne) They all have at the same wavelength"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA cup filled with water has a hole in the side, through which the liquid is flowing out. If the cup is dropped from a height, what will happen to the water flowing from the cup?\n\na) It will keep coming out, flowing at the same rate as before:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-22-fig1.png\n\nb) It will keep coming out, but it will flow a bit slower than before.\n\nc) It will keep coming out, but start to flow upwards relative to the cup:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-22-fig2.png\n\nd) It will keep coming out, flowing horizontally with respect to the falling cup:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-22-fig3.png\n\ne) It will stop flowing.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-22-fig4.png"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nTwo cubes, with respective masses $M_1$ and $M_2$ and side lengths $L_1$ and $L_2$, are lying on a smooth table as shown. What is the pressure exerted by the cubes on the table?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-23-fig1.png\n\na) $\\frac{M_1g}{{L_1}^2}+\\frac{M_2g}{{L_2}^2}$\n\nb) $\\frac{M_1g}{{L_1}^2}+\\frac{M_2g}{{L_1}^2}$\n\nc) $\\frac{M_1g}{{L_2}^2}+\\frac{M_2g}{{L_2}^2}$\n\nd) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nConsider an object that floats in water but sinks in oil. When the object floats in water, half of it is submerged. If we slowly pour oil on top of the water so it completely covers the object, the object:\n\na) moves up\n\nb) stays in the same place\n\nc) moves down"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nThe pressure in a stream of water flowing out of a faucet is:\n\na) largest at the bottom\n\nb) largest near the faucet\n\nc) the same everywhere in the stream\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-1-25-fig1.jpg"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1 (10 points)\n\nMass spectrometry is a way of measuring the mass-to-charge ratio of charged particles as well as distinguishing different components of a beam of particles. As an example of such an experiment, consider ions of two isotopes of Potassium, $\\mathrm{K}^{39}_{19}$ and $\\mathrm{K}^{41}_{19}$, with positive charge $+e$ entering as a beam of particles into a region with magnetic field $B$ in the $z$ direction, as shown in the picture. The beam is injected at point $O$. Due to the magnetic field, all the ions travel in a circle with radius given by $r=\\frac{mv}{qB}$, in which $v$ is the velocity of ions, $m$ is the mass of ions and $q$ is the charge. After these two types of ions travel through the magnetic field, they reach a sensitive film and record bright spots on it as show in the picture.\n\nConsider the distance from point $O$ to the bright spot produced by $\\mathrm{K}^{39}_{19}$ ion to be $L_1$, and the distance to the spot recorded by $\\mathrm{K}^{41}_{19}$ ion to be $L_2$. We use $L$ for the average of $L_1$ and $L_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-2-1-fig1.png\n\n(a) Assuming that the energy of both isotopes is the same, compute the ratio $\\frac{L_2-L_1}{L}$\n\n(b) Since these ions have different masses, one can distinguish them by observing the two bright spots on the film. However, some experimental uncertainties can complicate the situation. For example, tuning the energy of the beam to a specific value is impossible. If the energy of particles in the beam varies from $7.9\\times10^{-17}\\,\\mathrm{J}$ to $8.1\\times10^{-17}\\,\\mathrm{J}$, is it possible to distinguish these two types of ions?\n\n(c) Furthermore, adjusting the ions to enter exactly in the $y$ direction, as shown in the picture, is also impossible. Assuming that the beam enters at a small angle $\\alpha$ from the $y$ direction, compute $L$ as a function of $\\alpha$.\n\n(d) Now assume that the particles in the incident beam can have any angle $\\alpha$ between 0 and $3^\\circ$ from the $y$ direction, due to the uncertainty in the angle. Is it possible to distinguish the two types of ions in this case?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2 (10 points)\n\nAndrzej's electric bike is equipped with a motor built into the front wheel hub. The stator of the electric motor (stationary part with the coils) is fixed solidly to the axle and the magnets are attached to the wheel. He made the following measurements on the bike:\n\n1. If he runs it on a horizontal road at $20\\,\\mathrm{km/h}$ and then switches the motor off, it takes the bike $50\\,\\mathrm{m}$ to stop.\n\n2. At full power, it can accelerate up a $5^\\circ$ slope from 5 to $20\\,\\mathrm{km/h}$ in 6 seconds.\n\n3. The total mass of the bike plus the rider, is $106\\,\\mathrm{kg}$.\n\n4. The diameter of the wheels is $66\\,\\mathrm{cm}$.\n\n5. The diameter of the front wheel axle is $11\\,\\mathrm{mm}$.\n\n6. The bike uses a $48\\,\\mathrm{V}$ battery with a capacity of $8\\,\\mathrm{Ah}$ (ampere-hour).\n\n7. The motor is 85% efficient.\n\nFind out:\n\n(a) What is the current flowing through the motor when the bike is driven at $20\\,\\mathrm{km/h}$ on a horizontal road without pedaling?\n\n(b) How far can it go on one battery charge at $20\\,\\mathrm{km/h}$?\n\n(c) What is the net torque acting on the front axle?\n\n(d) What is the current flowing through the motor when the bike is accelerating up a $5^\\circ$ slope from 0 to $20\\,\\mathrm{km/h}$ in 20 seconds?\n\n(e) What is the full mechanical power of this motor?\n\n(f) What is the maximum slope one can bike up at constant speed using the motor only (not pedaling)?\n\n(g) What is the current flowing through the motor at maximum power?\n\n(h) What was the most important simplifying assumption that you had to make in order to solve this problem?"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nThis problem has two independent parts.\n\n[From the paper's data table: density of fresh water $\\rho=1.00\\times10^3\\,\\mathrm{kg/m^3}$, specific heat of water $C_w=4186\\,\\mathrm{J/kgK}$, specific heat of ice $C_i=2050\\,\\mathrm{J/kgK}$, latent heat of ice $L_i=334\\,\\mathrm{kJ/kg}$, density of ice $\\rho_i=916\\,\\mathrm{kg/m^3}$.]\n\nProblem 3A (5 points)\n\nA Russian nuclear icebreaker named 50 Let Pobedy has a length of $160\\,\\mathrm{m}$, a width of $30\\,\\mathrm{m}$ and two nuclear reactors, each delivering about $30\\,\\mathrm{MW}$ of power. It can clear a path $35\\,\\mathrm{m}$ wide in $2\\,\\mathrm{m}$ thick ice (at $-10^\\circ C$) at a speed of 5 knots ($2.5\\,\\mathrm{m/s}$). Somebody suggested that instead of breaking the ice, one should melt it with a gigantic heater mounted at the front of the ship.\n\n(a) For this to work, what power should this heater have, in order to achieve the same performance as the icebreaker?\n\n(b) Explain in one sentence whether such a heater would work or not on this icebreaker.\n\nProblem 3B (5 points)\n\nYou are given a graph of temperature as a function of time of a container with a mixture of ice and water slowly heated at constant rate. When all the ice melts, there is $850\\,\\mathrm{mL}$ of water in the container. In the following questions, neglect the evaporation of water.\n\n(a) At which rate is the container heated?\n\n(b) How much ice was initially present?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2012-2-3-fig1.png"
+    }
+   ]
+  },
+  {
    "year": 2013,
    "problems": [
     {

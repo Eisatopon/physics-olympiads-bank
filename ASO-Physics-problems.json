@@ -2,6 +2,659 @@
  "competition": "Australia — Australian Science Olympiad, Physics (National Qualifying Examination / ASOE)",
  "years": [
   {
+   "year": 2007,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA girl throws a teddy bear straight up. Consider the motion of the bear only after it has left the girl’s hand but before it touches the ground, and assume that forces exerted by the air are negligible. For these conditions, the force(s) acting on the bear is (are):\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2007-1-1-fig1.png\n\n(A) a downward force of gravity along with a steadily decreasing upward force.\n\n(B) a steadily decreasing upward force from the moment it leaves the girl’s hand until it reaches its highest point; on the way down there is a steadily increasing downward force of gravity as the bear gets closer to the earth.\n\n(C) an almost constant downward force of gravity along with an upward force that steadily decreases until the bear reaches its highest point; on the way down there is only a constant downward force of gravity.\n\n(D) an almost constant downward force of gravity only.\n\n(E) none of the above. The bear falls back to the ground because of its natural tendency to rest on the surface of the earth."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA school bus breaks down and receives a push back to the garage from a small compact car as shown in the diagram.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2007-1-2-fig1.png\n\nWhile the car, still pushing the bus, is speeding up to get up to cruising speed:\n\n(A) the amount of force with which the car pushes against the bus is equal to that with which the bus pushes back against the car.\n\n(B) the amount of force with which the car pushes against the bus is smaller than that with which the bus pushes back against the car.\n\n(C) the amount of force with which the car pushes against the bus is greater than that with which the bus pushes back against the car.\n\n(D) the car’s engine is running so the car pushes against the bus, but the bus’s engine is not running so the bus can’t push back against the car. The bus is pushed forward simply because it is in the way of the car.\n\n(E) neither the car nor the bus exert any force on the other. The bus is pushed forward simply because it is in the way of the car."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA school bus breaks down and receives a push back to the garage from a small compact car as shown in the diagram.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2007-1-3-fig1.png\n\nAfter the car reaches the constant cruising speed at which the driver wishes to push the bus;\n\n(A) the amount of force with which the car pushes against the bus is equal to that with which the bus pushes back against the car.\n\n(B) the amount of force with which the car pushes against the bus is less than that with which the bus pushes back against the car.\n\n(C) the amount of force with which the car pushes against the bus is greater than that with which the bus pushes back against the car.\n\n(D) the car’s engine is running so the car pushes against the bus, but the bus’s engine is not running so the bus can’t push back against the car. The bus is pushed forward simply because it is in the way of the car.\n\n(E) neither the car nor the bus exert any force on the other. The bus is pushed forward simply because it is in the way of the car."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA large bus and a small car collide and stick together. Which one undergoes the larger change in momentum?\n\n(A) The car.\n\n(B) The bus.\n\n(C) The momentum change is the same for both vehicles.\n\n(D) You can’t tell without knowing the final velocity of the combined masses.\n\n(E) The result depends on the energy absorbed by the crumpling bodies of the vehicles on impact."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA woman is standing on a set of bathroom scales, measuring her weight, in an elevator. Her weight as shown on the scales is $W$ before the elevator starts to move. She presses the down button. As the elevator starts to go down, the weight shown on the scales is:\n\n(A) More than $W$\n\n(B) Equal to $W$\n\n(C) Less than $W$\n\n(D) You can’t tell without knowing the velocity the lift is moving at\n\n(E) You can’t tell without knowing the acceleration of the lift"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA woman is standing on a set of bathroom scales, measuring her weight, in an elevator. Her weight as shown on the scales is $W$ before the elevator starts to move. She presses the down button. When the lift is moving down at a constant speed, the weight shown on the scales is:\n\n(A) More than $W$\n\n(B) Equal to $W$\n\n(C) Less than $W$\n\n(D) You can’t tell without knowing the velocity the lift is moving at\n\n(E) You can’t tell without knowing the acceleration of the lift"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA boy is swinging a ball attached to a string around in a horizontal circle with constant speed. Consider the following forces:\n\nI. a gravitational force downwards\n\nII. a force directed towards the boy at the centre of the circle\n\nIII. a force in the direction of motion of the ball\n\nIV. a force directed outwards away from the boy at the centre of the circle\n\nWhich of the above forces is (are) acting on the ball?\n\n(A) I only.\n\n(B) I and II.\n\n(C) I and III.\n\n(D) I, II, and III.\n\n(E) I, III, and IV."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA boy is swinging a ball attached to a string around in a horizontal circle with constant speed. Consider the following forces:\n\nI. a gravitational force downwards\n\nII. a force directed towards the boy at the centre of the circle\n\nIII. a force in the direction of motion of the ball\n\nIV. a force directed outwards away from the boy at the centre of the circle\n\nWhich of the above forces does work on the ball?\n\n(A) I and II.\n\n(B) II only.\n\n(C) I, II, and III.\n\n(D) I, III, and IV.\n\n(E) none of these forces does work on the ball."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nThe speed of light in vacuum, $c$, depends on two fundamental constants, the permeability of free space, $\\mu_o$, and the permittivity of free space, $\\varepsilon_o$. The speed of light is given by $c=\\dfrac{1}{\\sqrt{\\mu_o\\varepsilon_o}}$. The units of $\\varepsilon_o$ are $\\mathrm{N^{-1}.C^{2}.m^{-2}}$.\n\nThe units for $\\mu_o$ are:\n\n(A) $\\mathrm{kg^{-1}m^{-1}C^{2}}$\n\n(B) $\\mathrm{kg.m.C^{-2}}$\n\n(C) $\\mathrm{kg.m.s^{-4}.C^{-2}}$\n\n(D) $\\mathrm{kg^{-1}s^{-3}C^{-2}}$\n\n(E) $\\mathrm{kg^{2}.m^{2}.C^{-4}}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nSome factories use dust precipitators in their chimneys to remove airborne pollutants. In one such precipitator a pair of plates is placed in the square chimney with a potential difference of 2 kV between them as shown.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2007-1-10-fig1.png\n\nConsider a particle with a small negative charge at rest at one of the three positions, A, O and B, marked on the diagram. The particle will:\n\n(A) have greatest potential energy at A.\n\n(B) have greatest potential energy at B.\n\n(C) have greatest potential energy at O\n\n(D) have the same potential energy at A and B\n\n(E) have the same potential energy at A, B and O."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\n[Section B: Written Answer Questions. Attempt ONLY 4 questions. ONLY 4 questions will be marked. The marks for each question part are given, each question is worth a total of 10 marks.]\n\nGraham has gone fishing, and is sitting quietly waiting for a fish to bite, but nothing is happening. So Graham turns on the radio to try to find some music to encourage the fish. The first piece of music Graham finds is a bass guitar solo, which has a very low frequency. Graham doesn’t like the sound of that, so he finds another station which is playing a selection of soprano duets, which are much higher frequency.\n\na. Which music will travel from the radio to the fish faster, and why? (1 mark)\n\nThe path of the sound bends when it reaches the surface of the water, as shown.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2007-2-1-fig1.png\n\nb. Describe and explain what happens to the frequency, the wavelength and the speed of the sound when it moves from the air to the water. (2 marks)\n\nGraham’s radio has 2 speakers, separated by a distance $d$ as shown.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2007-2-1-fig2.png\n\nc. Draw a diagram showing where there will be constructive interference between the sound from the two speakers when the first station (the one with the bass guitar solo) is playing. Make sure you label your diagram carefully. Consider only the interference pattern in air. (3 marks)\n\nd. How does the interference pattern change when Graham changes to the second station (the one playing soprano duets)? (1 mark)\n\ne. For a given wavelength of sound from the speakers, what must be the minimum separation, $d$, in terms of the wavelength $\\lambda$, for complete destructive interference to occur? Why? (1 mark)\n\nGraham leans over the water to try to see some fish, and accidentally drops his radio in. The radio keeps playing under the water.\n\nf. How would the interference pattern from part (c) change with the radio under the water? Why? (2 marks)"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\n[Section B: Written Answer Questions. Attempt ONLY 4 questions. ONLY 4 questions will be marked. The marks for each question part are given, each question is worth a total of 10 marks.]\n\nMolly the ant falls from a height $h$ above a conveyor belt which is moving at a constant, very high, velocity $v_c$, and she bounces off at an angle $\\theta$ to the horizontal. Molly has a mass $m$ and the coefficient of kinetic friction between Molly and the belt is $\\mu$.\n\na. Find an expression for the velocity with which Molly hits the conveyor belt. (1 mark)\n\nb. Draw a diagram showing all the forces acting on Molly during her collision with the conveyor belt. Indicate on your diagram the relative sizes of the forces in the vertical direction. (2 marks)\n\nImpulse, $I$, is the change in momentum, $\\Delta\\mathbf{p}$, of an object caused by a force, $\\mathbf{F}$, and is equal to the average force multiplied by the time, $\\Delta t$, over which it acts. Hence $I = \\Delta\\mathbf{p} = \\mathbf{F}.\\Delta t$.\n\nc. Write down an expression for the change in momentum of Molly in the horizontal and vertical directions in terms of the forces on your diagram and the time the collision takes, $\\Delta t$. (2 marks)\n\nd. Find expressions for Molly’s final velocity in the horizontal and vertical directions. (2 marks)\n\ne. If the average size of the normal force that Molly experiences during the collision is equal to $2mg$, find an expression for the time the collision takes, $\\Delta t$. (3 marks)"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\n[Section B: Written Answer Questions. Attempt ONLY 4 questions. ONLY 4 questions will be marked. The marks for each question part are given, each question is worth a total of 10 marks.]\n\nIn any collision the sum of the momenta of all the bodies involved should be the same immediately before and after the collision. In an elastic collision the same is true for the sum of the kinetic energies of the bodies.\n\na. If a small blob with a small mass $m$ has a velocity $v$ directly towards an extremely heavy wall, and the ensuing collision is elastic, what is the approximate final velocity of the blob? (1 mark)\n\nThere is a box with lots and lots and lots of these blobs with mass $m$, all moving with different speeds in different directions so that the total momentum is initially (approximately) zero. The box is held firmly in place. Assume that all collisions are elastic.\n\nb. What happens to the total kinetic energy of all the blobs? Why? (2 marks)\n\nc. What happens to the total momentum of the all the blobs? Why? (2 marks)\n\nIf there were a hole in the side of the box that the blobs could escape through and the initial distribution of velocities of the blobs were the same as before:\n\nd. What happens to the total kinetic energy of the blobs left in the box? Why? (1 mark)\n\ne. What happens to the total momentum of the blobs left in the box? Why? (2 marks)\n\nWhen a blown up balloon is released before it is tied up it shoots off away from the hand of the person holding it.\n\nf. Why does the balloon shoot off in the direction that it does? (2 marks)"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\n[Section B: Written Answer Questions. Attempt ONLY 4 questions. ONLY 4 questions will be marked. The marks for each question part are given, each question is worth a total of 10 marks.]\n\nNewton’s law of cooling says that the rate of cooling of an object is proportional to the temperature difference between the object and its environment; hence a cup of tea cools off faster in a cold room than in a warm room. The equation that describes the temperature as a function of time is:\n\n$$T_{tea}(t) - T_{room} = (T_{tea}(0) - T_{room})\\,\\mathrm{e}^{-kt},$$\n\nwhere $T_{tea}(t)$ is the temperature of the tea at any time $t$, $T_{room}$ is the temperature of the room, $T_{tea}(0)$ is the initial temperature of the tea at $t = 0$ and $k$ is a constant.\n\na. What are the units of the constant $k$? (1 mark)\n\nA particular cup of tea is made in a room at $15^{\\circ}$C. The temperature of the tea is measured as a function of time and the results are shown in the table below.\n\n$$\\begin{array}{l|c|c|c|c|c|c|c|c} t\\ (\\text{minutes}) & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 \\\\ \\hline T_{tea}\\ (^{\\circ}\\mathrm{C}) & 65 & 49 & 38 & 30 & 25 & 22 & 20 & 18 \\end{array}$$\n\nb. Plot an appropriate graph $\\textbf{on the graph paper provided}$ that will allow you to find the constant $k$ using the table of data given above. (5 marks)\n\nNote that a straight line graph has the form $y = mx + c$ where $m$ is the gradient and $c$ is the intercept, and $y$ and $x$ are functions of the data.\n\nc. Find the constant $k$. Remember to show all your working. (2 marks)\n\nd. What was the initial temperature of the tea? (1 mark)\n\ne. How long will it take for the tea to reach a cold $16^{\\circ}$C? (1 mark)"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Section B",
+     "title": "Question 15",
+     "problem": "Question 15\n\n[Section B: Written Answer Questions. Attempt ONLY 4 questions. ONLY 4 questions will be marked. The marks for each question part are given, each question is worth a total of 10 marks.]\n\nThis question consists of three unrelated parts. Answers should be clear, concise and written in $\\textbf{COMPLETE}$ sentences. Answers longer than the length limits $\\textbf{WILL NOT BE MARKED}$. Attempting to reduce the size of your handwriting so that you can fit more in will likely make your handwriting unreadable, in which case you will be given $\\textbf{ZERO MARKS}$.\n\nPart I.\n\na. Is energy conserved in an inelastic collision? Why / why not? Give an example of how energy may be transferred in an inelastic collision. (Max 6 lines) (3 marks)\n\nPart II.\n\nElectricity transmission lines do not transmit energy perfectly, there are some losses because the power lines themselves have resistance.\n\nb. Draw a circuit diagram showing how a power station, the power lines and a single home would be connected. (1 mark)\n\nThe power dissipated by an element in a circuit is $P = IV$, where $I$ is the current flowing through the circuit element, and $V$ is the potential drop across the element (the potential drop would be negative for an element supplying power). For a resistor, the power dissipated can be written as $P = I^2R$ or $P = \\dfrac{V^2}{R}$.\n\nc. Given that the power station is providing a fixed amount of power, should the power station’s voltage output be increased or decreased (or does it not have any effect) to reduce the power losses due to the resistance of the transmission lines? Justify your answer. (Max 6 lines) (4 marks)\n\nPart III.\n\nd. When a positron (like an electron, but with positive charge) and an electron (negative charge) collide, they annihilate and produce light. Could a neutron (no charge) and an antiproton (like a proton, but with negative charge) annihilate and produce light? Why / why not? Justify your answer. (Max 4 lines) (2 marks)"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Section B",
+     "title": "Question 16",
+     "problem": "Question 16\n\n[Section B: Written Answer Questions. Attempt ONLY 4 questions. ONLY 4 questions will be marked. The marks for each question part are given, each question is worth a total of 10 marks.]\n\nHazel and Lilly decide to test the claims of compact fluorescent light bulb manufacturers in order to find out whether these devices really do save energy. To do this, they need to measure the energy used by a standard incandescent light bulb (which claims to consume energy at a rate of 100 W) in some time, and then compare this with the measured energy use of a compact fluorescent light bulb (which claims to consume energy at a rate of 18 W for the same light output) over the same time.\n\nBeing environmentally-minded, Hazel and Lilly don’t have many unnecessary devices in their home. Their only clock is a standard analogue wall clock with a second hand, and the only way that they can measure energy usage is to read their electricity meter, which can be read to a precision of ±0.1 kWh. The units on the meter, kWh, are kilowatt-hours; 1 kWh is the amount of energy that would be used by a device consuming 1000 W for one hour.\n\na. Write out a method for Hazel and Lilly to follow in their experiment that would allow them to test the power consumptions of the light bulbs. They are interested both in the relative consumption of the bulbs and the performance compared to the manufacturer’s claims. Include important details such as how, with what, for how long, etc., and detail any necessary calculations. (4 marks)\n\nb. Explain the major sources of uncertainty in Hazel and Lilly’s experiment, and hence estimate the precision of their final results. (3 marks)\n\nc. Suggest possible changes to this experiment that would increase the accuracy of their results, whilst using the same electricity meter. (1 mark)\n\nIt is sometimes claimed that it uses less power to leave a fluorescent light on than to switch it on and off many times during the course of the day.\n\nd. Explain what could be done to thoroughly test this claim using the previous apparatus and general method. Think about some of the factors to do with the switching that could affect the results. (2 marks)"
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA stone dropped from the roof of a single story building to the surface of the Earth:\n\nA) reaches a maximum speed quite soon after release and then falls at a constant speed thereafter.\n\nB) speeds up as it falls because the gravitational attraction gets considerably stronger as the plant gets closer to the earth.\n\nC) speeds up because of an almost constant force of gravity acting on it.\n\nD) falls because of the natural tendency of all objects to rest on the surface of the earth\n\nE) falls because of the combined effects of the force of gravity pushing it downward and the force of the air pushing it downward."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA wheelie bin by the side of the road is struck by an unobservant Volvo driver. The Volvo has a substantially greater mass than the wheelie bin and is moving rapidly because the driver wasn’t obeying the speed limit.\n\nDuring the collision:\n\nA) the Volvo exerts a greater amount of force on the wheelie bin than the wheelie bin exerts on the Volvo\n\nB) the wheelie bin exerts a greater amount of force on the Volvo than the Volvo exerts on the wheelie bin\n\nC) neither exerts a force on the other, the wheelie bin is crushed simply because the driver runs it over with the Volvo\n\nD) the Volvo exerts a force on the wheelie bin but the wheelie bin does not exert a force on the Volvo\n\nE) the Volvo exerts the same amount of force on the wheelie bin as the wheelie bin exerts on the Volvo"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nDavid exerts a constant horizontal force on a large box of files that have been left in the wrong place. As a result, the box moves across a horizontal floor at a constant speed $v_o$. The constant horizontal force applied by David:\n\nA) has the same magnitude as the weight of the box.\n\nB) is greater than the weight of the box.\n\nC) has the same magnitude as the total force which resists the motion of the box.\n\nD) is greater than the total force which resists the motion of the box.\n\nE) is greater than either the weight of the box or the total force which resists its motion."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nIf David, in the previous question, doubles the constant horizontal force that he exerts on the box to push it on the same horizontal floor, the box then moves:\n\nA) with a constant speed that is double the speed $v_o$ in the previous question.\n\nB) with a constant speed that is greater than the speed $v_o$ in the previous question, but not necessarily twice as great.\n\nC) for a while with a speed that is constant and greater than the speed $v_o$ in the previous question, then with a speed that increases thereafter.\n\nD) for a while with an increasing speed, then with a constant speed thereafter.\n\nE) with a continuously increasing speed"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nPeriodically, the sun develops relatively cool dark areas known as sunspots. Scientists have found that periods of high sunspot activity coincide with stormy periods on Earth. Hence sunspots cause storms on Earth.\n\nWhich of the following is the best statement of the flaw in the argument above?\n\nA) It disputes the fact that storms are the result of low-pressure systems in the Earth's atmosphere.\n\nB) It ignores the influence of periods of low sunspot activity on Earth's weather systems.\n\nC) It assumes that because sunspots and storms occur at the same time, sunspots cause storms.\n\nD) It overlooks the fact that there is always a storm somewhere on Earth.\n\nE) It ignores the fact that there are stormy periods in some areas but not in others while there is sunspot activity."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nThe positions of two joggers, Rachel and Jordan, are shown below. The joggers are shown at successive 0.20-second time intervals, and they are moving towards the right.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2008-1-6-fig1.png\n\nDo Rachel and Jordan ever have the same speed?\n\nA) No.\n\nB) Yes, at instant 2.\n\nC) Yes, at instant 5.\n\nD) Yes, at instants 2 and 5\n\nE) Yes, at some time during the interval 3 to 4."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nThe positions of two joggers, Rachel and Jordan, are represented below at successive equal time intervals. The joggers are moving towards the right.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2008-1-7-fig1.png\n\nThe accelerations of the joggers are related as follows:\n\nA) The acceleration of Rachel is greater than the acceleration of Jordan.\n\nB) The acceleration of Rachel equals the acceleration of Jordan. Both accelerations are greater than zero.\n\nC) The acceleration of Jordan is greater than the acceleration of Rachel.\n\nD) The acceleration of Rachel equals the acceleration of Jordan. Both accelerations are zero.\n\nE) Not enough information is given to answer the question."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nLara has her baby weighed at an early childhood centre every four weeks. The uncertainty in the measurement is 50g. At four weeks old the baby’s weight is measured as 3.20 kg. At eight weeks old the baby’s weight is measured as 4.05 kg. The baby’s weight gain in this four week period is therefore:\n\nA) 0.85 kg ± 0.025 kg\n\nB) 0.85 kg ± 0.05 kg\n\nC) 0.85 kg ± 0.1 kg\n\nD) 0.9 kg ± 0.1 kg\n\nE) 0.90 kg ± 0.10 kg"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nLara has her baby weighed at an early childhood centre every four weeks. The uncertainty in the measurement is 50g. At four weeks old the baby’s weight is measured as 3.20 kg. At eight weeks old the baby’s weight is measured as 4.05 kg. The baby’s average weight gain per week in this four week period is therefore:\n\nA) 0.21 kg ± 0.01 kg\n\nB) 0.21 kg ± 0.03 kg\n\nC) 0.21 kg ± 0.05 kg\n\nD) 0.2 kg ± 0.03 kg\n\nE) 0.2 kg ± 0.1 kg"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nMark mixes two chemicals, X and Y, to produce a third chemical, Z, in a large bucket. Initially the reaction is very fast, and the concentration of Z increases rapidly. The rate at which concentration increases slows down as the amounts of X and Y decrease, and the concentration of Z reaches a steady state. Mark then adds a third substance, Q, which binds the substance Z, decreasing its concentration until it again reaches a steady state concentration. Finally Mark empties the bucket down the sink because it turned the wrong colour anyway.\n\nWhich graph shows the concentration of Z as a function of time?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2008-1-10-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\n[Section B: Written Answer Questions. Attempt any 4 questions, ONLY 4 questions will be marked. The marks for each question and each question part are given.]\n\nA stunt elephant in a circus leaps from a platform to land some tens of metres on a mattress below. Halfway down the elephant opens a parachute, slowing its descent slightly. In this question you are asked to draw free body diagrams. A free body diagram is a diagram which shows the forces, and $\\textit{only}$ the forces, acting $\\textit{on}$ the body of interest.\n\na. Draw a free body diagram showing the forces acting on the elephant immediately after it has jumped from the platform, but before the parachute has opened. Indicate the relative sizes of the forces acting by the length of the arrows representing the forces. (2 marks)\n\nb. Draw a free body diagram showing the forces acting on the elephant after the parachute has opened, but before the elephant touches the mattress. Indicate the relative sizes of the forces acting by the length of the arrows representing the forces. (2 marks)\n\nc. Draw a free body diagram showing the forces acting on the elephant after the elephant touches the mattress but before it comes to a complete stop. Indicate the relative sizes of the forces acting by the length of the arrows representing the forces. (2 marks)\n\nd. Sketch a plot of the nett force acting on the elephant as a function of time from the time it jumps from the platform until it comes to rest on the mattress. Label all relevant events on the sketch, such as the time the parachute opens, the time the elephant touches the mattress and the time it comes to a rest. (4 marks)"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\n[Section B: Written Answer Questions. Attempt any 4 questions, ONLY 4 questions will be marked. The marks for each question and each question part are given.]\n\nA businessman (who used to want to be a physicist, but wasn’t very good it it) decides to take up something simpler and gets a job filling balloons with air for a living. Instead of wasting money buying tanks of air, he compresses air from around the house using a compressor obtained from a scrapyard. The air tanks are filled with air from different places in the house. One day, two tanks are filled, one with fresh wintry garden air, and the other with hot, humid air from the post-shower bathroom. The inbuilt densit-o-matic air density meter on the compressor indicates that the air in the bathroom is less dense than the air in the garden.\n\na. Using the ideal gas law, explain why both the higher temperature and the higher humidity contribute to the decrease in air density. Hint: consider two equal volumes of air at the same pressure. (2 marks)\n\nHe fills two balloons, one from each tank, after sufficient time has elapsed that the air is now all at the same temperature. An equal number of moles of air is placed in each balloon.\n\nb. Comment with explanation on the relative sizes of the balloons. (2 marks)\n\nc. Comment with explanation on the relative masses of the balloons. (2 marks)\n\nAs a new party toy, the electric balloon cannot be beaten! A balloon is filled with $n$ moles of air and a resistor of resistance $R$ is inserted before the balloon is sealed, leaving the connections to each end dangling free. When it comes time to liven up the party, the terminals are connected to a battery.\n\nd. Explain what happens to the balloon when the battery is connected. (1 mark)\n\nAs the skin of the balloon stretches, the pressure inside the balloon changes according to $\\boldsymbol{P=rG}$ where $G$ is a constant and $r$ is the radius of the balloon over the range of interest. The heat capacity (ratio of the heat added to the change in temperature of the gas) can be assumed to be a constant $C$ over the same range.\n\ne. Find the rate of change of the radius of the balloon as a function of its radius and constant quantities when a voltage $V$ is applied to the resistor. (3 marks)"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\n[Section B: Written Answer Questions. Attempt any 4 questions, ONLY 4 questions will be marked. The marks for each question and each question part are given.]\n\nSimon is making a cup of hot chocolate. He puts some water into his kettle and turns it on. Water has a specific heat capacity of 4.2 kJ per kg, which means that it takes 4.2 kJ to heat 1 kg of water by 1K. The kettle draws 10A and is plugged into a normal (240V) wall socket.\n\na. How long will it take for the kettle to boil 200 ml of water? Assume the water starts at $20^{\\circ}$C. $\\textit{Briefly}$ explain any other assumptions or approximations you make. (4 marks)\n\nb. What is the resistance of the kettle? (1 mark)\n\nSimon mixes chocolate powder with the 200 ml of hot water to make hot chocolate. The hot chocolate is at a temperature $T_{HC}$ = 90ºC. Simon doesn’t want to burn his tongue and is impatient to drink his hot chocolate, so he adds 50ml of cold milk at a temperature $T_m$ = 4ºC.\n\nc. Find the new temperature of the hot chocolate once the milk has mixed in completely. $\\textit{Briefly}$ explain any assumptions or approximations you make. (3 marks)\n\nSimon, being an enthusiastic science student and a cautious hot chocolate drinker, decides to measure the temperature of his hot chocolate using a liquid-in-glass thermometer like the one below. He measures the temperature as 70ºC.\n\nd. Is this consistent with your answer to part b? Why or why not? What else could have happened to change the temperature of the hot chocolate? (2 marks)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2008-2-3-fig1.png\n\nUseful Information\n\n0ºC = 273K\n\nDensity of water: 1g/ml"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\n[Section B: Written Answer Questions. Attempt any 4 questions, ONLY 4 questions will be marked. The marks for each question and each question part are given.]\n\nA capacitor is a component used in many electric circuits that stores charge using an electric field. They are used, for example, in photocopiers that can do clever things like stapling and duplexing, but only if you are clever enough to know which buttons to push. The potential difference, $V$, across a capacitor is $q/C$ where $q$ is the charge stored in the capacitor and $C$ is the capacitance, a property that depends on the individual capacitor.\n\nA type of capacitor, called a parallel plate capacitor, is shown in the diagram below. It consists of two parallel conducting plates on which charge can be stored. These are attached to wires that connect the capacitor to the rest of the circuit. The plates are very large compared to the distance between them, so they can be considered infinite to a good approximation. You may ignore what happens at the edges of the plates in this question.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2008-2-4-fig1.png\n\na. Draw an electric field diagram showing the field due to the positive charge on the top plate. (1.5 marks)\n\nb. Draw an electric field diagram showing the field due to the negative charge on the bottom plate. (1.5 marks)\n\nc. Using the superposition of the two fields sketched in parts a and b, draw an electric field diagram showing the total field in and around the parallel plate capacitor. (2 marks)\n\nA capacitor with capacitance $C$ and charge $q$ on the positive plate is connected to a circuit of resistance $R$ such that current is allowed to flow, thus reducing the charge on each plate.\n\nd. Find the current when the circuit is first connected. (2 marks)\n\ne. Assuming the current is constant, how long before there is no charge left on the plates? (2 marks)\n\nf. Given the physical situation, will the current actually be constant? Why or why not? (1 mark)"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Section B",
+     "title": "Question 15",
+     "problem": "Question 15\n\n[Section B: Written Answer Questions. Attempt any 4 questions, ONLY 4 questions will be marked. The marks for each question and each question part are given.]\n\nLucy likes to sing and sing. She can sing anywhere, she can sing anything. She can sing in an airport, a lab or a house, and when she’s not singing she’s quiet as a mouse. She can sing for a day, a minute or hour, she especially likes to sing in the shower.\n\nA wave with wavelength $\\lambda$, period $T$ and amplitude $A$ travels in the positive $x$ direction.\n\na. Sketch the wave at time $t = 0$ marking any relevant quantities on the axes. On the same axes also sketch the wave at $t = \\frac{3}{4}T$. Make sure to label which wave occurs at which time. (2 marks)\n\nb. Derive, showing all your working, the relationship between the wavelength, frequency and speed of the wave: $v = f\\lambda$. Referring to your answer from part a will be helpful. (2 marks)\n\nLucy is such a talented singer that she has perfect pitch and can sing any pure note that she wants to. Lucy stands a short distance in front of the mirror and sings a pure note such that where she is standing she hears a reduced volume of the note due to interference between the note as she sings it and as it is reflected back to her.\n\nLucy, apart from being a talented singer, is also a very good physicist. She sings a series of pure notes and records how far she is from the mirror for each note when she finds the first quiet spot from the mirror. Her data is given below.\n\n$$\\begin{array}{l|c|c|c|c|c|c} \\text{note} & \\text{A} & \\text{B} & \\text{C} & \\text{D} & \\text{E} & \\text{F} \\\\ \\hline \\text{frequency (Hz)} & 440 & 494 & 523 & 587 & 659 & 698 \\\\ \\hline \\text{distance (m)} & 0.39 & 0.36 & 0.33 & 0.30 & 0.28 & 0.24 \\end{array}$$\n\nc. Plot an appropriate graph on the graph paper provided and find the velocity of sound in Lucy’s bathroom. (6 marks)"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Section B",
+     "title": "Question 16",
+     "problem": "Question 16\n\n[Section B: Written Answer Questions. Attempt any 4 questions, ONLY 4 questions will be marked. The marks for each question and each question part are given.]\n\nKate and Mary are sliding down the slippery slope of despair which can be considered frictionless to a good approximation. The shape of the slope is shown in the diagram. Kate has mass $m_K$ = 70kg and starts from rest at the top of the slope. Mary has mass $m_M$ = 60kg and sits on the flat part of the slide, 1m above the ground.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2008-2-6-fig1.png\n\na. How fast is Kate travelling when she reaches Mary? (3 marks)\n\nWhen Kate reaches Mary they collide and continue moving down the slide together.\n\nb. How fast are Kate and Mary travelling now? (2.5 marks)\n\nAt the bottom of the slope is the gravel track of doom which is inclined at an angle of 25º to the horizontal. When friction acts on a body sliding down a rough slope, such as the gravel track of doom, the frictional force is given by $F = \\mu N$ where $N$ is the normal force on the body due to the surface along which it is sliding, and $\\mu$ is the coefficient of friction for those two surfaces, usually determined experimentally.\n\nc. Explain how you could experimentally determine the coefficient of friction between the disillusioned and the track. Include in your explanation what measurements you would make, how you would minimise uncertainties in the measurements and how you would use your measurements to find $\\mu$. (4.5 marks)"
+    }
+   ]
+  },
+  {
+   "year": 2009,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2009-1-1-fig1.png\n\nA large container ship is coming in to port and must be pushed by a tugboat. While the tug and the container ship being pushed are speeding up to cruising speed,\n\n(A) the amount of force with which the tug pushes against the container ship is equal to the amount of force with which the container ship pushes back against the tug.\n\n(B) the amount of force with which the tug pushes against the container ship is smaller than the amount of force with which the container ship pushes back against the tug.\n\n(C) the amount of force with which the tug pushes against the container ship is greater than the amount of force with which the container ship pushes back against the tug.\n\n(D) the tug’s engine is running so the tug pushes against the container ship, but the container ship’s engine is not running so it can’t push back against the tug.\n\n(E) neither the tug nor the container ship exert any force on the other. The container ship is pushed forward simply because it is in the way of the tug."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2009-1-2-fig1.png\n\nA large container ship is coming in to port and must be pushed by a tugboat. After the tug and the container ship being pushed have reached a constant cruising speed,\n\n(A) the amount of force with which the tug pushes against the container ship is equal to the amount of force with which the container ship pushes back against the tug.\n\n(B) the amount of force with which the tug pushes against the container ship is smaller than the amount of force with which the container ship pushes back against the tug.\n\n(C) the amount of force with which the tug pushes against the container ship is greater than the amount of force with which the container ship pushes back against the tug.\n\n(D) the tug’s engine is running so the tug pushes against the container ship, but the container ship’s engine is not running so it can’t push back against the tug.\n\n(E) neither the tug nor the container ship exert any force on the other. The container ship is pushed forward simply because it is in the way of the tug."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nIf $y=mx+b$ then a plot of $y$ versus $x$ is a straight line with slope $m$. For the next two questions, consider the equation\n$$l+l_0=\\frac{2n-1}{4}\\frac{v_s}{f}\\ .$$\n\nWhat is the slope of a plot of $\\dfrac{1}{f}$ versus $l$? Assume that the other quantities in the equation above are constant.\n\n(A) $\\dfrac{2n-1}{4}v_s$\n\n(B) $\\dfrac{l_0}{v_s}\\dfrac{4}{2n-1}$\n\n(C) The plot will not be a straight line.\n\n(D) $\\dfrac{4}{2n-1}\\dfrac{1}{v_s}$\n\n(E) $\\dfrac{2n-1}{4}(1-l_0)v_s$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nIf $y=mx+b$ then a plot of $y$ versus $x$ is a straight line with slope $m$. For the next two questions, consider the equation\n$$l+l_0=\\frac{2n-1}{4}\\frac{v_s}{f}\\ .$$\n\nWhat is the slope of a plot of $f$ versus $\\dfrac{1}{l}$? Assume that the other quantities in the equation above are constant.\n\n(A) $\\dfrac{2n-1}{4}v_s$\n\n(B) $\\dfrac{l_0}{v_s}\\dfrac{4}{2n-1}$\n\n(C) The plot will not be a straight line.\n\n(D) $\\dfrac{4}{2n-1}\\dfrac{1}{v_s}$\n\n(E) $\\dfrac{2n-1}{4}(1-l_0)v_s$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA large chicken catches a lightweight paper plane while both are in midair. Which of the chicken and the paper plane undergoes the smaller change in momentum?\n\n(A) The chicken does.\n\n(B) The paper plane does.\n\n(C) The change in momentum is the same for both the chicken and the paper plane.\n\n(D) You can’t tell without knowing the final velocity of the combined chicken-plane mass.\n\n(E) The result depends on the energy absorbed by the crumpling of the paper plane in the chicken’s beak."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nSomeone analysing an electric circuit obtains the equations\n\n$$\\begin{aligned} 10\\,\\mathrm{V}-I_1(15\\,\\Omega)-I_3(5\\,\\Omega) &= 0\\ , \\\\ 2\\,\\mathrm{V}-I_1(5\\,\\Omega)-I_3(7\\,\\Omega) &= 0\\ , \\\\ I_1+I_3 &= I_2\\ . \\end{aligned}$$\n\nNote that V is the unit volts, and $\\Omega$ is the unit Ohms. How do the $\\textbf{magnitudes}$ of the three currents $I_1$, $I_2$ and $I_3$ compare?\n\n(A) $|I_3|>|I_1|>|I_2|$\n\n(B) $|I_2|>|I_3|>|I_1|$\n\n(C) $|I_2|>|I_1|>|I_3|$\n\n(D) $|I_1|>|I_3|>|I_2|$\n\n(E) $|I_1|>|I_2|>|I_3|$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nIf you look through a piece of red-tinted glass, everything is seen in shades of red. Similarly, if you look through a piece of blue-tinted glass, everything will be seen in shades of blue. Consider the following statements:\n\n(I) The tinting process makes the glass absorb the corresponding colour, i.e. red-tinted glass strongly absorbs red light, making everything appear red.\n\n(II) The tinting process makes the glass absorb all colours except the corresponding colour, i.e. red-tinted glass will strongly absorb blue and green, but not red.\n\n(III) If you stack the red and blue tinted pieces of glass and look through them, everything will look quite dark.\n\nWhich of these statements is/are true?\n\n(A) I and II\n\n(B) I and III\n\n(C) II and III\n\n(D) I only\n\n(E) II only"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA teacher collects science projects from a class and finds that one page has fallen out. All that it contains is this plot without any axis labels or scales.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2009-1-8-fig1.png\n\nSince the plot was unlabeled the teacher has to ask the class if anyone thinks it is theirs to work out whose assignment it came from. Even though they won’t get many marks for an unlabeled plot five students claim it as their work, making the following statements. To whom does it belong?\n\n(A) I plotted the number of birds on the island versus time over many years. The number was constant for the first few years but then decreased greatly over a single year because of a disease. After that the number increased more slowly until eventually it was greater than it had originally been.\n\n(B) I plotted the height of a swing above the ground against horizontal distance.\n\n(C) I plotted the volume of water in a jug as I poured out a glass of water, then stopped pouring, then poured another and so on until I had poured four glasses and then filled up the jug from the tap so it had enough water for another four glasses.\n\n(D) I added different masses of compound A to some of compound B so the total initial mass was fixed and measured how much of A was left after they reacted. I plotted the amount of A left against the amount of A I added. When I only added a little A there wasn’t much left at the end, but as I added more the amount left first increased and then decreased before increasing again.\n\n(E) I plotted the temperature of my water and ice mixture versus time. First I had room temperature water, then I added ice and stirred until the mixture reached $0\\,^{\\circ}\\mathrm{C}$. It stayed at $0\\,^{\\circ}\\mathrm{C}$ until the ice had all melted and then slowly increased back up to room temperature."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nDelightra and her sister Gladell bought a new book together, and are arguing over who gets to read it first. Gladell offers to toss a coin, but Delightra is suspicious because Gladell seems to have been winning coin tosses an awful lot lately. Delightra says “Gladell, you’re a cheat. Whatever I call, you know whether to catch it just a bit earlier or not to make sure that you win. Your coin always spins at the same rate, and you must know exactly what position to catch it.” Gladell is outraged, and replies “I can’t believe you think I’m cheating! Yes, my coin always spins at the same rate, but that doesn’t make me a cheat. You’re just jealous because I’m luckier than you!”\n\nAfter complaining to her physicist mother, and making her mother observe one of Gladell’s coin tosses, Delightra is told that it is completely implausible for Gladell to be cheating in this manner, as the coin rotates once for each coin-length it moves upwards. Which of the following is the best explanation of why?\n\n(A) Although Gladell can flip the coin to the same height each time and accurately judge this height, quantum mechanics tells us that there will be some inherent uncertainty in the coin’s and her hand’s position, and the sum of these is greater than a coin length so the coin may flip an extra time.\n\n(B) Even if Gladell tries to flick the coin exactly the same way each time, the small differences in the initial vertical velocity mean that the height of the toss isn’t accurate to within a coin length, so it might flip an extra time before she catches it.\n\n(C) Because the coin rotates once per coin length, the chaotic eddy currents in the air slow the coin’s spin, so although Gladell can get the position right to within a coin length, the coin may have flipped an extra time.\n\n(D) Although Gladell can flick the coin to the same height within a coin length each time, she cannot measure that constant height to within a coin length and so she can’t calculate where to put her hand.\n\n(E) Even if Gladell flicks the coin to the same height within a coin length each time, she will give it some slight horizontal velocity, so the time for which the coin is in the air changes and it might flip an extra time before she catches it."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nAn equation is dimensionally correct if the quantities on both sides have the same physical dimensions, e.g. length (L), mass (M), time (T), and combinations. For example, distance, $d$, is a length and speed, $v$, is a length per unit time, so $d=vt$ is dimensionally correct if $t$ represents a time. Equations cannot be physically correct unless they are dimensionally correct.\n\nThe average speed $v$ of a particle in an ideal gas depends only on the mass of the particle $m$, the pressure $P$, and the number density (number of particles per unit volume) $n$ of particles in the gas. Pressure has the dimensions $\\mathrm{M\\,L^{-1}\\,T^{-2}}$. Which of the following equations is dimensionally correct?\n\n(A) $v=\\left(\\dfrac{nm}{P}\\right)^{1/2}$\n\n(B) $v=\\dfrac{P}{nm^{2/3}}$\n\n(C) $v=\\left(\\dfrac{P}{nm}\\right)^{1/2}$\n\n(D) $v=Pnm$\n\n(E) $v=\\left(\\dfrac{Pm}{n}\\right)^{1/2}$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSuggested time: 15 minutes\n\nA solid object floats in water if its average density is less than that of water. If its average density is greater than the density of water it sinks. If its average density is equal to that of water then it has no nett force acting on it when it is submerged.\n\nA boy floating in a swimming pool notices that he can float easily if he holds his breath but that as he breathes out, no matter how slowly he does it, he ends up just under water once he has finished exhaling. If he breathes out by blowing a fast stream of air directly upwards he goes under water even sooner and ends up further under water and is still moving down towards the bottom of the pool after he has finished exhaling.\n\nThe difference between the volume of air in his lungs when full and empty is $V_l$ and he has mass $m$. The density of water is $\\rho_w$ and the density of air is much less than water.\n\n(a) Draw a free body diagram showing the forces acting on the boy when his lungs are empty after breathing out slowly. Indicate the magnitude of the forces acting on the boy by the size of the arrows you draw to represent the forces.\n\n(b) What is the boy’s average density when his lungs are empty? Explain your answer.\n\n(c) What is the boy’s average density when his lungs are full?\n\n(d) Draw a free body diagram of the boy as he is moving downwards just after he finished emptying his lungs by blowing a fast stream of air upwards. Again indicate the magnitude of the forces acting on the boy by the size of the arrows you draw to represent the forces.\n\n(e) Why does the boy end up further under water in this case?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSuggested time: 25 minutes\n\nBen has built a toy car. He has worked hard at reducing the friction in the wheels, so much so that it can be considered negligible. The car is, however, subject to a drag force $F_d=\\kappa v^2$ where $v$ is the speed of the car and $\\kappa=0.030\\,\\mathrm{kg\\,m^{-1}}$. The car has mass $m=2.5\\,\\mathrm{kg}$ and cross-sectional area $A=0.06\\,\\mathrm{m^2}$. Take the acceleration due to gravity to be $g=9.8\\,\\mathrm{m\\,s^{-2}}$.\n\nBen places the car at the top of a ramp of length $s=1.2\\,\\mathrm{m}$ inclined at an angle $\\theta=30^\\circ$ to the horizontal. He pushes it for time $t=0.25\\,\\mathrm{s}$ with a force such that the nett force acting on the car is $F_p=20.0\\,\\mathrm{N}$. He then lets the car travel down the ramp and along a flat track.\n\n(a) Consider the car at time $t$, when Ben stops pushing and find\n(i) $v_t$, the speed of the car and\n(ii) $s_t$, the distance the car has traveled.\n\n(b) Find an expression for $v_b$, the speed of the car when it reaches the bottom of the ramp. Drawing a free body diagram of the car will help you. Note that $v_b$ is approximately $4\\,\\mathrm{m\\,s^{-1}}$.\n\n(c) After he has released the car, Ben notices that there is a large block on the track, a distance $d=12.5\\,\\mathrm{m}$ from the bottom of the ramp. Find $v$, the velocity of the car when it hits the block.\n\nUseful Information\n\nIf the acceleration of a body, $a$, is related to the velocity by $a=kv^2$, the velocity is related to the position, $x$ by $v=le^{kx}$ for some constant, $l$.\n\nIn physics it is often useful to make approximations. This can simplify your calculations, and if the approximation you make is appropriate, it won’t change your result appreciably. For example, if you know that $A=B+C$ and that $C$ is much, much smaller than $B$, you may be able to say that $A=B$ and get the same result as you would have using $A=B+C$. If you make an approximation you must demonstrate that it is valid."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSuggested time: 15 minutes\n\nElizabeth wants to find the gravitational field strength in her bedroom using a pendulum. The equation she will use assumes that the pendulum consists of a massless string attached at one end to a fixed point and at the other to a point mass, that is a mass that has no volume. It also assumes that the angle between the string and the vertical is always small.\n\nShe takes a hair ribbon, about $20\\,\\mathrm{cm}$ long, measures it with a ruler and then ties one end to her hair brush. She realises that she doesn’t have enough hands to do the experiment on her own, so she asks her sister Claire to hold the other end of the ribbon. Elizabeth asks Claire to rest her arm on a book case to make sure that she holds the ribbon very still. This forms Elizabeth’s pendulum.\n\nElizabeth pulls the hair brush to the side and counts that it passes four thick books as she pulls it. She then releases it and lets it swing. She gets out her mobile phone and uses the stopwatch on it to time the pendulum. She times ten periods instead of one because she thinks this will be more accurate. She watches to see when the pendulum reaches the fourth book because it is moving very slowly here so she has more time to press the button on her phone.\n\nThinking that she’ll get a better result if she takes more data and plots a graph, she repeats the experiment with ribbons of different lengths, pulling it past the same four thick books before letting it go each time.\n\n(a) Consider Elizabeth’s experimental method. What did she do that could have adversely affected her results? Suggest a simple modification to the experiment that could solve each problem.\n\n(b) Estimate the percentage uncertainty in the length for a $20\\,\\mathrm{cm}$ ribbon and for a $1\\,\\mathrm{m}$ ribbon using Elizabeth’s original method. Repeat the estimate for your revised method, if it is different."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSuggested time: 30 minutes\n\nJoseph wants to measure the $\\textit{latent heat of vaporization}$ of substance X, which is the amount of energy required per unit mass to turn substance X from a liquid to a gas at its boiling point. He begins by putting approximately $200\\,\\mathrm{mL}$ of liquid X in a beaker on a combined hotplate and scale. He inserts a thermometer, turns on the hotplate at $t=0\\,\\mathrm{min}$ and records the liquid’s temperature as well as the combined mass of the liquid, beaker and thermometer every minute. After 24 minutes, there is no more liquid in the beaker. Joseph’s results are shown in the table below.\n\n$$\\begin{array}{|c|ccccccccc|} \\hline \\text{Time (min)} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\\\ \\hline \\text{Temperature } (^{\\circ}\\mathrm{C}) & 24 & 25 & 28 & 37 & 50 & 64 & 77 & 90 & 102 \\\\ \\hline \\text{Mass (g)} & 310 & 310 & 310 & 310 & 310 & 310 & 310 & 310 & 310 \\\\ \\hline \\end{array}$$\n\n$$\\begin{array}{|c|ccccccccc|} \\hline \\text{Time (min)} & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 \\\\ \\hline \\text{Temperature } (^{\\circ}\\mathrm{C}) & 113 & 124 & 134 & 143 & 152 & 158 & 160 & 160 & 159 \\\\ \\hline \\text{Mass (g)} & 310 & 310 & 307 & 307 & 305 & 302 & 288 & 264 & 241 \\\\ \\hline \\end{array}$$\n\n$$\\begin{array}{|c|ccccccc|} \\hline \\text{Time (min)} & 18 & 19 & 20 & 21 & 22 & 23 & 24 \\\\ \\hline \\text{Temperature } (^{\\circ}\\mathrm{C}) & 160 & 160 & 160 & 161 & 160 & 161 & \\text{-} \\\\ \\hline \\text{Mass (g)} & 214 & 190 & 165 & 138 & 110 & 79 & 69 \\\\ \\hline \\end{array}$$\n\nJoseph notices that the temperature increases at a different rate at different temperatures. To show this variation, he plots the difference between two successive temperature measurements divided by the time between them, i.e. the rate of change of the temperature, versus the temperature at the first of these measurement times. His graph (Graph 1) is shown over the page, along with a graph (Graph 2) of the temperature of the liquid as a function of time.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2009-2-4-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2009-2-4-fig2.png\n\n(a) Explain the shape of Graph 1, by giving reasons for the initial increase, the gradual decline over a wide temperature range and the sharp decrease near $160\\,^{\\circ}\\mathrm{C}$. (Hint: Graph 2 might help you interpret the regions of Graph 1.)\n\n(b) By drawing an appropriate graph, find the average rate at which liquid X boils, in $\\mathrm{kg\\,min^{-1}}$.\n\n(c) In a previous experiment, Joseph measured the specific heat capacity of liquid X to be $2.19\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}}$. This means that it takes $2.19\\,\\mathrm{kJ}$ of energy to raise the temperature of $1\\,\\mathrm{kg}$ of liquid X by $1\\,\\mathrm{K}$ (which is equal to $1\\,^{\\circ}\\mathrm{C}$).\n(i) Pick the point on Graph 1 that gives the most information about the rate at which heat is transferred to the liquid at its boiling point. Explain how you chose this point and why it is the most appropriate.\n(ii) Using the information above and your answer to part (i), find the power being transferred to liquid X as it boils, in $\\mathrm{kJ\\,min^{-1}}$.\n\n(d) Using your answers to the previous parts, find the latent heat of vaporization of substance X, in $\\mathrm{kJ\\,kg^{-1}}$."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Section B",
+     "title": "Question 15",
+     "problem": "Question 15\n\nSuggested time: 20 minutes\n\nThe intensity, power per unit area, of light falling on a surface in three dimensions can be understood by thinking about light rays coming from a point source in all directions. The total power of the light falling on a given surface is proportional to the number of rays hitting that surface. The intensity at some point is therefore proportional to the density of the rays, or how many rays pass through a given area. The total number of rays leaving the point source depends only on the total power emitted by that source.\n\nOne of the consequences of this is that the intensity due to a single point source is inversely proportional to the square of the distance from the source,\n$$I\\propto P_0\\frac{1}{r^2}\\ , \\tag{1}$$\nwhere $P_0$ is the power emitted by the source. This is because at radius $r$, a constant number of rays must be spread over an area of $4\\pi r^2$ (the surface area of the sphere of radius $r$), giving a density of rays proportional to $P_0/(4\\pi r^2)$.\n\n(a) How would intensity depend on distance in a universe with only two spatial dimensions, like a sheet of paper? Explain your answer.\n\nThis concept works for some other physical quantities, such as electric field lines. The same arguments apply; the strength of the electric field due to a single point charge is inversely proportional to the square of the distance from the charge $Q$. The electrostatic force on an object with charge $q$ due to the electric field of a point charge $Q$ is\n$$F=\\frac{qQ}{4\\pi\\epsilon_0r^2}\\ , \\tag{2}$$\nwhere $\\epsilon_0$ is a constant. Charges of opposite sign attract, and charges of the same sign repel one another.\n\n(b) An object will move in uniform circular motion only if a centripetal force (i.e. a force acting towards the centre of the circle) is applied. The size of this force must be\n$$F=\\frac{mv^2}{R}, \\tag{3}$$\nwhere $m$ is the mass of the object, $v$ is its speed and $R$ is the radius of the circle.\nIf an electron with mass $m_e$ and charge $-e$ orbits a helium nucleus with charge $2e$ at radius $R$, what will the orbital speed of the orbit be? Assume that the orbit is circular.\n\n(c) If two electrons are orbiting the helium nucleus, still at radius $R$, will their orbital speed be larger or smaller than that of a single electron orbiting? Explain your answer."
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA large hefty chicken and a small light quail, both flying in midair, have the same kinetic energy. Which of the following statements is true?\n\n(A) The chicken has a greater speed than the quail.\n\n(B) The quail has a greater speed than the chicken.\n\n(C) The chicken and the quail have the same speed.\n\n(D) Nothing can be inferred, the kinetic energy has nothing to do with the speed.\n\n(E) The direction of the quail and the chicken must be taken into account before a decision can be made."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe large hefty chicken and a small light quail, still both flying in midair with the same kinetic energy, fly directly at each other and collide head-on due to a joint navigational error, and briefly become one fowl object. Which of the following statements is true in the instant after the collision?\n\n(A) The object moves in the same direction as the chicken’s original motion.\n\n(B) The object moves in the same direction as the quail’s original motion.\n\n(C) The object stops dead in the air.\n\n(D) As soon as they collide they move downward with velocity $9.8\\,\\mathrm{m\\,s^{-1}}$.\n\n(E) It depends on how hard the chicken hits the quail."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nLucy is measuring the acceleration due to gravity in Melbourne by dropping a ball through a vertical distance $1.00\\,\\mathrm{m}$ and timing how long it takes. The ball starts at rest, and Lucy times its fall four times. The results are: $0.47\\,\\mathrm{s}$, $0.42\\,\\mathrm{s}$, $0.48\\,\\mathrm{s}$ and $0.41\\,\\mathrm{s}$. The uncertainty in her distance measurement is $1\\,\\mathrm{cm}$ and the uncertainty in the timer is $0.01\\,\\mathrm{s}$. What is the value of $g$ from Lucy’s experiment?\n\n(A) $8.68\\,\\mathrm{m\\,s^{-2}}$\n\n(B) $9.81\\,\\mathrm{m\\,s^{-2}}$\n\n(C) $9.88\\,\\mathrm{m\\,s^{-2}}$\n\n(D) $10.1\\,\\mathrm{m\\,s^{-2}}$\n\n(E) $11.3\\,\\mathrm{m\\,s^{-2}}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\n[This question continues Question 3.]\n\nThe uncertainty in this value of $g$ is\n\n(A) at least $0.01\\,\\mathrm{m\\,s^{-2}}$ and at most $0.03\\,\\mathrm{m\\,s^{-2}}$.\n\n(B) more than $0.03\\,\\mathrm{m\\,s^{-2}}$ but at most $0.1\\,\\mathrm{m\\,s^{-2}}$.\n\n(C) more than $0.1\\,\\mathrm{m\\,s^{-2}}$ but at most $0.4\\,\\mathrm{m\\,s^{-2}}$.\n\n(D) more than $0.4\\,\\mathrm{m\\,s^{-2}}$ but at most $0.6\\,\\mathrm{m\\,s^{-2}}$.\n\n(E) more than $0.6\\,\\mathrm{m\\,s^{-2}}$ but at most $2\\,\\mathrm{m\\,s^{-2}}$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe equation below gives the expected lifetime, $L$, of a rooster in a Kate’s chicken yard once it has begun crowing. Note that all variables (including $L$) are positive, and the angle $\\theta$ (which represents the angular height of the sun at 7 am) varies between $0^\\circ$ and $90^\\circ$.\n\n$$L=\\frac{TN}{(V-S)\\cos\\theta}$$\n\nWhich of the following will increase the life expectancy of a rooster in Kate’s chicken yard?\n\n(A) Decreasing $T$\n\n(B) Increasing $V$\n\n(C) Decreasing $S$\n\n(D) Decreasing $\\theta$\n\n(E) None of the above"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2010-1-6-fig1.png\n\nA large train has ended up on the road and a small car is pushing it back to the tracks. While the small car and the large train being pushed are speeding up to cruising speed,\n\n(A) the amount of force with which the small car pushes against the large train is equal to the amount of force with which the large train pushes back against the small car.\n\n(B) the amount of force with which the small car pushes against the large train is smaller than the amount of force with which the large train pushes back against the small car.\n\n(C) the amount of force with which the small car pushes against the large train is greater than the amount of force with which the large train pushes back against the small car.\n\n(D) the small car’s engine is running so the small car pushes against the large train, but the large train’s engine is not running so it can’t push back against the small car.\n\n(E) neither the small car nor the large train exert any force on the other. The large train is pushed forward simply because it is in the way of the small car."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2010-1-7-fig1.png\n\nA large train has ended up on the road and a small car is pushing it back to the tracks. After the small car and the large train being pushed have reached a constant cruising speed,\n\n(A) the amount of force with which the small car pushes against the large train is equal to the amount of force with which the large train pushes back against the small car.\n\n(B) the amount of force with which the small car pushes against the large train is smaller than the amount of force with which the large train pushes back against the small car.\n\n(C) the amount of force with which the small car pushes against the large train is greater than the amount of force with which the large train pushes back against the small car.\n\n(D) the small car’s engine is running so the small car pushes against the large train, but the large train’s engine is not running so it can’t push back against the small car.\n\n(E) neither the small car nor the large train exert any force on the other. The large train is pushed forward simply because it is in the way of the small car."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2010-1-8-fig1.png\n\nThe figure above shows a frustum of a cone. Which of the expressions gives the area of the curved surface?\n\n(A) $\\pi(r_1+r_2)[h^2+(r_2-r_1)^2]^{1/2}$\n\n(B) $2\\pi(r_1+r_2)$\n\n(C) $\\pi h(r_1^2+r_1r_2+r_2^2)/3$\n\n(D) $\\pi(r_1^2+r_2^2)$\n\n(E) $\\pi h(r_1+r_2)$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nSomeone analysing an electric circuit obtains the equations\n\n$$\\begin{aligned} I_1(3\\,\\Omega)-I_2(6\\,\\Omega) &= 7\\,\\mathrm{V}\\ , \\\\ I_1(2\\,\\Omega)+I_3(3\\,\\Omega) &= 28\\,\\mathrm{V}\\ , \\\\ I_2(2\\,\\Omega)+I_3(1\\,\\Omega) &= 17\\,\\mathrm{V}\\ . \\end{aligned}$$\n\nNote that V is the unit volts, and $\\Omega$ is the unit Ohms. $I_1$, $I_2$ and $I_3$ are currents. Which of the following statements is true?\n\n(A) $I_1,\\ I_3>0\\ ,\\quad I_2<0$\n\n(B) $I_1,\\ I_3<0\\ ,\\quad I_2>0$\n\n(C) $I_1,\\ I_2,\\ I_3>0$\n\n(D) $I_3>0\\ ,\\quad I_1,\\ I_2<0$\n\n(E) $I_3<0\\ ,\\quad I_1,\\ I_2>0$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThe figure to the right shows a travelling wave moving in the positive $x$–direction. At time $t=0\\,\\mathrm{s}$, the wave plotted as a function of position has the shape shown by the solid curve, and at $t=3\\,\\mathrm{s}$, the shape shown by the dashed curve.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2010-1-10-fig1.png\n\nThe following six panels show plots as a function of time, at the position $x=0\\,\\mathrm{m}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2010-1-10-fig2.png\n\nWhich of the panels represent possible shapes of the travelling wave?\n\n(A) 4 & 6\n\n(B) 1 & 3\n\n(C) 1, 2 & 3\n\n(D) 4, 5 & 6\n\n(E) 1 & 4"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSuggested time: 25 minutes\n\nA particle of mass $m$ is initially travelling at constant velocity in the $x$–direction with momentum $\\mathbf{p}_1$. This particle hits a second, initially stationary particle of mass $M$. After the collision both particles are moving in the $x$–$y$ plane and have constant velocity. The first particle has momentum $\\mathbf{p}_2$ with components $p_{2x}$ and $p_{2y}$ in the $x$– and $y$–directions respectively.\n\n(a) In terms of $m$, $M$, $p_1$, $p_{2x}$ and $p_{2y}$, find $K_2$, the final kinetic energy of the first particle (mass $m$) and $K_M$, the final kinetic energy of the second particle (mass $M$). $p_1$ is the magnitude of the vector $\\mathbf{p}_1$.\n\n(b) Find $Q=K_i-K_f$, the total kinetic energy before the collision minus the total kinetic energy after the collision. Show that this is of the form\n$$Q=A\\left(Bp_1^2-\\left(p_{2x}-Cp_1\\right)^2-p_{2y}^2\\right)$$\nand give expressions for $A$, $B$ and $C$.\n\n(c) What is the condition on $Q$ for an elastic collision?\n\n(d) Let $p_1$ take the fixed value $p_1=p_0$. Sketch a graph of $p_{2x}$ against $p_{2y}$ for an elastic collision in which $M>m$. Label all intercepts.\n\n(e) What is the condition on $Q$ for an inelastic collision?\n\n(f) For $p_1=p_0$ mark on your sketch for part 11d the possible values of $\\mathbf{p}_2$ for an inelastic collision."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSuggested time: 30 minutes\n\nCharlotte and Ben have lots of old $100\\,\\mathrm{W}$ incandescent light bulbs that they don’t like to see going to waste, but they also don’t like to waste electricity so they want to find out how to run them most efficiently. They decide to compare the efficiencies of running a bulb at different input powers by comparing what they call the $\\textit{output ratio}$. Their definition of the output ratio is the ratio of the intensity of visible light at some fixed distance from the bulb to the electric power dissipated in the bulb.\n\nTo measure the visible light intensity they borrow a $\\textit{visible light meter}$ a friend found in a collection of old photographic gear. This meter produces a voltage between its two output terminals that depends on the intensity of visible light incident on the detector. Its instruction booklet is long lost but a previous owner left brief hand-written instructions and the following graph.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2010-2-2-fig1.png\n\nAfter doing some research Charlotte finds that the intensity of light passing through two polarising filters is given by $I=I_0\\cos^2\\theta$, where $I_0$ is the intensity that passes through the filters when they are aligned and $\\theta$ is the angle between the polarisation axes of the two filters. To make best use of the graph they decide to set up the visible light meter at a distance from the bulb such that at maximum power the light meter voltage reading $V_{\\mathrm{l}}$ is just below the maximum given in the graph.\n\nAs the bulbs run on dangerous mains voltages, Ben asks his grandfather, a qualified electrician, for some help with adjusting the power of the bulb. Ben’s grandfather provides them with a large variable transformer that plugs into the wall at one end and has a mains socket on the other, so that they can use a regular lamp to hold the bulb. To measure the power, he finds a plug-in power meter that can be connected between a mains plug and a mains socket and measures the power consumed by whatever is plugged into it.\n\nBen connects the power meter to the wall, plugs in the transformer and then plugs the lamp into the transformer output. Ben’s grandfather checks it for electrical safety and then turns on the wall switch.\n\nThey choose a single bulb to use for all of their measurements. They don’t have to worry about damaging it as the maximum output voltage of the transformer is the mains voltage, on which the bulb is designed to run.\n\nUnfortunately, it is a sunny day and the voltage across the light meter is non-zero even when the bulb is off. Ben thinks that if he measures the voltage with the bulb off, he will be able to subtract this from his later measurements to find the voltage he would read if there were no sun. He does this and records $73\\,\\mathrm{mV}$. He then takes the measurements, with the bulb on, that appear in the table below. Charlotte thinks that it would be better to close the blinds and make the room as dark as possible. She does this and takes her measurements. The following tables contain Ben’s and Charlotte’s data.\n\nBen:\n$$\\begin{array}{c|c} P_{\\mathrm{bulb}}\\ (\\mathrm{W}) & V_{\\mathrm{l}}\\ (\\mathrm{mV}) \\\\ \\hline 9 & 87 \\\\ 20 & 102 \\\\ 42 & 139 \\\\ 62 & 166 \\\\ 79 & 198 \\\\ 100 & 248 \\end{array}$$\n\nCharlotte:\n$$\\begin{array}{c|c} P_{\\mathrm{bulb}}\\ (\\mathrm{W}) & V_{\\mathrm{l}}\\ (\\mathrm{mV}) \\\\ \\hline 10 & 55 \\\\ 21 & 88 \\\\ 40 & 124 \\\\ 61 & 163 \\\\ 78 & 192 \\\\ 100 & 235 \\end{array}$$\n\n(a) Whose method would you use and why?\n\n(b) Using the data acquired by the person with the better method, calculate the output ratio for each data point. The intensities you use to calculate the output ratio should be in units of $I_0$, i.e. express them as some number times $I_0$, and then just treat the $I_0$ as a unit.\n\n(c) Given the values of the output ratio you calculated, at what power should they run their bulbs?\n\n(d) Briefly suggest things that Charlotte and Ben could have done with the equipment they had to improve their results."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSuggested time: 20 minutes\n\n(a) The Earth’s climate varies considerably between the hot equator and the cold poles. Explain this fact with reference to the diagram below of the Earth and Sun at an equinox.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2010-2-3-fig1.png\n\n(b) The Earth is surrounded by an atmosphere that is thin compared to its radius but still many kilometres thick, so air can flow up or down as well as across the surface of the Earth. The air high in the atmosphere at the poles is cool but warmer than than the air just above the surface which is cooled by the cold land and sea below. Similarly at the equator the air high in the atmosphere is warm but cooler than the air just above the surface which is heated by the hot land and sea below.\nSketch a diagram of the large scale flows of air in the atmosphere that result. Explain your answer.\n\n(c) So far the effect of the rotation of the Earth has been neglected. It can be included by considering the $\\textit{Coriolis force}$ which appears to act on all bodies in rotating frames of reference such as the Earth.\nThe magnitude of the component of the Coriolis force directed along the surface of the Earth is $F=m\\Omega v\\sin\\theta$ where $m$ is the mass of the body experiencing the force, $\\Omega$ is the Earth’s rotational velocity, $v$ is the speed of the body and $\\theta$ is the latitude ($0^\\circ$ at the equator and $90^\\circ$ at the poles) of the body. The Coriolis force is always directed perpendicular to the velocity of the body and is directed towards the east for bodies heading towards the poles in both hemispheres.\nSince we live on the surface of the Earth the winds we feel are the large scale flows of air in the lowest level of the atmosphere, and only those across the surface of the Earth.\nGiven your answer to part 13b, and including the Coriolis force, sketch the large scale winds across the Earth’s surface. Explain your answer.\n\n(d) Sailors describe a region right near the equator, called the $\\textit{doldrums}$, in which there are often long periods with no wind. Is this consistent with the above model? Explain.\n\n(e) Just to the north and south of the doldrums are regions with very reliable winds called the $\\textit{trade winds}$. Using the model, predict the directions of the trade winds in the northern and southern hemispheres."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSuggested time: 40 minutes\n\nA rare waist–necked giraffe has a mild gastric upset, and it is necessary that it be treated with some giant medicine balls. The balls are spherical lozenges, and work best when they are big.\nThe giraffe’s insides are at temperature $T_G$ and the surrounding air is at temperature $T_A$. As the lozenge changes temperature as it slides down the giraffe’s long, beamy neck, it will expand. The volume $V$ of the lozenge at some temperature $T$ is related to its volume $V_A$ at $T_A$ by\n$$V=V_A(1+\\beta(T-T_A))\\ ,$$\nwhere $\\beta>0$ is a constant.\nThe temperature does not change linearly down the giraffe’s neck, but accurate measurements have been taken many times and it is known that the temperature varies with position $h$ from the giraffe’s body as\n$$T=T_G-(T_G-T_A)\\frac{h^2}{N^2}\\ .$$\n\n(a) Show that the diameter of the ball at some height $h$ away from the giraffe’s body is given by\n$$d=d_A[1+\\gamma(N^2-h^2)]^{1/3}\\ ,$$\nwhere $d_A$ is the initial diameter in the air and $N$ is the length of the neck, and find the constant $\\gamma$.\n\nIt is physically reasonable to assume that $\\gamma$ is a small quantity. The binomial approximation states that for small $nx$, $(1+x)^n\\simeq 1+nx$.\n\n(b) Write down the approximate expression for $d$.\n\nThe width of the neck of a waist–necked giraffe is given by\n$$w=M+\\zeta\\left(h-\\frac{N}{2}\\right)^2\\ ,$$\nwhere $M$ is the minimum width of the neck (at the ‘waist’), and $h$ as before is the height away from the giraffe’s body, so that $h=N$ is at the very top of the neck. $\\zeta>0$ is a constant.\nIt is of paramount importance not to choke the waist–necked giraffe with the medicinal lozenges, as this would do more harm than good, and retrieving a stuck lozenge is not anyone’s idea of a fun way to spend an afternoon. You may assume that the difference between the lozenge’s width at the top of the neck $d_A$ differs from the width at the neck-waist $M$ only by a very small amount $\\chi$.\n\n(c) Write down the condition for the lozenge not to get stuck in the giraffe’s neck. Replace $d_A$ with $M-\\chi$, and since $\\gamma$ and $\\chi$ are small you may neglect terms that contain a product of these two. Express your condition as an inequality with 0 on one side.\n\n(d) In order that the lozenge not get stuck, the inequality you wrote must hold for all $h$ between $N$ and 0. If you solve the equation produced by making your inequality into an equality, you may or may not find a solution for $h$ in that range. Explain why if there is $\\textbf{not}$ a solution for $h$ somewhere in the neck, the lozenge will not get stuck.\n\n(e) Find the maximum size of the lozenge such that it is guaranteed not to get stuck by that criterion.\n\n(f) Check your solution for the limiting cases of $\\zeta\\to 0$ and $\\zeta\\to\\infty$. Do your values make sense in these limits (they should)? Explain why or why not."
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA gentleman is swinging his monocle, by its attached light chain, around in a horizontal circle with constant speed. Consider the following forces:\n\n(I) a gravitational force acting downwards\n(II) a force directed inwards, towards the centre of the circle\n(III) a force in the direction of motion of the monocle\n(IV) a force directed outwards, away from the centre of the circle\n\nWhich of the above forces is/are acting on the monocle?\n\na. I only.\n\nb. I and II.\n\nc. I and III.\n\nd. I, II and III.\n\ne. I, III and IV."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe speed of light in a vacuum, $c$, depends on two fundamental constants; the permeability of free space, $\\mu_0$, and the permittivity of free space, $\\varepsilon_0$. The speed of light is related to these constants by\n$$c=(\\mu_0\\varepsilon_0)^{-1/2}\\ .$$\nThe SI units of $\\varepsilon_0$ are $\\mathrm{N^{-1}\\,C^2\\,m^{-2}}$. Recall that a force of $1\\,\\mathrm{N}$ accelerates a mass of $1\\,\\mathrm{kg}$ at $1\\,\\mathrm{m\\,s^{-1}}$.\nThe units of $\\mu_0$ are\n\na. $\\mathrm{kg^{-1}\\,m^{-1}\\,C^2}$\n\nb. $\\mathrm{kg^{-1}\\,s^{-3}\\,C^{-2}}$\n\nc. $\\mathrm{kg\\,m\\,s^{-4}\\,C^{-2}}$\n\nd. $\\mathrm{kg\\,m\\,C^{-2}}$\n\ne. $\\mathrm{kg^2\\,m^2\\,C^{-4}}$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2011-1-3-fig1.png\n\nA heavy, decrepit bus has broken down and a small car with a public–spirited driver is pushing it to a garage. While the vehicles are speeding up to cruising speed,\n\na. the amount of force with which the small car pushes against the bus is equal to the amount of force with which the bus pushes back against the small car.\n\nb. the amount of force with which the small car pushes against the bus is smaller than the amount of force with which the bus pushes back against the small car.\n\nc. the amount of force with which the small car pushes against the bus is greater than the amount of force with which the bus pushes back against the small car.\n\nd. the small car's engine is running so the small car pushes against the bus, but the bus's engine is not running so it can't push back against the small car.\n\ne. neither the small car nor the bus exert any force on the other. The bus is pushed forward simply because it is in the way of the small car."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2011-1-4-fig1.png\n\nA heavy, decrepit bus has broken down and a small car with a public–spirited driver is pushing it to a garage. After the vehicles have reached a constant cruising speed,\n\na. the amount of force with which the small car pushes against the bus is equal to the amount of force with which the bus pushes back against the small car.\n\nb. the amount of force with which the small car pushes against the bus is smaller than the amount of force with which the bus pushes back against the small car.\n\nc. the amount of force with which the small car pushes against the bus is greater than the amount of force with which the bus pushes back against the small car.\n\nd. the small car's engine is running so the small car pushes against the bus, but the bus's engine is not running so it can't push back against the small car.\n\ne. neither the small car nor the bus exert any force on the other. The bus is pushed forward simply because it is in the way of the small car."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA chunky tree frog jumps from a tree in an attempt to catch a small, speedy fly. Both are in mid–air and have the same kinetic energy. Which of the following statements is true?\n\na. The fly has a greater speed than the tree frog.\n\nb. The tree frog has a greater speed than the fly.\n\nc. The fly and the tree frog have the same speed.\n\nd. The kinetic energy cannot give information about their speeds.\n\ne. The direction of the fly and the tree frog must be taken into account to compare their speeds."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nThe frog and the fly are approaching each other head on in mid–air, so that their velocities are in opposite directions. The chunky tree frog sticks out his sticky tongue and grabs the light, unfortunate fly, combining the two into a single tree frog — fly object. The kinetic energies of the two creatures before the collision were equal. Which of the following statements is true in the instant after the collision?\n\na. The object moves in the same direction as the fly's original motion.\n\nb. The object moves in the same direction as the tree frog's original motion.\n\nc. The object stops dead in the air.\n\nd. As soon as they collide they must move directly downwards.\n\ne. It depends on how hard the tree frog grabs the fly."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA spherical drop of mercury with charge $8Q$ splits into eight identical spherical droplets, each with the same charge and radius. The electrostatic potential energy of a conducting sphere of radius $r$ and charge $q$ is $q^2/8\\pi\\varepsilon_0 r$, where $\\varepsilon_0$ is a constant. After the droplets are separated far apart so that they no longer interact, the percentage of the initial electrical energy that has been converted into other forms of energy is\n\na. 0%\n\nb. 12.5%\n\nc. 25%\n\nd. 50%\n\ne. 75%"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA marauding possum dislodges a tile from the roof of a single–storey house. The tile\n\na. reaches a maximum speed quite soon after release and then falls at a constant speed the rest of the way to the ground.\n\nb. speeds up during its entire fall to the ground because the gravitational attraction gets considerably stronger as the brick gets closer to the Earth.\n\nc. speeds up during its entire fall to the ground because of an almost constant force of gravity acting on it.\n\nd. falls to the ground because of the natural tendency of all objects to rest on the surface of the Earth.\n\ne. falls to the ground because of the combined effects of the force of gravity pushing it downward and the force of the air pushing it downward."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA spirit level contains a bubble in a liquid. The level is suddenly jerked forward. Relative to the spirit level and liquid, the bubble moves\n\na. backwards, due to its inertia.\n\nb. backwards, due to a pressure gradient in the liquid.\n\nc. forwards, due to its inertia.\n\nd. forwards, due to a pressure gradient in the liquid.\n\ne. not at all. The bubble and liquid move together."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThe positions of two joggers, Heloise and Abelard, are shown below. The joggers are shown at successive 0.20–second time intervals, and they are moving towards the right.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2011-1-10-fig1.png\n\nDo Heloise and Abelard ever have the same speed?\n\na. No.\n\nb. Yes, at instant 2.\n\nc. Yes. at instant 5.\n\nd. Yes, at instants 2 and 5.\n\ne. Yes at some time during the interval 3 to 4."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nOne end of a spring with spring constant $k$ is fixed at the top of a rough plane inclined at an angle $\\theta$ to the horizontal. The other end is attached to a block of mass $m$ and the coefficient of kinetic friction between the block and the slope is $\\mu_k$. The coefficient of friction is small and the friction is a weak effect, but should be treated exactly.\n\na) Find the extension of the spring from its unstretched length at the position where the system is in equilibrium. You may neglect the influence of friction in this part only.\n\nb) Find the potential energy of the system as a function of the displacement from the equilibrium position.\n\nc) The spring is now displaced from its equilibrium position by a distance $c_0$ up the plane, and released. Sketch a graph of the displacement of the mass on the spring as a function of time.\n\nd) Find the difference in position along the slope between successive points where the mass is stationary and about to move down the slope, and hence determine the maximum number of such points that can occur."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nAn empty tin can has radius $r=50\\pm1\\,\\mathrm{mm}$, height $h=150\\pm1\\,\\mathrm{mm}$ and wall, base and lid of uniform thickness which lies within the range $s=0.10\\pm0.01\\,\\mathrm{mm}$. Wound around its circumference is a string, which is attached to a winch. The can is placed on a slope at angle $\\theta$ to the horizontal so that the string runs up the slope as in figure 1. The winch has radius $r_w$ and can be set to turn a fixed number of turns with a constant torque. Both the number of turns and torque can be adjusted. The torque applied by the winch is equal to the winch radius times the force applied to the winching string.\n\nThe can is initially held stationary and is then released, with the winch set to wind $n_t$ turns of rope. The time taken $t$ is measured for a range of different torques, $\\tau$. The force applied by the winching rope is related to the mass $m$ of the can and the acceleration $a$ of the centre of the can by\n$$F-mg\\sin\\theta=ma\\quad ,$$\nand also obeys the relationship\n$$r^2F=I(a+a_r)\\quad ,$$\nwhere $a_r$ is the acceleration of the rope and $I$ is a constant.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2011-2-2-fig1.png\n\nFigure 1: Tin can on a slope attached to a winch\n\na) Given that the density of tin is $\\rho_\\mathrm{Sn}=7.30\\times10^3\\,\\mathrm{kg\\,m^{-3}}$, find the mass of the tin can and its uncertainty. Also comment on whether you could easily determine the mass more accurately using common household devices.\nNote that when two values are added or subtracted the uncertainty in the final value is the sum of the uncertainties of the two values. However, when two values are multiplied or divided the fractional uncertainty (the uncertainty divided by the value) of the product or quotient is the sum of the fractional uncertainties of the two values.\n\nb) Find combinations of the quantities $\\tau$ and $t$ which may be plotted so that the data fall on a straight line and the unknowns $I$ and $\\theta$ may be determined from the slope and y-intercept of a line of best fit.\nHint: a graph of $y$ vs. $x$ is linear if $y$ is the sum of a term proportional to $x$ and a constant.\n\nc) Find $I$ and $\\theta$ in terms of the slope and y-intercept of the graph you suggested plotting in the previous part."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nPressure is the force per unit area exerted uniformly in all directions by a small volume of fluid on its surrounds.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2011-2-3-fig1.png\n\nFigure 2: A cylinder containing water\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2011-2-3-fig2.png\n\nFigure 3: A conical flask containing water\n\na) Draw a free body diagram showing the forces on the shaded volume of water in figure 2 and hence find the pressure at a depth $h$ below the surface of the water.\n\nb) (i) What are the forces exerted by each of the flat bases of the two vessels shown above on the water in that vessel? The circular bases of the two vessels have equal radii, and both vessels are filled to the same depth.\n(ii) For each case, is this force equal to the total force exerted by the vessel on the water it contains? Explain whether or not you expect the force exerted by the base to equal to the total force in each case, giving physical reasoning for your answer. Also explain any differences between the two cases.\n\n$\\textbf{Diverting Data:}$\nAir pressure at sea level $p_0=1.02\\times10^5\\,\\mathrm{Pa}$\nDensity of air at sea level $\\rho_a=1.2\\,\\mathrm{kg\\,m^{-3}}$\nDensity of water $\\rho_w=1.0\\times10^3\\,\\mathrm{kg\\,m^{-3}}$\nAcceleration due to gravity at sea level $g=9.8\\,\\mathrm{m\\,s^{-1}}$"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nArgon atoms are special because they stay in the atmosphere for a very long time. They are not recycled like oxygen and nitrogen. The aim of this problem is to estimate how many of the argon atoms in each of your breaths were once in Galileo Galilei's lungs.\n\nAn average breath inhales around $0.5\\,\\mathrm{L}$ of air and people breath on average around once every five seconds. Air is about 1% argon and has density $1.2\\,\\mathrm{kg\\,m^{-3}}$. Assume all air particles have a mass of approximately $5\\times10^{-26}\\,\\mathrm{kg}$. Take the atmosphere to have constant density and be around $20\\,\\mathrm{km}$ thick. The radius of the Earth is $R_\\mathrm{E}=6.4\\times10^6\\,\\mathrm{m}$.\nNote: $1000\\,\\mathrm{L}=1\\,\\mathrm{m^3}$\n\na) Estimate the number of argon atoms inhaled with each breath.\n\nb) Estimate the total number of argon atoms that passed through Galileo's lungs in his 77 years of life. You may assume that when a person breathes, half of the argon atoms in each breath have never been in that person's lungs before.\n\nc) Estimate the total number of argon atoms in the Earth's atmosphere.\n\nd) Assuming that the argon breathed by Galileo is now mixed uniformly through the atmosphere, estimate the number of argon atoms in each of your breaths that were once in Galileo's lungs."
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nMaddie throws her phone straight up. Consider the motion of the phone only after it has left Maddie's hand but before it touches the ground, and assume that forces exerted by the air are negligible. For these conditions, the force(s) acting on the phone is (are):\n\na. a downward force of gravity along with a steadily decreasing upward force.\n\nb. a steadily decreasing upward force from the moment it leaves Maddie's hand until it reaches its highest point; on the way down there is a steadily increasing downward force of gravity as the phone gets closer to the earth.\n\nc. an almost constant downward force of gravity along with an upward force that steadily decreases until the phone reaches its highest point; on the way down there is only a constant downward force of gravity.\n\nd. an almost constant downward force of gravity only.\n\ne. none of the above. The phone falls back to the ground because of its natural tendency to rest on the surface of the earth."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA wheelie bin by the side of the road is struck by an unobservant Hummer driver. The Hummer has a substantially greater mass than the wheelie bin and is moving rapidly because the driver wants to spend as much money on petrol as possible. During the collision:\n\na. the Hummer exerts a greater amount of force on the wheelie bin than the wheelie bin exerts on the Hummer.\n\nb. the wheelie bin exerts a greater amount of force on the Hummer than the Hummer exerts on the wheelie bin.\n\nc. neither exerts a force on the other, the wheelie bin is crushed simply because the driver runs it over with the Hummer.\n\nd. the Hummer exerts a force on the wheelie bin but the wheelie bin does not exert a force on the Hummer.\n\ne. the Hummer exerts the same amount of force on the wheelie bin as the wheelie bin exerts on the Hummer."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nLachlan exerts a constant horizontal force on a heavy lounge chair that is in the wrong place. As a result, the chair moves across a horizontal floor at a constant speed $v_0$. The constant horizontal force applied by Lachlan:\n\na. has the same magnitude as the weight of the chair.\n\nb. is greater than the weight of the chair.\n\nc. has the same magnitude as the total force which resists the motion of the chair.\n\nd. is greater than the total force which resists the motion of the chair.\n\ne. is greater than either the weight of the chair or the total force which resists its motion."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nIf Lachlan, in the previous question, doubles the constant horizontal force that he exerts on the chair to push it on the same horizontal floor, the chair then moves:\n\na. with a constant speed that is double the speed $v_0$ in the previous question.\n\nb. with a constant speed that is greater than the speed $v_0$ in the previous question, but not necessarily twice as great.\n\nc. for a while with a speed that is constant and greater than the speed $v_0$ in the previous question, then with a speed that increases thereafter.\n\nd. for a while with an increasing speed, then with a constant speed thereafter.\n\ne. with a continuously increasing speed."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nColin claims to have built a refrigerator alternative which works without any power supply. It is a box with a wet blanket over it; the blanket is kept wet as a tap is allowed to drip onto its corner. How does it work?\n\na. It takes energy to make water evaporate and that energy comes from thermal energy in the blanket and surrounds, so the blanket and also the box stay cold.\n\nb. The water from the tap is cold, so it keeps the box cold. If he used room temperature water it wouldn't work.\n\nc. The drips from the tap can provide enough power to generate electricity to run a refrigerator. The blanket is just hiding the electric part.\n\nd. Colin makes the box cold using a real fridge first and then puts the wet blanket over it, completely insulating the box so it can never warm up.\n\ne. It doesn't, Colin is trying to scam people."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nTwins Anna and Tom measure each other's heights each birthday. When they were 12 Anna's height was measured as $151.5\\,\\mathrm{cm}$ and Tom's was measured as $151\\,\\mathrm{cm}$. On their 16th birthday Anna's height is measured as $167.5\\,\\mathrm{cm}$ and Tom's is measured as $168.5\\,\\mathrm{cm}$. The uncertainty in the height measurements is $5\\,\\mathrm{mm}$. Between the ages of 12 and 16 Anna grew:\n\na. $16\\,\\mathrm{cm}\\pm5\\,\\mathrm{cm}$.\n\nb. $16\\,\\mathrm{cm}\\pm1\\,\\mathrm{cm}$.\n\nc. $16\\,\\mathrm{cm}\\pm0.5\\,\\mathrm{cm}$.\n\nd. $16.0\\,\\mathrm{cm}\\pm0.5\\,\\mathrm{cm}$.\n\ne. $16.0\\,\\mathrm{cm}\\pm0.25\\,\\mathrm{cm}$."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nTwins Anna and Tom measure each other's heights each birthday. When they were 12 Anna's height was measured as $151.5\\,\\mathrm{cm}$ and Tom's was measured as $151\\,\\mathrm{cm}$. On their 16th birthday Anna's height is measured as $167.5\\,\\mathrm{cm}$ and Tom's is measured as $168.5\\,\\mathrm{cm}$. The uncertainty in the height measurements is $5\\,\\mathrm{mm}$. Anna and Tom have always been very competitive about their heights, so Tom crows with glee after being measured, saying “Finally, I'm taller than you! We were always about the same height, but now I'm taller than you!” Anna responds, “You're crazy! I was $\\textit{clearly}$ taller than you when we were 12.” Which of the following statements is most correct?\n\na. Tom is probably right and Anna is wrong, they were about the same height at 12, with a difference of $0.5\\,\\mathrm{cm}\\pm1.0\\,\\mathrm{cm}$. Now the measurements show the difference to be $1.0\\,\\mathrm{cm}\\pm1.0\\,\\mathrm{cm}$, more accurate measurements would resolve the dispute over who is taller now.\n\nb. Tom is probably right and Anna is wrong, they were about the same height at 12, with a difference of $0.5\\,\\mathrm{cm}\\pm1.0\\,\\mathrm{cm}$. Now the measurements show the difference to be $1.0\\,\\mathrm{cm}\\pm1.0\\,\\mathrm{cm}$, however, taking more measurements, regardless of how accurate, couldn't help resolve the dispute over who is taller now.\n\nc. Tom is right and Anna is wrong, they were about the same height at 12, with a difference of $0.5\\,\\mathrm{cm}\\pm0.5\\,\\mathrm{cm}$. Now Tom is taller by $1.0\\,\\mathrm{cm}\\pm0.5\\,\\mathrm{cm}$.\n\nd. Anna is right and Tom is wrong, Anna was taller at 12, with a difference of $0.5\\,\\mathrm{cm}\\pm0.5\\,\\mathrm{cm}$. Now Tom is taller by $1.0\\,\\mathrm{cm}\\pm0.5\\,\\mathrm{cm}$.\n\ne. Anna is right and Tom is wrong, she was $0.5\\,\\mathrm{cm}$ taller than Tom when they were 12. Tom is now $1.0\\,\\mathrm{cm}$ taller than Anna."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA big dog weighing $60\\,\\mathrm{kg}$ runs into a cat weighing $8\\,\\mathrm{kg}$. The dog was moving at $1.5\\,\\mathrm{m\\,s^{-1}}$, and the cat was sitting in the sun. Assume that the dog and cat continue moving together. What is the final speed of the combined cat/dog furball?\n\na. $0.18\\,\\mathrm{m\\,s^{-1}}$\n\nb. $0.75\\,\\mathrm{m\\,s^{-1}}$\n\nc. $1.3\\,\\mathrm{m\\,s^{-1}}$\n\nd. $1.7\\,\\mathrm{m\\,s^{-1}}$\n\ne. $11.3\\,\\mathrm{m\\,s^{-1}}$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA ball is thrown into the air and it moves in the path shown below. Ignore air resistance in this question.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2012-1-9-fig1.png\n\nAt position A the ball is at the highest point in its path, position B is just before it hits the ground. Which of the following statements is true?\n\na. The speed of the ball at A is zero and the acceleration of the ball at B is the same as at A.\n\nb. The speed of the ball at A is the same as the speed at B and the acceleration at B is higher than at A.\n\nc. The speed at A is lower than the speed at B and the acceleration at A is higher than the acceleration at B.\n\nd. The speed at A is lower than the speed at B and the acceleration at A is the same as the acceleration at B.\n\ne. The speed at A is higher than the speed at B and the acceleration at A is the same as the acceleration at B."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA large rocky planet was formed from eight small rocky planets, each with radius $R$. Each of the small planets and the new large planet have the same density. The small rocky planets were initially so far apart that they didn't interact. The energy required to blast a planet of mass $m$ and radius $r$ apart is $3Gm^2/5r$, where $G$ is a constant. How many times as much energy would be required to blast the large planet apart as to blast $\\textbf{all}$ of the eight small planets apart?\n\na. Half as much.\n\nb. The same amount.\n\nc. Twice as much.\n\nd. 4 times as much.\n\ne. 8 times as much."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA bungee rope has unstretched length $L=20\\,\\mathrm{m}$ and spring constant $k=245\\,\\mathrm{N\\,m^{-1}}$. The spring constant is the constant of proportionality between the force exerted by the spring and its extension $x$, so $F=-kx$. The potential energy stored in the spring is $U=kx^2/2$.\n\nMordred the bungee jumper of mass $m=50\\,\\mathrm{kg}$ is tied to the bungee rope and steps off a bridge over a deep gorge. The mass of the rope is negligible compared to the mass of the person, and the local acceleration due to gravity is $9.8\\,\\mathrm{m\\,s^{-2}}$.\n\na) If Mordred were lowered over the edge gently while attached to the bungee rope, how far below the platform would the person hang?\n\nTake the total potential energy of the system to be zero at this height.\n\nIf Mordred is not lowered gently, but simply steps off the platform, relying on the bungee rope to prevent him from hitting the ground, he bounces up and down as shown in the graph below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2012-2-1-fig1.png\n\nHeight of the bungee jumper vs. time\n\n$\\textbf{DO NOT WRITE ANSWERS ON THIS GRAPH, THEY WILL NOT BE MARKED. Use the copy on p. 2 of the answer booklet.}$\n\nb) $\\textbf{Note: Use the axes supplied on p. 2 of the answer book to draw your answers to this part. DO NOT use those on p. 3, which are for part (d)}$\n(i) Mark the height found in part (a) and all other important points on the graph of height vs. time for the bungee jumper given on p. 2 of the answer book. The time the bungee jumper takes to return to his initial height after stepping off the platform is $T$.\n(ii) Sketch the velocity of the bungee jumper vs. time, marking all important points and values. Use the axes below the graph for part (b)(i) on p. 2 of the answer book. Use the same scale for time as in part (b)(i).\n(iii) Sketch the acceleration of the bungee jumper vs. time, marking all important points and values. Use the axes below the graph for part (b)(ii) on p. 2 of the answer book. Use the same scale for time as in part (b)(i) and (ii).\n\nc) How much energy was dissipated in each bounce of Mordred the bungee jumper? Explain how you reached your conclusion.\n\nd) $\\textbf{Note: Use the axes supplied on p. 3 of the answer book to draw your answers to this part DO NOT use those on p. 2, which are for part (b).}$\nSketch height, velocity and acceleration of Mordred the bungee jumper vs. time, if half the energy were dissipated in each bounce of the bungee jumper. Use separate axes for each sketch, the same scale for time as you did in part (b), and mark all important points on your sketches.\n\n$\\textbf{Hint:}$ You may need to do some calculations to find all the important points to mark on the supplied graph and your sketches."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nHelicopters are useful machines which, amongst other things, facilitate the transport of pumpkins across difficult terrain. Consider a small helicopter hovering at some height above a large field of pumpkins.\n\na) Draw a free body diagram showing the forces acting on the helicopter.\n\nb) What is the force that acts against gravity to keep the helicopter in the air, and what exerts this force on the helicopter?\n\nThe power required for the helicopter to hover is equal to the downward force applied to the air by the helicopter blades times the mean velocity, $v$, of the downward moving column of air beneath its rotor blades.\n\nc) Find an expression for the rate, $R$, at which air flows past the blades (mass per unit time) in terms of the air velocity, $v$, air density, $\\rho$, and the area swept out by the blades $A$.\n\nd) Show that the force exerted by the helicopter blades on the air is $F=A\\rho v^2$.\n\ne) A company specialising in airlifting pumpkins owns a helicopter that can hover if its engine produces mechanical power $P$. Market research shows that some clients want more pumpkins airlifted at once, and the boss realises that a larger helicopter would be a good business investment. The pumpkin airlift company builds a helicopter that is 1.5 times as large in every linear dimension as their original helicopter. Using the results from the previous parts, what mechanical power $P'$, in terms of $P$, is required for this larger helicopter to hover?"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nDue to an unfortunate logistical error, I don't have a fridge, so I want to design an insulating container to keep my food cold. If I put something colder, like my milk, next to something warmer, like the rest of my house, energy flows from the warmer thing to the colder thing. This process, called $\\textit{heat flow}$, makes the colder thing warmer and the warmer thing colder.\n\nI have the following model for heat flow. For two things in contact, heat can flow by a process called $\\textit{conduction}$. The microscopic particles in objects vibrate, with the particles in a warm object vibrating more than those in a cool object. If two objects are touching, the particles in the two objects can hit each other and share the vibrational energy between them, making the cooler object warmer and the warmer object cooler.\n\nI want a box that allows as little heat as possible to flow from my house to my food. Use the above model to answer the following questions. You should $\\textbf{not}$ consider heat flow due to any other process. Answers without explanation will not receive credit.\n\na) Should I make a box that is long and narrow or should I make a cube?\n\nb) Should I make the walls of my box thick or thin?\n\nc) Should I put the box next to the oven or on the other side of the kitchen?\n\nThe rate of heat flow, i.e. amount of heat that flows per unit time, depends either linearly or inversely on the surface area of the box, $A$; the thickness of the walls, $s$; the difference in temperature between the food inside the box and the house outside the box, $\\Delta T$; and a property of the box called the thermal conductivity, $k$.\n\nd) Using the ideas from the model above, write down an equation for the rate of heat flow, $H$.\n\nEvery physical quantity has dimensions and the dimensions of a quantity give some information about that quantity. We want to find the dimensions of thermal conductivity. The dimensions on each side of every physical equation are identical. Most physical quantities have dimensions which can be expressed as a combination of the five following dimensions:\nlength, L, mass, M, time, T, charge, Q and temperature, K.\nPure numbers, such as $\\pi$, have no dimensions.\nFor example, the speed of light, $c$, is a measure of length per unit time, and has dimensions of $\\mathrm{LT}^{-1}$.\n\ne) Write down an equation you know that has energy in it.\n\nf) Use this equation to find the dimensions of energy and hence the dimensions of the rate of heat flow (amount of heat that flows per unit time).\n\ng) Find the dimensions of thermal conductivity."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nThe students in a year six class want to find out how fast sound travels and you've been asked to advise them how they can best measure the speed of sound in air themselves.\n\nThe class teacher tells you that their school is next to a disused railway track and the school has the use of a $1\\,\\mathrm{km}$ long stretch of the land it runs along in exchange for maintaining the gardens. The ground is flat and the track is straight. They can't buy any equipment but they do have access to plenty of basic sports equipment like stopwatches and the trundle wheels used to mark out sports fields. The teacher also says that he thinks one of the other classes did something like this a few years ago but all he can remember is that the kids were really excited because they got to pop balloons to make a big sound.\n\nThe speed of sound in air is around $3\\times10^2\\,\\mathrm{m\\,s^{-1}}$.\n\na) What advice would you give the class?\nWrite down the method you would recommend and why you are recommending it. The class specifically asked you to address all of the following points in what you write:\n• how to use any measuring devices carefully, as the class wants help to make the most accurate measurements they can\n• any special techniques that can be used to make their result better\n• any better ways to produce sound than popping a balloon\n• will wind make a difference to their answer\n• once measurements have been taken, how will the class calculate the results\n• the accuracy of their result, i.e. an estimate of the error in their final result\n\nAfter explaining the method they should use to the class one student sticks up his hand and says that he's seen movies where people can tell trains are coming a long way off by listening to the train tracks because the sound travels through them faster. He wants to know if they could measure the speed of sound in the train tracks too. After a quick internet search you find that the speed of sound in steel is around $6\\,\\mathrm{km\\,s^{-1}}$.\n\nb) Is there any reason why the class couldn't also measure the speed of sound in the railway tracks? If so, explain why, if not, explain how to vary the method and also estimate the uncertainty in their result."
+    }
+   ]
+  },
+  {
    "year": 2013,
    "problems": [
     {

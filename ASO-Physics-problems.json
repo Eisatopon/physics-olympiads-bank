@@ -2,6 +2,624 @@
  "competition": "Australia — Australian Science Olympiad, Physics (National Qualifying Examination / ASOE)",
  "years": [
   {
+   "year": 2013,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhen an incandescent light bulb has a current passing through its filament the filament heats and its resistance increases. If the light bulb is connected to a constant voltage source:\n\na. the resistance increases at a roughly constant rate and the current through the light bulb decreases correspondingly.\n\nb. the resistance increases at a roughly constant rate and the current through the light bulb increases correspondingly.\n\nc. the resistance increases but the current remains the same.\n\nd. the resistance increases at a decreasing rate and the current increases at a decreasing rate until they are both roughly constant.\n\ne. the resistance increases at a decreasing rate and the current decreases at a decreasing rate until they are both roughly constant."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nWhich of the following is the best estimate of the speed of a parrot flying?\n\na. $3\\times10^{-3}\\,\\mathrm{m\\,s^{-1}}$\n\nb. $1\\times10^{-1}\\,\\mathrm{m\\,s^{-1}}$\n\nc. $3\\times10^{0}\\,\\mathrm{m\\,s^{-1}}$\n\nd. $1\\times10^{2}\\,\\mathrm{m\\,s^{-1}}$\n\ne. $3\\times10^{3}\\,\\mathrm{m\\,s^{-1}}$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nWhen a screw is very tight the most effective way to loosen it is by:\n\na. using a screwdriver with a fat handle and pushing down hard while turning to increase the grip.\n\nb. using a screwdriver with a fat handle and not pushing down too hard in case you deform the screw head.\n\nc. using a long screwdriver so that you are applying the force a long way from the point of contact.\n\nd. using a short screwdriver with a thin handle so that you are applying the force as close as possible to the point of contact.\n\ne. None of the above. A spanner is a more appropriate tool."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nKate has a bucket of ice cream and wants to take it on a long car trip into the desert, so she wraps it in a jumper. Is this a good idea? Choose the best answer.\n\na. No. The jumper will make the ice cream hotter.\n\nb. Yes. The jumper will hold the cold in the ice cream.\n\nc. No. The jumper always moves the cold to outside it.\n\nd. Yes. The jumper will prevent the heat getting to the ice cream.\n\ne. No. The jumper won’t make any difference to what happens to the ice cream."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nWhich of the following is the best estimate of the mass of a 3D model aeroplane which is 20cm long and made of formed sheet aluminium?\n\na. $0.5\\,\\mathrm{g}$\n\nb. $5\\,\\mathrm{g}$\n\nc. $50\\,\\mathrm{g}$\n\nd. $500\\,\\mathrm{g}$\n\ne. $5\\,\\mathrm{kg}$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nTwo blocks are connected as shown. Block 1 has mass 5 kg and is on a frictionless, horizontal surface. Block 2 has mass 8 kg and is attached to block 1 by a rope with negligible mass, passing over a frictionless pulley. What is the acceleration of block 2?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-1-6-fig1.png\n\n[Throughout Section A, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$.]\n\na. $15.9\\,\\mathrm{m\\,s^{-2}}$\n\nb. $9.8\\,\\mathrm{m\\,s^{-2}}$\n\nc. $6.0\\,\\mathrm{m\\,s^{-2}}$\n\nd. $3.8\\,\\mathrm{m\\,s^{-2}}$\n\ne. $0\\,\\mathrm{m\\,s^{-2}}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA shark, with a sucker-fish attached, is swimming at constant speed looking for prey. Under these conditions:\n\na. there is zero nett force on both the shark and the sucker-fish.\n\nb. the nett force on the shark is greater than the nett force on the sucker-fish because the shark has a larger mass.\n\nc. the swimming shark experiences a nett force but the sucker-fish does not because it is holding on.\n\nd. the nett force on the shark is always the same as that on the sucker-fish because they always have the same speed.\n\ne. the drag from the sucker-fish on the shark means that the nett force on the shark is less than on the sucker-fish."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nThe shark, with a sucker-fish still attached, spots a possible meal and accelerates suddenly towards it. Under these conditions:\n\na. there is zero nett force on both the shark and the sucker-fish.\n\nb. the nett force on the shark is greater than the nett force on the sucker-fish because the shark has a larger mass.\n\nc. the swimming shark experiences a nett force but the sucker-fish does not because it is holding on.\n\nd. the nett force on the shark is always the same as that on the sucker-fish because they always have the same speed.\n\ne. the drag from the sucker-fish on the shark means that the nett force on the shark is less than on the sucker-fish."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nThe blocks shown in the figure below are on a table. What is the nett force acting on the 5 kg block when the stack is:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-1-9-fig1.png\n\nat rest?\n\n[Throughout Section A, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$.]\n\na. $29.4\\,\\mathrm{N}$ downwards\n\nb. $49\\,\\mathrm{N}$ downwards\n\nc. $78.4\\,\\mathrm{N}$ downwards\n\nd. $0\\,\\mathrm{N}$\n\ne. $19.6\\,\\mathrm{N}$ upwards"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThe blocks shown in the figure below are on a table. What is the nett force acting on the 5 kg block when the stack is:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-1-10-fig1.png\n\nbeing pushed to the right with constant velocity?\n\n[Throughout Section A, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$.]\n\na. $29.4\\,\\mathrm{N}$ downwards\n\nb. $49\\,\\mathrm{N}$ downwards\n\nc. $78.4\\,\\mathrm{N}$ downwards\n\nd. $0\\,\\mathrm{N}$\n\ne. $49\\,\\mathrm{N}$ to the right"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSuggested Time: 20 min\n\nThis question explores the characteristics of shadows formed by a variety of light sources.\n\nThroughout this question you will be asked to draw diagrams as part of your answer. Where instructed please use the boxes on pages 2–3 of the answer booklet to draw these diagrams. Label all diagrams.\n\na) Point light sources emit light in all directions from a single point. They have no measurable size.\n\n(i) In the answer box on page 2 of the answer booklet, an object is drawn in front of a point light source. In this box draw a diagram of how the shadow forms, and what the shadow looks like on the screen.\n\n[Answer booklet, page 2, box a)(i):]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-2-1-fig4.png\n\n(ii) If the object were at a distance from the light source of 1/3 the distance from the light source to the screen, how large would the shadow be compared to the object? Explain your answer using diagrams drawn in the box on page 2 of the answer booklet. Put any words needed in or near this box.\n\nb) All real light sources, including the Sun and artificial sources, are extended sources rather than point sources. For example, at sunrise and sunset is it possible to see that the Sun is an extended source of light, circular in shape. Light is emitted in all directions from each part of an extended source.\n\n(i) Draw a diagram of how the shadows form and what the shadows of the object look like on the screen in front of an extended light source for the two set ups drawn in the answer box on page 2 of the answer booklet.\n\n[Answer booklet, page 2, boxes b)(i):]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-2-1-fig5.png\n\n(ii) Explain why shadows can be fuzzy-looking in the box on page 2 of the answer booklet.\n\n(iii) Given the setup below, draw the shadow of the pen on the diagram in the box on page 3 of the answer booklet.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-2-1-fig1.png\n\n[Answer booklet, page 3, box b)(iii):]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-2-1-fig6.png\n\nc) Compact fluorescent light bulbs come in a range of slightly different colours. Some are described as ‘cool’ white and emit light which is more blue in colour, while others, described as ‘warm’ white, emit light of a more orange colour.\n\nA room is lit by one or more lamps fitted with compact fluorescent bulbs. A shadow pattern forms on the ceiling near a ceiling lamp which is not turned on, as shown in the diagram below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-2-1-fig2.jpg\n\n(i) Mark on the floor plan on page 3 of the answer booklet the positions of any operating lamps and the colours of their bulbs.\n\n[Answer booklet, page 3, floor plan c)(i):]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-2-1-fig7.png\n\n(ii) In the box on page 3 of the answer booklet, draw a diagram showing how the ceiling would appear from the door of the room. Indicate the colours of all regions of shadow.\n\nd) A sheet of black cardboard with a very small round hole in its centre is held 10 cm above a white paved area outside at noon under a clear sky, and the image below is observed.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2013-2-1-fig3.jpg\n\n(i) Draw diagrams to explain how this image is formed in the box on page 3 of the answer booklet.\n\n(ii) Would you expect to see the same thing on most other clear days? Explain why or why not in the box on page 3 of the answer booklet."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSuggested Time: 20 min\n\nSome elements have radioactive isotopes (radioisotopes) which can be used for medical imaging. A radioisotope is injected into the bloodstream, whence it is taken up by organs in the body. Areas of extremely high cell growth or repair such as tumours take up and retain this isotope much more efficiently than any other tissue. Thus imaging using radioisotopes can be used to indicate malignant tissue growth. Technetium-99m (${}^{99m}\\mathrm{Tc}$) is one such radioisotope, which is used for imaging organs such as the thyroid, liver, kidneys, and brain. The half-life, the interval during which the number of atoms left of a radioisotope halves, of ${}^{99m}\\mathrm{Tc}$ is $\\tau_{1/2}=6.01$ hours.\n\nRates of radioactivity can be measured in Curies (Ci), equivalent to $3.7\\times10^{10}$ decays per second. For any radioisotope, the number of atoms, half-life and radioactivity are related by the formula\n\n$$(\\text{number of atoms})=\\frac{1}{\\ln 2}(\\text{half-life in seconds})\\times(\\text{activity in decays per second}).$$\n\nIn this question, we examine a model of the process of ${}^{99m}\\mathrm{Tc}$ uptake in a patient’s cancerous thyroid glands. The patient is an otherwise healthy adult. In this model, $A=10.0\\,\\mathrm{mCi}$ of ${}^{99m}\\mathrm{Tc}$ is injected into a vein in the patient’s arm of radius $r_a=1.00\\,\\mathrm{mm}$, enters the bloodstream, then enters each thyroid gland through an artery in the patient’s neck of radius $r_n=1.70\\,\\mathrm{mm}$.\n\nLet the velocities of blood flow in the patient’s arm and neck be $v_a=3.00\\,\\mathrm{mm/s}$ and $v_n=40.0\\,\\mathrm{cm/s}$. Let the total blood volume of the patient be $V=5\\,\\mathrm{L}=5\\times10^{-3}\\,\\mathrm{m^3}$, and let each thyroid gland (there are two) have volume $V_{\\mathrm{t}}=9\\,\\mathrm{mL}$. The ${}^{99m}\\mathrm{Tc}$ emits gamma rays of energy $E=2.24\\times10^{-14}\\,\\mathrm{J}$.\n\nGive your answers both as formulae and numerically where applicable.\n\na) What is the concentration (in number of atoms per litre) of ${}^{99m}\\mathrm{Tc}$ in the bloodstream after the injection?\n\nb) Qualitatively, sketch the amount of ${}^{99m}\\mathrm{Tc}$ in the thyroid as a function of time, starting from the time of injection.\n\nc) The continuity equation in fluid mechanics states that the volume flow rate of fluid flowing through a pipe is constant. Consider the blood flow in the arm and neck of the patient - does the continuity equation hold in this model? Justify your answer with calculations, and use your knowledge of the body to explain why you would expect this result.\n\nd) What is the initial rate of energy release due to gamma radiation emitted from a thyroid gland? In this and subsequent parts you may neglect the time taken for the thyroid glands to saturate with ${}^{99m}\\mathrm{Tc}$.\n\ne) A scan is taken over $t_s=10.0$ minutes. If the total energy detected by the scanner exceeds $E_{\\min}=5\\times10^{-4}\\,\\mathrm{J}$, an image appears due to radioactivity in a thyroid gland. Approximately how much time will elapse before radioactivity is no longer detected in a scan?"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSuggested Time: 20 min\n\nAfter some time spent pondering the workings of the universe, John says to Mary, “Energy is always conserved.” Mary, however, doesn’t agree. She says to John that if two identical cars travelling at the same speed collide head-on, there is kinetic energy before the collision, but no kinetic energy after. The two continue their disputation over a cup of tea, and await your assistance at the end of this question.\n\nThe momentum of an object of mass $m$ moving with velocity $\\mathbf{v}$ is\n\n$$\\mathbf{p}=m\\mathbf{v}\\quad.$$\n\nThe (vector) sum of the momenta of all of the objects in any collision is the same before and after the collision. In this question, a positive velocity indicates motion to the right.\n\na) Two hard particles $m$ and $M$ collide head-on. They have initial velocities $\\mathbf{v}$ and $\\mathbf{V}$ respectively (so $\\mathbf{V}$ is negative). If the collision is elastic, the kinetic energy is conserved, and the velocities of the particles after colliding are\n\n$$\\begin{aligned} \\mathbf{v}' &= \\frac{(m-M)\\mathbf{v}+2M\\mathbf{V}}{m+M} \\\\ \\mathbf{V}' &= \\frac{(M-m)\\mathbf{V}+2m\\mathbf{v}}{m+M} \\end{aligned}$$\n\n(i) What do these equations become for $m=M$? Give an example of such a collision.\n\n(ii) Approximate these equations for $M\\gg m$. Give an example of such a collision.\n\nb) Find the fraction of the kinetic energy which is lost if two gunky blobs of masses $m=0.50\\,\\mathrm{kg}$ and $M=3.0\\,\\mathrm{kg}$ with velocities $\\mathbf{v}=0.50\\,\\mathrm{m\\,s^{-1}}$ and $\\mathbf{V}=-0.10\\,\\mathrm{m\\,s^{-1}}$, collide head-on and the final velocity of the gunky blob with mass $m$ is $\\mathbf{v}'=-0.25\\,\\mathrm{m\\,s^{-1}}$.\n\nc) In the case where the collision is completely inelastic, the gunky blobs stick together to form a superblob of total mass $M'=(M+m)$. If $m=0.50\\,\\mathrm{kg}$, $M=2.5\\,\\mathrm{kg}$, $\\mathbf{v}=0.50\\,\\mathrm{m\\,s^{-1}}$ and $\\mathbf{V}=-0.10\\,\\mathrm{m\\,s^{-1}}$, determine the fraction of kinetic energy lost during the formation of the superblob.\n\nd) Is either John or Mary from above correct, and how can their statements be reconciled?"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSuggested Time: 40 min\n\nFriction is the force between surfaces that acts to prevent their relative motion. It acts along the plane of the surface. The part of the contact force which acts perpendicular to the plane of the surface is the normal force. Static friction, present when two bodies are at rest relative to each other, takes any value necessary to balance other forces up to a maximum given by\n\n$$\\mathbf{F}=\\mu\\mathbf{N}\\quad,$$\n\nwhere $\\mu$ is the coefficient of static friction.\n\nFriction can be used to make eating pineapple an exciting experience. Consider a large cube of pineapple sitting on a chopping board. One end of the board is on the edge of the bench, and the other end is raised, so that the board is inclined at an angle $\\theta$ to the bench.\n\na) Draw a free body diagram showing the forces acting on the pineapple.\n\nb) The board is gradually tilted up until the cube of pineapple begins to slide inexorably toward the waiting mouth at bottom of ramp. Show that $\\mu=\\tan\\theta$.\n\nCubes of pineapple are, regrettably, perishable goods, and we apologise that we were unable to ship one to you for the purposes of this examination. Therefore, the next part of this question will use the (admittedly poor) substitutes of paper and pencil. When you draw on paper with a lead pencil, you coat the paper with a graphite mixture.\n\nc) The coefficients of static friction differ between different pairs of surfaces. Using the ideas presented above and the theory you have derived, devise and perform an experiment to find the difference between A) the coefficient of static friction between paper and paper and B) the coefficient of static friction between paper and graphite mixture.\n\nEquipment: You may tear out the next three leaves of this question book to use as equipment. Some suggested folds are marked to help you create some useful apparatus, but the choice of what to do with your paper is up to you. Along with the paper of these three pages, you may also use the lead pencil which you brought into this exam, and a ruler. Remember to be safe when using any equipment – make sure you don’t injure yourself or other people (or your pencil or ruler).\n\n[The equipment pages (pages 11–15 of the paper) each read \"This page may be torn out and used as equipment. A4 paper is 297 mm long by 210 mm wide.\" Page 11 carries dashed suggested fold lines (one \"fold 1\" line across the page and two parallel \"fold 2\" lines below it, down to the bottom edge); pages 13–15 carry a scale in \"arbitrary units\" from 0 to 27 along the right-hand edge.]\n\nWhat is required: Write out the method that you are going to use in detail and justify why you have chosen it, along with any modifications you make along the way. State your results, and any processing you do of them, and evaluate your answers.\n\nImportant: the credit in this question is primarily for your method, how you would calculate the results, and your observations of what works and doesn’t as you try your experiment. The numeric answers are a small part, and you should not be concerned if you are unable to get them – we are interested in your thought processes, designs and observations.\n\nAs a final note, although this be in lieu of a pineapple-based experiment, do not attempt to eat any of your equipment."
+    }
+   ]
+  },
+  {
+   "year": 2014,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA cricketer leaps into the air and catches a ball while both are in mid air. Which of the cricketer or the ball undergoes the smaller change in momentum?\n\na. The cricketer does.\n\nb. The ball does.\n\nc. The change in momentum is the same for both the cricketer and the ball.\n\nd. You can’t tell without knowing the final velocity of the combined cricketer-ball mass.\n\ne. The result depends on the energy absorbed by the cricketer’s hands while catching the ball."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nJust before the cricketer caught the ball her kinetic energy was the same as the ball’s kinetic energy. Just before the cricketer catches the ball, which of the following statements is true?\n\na. The ball has a greater speed than the cricketer.\n\nb. The cricketer has a greater speed than the ball.\n\nc. The cricketer and the ball have the same speed.\n\nd. The kinetic energy cannot give information about their speeds.\n\ne. The directions of the cricketer and the ball must be taken into account to compare their speeds."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nTara likes playing with bubbles and watching the bright colours in them change. She notices that bubbles which have dark patches pop sooner than those with no dark patches. She concludes that dark patches cause bubbles to pop. Which of the following is the best statement of the flaw in Tara’s argument?\n\na. It ignores the effects of bubbles colliding with other objects.\n\nb. It assumes that because dark patches occur just before popping, dark spots cause popping.\n\nc. It ignores the fact that some bubbles pop when there are no dark patches.\n\nd. It ignores the effects of other colours on whether bubbles pop.\n\ne. There is no flaw in Tara’s argument. Dark patches cause popping."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA large truck breaks down on the freeway and receives a push to the nearest exit by a small car as shown below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-1-4-fig1.png\n\nWhile the car, still pushing the truck, is speeding up to get to cruising speed\n\na. the amount of force with which the car pushes on the truck is equal to that with which the truck pushes back on the car.\n\nb. the amount of force with which the car pushes on the truck is smaller than that with which the truck pushes back on the car.\n\nc. the amount of force with which the car pushes on the truck is greater than that with which the truck pushes back on the car.\n\nd. the car’s engine is running so the car pushes against the truck, but the truck’s engine is not running so the truck cannot push back against the car. The truck is pushed forward simply because it is in the way of the car.\n\ne. neither the car nor the truck exert any force on the other. The truck is pushed forward simply because it is in the way of the car."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nAn elevator is being lifted up an elevator shaft at a constant speed by a steel cable as shown in the figure below. All frictional effects are negligible. In this situation, the forces on the elevator are such that:\n\na. the upwards force of the cable is greater than the downward force of gravity.\n\nb. the upward force of the cable is equal to the downward force of gravity.\n\nc. the upward force of the cable is smaller than the downward force of gravity.\n\nd. the upward force of the cable is greater than the sum of the downward force of gravity and a downward force due to air.\n\ne. none of the above. (The elevator goes up because the cable is being shortened, not because an upwards force is exerted on the elevator by the cable.)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-1-5-fig1.png\n\nElevator going up at constant speed"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA donkey pulls a wooden box along rough flat ground at a constant speed by means of a force $\\vec{P}$ (magnitude $P$) as shown. In the diagram, $f$ is the magnitude of the frictional force, $N$ is the magnitude of the normal force, and $F_g$ is the magnitude of the force of gravity. Which of the following options must be true?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-1-6-fig1.png\n\na. $P=f$ and $N=F_g$\n\nb. $P=f$ and $N>F_g$\n\nc. $P>f$ and $N<F_g$\n\nd. $P>f$ and $N=F_g$\n\ne. none of these."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nThe donkey of Question 6 now pulls harder and doubles the magnitude of the force $P$. Which of the following options must be true?\n\na. $F_g$ and $N$ remain constant but $f$ increases to counter the increase in $P$.\n\nb. $F_g$, $N$ and $f$ all remain constant despite the increase in $P$.\n\nc. $F_g$ and $f$ remain constant but $N$ decreases due to the increase in $P$.\n\nd. $F_g$ remains constant but $N$ and hence $f$ decrease due to the increase in $P$.\n\ne. none of these."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nThe positions of two runners, Helen and Con, are shown below. The runners are shown at successive 0.20 second intervals, and they are moving towards the right.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-1-8-fig1.png\n\nDo Helen and Con ever have the same speed?\n\na. No.\n\nb. Yes, at instant 2.\n\nc. Yes, at instant 7.\n\nd. Yes, at instants 2 and 7.\n\ne. Yes, at some time during the interval 4 to 5."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nThe positions of two runners, Helen and Con, are shown below. The runners are shown at successive 0.20 second intervals, and they are moving towards the right.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-1-9-fig1.png\n\nWhich of the following statements best describes how the accelerations of the runners are related.\n\na. The acceleration of Con in greater than the acceleration of Helen.\n\nb. The acceleration of Helen is greater than the acceleration of Con.\n\nc. The accelerations of Helen and Con are equal. Both accelerations are equal to zero.\n\nd. The accelerations of Helen and Con are equal. Both accelerations are greater than zero.\n\ne. Not enough information is given to answer the question."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nWhich of the following is the best estimate of the volume of an orange.\n\na. $3\\times10^{-5}\\,\\mathrm{m^3}$\n\nb. $3\\times10^{-4}\\,\\mathrm{m^3}$\n\nc. $3\\times10^{-3}\\,\\mathrm{m^3}$\n\nd. $3\\times10^{-2}\\,\\mathrm{m^3}$\n\ne. $3\\times10^{-1}\\,\\mathrm{m^3}$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSuggested Time: 35 min\n\nMaria is a connoisseur of fine teas. She is preparing her new tea with boiling water in her cylindrical mug with inner radius $r=4\\,\\mathrm{cm}$ and height $h=10\\,\\mathrm{cm}$. Her mug has a lid for better insulation.\n\nIn a short time $\\Delta t$ the amount of heat which flows out of the tea is given by\n\n$$\\Delta Q=\\frac{\\kappa S(T_{\\mathrm{tea}}-T_{\\mathrm{room}})}{d}\\Delta t\\quad, \\qquad (1)$$\n\nwhere $S$ in the inner surface area of the mug and $d=5\\,\\mathrm{mm}$ is the thickness of the mug walls.\n\nAs heat flows from the tea the change in its temperature $\\Delta T$ given by\n\n$$\\Delta Q=m\\cdot c\\cdot\\Delta T\\quad, \\qquad (2)$$\n\nwhere $m$ is the mass of the water.\n\nData\n\n$$\\begin{array}{c} \\text{Temperature of boiling water: } T_{\\mathrm{boil}}=100\\,^{\\circ}\\mathrm{C} \\\\ \\text{Thermal conductivity of mug: } \\kappa=1.0\\,\\mathrm{W\\,m^{-1}\\,K^{-1}} \\\\ \\text{Room temperature: } T_{\\mathrm{room}}=25\\,^{\\circ}\\mathrm{C} \\\\ \\text{Density of water: } \\rho=1000\\,\\mathrm{kg\\,m^{-3}} \\\\ \\text{Specific heat capacity of water: } c=4180\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}} \\end{array}$$\n\nMaria pours her tea, filling her mug completely, and immediately places the lid on her mug.\n\na) (i) Find the temperature $T_{30}$ of Maria’s tea after 30 seconds have elapsed and fill in the first line of the table on p. 2 of the Answer Booklet.\n\n(ii) Complete the rest of the table on p. 2 of the Answer Booklet.\n\nHint: use your answers from one line to help you with the next line.\n\n(iii) Plot a graph of $T_{\\mathrm{tea}}$ vs. time on p. 3 of the Answer Booklet. Include times from 0 s up to and including 5 min.\n\n[The table on p. 2 of the Answer Booklet:]\n\n$$\\begin{array}{c|c|c|c} \\text{Time after pouring} & \\text{Initial } T_{\\text{tea}}\\ (^{\\circ}\\mathrm{C}) & \\text{Temperature change in 30 s}\\ (^{\\circ}\\mathrm{C}) & \\text{Final } T_{\\text{tea}}\\ (^{\\circ}\\mathrm{C}) \\\\ \\hline 0\\,\\mathrm{s} & 100 & & \\\\ 30\\,\\mathrm{s} & & & \\\\ 1\\,\\mathrm{min} & & & \\\\ 1\\,\\mathrm{min}\\ 30\\,\\mathrm{s} & & & \\\\ 2\\,\\mathrm{min} & & & \\\\ 2\\,\\mathrm{min}\\ 30\\,\\mathrm{s} & & & \\\\ 3\\,\\mathrm{min} & & & \\\\ 3\\,\\mathrm{min}\\ 30\\,\\mathrm{s} & & & \\\\ 4\\,\\mathrm{min} & & & \\\\ 4\\,\\mathrm{min}\\ 30\\,\\mathrm{s} & & & \\end{array}$$\n\nb) Find the time it takes Maria’s tea to reach $55\\,^{\\circ}\\mathrm{C}$.\n\nc) Maria decides to reheat her tea from $55\\,^{\\circ}\\mathrm{C}$ to $70\\,^{\\circ}\\mathrm{C}$ with a small $1.1\\,\\mathrm{kW}$ heater she places into the tea. How long will it take the tea to reach $70\\,^{\\circ}\\mathrm{C}$? You may neglect the heat flow out of the tea.\n\nd) Estimate the size of the error in your answer to part (c) due to neglecting heat flow out of the tea. Use your estimate to comment on whether your answer to part (c) is reasonable."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSuggested Time: 30 min\n\nA block of mass $m$ sits against an unextended spring with spring constant $k_1$ on a frictionless surface as shown below. A short distance beyond the mass, there is a vertical cliff of height $h$ that drops off to a rough surface with kinetic friction coefficient $\\mu_k$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-2-2-fig1.png\n\nWhen compressed or extended, the spring exerts a restoring force\n\n$$F=-kx\\quad,$$\n\nwhere $k$ is the spring constant and $x$ is the change in length of the spring. The elastic potential energy stored in the spring during this deformation is given by\n\n$$U=\\frac{1}{2}kx^2\\quad.$$\n\nThe block is pushed against the spring with displacement $x_1$ and then released at time $t=0$.\n\na) What is the velocity of the block immediately after it loses contact with the spring?\n\nb) After reaching the cliff, the block continues to move through the air until it hits the rough surface below. Once it hits the rough surface, a frictional force acts against the horizontal motion of the block.\n\nOn the axes given on p. 4 of the Answer Booklet sketch as functions of time, starting when the block is released and ending when the block is at rest again, the\n\n(i) kinetic energy,\n\n(ii) gravitational potential energy, and\n\n(iii) elastic potential energy.\n\n$\\textbf{Use the same axes for all three sketches and label each line clearly.}$\n\nc) A section of the rough ground a distance $d$ from the cliff is made smooth (frictionless) and a second spring, with constant $k_2=2k_1$ is placed on it, as shown below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-2-2-fig2.png\n\n(i) On the axes on p. 5 of the Answer Booklet, sketch the maximum compression of the new spring as a function of the maximum compression of the launching spring. Only consider compressions causing the block to land before the second spring.\n\n(ii) Find an expression for the largest possible maximum compression of the second spring that you marked on your sketch for part (c)(i)."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSuggested Time: 18 min\n\nA lolly factory produces shiny delicious spherical chocolates of radius $r$. It packs the chocolates in layers arranged as shown in Figure 1; each layer is stacked directly on top of the one below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-2-3-fig1.png\n\nFigure 1: Neatly packed chocolates.\n\nThe packing fraction is defined to be the ratio of the volume of some objects divided by the total volume of space which they occupy.\n\nWhen arranged randomly the chocolates have a packing fraction of 0.64.\n\na) Find the packing fraction of the chocolates when they are neatly packed in stacked layers with the arrangement shown in Figure 1.\n\nb) Do the same number of chocolates occupy more space when neatly packed as in Figure 1 or when randomly arranged?\n\nTo sell the chocolates the factory packs them into bags which are filled through funnels like that shown in Figure 2. As the bags are filled chocolates are added into the top of the funnel at an average rate of 5 chocolates per second and the level in of chocolates in the top of the funnel is steady.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-2-3-fig2.png\n\nFigure 2: Funnel for filling bags.\n\nc) (i) How many bags of 30 can be filled per minute through each funnel?\n\n(ii) How fast do the chocolates shoot out of the funnel into a bag?\n\n(iii) What is the average downwards speed of the chocolates in the top of the funnel?"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSuggested Time: 18 min\n\nAstrophysical systems such as galaxies (which contain large numbers of stars) are generally very far from the Earth and solar system, and are moving away from us with some relative velocity $v$. Individual stars can be moving with respect to the galaxy; the velocity of this motion is known as the peculiar velocity. Figure 3 shows a galaxy which is moving away from us as a whole; stars in this galaxy orbit its centre and have peculiar velocities.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-2-4-fig1.png\n\nFigure 3: Peculiar velocities of a stars in a galaxy.\n\nThe energy from the peculiar motion within a galaxy, rather than its overall movement, is interesting. One way to measure the typical peculiar speed of a star, is to look at the spread in velocities. The standard deviation of the peculiar speeds is called the velocity dispersion, $\\sigma$, and it becomes an estimate of the typical peculiar speed of a star.\n\na) The virial theorem applied to an astrophysical system with very large mass $M$ gives that\n\n$$v^2=\\frac{GM}{R}\\quad,$$\n\nwhere $v$ is the average speed of an object orbiting at a radius $R$, and $G$ is the universal gravitational constant. Use the virial theorem to estimate the mass $M$ of a galaxy, where a population of stars at radius $R$ from the centre of the galaxy are observed to have velocity dispersion $\\sigma$.\n\nWhen the source of a wave is approaching or retreating from an observer the wavelength changes. The size of this change is proportional to the speed of the source. This is known as the Doppler effect and is useful in astrophysics because elements emit light within narrow wavelength regions meaning peaks are observed in objects’ spectra.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2014-2-4-fig2.png\n\nFigure 4: Hydrogen alpha emission spectrum.\n\nb) (i) Explain, with sketches, how the Doppler effect causes broadening of the Hydrogen alpha emission lines in the fast-rotating broad-line regions of galaxies. On the diagram on p. 8 of the Answer Booklet, draw what the Hydrogen alpha peak in Figure 4 would look like if its source is gas in the broad-line region of a galaxy.\n\n(ii) Hence, explain how observations of spectra can be used to measure the velocity dispersion of stars in a galaxy.\n\nMost galaxies have supermassive black holes at their centres, which can be a billion times more massive than the Sun. Sometimes a violent event in the supermassive black hole causes changes throughout the fast-rotating region around the centre, called the broad-line region; these changes appear some time later.\n\nA technique called reverberation mapping uses the time it takes light to travel across the broad-line region to estimate its radius. The light travel time $\\tau$ is the measured time between observing changes in the front and in the back of the region. The speed of light is $c$ and the velocity dispersion of the broad-line region is $\\sigma_{\\mathrm{BLR}}$.\n\nc) (i) Find an expression for the radius $R_{\\mathrm{BLR}}$ of the broad-line region.\n\n(ii) Estimate the mass $M_{\\mathrm{BH}}$ of a supermassive black hole using reverberation mapping and the virial theorem. You may assume that supermassive black holes are so massive that they account for most of the mass in the centre of a galaxy."
+    }
+   ]
+  },
+  {
+   "year": 2015,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA projectile is launched vertically upwards. Consider the motion of the projectile after it has been launched but before it returns to the ground. Assuming that all forces exerted by the air are negligible, the force(s) acting on the projectile is (are):\n\na. a downward force of gravity along with a steadily decreasing upward force.\n\nb. a steadily decreasing upward force from the moment it leaves the launcher until it reaches its highest point; on the way down there is a steadily increasing downward force of gravity as the projectile gets closer to the Earth.\n\nc. an almost constant downward force of gravity along with an upward force that steadily decreases until the projectile reaches its highest point; on the way down there is only a constant downward force of gravity.\n\nd. an almost constant downward force of gravity only.\n\ne. none of the above. The projectile falls back to the ground because of its natural tendency to rest on the Earth."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe figure shows a frictionless channel in the shape of a segment of a circle with centre at “O”. The channel is attached to a frictionless horizontal table top. You are looking down at the table. Assume that all forces exerted by the air are negligible. A ball is shot at high speed into the channel at “p” and exits at “r”.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-1-2-fig1.png\n\nConsider the following distinct forces:\n\n1. A downward force of gravity.\n2. A force exerted by the channel pointing from q to O.\n3. A force in the direction of motion.\n4. A force pointing from O to q.\n\nWhich of the above forces is (are) acting on the ball when it is within the frictionless channel at position “q”?\n\na. 1 only.\n\nb. 1 and 2.\n\nc. 1 and 3.\n\nd. 1, 2, and 3.\n\ne. 1, 3, and 4."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA book lies at rest on a table. The table is at rest on the surface of the Earth. By Newton’s Third Law, the reaction force to the weight of the book is:\n\na. the gravitational force of the Earth on the book.\n\nb. the normal force exerted by the table on the book.\n\nc. the gravitational force exerted by the Earth on the table.\n\nd. the normal force exerted by the Earth on the table.\n\ne. the gravitational force of the book on the Earth."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nBonnie and Jake have been visiting Goulburn and were amazed to see the aurora australis one night. On their way home a few days later they have to drive through a massive storm, and while stopped at a section of flooded road they have a discussion about the weather and their trip. Bonnie tells Jake that the aurora they witnessed was due to high sunspot activity, producing large numbers of high energy charged particles, which experience a force in the Earth’s magnetic field and are diverted towards the poles, where they collide with molecules in the atmosphere, producing the coloured light of the aurora. She mentions that there must have been a lot of sunspot activity to produce an aurora visible as far north as Goulburn. Jake, who is from Tasmania, tells Bonnie that he has seen the aurora several times before, and each time he does there is a storm within a few days later. He concludes from this observation that periods of high sunspot activity cause storms on Earth. Bonnie thinks that Jake’s reasoning is flawed.\n\nWhich of the following is the best statement Bonnie can make to point out the flaw in Jake’s argument?\n\na. “But Jake, I know from the atmospheric physics course that I took last semester that storms are actually the result of low-pressure systems in the Earth’s atmosphere.”\n\nb. “But Jake, you’ve considered what happens when there is high sunspot activity, but your argument ignores the influence of periods of low sunspot activity on Earth’s weather systems. You really need to compare the two situations to draw any conclusions.”\n\nc. “But Jake, you’ve assumed that just because there are storms just after sunspots, the storms are caused by the high sunspot activity.”\n\nd. “But Jake, there are stormy periods in some areas but not in others while there is sunspot activity.”\n\ne. Bonnie is mistaken, there is nothing wrong with Jake’s argument."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA projectile of mass $M$ is moving directly north when it collides with and sticks to a second projectile of mass $m$ travelling directly south. Both projectiles have the same kinetic energy, and $M\\gg m$. Which of the following statements is true in the instant after the collision?\n\na. The object moves north.\n\nb. The object moves south.\n\nc. The object stops dead in the air.\n\nd. As soon as they collide the object must move directly downwards.\n\ne. It depends on how hard the impact of the objects on each other is."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA projectile is launched at an angle to the ground such that it has both a horizontal and a vertical component to its initial velocity. Assuming all forces exerted by the air are negligible, which of the following statements is true?\n\na. The speed of the projectile is zero at the top of its trajectory, and the acceleration of the projectile is the same at the top of the trajectory as it is just before it hits the ground.\n\nb. The speed of the projectile is the same at the top of its trajectory as it is just before it hits the ground, and the acceleration of the projectile is higher just before it hits the ground than it is at the top of the trajectory.\n\nc. The speed of the projectile is lower at the top of its trajectory than is it just before it hits the ground, and the acceleration of the projectile is higher at the top of its trajectory than it is just before it hits the ground.\n\nd. The speed of the projectile is lower at the top of its trajectory than is it just before it hits the ground, and the acceleration of the projectile is the same at the top of its trajectory as it is just before it hits the ground.\n\ne. The speed of the projectile is higher at the top of its trajectory than is it just before it hits the ground, and the acceleration of the projectile is the same at the top of its trajectory as it is just before it hits the ground."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nWhen a screw is very tight the most effective way to loosen it is by:\n\na. using a screwdriver with a fat handle and pushing down hard while turning to increase the grip.\n\nb. using a screwdriver with a fat handle and not pushing down too hard in case you deform the screw head.\n\nc. using a long screwdriver so that you are applying the force a long way from the point of contact.\n\nd. using a short screwdriver so that you are applying the force as close as possible to the point of contact.\n\ne. None of the above."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nAn elevator in a four storey building is moving upward with constant acceleration. The dashed curve shows the position $y$ of the ceiling of the elevator as a function of the time $t$. At the instant indicated by the set of branching (solid) curves, a bolt breaks loose and drops from the ceiling. In the absence of air resistance, which curve best represents the position of the bolt as a function of time $\\textit{as seen by an observer who is not in the lift}$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-1-8-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nMatt is going to make a cake for Alix’s birthday. The recipe says to use half a teaspoon of cinnamon, but he can’t find a clean teaspoon. Instead he decides to weigh an appropriate amount on his kitchen scales. To the nearest order of magnitude, what is the mass of half a teaspoon of cinnamon?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-1-9-fig1.jpg\n\na. $0.01\\,\\mathrm{g}$\n\nb. $0.1\\,\\mathrm{g}$\n\nc. $1\\,\\mathrm{g}$\n\nd. $10\\,\\mathrm{g}$\n\ne. $100\\,\\mathrm{g}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA large truck breaks down on the freeway and receives a push to the nearest exit by a small car as shown below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-1-10-fig1.png\n\nWhile the car, still pushing the truck, is speeding up to get to cruising speed\n\na. the amount of force with which the car pushes on the truck is equal to that with which the truck pushes back on the car.\n\nb. the amount of force with which the car pushes on the truck is smaller than that with which the truck pushes back on the car.\n\nc. the amount of force with which the car pushes on the truck is greater than that with which the truck pushes back on the car.\n\nd. the car’s engine is running so the car pushes against the truck, but the truck’s engine is not running so the truck cannot push back against the car. The truck is pushed forward simply because it is in the way of the car.\n\ne. neither the car nor the truck exert any force on the other. The truck is pushed forward simply because it is in the way of the car."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSuggested Time: 20 min\n\nConsider a hollow, frictionless inverted cone within which an object of mass $m$ is free to slide. The cone has an angle of $\\theta$ between its central axis and sloped side, and a radius $r$ at height $h$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-1-fig1.png\n\na) The object of mass $m$ is released from rest at height $h$ to slide inside the cone.\n(i) What will be its speed when it reaches the bottom?\n(ii) What assumption(s) did you make in the previous part?\n\nb) The object of mass $m$ is collected and released again, but in the horizontal direction this time, with speed $v$. It slides in a circular path around the inside of the cone. Hence, its acceleration is $a=v^2/r$ towards the central axis of the cone.\n(i) Draw a diagram showing the forces acting on the mass.\n(ii) Find the magnitude of the normal force on the mass.\n(iii) Find an expression for the height of the mass.\n\nc) The object of mass $m$ continues along its circular path until it is bumped slightly so that its $\\textit{speed}$ is unchanged, but it is now directed slightly down the cone (but still mostly around the cone). Describe and explain the motion of the mass."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSuggested Time: 25 min\n\nThe logarithmic spiral is a curve that is seen often in nature, for example in sea shells and sunflowers. It is also known as a constant angle spiral, because it has the property that at each point on the curve, the angle between the radius (the line to the centre of the spiral) and the tangent is constant; this angle is $90^\\circ-\\phi$ as shown in Fig 1(a).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-2-fig1.png\n\nFigure 1: (a) A logarithmic spiral with angle $\\phi$, radius and tangent marked. (b) A spring-loaded camming device (cam) with lobes extended. (c) The same cam with lobes retracted and placed in a parallel sided crack.\n\nThe spring-loaded camming device (cam for short) is a piece of rock climbing equipment based on the logarithmic spiral and its properties. A cam’s purpose is to protect the climber by limiting the distance he or she can fall.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-2-fig2.png\n\nFigure 2: (a) A climber using cams for protection. (b) A climber after a fall.\n\nA cam is comprised of two lobes, each the shape of a section of a logarithmic spiral whose centres are on a common axle; this axle is attached to the rope and hence the climber. The springs in the device restore the cam to the shape shown in Figure 1(b). The lobes can be retracted (releasing the springs) allowing the cam to be placed in a crack in the rock as shown in Figure 1(c). If the climber falls, the downward force from the fall is converted by the cam to an outward force on the rock. Friction keeps the cam in place in the crack. The frictional force has a maximum value $F_{\\mathrm{fr}}=\\mu N$ where $N$ is the normal force.\n\na) Suppose a climber places a cam in a parallel-sided crack. Draw all the forces on the cam in a labelled free body diagram on p. 4 of the Answer Booklet, when\n(i) the climber is above the cam\n(ii) the climber has fallen and is hanging from the cam\n\nb) Cams rely on friction to work; it is dangerous to use them on smooth rock. What is the minimum coefficient of friction $\\mu$ that the rock should have, in terms of the camming angle $\\phi$?\nNote that the force exerted by the axle on each lobe must be along the line joining the axle with the point of contact of that lobe with the rock, or the lobe will rotate. You may assume the force due to the spring on each lobe is negligible, and the cam lobes do not deform the rock.\n\nc) What does the logarithmic spiral shape of the cam lobes mean for the cam’s functionality at different amounts of retraction?\n\nd) As a climber climbs above a cam they may inadvertently pull the cam from side to side. Consider the springs’ forces on the lobes of a cam placed in a crack and pulled from side to side.\n(i) Describe the effect that this will have on the cam. Explain your reasoning with the help of diagrams.\n(ii) Circle the diagram showing the $\\textbf{safer}$ crack for a climber to use on p. 5 of the Answer Booklet. Give reasons for your answer.\n\n[The two crack diagrams printed under 12(d)(ii) on p. 5 of the Answer Booklet:]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-2-fig3.png"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSuggested Time: 25 min\n\nOne evening a house was heated by burning $10\\,\\mathrm{kg}$ of hardwood in a slow combustion heater. The fire went out at 7:30 pm. The efficiency of the heater is $68\\%$ and hardwood releases $1.9\\,\\mathrm{MJ/kg}$ of energy when it is burnt. The temperature both inside and outside the house was recorded and is shown in Figure 3.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-3-fig1.png\n\nFigure 3: The temperature inside and outside the house on this evening.\n\na) (i) How much energy was released by burning the hardwood?\n(ii) The total heat capacity is the amount of heat required to increase the temperature of an object by $1^\\circ\\mathrm{C}$. Estimate the total heat capacity of the house.\n\nb) After the fire went out the house began to cool.\n(i) Draw a straight line of best fit to the $\\textbf{linear}$ region of the graph on p. 6 of the Answer Booklet.\n(ii) Write down an equation which describes the relationship of the line of best fit.\n(iii) When does this relationship apply to this house?\n(iv) Does the relationship you found using the data match your expectations about how the house would cool? Explain your answer, including what your expectations are and physical reasons for them.\n\n[The graph printed under 13(b)(i) on p. 6 of the Answer Booklet:]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-3-fig2.png\n\nc) Use your answer to 13b to make a better estimate of the total heat capacity of the house. Justify your estimate."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSuggested Time: 20 min\n\nWhen light passes through a very narrow slit it $\\textit{diffracts}$. This means that the light spreads out and forms a pattern with bright and dark spots on a distant screen. Some examples of these patterns are shown below, with magnified images of the slits that generated them to the right. The wavelength of the light and the distance from the slit to the screen were kept constant in these images.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-4-fig1.png\n\nThe width of the central bright region is\n\n• proportional to the wavelength of the light\n• proportional to the distance from the slit to the screen\n• inversely proportional to the width of the slit.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-4-fig2.png\n\nFigure 4: Light diffracting through a narrow slit.\n\na) Red light of wavelength $650\\,\\mathrm{nm}$ is shone though a slit of width $3.0\\times10^{-4}\\,\\mathrm{m}$ onto a screen $1.20\\,\\mathrm{m}$ from the slit and produces the pattern labelled “(a)” below. $\\textit{Exactly one}$ of the slit width, wavelength or distance to screen was changed to produce the pattern labelled “(b)” below. For each possible parameter below find its required value to make pattern “(b)”:\n(i) slit width,\n(ii) wavelength,\n(iii) distance from the slit to the screen.\nGive your answers in the spaces on p. 8 of the Answer Booklet.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-4-fig3.png\n\nb) A diffraction pattern from a different single slit is shown on p. 8 of the Answer Booklet. Draw a possible single slit which could have produced this pattern in the box to the right of the pattern.\n\nc) When a narrow slit is replaced by a small rectangular aperture (hole) the light spreads out in all directions and forms a pattern such as the one labelled Example on p. 8 of the Answer Booklet. Draw diagrams to fill in the blanks of diffraction patterns or aperture shapes in the table on pp. 8–9 of the Answer Booklet.\n\n[The table printed on pp. 8–9 of the Answer Booklet:]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-4-fig4.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2015-2-4-fig5.png\n\nd) Explain why the width of the central bright region is proportional to the distance from the slit to the screen."
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhy does a raindrop fall with near-constant speed during the later stages of its descent?\n\na. The gravitational force is constant.\n\nb. Air resistance just balances the force of gravity.\n\nc. The height from which the raindrop started falling is fixed in space.\n\nd. The force of gravity is negligible for objects as small as a raindrop.\n\ne. Gravity cannot increase the speed of a falling object to more than $9.8\\,\\mathrm{m\\,s^{-1}}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe Moon orbits the Earth. What is the Newton’s Third Law reaction force to the gravitational force of the Earth on the Moon?\n\na. The gravitational force of the Earth on the Moon\n\nb. The normal force of the Earth on the Moon\n\nc. The normal force of the Moon on the Earth\n\nd. The gravitational force of the Moon on the Earth\n\ne. The friction force acting on the Moon"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\n“Slice” is the name given to the angular deviation from the straight-through direction that a golfer produces when they hit a golf ball off the tee. David derives the following formula for his slice:\n\n$$\\phi=\\frac{(1-P)}{(H-L)\\sin\\theta}\\,.$$\n\nIn this formula, David’s slice, $\\phi$, depends on three positive values ($P$, $H$ and $L$) that are all less than one, with $H>L$, and an angle $\\theta$ (measured in degrees) that can range between $0^\\circ$ and $180^\\circ$.\n\nWhich of the following options will minimise David’s slice?\n\na. Make $P$ as small as possible, keeping the other variables constant.\n\nb. Make $H$ as small as possible, keeping the other variables constant.\n\nc. Make $L$ as small as possible, keeping the other variables constant.\n\nd. Make $\\theta$ as small as possible, keeping the other variables constant.\n\ne. None of the above will help David minimise his slice."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA glass-walled elevator is moving upwards with constant acceleration. At some point in the elevator’s motion, a bolt breaks loose and drops from the ceiling. What is the motion of the bolt as seen by an $\\textbf{external}$ observer (i.e. one located outside the elevator)?\n\na. The bolt moves upwards at a constant speed.\n\nb. The bold initially moves upwards, then slows, reverses direction and moves downwards.\n\nc. The bolt appears to remain stationary.\n\nd. The bolt immediately moves downwards, accelerating as it goes.\n\ne. The bolt immediately moves downwards, at constant speed."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe Earth and the Moon both exert gravitational forces on objects in their vicinity. Imagine a line joining the Earth to the Moon, and extending to either side, as shown below (not to scale). Consider placing an object along this line. Where along this line is the net gravitational force on the object due to the Earth and the Moon equal to zero?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2016-1-5-fig1.png\n\na. On the far side of the Earth from the Moon.\n\nb. Between the Earth and the Moon, but closer to the Earth than to the Moon.\n\nc. Halfway between the Earth and the Moon.\n\nd. Between the Earth and the Moon, but closer to the Moon than to the Earth.\n\ne. Nowhere along the line."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nThe electrostatic force $F_e$ that an object of charge $Q$ exerts on another object of charge $q$ is given by Coulomb’s law:\n\n$$F_e=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qq}{r^2}\\,,$$\n\nwhere the charges of the two objects, $Q$ and $q$, are measured in units of coulombs (C), and $r$ is the distance separating the two objects.\n\nWhat are the units of the constant $\\varepsilon_0$?\n\na. $\\mathrm{kg.m^{3}.s^{-2}.C^{2}}$\n\nb. $\\mathrm{kg.m^{-3}.s^{2}.C^{-2}}$\n\nc. $\\mathrm{kg.m.s^{2}.C^{-2}}$\n\nd. $\\mathrm{s^{2}.C^{2}.kg^{-1}.m^{-3}}$\n\ne. $\\mathrm{s^{2}.C^{2}.kg^{-1}.m^{-1}}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA ball is held at a height $H$ above a floor, as sketched in the diagram on the right. It is then released and falls to the floor. If air resistance can be ignored, which of the five graphs below (labelled a. to e. beneath each graph) correctly gives the mechanical energy $E_{\\mathrm{mech}}$ of the Earth-ball system as a function of the altitude $y$ of the ball?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2016-1-7-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2016-1-7-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nSome students are doing an experiment to calculate the spring constant of a particular spring. As part of this experiment, they suspend an object from the spring, pull it downwards, and let it go. The object then oscillates up and down, with a period of about 2 seconds. The students use a stopwatch to measure the period of oscillation. The best way to get an accurate and precise measurement of the period would be to:\n\na. measure the time taken for a single oscillation 10 times, and average the results.\n\nb. measure the time taken for 10 oscillations, and divide by 10.\n\nc. measure the time taken for a single oscillation 10 times, and average the results. Repeat this measurement three times, and average the results.\n\nd. measure the time taken for 10 oscillations, and divide by 10. Repeat this measurement three times, and average the results.\n\ne. All of the methods above are equivalent, and will result in the same precision in the measurement of the period of oscillation."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA roller-coaster car is full of water, and is moving at constant velocity along a frictionless horizontal track. Someone removes a plug in the bottom of the floor, allowing the water to drain out. Ignoring air resistance, as the water drains out the car will:\n\na. slow down.\n\nb. continue to move at constant velocity.\n\nc. speed up.\n\nd. initially slow down, then speed up.\n\ne. initially speed up, then slow down."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThe velocity of a particle moving along the x-axis changes from $v_i$ to $v_f$. For which of these values of $v_i$ and $v_f$ does the particle’s kinetic energy increase the most?\n\na. $v_i=5\\,\\mathrm{m\\,s^{-1}}$, $v_f=2\\,\\mathrm{m\\,s^{-1}}$\n\nb. $v_i=5\\,\\mathrm{m\\,s^{-1}}$, $v_f=-2\\,\\mathrm{m\\,s^{-1}}$\n\nc. $v_i=-5\\,\\mathrm{m\\,s^{-1}}$, $v_f=-2\\,\\mathrm{m\\,s^{-1}}$\n\nd. $v_i=-5\\,\\mathrm{m\\,s^{-1}}$, $v_f=2\\,\\mathrm{m\\,s^{-1}}$\n\ne. $v_i=2\\,\\mathrm{m\\,s^{-1}}$, $v_f=-5\\,\\mathrm{m\\,s^{-1}}$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSuggested Time: 25 min\n\nThe following parts of this question are unrelated and so may be completed in any order. Note that the data provided on the next page may be used for any part, as required. You must explain your reasoning for each part.\n\na) Calculate the amount of energy per gram of fat.\n\nb) The typical office computer is only used one third of the time during business hours. Today a typical office computer consumes around $130\\,\\mathrm{W}$ of power.\nEstimate the cost savings and reduction in greenhouse gas emissions over one year if everyone in an office of 60 people turns off their computers when they are not using them instead of leaving them on at all times, even over the weekend.\n\nc) Estimate the energy efficiency of the conversion of sunlight into sugarcane.\n\nd) “Kilogram per kilogram humans produce more heat than the Sun.” Is this claim true?\n\nTypical Australian Adult:\n\n$$\\begin{array}{|l|c|} \\hline \\text{Typical adult mass} & 65\\,\\mathrm{kg} \\\\ \\hline \\text{Typical adult height} & 1.7\\,\\mathrm{m} \\\\ \\hline \\end{array}$$\n\nDietary Guidelines:\n\n$$\\begin{array}{|l|c|} \\hline \\text{Recommended energy intake} & 8700\\,\\mathrm{kJ/day} \\\\ \\hline \\text{Recommended daily intake of fat} & 30\\%\\text{ of energy }(70\\,\\mathrm{g/day}) \\\\ \\hline \\text{Recommended daily intake of carbohydrates (sugars, flour, etc.)} & 45\\text{–}65\\%\\text{ of energy }(230\\text{–}310\\,\\mathrm{g/day}) \\\\ \\hline \\end{array}$$\n\nElectricity Data:\n\n$$\\begin{array}{|l|c|} \\hline \\text{Typical price} & 15\\,\\mathrm{c/kWh} \\\\ \\hline \\text{Typical greenhouse emissions} & 0.87\\,\\mathrm{kg(CO_2\\ equiv.)/kWh} \\\\ \\hline \\end{array}$$\n\nNote: $1\\,\\mathrm{kWh}=1$ kilowatt hour\n\nAustralian Sugar Cane Data:\n\n$$\\begin{array}{|l|c|} \\hline \\text{Average yield of sugar cane} & 9.2\\,\\mathrm{kg/m^2} \\\\ \\hline \\text{Typical sugar content} & 15\\% \\\\ \\hline \\text{Typical bagasse content} & 30\\% \\\\ \\hline \\text{Typical water content} & 55\\% \\\\ \\hline \\text{Typical energy content of bagasse} & 19.2\\,\\mathrm{MJ/kg} \\\\ \\hline \\end{array}$$\n\nNote: bagasse is the by-product of crushing sugar cane to extract sugar and is often used as a fuel.\n\nSolar System Data\n\n$$\\begin{array}{|l|c|} \\hline \\text{Earth-Sun distance} & 1.5\\times10^{11}\\,\\mathrm{m} \\\\ \\hline \\text{Radius of Sun} & 7.0\\times10^{5}\\,\\mathrm{km} \\\\ \\hline \\text{Mass of Sun} & 2.0\\times10^{30}\\,\\mathrm{kg} \\\\ \\hline \\text{Radius of Earth} & 6.4\\times10^{3}\\,\\mathrm{km} \\\\ \\hline \\text{Mass of Earth} & 6.0\\times10^{24}\\,\\mathrm{kg} \\\\ \\hline \\text{Typical intensity of sunlight at Earth} & 1366\\,\\mathrm{W/m^2} \\\\ \\hline \\end{array}$$"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSuggested Time: 25 min\n\nAngus the accountant decides to change careers and starts a bicycle building business. To make his bicycles stand out he builds them with square wheels, making sure that both wheels can sit with a side flat on the ground at the same time.\n\nAngus rides his first bicycle proudly out of his shed turning his pedals at a constant rate.\n\na) (i) Sketch the trajectory of the centre of the front wheel in the space on p. 4 of the answer booklet.\n(ii) On the same diagram sketch the trajectory of the centre of mass of the bicycle. In the space below the diagram explain how the trajectory of the centre of mass is related to the trajectory of the centre of the front wheel and why this is so.\n(iii) For each wheel label the point about which it is rotating.\n(iv) Label the points on the trajectory where the centre of mass of the bicycle is moving forward fastest. Explain your reasoning in the space provided below the diagram.\n\nb) Calculate the ratio of the length of the path followed by the centre of mass to the distance travelled along the road.\n\nAngus generously gives Sam one of his square wheeled bicycles for her birthday. Sam is very lazy and teaches herself to ride the bicycle so that she is only just pedalling hard enough to replace energy lost from the bike. The bike then has constant energy.\n\nc) Describe the differences and similarities between the motion of the bicycle when Sam rides compared to when Angus rides.\n\nAfter watching Sam ride the bicycle Angus realises the error of his ways, and decides to construct a racetrack specifically for his square bicycles.\n\nd) Draw a side view of the racetrack’s surface shape to ensure the smoothest ride on one of the square wheeled bicycles."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSuggested Time: 25 min\n\nHaving missed the boat for Rio 2016, Emily and Joshua are determined to qualify instead for the Winter Olympics in 2018, to be held in PyeongChang, South Korea.\n\nEmily, being a novice skier, is sliding down a slope and desperately trying to slow down using a ‘snowplough’ stop. The ski slope makes an angle $\\theta$ with the horizontal. By digging the inside edges of her skis into the snow while keeping them in a V-shape, Emily can stop completely. The forces due to this ploughing motion act on each ski perpendicular to the ski and along the slope. Each of these forces has magnitude $F_P$. Emily has a mass $m$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2016-2-3-fig1.png\n\nEmily skiing down a slope.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2016-2-3-fig2.png\n\nSnowplough stop\n\na) (i) Which direction will the total force due to the ploughing motion be in?\n(ii) Explain why the magnitude of the total force due to the ploughing motion is $2F_P\\sin\\frac{\\alpha}{2}$ when the angle between Emily’s skis is $\\alpha$.\n\nb) Draw all the forces as vectors acting on Emily as she ploughs downhill on the diagram on p. 6 of the answer booklet. Include the combined effect of the ploughing forces as a single vector.\n\nc) At what angle $\\alpha$ between the skis will Emily continue down the hill at a constant speed?\n\nJoshua thinks he might have a go at the slalom event so has been practising sharp turns.\n\nd) Joshua is skiing down the slope with his skis pointing downhill and suddenly turns his skis so that they are pointing across the slope.\n(i) Sketch a diagram showing Joshua’s path once he has turned his skis on the diagram on p. 7 of the answer booklet.\n(ii) Briefly explain your reasoning. Note: another diagram might help your explanation.\n\ne) Joshua decides to practice a different turn. He skis down the same hill and then suddenly turns his skis by $45^\\circ$ and then keeps them pointing in the same direction. Draw a diagram of his path on p. 7 of the answer booklet. Please point out any important features of the path."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSuggested Time: 25 min\n\nMetronomes are tools sometimes used by musicians to help make their tempo more consistent when playing a piece of music. The tempo is the number of beats per minute. The metronome pictured below is set to 138 beats per minute. When the vertical arm swings back and forth it produces clicks at either end of the swing. The tempo is changed by sliding the weight up or down the metal arm until the top of the weight aligns with the marking for the desired tempo.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2016-2-4-fig1.jpg\n\na) Explain how you could use the image above to determine $y$, which is the distance from the top of the vertical arm to the top of the sliding weight, for any given tempo setting of the metronome.\n\nb) Use this method to complete the table of tempos and distances $y$ on p. 8 of the answer booklet.\n\n[The table printed on p. 8 of the answer booklet (its middle column has no printed heading; the other cells are blank):]\n\n$$\\begin{array}{|c|c|c|} \\hline \\text{Tempo (beats per minute)} & & y\\ (\\mathrm{mm}) \\\\ \\hline 40 & & \\\\ \\hline 60 & & \\\\ \\hline 80 & & \\\\ \\hline 126 & & \\\\ \\hline 200 & & \\\\ \\hline \\end{array}$$\n\nc) A graph of $y$ versus tempo has been plotted on p. 9 of the answer booklet. However, one or two of the points are not plotted correctly.\n(i) Complete the graph by adding any necessary labels and markings.\n(ii) Correct any points which have not been correctly plotted.\n(iii) Draw a line of best fit to the data.\n\n[The graph printed on p. 9 of the answer booklet (grid without axis labels or scales, five plotted points):]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2016-2-4-fig2.png\n\nd) Calculate the slope of the graph and explain what information this gives about the metronome.\n\ne) What is the lowest tempo to which the metronome could be set? Explain your reasoning.\n\nf) The graphed data points do not lie exactly on the line of best fit. Suggest the most likely reason(s) why this may be so and give a detailed but concise explanation of the reasons for your suggestions in the allocated space on p. 9 of the answer booklet."
+    }
+   ]
+  },
+  {
+   "year": 2017,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA book lies at rest on a table. The table is at rest on the surface of the Earth. The Newton’s Third Law reaction force to the gravitational force of the Earth on the book is:\n\na. the gravitational force exerted by the Earth on the book.\n\nb. the normal force exerted by the table on the book.\n\nc. the gravitational force exerted by the table on the book.\n\nd. the normal force exerted by the Earth on the table.\n\ne. the gravitational force exerted by the book on the Earth."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA large truck breaks down out on the road and receives assistance from a small compact car as shown in the figure below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-1-2-fig1.png\n\nThe car driver attempts to push the truck with the car. Unfortunately, the truck driver has left the brakes on the truck, and neither vehicle moves. Why does the truck not move?\n\na. Because the pushing force of the car on the truck is equal to the pushing force of the truck on the car, but in the opposite direction.\n\nb. Because the pushing force of the car on the truck is less than the pushing force of the truck on the car.\n\nc. Because the frictional force of the ground on the truck is equal to the frictional force of the truck on the ground, but in the opposite direction.\n\nd. Because the frictional force of the ground on the truck is greater than the frictional force of the truck on the ground.\n\ne. Because the pushing force of the car on the truck is equal to the frictional force of the ground on the truck, but in the opposite direction."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA roller-coaster cart full of water is moving at a constant speed along a horizontal, frictionless length of track. Suddenly, a plug in the bottom of the cart is removed, and the water starts to flow downwards out of the cart. What happens to the speed of the cart while the water is flowing? Ignore air resistance in your answer.\n\na. The cart speeds up.\n\nb. The cart slows down.\n\nc. The cart speeds up until half the water is gone, then it slows down.\n\nd. The cart slows down until half the water is gone, then it speeds up.\n\ne. The cart’s speed does not change."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe long side of a rectangular piece of paper is measured to be $(30\\pm2)\\,\\mathrm{mm}$, and the short side is measured to be $(20\\pm3)\\,\\mathrm{mm}$. What is the perimeter of this piece of paper, together with its uncertainty?\n\na. $(50\\pm5)\\,\\mathrm{mm}$\n\nb. $(100\\pm3)\\,\\mathrm{mm}$\n\nc. $(100\\pm5)\\,\\mathrm{mm}$\n\nd. $(100\\pm10)\\,\\mathrm{mm}$\n\ne. $(600\\pm6)\\,\\mathrm{mm}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nAs part of a recent charity fundraising event, people were asked to donate five-cent coins by placing them onto the surface of a large circle (radius $3\\,\\mathrm{m}$). At the end of the day, the circle was completely covered by a single layer of coins. Approximately how much money was raised?\n\na. Five hundred dollars.\n\nb. Five thousand dollars.\n\nc. Fifty thousand dollars.\n\nd. Five hundred thousand dollars.\n\ne. Five million dollars."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nIf a string of linear mass density $\\mu$ (measured in $\\mathrm{kg\\,m^{-1}}$) is placed under a tension $T$ (a force, measured in newtons, N), then the fundamental oscillation frequency $f$ (measured in hertz, Hz, equivalent to cycles per second) is related to the length $L$ of the fundamental oscillation mode of the string (measured in metres, m) by $f=\\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$. If you plot a graph with a series of applied tensions ($T$) on the $x$-axis, and the square of the length of the fundamental oscillation mode ($L^2$) on the $y$-axis, what would you expect to see if the fundamental oscillation frequency is kept constant?\n\na. A straight line through the origin, with a positive slope.\n\nb. A straight line through the origin, with a negative slope.\n\nc. A straight line, parallel to the x-axis.\n\nd. A parabolic curve, with a minimum at $x=0$.\n\ne. A parabolic curve, with a maximum at $x=0$."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nFour particles, each of charge $+q$, are arranged symmetrically on the $x$-axis about the origin as shown. A fifth particle of charge $-Q$ is placed on the positive $y$-axis as shown. What is the direction of the net electrostatic force on the fifth particle?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-1-7-fig1.png\n\na. $\\uparrow$\n\nb. $\\rightarrow$\n\nc. $\\downarrow$\n\nd. $\\leftarrow$\n\ne. The net electrostatic force on the particle of charge $-Q$ is zero."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA block of mass $5\\,\\mathrm{kg}$ lies at rest on a horizontal surface. An upwards force of $20\\,\\mathrm{N}$ is applied to the block, as shown. Assuming $g=10\\,\\mathrm{m\\,s^{-2}}$, what is the weight of the block?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-1-8-fig1.png\n\na. $3\\,\\mathrm{kg}$\n\nb. $5\\,\\mathrm{kg}$\n\nc. $30\\,\\mathrm{N}$\n\nd. $50\\,\\mathrm{N}$\n\ne. $5\\,\\mathrm{kg}-20\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\n[Set-up of Question 8: A block of mass $5\\,\\mathrm{kg}$ lies at rest on a horizontal surface. An upwards force of $20\\,\\mathrm{N}$ is applied to the block.]\n\nAssuming $g=10\\,\\mathrm{m\\,s^{-2}}$, what is the magnitude of the normal force exerted by the surface on the block in Question 8?\n\na. $20\\,\\mathrm{N}$\n\nb. $30\\,\\mathrm{N}$\n\nc. $50\\,\\mathrm{N}$\n\nd. $70\\,\\mathrm{N}$\n\ne. $5\\,\\mathrm{kg}-20\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nAn elevator is rising at constant speed. Consider the following five statements (I to V) about the situation:\n\nI. “The tension in the elevator cable is constant.”\n\nII. “The kinetic energy of the elevator is constant.”\n\nIII. “The gravitational potential energy of the Earth-elevator system is constant.”\n\nIV. “The acceleration of the elevator is zero.”\n\nV. “The mechanical energy of the Earth-elevator system is constant.”\n\nSelect the correct analysis of this situation out of the options a. to e.\n\na. Only statements II and V are true.\n\nb. Only statements IV and V are true.\n\nc. Only statements I, II and III are true.\n\nd. Only statements I, II and IV are true.\n\ne. All five statements are true."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\n[Section B instructions: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$. Note: Suggested times are given for Section B as a general guide only. You may take more or less time on any question – everyone is different.]\n\nSuggested Time: 20 min\n\nNiamh, the Milo enthusiast, is interested in the physics behind her favourite “energy food drink”. To investigate, Niamh prepares to make a huge tank of chocolate milk. Niamh fills the tank of length $L$ and height $H$ with milk, then places a partition a distance $L_{\\mathrm{V}}$ along the tank. She adds a large amount of chocolate powder to the milk to the left of the partition as shown in Figure 1 and mixes it thoroughly. The volume of milk to the left of the partition is $V_{\\mathrm{C}}$ and the density of this chocolate milk is $\\rho_{\\mathrm{C}}$. The remaining volume $V_{\\mathrm{M}}$ of plain milk, which has density $\\rho_{\\mathrm{M}}$, is to the right of the partition. The chocolate milk is denser than the plain milk.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-2-1-fig1.png\n\nFigure 1: Tank containing chocolate milk and plain milk. View from side.\n\nThe partition is removed extremely quickly. $\\textbf{To begin with, it is assumed the chocolate milk does not mix with the plain milk.}$\n\na) Draw a diagram of the contents of the tank a long time after the partition has been removed. Use the space provided on p. 2 of the Answer Booklet.\n\nUpon removing the partition Niamh observes that the chocolate milk spreads through the tank like a wave. She constructs a basic model of the chocolate milk wave in order to find out how quickly it travels. She divides the chocolate milk behind the partition into two equal sections. When the partition is removed, the bottom section is displaced by the top section and begins to move with velocity $U$. This process is depicted in Figure 2.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-2-1-fig2.png\n\nFigure 2: Niamh’s model of the chocolate milk wave. (i) Before the partition is removed. (ii) after the partition is removed.\n\nb) Find $U$.\n\nc) Two limitations of this model are that\n\n• the chocolate milk and plain milk might mix, and\n• the chocolate powder might not be completely dissolved in the chocolate milk.\n\nComplete the table on p. 3 of the Answer Booklet by\n\n(i) identifying any additional significant limitations of the wave model, and\n\n(ii) briefly qualitatively discussing how each of the identified effects may affect the chocolate milk wave."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\n[Section B instructions: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$. Note: Suggested times are given for Section B as a general guide only. You may take more or less time on any question – everyone is different.]\n\nSuggested Time: 25 min\n\nMiriam the Magician likes to perform magic tricks and also studies physics. She has realised that many of her magic tricks work by appearing to break physical laws. For example, she can make it look like a large scarf appeared from nowhere.\n\na) Explain why claiming that the scarf appeared from nowhere is not physically reasonable.\n\nb) One place that Miriam can hide a scarf is in her hand. Estimate the largest volume of an object which Miriam could fit in a single closed hand.\n\nExplain the calculations you used to make your estimate.\n\nc) Miriam has a thin silk scarf which is $0.90\\,\\mathrm{m}$ long and $0.42\\,\\mathrm{m}$ wide. If she can hide this scarf in her closed hand, how thick is the material of the scarf?\n\nFor some tricks Miriam uses mist, which is made of very many small water droplets, to hide larger objects. Miriam likes to use as little water as possible to make mist so she doesn’t get her equipment wet. From her physics she knows that mist hides objects by scattering light, so that rather than passing straight through the light is reflected in random directions. The amount that light is scattered by a cloud of mist depends on the number of water droplets the light has to interact with to get through the cloud. This can be estimated by calculating the average number of droplets a light ray would pass through if it travelled on a straight path through a cloud of mist. In the diagram below the straight path near the top of the image passes through 3 droplets and the straight path lower down passes through only one droplet.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-2-2-fig1.png\n\nMiriam has a mist making machine which can be set to make water droplets of selected radius $r$. Miriam puts a volume of water $V_{\\mathrm{w}}$ into the machine and fills a cube with side length $a$ with mist.\n\nd) (i) Identify two ways in which changing the droplet size would affect the amount that light scatters. Briefly justify your answer.\n\n(ii) Find the number of mist droplets in the cloud.\n\n(iii) If there were only one droplet of this size in the cube, calculate the probability a light ray passing through the cube would hit it.\n\n(iv) For a cloud of mist to obscure all objects behind it a straight path through the mist must pass through an average of at least 7.5 droplets. If $r=4.0\\times10^{-6}\\,\\mathrm{m}$ and $a=1\\,\\mathrm{m}$, how much water does Miriam need to make the cloud of mist obscure all objects behind it."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\n[Section B instructions: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$. Note: Suggested times are given for Section B as a general guide only. You may take more or less time on any question – everyone is different.]\n\nSuggested Time: 25 min\n\nA simple, ideal, 2-dimensional model of a trampoline is shown below. Two poles of height $P$ are fixed in the ground a distance $D$ apart. A spring of length $S$ is joined to each of the poles and the other ends of the springs are joined to a length of unstretchable material which is just long enough to fit between the springs. The springs and the material are assumed to have no mass.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-2-3-fig1.png\n\nWhen a spring is stretched it will exert a restoring force. This force is proportional to the extension $\\Delta x$ of the spring, which is the extra length of the stretched spring, so $F_{\\text{spring}}=-k\\Delta x$.\n\nThe work done by a constant force $F$ which moves an object a distance $\\Delta s$ is $W=F\\Delta s$. As shown in the diagram to the right, the work done to stretch a spring by a short distance $\\Delta s$ is the area of the grey rectangle. Hence, the work done to stretch a spring to an extension of $\\Delta x$ is the area of the triangle filled with diagonal lines, $W_{\\text{spring}}=\\frac{1}{2}k(\\Delta x)^2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-2-3-fig2.png\n\na) On p. 6 of the Answer Booklet, sketch the shape of the springs and material, and the forces acting on the combined person and material system, if a person sits still on the centre of the trampoline.\n\nThe person begins jumping on the trampoline and then reaches a state where the ideal trampoline is bouncing them up into the air to a height $H$ every bounce.\n\nb) On p. 6 of the Answer Booklet, sketch the shape of the springs and material, and the forces acting on the combined person and material system, when the person is at the lowest point of the bounce on the trampoline. Justify the differences and similarities between sketches for parts (a) and (b).\n\nc) On the axes on p. 7 of the Answer Booklet, sketch the magnitude of each force as a function of height above the surface of the unstretched trampoline for one bounce up and down. Clearly label each curve, including the direction of motion.\n\nA real trampoline is 3-dimensional and its springs and material are not ideal. The graph to the right shows the net force upwards on a person versus height for the part of one bounce where the person is touching the trampoline.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2017-2-3-fig3.png\n\nd) (i) Find the mass of the person on the trampoline.\n\n(ii) On the graph on p. 7 of the Answer Booklet, label the two curves “moving down” and “moving up”. Justify your answer.\n\n(iii) Estimate the area between the two curves.\n\n(iv) Explain the physical meaning of this area."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\n[Section B instructions: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$. Note: Suggested times are given for Section B as a general guide only. You may take more or less time on any question – everyone is different.]\n\nSuggested Time: 30 min\n\nThe freezing and melting of rivers is a seasonal process throughout much of the world and plays a central role in the lives of the people nearby. The town of Thermos is situated on the River Kelvin. The river is clean and can be assumed to be water.\n\nTo freeze or melt, each kilogram of water must lose or gain an amount of energy known as the latent heat of fusion. This process takes place at the melting point of water. The specific heat capacity of a substance is the amount of energy required to raise the temperature of $1\\,\\mathrm{kg}$ of the substance by 1 kelvin. Some important values are given in the table at the end of this question.\n\na) The town of Thermos is $10\\,\\mathrm{km}$ long, and the townspeople are interested in the stretch of the River Kelvin next to their town. It is known that it freezes to a depth of $2.3\\,\\mathrm{m}$ each winter, and is $201\\,\\mathrm{m}$ wide as it runs past Thermos. At the start of the thawing season, the frozen part of the river is at an average of -15 degrees Celsius.\n\nCalculate how much energy it takes to melt the ice in the $10\\,\\mathrm{km}$ stretch of the River Kelvin near the town of Thermos.\n\nb) Using the information in the table, describe and explain the shape of the ice and water in the river during the ice melting process. Draw a diagram in the box on p. 8 of the Answer Booklet and use it in your explanation.\n\nc) Use the supplied data to estimate the time it would take for the ice to melt if it is only heated by sunlight.\n\nThis part is independent of the previous parts - give it a go even if you haven’t tried the others!\n\nd) Design an experiment that could be reasonably conducted at a school to test how long it would take to melt a frozen river. In the spaces on p. 8 and p. 9 of the Answer Booklet, state\n\n(i) your method, the materials you would use and how you would make measurements,\n\n(ii) four potential sources of uncertainty you see in your method and how you would go about minimising them, and\n\n(iii) how the results from your experiment could be used to make a prediction for the full size River Kelvin.\n\nBe concise - explain your thinking but feel free to use dot points. Please don’t write an essay.\n\nData table:\n\n$$\\begin{array}{c|c|c} \\text{Quantity} & \\text{Symbol} & \\text{Value} \\\\ \\hline \\text{Density of water} & \\rho_{\\mathrm{w}} & 1000\\,\\mathrm{kg\\,m^{-3}} \\\\ \\text{Density of ice} & \\rho_{\\mathrm{i}} & 917\\,\\mathrm{kg\\,m^{-3}} \\\\ \\text{Latent heat of fusion of water/ice} & L & 333\\,\\mathrm{kJ\\,kg^{-1}} \\\\ \\text{Specific heat capacity of ice} & c_{\\mathrm{i}} & 2.11\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}} \\\\ \\text{Specific heat capacity of water} & c_{\\mathrm{w}} & 4.18\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}} \\\\ \\text{Specific heat capacity of river bank dirt in Thermos} & c_{\\mathrm{d}} & 1.1\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}} \\\\ \\text{Melting point of water} & T_{\\mathrm{m}} & 273\\,\\mathrm{K}=0\\,^\\circ\\mathrm{C} \\\\ \\text{Average daily temperature in Thermos} & T_{\\mathrm{T}} & 278\\,\\mathrm{K}=5\\,^\\circ\\mathrm{C} \\\\ \\text{Solar intensity in Thermos} & I_{\\mathrm{S}} & 800\\,\\mathrm{W\\,m^{-2}} \\end{array}$$"
+    }
+   ]
+  },
+  {
+   "year": 2019,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Section A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA box of mass $5\\,\\mathrm{kg}$ sits at rest on a horizontal floor. What is the Newton’s third law (reaction) force to the normal force of the floor on the box (action)?\n\na. The weight of the box.\n\nb. The normal force of the box on the floor.\n\nc. The gravitational force of the Earth on the box.\n\nd. The gravitational force of the box on the Earth.\n\ne. There is no reaction force in this situation."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Section A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA box of mass $5\\,\\mathrm{kg}$ sits at rest on a horizontal floor. A vertically upwards force of $20\\,\\mathrm{N}$ is exerted on the box by someone trying to lift it. What is the magnitude of the normal force exerted by the floor on the box while the $20\\,\\mathrm{N}$ upwards force is being exerted?\n\na. $0\\,\\mathrm{N}$ (the box is no longer in contact with the floor)\n\nb. $20\\,\\mathrm{N}$\n\nc. $30\\,\\mathrm{N}$\n\nd. $50\\,\\mathrm{N}$\n\ne. $70\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Section A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nAn elevator is moving upwards with constant upwards acceleration. At some point in the elevator’s motion, a bolt breaks loose and drops from the ceiling. What is the motion of the bolt as seen by an observer standing inside the elevator? Ignore air resistance.\n\na. The bolt immediately moves downwards, at constant speed.\n\nb. The bolt initially moves upwards, then slows, reverses direction and moves downwards.\n\nc. The bolt immediately moves downwards, with acceleration less than $g$.\n\nd. The bolt immediately moves downwards, with acceleration equal to $g$.\n\ne. The bolt immediately moves downwards, with acceleration greater than $g$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Section A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nTrish is moving boxes of photocopy paper on a trolley. The top of the trolley is flat, and a box sits on it as shown. Trish pushes the trolley, accelerating it to the left, as shown. Which of the following diagrams correctly shows the forces acting on the box as it is accelerating to the left? The length of the force arrows is proportional to the size of the force. Ignore air resistance.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-1-4-fig1.jpg\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-1-4-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Section A",
+     "title": "Question 5",
+     "problem": "Question 5\n\n[Set-up of Question 4: Trish is moving boxes of photocopy paper on a trolley. The top of the trolley is flat, and a box sits on it. Trish pushes the trolley, accelerating it to the left.]\n\nOnce the trolley is at the desired speed, Trish keeps it at that constant speed. Which of the following diagrams correctly shows the forces acting on the box as it moves at constant speed to the left? The length of the force arrows is proportional to the size of the force. Ignore air resistance.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-1-5-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Section A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nAli and Beatrice are doing an experiment to measure the spring constant, $k$, of a spring. The spring constant is a measure of how stiff or stretchy a spring is. Ali is going to use a static method, using the equation $k=\\frac{F_{\\text{applied}}}{s}=\\frac{mg}{s}$, where $m$ is the mass of a weight attached to the hanging spring, and $s$ is the distance that the spring stretches by.\n\nWhich method will give Ali the most accurate and precise result for $k$?\n\na. Hang one weight on the spring, and measure how far the spring stretches. Put this pair of values into the equation.\n\nb. Hang two different weights on the spring (one at a time), and measure how far each weight stretches the spring. Put these two pairs of values into the equation and average the results.\n\nc. Hang at least three different weights on the spring (one at a time), and measure how far each weight stretches the spring. Put these pairs of values into the equation and average the results.\n\nd. Hang at least three different weights on the spring (one at a time), and measure how far each weight stretches the spring. Plot a graph of $m$ vs $s$ and find the value of $k$ from the gradient of a line of best fit for the data.\n\ne. Hang at least three different weights on the spring (one at a time), and measure how far each weight stretches the spring. Plot a graph of $m$ vs $s$ and find the value of $k$ from the gradient of a line of best fit to the data that also passes through the origin."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Section A",
+     "title": "Question 7",
+     "problem": "Question 7\n\n[Set-up of Question 6: Ali and Beatrice are doing an experiment to measure the spring constant, $k$, of a spring. Ali uses a static method, using the equation $k=\\frac{F_{\\text{applied}}}{s}=\\frac{mg}{s}$, where $m$ is the mass of a weight attached to the hanging spring, and $s$ is the distance that the spring stretches by.]\n\nAli has spent too much time deciding what to do, and only takes one pair of measurements. He measures the mass of the weight to be $(100\\pm5)\\,\\mathrm{g}$ and the stretch, $s$, when he hangs it on the spring to be $(5.0\\pm0.5)\\,\\mathrm{cm}$. Based on these data, the spring constant is:\n\na. $(20.0\\pm0.2)\\,\\mathrm{N/m}$\n\nb. $(20\\pm3)\\,\\mathrm{N/m}$\n\nc. $(20\\pm6)\\,\\mathrm{N/m}$\n\nd. $(200\\pm20)\\,\\mathrm{N/m}$\n\ne. $(200\\pm30)\\,\\mathrm{N/m}$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Section A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nBeatrice has decided to use a dynamic method to find $k$ for her spring. She measures the period, $T$, of oscillation for a mass, $m$, on a spring for a series of different masses. The equation that relates period to mass is: $T=2\\pi\\sqrt{\\frac{m}{k}}$. If Beatrice plots a graph of $T$ vs $m$, which of the following graphs will her plot look like?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-1-8-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Section A",
+     "title": "Question 9",
+     "problem": "Question 9\n\n[Set-up of Question 8: Beatrice measures the period, $T$, of oscillation for a mass, $m$, on a spring of spring constant $k$ for a series of different masses; $T=2\\pi\\sqrt{\\frac{m}{k}}$.]\n\nBeatrice wants to plot a straight line graph and find the value of $k$ from the gradient of the graph. To do this, she should:\n\na. Plot $T$ vs $m$, and then the gradient is $\\frac{1}{k}$.\n\nb. Plot $T$ vs $m$, and then the gradient is $\\frac{2\\pi}{\\sqrt{k}}$.\n\nc. Plot $T^2$ vs $m$, and then the gradient is $\\frac{2\\pi}{\\sqrt{k}}$.\n\nd. Plot $T^2$ vs $m$, and then the gradient is $\\frac{2\\pi}{k}$.\n\ne. Plot $T^2$ vs $m$, and then the gradient is $\\frac{4\\pi^2}{k}$."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Section A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nAn elevator is moving upwards a constant speed. Ignoring any friction, which statement is correct?\n\na. The kinetic energy of the elevator is constant.\n\nb. The gravitational potential energy of the Earth-Elevator system is constant.\n\nc. The mechanical energy of the Earth-Elevator system is constant.\n\nd. a and c are both correct, but b is not correct.\n\ne. a, b and c are all correct."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Section B",
+     "title": "Question 11",
+     "problem": "Question 11\n\n[Section B instruction: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$.]\n\nZara and Jackie are excited about their new desk chairs. Zara plans to sit and do physics in comfort. Jackie plans to move around on a chair without touching the ground or anything else. “But that’s physically impossible!”, says Zara. Jackie replies, “No! I’ve done it before. I lean forward really slowly, and then lean back as fast as I can.” Jackie shows Zara how to do it, and she wants to understand it.\n\nZara calls Jackie’s body from the waist up Object 1, and Jackie’s legs, from the waist down, and the chair combined Object 2. Zara models the fast part of Jackie’s motion using the principle of conservation of momentum. In other words, she thinks that the total momentum of Jackie and the chair (Object 1 + Object 2) remains unchanged while Jackie leans backwards. (Hint: momentum $p=mv$)\n\nZara identifies three important times in her model\n\n• $t_1$ when Jackie is stationary just before leaning back,\n• $t_2$ when Jackie is in the process of leaning back, and\n• $t_3$ when Jackie’s back hits the back of the chair.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-1-fig1.png\n\n$$\\begin{array}{c|c|c|c|c|c} \\text{Object} & \\text{Mass} & \\text{momentum at } t_1 & \\text{velocity at } t_2 & \\text{velocity after } t_3 & \\text{displacement from } t_1 \\text{ to } t_3 \\\\ \\hline 1 & m=25\\,\\mathrm{kg} & p_{m1}= & v_{m2}=-0.5\\,\\mathrm{m\\,s^{-1}} & v_{m3}= & s_m=-30\\,\\mathrm{cm} \\\\ \\hline 2 & M=35\\,\\mathrm{kg} & p_{M1}= & v_{M2}= & v_{M3}= & s_M= \\\\ \\hline 1+2 & m+M= & p_{\\text{tot}1}= & v_{\\text{cm}2}= & v_{\\text{cm}3}= & s_{\\text{cm}}= \\end{array}$$\n\n$s_{\\text{cm}}$ is the position of the centre of mass, which is the average position of all the mass, and $v_{\\text{cm}2}$ and $v_{\\text{cm}3}$ are the velocities of this point at times $t_2$ and $t_3$ respectively.\n\na) (i) By applying the principle of conservation of momentum, complete the copy of the table above which is on p. 2 of the Answer Booklet. Show your reasoning below the table.\n\n(ii) Explain why, in Zara’s model, the position of the centre of mass of Jackie and the chair never changes, regardless of how far or fast Jackie moves.\n\nb) (i) Describe the motion of Objects 1 and 2 as Jackie leans forward very slowly.\n\n(ii) Give an explanation of Jackie’s motion while leaning very slowly, using ideas from physics.\n\nc) Identify any additional physical effects Zara should include in her model and how these affect the predicted motion. If there are none, state effects you considered and why they may be neglected.\n\nd) Sketch the positions of Object 1, Object 2, and also the centre of mass position of Jackie and the chair through one cycle of leaning forward very slowly and then leaning back rapidly. Use the axes on p. 3 of the Answer Booklet."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Section B",
+     "title": "Question 12",
+     "problem": "Question 12\n\n[Section B instruction: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$.]\n\nDaphne the Diving Bell Spider is on an excursion to the surface of her pool in the forest. The water of the pool is very clear. Sitting high on a rock on a sunny morning, Daphne can observe many bright lines separated by darker regions moving around the flat bottom of the pool. The bright lines, shown below, are known as caustics and can be explained by the refraction of light rays at the irregular surface of the pool. When a light ray travels from air into water it refracts, bending so that the angle between the ray and a line perpendicular to the surface (called the normal) is smaller in the water.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-2-fig1.jpg\n\nCaustics at the bottom of the pool\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-2-fig2.png\n\nLight refracting at an air-water interface.\n\na) A ‘slice’ of the forest pool at one instant is shown below. A series of parallel light rays is shown being refracted at the uneven surface of the pool.\n\n(i) Complete the diagram by drawing in the missing rays on p. 4 of the Answer Booklet.\n\n(ii) Sketch the intensity of the light on the bottom of the pool. Use the axes supplied on p. 4 of the Answer Booklet.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-2-fig3.png\n\nAt midday with the sun directly above the pool, Daphne ventures out onto the now calm, flat surface of the pool. While near the shallow edge of the pool, where the bottom is flat, she asks her mate Mavis the moth to fly overhead and observe. Mavis reports that Daphne’s shadow on the bottom of the pool is very large.\n\nb) Based on this observation, select whether Daphne makes either Profile 1 or Profile 2 when she is on the surface of the pool, and explain your choice using words and diagrams. Both surface profiles are drawn on p. 4 of the Answer Booklet for you to use.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-2-fig4.png\n\nc) Mavis can also see a bright ring around Daphne’s shadow on the bottom of the puddle. A schematic diagram of the brightly-rimmed shadow is shown to the right. Explain the origin of this bright ring.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-2-fig5.png\n\nDaphne decides to dive back to the bottom of the pool, taking a bubble of air with her. Archimedes’ Principle states that the buoyant force on an object is equal to the weight of the volume of fluid displaced by that object. Daphne’s bubble can be modelled as $0.9$ of a sphere with radius $r_B$ and no mass, while Daphne is hemispherical in shape with a radius $r_s$ and mass $m_s$ (see right). The water has density $\\rho$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-2-fig6.png\n\nd) Find the largest $r_B$ such that Daphne can sink to the bottom of the pool."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Section B",
+     "title": "Question 13",
+     "problem": "Question 13\n\n[Section B instruction: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$.]\n\nMaggie has two identical fridge magnets. The magnetism of the fridge magnets can be thought of as due to many tiny bar magnets. A bar magnet has a north pole and a south pole, and magnetic field surrounding it as shown to the right. Field lines closer together indicate a stronger magnetic field, while the arrows indicate the direction of the magnetic field. Like poles repel, and opposite poles attract.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-3-fig1.png\n\nThe magnetic field of two magnets is the superposition of the individual magnets, becoming stronger where the two contributions are in the same direction and weaker where they are in opposite directions.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-3-fig2.png\n\na) Apply the principle of superposition to sketch magnetic field line diagrams for the two arrangements of bar magnets shown on p. 6 of the Answer Booklet.\n\nMaggie’s fridge magnets will only stick to the fridge on one side – the black side – and the two fridge magnets stick to each other most strongly when the black sides are touching. They won’t stick to each other at all if the two picture sides are touching. This leads Maggie to believe that on the black side of a fridge magnet the magnetic field is very strong, and on the other side it is very weak.\n\nb) Show how bar magnets could be arranged to make a very strong field on one side, and a weak field on the other. You do not need to include a full magnetic field line diagram with your arrangement, but you should indicate where superposition of the fields results in a stronger or weaker field, and the approximate direction of the field.\n\nWhen Maggie’s two fridge magnets are stuck together with their black sides touching, they are more easily slid apart vertically compared to horizontally. Maggie also notices that sliding apart in the horizontal direction feels bumpy, with the magnets alternating between slightly attracting and repelling each other.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-3-fig3.png\n\nc) On the diagram on p. 7 of the Answer Booklet, draw how small bar magnets might be arranged, either as a grid, rows or columns, in one of Maggie’s fridge magnets. You may use as many, or as few, of the diagrams as you need to describe the arrangement. You may draw the bar magnets as arrows to simplify your diagrams."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Section B",
+     "title": "Question 14",
+     "problem": "Question 14\n\n[Section B instruction: Throughout, take the acceleration due to gravity to be $9.8\\,\\mathrm{m\\,s^{-2}}$.]\n\nAir applies a force due to its pressure uniformly across any surface it contacts. A stretching wall requires a certain amount of force to expand, and applies a force on the air inside, increasing the inside pressure needed to keep the air contained. This is why a balloon stretches and if you untie it, the air is pushed out.\n\nA large firm ball is full of air. The ball has a small bubble made of a stretching wall attached to it that starts out empty.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/aso-2019-2-4-fig1.png\n\nSomeone squeezes the ball such that they apply a steadily increasing additional pressure to the ball and hence the air inside it. After a short time the bubble begins to inflate. Once it starts inflating, it rapidly increases in size. The firm ball’s size hardly changes throughout.\n\na) (i) Sketch the pressure inside the ball versus time since the squeezing began.\n\n(ii) Sketch, roughly, the volume of the bubble versus time since the squeezing began.\n\n(iii) Sketch, roughly, the force applied per area of the small bubble versus its volume.\n\n(iv) Sketch, roughly, the force applied per area of the small bubble versus the amount of gas in the small bubble.\n\nb) If instead of squeezing the ball, it is heated at a constant rate, explain whether or not you would expect your sketches to change. You might find the following relationship between temperature $T$, pressure $p$ and volume $V$ for an ideal gas to be useful: $pV=AT$ where $A$ is a constant depending only on the amount of gas. $A$ is directly proportional to the amount of gas.\n\nA group of students are given the challenge of designing an experiment to measure the change in the force per area applied by the stretchy wall as a function of its size. They have at their disposal a range of common objects, including heaters, scales, air pumps, and basic measuring tools, but do not have a large budget or any purpose-built lab spaces.\n\nc) Design an experiment to perform that the students could use. Include what you would need to measure and how.\n\nd) For your design, where do you think the most likely sources of uncertainty in your results will come from? Remember to think about all parts of the experiment, not just the resolution of your instruments."
+    }
+   ]
+  },
+  {
    "year": 2020,
    "problems": [
     {

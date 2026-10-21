@@ -2,6 +2,172 @@
  "competition": "Canada — CAP High School/CEGEP Prize Exam (Canadian Physics Olympiad)",
  "years": [
   {
+   "year": 1994,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nIt was once proposed to use a $2\\,\\mathrm{km}$ vertical Sudbury mine shaft for microgravity experiments in a vacuum. How much time would scientists have to do an experiment during one drop?\n\n(a) $20\\,\\mathrm{s}$\n\n(b) $63\\,\\mathrm{s}$\n\n(c) $0.64\\,\\mathrm{s}$\n\n(d) $198\\,\\mathrm{s}$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nIf the moon were twice as massive as it is now, and it stayed at the same orbital radius about the earth as it has now, its new orbital period (in terms of its current orbital period $T$) would be,\n\n(a) $T$\n\n(b) $T/2$\n\n(c) $T/4$\n\n(d) $2T$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nIn the following circuit composed of identical capacitors, across which terminals would you connect a battery in order for all the capacitors to charge up.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-3-fig1.png\n\n(a) AB\n\n(b) AC\n\n(c) BD\n\n(d) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nTwo cylindrical resistors, one of length $l$ and radius $r$, and the other of length $3l$ and radius $3r$, are made of the same materials. If the resistance of the smaller one is $R$, what is the resistance of the larger one?\n\n(a) $R/3$\n\n(b) $3R$\n\n(c) $9R$\n\n(d) $27R$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA simple pendulum consists of a mass $m$ attached to a light string of length $l$. If the system is oscillating through small angles, which of the following is true?\n\n(a) The frequency is independent of the acceleration due to gravity, $g$.\n\n(b) The period depends on the amplitude of the oscillation.\n\n(c) The period is independent of the mass $m$.\n\n(d) The period is independent of the length $l$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nAn astronaut in the space shuttle orbiting the earth performs a trick for a television audience. She inflates a helium filled balloon within the shuttle's controlled atmosphere and lets go of it. To the astonishment of all watching, the balloon\n\n(a) hovers in place where it was released.\n\n(b) rises noticeably away from the earth.\n\n(c) falls noticeably towards the earth.\n\n(d) drifts backwards opposite to the direction of the shuttle's velocity."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA boat has a green light (with wavelength $\\lambda=500\\,\\mathrm{nm}$) on its mast. What wavelength would be measured and what colour would be observed for this light as seen by a diver submerged in water (index of refraction $n=1.33$) by the side of the boat.\n\n(a) Green $\\lambda=500\\,\\mathrm{nm}$\n\n(b) Red $\\lambda=665\\,\\mathrm{nm}$\n\n(c) green $\\lambda=376\\,\\mathrm{nm}$\n\n(d) UV $\\lambda=376\\,\\mathrm{nm}$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA radio station transmits using a vertical mast. The antenna in your radio is a coil (solenoid) wrapped around a ferrite (iron) rod. What orientation must this antenna have for optimum reception?\n\n(a) Rod pointing at mast.\n\n(b) Rod parallel to mast.\n\n(c) Horizontal rod pointing $90^\\circ$ from the line of the mast.\n\n(d) Horizontally oriented rod directly above the mast."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nYou have ten identical filters. One is placed in front of a white light and the light appears red. When all ten are placed in front of the light, it appears to be a dim green colour. Which of the following is a possible transmission characteristic for one of the filters?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-9-fig1.png\n\n[Options (a)–(d) are the four transmission graphs ($T$ against $\\lambda$) labelled (a)–(d) in the figure.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nTwo atoms interact with each other according to the following force $F$, and potential, $V$ diagrams. What is their equilibrium separation?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-10-fig1.png\n\n(a) The separation $u$ which is equal to $y$\n\n(b) The separation $u$ which is equal to $z$\n\n(c) The separation $w$ which is equal to $y$\n\n(d) The separation $w$ which is equal to $z$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA ball is thrown into the air with an initial speed $u$. The time interval taken for the ball to rise to its maximum height is $t_r$. The time interval taken for it to fall back down from this maximum height to its original position is $t_f$. Under \"real life\" conditions, which of the following is satisfied by $t_r$ and $t_f$.\n\n(a) $t_r>t_f$\n\n(b) $t_r<t_f$\n\n(c) $t_r=t_f$\n\n(d) $t_r>t_f$ if $u$ is great enough."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nAn airplane flies a straight path from town A to town B, $500\\,\\mathrm{km}$ away. Town B is due east of town A and a strong wind blows from north to south at $300\\,\\mathrm{km/hr}$. If the plane's airspeed is $900\\,\\mathrm{km/hr}$, which of the following statements is true?\n\n(a) Trip time is $\\frac{5}{3\\sqrt{8}}\\,\\mathrm{hr}$.\n\n(b) Plane's ground speed is $600\\,\\mathrm{km/hr}$.\n\n(c) Plane's heading is $30^\\circ$ North of East.\n\n(d) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nMicrowaves of wavelength $\\lambda=5.0\\,\\mathrm{cm}$, and intensity $I_o$, are split and recombined by the metallic mirror system shown. What should $x$ be so that the intensity of the microwaves at the point P (the detector) is zero.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-13-fig1.png\n\n(a) $0.88\\,\\mathrm{cm}$\n\n(b) $3.54\\,\\mathrm{cm}$\n\n(c) $6.04\\,\\mathrm{cm}$\n\n(d) $3.02\\,\\mathrm{cm}$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nWhich of the following is a possible expression for the Rydberg, a unit of energy?\n\n(a) $e^4/8m_e\\epsilon_o h^2$\n\n(b) $\\epsilon_o^2h^2/8m_ee^4$\n\n(c) $m_ee^4/8\\epsilon_o^2h^2$\n\n(d) $m_ec^2/\\epsilon_o he$"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nConsider the network of identical resistors shown. The equivalent resistance between the points A and B is,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-15-fig1.png\n\n(a) $5R$\n\n(b) $R/2$\n\n(c) $5R/8$\n\n(d) $2R$"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA ray of light is directed towards a corner reflector as shown. The incident ray makes an angle of $22^\\circ$ with one of the mirrors. At what angle $\\theta$ does the ray emerge?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-16-fig1.png\n\n(a) $22^\\circ$\n\n(b) $68^\\circ$\n\n(c) $44^\\circ$\n\n(d) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nMany people's glasses appear to be a blue-green colour when viewed under reflected light. A thin film of index of refraction $n=1.35$ is applied to the outside surface of the glass so that the film/glass interface does not reflect any red light of wavelength $\\lambda=630\\,\\mathrm{nm}$. What thickness must the film layer be in order to achieve this? Take the index of refractions of air and glass to be $1.0$ and $1.6$ respectively.\n\n(a) $157.5\\,\\mathrm{nm}$\n\n(b) $315.0\\,\\mathrm{nm}$\n\n(c) $233.3\\,\\mathrm{nm}$\n\n(d) $116.7\\,\\mathrm{nm}$"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA mass $M$ has the same kinetic energy as a mass $m$. The ratio of their momenta, $p_M/p_m$, is,\n\n(a) $\\sqrt{M/m}$\n\n(b) $\\sqrt{m/M}$\n\n(c) $(m+M)/M$\n\n(d) $(m+M)^2/mM$"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA stream of water droplets, each of mass $m=0.001\\,\\mathrm{kg}$, are fired horizontally at a velocity of $10\\,\\mathrm{m/s}$ towards a steel plate where they collide. The droplets are spaced equidistantly with a spacing of $1\\,\\mathrm{cm}$. What is the approximate average force exerted on the plate by the water droplets assuming that they do not rebound after their collision.\n\n(a) $10\\,\\mathrm{N}$\n\n(b) $100\\,\\mathrm{N}$\n\n(c) $1\\,\\mathrm{N}$\n\n(d) $0.1\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nThree identical balls are thrown from the top of a cliff and some time later land at the base of the cliff. Ball A is thrown upwards with speed $v$, Ball B is thrown downwards with speed $v$, and Ball C is thrown at speed $v$ and at an angle of $45^\\circ$ above the horizontal. Comparing the speeds, $v_A$, $v_B$, and $v_C$ with which the balls hit the ground at the base of the cliff (and ignoring air resistance), you find,\n\n(a) $v_A=v_B>v_C$\n\n(b) $v_A>v_C>v_B$\n\n(c) $v_A=v_B=v_C$\n\n(d) $v_B>v_C>v_A$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nIn this question we will investigate a possible navigational aid for aircraft approaching an airport. Suppose at one end of a runway there are two radio transmitting towers, one on either side of the runway, separated by a distance $l=100\\,\\mathrm{m}$. The two radio towers are each transmitting a radio signal of frequency $f_o=12\\,\\mathrm{MHz}$ in phase with each other. An aircraft with a ground speed of $v$ is flying towards the airport such that its velocity makes an angle $\\theta$ with the runway as shown. The aircraft, still very far from the airport, has locked onto the signals and is heading directly for the midpoint of the towers.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-2-1-fig1.png\n\n(a) At the aircraft's current position, the intensity of the signal from each tower separately would be $I_o$. Find the intensity of the combined signal from both towers received by the aircraft for headings of $\\theta=0$ and $\\theta=\\pi/2$.\n\n(b) For what headings would the aircraft receive no signal? If the aircraft was commanded to approach the airport with a heading of $30^\\circ$, what kind of a signal should the captain expect from the radio towers?\n\n(c) The aircraft gets slightly off course and is approaching the airport on a heading of $\\theta=0$ but is heading directly for one of the transmitting towers (as opposed to their midpoint). The aircraft is still very far from the airport but as it draws nearer, the intensity of the signal received from the radio towers starts to drop. How far is the aircraft from the nearest tower when the signal has dropped to a minimum?\n\n(d) The aircraft, back on course now, is approaching the airport with a ground speed of $500\\,\\mathrm{km/hr}$ and on a heading with $\\theta=30^\\circ$. The aircraft has a circuit which generates its own $12\\,\\mathrm{Mhz}$ reference signal and compares it to the one being received from the radio towers. A beat is detected in the sum of the two signals. What is the beat frequency? The navigator quickly programs the on-board computer to calculate the aircraft's ground speed in terms of this beat frequency $\\Delta f$. When the beat frequency is $10\\,\\mathrm{Hz}$ and the signal received from the towers is lower than the $12\\,\\mathrm{Mhz}$ on-board reference signal, what is the plane's ground speed?\n\n[Data from the paper: $c=3.00\\times10^{8}\\,\\mathrm{m/s}$.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nConsider the circuit shown with the two switches $S_1$ and $S_2$. The battery has an $emf$ of $\\epsilon=6\\,\\mathrm{V}$ and the resistor has a resistance of $R=1.0\\,\\Omega$. The bottom wire is encased in an insulated wrapping of mass $M=0.1\\,\\mathrm{kg}$ which carries a positive static charge of $Q=10\\,\\mathrm{mC}$. Assume that the masses of all other wires and components are very small as compared to this charge bearing wrapping. The dimensions of the circuit are $l=5\\,\\mathrm{cm}$ square. The bridge (or middle connecting) wire, with $S_2$ in it, is $l/2$ above the bottom wire. The contraption is suspended in such a way that it may pivot about the top wire on the axis AB; the circuit maintains its shape regardless of the switch configuration. A magnetic field, $B=10.0\\,\\mathrm{T}$, and an electric field, $E=1000\\,\\mathrm{N/C}$, both point out of the page.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-2-2-fig1.png\n\n(a) With both switches open, find the equilibrium angle $\\theta$ that the plane of the circuit makes with the vertical as it swings upwards due to the presence of the electric field.\n\n(b) With $S_1$ closed and $S_2$ open, find the equilibrium angle $\\theta$.\n\n(c) Now with $S_1$ open and $S_2$ closed, the circuit is swung from hanging straight down, $\\theta=0$, to being horizontal, $\\theta=\\pi/2$, in a time of $\\Delta t=5\\,\\mathrm{ms}$. Estimate the work required to perform this operation.\n\n(d) The circuit is released from the horizontal with both switches open. Describe the motion of the circuit and calculate any relevant parameters necessary to backup your description. What would be the effect of closing $S_2$ during this motion?\n\n[Data from the paper: $g=9.81\\,\\mathrm{m/s^2}$.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nDesign a spherical spacecraft which could be carried out of the solar system by the pressure of solar radiation alone. Discuss constraints on the materials used. You may assume that the craft can be initially launched from the earth using a conventional rocket so that it may start its journey already having escaped the earth's pull.\n\nThe momentum $p$ of a photon is given by $p=E/c$ where $E$ is the energy of the photon and $c$ is the speed of light. The intensity of the solar radiation at the radius of the earth's orbit about the sun is given by the solar constant, $S=1370\\,\\mathrm{W/m^2}$.\n\n[Data from the paper: $c=3.00\\times10^{8}\\,\\mathrm{m/s}$, $G=6.67\\times10^{-11}\\,\\mathrm{Nm^2/kg^2}$, $M_S=1.99\\times10^{30}\\,\\mathrm{kg}$, $R_{ES}=1.50\\times10^{11}\\,\\mathrm{m}$.]"
+    }
+   ]
+  },
+  {
    "year": 1995,
    "problems": [
     {

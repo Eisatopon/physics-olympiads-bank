@@ -2,6 +2,1212 @@
  "competition": "Canada — CAP High School/CEGEP Prize Exam (Canadian Physics Olympiad)",
  "years": [
   {
+   "year": 2001,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nThree identical resistors are connected across a voltage source $V$ so that one of them is in parallel with two others which are connected in series. The power dissipated through the first one, compared to the power dissipated by each of the other two, is approximately\n\n(a) the same.\n\n(b) half as much.\n\n(c) twice as much.\n\n(d) four times as much."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe diagram below shows various positions of a child in motion on a swing. Somewhere in front of the child a stationary whistle is blowing. At which position will the child hear the highest frequency for the sound of the whistle?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-2-fig1.png\n\n(a) At B when moving toward A.\n\n(b) At B when moving toward C.\n\n(c) At C when moving toward B.\n\n(d) At C when moving toward D."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nIn a Young double slit experiment, green light is incident on the two slits. The interference pattern is observed on a screen. Which one of the following changes would cause the observed fringes to be more closely spaced?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-3-fig1.png\n\n(a) Reducing the separation between the slits.\n\n(b) Using blue light instead of green light.\n\n(c) Using red light instead of green light.\n\n(d) Moving the light source further away from the slits."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA thin lens with focal length $f$ is to be used as a magnifying glass. Which of the following statements regarding this situation is true?\n\n(a) A converging lens must be used, and the object be placed at a distance greater than $2f$ from the lens.\n\n(b) A diverging lens must be used, and the object be placed between $f$ and $2f$ from the lens.\n\n(c) A converging lens must be used, and the object be placed at a distance less than $f$ from the lens.\n\n(d) A diverging lens must be used, and the object be placed at any point other than the focal point."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe figure shows the path of a ray of light as it passes through three different materials with refractive indices $n_1$, $n_2$ and $n_3$. The figure is drawn to scale. What can we conclude concerning the indices of these three materials?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-5-fig1.png\n\n(a) $n_3<n_2<n_1$.\n\n(b) $n_3<n_1<n_2$.\n\n(c) $n_2<n_1<n_3$.\n\n(d) $n_1<n_3<n_2$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nThe diagram shows the trajectory of three artillery shells. Each was fired with the same initial speed. Which shell was in the air for the longest time? (Ignore air friction.)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-6-fig1.png\n\n(a) Shell A.\n\n(b) Shell B.\n\n(c) Shell C.\n\n(d) Shells A and C were in the air for equal time, which was longer than for shell B."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nLet $V$ be electric potential and $E$ the magnitude of the electric field. At a given position, which of the following statements is true?\n\n(a) $E$ is always zero where $V$ is zero.\n\n(b) $V$ is always zero where $E$ is zero.\n\n(c) $E$ can be zero where $V$ is nonzero.\n\n(d) $E$ is always nonzero where $V$ is nonzero."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nTwo test charges are brought successively to a position some distance away from a negative charge $-Q$. First, test-charge $q$ is placed at a distance $R$ from $-Q$. Then it is removed and a test-charge $-2q$ is placed at a distance $2R$ from $-Q$. The sign of $q$ is unknown. Compared with the electric potential at the position of the test-charge in the first case, the electric potential at the position of the second test-charge is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-8-fig1.png\n\n(a) the same.\n\n(b) twice as large.\n\n(c) half as large.\n\n(d) impossible to determine unless the sign of $q$ is known."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA simple pendulum, consisting of a mass $m$ at the end of an unstretchable string of length $L$, swings upward, making an angle $\\theta$ with the vertical. The work done by the tension in the string is\n\n(a) Zero.\n\n(b) $mgL$\n\n(c) $mgL\\cos\\theta$\n\n(d) $-mgL\\sin\\theta$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nIn problems involving electromagnetism it is often convenient and informative to express answers in terms of a constant, $\\alpha$, which is a combination of the Coulomb constant, $k_\\mathrm{e}=1/4\\pi\\epsilon_0$, the charge of the electron, $e$, and $\\hbar=h/2\\pi$, $h$ being Planck's constant. For instance, the lowest energy that a hydrogen atom can have is given by $E=-\\frac{1}{2}\\alpha^2mc^2$, where $m$ is the mass of the electron and $c$ is the speed of light. Which of the following is the correct expression for $\\alpha$? (HINT: non-relativistic kinetic energy is $\\frac{1}{2}mv^2$, where $v$ is speed.)\n\n(a) $\\dfrac{k_\\mathrm{e}e^2}{\\hbar c}$.\n\n(b) $\\dfrac{\\hbar}{k_\\mathrm{e}e^2c}$.\n\n(c) $\\dfrac{k_\\mathrm{e}e^2\\hbar}{c}$.\n\n(d) $\\dfrac{k_\\mathrm{e}e^2c}{\\hbar}$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA mass suspended from a spring is oscillating up and down. Consider the following two statements:\n\n(1) At some point during the oscillation, the mass has zero velocity but it is accelerating.\n\n(2) At some point during the oscillation, the mass has zero velocity and zero acceleration.\n\n(a) Both occur at some time during the oscillation.\n\n(b) Neither occurs during the oscillation.\n\n(c) Only (1) occurs.\n\n(d) Only (2) occurs."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA very long solenoid perpendicular to the page generates a downward magnetic field whose magnitude increases with time. This induces an emf in a conducting wire loop around the solenoid which lights two identical bulbs connected in series along the wire. Now two points diametrically opposed on the wire loop are shorted with another wire lying to the right of bulb B in the plane of the page. After the shorting wire is inserted,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-12-fig1.png\n\n(a) bulb A goes out, and bulb B dims.\n\n(b) bulb A goes out, and bulb B gets brighter.\n\n(c) bulb B goes out, and bulb A dims.\n\n(d) bulb B goes out, and bulb A gets brighter."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA quantity of charge, $Q$, is distributed uniformly through a sphere of radius $R$. A smaller sphere, of radius $d$ and concentric with the large sphere, is now removed from it, leaving a spherical cavity with no charge in it. The charge density of the remaining shell has not changed. The electrostatic potential at a distance $r>R$, outside the shell, is\n\n(a) $\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{Q}{r}\\dfrac{r^3}{d^3}$\n\n(b) $\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{Q}{r}\\dfrac{R^3-d^3}{R^3}$\n\n(c) $\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{Q}{r}\\dfrac{R^3}{d^3}$\n\n(d) $\\dfrac{1}{4\\pi\\epsilon_0}\\dfrac{Q}{r}\\dfrac{d^3}{R^3}$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA vertical spring with constant $250\\,\\mathrm{N/m}$ and negligible mass is attached to a horizontal plate. A block of mass $0.255\\,\\mathrm{kg}$ is dropped onto the spring which compresses by $0.12\\,\\mathrm{m}$ before coming momentarily to rest. The following two numbers are the work done by the force of gravity, $W_\\mathrm{g}$, and the work done by the spring, $W_\\mathrm{s}$, (both over the total distance that the spring is compressed).\n\n(a) $W_\\mathrm{g}=0.30\\,\\mathrm{J}$, $W_\\mathrm{s}=-1.8\\,\\mathrm{J}$.\n\n(b) $W_\\mathrm{g}=0.30\\,\\mathrm{J}$, $W_\\mathrm{s}=1.8\\,\\mathrm{J}$.\n\n(c) $W_\\mathrm{g}=-0.30\\,\\mathrm{J}$, $W_\\mathrm{s}=1.8\\,\\mathrm{J}$.\n\n(d) $W_\\mathrm{g}=-0.30\\,\\mathrm{J}$, $W_\\mathrm{s}=-1.8\\,\\mathrm{J}$."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA stone of mass $m$ is attached to a light strong string and whirled in a vertical circle of radius $r$. At the exact bottom of the path, the tension in the string is three times the weight of the stone. The stone's speed at that point is given by\n\n(a) $2\\sqrt{gr}$\n\n(b) $\\sqrt{2gr}$\n\n(c) $\\sqrt{3gr}$\n\n(d) $4gr$"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nYou are rapidly pumping air into a tire with a bicycle pump. At the same time, helium gas is rapidly escaping out of a balloon. Which of the following statements is true?\n\n(a) The pump cools down while the helium gas warms up as it is expelled.\n\n(b) The pump warms up while the helium gas cools down as it is expelled.\n\n(c) The pump cools down while the helium gas also cools down as it is expelled.\n\n(d) The pump warms ups while the helium has also warms up as it is expelled."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA particle, moving through a certain region of space, experiences a non-zero magnetic force. Which of the following is possible?\n\n(a) A magnetic field exists in that region and changes the speed of the particle.\n\n(b) A magnetic field exists in this region and the particle's velocity vector is parallel to the magnetic field vector.\n\n(c) A magnetic field exists in this region and the particle is moving at right angle to the magnetic field.\n\n(d) A magnetic field exists in this region and the particle is moving in the direction opposite to the magnetic field vector."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nThe astronauts aboard a Space Shuttle in circular orbit around the Earth wish to transfer the shuttle to a new circular orbit at higher altitude. In this new orbit, the shuttle will have\n\n(a) a smaller orbital speed and a larger total energy.\n\n(b) a smaller orbital speed and a smaller total energy.\n\n(c) a larger orbital speed and a larger total energy.\n\n(d) a larger orbital speed and a smaller total energy."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA car pushes a stalled truck up a hill. The car exerts a force of magnitude $F_1$ on the truck. The truck exerts a force of magnitude $F_2$ on the car. Then\n\n(a) $F_1=F_2$ since these forces form an action-reaction pair.\n\n(b) $F_1=F_2$ only if the car and truck do not accelerate.\n\n(c) $F_1>F_2$, or else the car and the truck would not move.\n\n(d) $F_1<F_2$ because the truck is heavier."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA convex mirror has its centre of curvature located behind the mirror. The image formed by such a mirror is\n\n(a) upside down, enlarged and virtual.\n\n(b) upside down, reduced and virtual.\n\n(c) right side up. reduced and real.\n\n(d) right side up, reduced and virtual."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA toy airplane is travelling in a horizontal circle at a constant speed at the end of a tether wire. The magnitude of the tension in the wire is $F$. Then the wire is played out to twice its original length and the plane is made to fly at twice its original speed. The tension in the wire is now\n\n(a) $\\frac{1}{4}F$\n\n(b) $\\frac{1}{2}F$\n\n(c) $F$\n\n(d) $2F$"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nThe plates of a parallel-plate capacitor are separated by a solid dielectric. This capacitor and a resistor are connected in series across the terminals of a battery. Now the plates of the capacitor are pulled slightly farther apart. When equilibrium is restored in the circuit,\n\n(a) the potential difference across the plates has increased.\n\n(b) the energy stored on the capacitor has increased.\n\n(c) the capacitance of the capacitor has increased.\n\n(d) the charge on the plates of the capacitor has decreased."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA uniform pole is attached to a vertical wall by a frictionless pivot. The pole is held horizontal by a vertical cable attached to the ceiling as shown. Considering torques on the pole about the axis of the pivot, which one of the statements below the figure is correct?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-23-fig1.png\n\n(a) The magnitude of the torque due to the tension in the cable is equal to the magnitude of the torque due to the weight of the pole.\n\n(b) The magnitude of the torque due to the tension in the cable is greater than the magnitude of the torque due to the weight of the pole.\n\n(c) The magnitude of the torque due to the tension in the cable is less than the magnitude of the torque due to the weight of the pole.\n\n(d) The tension in the cable is equal to the weight of the pole."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nThe minimum speed with respect to air that a particular jet aircraft must have in order to keep aloft is $300\\,\\mathrm{km/hr}$. Suppose that as its pilot prepares to take off, the wind blows eastward at a ground speed that can vary between 0 and $30\\,\\mathrm{km/hr}$. Ignoring any other fact, a safe procedure to follow, consistent with using up as little fuel as possible, is to\n\n(a) take off eastward at a ground speed of $320\\,\\mathrm{km/hr}$.\n\n(b) take off westward at a ground speed of $320\\,\\mathrm{km/hr}$.\n\n(c) take off westward at a ground speed of $300\\,\\mathrm{km/hr}$.\n\n(d) take off westward at a ground speed of $280\\,\\mathrm{km/hr}$."
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA mass $m$ is moving at speed $v$ perpendicular to a rod of length $d$ and mass $M=6m$ which pivots around a frictionless axle running through its centre. It strikes and sticks to the end of the rod. The moment of inertia of the rod about its centre is $Md^2/12$. Then the angular speed of the system right after the collision is\n\n(a) $2v/3d$.\n\n(b) $2v/d$.\n\n(c) $v/d$.\n\n(d) $3v/2d$."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nSuppose that initially the system of masses shown below is held motionless. All surfaces are frictionless, and the pulley is fixed to mass $M$. The string is completely inextensible: its length is constant. We are interested in the acceleration of each mass at the instant right after they are released. Note that at this instant the string holding $m_2$ is still vertical.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-2-1-fig1.png\n\n(a) Draw free-body diagrams showing and labelling all forces that act on the three masses at the instant right after they are released.\n\n(b) Write Newton's second law as it applies to each mass. Explain briefly why $M$ accelerates.\n\n(c) Let $A$ be the acceleration of mass $M$, $a_1$ that of $m_1$, and $a_2$ that of $m_2$. Find a relation between the accelerations of the three masses.\n\n(d) Determine the tension $T$ in the string and the three accelerations in terms of the masses and of the gravitational acceleration, $\\boldsymbol{g}$.\n\n(e) Take the limits of your results in part (d) as $M\\to\\infty$. What do they become if instead you take $m_1\\to0$, or if you take $m_2\\to0$ (not both at the same time)? Do your results make sense in all those limits?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nA $100\\,\\mathrm{kg}$ (when empty) cylindrical bottle of gas, containing $100\\,\\mathrm{l}$ of air at a pressure of 100 atmospheres, falls over on the lab floor, breaking the valve. This leaves a circular hole of radius $2.0\\,\\mathrm{cm}$ at the end of the bottle, through which the air escapes in a direction parallel to the long axis of the bottle.\n\n(a) Let $u$ be the exhaust speed of the air relative to the lab, assumed to be constant, and $M_i$, $M_f$ the initial and final mass of the bottle, respectively. The bottle slides across a floor with a kinetic coefficient of friction $\\mu=0.15$.\n\nCalculate $\\Delta M/\\Delta t$, the maximum rate at which the mass of the bottle changes if $u$ is limited by the speed of sound, approximately equal to $343\\,\\mathrm{m/s}$. HINT: under our assumptions, $\\Delta M/\\Delta t$ is constant, and the escaping air (as opposed to the air still in the bottle) has a density of $1.2\\,\\mathrm{kg/m^3}$.\n\nWrite down the fundamental conservation law which governs the motion of the bottle. Calculate its acceleration as the air starts escaping.\n\n(b) Suppose that the acceleration imparted to the bottle by the escaping gas and that you calculated in part (a) remains the same until the air has finished escaping at the constant rate $\\Delta M/\\Delta t$. What would be the total distance covered by the bottle when it finally comes to a stop?\n\n(c) NOTE: BONUS marks will be awarded if you can derive the following expression for the maximum speed the bottle can ever attain once all the air has escaped, and which does not assume that the acceleration of the bottle is constant while the air is escaping:\n\n$$v_f=\\frac{m}{M_f}u-\\frac{\\mu g/2M_f}{(\\Delta M/\\Delta t)}\\left(M_f^2-M_i^2\\right)$$\n\nwhere $m$ is the mass of the escaped air, neglecting the air left in the bottle at the end."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nConsider a long horizontal cylindrical shell, of length $l$, radius $R$ which can rotate freely about its longitudinal axis with a moment of inertia $I$. The material that composes it is electrically insulating and non-magnetic. A massless string attached to a vertically hanging mass $m$ is then wound around the cylinder drum. The mass is released from rest at time $t=0$.\n\n(a) Determine the angular acceleration and kinetic energy of the system after the hanging mass has fallen a distance $h$.\n\n(b) A net amount of positive charge $Q$, of negligible mass, is deposited uniformly on the outside drum of the shell before the mass is released. Redo part (a) under these conditions. Calculate the difference in kinetic energy between the two cases $Q=0$ and $Q\\neq0$. Do you have any idea as to where the \"missing\" kinetic energy went?\n\nHINT: The magnetic field due to a very long solenoid of length $l$ and $N$ turns carrying a current $I$ produces no net magnetic field outside the solenoid, but a net uniform magnetic field of strength $\\mu_0NI/l$ inside the solenoid. The field is directed along the solenoid axis."
+    }
+   ]
+  },
+  {
+   "year": 2002,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA little girl is holding a helium-filled balloon on a string while riding in a closed elevator going down a very tall building at constant speed. The elevator shaft is maintained under vacuum. Suddenly the elevator cable snaps, sending the elevator into free fall. In her surprise the girl lets go of the string. She is even more surprised to see\n\n(a) the balloon rising.\n\n(b) the balloon floating downward.\n\n(c) the balloon remaining stationary.\n\n(d) the balloon bouncing slowly between the floor and the ceiling."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA demonstration apparatus sits on a table in the lab. It consists of a metal track (shown as a thick solid line in the figure below) along which a perfectly spherical marble can roll without slipping. In one run, the marble is released from rest at a height $h$ above the table on the left section, rolls down one side and then up the other side without slipping, briefly stopping when it has reached $h_1$. Assuming the table to be horizontal and neglecting air drag as well as any energy loss due to rolling,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2002-1-2-fig1.png\n\n(a) $h_1<h$ always, because the friction that keeps the ball rolling must dissipate energy.\n\n(b) $h_1=h$, since total mechanical energy is conserved.\n\n(c) $h_1=h$ only if tilt angles $\\phi$ and $\\theta$ are equal.\n\n(d) $h_1=h$ only if tilt angle $\\phi$ is larger than $\\theta$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nIn the movie Jurassic Park, as a jeep is being pursued by a dinosaur, one can see the animal in the jeep's side rear-view mirror on which is printed: \"Objects in mirror are closer than they appear.\" Then,\n\n(a) the mirror is flat.\n\n(b) the mirror is concave.\n\n(c) the mirror is convex.\n\n(d) the mirror could be either convex or concave."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA lump of sticky chewing-gum with mass $m$ moves at speed $v$ toward another lump of mass $M$ at rest. They collide and stick together, both moving at speed $V$. Nothing else is known about the conditions under which the collision takes place. Which of the following statements is the most correct?\n\n(a) Neither total kinetic energy nor total linear momentum can be conserved.\n\n(b) This is an elastic collision in which both total kinetic energy and total linear momentum are conserved; the final speed is $V=v/2$.\n\n(c) This is an inelastic collision, and in such collisions, total linear momentum is always conserved; the final speed is $V=v/4$.\n\n(d) This is an inelastic collision in which total linear momentum is conserved, provided no external force can deliver an impulse to the system during the collision."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nAccording to the Archimedes principle,\n\n(a) a body immersed in a fluid experiences an upward force equal to the weight of the fluid it displaces.\n\n(b) a body immersed in a fluid experiences an upward force equal to the weight of the object.\n\n(c) a body immersed in a fluid displaces an amount of fluid equal to the volume of the body.\n\n(d) a body immersed in a liquid floats only if its density is smaller than that of the liquid."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA guitar string of length $L$, with both of its ends fixed, is vibrating, producing a sound composed of a fundamental frequency and its integer multiples (harmonics). To emphasize all the even-numbered harmonics at the expense of the odd-numbered ones, the furthest distance away from either end where one should hold down the string is\n\n(a) $L/2$.\n\n(b) $L/3$.\n\n(c) $L/4$.\n\n(d) $L/5$."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA sinusoidal wave is moving along a string of uniform density. If you double the frequency of the wave,\n\n(a) the wavelength of the wave doubles.\n\n(b) the speed of the wave doubles.\n\n(c) the speed of the wave remains about the same.\n\n(d) the period of the wave doubles."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nTwo point-charges, each with a charge of $+1\\,\\mathrm{\\mu C}$, lie some finite distance apart. On which of the segments of an infinite line going through the charges is there a point, a finite distance away from the charges, where the electric potential is zero, assuming that it vanishes at infinity?\n\n(a) Betweeen the charges only.\n\n(b) On either side outside the system.\n\n(c) Impossible to tell without knowing the distance between the charges.\n\n(d) Nowhere."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nStanding on the ground, you are holding with your hand a string from which is suspended a stone. The reaction force, associated—in the sense of Newton's 3$^{\\text{rd}}$ law—with the force of Earth's gravity on the stone, is the force exerted by\n\n(a) the string on your hand.\n\n(b) the stone on the string.\n\n(c) your body on the Earth.\n\n(d) the stone on the Earth."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nAt the shallow end of a swimming pool, the water is $70.0\\,\\mathrm{cm}$ deep. The diameter of the cone of light emerging from the water into the air above, emitted by a light source $10.0\\,\\mathrm{cm}$ in diameter at the bottom of the pool and measured by an observer on the edge of the pool $2.50\\,\\mathrm{m}$ away, is'\n\n(a) $1.60\\,\\mathrm{m}$.\n\n(b) $1.70\\,\\mathrm{m}$.\n\n(c) $1.75\\,\\mathrm{m}$.\n\n(d) $1.80\\,\\mathrm{m}$."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nOf two quantities of water and steam, both at $100^\\circ\\mathrm{C}$ and having the same mass, in immediate contact with the same area of your skin, which is likeliest to cause a more severe burn?\n\n(a) The steam.\n\n(b) There is no difference.\n\n(c) The water.\n\n(d) It depends on the steam's pressure."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA varying electric current running through a coiled wire induces an emf across the coil. The voltage measured by a voltmeter across the terminals of the coil\n\n(a) is smaller or larger than the emf, depending on how fast the current changes.\n\n(b) is larger than the emf.\n\n(c) is equal to the emf.\n\n(d) is smaller than the emf."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nThree blocks of identical mass are connected by strings as shown below. The whole system is accelerated to the right along a frictionless, horizontal surface by a force $F$. The net force acting on the middle block is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2002-1-13-fig1.png\n\n(a) zero.\n\n(b) $F$.\n\n(c) $2F/3$.\n\n(d) $F/3$."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA spaceship is moving straight toward Earth with its engine turned off. Let $M$ and $m$ be the masses of the Earth and of the spaceship, respectively, with $R$ the distance from the spaceship to the centre of the Earth. As a result of the gravitational force of the Earth, in moving from position 1 to position 2, the kinetic energy of the spaceship increases by\n\n(a) $\\dfrac{GMm(R_2-R_1)}{R_1R_2}$.\n\n(b) $\\dfrac{GMm(R_1-R_2)}{R_1R_2}$.\n\n(c) $\\dfrac{GMm(R_2-R_1)}{R_1^2}$.\n\n(d) $\\dfrac{GMm(R_1-R_2)}{R_1^2R_2^2}$."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nTwo masses, $M_\\mathrm{a}$ and $M_\\mathrm{b}$, attached to the end of springs a and b, respectively, undergo simple harmonic motion on a horizontal, frictionless surface. If the periods of motion are identical, and if $M_\\mathrm{b}=2M_\\mathrm{a}$, the amplitudes $A$ of oscillation of the two masses are related by\n\n(a) $A_\\mathrm{b}=A_\\mathrm{a}/\\sqrt{2}$.\n\n(b) $A_\\mathrm{a}=A_\\mathrm{b}/4$.\n\n(c) $A_\\mathrm{a}=A_\\mathrm{b}$.\n\n(d) none of the above."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nConsider a circuit which contains a battery and a single resistance R. If a second resistance is added in parallel with R,\n\n(a) the voltage across R will decrease.\n\n(b) the current through R will increase.\n\n(c) the total current drawn from the battery will increase.\n\n(d) the power dissipated in R will decrease."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nStarship Enterprise is in a circular orbit of period 300 minutes around planet Thera at an altitude of $1000\\,\\mathrm{km}$. A Klingon spaceship then enters another circular orbit around Thera at an altitude of $19000\\,\\mathrm{km}$. Thera has a radius of $5000\\,\\mathrm{km}$. The Klingon spaceship circles Thera in\n\n(a) 600 minutes.\n\n(b) 1200 minutes.\n\n(c) 1800 minutes.\n\n(d) 2400 minutes."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA simplified bola consists of two (instead of the usual three) small but heavy balls connected to a common point by identical lengths of string. To launch it, you hold one of the balls overhead and swing the other ball in a horizontal circle about your wrist. You then let go of the bola which very soon starts rotating around its centre of mass, as shown below. Which one of the following statements holds true when the rotation axis changes from (1) to (2)?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2002-1-18-fig1.png\n\n(a) Angular momentum is the same, but angular speed increases.\n\n(b) Angular momentum and angular speed remain the same.\n\n(c) Angular momentum is the same, but angular speed decreases.\n\n(d) Angular momentum and angular speed both increase."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nIn an ink-jet printer, an ink droplet of mass $m$ is given a negative charge $q$ by a computer-controlled charging unit, and then enters at speed $v$ the region between two deflecting parallel plates of length $L$ separated by distance $d$ (see figure below). All over this region exists a downward electric field which you can assume to be uniform. Neglecting the gravitational force on the droplet, the maximum charge that it can be given so that it will not hit a plate is most closely approximated by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2002-1-19-fig1.png\n\n(a) $\\dfrac{mv^2E}{dL^2}$.\n\n(b) $\\dfrac{mv^2d}{EL^2}$.\n\n(c) $\\dfrac{md}{E(vL)^2}$.\n\n(d) $\\dfrac{m(vL)^2}{Ed}$."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nFour very long straight wires carry equal electric currents in the $+z$ direction. They intersect the $x$–$y$ plane at $(x,y)=(-a,0)$, $(0,a)$, $(a,0)$, and $(0,-a)$. The magnetic force exerted on the wire at position $(-a,0)$ is along\n\n(a) $+y$.\n\n(b) $-y$.\n\n(c) $+x$.\n\n(d) $-x$."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nTwo masses, both equal to $100\\,\\mathrm{g}$, are suspended at the ends of identical light strings of length $\\ell=1.0\\,\\mathrm{m}$, attached to the same point on the ceiling (see figure). At time $t=0$, they are simultaneously released from rest, one at angle $\\theta_1=10^\\circ$, the other at angle $\\theta_2=20^\\circ$ from the vertical. The masses will collide\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2002-1-21-fig1.png\n\n(a) at $\\theta=0.0^\\circ$, $0.50\\,\\mathrm{s}$ later.\n\n(b) at $\\theta=5.0^\\circ$ to the right of the vertical, $0.16\\,\\mathrm{s}$ later.\n\n(c) at $\\theta=0.0^\\circ$, $0.13\\,\\mathrm{s}$ later.\n\n(d) at $\\theta=5.0^\\circ$ to the right of the vertical, $0.10\\,\\mathrm{s}$ later."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nTwo trains are moving toward each other on two parallel tracks at the same speed with respect to the ground. When the whistle of one train blows, the frequency of the sound heard by a passenger on the other train will be\n\n(a) greatest if the air is still.\n\n(b) greatest if a wind blows in the same direction and at the same speed as the other train.\n\n(c) greatest if a wind blows in the opposite direction and at the same speed as the other train.\n\n(d) will not depend on whether there is a wind blowing."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nIn an African wildlife reserve your jeep is travelling at a constant speed of $105\\,\\mathrm{km/hr}$ alongside a cheetah running at full speed. The animal, frightened by the jeep's noise, keeps at a constant distance of $60\\,\\mathrm{m}$ from the vehicle. Not having paid much attention to the surrounding landscape, you suddenly realize that your jeep is passing the very same spot where it was 60 seconds before. The speed of the cheetah is\n\n(a) $105\\,\\mathrm{km/hr}$.\n\n(b) $94\\,\\mathrm{km/hr}$.\n\n(c) $99\\,\\mathrm{km/hr}$.\n\n(d) $82\\,\\mathrm{km/hr}$."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA jet-fighter pilot, wishing to experience weightlessness conditions, enters a parabolic trajectory closely approximating that of a projectile in free-fall. His aircraft must fly at a minimum speed of $400\\,\\mathrm{km/hr}$ to keep control, and he should not exceed $600\\,\\mathrm{km/hr}$ so as not to suffer a black-out when he pulls out of the trajectory at the end. There is no wind and air resistance can be compensated by the engine. In order to be weightless as long as possible, he should enter the parabola at an upward angle (with respect to the horizontal ground) of\n\n(a) $33.7^\\circ$.\n\n(b) $41.8^\\circ$.\n\n(c) $56.3^\\circ$.\n\n(d) $48.2^\\circ$."
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nWhich one of the following statements is $\\textbf{not}$ true? The phase difference between two light waves can change\n\n(a) by reflection.\n\n(b) by the waves travelling along paths of different lengths.\n\n(c) by the waves travelling through media that have a different refraction index.\n\n(d) by being transmitted through a boundary between two media with different refraction indices."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nPassing a car on a two-lane road requires more caution as speeds increase. Apart from maintaining a safe distance between vehicles in the same lane, there should also be enough space between oncoming vehicles while the passing manœuvre takes place.\n\nTake all cars initially, travelling at the same constant speed, to have a length $4.2\\,\\mathrm{m}$. Suppose further that a passing manœuvre starts with the passing car at least 3.0 car lengths behind the back of the slower car, and that it ends when the driver has pulled in with the back of her car at least 3.0 car lengths ahead of the slower car (no fish-tailing!). The passing car takes $4.0\\,\\mathrm{s}$ at constant acceleration to reach its final passing speed, which it keeps thereafter. This final speed is $11\\,\\mathrm{km/hr}$ greater than the steady speed of the slower car.\n\n(a) Calculate the total time it takes for such a passing manœuvre.\n\n(b) Now suppose that at the instant the passing driver has reached her overtaking speed, she notices $500\\,\\mathrm{m}$ ahead (from the front of her car) a very large truck coming toward her. The speed limit for trucks on that road, which we shall assume the truck driver respects, is $90\\,\\mathrm{km/hr}$. The slower car is driving at $100\\,\\mathrm{km/hr}$. Otherwise, the same conditions as in part (a) apply. We assume that for minimal safety she should have completed her manœuvre at least $2.0\\,\\mathrm{s}$ before the truck and her pass each other, But she cannot abort the manoeuvre without braking unless the front of her car is at least $2.0\\,\\mathrm{m}$ behind the back of the slow car, and she cannot brake safely because another car right behind her is also trying to pass the slow car. Given that it takes her $1.6\\,\\mathrm{s}$ to react after she first sees the truck, discuss whether it is safe for her to continue, or whether she should pull back behind the slower car (if she can!). If it turns out that she is in trouble, could she continue accelerating at the same rate up to a higher speed not exceeding $120\\,\\mathrm{km/hr}$ and pass safely while still pulling in three car lengths in front of the slow car?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nIn Poe's famous horror tale, The Pit and the Pendulum, the hero, who finds himself strapped flat to a horizontal surface, notices an almost motionless pendulum hanging from the ceiling $12\\,\\mathrm{m}$ above him. After some time, he also realizes that the pendulum is descending very slowly toward him with, according to the story, the amplitude of the swings and the speed at the lowest point in each swing both increasing inexorably. What is swinging is in fact a small razor-edged crescent of steel which will eventually sweep across the man's heart.\n\nLet's analyze this terrifying situation more closely to see if Poe's spell-binding description actually makes physical sense. To do this, we must make some assumptions which will not affect our final conclusion. The blade of mass $m$ is suspended on the end of a massless cable of length $l$ and is executing simple harmonic motion. Assume that the blade is also slowly lowered in very small increments of $l$ which occur only when it goes through its lowest position in each swing, at $\\theta=0^\\circ$, where $\\theta$ is the angular position with respect to the vertical.\n\n(a) Explain in one short sentence why the angular momentum of the razor at $\\theta=0^\\circ$ remains constant all through the descent.\n\n(b) Let the initial length of the cord be $l_0$ and the initial maximum speed of the razor be $v_0$. Obtain an algebraic expression for $v$ as a function of $l$.\n\n(c) Derive an algebraic expression for the kinetic energy of the pendulum at $\\theta=0^\\circ$ as a function of $l$.\n\n(d) Make a reasonable simplyfing assumption about the total mechanical energy. Find (always as a function of $l$) the maximum gravitational potential energy acquired by the pendulum in a given swing.\n\n(e) Find the maximum angular displacement of the razor as a function of $l$.\n\n(f) Discuss the accuracy of Poe's description of the descent of the pendulum."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nOne fine afternoon, as his family watches from some distance, a man walking barefoot on moist ground near a tower supporting electric transmission lines suddenly stops and collapses. His relatives call in emergency services, but these arrive too late to prevent the man's death.\n\nThe autopsy reveals that the man's heart went into ventricular fibrillation, a fatal condition if not stopped very quickly. His relatives believe that he was electrocuted by some stray electric current from the tower and sue the power company. The court orders a forensic investigation to determine if the company is responsible for the victim's death.\n\nThe investigation finds that there was indeed an electrical fault at the time the incident occurred: for about $1.0\\,\\mathrm{s}$, an electric current of $100\\,\\mathrm{A}$ leaked into the ground from a vertical conducting rod whose rounded tip was just below ground, located $10\\,\\mathrm{m}$ away from where the man was standing. The resistivity of the moist ground was about $100\\,\\Omega\\cdot\\mathrm{m}$.\n\n(a) Assuming that the current spread uniformly into the ground from the rounded tip, find the magnitudes of the current density, $J$ (in $\\mathrm{A/m^2}$), and of the electric field, $E$, as a function of the distance $r$ from the tip of the rod. If you don't know the relationship between $J$ and $E$, you can derive it from Ohm's law and a bit of dimensional analysis.\n\n(b) Calculate $E$ and $J$ at the victim's location.\n\n(c) Under any suitable approximation, obtain a reasonable estimate of the potential difference between the man's feet.\n\n(d) It is reasonable to suppose that the current went up one leg of the man, across the torso (and the heart), and down through the other leg. The commonly accepted values for the resistance of a leg is $300\\,\\Omega$ and that of a torso $1000\\,\\Omega$ in these conditions. From these data, estimate the current across the victim's torso.\n\n(e) Using your expression for $E(r)$, obtain the potential difference, $\\Delta V$, between the tip of the rod and a point situated at distance $r$. Take the tip of the rod to have radius $a$. If the integral is a problem, you can still get the answer by noticing the similarity between $E(r)$ and the field of a well-known charge configuration.\n\n(f) Currents ranging from $0.10\\,\\mathrm{A}$ to $1.0\\,\\mathrm{A}$ across a torso can trigger fibrillation in the heart. Could the accident have been caused by the current that leaked from the rod?"
+    }
+   ]
+  },
+  {
+   "year": 2003,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA parallel-plate capacitor holds charge $q$ and is not connected to anything. The distance between the plates is now increased. The electrical energy stored on the capacitor\n\n(a) decreases;\n\n(b) remains the same;\n\n(c) increases;\n\n(d) can do any of the above, depending on how the capacitance changes."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nWhen a mechanical or electromagnetic wave goes from one medium to another, it undergoes a change in\n\n(a) amplitude only;\n\n(b) both speed and wavelength;\n\n(c) speed only;\n\n(d) wavelength only."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nTwo identical rooms in a perfectly insulated house are connected by an open doorway. The temperature in the two rooms are maintained at different values. The room which contains more air molecules is\n\n(a) the one with the higher temperature;\n\n(b) the one with the lower temperature;\n\n(c) the one with the higher pressure;\n\n(d) neither, since both have the same volume."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThree airplanes, A, B and C, each release an object from the same altitude and with the same initial speed $v_0$ with respect to the ground.. At the moment their object is released, A is flying horizontally, B is flying upward at an angle $\\theta$ with respect to the horizontal, and C is flying at the same angle $\\theta$ as B but downward with respect to the horizontal. Assuming the ground to be horizontal and neglecting any aerodynamical effect, the speeds $v$ at which the three objects will hit the ground satisfy\n\n(a) $v_\\mathrm{A}=v_\\mathrm{B}<v_\\mathrm{C}$;\n\n(b) $v_\\mathrm{A}>v_\\mathrm{B}=v_\\mathrm{C}$;\n\n(c) $v_\\mathrm{A}<v_\\mathrm{B}<v_\\mathrm{C}$;\n\n(d) $v_\\mathrm{A}=v_\\mathrm{B}=v_\\mathrm{C}$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nTwo identical conducting spheres, A and B, carry equal electric charge. They are separated by a distance much larger than their diameter and exert an electrostatic force $F$ on each other. A third identical conducting sphere C is initially uncharged and far away from A and B. Sphere C is then brought briefly into contact with sphere A, then with sphere B, and finally removed far away. The electrostatic force between A and B is now\n\n(a) $3F/8$;\n\n(b) $F/2$;\n\n(c) $F/4$;\n\n(d) $F/16$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nOn the ground, the Earth exerts a force $F_0$ on an astronaut. The force that the Earth exerts on this astronaut inside the Space Shuttle in low Earth orbit, $300\\,\\mathrm{km}$ above the ground, is\n\n(a) a little less than $F_0$;\n\n(b) a little more than $F_0$;\n\n(c) exactly $F_0$;\n\n(d) zero, since the astronaut is weightless when in orbit."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA person is swinging a ball at the end of a string of length $\\ell$ with constant speed $v$. The work done by the tension $T$ in the string over one revolution is\n\n(a) $0$;\n\n(b) $mv^2/2$;\n\n(c) $2\\pi\\ell T$;\n\n(d) undetermined by the information given."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nThe pressure exerted by a gas on the walls of the vessel that contains it is due to the\n\n(a) change in kinetic energy of the gas molecules as they strike the walls;\n\n(b) collisions between the gas molecules;\n\n(c) repulsive force between the gas molecules;\n\n(d) change in momentum of the gas molecules as they strike the walls."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA Martian creature similar to an Earth frog jumps with an initial speed $v_0$ and attains the range $R$ over horizontal ground. The maximum possible height reached by the creature, neglecting friction in the tenuous Martian air, is ($\\theta$ being the launch angle):\n\n(a) $\\dfrac{R}{4}\\,\\tan\\theta$;\n\n(b) $\\dfrac{R}{4}\\,\\sin\\theta$;\n\n(c) $\\dfrac{R}{2}\\,\\tan\\theta$;\n\n(d) undetermined because of missing data."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThe work done to accelerate a truck on a horizontal road from rest to speed $v$\n\n(a) is less than that required to accelerate it from $v$ to $2v$;\n\n(b) is equal than that required to accelerate it from $v$ to $2v$;\n\n(c) is more than that required to accelerate it from $v$ to $2v$;\n\n(d) may be any one of the above since it depends on the force acting on the truck and the distance over which it acts."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nIf the Earth did not rotate on its axis, the magnitude of the gravitational acceleration at the Equator would be about\n\n(a) $0.003\\%$ larger;\n\n(b) $0.3\\%$ larger;\n\n(c) $0.3\\%$ smaller;\n\n(d) $0.003\\%$ smaller."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nYou want to apply a force on a box so that it moves with constant speed across a horizontal floor. The coefficient of kinetic friction between the box and the floor is $\\mu_\\mathrm{k}$. Of the four following cases, the force you apply on the box will be smallest when you\n\n(a) push on it with a force applied at an angle $0<\\theta<90^\\circ$ downward from the horizontal;\n\n(b) pull on it with a force applied at the same angle $\\theta$ as in (a), upward from the horizontal;\n\n(c) do either (a) or (b) since the applied force is the same;\n\n(d) push or pull with a force applied horizontally."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nAn electric current runs counterclockwise in a rectangular loop around the outside edge of this page, which lies flat on your table. A uniform magnetic field is then turned on, directed parallel to the page from top to bottom. The magnetic force on the page will cause\n\n(a) the left edge to lift up;\n\n(b) the right edge to lift up;\n\n(c) the top edge to lift up;\n\n(d) the bottom edge to lift up."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA car has a maximum acceleration of $3.0\\,\\mathrm{m/s^2}$. Its maximum acceleration while towing another car twice its mass, assuming no skidding, would be\n\n(a) $3.0\\,\\mathrm{m/s^2}$;\n\n(b) $1.5\\,\\mathrm{m/s^2}$;\n\n(c) $1.0\\,\\mathrm{m/s^2}$;\n\n(d) $0.5\\,\\mathrm{m/s^2}$."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nTwo satellites of equal mass, A and B, are in concentric orbits around the Earth. The distance of B from Earth's centre is twice that of A. The ratio of the centripetal force acting on B to that acting on A is\n\n(a) $1$;\n\n(b) $\\sqrt{1/2}$;\n\n(c) $1/2$;\n\n(d) $1/4$."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA proton sits at coordinates $(x,y)=(0,0)$, and an electron at $(d,h)$, where $d\\gg h$. At time $t=0$, a uniform electric field $\\boldsymbol{E}$ of unknown magnitude but pointing in the positive $y$ direction is turned on. Assuming that $d$ is large enough that the proton-electron interaction is negligible, the $y$ coordinates of the two particles will be equal (at equal time)\n\n(a) at about $y=d/2000$;\n\n(b) at an undetermined value since $E$ is unknown;\n\n(c) at about $y=d/43$;\n\n(d) nowhere: they move in opposite directions."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nIn the circuit below we increase the resistance $R_2$. If $I_j$ is the current through resistor $\\mathrm{R}_j$ ($j=1,2,3$), then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2003-1-17-fig1.png\n\n(a) $I_1$ and $I_2$ both increase;\n\n(b) $I_1$ decreases and $I_2$ increases;\n\n(c) $I_1$ and $I_2$ both decrease;\n\n(d) $I_1$ increases and $I_2$ decreases."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nTwo carts, A and B, are placed on an air track. They are made of the same material and look identical. B is given a constant speed and collides elastically with A at rest. After the collision, both carts move in the same direction. One concludes that\n\n(a) A is hollow;\n\n(b) B is hollow;\n\n(c) A and B are identical;\n\n(d) any of the first three answers is possible."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nThe smallest length scale known in physics is the Planck length. It is an important ingredient in some currrent cosmological theories. Which of the following expressions could represent this Planck length? (see Data table.)\n\n(a) $\\sqrt{e^2/hc}$;\n\n(b) $\\sqrt{hc/G}$;\n\n(c) $\\sqrt{Ghc}$;\n\n(d) $\\sqrt{hG/c^3}$."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nThe Webb space telescope, scheduled to be launched in 2010, will have a mirror $6\\,\\mathrm{m}$ in diameter. Compared with the Hubble space telescope, whose mirror has a $2.4\\,\\mathrm{m}$ diameter, it will be able to resolve objects whose angular separation is about\n\n(a) 2.5 times smaller;\n\n(b) 5 times smaller;\n\n(c) an order of magnitude smaller;\n\n(d) the same: the larger mirror only increases the amount of light gathered."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA simple pendulum of length $L$ is suspended from the top of a flat beam of thickness $L/2$. The bob is pulled away from the beam so that it makes an angle $\\theta<30^\\circ$ with the vertical, as shown in the figure. It is then released from rest. If $\\phi$ is the maximum angular deflection to the right, then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2003-1-21-fig1.png\n\n(a) $\\phi=\\theta$;\n\n(b) $\\phi<\\theta$;\n\n(c) $\\theta<\\phi<2\\theta$;\n\n(d) $\\phi\\ge2\\theta$."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nIn the diagram below, light is incident on the interface between media 1 and 2 at exactly the critical angle, and is totally reflected. The light is then also totally reflected at the interface between media 1 and 3, after which it travels in a direction opposite to its initial direction. The two interfaces are perpendicular. The media must have a refraction index $n$ such that\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2003-1-22-fig1.png\n\n(a) $n_1<n_2<n_3$;\n\n(b) $n_1^2-n_3^2\\ge n_2^2$;\n\n(c) $n_1^2-n_2^2\\ge n_3^2$;\n\n(d) $n_1^2+n_2^2\\ge n_3^2$."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nFor the sake of science a physicist jumps attached to the end of a bungee cord, carrying sound measuring equipment. As he swings up and down vertically with a period of $6.0\\,\\mathrm{s}$, he monitors the frequency of a sound source on the ground directly below him, and observes a difference of $84\\,\\mathrm{Hz}$ between the maximum and minimum frequency of the source. If the source emits at a constant $1370\\,\\mathrm{Hz}$, and assuming no significant attenuation of his oscillations over the duration of the measurements, the amplitude of his oscillations is closest to\n\n(a) $10\\,\\mathrm{m}$;\n\n(b) $20\\,\\mathrm{m}$;\n\n(c) $32\\,\\mathrm{m}$;\n\n(d) $15\\,\\mathrm{m}$."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA person pulls a box along the ground at constant speed. Considering the Earth and the box together as a system, which of the following is true about the net force $F$ exerted by the person on this system and the work $W$ she does on it?\n\n(a) $F=0$ and $W=0$;\n\n(b) $F\\ne0$ and $W=0$;\n\n(c) $F=0$ and $W\\ne0$;\n\n(d) $F\\ne0$ and $W\\ne0$."
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA magnet moves inside a coil. Which of the following factors can affect the emf induced in the coil?\n\n• I. the speed at which the magnet moves\n• II. the strength of the magnet\n• III. the number of turns in the coil\n\n(a) I only;\n\n(b) I and II only;\n\n(c) II and III only;\n\n(d) I, II and III."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nAt TRIUMF, a large experimental particle and nuclear physics research facility on the campus of the University of British Columbia, one major programme involves the production of intense beams of unstable isotopes of alkali atoms (potassium K, rubidium Rb, francium Fr). These have the advantage that since their valence shell contains only one electron, their closed shell structure when they are ionised simplifies calculations.\n\nMany isotopes are produced when bombarding a calcium oxide target with $0.5\\,\\mathrm{GeV}$ protons from the TRIUMF accelerator. Until recently, the desired isotope was selected by means of the TRIUMF Isotope Separator On-Line (TISOL)—now decommissioned and replaced by a combined separator/accelerator called ISAC—and sent as a low-speed beam to experimental areas.\n\nYou are asked to design a (much) simplified version of TISOL. More specifically, you want to select ${}^{38}\\mathrm{K}$ ions whose energy is $20\\,\\mathrm{keV}$. ${}^{38}\\mathrm{K}$ has a mass of $6.3\\times10^{-26}\\,\\mathrm{kg}$. Separation should proceed in two steps, as illustrated below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2003-2-1-fig1.png\n\nThe figure shows the desired path of a $20\\,\\mathrm{keV}$ ${}^{38}\\mathrm{K}$ ion through the system. This path is to be achieved by means of suitable uniform time-independent electromagnetic fields. Interactions between ions can be neglected here.\n\n(a) In the first step, out of all ions (${}^{38}\\mathrm{K}$ or not) entering the velocity selector from the left, only those that have a speed corresponding to a $20\\,\\mathrm{keV}$ ${}^{38}\\mathrm{K}$ ion should be undeflected. Suggest a field configuration that can do this, draw a sketch showing the direction of the field(s), and derive as much information as you can about the magnitude of the field(s).\n\n(b) In the second step, only ${}^{38}\\mathrm{K}$ ions should be deflected so that the radius $R$ of their trajectory is $2.1\\,\\mathrm{m}$. Again, suggest a suitable field configuration for this, draw a sketch showing the direction of the field(s), and derive as much information as you can about the magnitude of the field(s)."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nTides are mainly caused by the gradient (or variation) of the gravitational force of the Moon and of the Sun across the Earth's diameter. Large water masses, such as Earth's oceans, bulge along the direction of the gradient and are pinched in the perpendicular direction. As the Earth rotates, the bulges (high tide regions) move across the surface of the Earth.\n\nNow the Bay of Fundy, between New Brunswick and Nova Scotia, is reputed to have the highest tides in the world. Their amplitude is only about a metre at the mouth, or entrance, of the bay, whereas at the other end, $260\\,\\mathrm{km}$ away, the amplitude reaches up to $16\\,\\mathrm{m}$. You may assume that the relevant speed of water waves in the bay (for very long wavelengths and shallow enough depth) is about $25\\,\\mathrm{m/s}$. The bay is narrow compared to its length.\n\nUsing the above data, investigate whether the unusually high tides could be the result of a resonance excited by the Moon in the bay. Assume that the depth of the bay is uniform, and neglect the influence of the Sun. Hint: calculate the period of the water oscillations in the bay."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nThe next-generation large space telescope is scheduled for launch in 2010. It will be put in orbit around the Sun, in a special zone where its distance relative to the Earth and to the Sun can remain constant. The location of such zones was first calculated in the XVIII$^\\text{th}$ century by the French-Italian mathematician Joseph-Louis Lagrange.\n\nEven though it relies on approximations, Lagrange's full solution is fairly involved, but you should still be able to make a good qualitative guess at a partial solution. Consider two point masses, $M_1$ and $M_2$, referring respectively to the Sun and the Earth. Both orbit around their common centre of mass at angular velocity $\\omega$ and with a period of one year. These orbits are circular to a good approximation, and the distance $R$ between $M_1$ and $M_2$ is constant. Since $M_1\\gg M_2$, the motion of $M_1$ is not detectable at the scale of the figure below and can be neglected.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2003-2-3-fig1.png\n\nWe wish to find where, on the line that joins $M_1$ and $M_2$, an object of mass $m$ can sit so that it also orbits the centre of mass (which we can take to be at $M_1$'s position) with the same, constant, angular velocity $\\omega$. We can also safely assume that $m$ is so small that it does not influence the motion of $M_1$ and $M_2$.\n\n(a) Write down the equation that must be satisfied by the forces acting on the orbiting $m$ in terms of $\\omega$, $M_1$, $M_2$, $R$ and $x$, where $x$ is the distance between $m$ and $M_1$.\n\n(b) Show that in the limit $M_2\\ll M_1$, this condition can be written\n\n$$u^3-1=\\pm\\frac{\\alpha\\,u^2}{(1\\pm u)^2}$$\n\nwhere $u\\equiv x/R$, and $\\alpha\\equiv M_2/M_1$.\n\n(c) Do not attempt to solve this algebraic equation. Instead, use physical arguments to find how many solutions there are for $x$ and where roughly the Lagrange zones are positioned on the $x$ axis. Provide a qualitative sketch based on the above figure, and explain your reasoning.\n\n(d) The Webb space telescope (as it is called) will operate at a temperature of about $35\\,\\mathrm{K}$ and, therefore, it should be shielded from heat sources at all times, while having as unobstructed a view of the sky as possible. Discuss which (if any) of your solutions is most suitable for the Webb telescope.\n\n(e) If there are other Lagrange zones off the $x$ axis, they cannot be found from the equation in (b), but what would be their minimum number? Justify your answer.\n\nHint: To a good approximation Kepler's Third Law for the system is $\\omega^2R^3=GM_1$."
+    }
+   ]
+  },
+  {
+   "year": 2004,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nYou are standing upright in a room in front of a vertical mirror. In this mirror, you can see from your position only the upper two-thirds of your body. You wish to see the entire length of your body reflected in the mirror. Which combination of the following three courses of action will achieve this?\n\n• (I) Move away from the mirror;\n• (II) move toward the the mirror;\n• (III) use a mirror whose height will allow you to see your whole image when you are at your initial position.\n\n(a) (I) only;\n\n(b) (II) only;\n\n(c) (III) only;\n\n(d) either (I) or (III)."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA $5\\,\\mathrm{kg}$ cart collides on a horizontal surface with a $20\\,\\mathrm{kg}$ cart. Which cart experiences the smaller force because of the collision?\n\n(a) The $5\\,\\mathrm{kg}$ cart;\n\n(b) the forces are equal;\n\n(c) the $20\\,\\mathrm{kg}$ cart;\n\n(d) it depends if the collision is elastic."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nTwo monkeys with the same mass stand on a branch at height $h$ above the horizontal jungle floor. Monkey A steps off the branch holding the end of an inextensible rope of length $L$ whose other end is tied to another branch at height $H$, lets go at the bottom of the swing, and falls freely to the floor, as shown below. Monkey B steps off and falls straight downward. Then, neglecting air resistance but not the tension in the rope, the total work $W$ done on each monkey and the speed $v$ with which each hits the floor are as follows:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2004-1-3-fig1.png\n\n(a) $W_\\mathrm{A}<W_\\mathrm{B}$, $v_\\mathrm{A}<v_\\mathrm{B}$;\n\n(b) $W_\\mathrm{A}=W_\\mathrm{B}$, $v_\\mathrm{A}<v_\\mathrm{B}$;\n\n(c) $W_\\mathrm{A}=W_\\mathrm{B}$, $v_\\mathrm{A}=v_\\mathrm{B}$;\n\n(d) $W_\\mathrm{A}<W_\\mathrm{B}$, $v_\\mathrm{A}=v_\\mathrm{B}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA person, standing on a train that is accelerating forward at $3.3\\,\\mathrm{m/s^2}$, throws a ball vertically upward. Neglecting air resistance, the magnitude of the ball's acceleration relative to the train is\n\n(a) $9.8\\,\\mathrm{m/s^2}$;\n\n(b) $10.3\\,\\mathrm{m/s^2}$;\n\n(c) $7.0\\,\\mathrm{m/s^2}$;\n\n(d) $13.1\\,\\mathrm{m/s^2}$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nI must cross a river in the shortest possible time. Water flows downstream at a constant $5.0\\,\\mathrm{m/s}$ between the two parallel shores. Taking the direction of the flow as reference, if my boat has a maximum speed of $10\\,\\mathrm{m/s}$, it should head at\n\n(a) $90^\\circ$;\n\n(b) $120^\\circ$;\n\n(c) $150^\\circ$;\n\n(d) $27^\\circ$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA hoop and a solid cylinder have the same mass and radius. They both roll, without slipping, on a horizontal surface. If their kinetic energies are equal,\n\n(a) the hoop has a greater translational speed than the cylinder;\n\n(b) the cylinder has a greater translational speed than the hoop;\n\n(c) the hoop and the cylinder have the same translational speed;\n\n(d) the hoop has a greater rotational speed than the cylinder."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA string clamped at both ends is vibrating. At the moment the string looks flat, the instantaneous transverse velocity of points along the string, excluding its end-points, must be\n\n(a) zero everywhere.\n\n(b) dependent on the location along the string.\n\n(c) not zero anywhere.\n\n(d) non-zero and in the same direction everywhere."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIn vacuum, a potential difference $V$ is maintained between points a distance $d$ apart. The corresponding electric field $\\boldsymbol{E}$ accelerates an electron from rest to a speed $v$ over that distance. Which one of the following statements is true?\n\n(a) $E$ does not depend on $d$;\n\n(b) $E$ depends on $V$, not on $d$;\n\n(c) $E$ depends only on $d$:\n\n(d) $v$ depends on $V$, not on $d$."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nLight waves propagate along the length of a pipe containing a perfect vacuum and whose end caps are perfect reflectors. A standing-wave pattern is formed with frequency $f$ and wavelength $\\lambda$. When a gas, with index of refraction $n$, is introduced into the pipe, which of the following changes occurs?\n\n(a) $\\lambda$ increases;\n\n(b) $f$ increases;\n\n(c) $\\lambda$ decreases;\n\n(d) $f$ decreases."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nStudents claim that in a lab experiment they witnessed a head-on elastic collision between two balls on a horizontal surface which resulted in the balls being both at rest. No external horizontal force was acting at any time on the masses. Which of these comments is the most appropriate about this process?\n\n(a) Initial speeds and masses must have been different;\n\n(b) initial speeds and masses must have been identical;\n\n(c) initial speeds, but not necessarily masses, were identical;\n\n(d) the process cannot have occurred as claimed."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThe potential across a $3\\,\\mathrm{\\mu F}$ capacitor is $12\\,\\mathrm{V}$ when it is not connected to anything. It is then connected in parallel with an uncharged $6\\,\\mathrm{\\mu F}$ capacitor. At equilibrium, the charge $q$ on the $3\\,\\mathrm{\\mu F}$ capacitor and the potential difference $V$ across it are\n\n(a) $q=12\\,\\mathrm{\\mu C}$, $V=4\\,\\mathrm{V}$;\n\n(b) $q=24\\,\\mathrm{\\mu C}$, $V=8\\,\\mathrm{V}$;\n\n(c) $q=36\\,\\mathrm{\\mu C}$, $V=12\\,\\mathrm{V}$;\n\n(d) $q=12\\,\\mathrm{\\mu C}$, $V=6\\,\\mathrm{V}$;"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nIn subatomic physics, one often associates a characteristic wavelength $\\lambda$ with a particle of mass $m$. If $\\hbar=h/2\\pi$ ($h$ being Planck's constant) and $c$ the speed of light, which of the following expressions is most likely to be the correct one?\n\n(a) $\\lambda=\\hbar c/m$;\n\n(b) $\\lambda=\\hbar/mc^2$;\n\n(c) $\\lambda=\\hbar m/c$;\n\n(d) $\\lambda=\\hbar/mc$;"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nAt equilibrium, the electric field at a point on a closed conducting surface, whether the surface is charged or neutral, can never be\n\n(a) tangent to the surface;\n\n(b) perpendicular to the surface;\n\n(c) zero;\n\n(d) directed inward since it must vanish inside."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA uniform cubical box of mass $M$ rests on a horizontal floor with one edge against a small obstruction fixed to the floor. Can a horizontal force of magnitude $F$ applied on the box at the centre of the side opposite the obstruction tip the box?\n\n(a) No, never;\n\n(b) yes, only if $F>mg$;\n\n(c) yes, $F>mg/2$ is sufficient;\n\n(d) yes, only if $F>2mg$."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA circuit consists of a battery, a resistor $R$, and two light bulbs A and B as shown below:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2004-1-15-fig1.png\n\nIf the filament in lightbulb A burns out, then the following is true for light bulb B:\n\n(a) It is turned off;\n\n(b) its brightness does not change;\n\n(c) it gets dimmer;\n\n(d) it gets brighter."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nAn observer at O views two closely spaced lines on the bottom sheet through an angled slab of plastic with parallel faces, exactly as shown in the figure below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2004-1-16-fig1.png\n\nCompared to when there is no plastic, the lines appear to the observer\n\n(a) the same but shifted to the right;\n\n(b) shifted to the left and spaced further apart;\n\n(c) shifted to the right and spaced closer together;\n\n(d) exactly as they do without the plastic slab."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nIf all of Earth's polar ice were suddenly to melt into the oceans, in the short term the length of the day would\n\n(a) increase;\n\n(b) remain the same;\n\n(c) decrease;\n\n(d) first decrease, then increase."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nTwo identical balls, A and B, of uniform composition and initially at the same temperature, each absorb exactly the same amount of heat. A is hanging down from the ceiling while B rests on the horizontal floor in the same room. Assuming no subsequent heat loss by the balls, which of the following statements is correct about their final temperatures, $T_\\mathrm{A}$ and $T_\\mathrm{B}$, once the balls have reached their final dimension?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2004-1-18-fig1.png\n\n(a) $T_\\mathrm{A}<T_\\mathrm{B}$;\n\n(b) $T_\\mathrm{A}>T_\\mathrm{B}$;\n\n(c) $T_\\mathrm{A}=T_\\mathrm{B}$;\n\n(d) $T_\\mathrm{A}\\le T_\\mathrm{B}$."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nTwo uncharged balls A and B, each very light and coated with a conducting material, hang vertically side by side just touching each other. A positively-charged glass rod is brought near ball A without touching it. Now A and B are separated and then the glass rod is removed. If $Q_\\mathrm{A}$ and $Q_\\mathrm{B}$ represent the electric charges on A and B, respectively, you conclude that\n\n(a) $Q_\\mathrm{A}<0$ and $Q_\\mathrm{B}<0$;\n\n(b) $Q_\\mathrm{A}<0$ and $Q_\\mathrm{B}>0$;\n\n(c) $Q_\\mathrm{A}>0$ and $Q_\\mathrm{B}<0$;\n\n(d) $Q_\\mathrm{A}>0$ and $Q_\\mathrm{B}>0$;"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nYou are travelling at constant speed in an airtight car with a balloon floating motionless next to you. Suddenly, you slam on the brakes so as to stop the car quickly. During decceleration, with respect to the car the balloon\n\n(a) moves forward;\n\n(b) remains motionless;\n\n(c) moves backward;\n\n(d) can move forward or backward."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nDue to tidal friction on Earth, the radius $R$ of the Moon's orbit is increasing at the rate of a few centimetres per year. During this process, the Moon's angular momentum\n\n(a) remains constant since its speed decreases;\n\n(b) remains constant but its total energy increases;\n\n(c) increases as $\\sqrt{R}$ while its total energy increases;\n\n(d) decreases as $\\sqrt{R}$ while its kinetic energy decreases."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nIn order to measure the speed $v$ of blood flowing through an artery, a uniform magnetic field $\\boldsymbol{B}$ is applied in a direction perpendicular to the flow and a voltmeter measures the voltage across the diameter $D$ of the artery, at right angles to $\\boldsymbol{B}$. If positive and negative ions in the blood are longitudinally at rest with respect to the flow, the speed of the flow is closest to\n\n(a) $v=V/BD$;\n\n(b) $v=BD/V$;\n\n(c) $v=VD/B$;\n\n(d) $v=B/VD$."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA bar magnet with its north (N) and south (S) poles as shown below is initially moving to the left, along the axis of, and away from a circular conducting loop. A current $I$ is induced in the loop, with $\\boldsymbol{a}$ the acceleration of the magnet due to this current. As seen from the magnet looking in the direction of the loop,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2004-1-23-fig1.png\n\n(a) $I$ runs clockwise and $\\boldsymbol{a}$ points to the left;\n\n(b) $I$ runs counterclockwise and $\\boldsymbol{a}$ points to the right;\n\n(c) $I$ runs clockwise and $\\boldsymbol{a}$ points to the right;\n\n(d) $I$ runs counterclockwise and $\\boldsymbol{a}$ points to the left."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nYou are moving a negative charge $q<0$ at a small constant speed away from a conducting spherical shell on which resides a negative charge $Q<0$. The electrostatic field of $Q$ is $\\boldsymbol{E}$. Let $U$ be the total energy of $q$, $W_\\mathrm{a}$ the work done by the force $\\boldsymbol{F}_\\mathrm{a}$ you exert on $q$, and $W_\\mathrm{E}$ the work done by the electrostatic force $\\boldsymbol{F}_\\mathrm{E}$ on $q$. Then, as $q$ is being moved,\n\n(a) $W_\\mathrm{a}=-W_\\mathrm{E}$, and therefore $U$ remains constant;\n\n(b) $\\boldsymbol{F}_\\mathrm{a}=-\\boldsymbol{F}_\\mathrm{E}$, and therefore $U$ remains constant;\n\n(c) $U$ increases;\n\n(d) $U$ decreases;"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nAn ice cube of pure fresh water floats on pure fresh water in a glass. A huge ice shelf, also of pure fresh water, floats on the ocean away from Antarctica. Neglecting the contribution due to the density of air, as the ice cube and the iceberg melt,\n\n(a) the water level rises both in the glass and in the ocean;\n\n(b) the water level does not change in either case;\n\n(c) the water level stays the same in the glass but rises in the ocean;\n\n(d) the water level decreases in the glass but stays the same in the ocean."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA uniform ball of mass $M=1.00\\,\\mathrm{kg}$ is released from rest at the surface of a pond and sinks vertically into the water. An observer, wishing to determine the density of this ball, measures the time-dependence of the angle $\\alpha$ between the vertical at his position, a distance $h$ above the surface, and the direction of the ball's apparent instantaneous position (see figure). The horizontal distance between the observer and the initial position of the ball is $d$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2004-2-1-fig1.png\n\nThe drag force acting on the ball as it sinks is well approximated at low speed $v$ by $F_\\mathrm{drag}=-bv$, where $b$ is a constant. We also take the density of water to be $\\rho_\\mathrm{w}=1000\\,\\mathrm{kg/m^3}$ and its refraction index as $n_\\mathrm{w}=1.33$.\n\n(a) Derive an expression for the instantaneous depth $y$ of the ball as a function of $\\alpha$, $h$, and $d$.\n\n(b) Having calculated the depth of the ball as a function of time, the observer can then construct the following table for the speed of the ball as a function of time:\n\n$$\\begin{array}{|c|c||c|c|} \\hline \\text{Time [s]} & \\text{Speed [m/s]} & \\text{Time [s]} & \\text{Speed [m/s]} \\\\ \\hline 0.000 & 0.000 & 0.225 & 0.8425 \\\\ \\hline 0.010 & 0.0910 & 0.275 & 0.8767 \\\\ \\hline 0.025 & 0.2086 & 0.325 & 0.8966 \\\\ \\hline 0.075 & 0.5081 & 0.375 & 0.9082 \\\\ \\hline 0.125 & 0.6823 & 0.425 & 0.9145 \\\\ \\hline 0.175 & 0.7836 & 0.475 & 0.9155 \\\\ \\hline \\end{array}$$\n\nFrom these data, find the initial acceleration of the ball and estimate at which value its speed will stabilise. Then calculate the density of the ball and obtain a value for the drag coefficient $b$."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nBicycle headlights are often powered by a generator, with the rim of the generator's shaft rolling against the tire's rim due to the rotation of the wheel. The shaft is rigidly connected to a coil within the generator which rotates in a magnetic field $\\boldsymbol{B}$.\n\nIn one such generator, the coil has 125 turns of wire and a cross-sectional area of $0.0010\\,\\mathrm{m^2}$, immersed in a field of magnitude $0.080\\,\\mathrm{T}$. At the area of contact with the tire, the rim of the generator's shaft has a radius of $1.25\\,\\mathrm{cm}$. The tire's diameter is $66\\,\\mathrm{cm}$.\n\n(a) If the lightbulb in the headlight needs $5.0\\,\\mathrm{W}$ of average electrical power, corresponding to a voltage amplitude of $4.0\\,\\mathrm{V}$, to produce a decent amount of light, calculate the linear speed of the bicycle needed, assuming no slipping anywhere in the problem.\n\n(b) Calculate the torque that must be supplied by the bicycle wheel to produce the required average electrical power for the bulb. State briefly two other simplifying assumptions that must be made.\n\n(c) What is the amplitude of the current induced in the coil under these conditions?\n\n(d) To the extent that the lightbulb obeys Ohm's Law, and that its resistance is constant, by what factor would the power delivered to the bulb increase if the cyclist tripled the bicycle's speed (presumably downhill or at the Tour de France)?"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nThe long jump as an Olympic sport dates back at least as far as 700 BC. Unlike in the modern Olympics, it was practised not only from a running start, but also from a standing start. The length of a jump was measured (as it still is) from the point where the back of the feet touched the ground on landing. Paintings on ancient Greek vases depict athletes jumping from a standing start while holding compact weights in both hands. Examples of these have been dug up by archaeologists, and typical ones, made of stone or lead, each have a mass of around $3\\,\\mathrm{kg}$.\n\n(a) Write a short paragraph explaining qualitatively how athletes could boost their performance, ie. jump further from a standing start, by carrying such weights. More precisely, describe what they would have done with the weights during the jump.You can accept that, as biomechanics research has shown, a loaded body could take off at the same speed and angle as an unloaded one.\n\n(b) Estimate by how much the length of a $3\\,\\mathrm{m}$ jump could be increased for a $65\\,\\mathrm{kg}$ athlete jumping at an angle of $50^\\circ$. Remember that this takes place from a standing start, not a running start like today's long jump. You can take the centre of mass of the body to be at a height of $1\\,\\mathrm{m}$ above ground and the length of the arms to be $65\\,\\mathrm{cm}$. Also, at the moment of take-off, the athlete is leaning forward so that his shoulders are about $15\\,\\mathrm{cm}$ in front of the centre of mass of his body."
+    }
+   ]
+  },
+  {
+   "year": 2005,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA child throws a ball toward the front end of an approaching train. The collision between the ball and the train is perfectly elastic. Let $v$ be the speed of the ball with respect to the train and $V$ its speed with respect to the ground. If the labels \"i\" and \"f\" refer to those speeds just before and just after, respectively, the ball hits the train, then\n\n(a) $v_{\\mathrm{i}} = v_{\\mathrm{f}}$ and $V_{\\mathrm{i}} < V_{\\mathrm{f}}$;\n\n(b) $v_{\\mathrm{i}} < v_{\\mathrm{f}}$ and $V_{\\mathrm{i}} < V_{\\mathrm{f}}$;\n\n(c) $v_{\\mathrm{i}} > v_{\\mathrm{f}}$ and $V_{\\mathrm{i}} < V_{\\mathrm{f}}$;\n\n(d) $v_{\\mathrm{i}} = v_{\\mathrm{f}}$ and $V_{\\mathrm{i}} > V_{\\mathrm{f}}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA physics textbook of mass $m$ rests flat on a horizontal table of mass $M$ placed on the ground. Let $\\boldsymbol{N}_{\\mathrm{a}\\to\\mathrm{b}}$ be the contact force exerted $\\textit{by}$ body \"a\" $\\textit{on}$ body \"b\". According to Newton's 3rd Law, which of the following is an action-reaction pair of forces?\n\n(a) $m\\boldsymbol{g}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{book}}$;\n\n(b) $(m+M)\\boldsymbol{g}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{book}}$;\n\n(c) $\\boldsymbol{N}_{\\mathrm{ground}\\to\\mathrm{table}}$ and $M\\boldsymbol{g} + \\boldsymbol{N}_{\\mathrm{book}\\to\\mathrm{table}}$;\n\n(d) $\\boldsymbol{N}_{\\mathrm{ground}\\to\\mathrm{table}}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{ground}}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nAt some time $t$, two identical balls, A and B, are set rolling without slipping at the same speed from one end of two tracks which are identical with the same horizontal length, except that track B has a dip in the path of ball B, as shown in the figure. The straight portions of the tracks are horizontal. Gravity is uniform throughout. Which ball reaches the other end first?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2005-1-3-fig1.png\n\n(a) Ball A;\n\n(b) neither, since both arrive at the same time;\n\n(c) ball B;\n\n(d) ball A, but only if the dip is deep enough."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nTo a good approximation, Earth and Jupiter move around the Sun in circular orbits of $1.49\\times10^{8}\\,\\mathrm{km}$ and $7.79\\times10^{9}\\,\\mathrm{km}$ radius, respectively. What is the maximum error that can arise in the prediction of solar eclipse times (as observed from Earth) on Jupiter caused by one of its moons if one fails to take into account the variation of the relative position of the two planets?\n\n(a) $2.6\\times10^{3}\\,\\mathrm{s}$;\n\n(b) $3.1\\times10^{3}\\,\\mathrm{s}$;\n\n(c) $5.0\\times10^{2}$;\n\n(d) $9.9\\times10^{2}\\,\\mathrm{s}$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nExperiment shows that two perfectly neutral parallel metal plates separated by a small distance $d$, attract each other via a very weak force, known as the Casimir force. The force per unit area of the plates, $\\mathcal{F}$, depends only on the Planck constant $h$, on the speed of light $c$, and on $d$. Which of the following has the best chance of being correct for $\\mathcal{F}$?\n\n(a) $\\mathcal{F} = hc/d^2$;\n\n(b) $\\mathcal{F} = hc/d^4$;\n\n(c) $\\mathcal{F} = hd^2/c$;\n\n(d) $\\mathcal{F} = d^4/hc$."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA simple pendulum of length $L$ with a bob of mass $m$ is taken into Earth orbit on the International Space Station. Its frequency of oscillation with respect to that on the ground is\n\n(a) greater;\n\n(b) smaller but non-zero;\n\n(c) the same;\n\n(d) zero."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nWhen you turn on a battery-operated portable music-playing device, how long must you leave it on for electrons leaving the negative terminal of the battery to reach the positive terminal if their path lies within good conductors?\n\n(a) A few milliseconds;\n\n(b) a few tenths of a second;\n\n(c) a few microseconds;\n\n(d) a few minutes."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nCircuit A is made of resistors connected in series to a battery; circuit B is made of resistors connected in parallel to a battery. Let $P$ be the power drawn from the batteries. As the number of resistors in each circuit is increased,\n\n(a) $P_{\\mathrm{A}}$ increases and $P_{\\mathrm{B}}$ decreases;\n\n(b) both $P_{\\mathrm{A}}$ and $P_{\\mathrm{B}}$ increase;\n\n(c) $P_{\\mathrm{A}}$ decreases and $P_{\\mathrm{B}}$ increases;\n\n(d) $P_{\\mathrm{A}}$ and $P_{\\mathrm{B}}$ remain the same."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nAccording to a simplified but still useful model, the drag force due to air resistance on a moving car goes like the square of the car's speed $v$. Suppose that the maximum speed of a car is limited only by this drag force. If the power of the car's engine were increased by 50%, the top speed of the car would increase by about\n\n(a) 50%;\n\n(b) 15%;\n\n(c) 22%;\n\n(d) 30%."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA projectile is launched with an initial velocity $\\boldsymbol{v}_{\\mathrm{i}}$, with $v_{\\mathrm{i}x}$ and $v_{\\mathrm{i}y}$ the horizontal and vertical velocity components, respectively. When is there a point on its trajectory after launch where its velocity is perpendicular to its acceleration?\n\n(a) Always;\n\n(b) only if $v_{\\mathrm{i}x} \\neq 0$ and $v_{\\mathrm{i}y}$ points upward;\n\n(c) only if $v_{\\mathrm{i}x} \\neq 0$;\n\n(d) always, except if $v_{\\mathrm{i}x} = 0$."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThree charged conducting metal spheres, of radius $R_1$, $R_2$, and $R_3$, are connected together by wires. Let $R_1 < R_2 < R_3$. At equilibrium, which of the following sets of relations involving the electric field strength $E$ generated by a sphere, its potential $V$, and its charge $Q$, must hold between the spheres?\n\n(a) $V_1 = V_2 = V_3,\\ E_1 < E_2 < E_3,\\ Q_1 < Q_2 < Q_3$;\n\n(b) $V_1 = V_2 = V_3,\\ E_1 > E_2 > E_3,\\ Q_1 < Q_2 < Q_3$;\n\n(c) $V_1 < V_2 < V_3,\\ E_1 < E_2 < E_3,\\ Q_1 = Q_2 = Q_3$;\n\n(d) $V_1 > V_2 > V_3,\\ E_1 < E_2 < E_3,\\ Q_1 > Q_2 > Q_3$;"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA ball of mass $m$ attached to an inextensible string of length $R$ in swung around a vertical circle just fast enough so that the string is always fully stretched. Let $\\Delta T$ denote the difference between the tension in the string at the bottom and at the top of the circle, $v_b$ and $v_t$ the speed of the ball at the bottom and at the top, respectively. Then, taking \"dependence\" to be with respect to a set of independent variables,\n\n(a) $\\Delta T$ is independent of $R$, $v_b$ and $v_t$;\n\n(b) $\\Delta T$ is independent of $R$, but depends on $v_b^2 - v_t^2$;\n\n(c) $\\Delta T$ depends on $R$, but on neither $v_b$ nor $v_t$;\n\n(d) $\\Delta T$ depends on $R$ and $v_b^2 - v_t^2$."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nAn object of mass $m$ hangs motionless from a vertical spring. When the object is pulled down to a new rest position, the total mechanical energy of the system\n\n(a) increases;\n\n(b) remains the same;\n\n(c) decreases;\n\n(d) may increase or decrease depending on the new position."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nAs more and more negative electric charge is being brought to a conducting sphere, inside the sphere\n\n(a) the electric field and potential increase;\n\n(b) the electric field stays constant and the potential increases;\n\n(c) the electric field stays constant and the potential decreases;\n\n(d) the electric field increases and the potential decreases."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA static magnetic field of about $0.01\\,\\mathrm{T}$ in strength can erase data on the magnetic strip of a credit card. What would be roughly the minimum diameter of a long straight wire carrying a $100\\,\\mathrm{A}$ current for which your card would be safe no matter how close you take it to the wire?\n\n(a) $0.2\\,\\mathrm{mm}$;\n\n(b) $1\\,\\mathrm{mm}$;\n\n(c) $2\\,\\mathrm{mm}$;\n\n(d) $4\\,\\mathrm{mm}$."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA string of length $L$ is composed of two segments of equal length. One segment has linear mass density $\\mu_1$ and the other other $\\mu_2 \\neq \\mu_1$. One segment is tied to a wall, and the string is stretched by a force, applied to the other segment, which is much greater than the total weight of the string. If $T_i$ is the tension in the $i^{\\text{th}}$ segment, and $v_i$ the speed of a transverse wave propagating along that segment,\n\n(a) $v_1 = v_2$ and $T_1 = T_2$;\n\n(b) $v_1 \\neq v_2$ and $T_1 = T_2$;\n\n(c) $v_1 = v_2$ and $T_1 \\neq T_2$;\n\n(d) $v_1 \\neq v_2$ and $T_1 \\neq T_2$."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA perfectly straight portion of a uniform rope has mass $M$ and length $L$. At end A of the segment, the tension in the rope is $T_{\\mathrm{A}}$; at end B it is $T_{\\mathrm{B}} > T_{\\mathrm{A}}$. The tension in the rope at a distance $L/5$ from end A is\n\n(a) $T_{\\mathrm{B}} - T_{\\mathrm{A}}$;\n\n(b) $(T_{\\mathrm{A}} + T_{\\mathrm{B}})/5$;\n\n(c) $(4T_{\\mathrm{A}} + T_{\\mathrm{B}})/5$;\n\n(d) $(T_{\\mathrm{A}} - T_{\\mathrm{B}})/5$."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nTwo spheres are identical except that sphere A is white whereas sphere B is black. After they have been in thermal contact long enough with each other and their surroundings, in the visible range,\n\n(a) A radiates less than B;\n\n(b) both emit the same amount of radiation;\n\n(c) A radiates more than B;\n\n(d) A radiates more than B only if its temperature is high enough."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nAn aircraft bound for Vancouver and coming from Montréal is flying due west. Its body and wings are covered in aluminium. At some point on its flight path, the Earth's magnetic field points north and downward. The point on the plane's exterior which is then at the highest potential is\n\n(a) the nose (front);\n\n(b) the tail (back);\n\n(c) the tip of the right wing;\n\n(d) the tip of the left wing."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nYou are on the shore of a canal of uniform width $d$ and want to reach a point a distance $L > d$ away $\\textit{along}$ the other shore as quickly as possible. To achieve this, you first run along the shore at constant speed $v_1$, then jump in the canal and swim directly toward your target at constant speed $v_2 < v_1$, both being your maximum speeds. The water in the canal is motionless. The angle of your trajectory in the water with respect to the shore must obey:\n\n(a) $\\cos\\theta = v_1/v_2$;\n\n(b) $\\cos\\theta = \\sqrt{v_1^2/v_2^2 - 1}$;\n\n(c) $\\cos\\theta = 1 - d/L$;\n\n(d) $\\cos\\theta = v_2/v_1$."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nExactly half of a rectangular conducting loop lies in a uniform magnetic field perpendicular to the plane of the loop. At some point in time, the magnitude of the magnetic field starts rapidly decreasing. While this is happening, which of the following statements most accurately describes the effect on the loop?\n\n(a) The loop is pulled into the magnetic field;\n\n(b) the loop is pushed out of the magnetic field;\n\n(c) the loop starts rotating;\n\n(d) the behaviour of the loop cannot be determined unless the direction of the magnetic field is completely specified."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nTwo otherwise identical spaceships have different solar sails: sail A is a perfect reflector, sail B is a perfect absorber. Each starts at the same distance from the Sun and travels radially outward. Let $\\Delta p_{\\mathrm{A}}$ and $\\Delta p_{\\mathrm{B}}$ be the momentum gained by the ships after travelling equal distances. Then\n\n(a) $\\Delta p_{\\mathrm{A}} = \\Delta p_{\\mathrm{B}}$;\n\n(b) $\\Delta p_{\\mathrm{A}} > \\Delta p_{\\mathrm{B}}$;\n\n(c) $\\Delta p_{\\mathrm{A}} < \\Delta p_{\\mathrm{B}}$;\n\n(d) $\\Delta p_{\\mathrm{A}} = \\Delta p_{\\mathrm{B}} = 0$."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nIf there were only one transmitter, and you were separated from this transmitter by the many tall buildings to be found in downtown Toronto, spaced about 30 m apart on average, with which of the following would you be most likely to experience dead spots (places with very poor or no reception)?\n\n(a) AM radio stations (frequency 1 MHz);\n\n(b) FM radio stations (frequency 100 MHz);\n\n(c) cell phones (frequency 1000 MHz);\n\n(d) all of the previous equally."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA horizontal cathode ray tube (CRT) is set so that its electron beam produces a spot of light at the centre of the screen when no external electromagnetic field is present. When you look straight at the screen, however, you discover that the spot, instead of being at the centre as it should, is shifted a bit to the right. Suspecting what the cause of this deflection may be, you rotate the CRT by $180^\\circ$ around its vertical axis. Facing the screen, you find that the spot of light is still shifted to right of centre by the same distance as before. You conclude that the CRT is immersed in\n\n(a) an electric field directed horizontally to the left with respect to the screen's initial position;\n\n(b) an electric field directed horizontally to the right with respect to the screen's initial position;\n\n(c) a magnetic field directed vertically upward with respect to the screen's initial position;\n\n(d) a magnetic field directed vertically downward with respect to the screen's initial position;"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nLight rays from a very distant source travel along the $+x$ direction. Two identical thin lenses with focal length $f > 0$ and their optical axis along $x$, sit, one at $x = 0$, and the other at $x = d < f$. Where do the rays focus?\n\n(a) $d + \\dfrac{f(f-d)}{2f-d}$;\n\n(b) $d - \\dfrac{f(f-d)}{d}$;\n\n(c) $d + \\dfrac{f(f-d)}{2(f+d)}$;\n\n(d) $d + \\dfrac{f^2}{2f-d}$."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA magnetohydrodynamic (MHD) generator is a device that converts part of the kinetic energy of a streaming hot gas into electrical energy. At its operating temperature of between 2000 and 3000 K, the gas is readily ionised. As schematically shown in the figure, the ions and electrons enter a region between two electrodes (here, parallel conducting plates of area $A$ separated by a gap $d$) in which a uniform and constant magnetic field $\\boldsymbol{B}$ has been set up, pointing straight out of the page. Their initial velocity $\\boldsymbol{v}$ is parallel to the plates. A resistor $R$ is connected to the plates. The magnetic field is strong enough that many charged particles will hit the electrodes and charge them before they can exit. This creates a time-varying potential difference $V$ between the plates.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2005-2-1-fig1.png\n\n(a) On a diagram, display all the forces acting on a positive ion at some generic position between the plates. Use your diagram to show that the ion experiences a braking force a soon as its velocity has a component transverse to the plates.\n\n(b) Then, as a crude approximation, assume that any electric field $\\boldsymbol{E}$ arising from the process is uniform everywhere between the plates. Assume also that the transverse component of the velocity of the charges remains everywhere much smaller than its longitudinal component, and that the latter therefore is pretty uniform. The gas obeys a generalised Ohm's law, according to which $\\boldsymbol{J} = \\sigma(\\boldsymbol{E} + \\boldsymbol{v}\\times\\boldsymbol{B})$, where $\\boldsymbol{J}$ is the transverse current density between the plates and $\\sigma$ is the conductivity of the gas.\n\nObtain an expression for the current $I$ flowing through the resistor in terms of $v$, $B$, and $R$.\n\n(c) Derive an expression for the output voltage $V$ that does not explicitly contain $R$."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nA 1000 kg satellite is orbiting the Earth at an altitude of 400 km. It receives electrical power from a solar panel of area $A = 10\\,\\mathrm{m^2}$. At this altitude, Earth's atmosphere is very tenuous, with a density $\\rho \\approx 10^{-11}\\,\\mathrm{kg/m^3}$. Nevertheless, over time, the friction force generated by collisions of the molecules and the panel might cause the satellite to lose altitude.\n\n(a) Assume that in such collisions, the molecules become embedded in the solar panel. If the satellite is moving at speed $v$, find an expression for the maximum retarding force on the solar panel in terms of $\\rho$ and of the radius of the satellite's orbit. Make any other reasonable assumption.\n\n(b) Estimate how much altitude the satellite might lose over one week because of this friction. If you make assumptions, do not forget to justify them briefly.\n\n(c) Somebody claims that as the satellite loses altitude it also loses speed because of the friction. Comment briefly.\n\n[From the paper's data table: gravitational constant $G = 6.67\\times10^{-11}\\,\\mathrm{N\\cdot m^2/kg^2}$; radius of Earth $R_{\\mathrm{E}} = 6.37\\times10^{3}\\,\\mathrm{km}$; mass of Earth $M_{\\mathrm{E}} = 6.0\\times10^{24}\\,\\mathrm{kg}$; $g = 9.80\\,\\mathrm{m/s^2}$.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nIn a mood for some physics as you look at a sailboat on a lake, you wonder about its stability when a strong wind blows from the side. The sailboat leans over in the wind and the question is whether its keel can prevent it from being blown over completely.\n\nAnalyze the stability of the sailboat using the following oversimplified model.\n\nConsider the hull of the sailboat as an airtight hollow cylinder. On top of this cylinder and perpendicular to it sits a mast carrying a square sail, assumed to be always parallel to the length of the hull. Attached to the bottom of the hull is a keel in the shape of a square always parallel to the sail. A heavy lead weight forms the bottom of the keel under water. Other than the lead weight, consider mast, sail, hull, and keel to be weightless. Somewhat unrealistically (it would make tacking difficult), you can also assume that the sail extends all the way from the bottom to the top of the mast.\n\n(a) Establish a relationship between wind speed and the angle $\\theta$ the mast will tilt away from its initial upright position when a wind with speed $v$ blows perpendicular (initially) to the sail. Other assumptions may be made so long as they are explicitly stated and, as much as possible, justified.\n\nIn this simplified model, is this boat stable in all wind speeds? Since you may not be able to find a general solution for the angle $\\theta$ as a function of $v$, you are welcome to obtain solutions valid only for small $\\theta$ or for large $\\theta$. The expansion $(1+x)^n \\approx 1 + nx + \\ldots$ for $x \\ll 1$ may be useful.\n\n(b) The following data, loosely based on the Catalina Capri – 16, are given for a small sailboat. Area $A$ of sail is $12\\,\\mathrm{m^2}$, mass $M$ of lead weight 190 kg, depth $d$ of keel below water level, technically known as draft, 0.75 m, height $h$ of mast 6.6 m, specific gravity of lead, supposed to be the part at the bottom of the keel that acts as a stabiliser, 11.3. Also, air density is $1.2\\,\\mathrm{kg/m^3}$.\n\nWith these data, at what wind speed will $\\theta$ be $30^\\circ$? $60^\\circ$?"
+    }
+   ]
+  },
+  {
+   "year": 2006,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA uniform meter stick is supported on a fulcrum at the 25-cm mark. A 0.50-kg object is hung from the 0-cm end of the meter stick, and the stick is balanced horizontally. The mass of the meter stick is:\n\n(a) 0.25 kg;\n\n(b) 0.50 kg;\n\n(c) 0.75 kg;\n\n(d) 0.75 kg;"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe radius of the Earth is $6.37\\cdot10^{6}\\,\\mathrm{m}$. Approximately how fast is a person on the Equator moving due to the Earth rotation?\n\n(a) 5 m/s\n\n(b) 50 m/s\n\n(c) 500 m/s\n\n(d) 5000 m/s"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nIn a certain region of space, the electric field is zero. From this we can conclude that the electric potential in this region is:\n\n(a) constant;\n\n(b) zero;\n\n(c) positive;\n\n(d) negative;"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA bullet of mass $m$ and speed $v$ hits a pendulum bob of mass $M$ at time $t_1$, and passes completely through the bob. The bullet emerges at time $t_2$ with a speed of $v/2$. The pendulum bob is suspended by a stiff rod of length $l$ and negligible mass. After the collision, the bob can barely swing through a complete vertical circle. At time $t_3$, the bob reaches the highest position.\n\nWhat quantities are conserved in this process?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-4-fig1.png\n\n(a) Total kinetic energy of the bob and the bullet during the time interval $\\Delta t = t_2 - t_1$.\n\n(b) Total momentum of the bob and the bullet during the time interval $\\Delta t = t_2 - t_1$.\n\n(c) Total mechanical energy of the bob and the bullet during the time interval $t_3 - t_1$.\n\n(d) Momentum of the bob after $t_2$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe diagram shows a circuit with four identical light bulbs.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-5-fig1.png\n\nWhen we remove bulb A from the circuit, the light intensity of bulb C:\n\n(a) remains the same;\n\n(b) increases;\n\n(c) decreases;\n\n(d) becomes zero."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nThe amplitude of an electromagnetic wave in vacuum is doubled with no other changes made to the wave. As a result of this doubling of the amplitude, which of the following statements is correct?\n\n(a) The speed of propagation of the wave changes.\n\n(b) The frequency of the wave changes.\n\n(c) All of the above are true.\n\n(d) None of the above is true."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nTwo objects are initially at rest on a frictionless surface. Object 1 has a greater mass than object 2. The same constant force starts to act on each object. The force is removed from each object after it accelerates over a distance $d$. After the force is removed from both objects, which statement is correct ($p$: momentum; $K$: kinetic energy)?\n\n(a) $p_1 < p_2$;\n\n(b) $p_1 > p_2$;\n\n(c) $K_1 > K_2$;\n\n(d) $K_1 < K_2$."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA dart is loaded into a spring-loaded toy dart gun by pushing the spring in by a distance $d$. For the next loading, the spring is compressed a distance $2d$. How much faster does the second dart leave the gun compared to the first?\n\n(a) four times as fast;\n\n(b) two times as fast;\n\n(c) the same;\n\n(d) half as fast;\n\n(e) one-fourth as fast."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nOne of two parallel metallic plates is uniformly charged with charge $+q$, and the other one is charged with charge $-q$. In this case, the electric field between them is $E$. When the negatively charged plate is discharged then recharged with a positive charge $4q$, the electric field between the plates becomes:\n\n(a) 0;\n\n(b) $1.5E$;\n\n(c) $2.5E$;\n\n(d) $3E$;\n\n(e) $5E$."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA uniform magnetic field $\\mathbf{B}$ is directed out of the page. A metallic wire has the shape of a square frame and is placed in the field as shown. While the shape of the wire is steadily transformed into a circle in the same plane, the current in the frame:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-10-fig1.png\n\n(a) is directed clockwise;\n\n(b) does not appear;\n\n(c) is directed counterclockwise."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThe drawing shows velocity ($v$) versus time ($t$) graphs for two cyclists moving along the same straight segment of a highway from the same point. The second cyclist starts moving at $t = 3.0\\,\\mathrm{min}$.\n\nAt what time do the two cyclists meet?\n\n(a) 4.0 min;\n\n(b) 6.0 min;\n\n(c) 12 min.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-11-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nTwo solid spheres manufactured of the same material freely fall down in the air. One sphere has a diameter twice as large as the other. The force due to air resistance is proportional to the cross-sectional area of a moving object and is a quadratic function of the speed of an object. Some time after the beginning of motion in the presence of air resistance, the velocity of each sphere becomes constant. It is called the terminal velocity. The ratio of terminal velocities of the spheres $v_{\\text{big}}/v_{\\text{small}}$ is:\n\n(a) $2$;\n\n(b) $\\sqrt{2}$;\n\n(c) $\\dfrac{1}{2}$;\n\n(d) $\\dfrac{1}{\\sqrt{2}}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nAstronauts are weightless in orbit because:\n\n(a) they are beyond the pull of gravity;\n\n(b) they travel in the accelerated frame of reference where fictitious centrifugal force is equal to centripetal force, and the net force on an astronaut is zero;\n\n(c) they are in free fall together with their spacecraft;\n\n(d) of another cause."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nTwo solid objects of the same mass are supplied with heat at the same rate $\\Delta Q/\\Delta t$. The temperature of the first object with latent heat $L_1$ and specific heat capacity $c_1$ changes according to graph 1 on the diagram. The temperature of the second object with latent heat $L_2$ and specific heat capacity $c_2$ changes according to graph 2 on the diagram.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-14-fig1.png\n\nBased on what is shown on the graph, the latent heats $L_1$ and $L_2$, and the specific heat capacities $c_1$ and $c_2$ in solid state obey which of the following relationships:\n\n(a) $L_1 > L_2$; $c_1 < c_2$;\n\n(b) $L_1 < L_2$; $c_1 < c_2$;\n\n(c) There is not enough information to determine these relations;\n\n(d) $L_1 > L_2$; $c_1 > c_2$;\n\n(e) $L_1 < L_2$; $c_1 > c_2$."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA light ray strikes a prism as shown in the drawing. The angles of the prism are $90^\\circ$, $45^\\circ$, and $45^\\circ$. The critical angle of the prism material is $49^\\circ$. What rays are the possible continuations of the incident ray?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-15-fig1.png\n\n(a) The ray 1 only.\n\n(b) The ray 2 only.\n\n(c) The ray 3 only.\n\n(d) Both rays 1 and 3.\n\n(e) Both rays 2 and 3."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nYou stand on a platform at a train station and listen to a train horn as the train approaches the station at a constant velocity. While the train approaches, but before it arrives, you hear:\n\n(a) the intensity and the frequency of the sound both increasing;\n\n(b) the intensity and the frequency of the sound both decreasing;\n\n(c) the intensity increasing and the frequency decreasing;\n\n(d) the intensity decreasing and the frequency increasing;\n\n(e) the intensity increasing and the frequency remaining the same;"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA linear conductor with current $I_1$ is placed along the axis of a circular conductor, which carries current $I_2$.\n\nThe magnetic force acting on each of the conductors is:\n\n(a) zero;\n\n(b) directly proportional to the product of currents $I_1$ and $I_2$, and inversely proportional to the radius of the circular conductor;\n\n(c) directly proportional to the product of currents $I_1$ and $I_2$, inversely proportional to the square of the radius of the circular conductor;\n\n(d) directly proportional to the product of current $I_1$, current $I_2$, and the area of a circular conductor;"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nAn aquarium is filled with water. The lateral wall of the aquarium is 40 cm long and 30 cm high. Using $10\\,\\mathrm{m/s^2}$ for the acceleration due to gravity, and $1\\,\\mathrm{g/cm^3}$ for the density of water, the force on the lateral wall of the aquarium is:\n\n(a) 36 N;\n\n(b) 90 N;\n\n(c) 180 N;\n\n(d) 1500 N."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA satellite is moved from one circular orbit around the earth, to another of lesser radius. Which of the following is true?\n\n(a) The kinetic energy increases and the potential energy increases;\n\n(b) The kinetic energy increases, and the potential energy decreases;\n\n(c) The kinetic energy decreases and the potential energy decreases;\n\n(d) The kinetic energy decreases and the potential energy increases."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA point particle carries a positive charge $+q$ and is maintained at an a distance $h$ above a large conductive uncharged plate. The electric force of interaction between the charge and the plate is $\\textbf{best}$ described as:\n\n(a) zero force;\n\n(b) an attractive force proportional to $q/h^2$;\n\n(c) an attractive force proportional to $q^2/h^2$;\n\n(d) an attractive force proportional to $q^2/4h^2$;\n\n(e) a repulsive force proportional to $q^2/h^2$."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA heavy pendulum bob is swinging back and forth when the string, supporting it, suddenly breaks. Ignoring the mass of the string and air resistance, draw the path of the subsequent motion of the bob if the string breaks when the bob is at its highest point.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-2-1-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA long vertical tube with a weightless movable piston inside has its lower end under water. The tube is motionless throughout the experiment. The cross-sectional area of the piston is $A$. The initial position of the piston is just over the surface of the water. Then it is slowly moved upwards. Sketch a graph of the force necessary to lift the piston as a function of the height of the piston."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 23",
+     "problem": "Question 23\n\nOn the same graph, draw the following two functions: 1) kinetic energy versus speed of a particle according to classical mechanics and 2) the same function for Einstein's relativistic theory."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Part B",
+     "title": "Question 24",
+     "problem": "Question 24\n\nAn electron is moving at a constant velocity in a region of space with a uniform electric field of $1.0\\cdot10^{3}\\,\\mathrm{N/C}$ and a uniform magnetic field of $1.0\\cdot10^{-3}\\,\\mathrm{T}$. The electric field has only an $x$-component while the magnetic field has only a $y$-component.\n\nSketch a vector diagram for the velocity of the electron, the magnetic field, and the electric field in the Cartesian system of coordinates."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Part B",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA brick is on an incline whose angle of inclination can be changed from 0 to 90 degrees.\n\nSketch a graph of the force of friction acting on the brick versus the angle of inclination in the given range."
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Part C",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-3-1-fig1.png\n\nSand from a stationary hopper falls onto a moving conveyor belt at a rate of 5.00 kg/s as shown above. The conveyor belt is supported by frictionless rollers and moves at a constant speed of 0.75 m/s under the action of a constant horizontal external force $\\mathbf{F}_{\\text{ext}}$ supplied by the motor that drives the belt.\n\nFind:\n\n1) the force of friction exerted by the belt on the sand;\n\n2) the external force $\\mathbf{F}_{\\text{ext}}$;\n\n3) the work done by $\\mathbf{F}_{\\text{ext}}$ in 1 s;\n\n4) the kinetic energy acquired by the falling sand each second due to the change in its horizontal motion;\n\n5) compare and analyse the answers to 3) and 4)."
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Part C",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nA source of electric power with electromotive force $E$ and internal resistance $r$, is connected to a resistor.\n\n1) Find the power delivered to the resistor as a function of the resistance of the resistor.\n\n2) Find the power produced by the source as a function of the resistance of the resistor.\n\n3) Sketch graphs of these two functions.\n\n4) Treating the efficiency of the source as the ratio of power consumed to power produced by the source, find the efficiency of the source of electric power as a function of the resistance of the resistor and sketch the graph of this function.\n\n5) Find the resistance of the resistor that corresponds to the maximum power delivered to the resistor, and calculate the efficiency for this resistance."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Part C",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nA point source of light is moving uniformly along a straight line, which intersects the optical axis of a converging lens under a small angle $\\alpha$ at a distance $2F$ from the lens with a focal distance $F$. The speed of the source of light is $v_0$.\n\ni. Draw the lens, the trajectory of the source of light, and the trajectory of its image produced by the lens.\n\nii. Draw the vector diagram for the velocity of the source of light, the velocity of the image, and the relative velocity of the image with respect to the source.\n\niii. Determine the minimum relative speed of the image of the source of light with respect to the source."
+    }
+   ]
+  },
+  {
    "year": 2007,
    "problems": [
     {

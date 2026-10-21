@@ -2,6 +2,1212 @@
  "competition": "Canada — CAP High School/CEGEP Prize Exam (Canadian Physics Olympiad)",
  "years": [
   {
+   "year": 1995,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA salvage ship tries to raise a sunken miniature submarine from the bottom of Lake Superior. The submarine and its contents have a mass of $72{,}000\\,\\mathrm{kg}$ and a volume of $18.9\\,\\mathrm{m^3}$. What upwards force must be applied to raise the submarine? The density of water is $1000\\,\\mathrm{kg/m^3}$.\n\n(a) $1.8\\times10^{5}\\,\\mathrm{N}$\n\n(b) $2.0\\times10^{5}\\,\\mathrm{N}$\n\n(c) $4.8\\times10^{5}\\,\\mathrm{N}$\n\n(d) $5.2\\times10^{5}\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA little girl is playing with a toy pendulum while riding in an elevator. Being an astute and educated young lass, she notes that the period of the pendulum is $T=0.5\\,\\mathrm{s}$. Suddenly the cables supporting the elevator break and all of the brakes and safety features fail simultaneously. The elevator plunges into free fall. The young girl is astonished to discover that the pendulum has,\n\n(a) continued oscillating with a period of $0.5\\,\\mathrm{s}$.\n\n(b) stopped oscillating entirely.\n\n(c) decreased its rate of oscillation to have a greater period.\n\n(d) increased its rate of oscillation to have a lesser period."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nTwo identical spring loaded, toy guns shoot projectiles straight upwards. The projectile in gun B has twice the mass as that in gun A. The projectile launched by gun A reaches a height $H$. Ignoring air resistance, the projectile launched by gun B would reach a height of,\n\n(a) $H/4$\n\n(b) $H/2$\n\n(c) $H/\\sqrt{2}$\n\n(d) $H$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nAn athlete of mass $75\\,\\mathrm{kg}$ runs at $10\\,\\mathrm{m/s}$. What is his kinetic energy?\n\n(a) $3750\\,\\mathrm{J}$\n\n(b) $7500\\,\\mathrm{J}$\n\n(c) $375\\,\\mathrm{J}$\n\n(d) $750\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe moon is about $60$ earth radii from the centre of the earth and completes one orbit in about $28$ days. Assuming that the moon executes a circular orbit about the centre of the earth, the acceleration of the moon (in units of $g$, the acceleration due to gravity at the earth's surface) is closest to,\n\n(a) $g/30$\n\n(b) $g/60$\n\n(c) $g/3600$\n\n(d) $g$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA survey crew sights the top of a radio tower with a small telescope. The angle that the telescope makes with the horizontal is measured to be $53^\\circ$. The crew moves the telescope $25\\,\\mathrm{m}$ closer to the base of the tower and repeats the process. The new angle that the telescope makes with the horizontal is $60^\\circ$. What is the height of the tower assuming that the base of the tower is on the same level as the areas where the telescope measurements were made?\n\n(a) $33\\,\\mathrm{m}$\n\n(b) $43\\,\\mathrm{m}$\n\n(c) $142\\,\\mathrm{m}$\n\n(d) $286\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nWhich of the following is $\\textbf{not}$ true for electromagnetic waves;\n\n(a) they consist of oscillating electric and magnetic fields.\n\n(b) they travel at different speeds in air depending on their frequency.\n\n(c) they transport energy.\n\n(d) they have no momentum."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nTwo long parallel wires are placed side-by-side on a level table. The two wires carry equal currents in the same direction. Which of the following is true of the magnetic forces exerted on each wire by the other?\n\n(a) One wire experiences a force upwards while the other experiences a downwards force.\n\n(b) Both wires experience an upwards force.\n\n(c) The two wires are attracted to one another.\n\n(d) The two wires repel one another."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA piano tuner uses a tuning fork which oscillates with a frequency of $440\\,\\mathrm{Hz}$ (middle A). Middle A on a piano is out of tune, producing a note of frequency $f$. The piano note and the tuning fork are heard to beat with a frequency of $3\\,\\mathrm{Hz}$. When the tension in the piano string is decreased, the beat frequency also decreases. The out-of-tune frequency $f$ must have been,\n\n(a) $446\\,\\mathrm{Hz}$\n\n(b) $443\\,\\mathrm{Hz}$\n\n(c) $437\\,\\mathrm{Hz}$\n\n(d) $434\\,\\mathrm{Hz}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nSudbury's Creighton mine is one of the deepest in the world ($2.07\\,\\mathrm{km}$). In this mine the conditions as compared to those at the surface are,\n\n(a) lower air pressure, higher acceleration due to gravity.\n\n(b) higher air pressure, lower acceleration due to gravity.\n\n(c) higher air pressure, higher acceleration due to gravity.\n\n(d) lower air pressure, lower acceleration due to gravity."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA parallel network of resistors consists of a $1\\,\\Omega$ resistor placed in parallel with a $2\\,\\Omega$ resistor. This combination is, in turn, placed in parallel with a $4\\,\\Omega$ resistor. Further $8\\,\\Omega$, $16\\,\\Omega$, $32\\,\\Omega$ $\\ldots$ resistors are placed in parallel with the network one by one. To what value does equivalent resistance of the network converge upon?\n\n(a) $0.5\\,\\Omega$\n\n(b) $2.0\\,\\Omega$\n\n(c) $0.0\\,\\Omega$\n\n(d) Does not converge to a finite value."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA simple pendulum has a bob of mass $2\\,\\mathrm{kg}$ hanging on a cord of length $1\\,\\mathrm{m}$. Suppose the pendulum is raised until it is horizontal (an angular displacement of $90^\\circ$) and then released. What is the speed of the bob at the bottom of its swing?\n\n(a) $9.91\\,\\mathrm{m/s}$\n\n(b) $19.6\\,\\mathrm{m/s}$\n\n(c) $3.13\\,\\mathrm{m/s}$\n\n(d) $4.43\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nAn organ pipe of length $L$ is open at one end and closed at the other. What are the wavelengths of the three lowest frequencies that can be produced with this pipe?\n\n(a) $4L,\\ 2L,\\ L$\n\n(b) $2L,\\ L,\\ L/2$\n\n(c) $2L,\\ L,\\ 2L/3$\n\n(d) $4L,\\ 4L/3,\\ 4L/5$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA satellite is in orbit at an altitude of one earth radius. What is the orbital speed of this satellite?\n\n(a) $1.56\\times10^{7}\\,\\mathrm{m/s}$\n\n(b) $3.95\\times10^{3}\\,\\mathrm{m/s}$\n\n(c) $7.91\\times10^{3}\\,\\mathrm{m/s}$\n\n(d) $5.59\\times10^{3}\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA steady non-turbulent stream of water comes out of a tap and falls vertically downward. As it does so, the diameter of the stream appears to get smaller. What is the primary reason?\n\n(a) The water's surface tension constricts the stream.\n\n(b) Air pressure, which decreases with altitude, squeezes the stream.\n\n(c) The water is accelerating under gravity and so the stream must get thinner as the flow rate (velocity times cross-sectional area) must be constant.\n\n(d) The flow does not constrict; it is an optical illusion."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA roller coaster car is on a track that forms a circular loop, of radius $R$, in the vertical plane. If the car is to maintain contact with the track at the top of the loop (generally considered to be a good thing), what is the minimum speed that the car must have at the bottom of the loop. Ignore air resistance and rolling friction.\n\n(a) $\\sqrt{2gR}$\n\n(b) $\\sqrt{3gR}$\n\n(c) $\\sqrt{4gR}$\n\n(d) $\\sqrt{5gR}$"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nAn object is placed $30\\,\\mathrm{cm}$ in front of a thin, spherical lens. An upright image, twice the size of the object, is formed by the lens. Which of the following attributes best describes the lens.\n\n(a) diverging, focal length $20\\,\\mathrm{cm}$\n\n(b) converging, focal length $20\\,\\mathrm{cm}$\n\n(c) diverging, focal length $60\\,\\mathrm{cm}$\n\n(d) converging, focal length $60\\,\\mathrm{cm}$"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA point charge $+Q$ is placed at the centroid of an equilateral triangle. When a second charge $+Q$ is placed at a vertex of the triangle, the magnitude of the electrostatic force on the central charge is $4\\,\\mathrm{N}$. What is the magnitude of the net force on the central charge when a third charge $+Q$ is placed at another vertex of the triangle?\n\n(a) zero\n\n(b) $4\\,\\mathrm{N}$\n\n(c) $4\\sqrt{2}\\,\\mathrm{N}$\n\n(d) $8\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nGreenhouse \"warming\" is caused by an atmosphere which is ,\n\n(a) transparent to visible light but opaque to I.R. light.\n\n(b) transparent to both visible and I.R. light.\n\n(c) opaque to both visible and I.R. light.\n\n(d) warming due to the hot air from the world's increasing population."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA particle of mass $m$ and charge $q$ is accelerated through a potential difference $V$ to a velocity $\\vec{v}$ towards the south. The particle enters a region with both a magnetic field $\\vec{B}$ (pointing eastwards) and electric field $\\vec{E}$ (pointing down). The particle travels at constant velocity through this region. The potential difference $V$ must satisfy,\n\n(a) $V=mE^2/2qB^2$\n\n(b) $V=2mE/qB$\n\n(c) $V=E/qB$\n\n(d) It is not possible for the particle to be undeflected by these fields."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA space craft orbiting the moon with an orbital radius of $10^6\\,\\mathrm{m}$ has an orbital period of $45$ minutes. When it drops down to a lower orbit of radius $10^5\\,\\mathrm{m}$, its period has become,\n\n(a) $36$ minutes\n\n(b) $85$ seconds\n\n(c) $54$ minutes\n\n(d) Need to know the mass of the moon for this problem."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA simple pendulum is made from a $2\\,\\mathrm{kg}$ block of wood suspended from a light cord of length $1\\,\\mathrm{m}$. When the pendulum is hanging in such a way that it is stationary and vertical, a bullet is shot horizontally into the block of wood where it sticks. The bullet has a mass of $10^{-2}\\,\\mathrm{kg}$ and has a speed of $500\\,\\mathrm{m/s}$ just before its head-on collision with the block. The pendulum will swing to a maximum angle with the vertical of,\n\n(a) $71.3^\\circ$\n\n(b) $23.4^\\circ$\n\n(c) $35.7^\\circ$\n\n(d) $46.8^\\circ$"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nElectronic components are tested for durability by subjecting them to high accelerations. This is achieved by placing them on a platform attached to a vertically hanging spring. The platform (and the component being tested) oscillate up and down with a frequency of $10\\,\\mathrm{Hz}$ when the spring is stretched by $10\\,\\mathrm{cm}$ and released. What is the maximum acceleration experienced by the electronic component?\n\n(a) $10.0\\,\\mathrm{m/s^2}$\n\n(b) $2.00\\,\\mathrm{m/s^2}$\n\n(c) $395\\,\\mathrm{m/s^2}$\n\n(d) $158\\,\\mathrm{m/s^2}$"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA real battery can be considered to be an ideal battery of potential $\\epsilon$ in series with an internal resistance $r$. Suppose that the battery is connected to a single \"load\" resistance $R$. For what value of $R$ will the power dissipated by the load be a maximum?\n\n(a) $r$\n\n(b) $r/2$\n\n(c) $2r$\n\n(d) $10r$"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nTwo trucks pull on either end of a rope, each with a force of $10{,}000\\,\\mathrm{N}$. In the centre of the rope, a ball of mass $20\\,\\mathrm{kg}$ is hanging.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1995-1-25-fig1.png\n\nThe angle $\\theta$ that the rope makes with the horizontal is,\n\n(a) $56^\\circ$\n\n(b) $5.6^\\circ$\n\n(c) $0.56^\\circ$\n\n(d) $0^\\circ$; the rope will obviously be horizontal in this situation."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nPhysicists at UBC do microgravity experiments on board a NASA KC-135 (Boeing 707). The KC-135 flies parabolic flight paths to follow as closely as possible the trajectory and speed of a free-falling body. Once the plane is on the parabolic flight path (both ascending and descending), its engines are only used to overcome air resistance. The aircraft is known, with some justification, as the \"Vomit Comet\". The KC-135 cannot fly at a speed of less than $300\\,\\mathrm{km/hr}$ (as it has to be under control at all times) or more than $500\\,\\mathrm{km/hr}$ (or the $g$-forces in recovery will be too great).\n\n(a) While the plane is executing its parabolic trajectory at an altitude of $10{,}000\\,\\mathrm{m}$, a physicist of mass $m=65\\,\\mathrm{kg}$ demonstrates her \"weightlessness\" by floating freely in the large open cargo bay. Draw a force diagram for the physicist showing all forces acting on her body. Find the force of gravity acting on the physicist and find her net acceleration. Explain in your own words, and referring to your preceding calculations, why people call this experience \"weightlessness\".\n\n(b) At what angle to the horizontal should the KC-135 enter its parabolic path?\n\n(c) How much time do the physicists get under \"weightless\" conditions?\n\n(d) While an aircraft is in level flight and travelling at constant velocity, passengers on board are said to experience a 1-$g$ \"force\" downwards and can walk around the cabin normally. Sketch the trajectory of the path the aircraft would have to follow so that it could execute a 1-$g$ vertical loop. In this situation, the aircraft must execute a full vertical loop while at all times allowing the passengers to experience only a 1-$g$ \"force\" towards the floor of the cabin. All on board would be able to walk around normally at all times. What is the acceleration of the aircraft, in units of $g$, when it is at the top, and bottom of the loop? What is the acceleration of the aircraft, in units of $g$, when it is headed vertically upwards and downwards?\n\n[Data from the paper: $R_E=6380\\,\\mathrm{km}$, $M_E=5.98\\times10^{24}\\,\\mathrm{kg}$, $G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2/kg^2}$, $g=9.81\\,\\mathrm{m/s^2}$.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA tank of salt water is allowed to stand undisturbed for a long time. The tank has a square footprint and measures $3\\,\\mathrm{m}$ by $3\\,\\mathrm{m}$. The depth of the water in the tank is $d=1\\,\\mathrm{m}$. In the absence of any agitation, the concentration of salt in the water is not uniform but increases with depth. Since salt water is more dense that pure water, the density of the water also increases with depth and hence, the index of refraction of the water also increases with depth. Assume that the index of refraction of the water at its surface is $n_o=1.3$ and the index increases linearly and at the rate of $\\alpha=0.05\\,\\mathrm{m^{-1}}$. The walls and floor of the tank are made of clear glass and the air surrounding the tank has an index of refraction $n_a=1$. This tank can be used to model the optical properties of a variety of situations where the index of refraction varies with altitude.\n\n(a) Suppose, for parts (a) and (b), that we make the simplification that the index of refraction of the water is uniform and has the value $n_o=1.3$ throughout the tank. A laser beam is shone through the floor of the tank towards the surface of the water as shown. When the beam is pointing straight up, it passes through the salt water and exits into the air above. As the angle between the beam and the normal to the surface is increased, a point is reached where the beam no longer exits the water but is internally reflected back into the tank. Calculate the angle at which this total internal reflection occurs.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1995-2-2-fig1.png\n\n(b) A small light bulb is placed directly under the middle of the tank. Looking down from above at the surface of the water, what area on the surface appears to be illuminated by the light? Note that light from a light bulb travels in all directions.\n\n(c) Now let us consider the more complicated case where the water is not of uniform density. Treat the salt water as a large number of layers, each with a distinct index of refraction and sketch the path of the laser beam in part (a). At what angle, from the normal to the bottom of the tank, did the laser beam enter the water so that it would be internally reflected at the top surface? Sketch the path of a ray which entered the tank at an angle greater than this.\n\n(d) Now consider air above a hot roadway. At the surface of the roadway, the temperature of the air is $T_h=60^\\circ\\mathrm{C}$ whereas at a height of $l=1\\,\\mathrm{m}$ and above, the air is a cool $T_c=30^\\circ\\mathrm{C}$. The index of refraction $n(T)$ of the air as a function of temperature is related to the air's density $\\rho(T)$ according to the relation,\n\n$$n(T)-1\\propto\\rho(T)\\ ,$$\n\nwhere $T$ is the absolute temperature of the air in degrees Kelvin. You may assume that the density of the air is, in turn, inversely proportional to the air's temperature. The index of refraction of air at $15^\\circ\\mathrm{C}$ and atmospheric pressure is $1.000276$. Sitting in a car with your eyes $1.5\\,\\mathrm{m}$ above the roadway, how far is it in the distance that the roadway appears to shimmer? This is, of course, a mirage."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nEstimate from your basic bodily dimensions your natural walking speed. Explain clearly, in words and diagrams, the physics you use to make this calculation. If time allows, go beyond your first basic calculation to discuss refinements and improvements to your model for walking. Be creative."
+    }
+   ]
+  },
+  {
+   "year": 1996,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA toy for firing a ball vertically consists of a vertical spring which is compressed by $0.10\\,\\mathrm{m}$. A force of $10.0\\,\\mathrm{N}$ is needed to hold the spring at that compression. If a ball of mass $0.050\\,\\mathrm{kg}$ is placed on the compressed spring and the spring is released, the ball will reach a height (above its initial position) of:\n\n(a) $1.0\\,\\mathrm{m}$\n\n(b) $1.2\\,\\mathrm{m}$\n\n(c) $1.4\\,\\mathrm{m}$\n\n(d) $1.6\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA rescue plane is flying horizontally with a speed of $30\\,\\mathrm{m/s}$ and at an altitude of $125\\,\\mathrm{m}$ above the sea when it drops a warning flare. Neglecting air resistance and assuming that the plane does not change its course, speed, or altitude, how far from the plane is the flare when it hits the water?\n\n(a) $146\\,\\mathrm{m}$\n\n(b) $195\\,\\mathrm{m}$\n\n(c) $125\\,\\mathrm{m}$\n\n(d) $150\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA loudspeaker is placed over the open end of a pipe. By changing the frequency of the sound from the speaker, it is found that the pipe has resonances at $700\\,\\mathrm{Hz}$ and $900\\,\\mathrm{Hz}$ but not $800\\,\\mathrm{Hz}$. This means that:\n\n(a) The pipe is closed at one end and the fundamental is $100\\,\\mathrm{Hz}$.\n\n(b) The pipe is closed at one end and the fundamental is $200\\,\\mathrm{Hz}$.\n\n(c) The pipe is open at both ends and the fundamental is $100\\,\\mathrm{Hz}$.\n\n(d) The pipe is open at both ends and the fundamental is $200\\,\\mathrm{Hz}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nIn a television tube, electrons are accelerated from rest through a potential difference of $1600\\,\\mathrm{V}$. What is the speed of the electrons after this acceleration?\n\n(a) $16{,}000\\,\\mathrm{km/s}$\n\n(b) $20{,}000\\,\\mathrm{km/s}$\n\n(c) $24{,}000\\,\\mathrm{km/s}$\n\n(d) $28{,}000\\,\\mathrm{km/s}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nThe electron-volt is a measure of:\n\n(a) charge\n\n(b) current\n\n(c) electric field strength\n\n(d) energy"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA current of $5\\,\\mathrm{A}$ passes along a wire of length $1.0\\,\\mathrm{m}$. The wire is at right angles to a uniform magnetic field of strength $0.15\\,\\mathrm{T}$. The force acting on the wire is:\n\n(a) $0$\n\n(b) $0.75\\,\\mathrm{N}$\n\n(c) $33\\,\\mathrm{N}$\n\n(d) $0.03\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nAn $8\\,\\mathrm{\\mu F}$ capacitor is charged to a potential of $120\\,\\mathrm{V}$. How much work was required to do this?\n\n(a) $2.7\\times10^{-12}\\,\\mathrm{J}$\n\n(b) $1.2\\times10^{-1}\\,\\mathrm{J}$\n\n(c) $9.6\\times10^{-4}\\,\\mathrm{J}$\n\n(d) $5.8\\times10^{-2}\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA flashlight is operated on four batteries placed in series. Each battery has an internal resistance $r$. If one of the batteries is accidentally placed the wrong way around, the total internal resistance of the four cells will now be:\n\n(a) $r/4$\n\n(b) $3r$\n\n(c) $r/5$\n\n(d) $4r$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA ray of light is passing from air into glass. If the angle of incidence, with respect to the normal to the interface, is increased:\n\n(a) Total internal reflection will occur when the angle of incidence equals the critical angle.\n\n(b) Total internal reflection will occur when the angle of incidence is less than the critical angle.\n\n(c) Total internal reflection will occur when the angle of incidence is greater than the critical angle.\n\n(d) The refractive angle will increase but there will be no total internal reflection."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA mass of $20\\,\\mathrm{g}$ is hung from the end of a light vertical spring and is set oscillating with an amplitude of $10\\,\\mathrm{cm}$. Its total energy is found to be $4\\,\\mathrm{J}$. If the mass is now replaced with a mass of $40\\,\\mathrm{g}$ and it is again set oscillating with an amplitude of $10\\,\\mathrm{cm}$, its total energy is now:\n\n(a) $2\\,\\mathrm{J}$\n\n(b) $4\\,\\mathrm{J}$\n\n(c) $5.6\\,\\mathrm{J}$\n\n(d) $8\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA $65\\,\\mathrm{kg}$ girl, riding in an elevator, weighs herself by standing on a scale. What is the reading of the scale if the elevator is accelerating downwards at $2\\,\\mathrm{m/s^2}$?\n\n(a) $65.0\\,\\mathrm{kg}$\n\n(b) $0\\,\\mathrm{kg}$\n\n(c) $51.7\\,\\mathrm{kg}$\n\n(d) $78.3\\,\\mathrm{kg}$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA highway curve of radius $30\\,\\mathrm{m}$ is banked so that a car travelling at $40\\,\\mathrm{km/hr}$ can travel around it without slipping even if there is no friction between the car's tires and the road surface. Without friction, a car travelling faster than this will slide up the curve, while a car travelling slower will slide down the curve. Find the angle of elevation of the banked highway curve.\n\n(a) $67^\\circ$.\n\n(b) $23^\\circ$.\n\n(c) $45^\\circ$.\n\n(d) $90^\\circ$."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA ball is thrown upwards into the air rising to a height $h$. Accounting for the \"real life\" condition of air resistance, the time $t_1$ that the ball takes to rise to its maximum height and the time $t_2$ that it takes to fall back down to its initial position obey:\n\n(a) $t_1=t_2$\n\n(b) $t_1<t_2$\n\n(c) $t_1>t_2$\n\n(d) $t_1+t_2=\\sqrt{8h/g}$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nAn airplane flies northwards from town $A$ to town $B$ and then back again. There is a steady wind blowing towards the north so that for the first stage of the trip, the airplane is flying in the same direction as the wind and for the return half of the journey, the airplane is flying directly into the wind. The total trip time $T_w$, as compared to the total trip time in the absence of any wind $T_o$, obeys:\n\n(a) $T_w=T_o$\n\n(b) $T_w>T_o$\n\n(c) $T_w<T_o$\n\n(d) $T_w=2T_o$"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nThe space shuttle moves in a circular orbit about the earth at a constant speed. To change the orbit radius, the crew temporarily activates the main engine which accelerates the space shuttle in the direction of its motion. After the main engine is switched off again, the shuttle will be in an elliptical orbit with:\n\n(a) a larger average radius and a lower average speed.\n\n(b) a larger average radius and a higher average speed.\n\n(c) a smaller average radius and a lower average speed.\n\n(d) a smaller average radius and a higher average speed."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nWhich of the following expressions has the correct units to represent the radius of a hydrogen atom in its ground state? (only one expression is correct)\n\n(a) $\\epsilon_o h^2/\\pi m_e e^2$\n\n(b) $h^2 m_e e^2/4\\pi\\epsilon_o$\n\n(c) $m_e c^2/h^2 e^4$\n\n(d) $e^4 m_e/8\\epsilon_o^2 h^2$"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nIf the electric field is zero within some region of space, the electric potential within that region:\n\n(a) must be zero.\n\n(b) must be positive.\n\n(c) must be negative.\n\n(d) must be a constant value."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nIn comparing the properties of visible light waves to microwaves, which of the following statements is FALSE?\n\n(a) Visible light waves travel at the same speed in glass as do microwaves.\n\n(b) Visible light waves have a higher frequency in glass than do microwaves.\n\n(c) Visible light waves travel at the same speed in vacuum as do microwaves.\n\n(d) Both visible light waves and microwaves can be refracted by glass."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA boy sits at the top of a hemispherical mound of ice of radius $r$. He begins to slide (from rest) downwards without friction. At what height above the ground does he leave contact with the ice?\n\n(a) The boy does not leave contact with the ice.\n\n(b) $r/3$\n\n(c) $r/2$\n\n(d) $2r/3$"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA rocket for mining the asteroid belt is designed like a large scoop. It is approaching asteroids at a velocity of $10^4\\,\\mathrm{m/s}$. The asteroids are much smaller than the rocket. If the rocket scoops asteroids at the rate of $100\\,\\mathrm{kg/s}$, what thrust (force) must the rocket's engines provide in order for the rocket to maintain a constant velocity? Ignore any variation in the rocket's mass due to the burning of fuel.\n\n(a) $10^3\\,\\mathrm{N}$\n\n(b) $10^6\\,\\mathrm{N}$\n\n(c) $10^9\\,\\mathrm{N}$\n\n(d) $10^{12}\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nThe sensitivity of the human ear is greatest near $3000\\,\\mathrm{Hz}$. This result is best explained by the fact that:\n\n(a) the ear canal is a resonant cavity with a fundamental frequency near $3000\\,\\mathrm{Hz}$.\n\n(b) at a frequency of $3000\\,\\mathrm{Hz}$ the wavelength of sound is approximately the distance between the ears.\n\n(c) $3000\\,\\mathrm{Hz}$ is the frequency at which the skull resonates.\n\n(d) none of the above statements explains the result."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA long piece of rubber is wider than it is thick. When it is stretched in length by some amount:\n\n(a) its thickness decreases but its width increases.\n\n(b) its thickness decreases but its width remains constant.\n\n(c) its thickness increases but its width decreases.\n\n(d) both its thickness and width decrease."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA new medical procedure to cure near-sightedness involves changing the shape of the eye's lens using a precisely controlled laser beam. A near-sighted eye cannot focus clearly on distant objects. To improve the vision of the patient, we must:\n\n(a) uniformly decrease the thickness of the lens.\n\n(b) uniformly increase the thickness of the lens.\n\n(c) make the middle of the lens thinner.\n\n(d) make the outer rim of the lens thinner."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA proton travels in a circular orbit of radius $1\\,\\mathrm{cm}$ in a magnetic field of strength $0.5\\,\\mathrm{T}$. The kinetic energy of the proton is:\n\n(a) $3.35\\times10^{-27}\\,\\mathrm{J}$\n\n(b) $1.67\\times10^{-27}\\,\\mathrm{J}$\n\n(c) $3.83\\times10^{-16}\\,\\mathrm{J}$\n\n(d) $1.91\\times10^{-16}\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA metal rod $30\\,\\mathrm{cm}$ long moves at $8\\,\\mathrm{m/s}$ in a plane perpendicular to a magnetic field of $0.05\\,\\mathrm{T}$. The velocity of the rod is in a direction perpendicular to its length. The potential difference induced between the ends of the rod is:\n\n(a) $48\\,\\mathrm{V}$\n\n(b) $6.40\\times10^{-20}\\,\\mathrm{V}$\n\n(c) $120\\,\\mathrm{mV}$\n\n(d) A potential difference will not be induced in this case."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nThe study of the acceleration due to gravity of the earth can be very interesting. A variety of factors, such as the earth's spin and altitude, result in variations of \"$g$\". In this question, we shall investigate these variations.\n\n(a) First let's assume that the earth is a non-spinning sphere. Find an expression for \"$g$\" at the earth's surface in terms of the earth's mass $M_E$, radius $R_E$ and $G$, the gravitational constant.\n\n(b) Modify your expression from part (a) to give the acceleration due to gravity at an altitude of $h$ above the earth's surface. Simplify your expression in the limit that $h\\ll R_E$ (the altitude is much less than the radius of the earth). Compare the weights of a $90\\,\\mathrm{kg}$ mountaineer at sea level and at the top of Everest at an altitude of about $8000\\,\\mathrm{m}$. Hint: you may use the approximation that $1/(1+x)^2\\approx1-2x$ if $|x|\\ll1$.\n\n(c) The acceleration due to gravity depends on latitude because the earth is spinning. Find the percentage difference between $g$ at the poles and at the equator due to the earth's spin. Hint: consider the weight of an object at the two locations.\n\n(d) Find an expression for the magnitude of the freefall acceleration of an object near the surface of the earth as a function of the latitude $\\theta$. Assume that the earth is spherical and spinning.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1996-2-1-fig1.png\n\n[Data from the paper: $R_E=6.38\\times10^{6}\\,\\mathrm{m}$, $M_E=5.98\\times10^{24}\\,\\mathrm{kg}$, $G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2/kg^2}$, $g=9.81\\,\\mathrm{m/s^2}$.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nIt is possible to exert forces on small objects in a controlled fashion using a laser. Consider a laser beam incident upon a small glass prism as shown. The prism has an index of refraction $n=1.6$ and the laser light is of frequency $f$. The prism is isosceles with a base of $2h$, a height $w$ and a base angle of $\\alpha$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1996-2-2-fig1.png\n\n(a) Sketch the possible paths for a ray of laser light entering the top half of the prism.\n\n(b) Find the range of values for the angle $\\alpha$ so that the light will exit from the long side of the prism as shown and find an expression for the deflection angle $\\theta$ (you might want to do this first!). Only an approximate numerical value for $\\alpha$ is required. Henceforth, you may assume that the angle $\\alpha$ satisfies this condition.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1996-2-2-fig2.png\n\n(c) The momentum $p$ of a photon is related to its energy $E$ by $E=pc$ where $c$ is the speed of light. Find the vertical force exerted on the prism by a stream of $r$ photons per second incident upon its top half. You may express your answer in terms of the deflection angle $\\theta$."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nIn some large lakes, typically ones that are long and narrow, a strange phenomenon occurs. The water will oscillate up and down slowly first being high at one end and low at the other and then later reversing itself. It is much like the water in a bathtub sloshing back and forth and is not to be confused with regular waves on the water's surface. The phenomenon is called \"seiching\".\n\n(a) How can seiching be initiated and how might it decay?\n\n(a) Make a physical model for seiching and find an expression for a lake's period of oscillation. Possible factors include the lake's length $l$, width $w$, depth $h$, and amplitude of oscillation $\\delta$. Most simple models might begin by considering the lake to be a rectangular tank of water with the following geometry.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1996-2-3-fig1.png\n\nAn exact solution is not expected for this question. Rather, a simpler system that you can imagine and that has characteristics in common with this problem can be used to model seiching and to estimate a period of oscillation.\n\nYou may compare your model with data from Lake Geneva in Switzerland and Lake Vättern in Sweden. Lake Geneva has a length of $60\\,\\mathrm{km}$ and an average depth of $150\\,\\mathrm{m}$. Its oscillation period is $76$ minutes with amplitudes of up to $2\\,\\mathrm{m}$. Seiching on Lake Geneva can last for up to a week. Lake Vättern is $123\\,\\mathrm{km}$ long, has an average depth of $50\\,\\mathrm{m}$ and seiches with a period of about $3$ hours."
+    }
+   ]
+  },
+  {
+   "year": 1997,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nTwo astronauts, each of mass $75\\,\\mathrm{kg}$, are floating next to each other in space, outside the space shuttle. One of them pushes the other through a distance of $1\\,\\mathrm{m}$ (an arm's length) with a force of $300\\,\\mathrm{N}$. What is the final relative velocity of the two?\n\n(a) $2.0\\,\\mathrm{m/s}$\n\n(b) $2.83\\,\\mathrm{m/s}$\n\n(c) $4.0\\,\\mathrm{m/s}$\n\n(d) $16.0\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nTwelve identical resistors (each of resistance $R$) are placed along the 12 edges of a cube. What is the effective resistance between opposite corners of the cube?\n\n(a) $2R/3$\n\n(b) $5R/6$\n\n(c) $R$\n\n(d) $12R$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA heavy wooden beam of length $L$ lies on the ground. You must carry it with a friend who happens to be twice as strong as you are (she can carry twice as much weight with the same effort). If you pick up the beam at one end, at what distance from your end should your friend carry it in order to be fair?\n\n(a) $2L/3$\n\n(b) $3L/5$\n\n(c) $3L/4$\n\n(d) $L$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA car travelling at $80\\,\\mathrm{km/h}$ needs a braking distance of $50\\,\\mathrm{m}$ to come to a complete stop. What braking distance should the same car need if its initial speed were $160\\,\\mathrm{km/h}$? You may assume that the same braking force can be applied in both cases.\n\n(a) $70.7\\,\\mathrm{m}$\n\n(b) $100\\,\\mathrm{m}$\n\n(c) $141\\,\\mathrm{m}$\n\n(d) $200\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nWhat would the length of the earth's day be if a pendulum suspended at some point along the equator did not swing (i.e., when it is pulled from its equilibrium point, it does not swing down again)?\n\n(a) $24\\,\\mathrm{hr}$\n\n(b) $1.2\\,\\mathrm{hr}$\n\n(c) $1.4\\,\\mathrm{hr}$\n\n(d) $2.4\\,\\mathrm{hr}$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nTwo electrons are a certain distance apart from one another. What is the order of magnitude of the ratio of the electric force between them to the gravitational force between them?\n\n(a) $10^{8}{:}1$\n\n(b) $10^{28}{:}1$\n\n(c) $10^{31}{:}1$\n\n(d) $10^{42}{:}1$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA balloon rising vertically with a speed of $5\\,\\mathrm{m/s}$ releases a sand bag at an instant when it is $20\\,\\mathrm{m}$ above the ground. How long after its release does it take for the sand bag to hit the ground? You may ignore air resistance.\n\n(a) $2.01\\,\\mathrm{s}$\n\n(b) $2.59\\,\\mathrm{s}$\n\n(c) $2.81\\,\\mathrm{s}$\n\n(d) $3.01\\,\\mathrm{s}$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA cord is tied to a pail of water and the pail is swung in a vertical circle of radius $1\\,\\mathrm{m}$. What must the minimum velocity of the pail be at its highest point so that no water spills out?\n\n(a) $3.1\\,\\mathrm{m/s}$\n\n(b) $5.6\\,\\mathrm{m/s}$\n\n(c) $20.7\\,\\mathrm{m/s}$\n\n(d) $100.5\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nAn object of mass $5\\,\\mathrm{kg}$ hangs from a spring and oscillates with a period of $0.5\\,\\mathrm{s}$. By how much will the equilibrium length of the spring be shortened when the object is removed.\n\n(a) $0.75\\,\\mathrm{cm}$\n\n(b) $1.50\\,\\mathrm{cm}$\n\n(c) $3.13\\,\\mathrm{cm}$\n\n(d) $6.20\\,\\mathrm{cm}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA certain organ pipe produces a sound of frequency $440\\,\\mathrm{Hz}$ in air. If the pipe is filled with helium at the same temperature and pressure, what frequency will be produced? Sound travels three times faster in helium than it does in air.\n\n(a) $147\\,\\mathrm{Hz}$\n\n(b) $440\\,\\mathrm{Hz}$\n\n(c) $880\\,\\mathrm{Hz}$\n\n(d) $1320\\,\\mathrm{Hz}$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA ladder of length $10\\,\\mathrm{m}$ and mass $20\\,\\mathrm{kg}$ (and with a uniform mass distribution) leans against a slippery vertical wall. The ladder makes an angle of $30^\\circ$ with respect to the vertical. Friction between the ladder and the ground prevents it from sliding downwards. What is the magnitude of the force exerted on the ladder by the wall?\n\n(a) $0\\,\\mathrm{N}$\n\n(b) $0.57\\,\\mathrm{N}$\n\n(c) $5.7\\,\\mathrm{N}$\n\n(d) $57\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA ball of mass $1.0\\,\\mathrm{kg}$ is whirled on the end of a string in a horizontal circle of radius $1.5\\,\\mathrm{m}$ and with a constant speed of $2.0\\,\\mathrm{m/s}$. The work done on the ball by the tension in the string in one complete revolution is,\n\n(a) $0\\,\\mathrm{J}$\n\n(b) $2.7\\,\\mathrm{J}$\n\n(c) $8.0\\,\\mathrm{J}$\n\n(d) $25.1\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA source of sound emitting a note of constant frequency moves in a horizontal circle at constant speed. A distant observer hears a note which fluctuates in pitch over a range of $20\\,\\mathrm{Hz}$ once every second. If the rate of rotation of the source is doubled, the observer would hear a fluctuation in pitch,\n\n(a) greater than $20\\,\\mathrm{Hz}$ once every second.\n\n(b) of $20\\,\\mathrm{Hz}$ twice every second.\n\n(c) less than $20\\,\\mathrm{Hz}$ once every two seconds.\n\n(d) greater than $20\\,\\mathrm{Hz}$ twice every second."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nFour identical charges are located at the corners of a square. The electric field is zero at,\n\n(a) any of the four corners of the square.\n\n(b) any of the mid-points of the sides of the square.\n\n(c) the centre point of the square.\n\n(d) at no point within or on the square."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nThe unit of electric charge may be expressed as,\n\n(a) ampere·newton·meter / watt\n\n(b) ampere·volt\n\n(c) ampere / second\n\n(d) ampere·ohm"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA rectangular coil of wire rotates about an axis which is perpendicular to a uniform magnetic field at a steady rate. Consider the instant when the plane of the coil is parallel to the magnetic field lines. At that instant the induced electromotive force is,\n\n(a) minimum.\n\n(b) maximum.\n\n(c) zero.\n\n(d) constant, the same at all times."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nAn airplane flies from a town $A$ to a town $B$ when there is no wind and takes a time $T_o$ for a return trip. When there is a wind blowing in a direction from town $A$ to town $B$, the plane's time for a similar return trip, $T_w$, would satisfy,\n\n(a) $T_o>T_w$\n\n(b) $T_o<T_w$\n\n(c) $T_o=T_w$\n\n(d) the result depends on the distance between the towns."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nYou have an ample supply of $3\\,\\mathrm{\\mu f}$ capacitors. What is the minimum number of these capacitors required to make a circuit with an equivalent capacitance of $2.25\\,\\mathrm{\\mu f}$.\n\n(a) 3\n\n(b) 4\n\n(c) 5\n\n(d) 6"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nThree $100\\,\\mathrm{W}$ light bulbs are connected in series to a $120$ volt power source. If two of the light bulbs are replaced by $60\\,\\mathrm{W}$ bulbs, the brightness of the remaining $100\\,\\mathrm{W}$ bulb is,\n\n(a) brighter than it was before.\n\n(b) dimmer than it was before.\n\n(c) the same brightness as it was before.\n\n(d) will not illuminate."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nThe earth orbits the sun in an elliptical path. Of the following statements, which are true?\n\nI The earth's orbital speed is constant.\n\nII The angular momentum of the earth with respect to the sun is a constant.\n\nIII The force acting on the earth due to the sun is a constant.\n\nIV The earth's orbital speed is faster in the spring and fall than it is in the summer and winter.\n\n(a) I only.\n\n(b) II only.\n\n(c) IV only.\n\n(d) II and IV only."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA ball is thrown upwards into the air. Taking into account air resistance, the forces acting on the ball while in upwards flight are,\n\n(a) a decreasing upwards force and a constant downwards force.\n\n(b) a decreasing upwards force and a decreasing downwards force.\n\n(c) a decreasing downwards force.\n\n(d) an increasing downwards force."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA bullet travelling at $500\\,\\mathrm{m/s}$ and with a mass of $100\\,\\mathrm{g}$ collides and remains embedded in a small lead weight of mass $5\\,\\mathrm{kg}$. The weight is suspended from a fixed support by a cord of length $5\\,\\mathrm{m}$ and may swing freely. If the weight was initially at rest, what is the period of oscillation of the system immediately after the collision and how does it change as the amplitude of the oscillation decays due to air resistance?\n\n(a) $4.5\\,\\mathrm{s}$ and constant in time.\n\n(b) $4.5\\,\\mathrm{s}$ and increasing in time.\n\n(c) $0.7\\,\\mathrm{s}$ and constant in time.\n\n(d) none of the above."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA peculiar force acting upon an object has the equation $F=-cx^3$ where $x$ is the displacement of the object from some origin and $c=1\\,\\mathrm{N/m^3}$. What is the magnitude of the work done by this force on the object as the object moves from $x=-2\\,\\mathrm{m}$ to $x=+2\\,\\mathrm{m}$?\n\n(a) $16\\,\\mathrm{J}$\n\n(b) $8\\,\\mathrm{J}$\n\n(c) $4\\,\\mathrm{J}$\n\n(d) $0\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nWith what minimum speed, with respect to the earth, must an object be launched from the earth so as to escape the gravitational pull of the solar system? You may Ignore the effect of the earth, moon and other planets.\n\n(a) $5.6\\times10^{3}\\,\\mathrm{m/s}$\n\n(b) $11.2\\times10^{3}\\,\\mathrm{m/s}$\n\n(c) $12.2\\times10^{3}\\,\\mathrm{m/s}$\n\n(d) $42.1\\times10^{3}\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nSound waves from deep within a room and of frequency $440\\,\\mathrm{Hz}$ are incident upon a tall, narrow, and open window. An observer outside is far from the window (at least much farther from the window than the window is wide). The line from the observer to the window makes an angle of $30^\\circ$ with respect to the normal to the plane of the window. Shutters begin to close so that the width of the window is decreasing at $6\\,\\mathrm{m/s}$. The observer hears,\n\n(a) a $440\\,\\mathrm{Hz}$ note beating at $4.29\\,\\mathrm{Hz}$.\n\n(b) a $440\\,\\mathrm{Hz}$ note beating at $3.88\\,\\mathrm{Hz}$.\n\n(c) a $440\\,\\mathrm{Hz}$ note steadily decreasing in intensity.\n\n(d) initially a $440\\,\\mathrm{Hz}$ note with a steadily increasing frequency."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA massive satellite in orbit (i.e. in a weightless environment) has a rotating cuff that allows a small mass $m$ on the end of a cord to circle about the satellite at a radius $r$ with a speed $v$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1997-2-1-fig1.png\n\nThe initial speed of the mass is $v_o$ and the initial radius of its circular path is $r_o$. A mechanism within the cuff allows the cord to be drawn in so that the radius of revolution for the mass decreases. The centre of revolution for the mass remains constant and you may assume that the satellite is much, much more massive than $m$.\n\n(a) Find the initial tension $T_o$ in the string.\n\n(b) Suppose that the cord begins to be drawn in at a constant rate ($r$ decreases uniformly from its initial value $r_o$). Express the speed $v$ of the mass as a function of $r$, $r_o$ and of its initial speed $v_o$.\n\n(c) If the cord snaps beyond a maximum tension $T_{\\max}$ and the radius of the satellite is $R$, what constraint must be satisfied in order for the mass to be brought within the satellite?\n\n(d) What amount of work is necessary to bring the mass from radius $r_o$ to radius $R$?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA solid metal sphere of radius $2\\,\\mathrm{cm}$ carries a net negative charge $-Q$. The air around the sphere will hence be subjected to an electric field. If an electric field in excess of $3.0\\times10^{6}\\,\\mathrm{V/m}$ is applied across an \"air molecule\", the molecule will ionize. This will appear as sparking and is called \"break down\". You may assume spherical symmetry in this problem (although in actuality, sparking will break this symmetry).\n\n(a) Sketch the electric field lines within and around the charged sphere and show on your diagram how the excess charge on the sphere is distributed.\n\n(b) What is the minimum charge that the sphere must have to cause the break down of air near its surface?\n\n(c) It requires about $1.6\\times10^{-18}\\,\\mathrm{J}$ of energy to ionize an air molecule. Consider a free electron near the surface of the sphere carrying this minimum charge as in part (b). What radial distance must the electron travel before attaining a kinetic energy equal to the ionization energy for an air molecule? An electron typically travels only $1.0\\times10^{-6}\\,\\mathrm{m}$ before colliding with an air molecule. Is it possible for our accelerated electron to cause ionization of air molecules away from the surface of the sphere?\n\n(d) What is the potential (in units of V) on the surface of the sphere when break down just occurs?\n\n[Paper data: $1/4\\pi\\epsilon_o=8.99\\times10^{9}\\,\\mathrm{Nm^2/C^2}$; $e=1.60\\times10^{-19}\\,\\mathrm{C}$.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA spherical balloon of radius $R=5\\,\\mathrm{cm}$ has within it a small, solid lead sphere of mass $m$ and radius $r$. The mass of the balloon is negligible as compared to the mass of the lead sphere. The system is buoyantly neutral, floating just below the surface in a pool of water.\n\nThe balloon is given a light downwards push. Describe the motion of the system qualitatively, and as quantitatively as possible.\n\nHint: A spherical object of radius $r$ moving without turbulence and with a velocity $v$ through a fluid of viscosity $\\eta$ experiences a retarding force given by,\n\n$$F_v=6\\pi r\\eta v\\ .$$\n\nWater has a viscosity of $\\eta=1.0\\times10^{-3}\\,\\mathrm{Pa\\,S}$ and a density of $\\rho_w=1000\\,\\mathrm{kg/m^3}$. Lead has a density of $\\rho_l=11.3\\times10^{3}\\,\\mathrm{kg/m^3}$.\n\n[Paper data: $g=9.81\\,\\mathrm{m/s^2}$.]"
+    }
+   ]
+  },
+  {
+   "year": 1998,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhat mechanical power $P$ is required to move an object of mass $m$ against an opposing force $F$ at a constant velocity $v$?\n\n(a) $P=Fv$\n\n(b) $P=mv^2/2$\n\n(c) $P=mv/F$\n\n(d) $P=F^2/mv$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA rocket generates a thrust force by ejecting hot gases from an engine. If it takes $1\\,\\mathrm{ms}$ to combust $1\\,\\mathrm{kg}$ of fuel, ejecting it at a speed of $1000\\,\\mathrm{m/s}$, what thrust is generated?\n\n(a) $1000\\,\\mathrm{N}$\n\n(b) $10{,}000\\,\\mathrm{N}$\n\n(c) $100{,}000\\,\\mathrm{N}$\n\n(d) $1{,}000{,}000\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA rubber band (two parallel strands of elastic material) has a spring constant of $10\\,\\mathrm{N/m}$. If the band is cut in one place such that it now forms a single long strand of elastic material, what is its new spring constant?\n\n(a) $20\\,\\mathrm{N/m}$\n\n(b) $40\\,\\mathrm{N/m}$\n\n(c) $5\\,\\mathrm{N/m}$\n\n(d) $2.5\\,\\mathrm{N/m}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA ball rests upon a flat piece of paper on a table top. The paper is pulled quickly and horizontally to the right as shown. Relative to the its initial position with respect to the table, the ball initially;\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1998-1-4-fig1.png\n\n(a) moves to the right.\n\n(b) moves to the left.\n\n(c) remains stationary.\n\n(d) its motion depends on the speed at which the paper was removed."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nTwo small spheres with masses $m_1$ and $m_2$ hang on weightless, insulating threads with lenghts $l_1$ and $l_2$. The two spheres carry a charge of $q_1$ and $q_2$ respectively. The spheres hang such that they are level with one another and the threads are inclined to the vertical at angles $\\theta_1$ and $\\theta_2$. Which of the following conditions is required if $\\theta_1=\\theta_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1998-1-5-fig1.png\n\n(a) $m_1=m_2$\n\n(b) $|q_1|=|q_2|$\n\n(c) $l_1=l_2$\n\n(d) none of the above"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nAn astronaut aboard the space shuttle, which is in orbit about the earth, is said to be weightless because;\n\n(a) there is no force of gravity on her.\n\n(b) a radially outwards force acts on her which cancels the force of gravity.\n\n(c) she is falling in the earth's gravitational field.\n\n(d) she is at such a position between the earth and the moon that their forces of gravity cancel each other."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nBeats are heard when the A strings of two violins are played. The beat frequency decreases as the tension in the A string of violin 1 is slowly increased. Which of the following statements is correct?\n\n(a) The fundamental frequency of the A string in violin 1 is less than that for violin 2.\n\n(b) The fundamental frequency of the A string in violin 1 is greater than that for violin 2.\n\n(c) The fundamental frequency of the A string in violin 1 may be greater or less than that for violin 2 depending on the linear mass densities of the two strings.\n\n(d) The fundamental frequency of the A string in violin 1 may be greater or less than that for violin 2 depending on the temperature."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA proton (mass $m_p$, charge $+e$) and a deuteron (mass $2m_p$, charge $+e$) are initially at rest and are accelerated through the same potential difference $\\Delta V$. Which of the following is true concerning the final properties of the two particles?\n\n(a) They have the same speed.\n\n(b) They have the same momentum.\n\n(c) They have the same kinetic energy.\n\n(d) They have been subjected to the same impulse."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nAn ideal battery is connected to a circuit of four resistors as shown. If the resistance of $R_4$ is increased, then:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1998-1-9-fig1.png\n\n(a) The current through $R_1$ decreases.\n\n(b) The potential difference across $R_1$ increases.\n\n(c) The potential difference across $R_4$ increases.\n\n(d) The potential difference across $R_2$ decreases."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA ray of light is incident upon an air/water interface (it passes from air into water) at an angle of $45^\\circ$. Which of\n\n(1) wavelength\n\n(2) frequency\n\n(3) speed of propagation\n\n(4) direction of propagation\n\nchange as the light enters the water?\n\n(a) 1,3 only\n\n(b) 3,4 only\n\n(c) 1,2,4 only\n\n(d) 1,3,4 only"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThree freight cars, each of mass $m$, are being pulled by an engine exerting a force $F$ on the lead car. What is the force exerted on the trailing car by the middle one?\n\n(a) $F$\n\n(b) $F/2$\n\n(c) $F/3$\n\n(d) $2F/3$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nThe lowest frequency to resonate in a pipe, closed at one end and open at the other, is $300\\,\\mathrm{Hz}$. Which of the following frequencies will not resonate in this particular pipe?\n\n(a) $900\\,\\mathrm{Hz}$\n\n(b) $2{,}100\\,\\mathrm{Hz}$\n\n(c) $3{,}300\\,\\mathrm{Hz}$\n\n(d) $3{,}600\\,\\mathrm{Hz}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA long metal bar, $30.0\\,\\mathrm{cm}$ in length , is aligned along a north-south line and moves eastwards at a speed of $10.0\\,\\mathrm{m/s}$. A uniform magnetic field of $4.00\\,\\mathrm{T}$ points downwards. If the south end of the bar has a potential of $0\\,\\mathrm{V}$, the induced potential at the north end of the bar is,\n\n(a) $+12\\,\\mathrm{V}$\n\n(b) $-12\\,\\mathrm{V}$\n\n(c) $0\\,\\mathrm{V}$\n\n(d) cannot be determined since there is no closed circuit."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA proton is moving in a uniform electric field, $E$, of unknown magnitude and direction. There is a uniform magnetic field of $0.01\\,\\mathrm{T}$ pointing in the y-direction. The proton moves in the x- direction at a constant velocity of $10\\,\\mathrm{km/s}$. All directions are with respect to the usual right handed x-y-z coordinate system. Which of the following is correct?\n\n(a) $E=100\\,\\mathrm{V/m}$, in the z-direction.\n\n(b) $E=100\\,\\mathrm{V/m}$, in the negative z-direction.\n\n(c) $E=100\\,\\mathrm{V/m}$, in the x-direction.\n\n(d) $E=100\\,\\mathrm{V/m}$, in the negative y-direction."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA aluminum block has a cavity within it which is completely closed. The block is placed in a region permeated by a uniform electric field which is directed upwards. Which of the following is a correct statement describing conditions in the interior of the block's cavity?\n\n(a) The electric field in the cavity is directed upwards.\n\n(b) The electric field in the cavity is directed downwards.\n\n(c) There is no electric field in the cavity.\n\n(d) The electric field in the cavity is of varying magnitude and is zero at the exact center."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nTwo copper spheres, $A$ and $B$, are identical in all respects but $A$ carries a charge of $-3\\,\\mathrm{\\mu C}$ whereas $B$ is charged to $+1\\,\\mathrm{\\mu C}$. The two are brought together until they touch and then separated so that they are nearby but otherwise insulated. Which of the following is true concerning the electrostatic force $F$ between the two spheres?\n\n(a) $F=0$ as one of the spheres is uncharged.\n\n(b) $F=0$ as both of the spheres are uncharged.\n\n(c) $F$ is attractive.\n\n(d) $F$ is repulsive."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA real battery has an emf $\\epsilon$ and an internal resistance $r$. A variable resistor $R$ is connected across the terminals of the battery. A current $I$ is drawn from the battery and the potential difference across the terminals of the battery is $V$. If $R$ is slowly decreased to zero, which of the following best describes $I$, and $V$?\n\n(a) $I$ decreases to zero; $V$ approaches $\\epsilon$.\n\n(b) $I$ approaches an infinite value; $V$ decreases to zero.\n\n(c) $I$ approaches $\\epsilon/r$; $V$ approaches $\\epsilon$.\n\n(d) $I$ approaches $\\epsilon/r$; $V$ decreases to zero."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nThree resistors are connected together as shown. A current $I$ flows into $A$ and out of $B$. What is the power dissipated by the resistor $R/2$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1998-1-18-fig1.png\n\n(a) $8I^2R/25$\n\n(b) $I^2R$\n\n(c) $16I^2R/5$\n\n(d) $25I^2R/32$"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nLight enters one end of an optical fibre as shown. The uniform index of refraction of the cylindrical fibre is $n=1.4$. What is the maximum angle $\\theta$ that the incident light may have so that the light ray is totally internally reflected within the fibre. Take the index of refraction of air to be unity; all results shown to two significant digits.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1998-1-19-fig1.png\n\n(a) $78^\\circ$\n\n(b) $46^\\circ$\n\n(c) $44^\\circ$\n\n(d) $12^\\circ$"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nTwo balls of the same mass are dropped from the same height onto the floor. The first ball bounces upwards from the floor elastically. The second ball sticks to the floor. The first applies an impulse to the floor of $I_1$ and the second applies an impulse $I_2$. The two impulses obey,\n\n(a) $I_2=2I_1$.\n\n(b) $I_2=I_1/2$.\n\n(c) $I_2=4I_1$.\n\n(d) $I_2=I_1/4$."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA glass of water has an ice cube floating in it. The level of the water is marked on the glass with a grease-pencil. Once the ice cube has completely melted, and assuming that there has been no evaporation, the water level, relative to the initial marking, has;\n\n(a) gone up.\n\n(b) gone down.\n\n(c) remained the same.\n\n(d) cannot say based on the above information."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA bit of mud stuck to a bicycle's front wheel detaches and is flung horizontally forward when it is at the top of the wheel's rotation (directly above the wheel's hub). The bicycle is moving forward at a speed $v$ and the bicycle is rolling along without slipping. At the instant that the bit of mud hits the ground, how far in front of the bicycle's front wheel hub is it? (Ignore air resistance)\n\n(a) $\\sqrt{2rv^2/g}$\n\n(b) $\\sqrt{4rv^2/g}$\n\n(c) $\\sqrt{8rv^2/g}$\n\n(d) $\\sqrt{16rv^2/g}$"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nAn exploratory rocket of mass $m$ is in orbit about the sun at a radius of $R_{ES}/10$ (one tenth of the radius of the earth's orbit about the sun). To exit this orbit, it fires its engine over a short period of time. This quickly doubles the velocity of the rocket while halving its mass (due to fuel consumption). Immediately after the burn, what is the kinetic energy of the rocket?\n\n(a) $10GM_Sm/R_{ES}$\n\n(b) $5GM_Sm/R_{ES}$\n\n(c) $20GM_Sm/R_{ES}$\n\n(d) $GM_Sm/2R_{ES}$"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA light bulb shines light along the x-axis and through two parallel ideal polarizing filters, one with a fixed polarizing axis, and one with an axis that rotates about the x-axis and in the yz-plane. Looking towards the light bulb through the combined filtering system, you see;\n\n(a) A bulb almost disappearing twice per revolution, and reaching a maximum intensity twice per revolution. The maximum brightness is not as bright as looking at an unfiltered bulb.\n\n(b) As in (a) but once per revolution.\n\n(c) As in (a) but with a maximum brightness as bright as an unfiltered bulb.\n\n(d) As in (a) but with a bulb that disappears completely."
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nTwo identical metallic spheres are both charged to $+Q$. The spheres are fixed in place, with their centers $2l$ apart from one another. They are joined by a light, in-flexible rod. Sliding back and forth on the rod (ignore friction) is a small disk of mass $m$ charged to $q$. The disk is in equilibrium when it half way between the spheres. If the disk is displaced by a small amount from its equilibrium point, it will oscillate with a period of:\n\n(a) $2\\pi\\sqrt{\\pi\\epsilon_o ml^3/Qq}$\n\n(b) $2\\pi\\sqrt{Qq/\\pi\\epsilon_o ml^3}$\n\n(c) $2\\pi\\sqrt{4\\pi\\epsilon_o ml^3/Qq}$\n\n(d) $2\\pi\\sqrt{4\\pi\\epsilon_o ml^2/Qq}$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA ball of mass $m=1.0\\,\\mathrm{kg}$ is dropped from a height $h_1=1.0\\,\\mathrm{m}$ above a hard table top. It rebounds to a height $h_1'<h_1$. The coefficient of restitution between the ball and the table is $\\epsilon=\\sqrt{h_1'/h_1}=0.7$. The radius of the ball is $r=0.5\\,\\mathrm{cm}$.\n\n(a) What is the ratio of the ball's kinetic energy just after it has bounced to that just before it bounces?\n\n(b) If the duration of the collision between the ball and the table top is $\\Delta t=0.01\\,\\mathrm{s}$, what is the average force exerted on the ball by the table?\n\n(c) From what height, $h_2$, above the table top and directly above the first ball, must a second ball be dropped so that it collides with the first ball immediately after the first ball has finished its bounce from the table top. The second ball is identical to the first but with a mass of $100\\,\\mathrm{g}$.\n\n(d) If the coefficient of restitution between the two balls is $1.0$, find the rebound height, $h_2'$, of the second ball above the table top.\n\n[Paper data: $g=9.81\\,\\mathrm{m/s^2}$.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nLaminar optical devices are important in the semi-conducting electronics industry. It is important to know how light interacts with such an interface and so let's consider the interaction of light with a simple laminar structure.\n\nSuppose that a beam of light of intensity $I_o$ shines upon a laminar interface with a small angle of incidence $\\theta_i=30^\\circ$. The interface is a laminar sandwich made of two layers. There is a thick substrate layer , with an index of refraction $n_s=1.2$, and a thin mid-layer, with an index of refraction $n_l=1.5$. The index of refraction of air, $n_a$ may be taken to be unity. The thickness of the mid-layer is large enough so that interference effects are not an issue.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1998-2-2-fig1.png\n\n(a) Find the angle $\\theta_l$ that light refracted through the air/mid-layer interface makes with the normal. Hence, find the angle of incidence for light impinging upon the substrate. Finally, find the refracted angle, $\\theta_s$, for light passing through the mid-layer/substrate interface.\n\nNote: For unpolarized light incident upon an $n_1/n_2$ interface with an incident angle $\\theta_i$, there will be a reflected ray and a refracted ray (at an angle of $\\theta_r$ to the normal). The fraction of the incident light reflected is given by,\n\n$$R=\\frac{1}{2}\\left(\\frac{\\tan^2(\\theta_r-\\theta_i)}{\\tan^2(\\theta_r+\\theta_i)}+\\frac{\\sin^2(\\theta_r-\\theta_i)}{\\sin^2(\\theta_r+\\theta_i)}\\right).$$\n\nThe fraction of light transmitted is $T=1-R$.\n\n(b) Using your angles from part (a), calculate values for $R$ and $T$ for reflection and transmission at the air/mid-layer, mid-layer/substrate, and mid-layer/air interfaces.\n\n(c) Find an expression for the intensity of the light which is reflected from the laminar interface. Evaluate your expression to as many significant figures as possible."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA hummingbird has a mass of $m=10\\,\\mathrm{g}$. It hovers in much the same manner as a helicopter except that instead of rotating, its wings sweep back and forth, developing lift on both parts of the stroke. The vertical, cross sectional area that the wings sweep through is $A=0.01\\,\\mathrm{m^2}$.\n\n(a) Estimate the mechanical power output $P$ the hummingbird needs to generate for hovering.\n\n(b) Estimate the mass of sugar the hummingbird needs to ingest (as nectar) in order to hover for one hour.\n\nNote: This question requires you to make assumptions and to estimate physical quantities. Marks are awarded for the quality of these assumptions and estimations so please explain them clearly. You should, however, attempt the question using your assumptions whatever the quality of your estimations.\n\n[Paper data: $g=9.81\\,\\mathrm{m/s^2}$; density of air $\\rho=1.2\\,\\mathrm{kg/m^3}$; combustion energy of sugar $15\\,\\mathrm{MJ/kg}$.]"
+    }
+   ]
+  },
+  {
+   "year": 1999,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nThe time dependence of the acceleration of a car is as shown. Which time corresponds to the maximum speed of the car?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1999-1-1-fig1.png\n\n(a) $t_1$\n\n(b) $t_2$\n\n(c) $t_3$\n\n(d) $t_4$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nTwo identical loudspeakers are supplied with identical sinusoidal signals. They are placed close to one another in a room and it is noted that there are regions of increased and decreased sound intensity in the vicinity of the speakers. Which of the following actions will not change this pattern?\n\n(a) Moving one of the speakers.\n\n(b) Changing the amplitude of the signal.\n\n(c) Changing the frequency of the signal.\n\n(d) Replacing the air in the room with Helium gas."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nTwo black objects of the same diameter, a sphere and a disc, are placed in front of a uniform beam of light. The plane of the disc is perpendicular to the light rays. The force acting upon them by the light is:\n\n(a) zero\n\n(b) bigger on the disc.\n\n(c) bigger on the sphere.\n\n(d) the same on both."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA $1\\,\\mathrm{kg}$ mass rests on the ground, at sea-level and at the equator. What would its weight be if the earth were spinning ten times faster than is presently the case?\n\n(a) $9.80\\,\\mathrm{N}$\n\n(b) $3.37\\,\\mathrm{N}$\n\n(c) $6.43\\,\\mathrm{N}$\n\n(d) $9.76\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nAn ideal Ammeter—a device to measure current in an electrical circuit—should have an internal resistance which is,\n\n(a) zero.\n\n(b) infinite.\n\n(c) equal to the resistance of the circuit's load.\n\n(d) equal to the internal resistance of the circuit's power source."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA $100{,}000\\,\\mathrm{kg}$ aircraft drops a $1000\\,\\mathrm{kg}$ package of supplies over an arctic research station. What approximate force is felt by the $100\\,\\mathrm{kg}$ pilot at the instant of the release?\n\n(a) $1\\,\\mathrm{N}$\n\n(b) $10\\,\\mathrm{N}$\n\n(c) $100\\,\\mathrm{N}$\n\n(d) zero"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA converging lens forms an image of an object on a screen. The image is real and has twice the size of the object. If the positions of the screen and the object are interchanged, leaving the lens in its original position, what is the new image size on the screen?\n\n(a) Twice the object size.\n\n(b) Same as the object size.\n\n(c) Half the object size.\n\n(d) Can't say as it depends on the focal length of the lens."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA bucket full of water is attached to the end of a rope and allowed to swing back and forth as a pendulum from a fixed support. The bucket has a hole in its bottom that allows water to leak out. How does the period of motion change with the loss of water?\n\n(a) The period does not change.\n\n(b) The period continuously decreases.\n\n(c) The period continuously increases.\n\n(d) The period increases to some maximum and then decreases again."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA pencil is placed vertically on a table top with its pointy end up and its sticky eraser end down. As it falls over from this unstable position, its point of contact with the table remains stationary. During its fall, the acceleration of its tip,\n\n(a) remains less than $g$ at all times.\n\n(b) exceeds $g$ at some point.\n\n(c) becomes $g$ just before hitting the table.\n\n(d) is constant."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nTwo $20\\,\\mathrm{g}$ worms climb over a $10\\,\\mathrm{cm}$ high, very thin, wall. One worm is thin and $20\\,\\mathrm{cm}$ long. The other is fat (but still thin compared to its length) and only $10\\,\\mathrm{cm}$ long. What is the ratio of the potential energy of the thin worm as compared to that of the fat worm when each is half way over the top of the wall?\n\n(a) $1:1$\n\n(b) $2:1$\n\n(c) $2:3$\n\n(d) $1:2$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSuppose that the \"Man Who Skied Down Everest\" went straight down an incline of $40^\\circ$ to the horizontal and subject to a coefficient of kinetic friction of $0.10$. Starting from rest, how long did it take him to reach a speed of $50\\,\\mathrm{km/hr}$ (Ignore air resistance)?\n\n(a) $2.5\\,\\mathrm{s}$\n\n(b) $9.0\\,\\mathrm{s}$\n\n(c) $1.5\\times10^{2}\\,\\mathrm{s}$\n\n(d) $2.0\\,\\mathrm{s}$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA stone is thrown vertically downward from the edge of a cliff with an initial speed of $10\\,\\mathrm{m/s}$. Just before hitting the ground, it has a final speed of $30\\,\\mathrm{m/s}$. If instead, the stone were thrown horizontally outwards from the top of the cliff with the same initial speed as before, what final speed would it have immediately before hitting the ground?\n\n(a) $10\\,\\mathrm{m/s}$\n\n(b) $20\\,\\mathrm{m/s}$\n\n(c) $30\\,\\mathrm{m/s}$\n\n(d) $40\\,\\mathrm{m/s}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nTwo objects of equal mass, and heading towards each other with equal speeds, undergo a head-on collision.Which of the following statements is correct?\n\n(a) Their final velocities must be zero.\n\n(b) Their final velocities may be zero.\n\n(c) Each must have a final velocity equal to the other's initial velocity.\n\n(d) Their velocities must be reduced in magnitude."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA positive point charge $+Q$ is placed at $x = 0$ and a negative point charge $-Q$ is placed at $x = a$. The magnitude of the electrostatic force between the two is $F$. If another point charge $+Q$ is paced at $x = -a$, the net force on the charge at the origin ($x = 0$) is,\n\n(a) $2F$ in the negative x-direction.\n\n(b) $F$ in the positive x-direction.\n\n(c) $5F/4$ in the positive x-direction.\n\n(d) $2F$ in the positive x-direction."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA simple circuit contains an ideal battery and a resistance $R$. If a second resistor is placed in parallel with the first,\n\n(a) the potential across $R$ will decrease.\n\n(b) the current through $R$ will decrease.\n\n(c) the current delivered by the battery will increase.\n\n(d) the power dissipated by $R$ will increase."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA positively charged insulator is brought near (but does not touch) two metallic spheres that are in contact. The metallic spheres are then separated. The sphere which was initially farthest from the insulator will have,\n\n(a) no net charge.\n\n(b) a negative charge.\n\n(c) a positive charge.\n\n(d) either a positive or negative charge."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA uniform electric field is as shown. How many of the labelled points have the same electric potential as the shaded point?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1999-1-17-fig1.png\n\n(a) 2\n\n(b) 3\n\n(c) 4\n\n(d) 8"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA spherical capacitor is formed by two metallic and concentric spherical shells. The capacitor is then charged so that the outer shell carries a positive charge and the inner shell carries an equal but negative charge. Even if the capacitor is not connected to any circuit, the charge will eventually leak away due to the small conductivity of the material between the shells. What is the character of the magnetic field induced by this leakage current?\n\n(a) Radially outwards from the inner shell to the outer shell.\n\n(b) Radially inwards from the outer shell to the inner shell.\n\n(c) Circular field lines between the shells and perpendicular to the radial direction.\n\n(d) No magnetic field is induced."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nWhich of the following has units of magnetic field?\n\n(a) $\\mathrm{kg\\ C^{-1}\\ s^{-1}}$\n\n(b) $\\mathrm{kg\\ A^{-1}\\ s^{-1}}$\n\n(c) $\\mathrm{N\\ C^{-1}\\ m^{-1}}$\n\n(d) $\\mathrm{J\\ A^{-1}\\ m^{-1}}$"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nNear the geographic north pole is the magnetic north pole which is, in fact, a south magnetic pole. At this point, the earth's magnetic field points straight down. An electron is projected southwards and horizontally from the magnetic north pole. The magnetic force on the electron will cause it to be deflected to the,\n\n(a) Up\n\n(b) Down\n\n(c) East\n\n(d) West"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA diffraction grating has 300 \"lines\" per mm etched upon it. When light of wavelength $550\\,\\mathrm{nm}$ is normally incident upon the grating, how many bright spots appear on a screen a short distance away?\n\n(a) 1\n\n(b) 6\n\n(c) 12\n\n(d) 13"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA drop of oil ($n = 1.4$) is on a glass ($n = 1.5$) sheet and is observed from directly above by reflected white light. A number of circular constructive interference bands are observed for each colour in the visible spectrum. Approximately how thick is the oil film where one observes the third blue band from the outside edge of the drop. The wavelength of blue light may be taken to be $\\lambda_b = 450\\,\\mathrm{nm}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1999-1-22-fig1.png\n\n(a) $482\\,\\mathrm{nm}$\n\n(b) $675\\,\\mathrm{nm}$\n\n(c) $1125\\,\\mathrm{nm}$\n\n(d) $1350\\,\\mathrm{nm}$"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA uniform, horizontal beam of light is incident upon a prism as shown. The prism is in the shape of a quarter-cylinder, of radius $R = 5\\,\\mathrm{cm}$, and has the index of refraction $n = 1.5$. A patch on the table top for a distance $x$ from the cylinder is unilluminated. The value of $x$ is,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1999-1-23-fig1.png\n\n(a) $1.71\\,\\mathrm{cm}$\n\n(b) $2.24\\,\\mathrm{cm}$\n\n(c) $2.50\\,\\mathrm{cm}$\n\n(d) $5.00\\,\\mathrm{cm}$"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nConsider the following types of electromagnetic radiation: radio waves, infra-red, visible light. Which of the following statements are true?\n\n(i) only radio waves can be used to transmit audio information.\n\n(ii) only infra-red radiation is emitted by very hot objects.\n\n(iii) only visible light can be detected by humans.\n\n(a) only i is true.\n\n(b) only ii is true.\n\n(c) only iii is true.\n\n(d) None of the statements are true."
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nIn the film Armageddon, astronauts land on an asteroid and are able to walk around \"normally\" due to the gravitation of the large rock. Suppose that a spherical asteroid has a mass $M$ and a radius $R$. A spherical hole of radius $R/2$ is excavated from the asteroid as shown. What is the gravitational acceleration at a point on the surface of the asteroid at a point just above the excavation?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1999-1-25-fig1.png\n\n(a) $\\dfrac{GM}{R^2}$\n\n(b) $\\dfrac{GM}{2R^2}$\n\n(c) $\\dfrac{GM}{8R^2}$\n\n(d) $\\dfrac{7GM}{8R^2}$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Question 1",
+     "problem": "Question 1\n\nFour charges, each of charge $+e$, are at the four corners of a square of side $a = 1\\,\\mathrm{cm}$. The four charges are fixed in place and are considered to be of point-size. Gravity plays no role in this question.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1999-2-1-fig1.png\n\n(a) Sketch a diagram of the electric field due to this charge system.\n\n(b) What is the net force acting upon one of the charges?\n\n(c) What is the electrostatic potential energy of this charge system?\n\n(d) Now suppose that two of the charges are protons and the other two are positrons. A positron is the electron's anti-particle. It has the same mass as an electron but a charge of $+e$. The four charges are suddenly released. What are their speeds when they are a significant distance apart from one another?\n\n[From the paper's data table: fundamental charge $e = 1.60\\times10^{-19}\\,\\mathrm{C}$; mass of electron $m_e = 9.11\\times10^{-31}\\,\\mathrm{kg}$; mass of proton $m_p = 1.673\\times10^{-27}\\,\\mathrm{kg}$; Coulomb's constant $1/4\\pi\\epsilon_o = 8.99\\times10^{9}\\,\\mathrm{Nm^2/C^2}$.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Question 2",
+     "problem": "Question 2\n\nSuppose that we have a string of equally spaced beads of mass $m$, their surfaces being separated by a distance $d$, that are free to slide without friction on a thin wire. Suppose that a constant force $F$ acts on the first bead, initially at rest, causing it to accelerate along the wire as shown. This force acts only on the first bead and might be created by a well directed, steady stream of air. The first bead will collide with the second, which will in turn collide with the third, and so on. Suppose that all collisions are elastic.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1999-2-2-fig1.png\n\n(a) What is the speed of the first bead immediately before and immediately after its collision with the second bead?\n\n(b) What is the speed of the second bead immediately before and immediately after its collision with the third bead?\n\n(c) Remember that the constant force is always acting upon the first bead. What is the time interval between subsequent collisions between the first and second beads? What then is the average speed of the first bead? What is the speed of the \"shock wave\" that travels down the wire?\n\n(d) If the whole process is repeated, but with collisions which are perfectly inelastic, what is the terminal speed of the shock wave formed?"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Question 3",
+     "problem": "Question 3\n\nFrom everyday experience and observations, estimate the brightness of a full moon as compared to the noon day sun. Brightness is defined as the luminous intensity as measured in units of power per unit area. To arrive at a reasonable numerical estimate, you will need to estimate some physical parameters. It is essential that you explain the reasoning behind your estimates and include detailed drawings and explanations to support your arguments."
+    }
+   ]
+  },
+  {
+   "year": 2000,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Question 1\n\nTwo high performance bicycle wheels have the same mass but one is a solid disk and the other is a hoop with very light (as compared to the mass of the rim) spokes. Which wheel takes the most energy to accelerate to a speed $v$? Ignore any air and rolling resistances.\n\n(a) The disk wheel requires more energy.\n\n(b) The spoked wheel requires more energy.\n\n(c) Both take the same amount of energy.\n\n(d) It depends on the radius of each wheel."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Question 2\n\nAn astronaut on a strange planet finds that the acceleration due to gravity is two times greater than that on earth. Which of the following could explain this?\n\n(a) The mass of the planet is half that of the earth's but its radius is the same.\n\n(b) The radius of the planet is half that of the earth's but its mass is the same.\n\n(c) Both the mass and the radius are twice the earth's values.\n\n(d) Both the mass and the radius are half the earth's values."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA ball of mass of $10\\,\\mathrm{g}$ is hung from the end of a light vertical spring and set oscillating with an amplitude of $10\\,\\mathrm{cm}$. The period of the oscillation is $1\\,\\mathrm{s}$. If the ball is now replaced by another with a mass of $40\\,\\mathrm{g}$ and again set oscillating with the same amplitude, its new period of oscillation will be,\n\n(a) $1\\,\\mathrm{s}$.\n\n(b) $2\\,\\mathrm{s}$.\n\n(c) $4\\,\\mathrm{s}$.\n\n(d) $8\\,\\mathrm{s}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe human ear canal, which is open to the atmosphere and ends at the ear drum, is about $3\\,\\mathrm{cm}$ long. Which of the following is the best approximation to the fundemental resonant frequency of the ear canal?\n\n(a) $1{,}500\\,\\mathrm{Hz}$\n\n(b) $3{,}000\\,\\mathrm{Hz}$\n\n(c) $6{,}000\\,\\mathrm{Hz}$\n\n(d) $11{,}000\\,\\mathrm{Hz}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA metal ball is connected to the ground with a wire via a switch. The switch is initally closed (i.e.the ball is connected to ground) while a charge $+Q$ is brought close to the ball (but not touching). While the charge is near the ball, the switch is opened and then the charge is taken away. The charge on the ball is now,\n\n(a) zero.\n\n(b) positive.\n\n(c) negative.\n\n(d) unchanged from its initial charge."
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Question 6",
+     "problem": "Question 6\n\nIn the light from a distant star, a particular spectral line is observed. The wavelength of this line varies between being about $2\\%$ shorter than the same line as observed in an earth based laboratory, and about $2\\%$ longer. Which of the following best describes the star.\n\n(a) The star is moving away from the earth.\n\n(b) The star is moving towards the earth.\n\n(c) The star is very, very massive as compared to the sun.\n\n(d) The star is orbiting about some massive hidden object."
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA metal bar rotates about a vertical axis which passes through the center of the bar. The axis of rotation is perpendicular to the length of the bar. There is a uniform magnetic field in the vertical direction. The $emf$ (or potential difference) induced between the two ends of the bar is,\n\n(a) zero.\n\n(b) a sinusoidally oscillating value.\n\n(c) a non-zero positive value.\n\n(d) a non-zero negative value."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA projector shows an image which is in focus but too large for the screen on which it is shown. Since the projector and the screen are fixed in place, the projectionist must,\n\n(a) adjust the projector's lens by moving it closer to the screen.\n\n(b) adjust the projector's lens by moving it farther from the screen.\n\n(c) replace the projector's lens with one having a shorter focal length.\n\n(d) replace the projector's lens with one having a longer focal length."
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Question 9",
+     "problem": "Question 9\n\nIn photographic darkrooms, the only source of light is usually a red light bulb. After spending time in a darkroom, a person's eye becomes adjusted to the light but everything appears to be in black and white. Since a red surface reflects all red light, it will appear \"white\". Which of the following colours will appear to be the brightest?\n\n(a) Green\n\n(b) Blue\n\n(c) Purple\n\n(d) Black"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Question 10",
+     "problem": "Question 10\n\nMillikan's oil drop experiment attempts to measure the charge on a single electron, $e$, by measuring the charge on tiny oil drops suspended in an electrostatic field. It is assumed that the charge on the oil drops is due to just a small number of excess electrons. The charges $3.90\\times10^{-19}\\,\\mathrm{C}$, $6.50\\times10^{-19}\\,\\mathrm{C}$, and $9.10\\times10^{-19}\\,\\mathrm{C}$ are measured on three drops of oil. The charge of an electron is deduced to be,\n\n(a) $1.3\\times10^{-19}\\,\\mathrm{C}$.\n\n(b) $1.6\\times10^{-19}\\,\\mathrm{C}$.\n\n(c) $2.6\\times10^{-19}\\,\\mathrm{C}$.\n\n(d) $3.9\\times10^{-19}\\,\\mathrm{C}$."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Question 11",
+     "problem": "Question 11\n\nTwo mirrors are joined together so that they make an angle of $60^\\circ$ as shown.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2000-1-11-fig1.png\n\nA person stands at a point $P$ which is on the line which bisects the $60^\\circ$ angle. How many images of herself does the person see?\n\n(a) 1\n\n(b) 3\n\n(c) 6\n\n(d) infinite number"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Question 12",
+     "problem": "Question 12\n\nConsider a roller coaster with a loop-the-loop. The loop is not circular (that would be too dangerous) but has a radius of curvature which decreases with height. A roller coaster car starts from rest from the top of a hill which is $5\\,\\mathrm{m}$ higher than the top of the loop. It rolls down the hill and through the loop. What must the radius of curvature at the top of the loop be so that the passengers of the car will feel, at that point, as if they have their normal weight?\n\n(a) $5\\,\\mathrm{m}$\n\n(b) $10\\,\\mathrm{m}$\n\n(c) $15\\,\\mathrm{m}$\n\n(d) $20\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Question 13",
+     "problem": "Question 13\n\nTwo identical conducting balls have positive charges $q_1 \\neq q_2$ respectively. The balls are brought together so that they touch and then put back in their original positions. The force between the balls is,\n\n(a) The same as it was before the balls touched.\n\n(b) Greater than before the balls touched.\n\n(c) Less than before the balls touched.\n\n(d) Zero."
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Question 14",
+     "problem": "Question 14\n\nHelium ${}^{4}_{2}\\mathrm{He}$ becomes a superfluid at temperatures $T < 2.18\\,\\mathrm{K}$. A superfluid flows with no viscosity. This behaviour can only be explained using quantum physics and it can only happen if the de Broglie wavelength of a helium atom, of mass $m$, is comparable to the inter-atomic spacing of the fluid. Which of the following could be an expression for $\\lambda$, the de Broglie wavelength?\n\n(a) $\\lambda = h/\\sqrt{3mkT}$\n\n(b) $\\lambda = \\sqrt{3mkT}/rh$\n\n(c) $\\lambda = \\sqrt{h}/3mkT$\n\n(d) $\\lambda = 3mkT/\\sqrt{h}$"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Question 15",
+     "problem": "Question 15\n\nIn a game of egg-toss, two players toss an egg back and forth between them while moving farther and farther apart. The loser is the person who breaks the egg when catching it. The force required to break an egg's shell is about $5\\,\\mathrm{N}$ and a typical egg has a mass of about $50\\,\\mathrm{g}$. If the players are $10\\,\\mathrm{m}$ apart, and the eggs are thrown with initial velocities directed at $45^\\circ$ above the horizontal, what is the shortest time that a player can take to arrest the motion of the egg so as not to break it?\n\n(a) $0.01\\,\\mathrm{s}$\n\n(b) $0.10\\,\\mathrm{s}$\n\n(c) $0.50\\,\\mathrm{s}$\n\n(d) $1.00\\,\\mathrm{s}$"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA circuit is comprised of 8 identical batteries connected in series as shown.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2000-1-16-fig1.png\n\nEach battery has an $emf$ of $1.5\\,\\mathrm{V}$ and an internal resistance of $0.2\\,\\Omega$. What is the reading on a voltmeter connected across any one of the batteries?.\n\n(a) $0.0$\n\n(b) $1.3\\,\\mathrm{V}$\n\n(c) $1.5\\,\\mathrm{V}$\n\n(d) $12\\,\\mathrm{V}$"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Question 17",
+     "problem": "Question 17\n\nEach branch in the following circuit has a resistance $R$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2000-1-17-fig1.png\n\nThe equivalent resistance of the the circuit between the points $A$ and $B$ is,\n\n(a) $R$\n\n(b) $2R$\n\n(c) $4R$\n\n(d) $8R$"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Question 18",
+     "problem": "Question 18\n\nWhich of the following statements is true concerning the elastic collision of two objects?\n\n(a) No work is done on any of the two objects, since there is no external force.\n\n(b) The work done by the first object on the second is equal to the work done on the second by the first.\n\n(c) The work done by the first object on the second is exactly the opposite of the work done on the second by the first.\n\n(d) The work done on the system depends on the angle of collision."
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Question 19",
+     "problem": "Question 19\n\nWhich of the following statements is false?\n\n(a) The momentum of a heavy object is greater than that of a light object moving at the same speed.\n\n(b) In a perfectly inelastic collision, all the initial kinetic energy of the colliding bodies is dissipated.\n\n(c) The momentum of a system of colliding bodies may be conserved even though the total mechanical energy may not.\n\n(d) The velocity of the center of mass of a system is the system's total momentum divided by its total mass."
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Question 20",
+     "problem": "Question 20\n\nWhich of the following statements is true?\n\n(a) The observed doppler shift for sound waves depends only on the relative motion of the source and the receiver.\n\n(b) Only transverse waves can diffract.\n\n(c) Two wave sources that are out of phase by $180^\\circ$ are incoherent.\n\n(d) Interference patterns are only observed for coherent sources."
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Question 21",
+     "problem": "Question 21\n\nAn airplane circumnavigates the globe by flying above the equator and at a constant altitude above sea level. If the plane repeats the journey but flies at an altitude which is $1000\\,\\mathrm{m}$ higher than before, how much larger a distance through the atmosphere does the plane travel as compared to the first time?\n\n(a) $6.283\\,\\mathrm{km}$\n\n(b) $62.83\\,\\mathrm{km}$\n\n(c) $628.3\\,\\mathrm{km}$\n\n(d) $6283\\,\\mathrm{km}$"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA block of mass $m$ is at rest on an inclined plane. The coefficients of static and kinetic friction between the block and the plane are $\\mu_s$ and $\\mu_k < \\mu_s$. The angle that the plane makes with the horizontal satisfies $\\tan\\theta = \\mu_s$. A string is attached to the block. Is it possible to pull on the string in such a way that the block will slide with constant velocity along a horizontal line? That is to say, can the block slide along a line of constant elevation?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2000-1-22-fig1.png\n\n(a) Yes\n\n(b) Yes, but only if $\\mu_k mg\\cos\\theta < mg\\sin\\theta$\n\n(c) Yes, but only if $\\mu_k mg\\cos\\theta > mg\\sin\\theta$\n\n(d) No"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA proton is moving with a speed of $u$ directly towards an alpha-particle (Helium nucleus) which, when the two particles were very far apart from one another, was initially at rest. What is the separation of the particles at their point of closest approach? You may assume that $m_\\alpha = 4m_p$.\n\n(a) $r = e^2/\\pi\\epsilon_o m_p u^2$\n\n(b) $r = e^2/4\\pi\\epsilon_o m_p u^2$\n\n(c) $r = 5e^2/4\\pi\\epsilon_o m_p u^2$\n\n(d) $r = 5e^2/8\\pi\\epsilon_o m_p u^2$"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Question 24",
+     "problem": "Question 24\n\nRed light from a HeNe laser has a wavelength of $630\\,\\mathrm{nm}$. If it is normally incident upon an optical diffraction grating with 2000 lines per centimeter, how many maxima (including the central maximum) may be observed on a screen which is far from the grating?\n\n(a) 14\n\n(b) 15\n\n(c) 16\n\n(d) 17"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Question 25",
+     "problem": "Question 25\n\nWhich of the following statements is true?\n\n(a) The capacitance of a capacitor is the total amount of charge it can store.\n\n(b) The equivalent capacitance of two capacitors in series is the sum of the two capacitances.\n\n(c) A dielectric material inserted between the conductors of a capacitor increases its capacitance.\n\n(d) The electrostatic energy stored by a capacitor is equal to the ratio of the charge on either conductor to the potential difference between the conductors."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA mass spectrometer measures the mass of ions. An ion is accelerated to a high speed and injected into a region with a uniform magnetic field which is perpendicular to the ion's velocity. The ion will follow a curved trajectory and impact a photographic plate some distance away from the injection point. By measuring this distance, the ion's mass can be deduced.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2000-2-1-fig1.png\n\nSuppose singly charged ($q = +e$) ions of ${}^{39}_{19}\\mathrm{K}$ and ${}^{41}_{19}\\mathrm{K}$ are accelerated to an energy of $500\\,\\mathrm{eV}$ and injected into a magnetic field $B = 0.7\\,\\mathrm{T}$. The velocity of the ions upon entering the magnetic field is perpendicular to the line $OP$.\n\n(a) What speed do each of the ions have when they impact the photographic plate at a point $P$?\n\n(b) What is the shape of the trajectory for the ions? Find the distance $OP$ for each of the two ions.\n\n(c) In reality, things are not quite so simple. Variations in the ions' velocities can cause problems with the resolution of the machine. If the initial energy of the ions cannot be held precisely at $500\\,\\mathrm{eV}$, there will be a small variation in the distances $OP$. Suppose that the energy of the ions is $500 \\pm 5\\,\\mathrm{eV}$. Can the two ions be distinguished from one another when they hit the screen?\n\n(d) Suppose that the velocity of the ions when they enter the magnetic field cannot be held perpendicular to the line $OP$. If there is a small variation of $\\pm\\alpha$ about a perpendicular injection angle, find the variation in the length of $OP$. Can the two ions be distinguished from one another if $\\alpha = 3^\\circ$?\n\n[From the paper's data table: fundamental charge $e = 1.60\\times10^{-19}\\,\\mathrm{C}$; mass of proton $m_p = 1.673\\times10^{-27}\\,\\mathrm{kg}$; mass of neutron $m_n = 1.675\\times10^{-27}\\,\\mathrm{kg}$; $1\\,\\mathrm{eV} = 1.6\\times10^{-19}\\,\\mathrm{J}$.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nA town $B$ is directly east of a town $A$. The two towns are a distance $L$ apart. In the absence of any wind, a plane can fly from town $A$ to $B$ in a time $T$. The speed of the airplane, $v_o = L/T$ is called the plane's air-speed. Assume in all that follows that the plane always has the same air-speed. If the plane flys with a tail wind of speed $v_w$, then it will have a speed with respect to the ground, $v_g$ given by $v_g = v_o + v_w$. This is called the plane's ground-speed.\n\n(a) Explain how the plane could have a ground-speed of zero.\n\n(b) If a wind $v_w$ blows from the west (i.e.to the east), find the time that the plane would take for a round trip from town $A$ to $B$ and back again. Show that it is greater than $T$.\n\n(c) If a wind $v_w$ blows from the south (i.e.to the north), sketch a diagram showing the heading that the plane must fly so as to fly in a straight line from town $A$ to town $B$. Again, find the round trip time for flying in such a cross wind.\n\n(d) Show that regardless of the wind direction, the round trip time for a flight from town $A$ to $B$ and back again is longer than if there was no wind whatsoever. Find an expression for the round trip time if a wind $v_w$ blows in an arbitrary direction."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nLeonardo da Vinci was commissioned by the Duke of Milan to construct a Bronze statue as a tribute to his late father. The proposed size was to be twenty three feet tall and weigh 80 tons ($73{,}000\\,\\mathrm{kg}$). For this task Leonardo had to develop new casting methods to construct this massive statue. By 1499 the French invaded Milan and he had only completed a 22-foot clay model which was used by the French soldiers for target practice. The project was never completed.\n\nHeavy statues need to be placed upon very strong concrete pedestals. The compressive strength of high strength concrete ranges from $10$ – $70\\,\\mathrm{N/mm^2}$. Lets take a typical high-strength concrete with a compressive strength of $s = 50\\,\\mathrm{N/mm^2}$ and a density of $\\rho = 1250\\,\\mathrm{kg/m^3}$. This concrete will crumble if a pressure of greater than this is applied.\n\n(a) Suppose Leonardo's statue (a horse with four feet touching the ground) is to be placed on such a concrete pedestal. What must be the minimum area of each of the horse's feet so as not to damage the pedestal?\n\n(b) Now, more generally, what is the maximum height of a conical mountain made of high strength concrete?\n\n(c) Finally, outline the design constraints that go into making a free standing concrete structure with the maximum possible height.\n\n[From the paper's data table: acceleration due to gravity $g = 9.81\\,\\mathrm{m/s^2}$.]"
+    }
+   ]
+  },
+  {
    "year": 2001,
    "problems": [
     {

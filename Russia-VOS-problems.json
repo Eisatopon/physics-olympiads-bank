@@ -2,6 +2,336 @@
  "competition": "Russia — All-Russian Olympiad in Physics, final stage, theoretical round (grades 9–11)",
  "years": [
   {
+   "year": 2017,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Slinky",
+     "problem": "Problem 1: Slinky\n\nA \"slinky\" spring is held by its top coil so that its bottom coil is at a height $h=1\\,\\mathrm{m}$ above the floor, and the length of the spring itself, stretched by its own weight, is $l=1.5\\,\\mathrm{m}$. The spring is released. After what time $\\tau$ will it fall onto the floor? In the unstretched state the coils of the spring lie tightly against one another without exerting pressure on one another, and the length of the spring is $l_0=6\\,\\mathrm{cm}$. The coils are thin. When the spring collapses, the coils collide with one another inelastically, and by the moment of the fall it has had time to collapse completely. Give the answer to an accuracy of $0.02\\,\\mathrm{s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-1-1-fig1.jpg\n\nFig. 11.1"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: I am a little cloud, a cloud, a cloud...",
+     "problem": "Problem 2: I am a little cloud, a cloud, a cloud...\n\nIn the approximation of an adiabatic atmosphere, estimate:\n\n1. the height $H$ of the Earth's atmosphere;\n\n2. the height $h_0$ of the lower edge of the clouds.\n\nThe temperature at the surface of the Earth is $t_0=27\\,^\\circ\\mathrm{C}$, and the relative humidity of the air is $\\varphi=80\\%$. Assume that $h_0\\ll H$.\n\nHint: An adiabatic atmosphere is one in which portions of gas, moving vertically without heat exchange, remain in mechanical equilibrium all the time.\n\nTable 11.1. Dependence of the saturated water vapour pressure on temperature\n\n$$\\begin{array}{c|c|c|c|c|c|c|c|c|c|c|c|c|c} t,\\ ^\\circ\\mathrm{C} & 6 & 8 & 10 & 12 & 14 & 16 & 18 & 20 & 22 & 24 & 26 & 28 & 30 \\\\ \\hline P_H,\\ \\text{mm Hg} & 7.01 & 8.05 & 9.21 & 10.5 & 12.0 & 13.6 & 15.5 & 17.5 & 19.8 & 22.4 & 25.2 & 28.4 & 31.8 \\end{array}$$\n\nNote: Consider air to be an ideal diatomic gas with molar mass $\\mu=29\\,\\mathrm{g/mol}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: Bead",
+     "problem": "Problem 3: Bead\n\nA charge $Q$ is uniformly distributed over the surface of a fixed thin-walled dielectric tube of radius $R$ and length $H$. A bead with a charge of the same sign can slide freely along a thin non-conducting spoke coinciding with a diameter of the middle cross-section (equidistant from the ends) of the tube.\n\nFind the period $T$ of small oscillations of the bead about its equilibrium position. Consider the specific charge of the bead $\\gamma=q/m$ to be known."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: MHD again",
+     "problem": "Problem 4: MHD again\n\nA model of a marine magnetohydrodynamic engine installed under the bottom of a boat (Fig. 11.2) is a rectangular channel ($a=1.0\\,\\mathrm{m}$, $l=2\\,\\mathrm{m}$, $h=10\\,\\mathrm{cm}$). An ideal source of direct current with emf $\\mathscr{E}=100\\,\\mathrm{V}$ is connected to the well-conducting planes $hl$. A magnetic field $B=1\\,\\mathrm{T}$ penetrates the channel perpendicular to the non-conducting planes $al$. When the boat with such an engine moves at a constant speed $u$, the speed of the water flowing out relative to the boat is $v=10\\,\\mathrm{m/s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-1-4-fig1.png\n\nFig. 11.2\n\nThe resistivity of sea water is $\\rho=1.0\\cdot10^{-2}\\,\\Omega\\cdot\\mathrm{m}$, its density is $\\rho_w=1000\\,\\mathrm{kg/m^3}$.\n\nFind the speed of the boat, the thrust force, the useful power and the efficiency of the engine."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: Lunar eclipse",
+     "problem": "Problem 5: Lunar eclipse\n\nAs is well known, the Sun is not a point source of light but has a small angular diameter (as observed from the Earth) $2\\delta=0.52^\\circ$. This fact leads to the region of total shadow (umbra) behind the Earth being finite.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-1-5-fig1.png\n\nFig. 11.3\n\n[Labels in the figure: Солнце = Sun, Земля = Earth, Луна = Moon, Полутень = Penumbra, Тень = Shadow (umbra).]\n\n1. Suppose that there is no refraction (the phenomenon of refraction of the Sun's rays in the Earth's atmosphere). Up to what distance $L_1$ from the Earth will the total shadow still be observed? Find the duration of a total lunar eclipse in this case.\n\n2. In reality refraction has a significant influence on the size of the region of total shadow. Let the Earth's atmosphere have a reduced height $h=8\\,\\mathrm{km}$ and a mean refractive index $n=1.00028$.\n\nAssuming that the boundary of the shadow is formed by rays passing tangentially to the Earth's surface, determine up to what maximum distance $L_2$ the total shadow will now be observed. What fraction of the area of the lunar disc will be shadowed?\n\nThe radius of the Earth is $R=6400\\,\\mathrm{km}$, the acceleration due to gravity is $g=9.8\\,\\mathrm{m/s^2}$, the angular diameter of the Moon is equal to the angular diameter of the Sun $2\\delta$, and the period of revolution of the Moon around the Earth is $T_0=27.3$ days."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: On an ice floe",
+     "problem": "Problem 1: On an ice floe\n\nPast a boy standing on the bank of a river, a heavy rectangular ice floe with a flat horizontal surface floats with speed $v_0$. The boy sends a stone of mass $m$ sliding over the surface of the ice floe from its edge. The initial velocity of the stone is equal in magnitude to the speed of the ice floe and is directed at an angle $\\alpha=60^\\circ$ to the bank (Fig. 10.1).\n\nThe boy noticed that when the stone was at a distance $h$ from the edge of the ice floe nearest to him, the speed of the stone was minimal.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-1-fig1.png\n\nFig. 10.1\n\n• What amount of heat $Q$ will be released during the time the stone slides over the surface of the ice floe?\n• At what distance $s$ from the boy standing on the river bank will the stone be at the moment its sliding over the ice floe ends?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Separate departure",
+     "problem": "Problem 2: Separate departure\n\nTwo identical touching balls of radius $r=5\\,\\mathrm{cm}$ are given a horizontal velocity $u$. The balls move along the lower arm of a fixed U-shaped tube standing on its side (Fig. 10.2). The distance between the axes of the arms is $h=1.00\\,\\mathrm{m}$; the arms are joined by a semicircle; there is no friction in the system, and the gap between the walls and the balls is small.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-2-fig1.png\n\nFig. 10.2\n\nFor what values of the speed $u$ will one ball fly out of the upper arm and the other out of the lower one? The acceleration due to gravity is $g$."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: In Lord Kelvin's archive",
+     "problem": "Problem 3: In Lord Kelvin's archive\n\nOnce, while sorting out Lord Kelvin's archive, the theorist Bug found a graph (Fig. 10.3) and an explanatory note from which it followed that Kelvin had been studying isochoric processes. With time the ink had faded and the coordinate axes had disappeared from the graph, but a mark remained about the last point of the graph, corresponding to a pressure $p=2000$ mm Hg and a temperature of $127\\,^\\circ\\mathrm{C}$.\n\nBug understood that the graph showed the dependence of the pressure of the contents of the vessel on temperature, and that besides air the vessel contained some other substance which underwent a phase transition. To find out what this substance was, Bug decided to calculate the saturated vapour pressure of this substance at the point which he marked with a question mark.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-3-fig1.png\n\nFig. 10.3\n\n• What was this substance?\n• What are the pressure and the temperature at the point marked with the question mark? Justify your answer. Find the temperature of the contents of the vessel in the state when 30 % of all the liquid that got into the vessel has evaporated."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Bridge with diodes and capacitors",
+     "problem": "Problem 4: Bridge with diodes and capacitors\n\nAn electric circuit (Fig. 10.4) is made of three identical capacitors of capacitance $C_1=C_2=C_3=C$, two identical diodes, two ideal ammeters, a switch and an adjustable voltage source. The dependence of the current through a diode on the voltage across it is shown in Fig. 10.5.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-4-fig1.png\n\nFig. 10.4\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-4-fig2.png\n\nFig. 10.5\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-4-fig3.png\n\nFig. 10.6\n\n• Let the source voltage be constant and equal to $3U_0$. How much heat will be released in the circuit when the switch $K$ is closed?\n• Let the source voltage depend on time, $U=U(t)$, as shown in Fig. 10.6. The switch $K$ is closed all the time. Determine the time dependences $I_1(t)$ and $I_2(t)$ of the readings of the ammeters $A_1$ and $A_2$. Draw the graphs of $I_1(t)$ and $I_2(t)$, indicating the values at the characteristic points of the graphs. The polarity of the source and the polarity of connection of the ammeters are shown in Fig. 10.4. In all cases the capacitors are uncharged at the initial moment of time."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Ohm-m-m...",
+     "problem": "Problem 5: Ohm-m-m...\n\nAn electric circuit (Fig. 10.7) is assembled from identical ohmmeters and a resistor whose resistance is $R=1\\,\\mathrm{k\\Omega}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-5-fig1.png\n\nFig. 10.7\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-2-5-fig2.png\n\nFig. 10.8\n\nAll the ohmmeters are connected in the circuit so that for the instruments with an odd number the terminal marked with the plus sign is on the left, and for the even ones it is on top. Determine the readings of the first, fourth and thirteenth ohmmeters.\n\nHint: assume that an ohmmeter consists of an ideal source of constant voltage $U$, a resistor of resistance $R=1\\,\\mathrm{k\\Omega}$ and an ideal ammeter connected in series (Fig. 10.8). When the resistor under test is connected to the ohmmeter, the reading of the ammeter built into the ohmmeter is automatically recalculated (for example, by a built-in microprocessor) so that the digital display of the instrument shows the value of the resistance $R_x$ of the resistor under test connected to the ohmmeter."
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: The slower you go...",
+     "problem": "Problem 1: The slower you go...\n\nIn calm weather a series of tests of a radio-controlled model of a boat with a petrol engine was carried out on a lake; during the tests it was found that at a speed $v_1=5.00\\,\\mathrm{km/h}$ the fuel consumption per unit distance is $\\lambda_1=20.0\\,\\mathrm{g/km}$, and at a speed $v_2=15.0\\,\\mathrm{km/h}$ the consumption is $\\lambda_2=40.0\\,\\mathrm{g/km}$. The fuel supply on board the model is $M=100\\,\\mathrm{g}$.\n\n• Derive the dependence of the fuel consumption per unit distance $\\lambda$ on the speed $v$.\n• What is the maximum time $\\tau_x$ for which the engine of a stationary model can run?\n• At what speed $v_0$ of the model is the fuel consumption per unit distance minimal, and what is its value $\\lambda_0$? The results obtained must be found with an error not exceeding 1%.\n• What is the maximum distance $L_0$ the model can travel, and in what time $\\tau_0$?\n• What values $\\tau_1$ can the time taken by the model to cover the distance $L_1=3\\,\\mathrm{km}$ take?\n\nNote. Assume that when the engine is running, the mass consumption of fuel $\\mu$ (g/s) depends linearly on the power of the resistance force, and the resistance force is proportional to the speed of the model relative to the water. The model moves uniformly, and at any speed its draught does not change."
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: With a puff of smoke",
+     "problem": "Problem 2: With a puff of smoke\n\nDuring aerial photography a photograph was obtained on which two smoke plumes from steam locomotives are visible (Fig. 9.1). One cell of the photograph corresponds to $50\\,\\mathrm{m}$ on the ground. It is known that one locomotive moved uniformly along a circular railway line, and the other moved with the same speed along a straight line.\n\nDetermine:\n\n• the direction of the wind velocity;\n• the radius $R$ of the circular railway;\n• the ratio of the speed $v$ of the locomotive to the wind speed $u$;\n• the direction of the straight railway line (carry out the constructions with compasses and a ruler).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-3-2-fig1.jpg\n\nFig. 9.1\n\n[Labels in the figure: север = north, восток = east.]"
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Nonlinear heating coil",
+     "problem": "Problem 3: Nonlinear heating coil\n\nThe resistance $R$ of a heating coil depends on temperature according to the law $R=R_0+\\alpha(t-t_0)$, where $t$ is the temperature of the coil, $R_0=10\\,\\Omega$, $\\alpha=40.0\\cdot10^{-3}\\,\\Omega/^\\circ\\mathrm{C}$, $t_0=20\\,^\\circ\\mathrm{C}$. A voltage $U=220\\,\\mathrm{V}$ is applied to the coil, and in the time $\\tau_1=100\\,\\mathrm{\\mu s}$ it heats up from $t_0$ to $t_1=80\\,^\\circ\\mathrm{C}$.\n\n• To what temperature $t_2$ will the coil heat up in the time $\\tau_2=334\\,\\mathrm{\\mu s}$ from the moment it is switched on?\n• Determine the heat capacity of the coil.\n\nAt the given temperatures and times, radiation and heat transfer can be neglected."
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Two nonlinear elements",
+     "problem": "Problem 4: Two nonlinear elements\n\nAn electric circuit consists of two identical nonlinear elements $X$, a potentiometer whose resistance between the fixed contacts is $R=100\\,\\Omega$, and an ideal battery of voltage $U_0=10\\,\\mathrm{V}$ (Fig. 9.2). The current–voltage characteristic of the element $X$ is shown in Fig. 9.3.\n\nDetermine:\n\n1. The total power dissipated in the two nonlinear elements at the extreme positions of the potentiometer slider.\n\n2. The total power dissipated in the two nonlinear elements when the potentiometer slider is in the centre.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-3-4-fig1.png\n\nFig. 9.2\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-3-4-fig2.png\n\nFig. 9.3\n\n3. The minimum total power dissipated in the two nonlinear elements. At what positions of the potentiometer slider is this power reached? Justify your answer.\n\n4. The total power dissipated in the two nonlinear elements at the position of the potentiometer slider at which the resistance of its left arm is $25\\,\\Omega$."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Laser in a vessel",
+     "problem": "Problem 5: Laser in a vessel\n\nInside a thin-walled cylindrical glass vessel of radius $R$, near its wall at the point $A$, there is a microlaser whose dimensions are much smaller than $R$. The vessel is filled with water, and outside there is air. Half of the inner surface of the vessel, corresponding to the arc $ACB$, is blackened and absorbs light. Initially the laser beam is directed at the point $B$.\n\nThe laser starts to rotate with a constant angular velocity $\\omega$ anticlockwise in the plane of the figure about an axis passing through the point $A$ (Fig. 9.4). The refractive index of water is $n=4/3$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2017-3-5-fig1.png\n\nFig. 9.4\n\n• After what time $\\tau$ will the beam stop leaving the vessel?\n• What will be the speed of the light spot on the blackened surface of the cylinder at the moment of time $1.5\\tau$ from the start of its motion?\n\nNote. You may need Snell's law: $n_1\\sin\\varphi_1=n_2\\sin\\varphi_2$, where $n_1$ and $n_2$ are the refractive indices of the first and second media, and $\\varphi_1$ and $\\varphi_2$ are the angles of incidence and refraction."
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Cylinder on an inclined plane",
+     "problem": "Problem 1: Cylinder on an inclined plane\n\nThe upper part of an inclined plane is smooth, the lower part is rough. A thin-walled cylindrical tube rotating about its axis with angular velocity $\\omega_0$ is placed on the upper part and released. At the initial moment the axis of the cylinder is at rest, and the line of contact of the tube with the plane is at a height $h=10\\,\\mathrm{cm}$ above the boundary between the smooth and rough sections. The coefficient of friction between the tube and the rough surface is $\\mu=0.1$. The radius of the cylinder is $R=5\\,\\mathrm{cm}$. The acceleration due to gravity is $g=10\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-1-1-fig1.png\n\n1. Assume that $\\omega_0$ is large. At what angle $\\varphi=\\varphi_m$ will the tube return to its initial position in the minimum time?\n\n2. Find this minimum time $t_{min}$.\n\n3. Let $\\varphi=\\varphi_m$. For which $\\omega_0$ will the tube return to its initial position?"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Coinciding heat capacities",
+     "problem": "Problem 2: Coinciding heat capacities\n\nIn the archive of Lord Kelvin a cylinder with one mole of an ideal monatomic gas was found. Lord Kelvin carried out two processes with it and depicted them on a $pV$-diagram. The ink, of course, has faded. Of the first process, a part of the graph has survived, a segment of a straight line, and of the graph of the second process, as usual, a single point $A$ has survived. From the explanatory notes it followed that in these processes the heat capacities coincided at equal temperatures. Reconstruct the graph of the dependence of the pressure $p$ on the volume $V$ for the second process.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-1-2-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: In the bubble",
+     "problem": "Problem 3: In the bubble\n\nIn distant space there is a planet consisting entirely of water. It is known that deep-sea inhabitants can view the whole space around from inside if and only if they are at a distance of no more than $x=3000\\,\\mathrm{km}$ from the centre of the planet. The local inhabitants decided to launch a satellite? With what speed must it move in the lowest possible orbit? The refractive index of water is $n=4/3$, the density of water is $\\rho=1000\\,\\mathrm{kg/m^3}$, the gravitational constant is $G=6.67\\cdot 10^{-11}\\,\\mathrm{N\\cdot m^2/kg^2}$. The planet does not rotate about its axis, there are never any waves on its surface, and the water can be considered incompressible."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Collisions in a magnetic field",
+     "problem": "Problem 4: Collisions in a magnetic field\n\nA metal jumper of mass $m$ can slide without friction along two horizontal conducting rails (see the figure). The distance between the rails is $l$. The motion of the jumper is limited by two non-conducting rigid vertical walls $W_1$ and $W_2$, located at a distance $D$ from each other. A capacitor of capacitance $C$ charged to the voltage $U_0$ and a resistor of resistance $R$ are connected in series to the rails through a switch $K$. Perpendicular to the plane of the rails, a vertical uniform magnetic field with induction $B$ is switched on, such that $m>B^2l^2C$ and $DBl\\gg RCU_0$. At the moment when the switch was closed, the jumper was at rest midway between the walls. Determine:\n\n1. with which wall the first collision of the jumper will occur;\n\n2. the speed $v_1$ before the first collision;\n\n3. the speed $v_n$ before the $n$-th collision.\n\nAll collisions of the jumper with the walls are perfectly elastic.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-1-4-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: A ball dropped into a river",
+     "problem": "Problem 5: A ball dropped into a river\n\nIdentical small metal balls are thrown into a river from a point $O$ on the surface of the water (see the figure). A ball released without initial velocity fell onto the bottom at the point $B$, and a ball launched vertically downwards with a known speed $v$ fell at the point $C$. The distance $BC=L$. Find the horizontal component $u_x$ of the velocity of the second ball when it hits the bottom. Assume that during the motion the water exerts on a ball a force directly proportional to the velocity of the ball relative to the water and directed opposite to this velocity. The speed of the current does not depend on depth, and the bottom is horizontal. Do not take the buoyant (Archimedes) force into account.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-1-5-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Pucks and a wall",
+     "problem": "Problem 1: Pucks and a wall\n\nTwo pucks are on a smooth horizontal surface. A small puck of radius $r$ moves with speed $v$ along a vertical wall with a small gap between it and the wall. A large puck of radius $R=7r$ touches the wall. What speed $u$ will the large puck acquire after all the collisions, if the masses of the pucks are equal? There is no friction in the system; the collisions of the pucks with each other and with the wall are perfectly elastic.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-2-1-fig1.png\n\n[In the figure: вид сверху = top view.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: A car on a conveyor",
+     "problem": "Problem 2: A car on a conveyor\n\nA car moves along a horizontal stationary conveyor with speed $v_0=20\\,\\mathrm{m/s}$ in windless weather. Half of the engine power is spent on overcoming air resistance, the other half on overcoming rolling friction.\n\n1. A wind with speed $v_0=20\\,\\mathrm{m/s}$ (relative to the ground) began to blow towards the car. With what steady speed $v_1$ relative to the ground will the car move, if the power developed by the engine has not changed and the conveyor is stationary?\n\n2. At some moment the wind died down, and the conveyor began to move with a constant speed $v_0=20\\,\\mathrm{m/s}$ in the direction opposite to the motion of the car. With what steady speed $v_2$ relative to the ground will the car move, if the power developed by the engine has not changed?\n\nNote 1: the air resistance force is proportional to the square of the relative speed; the rolling friction force is constant.\n\nNote 2: in all cases the wheels do not slip.\n\nNote 3: the cubic equation can be solved by trial and error."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: A tube on a centrifuge",
+     "problem": "Problem 3: A tube on a centrifuge\n\nA sealed light cylinder is fixed in a horizontal position on a centrifuge that can rotate only about a vertical axis. The axis of the cylinder passes through the axis of rotation. Inside the cylinder there is a thin piston that can move without friction. The cylinder is filled with an ideal gas, whose pressure presses the piston against the end face of the cylinder nearest to the axis of rotation. The length of the cylinder is $a=0.5\\,\\mathrm{m}$, the area of the piston is $S=5\\,\\mathrm{cm^2}$, its mass is $m=10\\,\\mathrm{g}$, the pressure of the gas in the cylinder is $p_0=1.0\\,\\mathrm{kPa}$. The distance from the axis of rotation to the near end face of the cylinder is $l=0.1\\,\\mathrm{m}$. The centrifuge begins to rotate, and the angular velocity of rotation $\\omega$ increases very slowly. The temperature of the gas is kept constant.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-2-3-fig1.png\n\nNote: assume that during the experiment the air remains homogeneous.\n\n1. At what value $\\omega_1$ of the angular velocity will the initial equilibrium position of the piston cease to be stable?\n\n2. At what distance $x_1$ from the initial position will the piston settle at the unchanged angular velocity $\\omega_1$?\n\n3. Now the rotation frequency is slowly decreased. At what value $\\omega_2$ will the piston return to its initial position?"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: A charged sphere (a classic)",
+     "problem": "Problem 4: A charged sphere (a classic)\n\nA conducting sphere of radius $R$ has a spherical cavity of radius $r$ touching the outer surface of the sphere. The charge of the sphere is $Q$. In the cavity, at a distance $r_1$ from its centre, there is a point charge $q_1$. Outside the sphere, at a distance $r_2$ from its centre, there is a point charge $q_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-2-4-fig1.png\n\n1. Find the potential $\\varphi_b$ of the sphere.\n\n2. Find the potential $\\varphi_O$ at the centre $O$ of the cavity.\n\nTake the potential of infinitely distant points to be zero."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Nonlinearity",
+     "problem": "Problem 5: Nonlinearity\n\nA nonlinear element $Z$ has the current–voltage characteristic $I_Z=\\alpha U_Z^2$, where $\\alpha=0.07\\,\\mathrm{A/V^2}$. Obtain a formula for the dependence of the current $I$ on the voltage for a circuit made up of an infinite number of nonlinear elements $Z$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-2-5-fig1.png"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Steam locomotive",
+     "problem": "Problem 1: Steam locomotive\n\nDuring aerial photography of an area, the frame captured the trail of smoke from a steam locomotive that started its motion from rest with a constant acceleration $a=0.05\\,\\mathrm{m/s^2}$ along a straight section of railway. The whole trail, from the very beginning of the motion, is visible in the photograph. One square corresponds to a distance of $200\\,\\mathrm{m}$. Assuming the wind speed to be constant, determine:\n\n1. In which direction was the locomotive moving?\n\n2. At what angle $\\alpha$ to the railway was the wind blowing?\n\n3. The wind speed $v_0$.\n\n4. The minimum wind speed $v_{min}$ relative to the locomotive.\n\n5. The time $\\tau$ of motion of the locomotive from the start of the motion until the moment the photograph was taken.\n\n6. The distance $s$ travelled by the locomotive from the start of the motion until the moment the photograph was taken.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-3-1-fig1.png\n\n[In the figure: север = north; юг = south; 200 м = 200 m.]"
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: Pulleys and cylinders",
+     "problem": "Problem 2: Pulleys and cylinders\n\nTwo communicating vessels with cross-sectional areas $S_1$ and $S_2$ contain a liquid of density $\\rho$. The vessels are hermetically closed by pistons that can move under the action of a system of pulleys and inextensible threads connected to the lever $P$ (see the figure). Initially the threads are neither taut nor slack, and the pistons are in contact with the liquid. The lever is slowly moved upwards by a small distance $h$ so that it remains horizontal and the threads remain vertical.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-3-2-fig1.png\n\n1. Assuming that $S_1>S_2$, determine in which directions and by what distances the pistons will move. What force $F_1$ must be applied to the lever to hold it after the displacement by the distance $h$?\n\n2. What force $F_2$ will be needed to move the lever upwards by the distance $h$ when $S_2=2S_1$?\n\nThe masses of the lever, pulleys, threads and pistons can be neglected. There is no friction. The vessels do not lift off the stand. The vapour pressure of the liquid is much smaller than the atmospheric pressure $p_0$. The acceleration due to gravity is $g$."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Plasticine flying in",
+     "problem": "Problem 3: Plasticine flying in\n\nA piece of plasticine of mass $m$, having fallen without initial velocity from some height, stuck to a block of the same mass moving along a horizontal surface with a constant speed $v_0=4\\,\\mathrm{m/s}$ under the action of a constant horizontal force. The coefficient of friction between the block and the surface is $\\mu=0.2$. Determine the speed $v_1$ of the block a time $t_1=1\\,\\mathrm{s}$ after the plasticine started to fall. Plot the graph of the speed of the block $v$ against the time $t$ after the plasticine started to fall for two cases: a) from the height $h_a=10\\,\\mathrm{m}$; b) from the height $h_b=25\\,\\mathrm{m}$, indicating on it the coordinates of the characteristic points.\n\nThe acceleration due to gravity is $g=10\\,\\mathrm{m/s^2}$. Neglect air resistance."
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Stream heating",
+     "problem": "Problem 4: Stream heating\n\nWater at the temperature $t_0=20\\,^\\circ\\mathrm{C}$ is poured into an empty thermally insulated vessel in a thin stream with the mass flow rate $\\mu=2.0\\,\\mathrm{g/s}$. When there is $m=100\\,\\mathrm{g}$ of water in the vessel, a heater of power $N=200\\,\\mathrm{W}$ is switched on in it. The temperature of the contents of the vessel is measured by a mercury thermometer placed in it.\n\nDetermine:\n\n1. After what time $\\tau_1$ from the moment the heater is switched on will the temperature of the water in the vessel rise to $t_1=30\\,^\\circ\\mathrm{C}$?\n\n2. To what maximum temperature $t_{max}$ can the contents of the vessel be heated?\n\nDerive the dependence of the speed $v$ at which the mercury column of the thermometer rises on the time $\\tau$ from the moment the heater is switched on, if on its scale the distance between the marks $t_0$ and $t_1$ is $l=2.0\\,\\mathrm{cm}$. Determine the speed at which the column rises at the temperature $t_1$.\n\nThe specific heat capacity of water is $c=4200\\,\\mathrm{J/(kg\\cdot{}^\\circ C)}$. The heat exchange processes are fast; the heat capacities of the thermometer and the vessel are small."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Nonlinear readings",
+     "problem": "Problem 5: Nonlinear readings\n\nIn a simplified model, an ohmmeter consists of an ideal source of constant voltage $U_0$, a resistor of resistance $r$ and an ideal ammeter connected in series (see the figure). When a resistor of resistance $R_x$ is connected to the ohmmeter, the readings of the ammeter are automatically recalculated so that the digital display of the instrument shows the value of the resistance of the connected resistor.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-3-5-fig1.png\n\nWhen connected to a nonlinear element $Z$, whose current–voltage characteristic is given below, the ohmmeter shows the resistance $R_z=800\\,\\Omega$. If a resistor of resistance $R=1.0\\,\\mathrm{k\\Omega}$ is connected in parallel to the element $Z$, the ohmmeter shows the value $R_1=400\\,\\Omega$. Determine the voltage $U_0$ of the ohmmeter's source and its resistance $r$. Find the reading $R_2$ of the ohmmeter when the nonlinear element $Z$ and the resistor of resistance $R$, connected in series, are connected to it.\n\nNote: Carry out the constructions needed for the solution on the separate answer sheet provided and hand it in together with your work.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2018-3-5-fig2.png\n\n[Axis labels: $I$, мА = $I$, mA; $U$, В = $U$, V.]"
+    }
+   ]
+  },
+  {
+   "year": 2019,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Two cylinders",
+     "problem": "Problem 1: Two cylinders\n\nA light cylinder of half the radius is placed inside a fixed cylinder of radius $R$ whose axis $O$ is horizontal. The axis $C$ of the smaller cylinder is also horizontal. A small body of mass $m$ is fixed on the surface of the smaller cylinder. The smaller cylinder is held so that the body is on the axis of the larger cylinder, and the plane $OC$ (in which the axes of both cylinders lie) makes an angle $\\alpha$ with the vertical (Fig. 11).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-1-1-fig1.png\n\nFig. 11\n\n1. The smaller cylinder is released, and it begins to roll along the inner surface of the larger one without slipping. Determine the acceleration of the body immediately after the start of the motion.\n\n2. Determine the acceleration and the speed of the body at the moment when the plane $OC$ is vertical. Assume that up to this moment the motion proceeded without slipping.\n\n3. Determine the minimum value of the coefficient of friction $\\mu$ between the cylinders at which motion without slipping is possible up to the moment when the plane $OC$ takes the position symmetric to the initial one with respect to the vertical.\n\n4. Determine the speed of the body at the moment slipping begins, if the coefficient of friction between the cylinders is given and equal to $\\mu$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Substances X and Y",
+     "problem": "Problem 2: Substances X and Y\n\nIn two identical vessels with a piston, at the same pressure $p_A$ and temperature $T_A$, there are identical mixtures of equal masses $m$ of the liquid and solid phases of substance X. The density of the solid phase is 20% greater than the density of the liquid phase $\\rho_{\\mathrm{X}}$. Without changing the external pressure, a known amount of heat $Q_1$ is slowly supplied to the first vessel. In this process the mass of the solid phase is halved. Then, having ensured reliable thermal insulation of the vessel, the external pressure is increased slightly. Let us denote this state by «B».\n\nThe external actions on the second vessel are carried out in the reverse order: first the pressure is increased, and then, keeping it constant, the amount of heat $Q_2$ necessary to bring it into the same state $B$ is supplied.\n\n1. Which amount of heat is greater, $Q_1$ or $Q_2$?\n\n2. Determine the pressure $p_B$ in state $B$.\n\n3. Determine the temperature $T_B$ in state $B$.\n\nThe same experiment with two vessels was carried out with mixtures of equal masses $m$ of the liquid and solid phases of another substance Y, for which in the initial state $C$ the density of the solid phase is 20% less than the density of the liquid phase $\\rho_{\\mathrm{Y}}$. It turned out that the isobaric melting of half of the solid phase of Y on leaving the state $(p_C, T_C)$ required the supply of an amount of heat $Q_3$, and the transition to the final state $D$ in the second vessel required an amount $Q_4$.\n\n4. Which amount of heat is greater, $Q_3$ or $Q_4$?\n\n5. Determine the pressure $p_D$ in state $D$.\n\n6. Determine the temperature $T_D$ in state $D$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: What are diodes for",
+     "problem": "Problem 3: What are diodes for\n\nAn electric circuit consists of three capacitors $C_1$, $C_2$, $C_3$ of the same capacitance $C$, a coil of inductance $L$, two ideal diodes, a source of constant voltage $U_0$ and a switch $K$ (Fig. 12). Initially, before the switch is closed, the capacitors are uncharged. Then the switch is set to position 1 and, after equilibrium has been established, it is switched to position 2.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-1-3-fig1.png\n\nFig. 12\n\n1. What are the voltages $U_1$, $U_2$ and $U_3$ across the capacitors before the switch is moved to position 2?\n\n2. What is the maximum value $I_D$ of the current through the diodes after the switch is moved to position 2?\n\n3. Within what limits ($\\left[U_1^{\\min}, U_1^{\\max}\\right]$, $\\left[U_2^{\\min}, U_2^{\\max}\\right]$ and $\\left[U_3^{\\min}, U_3^{\\max}\\right]$) do the voltages across the capacitors vary after the switch is moved to position 2?\n\n4. Sketch qualitatively the graph of the current $I$ flowing through the inductance as a function of time.\n\n5. What is the period $T$ of the oscillations of the current $I$?\n\nThe resistance of the inductance and of the wires can be neglected."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Magnetic cord",
+     "problem": "Problem 4: Magnetic cord\n\nA thin, uniform, inextensible flexible cord of length $l$ is made of a ferromagnet, the magnetic moment of each of its small elements being directed along the cord.\n\nOne end of the cord is held at a distance $l_1$ ($l_1 > l$) from an infinite straight wire carrying an electric current $I$ (Fig. 13). Neglecting gravity and the cord's own magnetic field,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-1-4-fig1.png\n\nFig. 13\n\n1. find the distance between the ends of the cord in the equilibrium state;\n\n2. at what distance from the wire will the free end of the cord be?\n\nHint. The energy of a small element of the cord of length $\\Delta l$ in an external magnetic field of induction $\\vec{B}$ is given by the expression\n$$\\Delta W = -kB\\Delta l\\cos\\varphi,$$\nwhere $\\varphi$ is the angle between $\\vec{B}$ and the direction of the cord, and $k$ is a constant coefficient."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: The Little Mermaid",
+     "problem": "Problem 5: The Little Mermaid\n\nFar out in the open sea the water is as blue as the petals of the loveliest cornflower, and as clear as the purest glass; but it is very deep — so deep that no anchor can reach the bottom; one would have to stand many, many church towers one on top of another for them to reach out of the water from the bottom of the sea. Mermaids live at the very bottom.\n\nH.C. Andersen.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-1-5-fig1.jpg\n\nFig. 14\n\nOn a clear night a prince of height $H=1.8$ m was dreaming on the shore of the calm Pacific Ocean and looking at the moonlit path, which began at a horizontal distance $D_{\\mathrm{P}}=5$ m from him and had a length $L_{\\mathrm{P}}=50$ m. At the same time, near the shore, under water at a depth $H$, the Little Mermaid was lying, also dreaming of something.\n\n1. At what distance $D_{\\mathrm{M}}$ from herself (also horizontally) will the Little Mermaid see the moonlit path?\n\n2. What will be the length $L_{\\mathrm{M}}$ of this path?\n\nAssume that a light breeze creates fine, uniform ripples over the whole surface of the ocean. The refractive index of sea water is $n=1.35$. The angular size of the Moon can be neglected.\n\nHint.\n• Breeze (бриз), noun, masculine. A weak coastal wind blowing in the daytime from the sea to the land, and at night from the land to the sea.\n• Ripple (рябь), noun, feminine.\n1. Small waves on the surface of water. The lake was covered with ripples.\n2. A sensation of motley, of a multitude of multicoloured dots in the eyes. Ripples in the eyes.\n\nS.I. Ozhegov and N.Yu. Shvedova, Explanatory Dictionary of the Russian Language"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Dumbbell",
+     "problem": "Problem 1: Dumbbell\n\nOn a smooth horizontal table lies a dumbbell consisting of two pucks of small size with masses $m_1$ and $m_2$, connected by a light rigid rod (the deformations of the rod are small compared with its dimensions) of length $L$. At the moment of time $t=0$ a horizontal force $F$ of constant magnitude begins to act on the puck of mass $m_1$. The direction of the force always makes the same acute angle $\\alpha$ with the rod (Fig. 4). Take it as known that in such a motion the angular acceleration of the rod is constant.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-2-1-fig1.png\n\nFig. 4\n\nAt some moment of time $\\tau$ after the force began to act, the rod was momentarily unstressed (that is, neither compressed nor stretched).\n\n1. Find the angular velocity $\\omega$ of rotation of the rod at the moment of time $\\tau$.\n\n2. Find the angular acceleration of the rod $d\\omega/dt$.\n\n3. What is the time interval $\\tau$?\n\n4. Find the angle through which the rod has turned by the moment of time $\\tau$."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Motion along channels",
+     "problem": "Problem 2: Motion along channels\n\nSmall particles of equal masses $m$ and charges $q$ and $-q$ move without friction along narrow straight channels intersecting at a right angle and located in a horizontal plane (Fig. 5). It turned out that during the subsequent motion the distance $R$ between the particles remains constant.\n\nFind the total kinetic energy of the particles.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-2-2-fig1.png\n\nFig. 5"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Lord Kelvin's archive",
+     "problem": "Problem 3: Lord Kelvin's archive\n\nIn Lord Kelvin's archive a graph was found of a cyclic process carried out on a fixed amount of a monatomic ideal gas (Fig. 6). Over time the ink has faded, and the information about the directions of some processes has been lost. The information about what is plotted on the abscissa has also been lost. It is only known that one of the following quantities is plotted on the abscissa: volume, pressure, temperature or density, and that the scale is in arbitrary units. The molar heat capacity of the gas $C$ is plotted on the ordinate. Find the maximum possible efficiency of the cycle.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-2-3-fig1.png\n\nFig. 6"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Charged plate",
+     "problem": "Problem 4: Charged plate\n\nA thin flat dielectric plate in the shape of a rhombus with side $a$ and acute angle $60^\\circ$ is charged uniformly with surface charge density $\\sigma$. The potential at the vertex of the acute angle of the rhombus is $\\varphi_1$, at the vertex of the obtuse angle it is $\\varphi_2$ (Fig. 7). From the same dielectric a thin plate in the shape of an equilateral triangle $ABC$ with side $2a$ is cut out and charged with the same surface charge density (Fig. 8).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-2-4-fig1.png\n\nFig. 7, Fig. 8, Fig. 9\n\n[Рис. — Fig.]\n\n1. Determine the potential at the point $C$ of the triangular plate.\n\n2. Determine the potential at the point $D$ lying at the midpoint of a side of the triangular plate.\n\nNow a regular triangle with side $a$ is removed from the triangular plate $ABC$ (Fig. 9).\n\n3. Determine the potential at the point $D'$ of the \"holey\" plate.\n\n4. Determine the potential at the point $C'$ of the \"holey\" plate.\n\nNote. All the plates are far from each other and from other bodies."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Estimate and prove",
+     "problem": "Problem 5: Estimate and prove\n\nAn infinite grid with square cells is assembled from identical resistors. A current $I$ flows into the node $A$ from outside (Fig. 10). Estimate the current in the link $BC$ with an error of no more than 10%. Prove that the error of your estimate does not exceed 10%.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-2-5-fig1.png\n\nFig. 10"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Navigation",
+     "problem": "Problem 1: Navigation\n\nA ship moving uniformly in a straight line passed the point $A$, located at a distance $L=5$ km from the pier $B$ (Fig. 1). Some time $\\tau$ after this, two boats set off towards each other from the ship and from the pier. Redraw the figure on the answer sheet and, by constructions with a compass and an unmarked straightedge, determine the point at which the ship was at the moment the boats met, if it is known that:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-3-1-fig1.png\n\nFig. 1\n\n• the boats moved in straight lines with equal speeds equal to 3/8 of the speed of the ship;\n• the time of motion of the boats from their start to their meeting is also equal to $\\tau$;\n• when the boats met, the ship was again at the distance $L$ from the pier.\n\nDescribe the sequence of constructions and find the distance (in kilometres) that a boat travels in the time $\\tau$. There is no wind and no current.\n\nNote: in the figure the distance $AB$ is divided into 5 equal intervals."
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: Safe distance",
+     "problem": "Problem 2: Safe distance\n\nTwo cars travel one after the other along a straight section of road with the same speed $v$; when braking, one of them decelerates with acceleration $a_1$, and the other with acceleration $a_2$. If the driver of the front car starts braking, the driver of the rear car will react and press the brake pedal not immediately but with a delay $\\tau=1.0$ s. Depending on which of the cars is in front, the minimum safe distance that allows a collision between them to be avoided turns out to be either $L_1=5$ m or $L_2=40$ m. Determine the speed at which the cars are travelling."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Stepladder",
+     "problem": "Problem 3: Stepladder\n\nFigure 2 shows a simplified model of a stepladder consisting of a light support and a massive part, connected by a hinge and inclined at angles $\\beta=20^\\circ$ and $\\gamma$ to the vertical ($\\tan\\gamma=2\\tan\\beta$). The mass of the ladder is $m=20$ kg. Determine the force with which the parts of the ladder interact with each other. There is no friction in the hinge. The coefficient of friction $\\mu$ between the floor and the parts of the stepladder touching it is the same. At what minimum value of the coefficient $\\mu$ will the parts of the ladder not slide apart? The acceleration due to gravity is $g=10$ m/s$^2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-3-3-fig1.png\n\nFig. 2\n\n[легкая опора — light support.]"
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Four-cylinder heating",
+     "problem": "Problem 4: Four-cylinder heating\n\nA cylindrical calorimeter cup contains $m_0=200$ g of a liquid of density $\\rho_0$ at the temperature $t_0=0\\,^\\circ$C. In a thermostat at an unknown temperature $T$ there is a set of homogeneous cylinders made of the same metal of density $\\rho=6\\rho_0$. The diameters of all the cylinders are the same and practically coincide with (are slightly smaller than) the diameter of the cup. When a cylinder of mass $m$ is immersed in the calorimeter, thermal equilibrium is established at the temperature $t_1=10\\,^\\circ$C. If, instead of the first cylinder, a cylinder of mass $1.6m$ had been immersed in the calorimeter, the temperature $t_2=15\\,^\\circ$C would have been established. On immersion of a cylinder of mass $3m$ the temperature $t_3=30\\,^\\circ$C would have been established, and for a cylinder of mass $4m$ the temperature $t_4=45\\,^\\circ$C. The axis of the cylinders is vertical during immersion. Determine:\n\n1. the temperature $T$ of the cylinders;\n\n2. the fraction $\\gamma$ of the volume of the calorimeter cup filled with liquid;\n\n3. the mass $m$ of the first cylinder;\n\n4. the ratio of the specific heat capacities $c_0$ of the liquid and $c$ of the metal."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Triangular prism",
+     "problem": "Problem 5: Triangular prism\n\nAn electric circuit in the form of a triangular prism with diagonals in the lateral faces (Fig. 3) consists of conductors with the same resistance $R=12\\,\\Omega$ regardless of their length.\n\nDetermine the resistance of the circuit between the nodes: 1) $A$ and $A_1$; 2) $C$ and $A_1$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2019-3-5-fig1.png\n\nFig. 3"
+    }
+   ]
+  },
+  {
    "year": 2021,
    "problems": [
     {

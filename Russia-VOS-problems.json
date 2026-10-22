@@ -2,6 +2,116 @@
  "competition": "Russia — All-Russian Olympiad in Physics, final stage, theoretical round (grades 9–11)",
  "years": [
   {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Chain on a sphere",
+     "problem": "Problem 1: Chain on a sphere\n\nA uniform chain of length $L$ is fixed by one end at the top of a smooth spherical surface of radius $R$, with $L < \\pi R/2$ (Fig. 11). The upper end of the chain is released.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-1-1-fig1.png\n\nFig. 11\n\n1. With what acceleration $a$ (in magnitude) will each element of the chain move immediately after it is released?\n\n2. At which point of the chain will the tension force $T$ be maximal immediately after release?\n\nConsider the case when the length of the chain $L$ is equal to $2\\pi R/6$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Motion without slipping",
+     "problem": "Problem 2: Motion without slipping\n\nA long board of mass $m_1$ rests on the smooth horizontal surface of a table; a block of mass $m_2$ is placed on the right end of the board. The block is connected to the wall by a light unstretched spring of stiffness $k$. A load of mass $M$ is attached to the board by means of a light inextensible thread passed over a pulley (Fig. 12). At the initial moment the system is at rest. There is dry friction between the board and the block. The coefficient of friction between the board and the block is $\\mu$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-1-2-fig1.png\n\nFig. 12\n\nWhat distance $L$ will the block travel by the moment when slipping between it and the board begins? Investigate how the result depends on $\\mu$. Find the time $t$ of motion of the block during which it covers the distance $L$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: Heat engine",
+     "problem": "Problem 3: Heat engine\n\nFor a heat engine operating on the Carnot cycle, the temperature of the heater is $T_1 = 800\\,\\mathrm{K}$, and the temperature $T$ of the cooler depends on the useful power $P$ of the engine. The cooler is a massive body, thermally insulated from the surroundings, which by means of heat conduction transfers to a cold reservoir at temperature $T_2 = 300\\,\\mathrm{K}$ all the heat energy $Q_2$ received during the time $\\Delta t$ of operation of the engine (Fig. 13). The heat conduction obeys the law $Q_2 = \\alpha(T - T_2)\\Delta t$, where $\\alpha = 1.0\\,\\mathrm{kW/K}$.\n\n1. Express the power $P$ of the heat engine in terms of the temperatures $T_1$, $T$ and $T_2$.\n\n2. Calculate the temperature $T_m$ of the cooler at which the power of the engine is maximal.\n\n3. Determine this maximal power $P_{\\max}$.\n\n4. Find the efficiency $\\eta$ of the heat engine when it operates at maximal power.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-1-3-fig1.png\n\n[Labels: Тепловая машина = Heat engine; Нагреватель = Heater; Рабочее вещество = Working substance; Холодильник = Cooler; Холодный резервуар = Cold reservoir.]\n\nFig. 13"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Motion of charged particles",
+     "problem": "Problem 4: Motion of charged particles\n\nIn free space, 4 point masses $m$ are located on a circle of radius $R_0$ at the vertices of an inscribed square. Two of them carry the charge $+q$, and the other two the charge $-q$ (Fig. 14). At the initial moment these material points are given velocities equal in magnitude, directed along the tangent to the circle clockwise.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-1-4-fig1.png\n\nFig. 14\n\nIt is known that the minimal distance from any of the point masses to the centre $O$ of the initial circle reached during the motion is equal to $R_1$ ($R_1 < R_0$). Assume that at any moment of time the charges are at the vertices of a square with its centre at the point $O$. The gravitational forces can be neglected.\n\n1. Perform the necessary calculations and determine the trajectories of motion of the material points.\n\n2. Determine the characteristic time of motion of the material points."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: Unipolar inductor",
+     "problem": "Problem 5: Unipolar inductor\n\nA unipolar inductor is a rapidly rotating permanent magnet in the form of a disc. The disc is made of a magnetic alloy capable of producing a strong magnetic field, and it is coated with a thin conducting layer of nickel.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-1-5-fig1.png\n\nFig. 15\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-1-5-fig2.png\n\nFig. 16\n\nWhen the disc rotates, a potential difference arises between the rotation axis and the lateral surface, which can be measured with a stationary voltmeter (Fig. 15). If, on the other hand, a battery is connected to the rotation axis and the lateral surface, the magnet will start to rotate rapidly, having turned into an electric motor. In just the same way, if the shaft of an ordinary electric motor is rotated rapidly, it turns into a generator, and conversely, if a voltage is applied to an electric generator, it turns into an electric motor.\n\nFigure 16 shows the scheme of such a really working unipolar electric motor, whose rotor is a strong permanent magnet in the form of a disc of radius $r_0 = 2\\,\\mathrm{cm}$ mounted on an axle. When a battery with EMF $\\mathscr{E} = 1.5\\,\\mathrm{V}$ is connected by means of sliding contacts, the disc starts to rotate rapidly.\n\n1. What will the stationary voltmeter in Fig. 15 show at a rotation frequency of the disc $\\nu = 3000\\,\\mathrm{rev/min}$? What is the polarity of this potential difference? Indicate the polarity in Fig. 15.\n\n2. Neglecting friction, estimate the limiting rotation frequency (in rev/min) of the magnetized disc (the rotor of the unipolar motor in Fig. 16). Indicate the direction of rotation of the rotor for the polarity of the battery and the direction of the vector $\\vec{B}$ given in Fig. 16. The magnitude of the vector $\\vec{B}$ is constant and equal to $B = 1\\,\\mathrm{T}$.\n\nNote. To simplify the calculations, assume that in the conducting nickel layer the magnetic induction vector $\\vec{B}$ is perpendicular to the surface of the disc (Fig. 15). Also, to simplify, assume that the current in the conducting layer flows along the radius."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Sliding of a load on a board",
+     "problem": "Problem 1: Sliding of a load on a board\n\nOn a long smooth horizontal table lies a board of mass $m_2$ and length $L$, at the left end of which there is a load of mass $m_1$. The coefficient of friction between the load and the board is $\\mu$. There is no friction between the board and the table. The load $m_1$ is connected to a load $M$ by a long weightless thread passed over a weightless pulley (Fig. 5). The system starts to move from rest.\n\n1. For what values of the coefficient of friction $\\mu$ will the load $m_1$ and the board $m_2$ move as a single whole (without slipping)?\n\n2. Find the minimal value of the coefficient of friction $\\mu_{\\min}$ at which motion without slipping is possible.\n\n3. Let $\\mu = \\mu_{\\min}/2$. In this case the load $m_1$ and the board $m_2$ will move with different accelerations. After what time $t$ from the start of the motion will the load slide off the board?\n\nAssume that $m_1 = M = 1\\,\\mathrm{kg}$, $m_2 = 2\\,\\mathrm{kg}$. Take the length of the board $L$ equal to $1\\,\\mathrm{m}$. It is known that the length of the load is much smaller than $L$. Take the free-fall acceleration equal to $g = 10\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-2-1-fig1.png\n\nFig. 5"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Dissociation",
+     "problem": "Problem 2: Dissociation\n\nUnder normal conditions oxygen consists of diatomic molecules $\\mathrm{O_2}$. When the temperature is raised, some of the molecules may dissociate, as a result of which two $\\mathrm{O}$ atoms are formed from each $\\mathrm{O_2}$ molecule. Figure 6 shows two identical cyclic processes 1 and 2 in the coordinates $(\\rho, p)$, where $\\rho$ is the density of the gas and $p$ is the pressure. The dimensionless quantities $p/p_0$ and $\\rho/\\rho_0$ are plotted on the axes, where $p_0$ and $\\rho_0$ are some scale factors. In the first experiment the working substance was molecular oxygen $\\mathrm{O_2}$ (low temperatures). The second experiment was carried out at considerably higher temperatures. In it, part of the oxygen was in the molecular ($\\mathrm{O_2}$) state and part in the atomic ($\\mathrm{O}$) state, and the degree of dissociation did not change during the experiment. The mass of the gas was the same in both experiments. It is known that the ratio of the maximal temperatures in these experiments is $k_{\\max} = T_{2,\\max}/T_{1,\\max} = 5.0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-2-2-fig1.png\n\nFig. 6\n\n1. Determine the degree of dissociation $\\alpha$ (the fraction of dissociated molecules) of the oxygen molecules in the second experiment.\n\n2. Determine the ratio $k_{\\min}$ of the minimal temperatures in these experiments."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Puck on an inclined plane",
+     "problem": "Problem 3: Puck on an inclined plane\n\nA small puck was pushed up along an inclined plane with angle of inclination $\\alpha$ with initial velocity $v_0$ (Fig. 7).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-2-3-fig1.png\n\nFig. 7\n\n1. After what time $t_0$ will the puck return to the initial point in the absence of friction?\n\n2. For what values of the coefficient of friction $\\mu$ will the puck return back?\n\n3. Determine the time $t_\\mu$ of return of the puck to the initial point in the presence of friction.\n\n4. For what value of the coefficient $\\mu$ will the time $t_\\mu$ be equal to $t_0$, the time of return of the puck in the absence of friction?"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Varistor",
+     "problem": "Problem 4: Varistor\n\nIn some cases, to protect electrical devices from large changes of the input voltage, nonlinear semiconductor elements, varistors, are used; they are connected in parallel with the device, whose role in Fig. 8 is played by the load resistance $R_{\\mathrm{L}}$. Here $R_{\\mathrm{L}} = 10\\,\\Omega$, $R = 10\\,\\Omega$ is the ballast resistance, B is the varistor, whose current–voltage characteristic is shown in Fig. 9, $I$ is the reading of the ammeter A, and $\\mathscr{E}$ is the input voltage. In the nominal mode the ammeter shows the current $I = I_0 = 1.0\\,\\mathrm{A}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-2-4-fig1.png\n\nFig. 8\n\n[In the figure, $R_{\\text{н}}$ is the load resistance $R_{\\mathrm{L}}$ and the circle В is the varistor.]\n\n1. Determine the input voltage $\\mathscr{E}_1$ in the nominal mode, as well as the voltage $U_{\\mathrm{V}1}$ across the varistor and the current $I_{\\mathrm{V}1}$ flowing through it.\n\n2. Let the input voltage increase by a factor of 2 and become $\\mathscr{E}_2 = 2\\mathscr{E}_1$. Determine by how much the voltage across the load has increased and by how much the current flowing through the varistor has changed.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-2-4-fig2.png\n\nFig. 9\n\n[Axes: $I_{\\text{в}}$, А is the current through the varistor $I_{\\mathrm{V}}$ in amperes; $U_{\\text{в}}$, В is the voltage across the varistor $U_{\\mathrm{V}}$ in volts.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Circuit with two capacitors",
+     "problem": "Problem 5: Circuit with two capacitors\n\n1. In an electric circuit consisting of a battery with EMF $\\mathscr{E}$, two capacitors of capacitances $2C$ and $C$ and a resistor of some resistance (Fig. 10), the switch $\\mathrm{K}_1$ is closed. To what voltage will the capacitors be charged? Neglect the internal resistance of the battery.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-2-5-fig1.png\n\nFig. 10\n\n2. After the capacitors have been fully charged, the switch $\\mathrm{K}_2$ is closed, and it is opened when the current through the battery has decreased by a factor of 2 compared with the current through it immediately after the switch $\\mathrm{K}_2$ was closed. Find the amount of heat $Q$ released in the circuit during the time from the moment the switch $\\mathrm{K}_2$ is closed until the moment it is opened."
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Density of oil",
+     "problem": "Problem 1: Density of oil\n\nIn a heavily polluted pond the thickness of the oil layer on the surface of the water is $d = 1.0\\,\\mathrm{cm}$. A light cylindrical cup of mass $m = 4.0\\,\\mathrm{g}$ with a bottom area $S = 25\\,\\mathrm{cm^2}$ was set floating on the surface of the pond. The cup was at first empty, and its bottom was above the middle of the oil layer. Then oil was poured into it so that the oil levels inside and outside the cup became equal. In both cases the bottom was at the same distance $a$ from the water level (Fig. 1). Determine the density of the oil $\\rho_1$, given that the density of water is $\\rho_0 = 1.0\\,\\mathrm{g/cm^3}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-3-1-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: Manoeuvres of ships",
+     "problem": "Problem 2: Manoeuvres of ships\n\nTwo ships move with constant velocities equal in magnitude, $v_1 = v_2 = v$. At some moment the distance between them turned out to be equal to $L$, and their relative position was as shown in Fig. 2.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-3-2-fig1.png\n\nFig. 2\n\n1. Determine the minimal distance between the ships during their subsequent motion.\n\n2. Find the time $\\tau$ after which the ships will be at the minimal distance from each other.\n\n3. At the moment when the ship $B$ crosses the line of motion of the ship $A$, a motor boat departs from the side of the ship $A$; it must deliver to the ship $B$ a package with an important message. Determine the minimal time $\\Delta t$ after the departure of the boat in which the package will be delivered on board the ship $B$, if the speed $u$ of the boat is also equal to $v$."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Melting of ice",
+     "problem": "Problem 3: Melting of ice\n\nIn a large flat ice floe at a temperature of $0\\,^{\\circ}\\mathrm{C}$, a hole of volume $V_0 = 1000\\,\\mathrm{cm^3}$ was made and covered with a foam-plastic (heat-insulating) lid with a small opening (Fig. 3). What maximal mass $m$ of water at a temperature of $100\\,^{\\circ}\\mathrm{C}$ can be gradually poured through the opening into the hole? It is known that the specific heat capacity of water is $c_0 = 4.19\\,\\mathrm{kJ/(kg\\cdot{}^{\\circ}C)}$, the density of water is $\\rho_0 = 1.00\\cdot10^3\\,\\mathrm{kg/m^3}$, the density of ice is $\\rho_{\\mathrm{i}} = 0.90\\cdot10^3\\,\\mathrm{kg/m^3}$, and the specific heat of fusion of ice is $\\lambda = 334\\,\\mathrm{kJ/kg}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-3-3-fig1.png\n\n[Labels: крышка = lid; отверстие = opening; лёд = ice.]\n\nFig. 3"
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Electric hotplate",
+     "problem": "Problem 4: Electric hotplate\n\nAn electric hotplate has two coils (two heating elements), which can be connected to the mains either separately, or by connecting them in series or in parallel. We shall assume that the resistances of the coils do not depend on temperature.\n\nIt turned out that if only the first coil is connected to the mains, the hotplate heats up to the temperature $t_1 = 180\\,^{\\circ}\\mathrm{C}$, and if only the second coil is connected, the hotplate heats up to the temperature $t_2 = 220\\,^{\\circ}\\mathrm{C}$.\n\nTo what temperature will the hotplate heat up when:\n\n1. the coils are connected in series,\n\n2. the coils are connected in parallel.\n\nHint. The heat flow from the hotplate to the surroundings is proportional to the temperature difference between the hotplate and the air in the room. The air temperature is to be considered constant and equal to $t_0 = 20\\,^{\\circ}\\mathrm{C}$."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Electric bridge",
+     "problem": "Problem 5: Electric bridge\n\nAn electric circuit consists of five resistors and two ideal ammeters (Fig. 4). The resistances of the resistors $R_0$, $R_1$ and $R_2$ are given, and the resistance $R_3$ is unknown. Find the reading of the ammeter $\\mathrm{A}_2$ if the current $I_1$ flowing through the ammeter $\\mathrm{A}_1$ is known.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2010-3-5-fig1.png\n\nFig. 4"
+    }
+   ]
+  },
+  {
    "year": 2011,
    "problems": [
     {

@@ -2,6 +2,336 @@
  "competition": "Russia — All-Russian Olympiad in Physics, final stage, theoretical round (grades 9–11)",
  "years": [
   {
+   "year": 2014,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Stretching a spring",
+     "problem": "Problem 1: Stretching a spring\n\nA thin weightless spring, stretched by some amount $\\Delta l_1$, was fixed on a smooth horizontal table at points $A$ and $B$. The ratio of the periods of small transverse (Fig. 7) and longitudinal (Fig. 8) oscillations of a small weight placed at the middle of the spring is $n_1=4$. After the deformation of the spring was increased by $\\Delta x=3.5$ cm, the ratio of the periods became $n_2=3$. Find the length $l_0$ of the unstretched spring, and also the value of the deformation $\\Delta l_1$ in the first case and of the deformation $\\Delta l_2$ in the second case. Assume that under the conditions of the experiment the spring obeys Hooke's law.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-1-1-fig1.png\n\nFig. 7\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-1-1-fig2.png\n\nFig. 8"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Nanomelting",
+     "problem": "Problem 2: Nanomelting\n\nThe melting temperature of a bulk sample of tin is $t_0=232\\,^\\circ\\mathrm{C}$. The melting temperature of very small tin spheres of diameter $d=20$ nm turns out to be 25 degrees lower and equal to $t_d=207\\,^\\circ\\mathrm{C}$. This is the so-called size effect; moreover, it has been established experimentally that the melting temperature depends not only on the size but also on the shape of the sample. At what temperature will a tin foil of thickness $h=d$ melt?\n\nAssume that the tin atoms in the surface layer, of thickness 2–3 interatomic distances, possess some excess energy compared with the energy of the atoms in the bulk, and that the heat of fusion $\\lambda$ per atom is proportional to the mean binding energy $U$ of the atoms in the substance and to the absolute temperature $T$ of the phase transition (melting): $\\lambda \\sim U \\sim T$.\n\nThe molar mass of tin is $\\mu=119$ g/mol. The density of tin is $\\rho=7.31$ g/cm$^3$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: Lord Kelvin's figure eight",
+     "problem": "Problem 3: Lord Kelvin's figure eight\n\nIn Lord Kelvin's archive a graph was found of a cyclic process carried out on an unknown amount $\\nu$ of nitrogen. In the coordinates $(C,T)$, where $C$ is the heat capacity of the gas and $T$ is the temperature, the graph of the cycle consists of four segments $abefcbeda$ (Fig. 9). Unfortunately, the position of the origin of coordinates has been lost. Explanatory notes indicated that $C_d=1.000$ J/K, $C_a=0.715$ J/K, and also that\n$$T_c-T_b=2(T_b-T_a)=200\\ \\mathrm{K}, \\qquad \\text{and} \\qquad \\frac{p_c}{p_a}=\\frac{V_c}{V_a}.$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-1-3-fig1.png\n\nFig. 9\n\n1. Find the work $A$ done by the gas per cycle and the efficiency $\\eta$ of the cycle.\n\n2. Determine the values of the temperatures $T_a$, $T_b$ and $T_c$.\n\n3. Draw the graph of the cycle in the coordinates $(p,V)$ and determine the amount of substance $\\nu$.\n\nNote. A process with constant heat capacity $C$ is called polytropic, and for it the relation\n$$pV^n=\\mathrm{const}$$\nholds, where $n$ is a constant, the polytropic index."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Electric shock",
+     "problem": "Problem 4: Electric shock\n\nTwo identical steel balls of radius $r=5$ mm and mass $m=4$ g are suspended from a horizontal non-conducting ceiling on thin metal wires of length $l=1$ m at a distance $d=10$ cm from each other (Fig. 10). At the initial moment the balls are uncharged and at rest. The free-fall acceleration is $g=9.8$ m/s$^2$. The electric constant is $\\varepsilon_0=8.85\\cdot 10^{-12}$ F/m.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-1-4-fig1.png\n\nFig. 10\n\n1. Determine the period $T$ of small free oscillations of the balls.\n\n2. A voltage source $U$ with a large internal resistance $R=10^{15}$ $\\Omega$ is connected to the points where the wires are attached. At what value $U=U_{\\min}$ will the balls collide after some time?\n\n3. Find the time $t_0$ after which the potential difference between the balls reaches the value $U_{\\min}$ if $U=U_0=1.0\\cdot 10^{6}$ V."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: In Snellius's archive",
+     "problem": "Problem 5: In Snellius's archive\n\nIn Snellius's archive a drawing of an optical scheme was found, showing a lens, the position of a point light source $S_0$ and of its image $S_1$. Over time the ink has faded, and only the position of the optical axis of the lens, the source $S_0$, the image $S_1$ and one of the foci $F$ remain visible on the scheme (Fig. 11). By a construction with compass and unmarked straightedge, restore the possible positions of the lens.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-1-5-fig1.png\n\nFig. 11"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Catapult",
+     "problem": "Problem 1: Catapult\n\nA toy catapult can shoot two balls at once, releasing them with initial velocities $v_0$ equal in magnitude but directed at different angles to the horizontal. The angle at which one of the balls is launched can be changed arbitrarily. The construction of the catapult is such that after a shot from a horizontal plane both balls land at the same point of this plane. After a large number of tests it was found that the maximum possible distance between the balls during the time when both were in the air reached $L_{\\max}=19$ m. Determine the initial speed $v_0$ of the balls. Take $g=10$ m/s$^2$."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Reel with wire",
+     "problem": "Problem 2: Reel with wire\n\nA light wire is wound on a cylindrical reel which is put on a horizontal rod (Fig. 4). For the reel to rotate uniformly on the rod, it is necessary to pull the end of the wire vertically downwards with a force $F_1$ or horizontally, along the tangent to the lower edge of the reel, with a force $F_2$. What is the mass $m$ of the reel?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-2-2-fig1.png\n\nFig. 4"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Cooling of helium",
+     "problem": "Problem 3: Cooling of helium\n\nWhen one mole of helium was cooled from an initial temperature $T_0$ to some final temperature $T_x$ in a process with heat capacity $C$ directly proportional to the temperature $T$, the gas did zero work. At the very beginning of the cooling process the pressure of the gas changed in direct proportion to its volume. Find the value of the positive work of the gas in this process and the ratio $T_x/T_0$."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Source of stability",
+     "problem": "Problem 4: Source of stability\n\nA stabilized current source is able to deliver a constant current $I_0$ regardless of the load connected to it. The source is connected into the circuit shown in Figure 5. All elements of the circuit may be considered ideal; their parameters are indicated in the figure. Before the switch was closed, the capacitor was uncharged. At some moment the switch was closed. What amount of heat $Q$ was released in the resistor $R$ after the switch was closed?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-2-4-fig1.png\n\nFig. 5"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Will they separate or not?",
+     "problem": "Problem 5: Will they separate or not?\n\nTwo point masses with masses $m$ and $M$ ($M>m$) and equal positive charges $q$ are at a distance $l$ from each other in a uniform electric field $E$ directed from $m$ to $M$ (Fig. 6). At the initial moment the velocities of the points are 0. Find the maximum distance between the points during their subsequent motion. Assume that the points move along one straight line all the time.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-2-5-fig1.png\n\nFig. 6"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Extreme race",
+     "problem": "Problem 1: Extreme race\n\nA racing car (a Formula car) covers a straight test section of the track with average speed $v_{\\mathrm{av}}$, and over this whole section it moves in one and the same direction with uniform acceleration. Calculate the maximum and minimum possible speeds of the car ($v_{\\max}$ and $v_{\\min}$, respectively) at the middle of the test section of the track."
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: On the balcony",
+     "problem": "Problem 2: On the balcony\n\nThe experimenter Glück throws a ping-pong ball of mass $m$ vertically upwards with speed $v_0$ from the balcony of the 17th floor. During the flight the ball is acted on by a drag force directly proportional to the speed. Before hitting the ground the ball moved with constant speed $v_2$. Find the speed $v_{\\max}$ of the ball at which its kinetic energy changes most rapidly during the motion."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Underwater work",
+     "problem": "Problem 3: Underwater work\n\nA diving bell in the form of a cylinder without a bottom, partially filled with air, is under water. To keep the bell from floating up, it was attached by a cable to the bottom of the reservoir. A load in the water is tied to the bell by a rope (Fig. 1). The horizontal cross-sectional area of the bell is $S=4$ m$^2$; the volume of air in it is $V=8$ m$^3$ at pressure $p=1.5\\cdot 10^5$ Pa. When the load inside the bell is lifted above the water level, the pressure increases by $\\Delta p=250$ Pa, and the cable remains taut. Find the change in the tension of the cable and of the rope. The density of water is $\\rho=10^3$ kg/m$^3$, the free-fall acceleration is $g=10$ m/s$^2$. The air in the bell obeys the Boyle–Mariotte law: $pV=\\mathrm{const}$, where $p$ is the pressure and $V$ is the volume of air in the bell.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-3-3-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Icicle on a thread",
+     "problem": "Problem 4: Icicle on a thread\n\nA thread is passed through a thin hole running along the vertical axis of a cylindrical icicle; at the end of the thread a ball made of a material with a very high thermal conductivity is fixed. At the beginning of the experiment the ball is heated to some temperature $t_1$, and the temperature of the icicle equals the temperature of the surrounding air $t_0=0\\,^\\circ\\mathrm{C}$. Because of the melting of the ice, the icicle moves down (Fig. 2), and the melt water flows out in the form of drops at temperature $t_0$. A cylindrical channel of area $S=2$ cm$^2$ is left behind the ball.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-3-4-fig1.png\n\nFig. 2\n\n1. Find the initial temperature $t$ of the ball if during the experiment the icicle stopped moving down when the ball had melted a channel of depth $H=10$ cm.\n\n2. Determine the speed $v_0$ of the icicle at the initial stage of the experiment if at the moment when it had moved down by two thirds of the depth $H$ its speed was $v_2=0.1$ mm/s.\n\nAssume that the heat transfer power is proportional to the difference between the temperatures of the ball and the ice, and that all of it goes into melting the ice. The heat capacity of the ball is $C=59.4$ J/$^\\circ$C. The specific heat of fusion of ice is $\\lambda=330$ kJ/(kg$\\cdot^\\circ$C). The density of ice is $\\rho=900$ kg/m$^3$."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Source with a computer",
+     "problem": "Problem 5: Source with a computer\n\nThe experimenter Glück constructed a current source with an adjustable output voltage. He built into the device a minicomputer showing the charge that has flowed through the source and the average current (the ratio of the total charge that has flowed to the operating time of the source). Glück connected a resistor to the source and, having switched on the setup, began to adjust the voltage. As a result he managed to record the dependence of the average current through the resistor on time (Fig. 3). The graph on an A4 sheet should be handed out to you together with the problem statement.\n\nDuring the experiment the computer failed, and the dependence of the charge that has flowed on time was lost.\n\n1) Reconstruct the dependence $q(t)$ of the charge that has flowed through the source on time and plot its graph on graph paper;\n\n2) Determine the resistance $R$ of the resistor if it is known that at point A the power released in it was $N_A=0.16$ W;\n\n3) Determine the maximum power released in the resistor during the experiment.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2014-3-5-fig1.png\n\nFig. 3 [Axes: $I_{\\mathrm{av}}$ (labelled I_ср), mA; $t$, s (labelled t,с).]"
+    }
+   ]
+  },
+  {
+   "year": 2015,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Oscillations",
+     "problem": "Problem 1: Oscillations\n\nA positive electric charge is uniformly distributed over the surface of a fixed dielectric hemisphere. The symmetry axis of the hemisphere is vertical. At the point O, which coincides with the centre of curvature of the hemisphere, a simple pendulum is fixed, in the form of a small ball with charge $q_1$ hanging on a thread whose length is less than the radius of the hemisphere (Fig. 9). The period of harmonic oscillations of the ball near the equilibrium position in which the thread is vertical is equal to $T$. After the charge of the ball was changed so that it became equal to $q_2$, with $|q_2/q_1| = 2$, the period of harmonic oscillations of the ball near the new equilibrium position, in which the thread is also vertical, again turned out to be equal to $T$. Find the numerical value of $T$ if it is known that the period of harmonic oscillations of the pendulum in the uncharged bowl is $T_0 = 1.0~\\mathrm{s}$. Disregard the field of the polarization charges.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-1-1-fig1.png\n\nFig. 9"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Conducting cube",
+     "problem": "Problem 2: Conducting cube\n\nA cube is made of six identical conducting plates with identical holes drilled at their centres. Identical small, highly conducting balls, to which wires can be attached, are inserted at the vertices of the cube. The diameters of the holes are such that the electrical resistance of the cube between its adjacent vertices A and B turned out to be $R_{AB} = r = 32~\\mathrm{k\\Omega}$. If a current $I = 1~\\mathrm{mA}$ is passed through these vertices in the direction shown in the figure, then the potential difference between the point M (the midpoint of the edge AB) and the vertex C will be $U_{MC} = \\varphi_M - \\varphi_C = U = 2.0~\\mathrm{V}$. Determine the resistance $R_{AC}$ between the points A and C. How will the resistances $R_{AB}$ and $R_{AC}$ change if, without changing the thickness of the plates, their dimensions and the size of the holes are increased by a factor of 2?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-1-2-fig1.png\n\nFig. 10"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: Jet tube",
+     "problem": "Problem 3: Jet tube\n\nIn the middle of a long tube, open at both ends, a heater in the form of a thin tungsten mesh is fixed perpendicular to its axis. The system is in air at the temperature $t = 20~^\\circ\\mathrm{C}$; its total mass is $M = 17~\\mathrm{g}$. At the initial moment the tube is given a velocity $v_0 = 1~\\mathrm{cm/s}$ along its axis, a power $q = 20~\\mathrm{W}$ begins to be supplied to the heater, and the tube begins to accelerate. What speed will the tube reach over an acceleration distance $S = 20~\\mathrm{m}$? Neglect air resistance. Consider the pressure inside the tube to be the same everywhere; disregard gravity and heat exchange through the wall of the tube. Assume that the change in the kinetic energy of the air flow on crossing the mesh is small compared with the change in its internal energy. Consider air to be a diatomic gas with molar mass $\\mu = 29~\\mathrm{g/mol}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Space object",
+     "problem": "Problem 4: Space object\n\nA space object moving along a certain straight line with constant velocity emits periodic radio pulses. An astronomer established that during the observation time $\\Delta t$ the apparent direction to this object changed by a small angle $\\Delta\\varphi$, and the period between the moments of arrival of the radio pulses changed from $T$ to $T + \\Delta T$, where $\\Delta T \\ll T$. Find the distance from the observer to the object. The speed of the radio pulses is equal to the speed of light $c$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: «Milli-car»",
+     "problem": "Problem 5: «Milli-car»\n\nA very small car, the size of an ant, moves over a flat horizontal surface along the principal optical axis of a converging lens with focal length $f$. A point light source $S$, located on the principal optical axis of the lens, is fixed on its roof. The speed of the car varies in such a way that the speed of the image $S_1$ of the point source $S$ remains constant and equal to $v_0$. Determine at what distances from the lens such a motion of the «car» is possible. The coefficient of friction between the wheels of the car and the road is $\\mu$."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Elastic system",
+     "problem": "Problem 1: Elastic system\n\nOn a smooth horizontal surface there is the construction shown in Figure 6 (top view). One end of a spring of stiffness $k_1$ is attached to a load of mass $m$, the other to a stick П. One end of a spring of stiffness $k_2$ is fixed in place, and the other is attached to the same stick П. A force $F$ acts on the stick all the time, remaining constant in magnitude and direction whatever happens. At first the load $m$ is held at rest, and then it is released without a push.\n\n1. Find the maximum speed of the load.\n\n2. Find the elongation of the first spring at the moment when its length is minimal.\n\nAssume that the mass of the springs and of the stick is zero, the lengths of the springs in the undeformed state are equal, the extensions of the springs at the moment the load is released are also equal, the force $F$ is applied to the stick in such a way that it moves translationally (does not rotate during the motion), and there is no friction.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-2-1-fig1.png\n\nFig. 6\n\n[П — the stick]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Exploring a planet",
+     "problem": "Problem 2: Exploring a planet\n\nA descent module is landing on the surface of an exotic planet. During the descent the dependence of the pressure $p$ in the atmosphere of the planet on the distance $z$ to the surface of the planet was measured (graph on a separate sheet). A temperature measurement made at the height $z_1 = 5~\\mathrm{km}$ gave the value $T_1 = 250~\\mathrm{K}$. Calculate the temperature $T_0$ at the surface of the planet. Assume that the radius of the planet $R \\gg z_1$. The atmosphere consists of carbon dioxide.\n\nNote. The graph on the separate sheet must be handed in together with your solution.\n\n[Editorial note: the graph on the separate sheet is not included in the official task file.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Thermoelectrodynamics",
+     "problem": "Problem 3: Thermoelectrodynamics\n\nTwo discs, over which charges $q$ and $-q$ are uniformly distributed, can move without friction in a long non-conducting thermally insulated cylinder placed horizontally (Fig. 7). The distance between the discs is much smaller than their radius. Between the discs there is a certain amount of helium; behind the discs there is no gas; the system is in equilibrium. The charges of the discs are instantaneously halved, after which one waits for the system to come to equilibrium. Neglecting heat exchange, find by what factor the temperature of the gas and the distance between the discs will change.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-2-3-fig1.png\n\nFig. 7"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Wall with a hole",
+     "problem": "Problem 4: Wall with a hole\n\nThree identical blocks move with identical velocities $\\vec{v}$. A long light elastic cord connecting the first and second blocks passes through a hole in a massive wall and over a light pulley attached to the third block (Fig. 8). At the initial moment of time the cord is not stretched. Determine the velocities of the blocks after the elastic collision of the first block with the wall at the moment of time when the cord turned out to be\n\n1. maximally stretched;\n\n2. again slack.\n\nDisregard friction in the system. Assume that until the cord becomes slack again, load 2 does not collide with the pulley and load 1 does not hit the wall.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-2-4-fig1.png\n\nFig. 8"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Nonlinearity",
+     "problem": "Problem 5: Nonlinearity\n\nSome elements of electric circuits are nonlinear, that is, the current flowing through them is not proportional to the applied voltage. Suppose that we have an incandescent lamp for which the current $I_{\\mathrm{L}}$ is proportional to $\\sqrt{U_{\\mathrm{L}}}$, a diode for which $I_{\\mathrm{D}}$ is proportional to $U_{\\mathrm{D}}^2$, and a source of constant voltage. Both the lamp and the diode have the same property: if either of these elements is connected to the source as a load, the power of heat losses in the load will be the maximum possible for the given source. If the lamp and the diode, connected in series, are connected to the source, the power of losses in such a load will be $P_1 = 7.2~\\mathrm{W}$. What will the power be if the lamp and the diode connected in parallel are attached to the source as the load?"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Train acceleration",
+     "problem": "Problem 1: Train acceleration\n\nThe driver set the on-board computer of a suburban electric train so that it showed the average speed $v$ over the section travelled between adjacent poles supporting the overhead contact wire. The distances between any two adjacent poles are the same. The train departs from the platform «Novodachnaya» and accelerates with constant acceleration. After some time the driver saw that the computer showed the speed $v_1 = 20~\\mathrm{km/h}$. On the next section the speed turned out to be $v_2 = 30~\\mathrm{km/h}$. What was the instantaneous speed $u$ of the train at the boundary between the first and second sections?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-3-1-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: Pushed and released",
+     "problem": "Problem 2: Pushed and released\n\nA cart is connected to a wall by a rigid rod. A spring is attached to its stop, and the other end of the spring is connected to a block (Fig. 2). Initially the spring is undeformed. For some time a constant horizontal force $F$, directed along the cart, acts on the block. After this force stops acting, the block continues to move towards the stop for some time and comes back, stopping at the initial point. The friction force exerted by the cart on the block is equal to $f$. Disregard friction in the wheel axles.\n\n1. With what force $N$ did the cart press on the rod at the moment when the force $F$ stopped acting?\n\n2. Find the greatest value $N_{\\max}$ of the force with which the cart presses on the rod.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-3-2-fig1.png\n\nFig. 2\n\n[упор — stop]"
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Heat in the refrigerator",
+     "problem": "Problem 3: Heat in the refrigerator\n\nOn hot summer days, when the temperature in the room had settled at $t_0 = 30^\\circ\\mathrm{C}$, the experimenter Glück noticed that the operating time of the refrigerator motor had become twice the idle time. Having decided to optimize its operation, the experimenter used the regulator to change the temperature inside the refrigerator by $\\Delta\\theta = 9~^\\circ\\mathrm{C}$. As a result, the idle time became twice the operating time. Determine:\n\n1. To what temperatures $t_1$ and $t_2$ was the regulator set at the beginning and at the end of the experiment?\n\n2. To what internal temperature $t_m$ must the regulator be set for the refrigerator motor to start working without interruption?\n\n3. At what temperature $t_3$ set by the regulator will the switching-on frequency of the refrigerator become maximal?\n\nHint: The regulator sets the temperature $t$ inside the refrigerator within a small interval $t \\pm \\Delta t/2$. When the temperature inside becomes equal to $t + \\Delta t/2$, the refrigerator motor switches on; when it falls to $t - \\Delta t/2$, it switches off. Assume that:\n\n1) the power of the heat supplied is proportional to the difference between the temperature inside the refrigerator and that of the surroundings and is constant over the whole interval of internal temperatures $t \\pm \\Delta t/2$.\n\n2) the thermal power removed by the motor from the internal volume of the refrigerator during its operation does not depend on the temperatures.\n\n3) the change of the temperature in the room can be neglected."
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Non-ideal diodes",
+     "problem": "Problem 4: Non-ideal diodes\n\nThe electric circuit whose diagram is shown in Figure 3 contains three identical resistors of resistance $R_1 = R_2 = R_3 = R$ and three identical diodes $D_1$, $D_2$, $D_3$. The dependence of the current flowing through a diode on the voltage across it is shown in Figure 4. Determine the current $I_{\\mathrm{A}}$ through the ammeter as a function of the voltage $U_{\\mathrm{AB}}$ between the points A and B. The ammeter is ideal. Plot the graph of $I_{\\mathrm{A}}$ versus $U_{\\mathrm{AB}}$, indicating the values of the current and voltage at the characteristic points (for example, maximum, minimum, kink).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-3-4-fig1.png\n\nFig. 3\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-3-4-fig2.png\n\nFig. 4"
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Chunga-Changa",
+     "problem": "Problem 5: Chunga-Changa\n\nIn spring, Cheburashka and Crocodile Gena went to the Friendship Camp on the island of Chunga-Changa. The island is located on the equator. On the territory of the camp two standard 100-storey buildings (in the form of rectangular parallelepipeds) have been built, one strictly to the east of the other. The buildings are parallel to each other and perpendicular to the equator (Fig. 5). Cheburashka settled in the western building, and Crocodile Gena on the tenth floor of the eastern building. The windows of their rooms turned out to face each other. On the day of the vernal equinox, 21 March, the Sun shone into Gena's window for $T_1 = 2$ hours, and into Cheburashka's window for $T_2 = 4$ hours.\n\n1. On which floor does Cheburashka live?\n\n2. What did Cheburashka's clock show when the windows of Gena's building first appeared golden to him?\n\n3. For how long did the windows of Gena's building appear golden to Cheburashka?\n\nNote. Windows appear golden when the Sun is reflected in them. Do not take multiple reflections into account. At 12 o'clock the Sun was at the zenith.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2015-3-5-fig1.png\n\nFig. 5\n\n[экватор — equator]"
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Friction gear",
+     "problem": "Problem 1: Friction gear\n\nA long cylindrical roller of radius $R_0$, rotating about its axis with angular velocity $\\omega_0$, is pressed against a disc of radius $R$ that rotates freely (without friction in the axle) on an axle. The line of contact between the disc and the roller coincides with a radius of the disc (Fig. 11).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-1-1-fig1.png\n\nFig. 11\n\n1. Find the steady-state angular velocity $\\omega_\\mu$ of rotation of the disc if the friction between the roller and the disc is dry.\n\n2. Find the steady-state angular velocity $\\omega_\\eta$ of rotation of the disc if the friction is viscous. Assume that the magnitude of the viscous friction force per unit length of contact is proportional to the relative velocity of the touching surfaces of the roller and the disc.\n\n3. Determine the ratio $k=\\omega_\\eta/\\omega_\\mu$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Cyclic process",
+     "problem": "Problem 2: Cyclic process\n\nA cyclic process is carried out on one mole of an ideal polyatomic gas; when drawn on a $p,V$-diagram, at a certain scale, it has the form of a circle. The centre of the circle has coordinates $(p_0,V_0)$, the diameter along the pressure axis equals $2\\Delta p$, and the diameter along the volume axis equals $2\\Delta V$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-1-2-fig1.png\n\nFig. 12\n\n1. Find all pairs of diametrically opposite points of the circle at which the heat capacities are equal. Calculate these heat capacities.\n\n2. Compare the heat capacities at two arbitrary diametrically opposite points lying in the 2nd and 4th quadrants of the circle (Fig. 12); in other words, determine at which of these points the heat capacity is greater, and why.\n\nNote. Assume that the heat capacity of the gas at constant volume does not depend on $T$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: AC star",
+     "problem": "Problem 3: AC star\n\nThree elements, which may include resistors, capacitors and inductors, are connected in a star (Fig. 13). When an AC voltage source is connected to terminals 1 and 2 of the circuit, an AC voltmeter connected to terminals 1 and 3 reads $80\\,\\mathrm{V}$. When the voltmeter is connected to terminals 2 and 3, it reads $45\\,\\mathrm{V}$. When the same source is connected to terminals 1 and 3, the voltmeter reads $21\\,\\mathrm{V}$ between terminals 2 and 3 and $28\\,\\mathrm{V}$ between 1 and 2. When the source is connected to terminals 2 and 3, the voltmeter reads $21\\,\\mathrm{V}$ between 1 and 2 and $28\\,\\mathrm{V}$ between 1 and 3.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-1-3-fig1.png\n\nFig. 13\n\n1. Determine the voltage of the source.\n\n2. Determine the circuit elements corresponding to the rays of the star. Is it possible to establish the type of the circuit elements unambiguously?\n\n3. Determine the ratio of the currents $I_{12}:I_{13}:I_{23}$ through the source when it is connected to terminals 1 and 2, 1 and 3, 2 and 3.\n\nThe source, the voltmeter and all circuit elements may be considered ideal."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: MHD pump",
+     "problem": "Problem 4: MHD pump\n\nA magnetohydrodynamic (MHD) pump is a parallel-plate capacitor with plates of dimensions $h\\times a$ and a distance $b$ between them ($h\\gg b$, $a\\gg b$). At its side ends the capacitor is bounded by non-conducting walls. An ideal source with voltage $U$ is connected to the capacitor plates (the polarity is shown in Fig. 14). A uniform magnetic field of induction $B$ is created between the capacitor plates; its vector is horizontal and parallel to the conducting plates. With its lower edges the capacitor touches the surface of a weakly conducting liquid of density $\\rho_0$ and resistivity $\\lambda$. A non-conducting casing is hermetically attached to the capacitor from above. In the middle of the capacitor, at a height $h/2$, a small non-conducting ball of volume $V$ and density $\\rho>\\rho_0$ is suspended on a thin thread. Determine the dependence $T(U)$ of the tension force of the thread on the voltage of the source. Sketch a qualitative graph of this dependence, indicating its characteristic points on it. At the top, the casing and the surface of the conducting liquid are open to the atmosphere.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-1-4-fig1.png\n\nFig. 14"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: Solar sail",
+     "problem": "Problem 5: Solar sail\n\nA solar sail is a flat mirror of mass $m=1.660\\,\\mathrm{g}$ and area $S=1.000\\,\\mathrm{m^2}$. The sail is oriented perpendicular to the sun's rays and moves along the line passing through the centre of the Sun and the centre of the mirror. At the initial moment of time it is at a distance $R_0=1\\,\\mathrm{a.u.}$ from the Sun. At what distance $R_1$ from the Sun will the sail be after $t_1=1$ hour of flight, if it moved with a constant but unknown velocity $v\\ll c$?\n\nOne astronomical unit equals the distance from the Earth to the Sun, $R_0=150.0\\cdot 10^6\\,\\mathrm{km}=1\\,\\mathrm{a.u.}$ The momentum $p$ of a photon and its energy $E$ are related by $pc=E$, where $c=2.998\\cdot 10^8\\,\\mathrm{m/s}$ is the speed of light. The flux of protons, neutrons and other particles emitted by the Sun is to be neglected. The solar constant $W_0=1.367\\,\\mathrm{kW/m^2}$ is the total flux of solar radiation passing per unit time through a unit area oriented perpendicular to the flux at a distance of $1\\,\\mathrm{a.u.}$ from the Sun.\n\nNote. Did you know that the length of a year equals $\\pi\\cdot 10^7\\,\\mathrm{s}$ to within half a percent?"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Spherical hill",
+     "problem": "Problem 1: Spherical hill\n\nA spherical hill protrudes above a horizontal surface; its profile is a quarter of a circle of radius $R$. A small puck of mass $m$ was placed at the top point of the hill and given a horizontal initial velocity $v_0$ (Fig. 6). The coefficient of friction between the hill and the puck depends on the angle $\\alpha$ according to the law $\\mu=\\tan\\alpha$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-2-1-fig1.png\n\nFig. 6\n\n1. After what time $\\tau$ will the body reach the horizontal surface, if it slides down without leaving the hill?\n\n2. What is the work $A_{\\mathrm{fr}}$ done by the friction force by this moment?\n\n3. For what values of $v_0$ will the puck not leave the surface of the hill?"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Granules",
+     "problem": "Problem 2: Granules\n\nA suspension flows in a pipe of cross-section $S$: a liquid carrying small compressible granules with it (Fig. 7). In the section with pressure $p$ the volume of a single granule is $V$, and in the section with the lower pressure $p-\\Delta p$ the volume of a granule is $V+\\Delta V$. The number of granules passing per unit time through any cross-section of the pipe equals $\\nu$. Find the mass $\\mu$ of the suspension passing through the pipe per unit time in steady flow, if there is no friction against the walls of the pipe and the velocity of the liquid and of the granules is the same over the whole cross-section. The change in the density of the liquid is to be neglected.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-2-2-fig1.png\n\nFig. 7"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Water and ice",
+     "problem": "Problem 3: Water and ice\n\nAs is well known, at atmospheric pressure water begins to freeze, and ice to melt, at the temperature $t_0=0\\,^\\circ\\mathrm{C}$. At pressures higher than atmospheric, water can be in the liquid phase at lower temperatures as well. An increase of the pressure by $133\\,\\mathrm{atm}$ lowers the melting temperature of ice by $1\\,^\\circ\\mathrm{C}$. In the initial state, water of mass $m_0=1\\,\\mathrm{kg}$ and a very small amount of ice are in equilibrium in an adiabatic shell under the pressure $p_1=200\\,\\mathrm{atm}$. In an adiabatic process the pressure is slowly decreased to atmospheric pressure $p_0=1\\,\\mathrm{atm}$.\n\n1. Find the change $\\Delta m_{\\mathrm{i}}$ of the mass of ice.\n\n2. Find the change of the volume of the water + ice system.\n\n3. What work does the system do against the external pressure when it is decreased from $p_1$ to $p_0$?\n\nThe specific heat capacity of water is $c_{\\mathrm{w}}=4.2\\,\\mathrm{J/g}$, that of ice $c_{\\mathrm{i}}=2.1\\,\\mathrm{J/g}$. The specific heat of fusion of ice is $q=336\\,\\mathrm{J/g}$. The densities of water and ice at atmospheric pressure are $\\rho_{\\mathrm{w}}=1\\,\\mathrm{g/cm^3}$, $\\rho_{\\mathrm{i}}=0.9\\,\\mathrm{g/cm^3}$.\n\nThe compressibility of water is $G=-\\frac{1}{V}\\frac{\\Delta V}{\\Delta P}=5\\cdot 10^{-10}\\,\\mathrm{Pa^{-1}}$; the compressibility of ice is smaller than the compressibility of water."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Diode chain",
+     "problem": "Problem 4: Diode chain\n\nAn electric circuit (Fig. 8) consists of 2016 sections made of identical diodes and resistors. The current–voltage characteristic of a diode is shown in Fig. 9; the voltage is $U_d=1\\,\\mathrm{V}$. The resistance of each resistor is $R=1\\,\\Omega$. A constant voltage $U_0$ is applied to the input of the circuit.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-2-4-fig1.png\n\nFig. 8\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-2-4-fig2.png\n\nFig. 9\n\n1. Determine the currents through the diodes and through the resistors at the input voltage $U_0=4.4\\,\\mathrm{V}$.\n\n2. Plot the current–voltage characteristic of the circuit (the dependence of the current $I_0$ on $U_0$) in the range from $0\\,\\mathrm{V}$ to $3\\,\\mathrm{V}$.\n\n3. Determine the input voltage $U_0$ at which the current through the circuit equals $I_0=14\\,\\mathrm{A}$."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Déjà vu",
+     "problem": "Problem 5: Déjà vu\n\nIn the electric circuit (Fig. 10) all elements may be considered ideal. Initially the capacitor of capacitance $C$ is uncharged. The switch $K$ is closed, and then, when the rate of change of the energy in the capacitor reaches its maximum, it is opened.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-2-5-fig1.png\n\nFig. 10\n\n1. Find the power $N$ developed by the DC voltage source by the moment the switch is opened.\n\n2. Let the resistances of the resistors be $R_1=R_2=R$. In this case the rate of change of the energy in the capacitor reaches its maximum after the time $t_0=CR\\ln\\sqrt{2}$ (this time can be found by solving the corresponding differential equation, which you do not need to solve). Determine the amount of heat $Q$ that will be released in the circuit while the switch $K$ is closed."
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Stones in the wheels",
+     "problem": "Problem 1: Stones in the wheels\n\nThe wheels of a bicycle have the same radius $R$, and the distance between the centres of the wheels is $l=3R$. Two small stones have got stuck in the treads of the tyres of the front and rear wheels. At the initial moment the stone on the rear wheel touches the ground, and the stone on the front wheel is in its extreme forward position (Fig. 1). The bicycle moves in a straight line with speed $v$; the wheels do not slip on the road, and the stones do not come off the tyres.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-3-1-fig1.png\n\nFig. 1\n\n1. Find the maximum $L_{\\max}$ and minimum $L_{\\min}$ distances between the stones during the motion of the bicycle.\n\n2. After what minimum time $t$ from the start of the motion does the distance between the stones reach its maximum value?"
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: Unexpected turn",
+     "problem": "Problem 2: Unexpected turn\n\nA particle of mass $m$ having velocity $v$ begins to be acted upon by a force $F$ of constant magnitude, whose vector, during the time of action $\\tau$, turns with constant angular velocity through an angle of $180^\\circ$ (Fig. 2). The velocity vectors of the particle and the force lie in the plane of the figure all the time. At the initial moment the angle between the force $F$ and the velocity of the particle was $90^\\circ$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-3-2-fig1.png\n\nFig. 2\n\nDetermine the magnitude and direction of the final velocity $u$ of the particle at the time $\\tau$ after the force $F$ begins to act. The influence of other forces may be neglected."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Moving a bench",
+     "problem": "Problem 3: Moving a bench\n\nA bench of mass $m$ and length $L$ is moved by a horizontal force $F$ (of unknown and not necessarily constant magnitude) with constant velocity over a smooth horizontal surface across a rough region of width $S$ ($S>L$). The force $F$ is applied at the level of the centre of gravity, at a height $h$ above the surface (Fig. 3). The coefficient of friction between the legs of the bench and the rough region is $\\mu$. Assuming that the legs do not lift off the horizontal surface, determine the work of the force $F$ in moving the bench across the rough region. For what relation between the parameters $L$, $\\mu$ and $h$ is such a motion possible?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-3-3-fig1.png\n\nFig. 3\n\nConsider the bench to be uniform and its legs to be light."
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Coffee with milk",
+     "problem": "Problem 4: Coffee with milk\n\nA heat exchanger consists of two thin coaxial pipes and has length $L=5\\,\\mathrm{m}$. Coffee flows in the inner pipe, and milk flows in the outer pipe in the opposite direction (Fig. 4). Milk enters the heat exchanger at the temperature $t_1=10\\,^\\circ\\mathrm{C}$, and coffee enters from the opposite side at the temperature $t_2=90\\,^\\circ\\mathrm{C}$. If the same mass $\\mu$ of liquid flows per unit time through the pipes of the heat exchanger in each direction, then by the exit the milk manages to warm up to the temperature $t_3=60\\,^\\circ\\mathrm{C}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-3-4-fig1.png\n\nFig. 4\n\n[молоко = milk; кофе = coffee]\n\n1. Determine the temperature $t_4$ of the coffee at the exit from the heat exchanger.\n\n2. At what distance $s$ from each other are the sections of the pipes in which the temperatures of the coffee and the milk are equal?\n\n3. What will the temperatures $t_3'$ of the milk and $t_4'$ of the coffee flowing out of the heat exchanger become if the speed of both flows is doubled while their inlet temperatures are kept the same?\n\nHint: The power of heat transfer through a small area of the inner pipe is proportional to the difference between the temperatures of the liquids in contact with it. Heat exchange with the surroundings may be neglected. The densities and specific heat capacities of coffee and milk are to be considered equal."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Tetrahedron with a meter",
+     "problem": "Problem 5: Tetrahedron with a meter\n\nAn electric circuit in the form of a tetrahedron contains four identical resistors, an ideal DC voltage source and an ideal ammeter, which reads the current $I=2\\,\\mathrm{A}$ (Fig. 5a). If the ammeter is replaced by an ideal voltmeter, it will read the voltage $U=12\\,\\mathrm{V}$ (Fig. 5b). Determine the voltage $U_0$ of the source and the resistance $R$ of one resistor.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2016-3-5-fig1.png\n\nFig. 5\n\n[а = a; б = b]"
+    }
+   ]
+  },
+  {
    "year": 2017,
    "problems": [
     {

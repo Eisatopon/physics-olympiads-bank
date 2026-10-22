@@ -2,6 +2,336 @@
  "competition": "Russia — All-Russian Olympiad in Physics, final stage, theoretical round (grades 9–11)",
  "years": [
   {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Trifilar pendulum",
+     "problem": "Problem 1: Trifilar pendulum\n\nA massive ring is suspended on three thin vertical threads of length $L$ (Fig. 11).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-1-1-fig1.png\n\nFig. 11\n\n1. Determine the period of small torsional oscillations of the ring about the axis $OO'$.\n\n2. By how much will the period of torsional oscillations change if a body of small size (a point mass), whose mass is equal to the mass of the ring, is placed at the centre of the ring (point $O$) by means of light spokes?\n\nHint: For $\\alpha \\ll 1$ one may use the approximate expression\n\n$$\\cos\\alpha \\approx 1-\\alpha^2/2.$$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Charged particle in a solenoid",
+     "problem": "Problem 2: Charged particle in a solenoid\n\nFigure 12 shows a cross-section of a long straight coil (solenoid) whose turns have radius $r = 10$ cm. The number of turns of the coil per 1 metre of length is $n = 500\\ \\mathrm{m^{-1}}$. A constant current $I = 0.1$ A flows through the turns of the coil (clockwise).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-1-2-fig1.png\n\nFig. 12\n\nA charged particle, accelerated by a potential difference $U = 10^3$ V, flies into the coil through a gap between the turns at point $A$. The velocity of the particle at point $A$ is directed along a radius of the solenoid. The particle moves inside the solenoid in a plane perpendicular to its axis, and leaves the solenoid at point $C$, located at an angle $\\alpha = 60^\\circ$ to the initial direction. Determine:\n\n1. the sign of the charge of the particle;\n\n2. the radius of curvature of the trajectory of the particle inside the solenoid;\n\n3. the specific charge of the particle (that is, the ratio of the magnitude of the charge of the particle to its mass).\n\nThe magnetic constant is $\\mu_0 = 4\\pi\\cdot 10^{-7}$ (SI units)."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: Stability of a piston",
+     "problem": "Problem 3: Stability of a piston\n\nA thin-walled cylinder of length $L = 1.50$ m, closed at the bottom, is installed vertically. At its upper part it is connected to another cylinder of much larger diameter (Fig. 13). In the lower cylinder, at a distance $h_1 = 380$ mm from the upper edge, there is a thin light piston. Above the piston there is a layer of mercury of height $h + \\Delta h$, where $\\Delta h \\ll h$; below the piston there is helium at pressure $p_1 = p_0 + \\rho_{\\mathrm{Hg}} g h_1$, where $p_0 = 760$ mm Hg is the atmospheric pressure and $\\rho_{\\mathrm{Hg}} = 13.6\\ \\mathrm{g/cm^3}$ is the density of mercury. Because of the large difference between the diameters of the cylinders, the change $\\Delta h$ may be neglected for displacements of the piston along the whole length of the lower cylinder.\n\nIt follows from the statement of the problem that the piston is in equilibrium. Is this equilibrium position stable? Are there other equilibrium positions? If there are, at what distances $h_i$ from the piston to the upper edge? Are these equilibrium positions stable? One may assume that for small changes of the volume under the piston the temperature of the helium remains constant.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-1-3-fig1.png\n\nFig. 13"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Leaky capacitor",
+     "problem": "Problem 4: Leaky capacitor\n\nA parallel-plate capacitor of capacitance $C_0$ is filled with a weakly conducting layered medium with $\\varepsilon = 1$, whose resistivity depends on the distance $x$ from one of the plates according to the law $\\rho = \\rho_0\\left(1+\\frac{2x}{d}\\right)$, where $d$ is the distance between the plates of the capacitor. The capacitor is connected to a battery of voltage $U_0$ (Fig. 14).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-1-4-fig1.png\n\nFig. 14\n\nFind:\n\n1. the current flowing through the capacitor;\n\n2. the charges of the lower ($q_1$) and upper ($q_2$) plates of the capacitor;\n\n3. the charge $q$ inside the capacitor (i.e. in the medium between the plates);\n\n4. the electric energy $W_{\\mathrm{e}}$ stored in the capacitor."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: Flat light guide",
+     "problem": "Problem 5: Flat light guide\n\nNear the left end face of a well-polished transparent plate with refractive index $n$ there is a point light source $S$ (Fig. 15). The thickness of the plate is $H = 1$ cm, its length is $L = 100$ cm. Light from the source falls on the left end face of the plate at all possible angles of incidence ($0-90^\\circ$). The eye of the observer receives both direct rays from the source and rays that have undergone multiple total internal reflections at the side faces of the plate.\n\n1. What is the maximum number of reflections that a ray from the source emerging through the right end face of the plate can undergo? Solve the problem for two values of the refractive index: $n_1 = 1.73$, $n_2 = 1.3$.\n\n2. State in which of these two cases light partially leaves the plate through the side faces.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-1-5-fig1.png\n\nFig. 15"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Balls in a vessel of water",
+     "problem": "Problem 1: Balls in a vessel of water\n\nA wooden ball and a metal ball are tied together by a thread and attached by one thread to the bottom of a vessel with water. The vessel rotates with constant angular velocity about the vertical axis $OO'$ (Fig. 5).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-2-1-fig1.png\n\nFig. 5\n\nAs a result, the balls, while remaining completely in the water, took up the positions shown in the figure. The wooden ball (1) is three times closer to the axis of rotation than the metal ball (2). The upper thread makes an angle $\\alpha$ ($\\sin\\alpha = 4/5$) with the vertical. The angle between the threads is $90^\\circ$. The sizes of the balls are small compared with their distances from the axis of rotation.\n\n3. At what angle to the vertical is the buoyant (Archimedes) force acting on the wooden ball directed? Explain.\n\n4. Find the ratio of the tension forces of the upper and the lower threads."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Heat engine",
+     "problem": "Problem 2: Heat engine\n\nA gigantic iceberg of mass $m = 9\\cdot 10^8$ kg (a cube $100\\times 100\\times 100\\ \\mathrm{m^3}$), having temperature $T_2 = 273$ K, drifts in the Gulf Stream, whose water temperature is $T_1 = 295$ K.\n\n1. Neglecting direct heat exchange between the iceberg and the warm water, find the maximum work of a heat engine that uses the Gulf Stream as the heater and the iceberg as the cooler, during the time until the whole iceberg has melted (Fig. 6).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-2-2-fig1.png\n\nFig. 6\n\n[Гольфстрим = Gulf Stream; Тепловая машина = heat engine; Айсберг = iceberg]\n\n2. Determine how much water can be evaporated in a boiler by means of the work whose amount was found in the first part, if it is used in a heat pump for \"pumping\" thermal energy from the Gulf Stream current into a boiler at temperature $T_0 = 373$ K (Fig. 7).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-2-2-fig2.png\n\nFig. 7\n\n[Гольфстрим = Gulf Stream; Тепловой насос = heat pump; Котёл = boiler]\n\nThe latent heat of melting of ice is $q = 3.35\\cdot 10^5$ J/kg, the latent heat of vaporization of water is $\\lambda = 2.26\\cdot 10^6$ J/kg."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Adiabatic process",
+     "problem": "Problem 3: Adiabatic process\n\nIn a cylindrical vessel of volume $2V_0$, under a heavy piston, there is a monatomic ideal gas at temperature $T_0$ and pressure $P_0/2$, occupying volume $V_0$ (Fig. 8). Above the piston there is vacuum. At the bottom of the vessel there is a small opening closed by a valve. The space outside is filled with the same gas at pressure $P_0$ and temperature $T_0$. The vessel is thermally insulated.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-2-3-fig1.png\n\nFig. 8\n\nThe valve is opened slightly so that the piston rises slowly, and after the pressure inside and outside has equalised, the valve is closed. Determine the temperature of the gas after the valve is closed."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Layered dielectric",
+     "problem": "Problem 4: Layered dielectric\n\nA parallel-plate capacitor with distance $d$ between the plates is connected to a DC source with EMF equal to $\\mathcal{E}$ (Fig. 9).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-2-4-fig1.png\n\nFig. 9\n\nThe capacitor is filled with two layers of weakly conducting media with different values of conductivity $\\lambda_1$ and $\\lambda_2$. Both layers are in electrical contact with each other and with the plates of the capacitor. The thickness of each layer is $d/2$, the permittivity of both layers is $\\varepsilon_1 = \\varepsilon_2 = 1$. Find:\n\n1. The surface densities $\\sigma_1$ and $\\sigma_2$ of the charges on the plates of the capacitor.\n\n2. The surface density $\\sigma$ of charge in the plane of contact of the layers.\n\nNote: The conductivity is the quantity inverse to the resistivity: $\\lambda = 1/\\rho$."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Recharging capacitors",
+     "problem": "Problem 5: Recharging capacitors\n\nThere are two charged capacitors with capacitances $C_1 = 18\\ \\mu\\mathrm{F}$ and $C_2 = 19\\ \\mu\\mathrm{F}$. The voltages across the capacitors are respectively $U_1 = 76$ V and $U_2 = 190$ V. A third capacitor of unknown capacitance $C$ is connected to capacitor $C_2$ (Fig. 10). The switch $K$ is thrown from the right position to the left one, and after the capacitors have recharged it is returned to the initial position.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-2-5-fig1.png\n\nFig. 10\n\nIt is known that after 44 such cycles the voltage difference $(U_2-U_1)_{44}$ was $1\\%$ of the initial difference $(U_2-U_1)_0$.\n\n1. What is the capacitance of the capacitor $C$?\n\n2. What voltage $U_\\infty$ will be established across the capacitors after a large number of cycles?\n\n3. What thermal energy will be released in the resistor $R$ after a large number of cycles?"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Descent along a chute",
+     "problem": "Problem 1: Descent along a chute\n\nA small body was released without initial velocity at some point $M$ of a smooth curved chute. Having left the chute at point $O$, it fell onto the floor at point $A$ (Fig. 1). By means of constructions and calculations, show on the figure the position of the point $M$ of the chute at which the body was released. What is the distance (in arbitrary units) from the floor to the point $M$?\n\nThe scales on the axes of the figure are given in some arbitrary units.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-3-1-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: Puck and hill",
+     "problem": "Problem 2: Puck and hill\n\nA small puck sliding on a smooth horizontal surface runs onto a smooth hill resting on the same surface (Fig. 2). After the puck had slid off the hill, it turned out that the puck and the hill move on the smooth horizontal surface with velocities equal in magnitude.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-3-2-fig1.png\n\nFig. 2\n\n1. Determine for what ratio of the masses of the puck and the hill this is possible.\n\n2. Find the ratio of the maximum potential energy that the puck had during its ascent of the hill to the initial kinetic energy of the puck.\n\nNote. During the ascent and descent the puck does not leave the surface of the hill."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Cyclic heat exchange",
+     "problem": "Problem 3: Cyclic heat exchange\n\nThere are two thermally insulated vessels with water. The heat capacity of the whole mass of water in the first vessel is $c_1$, its temperature is $t_1$. The heat capacity and the temperature of the water in the second vessel are $c_2$ and $t_2$ respectively. Besides the water, the second vessel contains a block whose heat capacity is $c$ (Fig. 3).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-3-3-fig1.png\n\nFig. 3\n\nThe block is taken out of the second vessel and immersed in the first vessel. After thermal equilibrium has been established, the block is returned to the second vessel.\n\nThe ratio of the heat capacities is $c_1 : c_2 : c = 4 : 5 : 1$. Neglecting heat exchange with the surrounding bodies, determine:\n\n1. What minimum number $n$ of such cycles must be performed so that the temperature difference $(t_2-t_1)_n$ decreases by a factor of at least $N = 25$?\n\n2. What temperature of the water will be established in the vessels after a very large number of cycles?"
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Wire cube",
+     "problem": "Problem 4: Wire cube\n\nIdentical resistors of resistance $R$ are soldered into seven edges of a wire cube (Fig. 4). The resistance of the conductors in the remaining edges is negligibly small. A voltage $U$ is applied between the terminals $A$ and $B$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2011-3-4-fig1.png\n\nFig. 4\n\n1. Find the current $I_{AB}$ and the resistance $R_{AB}$ of the cube between the terminals $A$ and $B$.\n\n2. Determine in which of the edges of the cube the current is maximal and what it is equal to.\n\n3. Indicate in which resistors the maximum thermal power is released and what it is equal to.\n\n4. Now let the voltage $U$ be applied between the terminals $A$ and $C$. Determine the current $I_{AC}$ and the resistance $R_{AC}$."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Composite cylinder",
+     "problem": "Problem 5: Composite cylinder\n\nA cylinder is made of two joined segments of tubes and is fixed so that its axis of symmetry is vertical. A flap is pressed against the cylinder from below, completely closing the first tube. To keep the flap in the pressed state, a force $F \\geqslant F_0$ must be applied to it from below. After $V_0$ litres of water were poured into the cylinder, the minimum force needed to keep the flap pressed increased by a factor of two. When another $V_0$ litres of water were poured into the cylinder, the minimum force increased by a further factor of two. Finally, when $V_0/3$ litres of water were added to the cylinder, the minimum force increased by a further $F_0$, and the cylinder turned out to be completely filled.\n\n1. Calculate the ratio $S_1 : S_2$ of the areas of the lower and the upper tubes.\n\n2. Calculate the ratio $L_1 : L_2$ of the lengths of the lower and the upper tubes."
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Bag of flour",
+     "problem": "Problem 1: Bag of flour\n\nA paper bag of flour falls without initial velocity from a height $h = 4\\,\\mathrm{cm}$ onto the pan of a spring scale. The pointer of the scale deflected to the mark $m_1 = 6\\,\\mathrm{kg}$ and, after the oscillations had died out, came to show the mass $m_0 = 2\\,\\mathrm{kg}$. The stiffness of the spring is $k = 1.5\\,\\mathrm{kN/m}$. Find the mass $M$ of the pan.\n\nNote. Take the free-fall acceleration to be $g = 10\\,\\mathrm{m/s^2}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Magnetism",
+     "problem": "Problem 2: Magnetism\n\nTwo metal rods $AB$ and $CD$, each of mass $m$ and electrical resistance $R$, can move without friction along two parallel horizontal guides placed a distance $l$ apart (Fig. 15). A uniform magnetic field of induction $B$ is directed perpendicular to the plane of the guides. At the initial moment the rods are a distance $d$ apart and perpendicular to the guides. Rod $CD$ is at rest, and rod $AB$ is given a velocity $v_0$ parallel to the guides, in the direction away from $CD$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-1-2-fig1.png\n\nFig. 15\n\n1. At what distance from each other will the rods be after a long time?\n\n2. How much heat will be released in this system over a long time?\n\nThe resistance of the guides can be neglected."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: Dipole in an electric field",
+     "problem": "Problem 3: Dipole in an electric field\n\nA dipole consists of two point charges $+q$ and $-q$ fixed at a distance $l$ from each other. The mass of the dipole is $m$. The dipole is oriented along the $x$ axis and flies with velocity $v_0$ into a region of length $2L \\gg l$ (Fig. 16). In this region the electric field vector $\\vec{E}$ is everywhere directed along the $x$ axis, and its magnitude varies according to the law $E(x) = E_0\\left(1 - \\dfrac{x^2}{L^2}\\right)$. Find the dependence of the force $F$ acting on the dipole on its coordinate $x$, the maximum speed of the dipole, and also the time of flight through the region $2L$. Assume that the orientation of the dipole in space does not change.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-1-3-fig1.png\n\nFig. 16\n\nNote. Such an electric field can be created between the plates of a parallel-plate capacitor by means of a distributed volume charge."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Linear process",
+     "problem": "Problem 4: Linear process\n\nOne mole of an ideal polyatomic gas is taken from state $B$, in which the temperature is $t_B = 217\\,^\\circ\\mathrm{C}$, to state $D$ in such a way that the pressure depends linearly on the volume, the temperature decreases monotonically, and heat is supplied to the gas throughout the whole process (Fig. 17).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-1-4-fig1.png\n\nFig. 17\n\nFind the maximum possible work $A_m$ that this gas can do in such a process."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: Lenses in a circle",
+     "problem": "Problem 5: Lenses in a circle\n\nIt is said that a manuscript was found in Snellius's archive discussing how a ray can travel through a system of $N$ identical lenses whose optical centres lie on a circle and whose planes are perpendicular to this circle and pass through its centre. With time the ink has faded, and on the diagram only traces of the planes of two neighbouring lenses and the focus of one of them remain visible (Fig. 18). From the text it followed that the ray, being refracted in each of the lenses, travels along the sides of a regular $N$-gon. The shape of a lens and its diameter $D$ are shown in Fig. 19.\n\n1. What could these lenses have been: converging or diverging?\n\nBy a construction (with compasses and an unmarked straightedge), reconstruct:\n\n2. the positions of two more lenses (to the left and to the right of the lens planes shown in the figure);\n\n3. the possible positions of the optical centres of the four resulting lenses;\n\n4. a possible path of the ray through these lenses.\n\nJustify your answer.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-1-5-fig1.png\n\nFig. 18\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-1-5-fig2.png\n\nFig. 19"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Platform",
+     "problem": "Problem 1: Platform\n\nA small body of mass $m$ lies on a platform that has a rectangular step of height $h$. One end of a weightless inextensible thread is attached to the body; the thread passes over an ideal pulley mounted on the step of the platform (Fig. 9). The other end of the thread is fixed to a vertical wall so that the section of thread between the pulley and the wall is horizontal.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-2-1-fig1.png\n\nFig. 9\n\nThe platform is moved away from the wall with a constant velocity $v$. With what force $F$ must the platform be pulled at the moment when the section of thread above the platform makes an angle $\\alpha$ with the horizontal? The force $F$ is horizontal and lies in the plane of the figure. The coefficient of friction between the body and the platform is $\\mu$; there is no friction between the platform and the floor. Assume that during the motion the load does not lift off the platform, and the platform does not lift off the floor."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Rotating tube",
+     "problem": "Problem 2: Rotating tube\n\nA closed glass tube with a branch, immersed in an open-topped vessel of mercury, contains a column of air in its upper part. Its boundaries with the mercury are at a distance $R$ from the symmetry axis of the system (Fig. 10). Determine with what angular velocity the system must be rotated about this axis so that the air pressure changes by a factor of $n$. The initial air pressure is $p_0$, the density of mercury is $\\rho$; its level in the vessel can be considered unchanged.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-2-2-fig1.png\n\nFig. 10"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Monotonic process",
+     "problem": "Problem 3: Monotonic process\n\nOne mole of an ideal gas is taken from a state with a known pressure $p_1$ and a known volume $V_1$ to a state with pressure $0.75p_1$ and volume $V_2 > V_1$. The dependence $p(V)$ in this process is a linear function (Fig. 11).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-2-3-fig1.png\n\nFig. 11\n\nFor which values of the final volume $V_2$ does the temperature change monotonically in this process?"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Three charged particles flying apart",
+     "problem": "Problem 4: Three charged particles flying apart\n\nThree particles with equal charges are initially held at the vertices of a triangle with sides $R_1$, $R_2$ and $R_3$ (Fig. 12). The particles are released simultaneously, and they fly apart in such a way that the segments joining any pair of particles remain parallel to the original ones. What is the ratio of the masses of these particles $m_1 : m_2 : m_3$? Neglect the gravitational attraction.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-2-4-fig1.png\n\nFig. 12"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Nonlinear element",
+     "problem": "Problem 5: Nonlinear element\n\nA source whose voltage can be varied is connected to an electric circuit (Fig. 13) made up of identical resistors $R = 1\\,\\Omega$, a nonlinear element with an unknown current–voltage characteristic, and an ideal ammeter. The dependence of the ammeter reading on the source voltage is given (Fig. 14). The positive direction of the current is shown in Fig. 13. Using these data, reconstruct the current–voltage characteristic of the nonlinear element (the dependence of the current through the element on the voltage across it).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-2-5-fig1.png\n\nFig. 13\n\n[н.э. (нелинейный элемент) = nonlinear element]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-2-5-fig2.png\n\nFig. 14\n\n[I, А = current in amperes; U, В = voltage in volts]"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Float in a rocket",
+     "problem": "Problem 1: Float in a rocket\n\nIn a rocket ready for launch there is a large aquarium partly filled with water of density $\\rho_0$. Inside the aquarium there is a thin cylindrical float of density $\\rho$ and cross-sectional area $S$, attached to the bottom by a light spring of stiffness $k$. Before launch the spring is stretched by $x_0$, and the float partly protrudes from the water.\n\n1. Determine whether the height of the protruding part of the float will increase or decrease if the system starts moving with a constant acceleration directed upwards. Justify your answer.\n\n2. When the rocket reaches an acceleration $a$, the height of the part of the float protruding above the water changed by $x$. Find the analytical dependence of $x$ on $a$.\n\n3. Calculate the numerical value of $x$ for the following parameters of the problem: $k = 10\\,\\mathrm{N/m}$, $x_0 = 1\\,\\mathrm{cm}$, $\\rho_0 = 1000\\,\\mathrm{kg/m^3}$, $S = 10^{-4}\\,\\mathrm{m^2}$, $g = 10\\,\\mathrm{m/s^2}$, $a = 3g$."
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: Spring and ball",
+     "problem": "Problem 2: Spring and ball\n\nA long smooth tube is fixed vertically on a horizontal table, and a light spring is placed inside it. Inside the tube a ball starts to fall without initial velocity from a height $H = 2\\,\\mathrm{m}$ above the table. On touching the upper coil of the spring, the ball sticks to it. Fig. 1 shows the graph of the kinetic energy $E_k$ of the falling ball versus its height $h$ above the surface of the table. Determine the length $L_0$ of the undeformed spring, the stiffness $k$ of the spring and the mass $m$ of the ball. Assume that there is no loss of mechanical energy at the moment the ball touches the upper coil of the spring, and that Hooke's law holds for any deformation of the spring. Take $g = 10\\,\\mathrm{m/s^2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-2-fig1.png\n\nFig. 1\n\n[$E_k$, Дж = kinetic energy in joules; h, м = height in metres]\n\nNote. For the calculations use the enlarged Fig. 1 handed out to you separately."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Preheating",
+     "problem": "Problem 3: Preheating\n\nIn the laboratory, the experimenter Glück had an electric heater with a stirrer, a thermostat and two thin-walled chemical beakers whose linear dimensions differed by a factor of 2 (the wall thickness of the beakers is the same). The thermostat maintained a constant temperature $t_1 = 20^\\circ\\mathrm{C}$ (Fig. 2). Glück decided to investigate how the temperature of the liquid in the beaker depends on time (the stirrer is needed for fast equalisation of the temperature throughout the whole volume of the beaker).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-3-fig1.png\n\nFig. 2\n\n[электронагреватель = electric heater; термостат = thermostat]\n\nFirst he used the smaller beaker, which he filled with the liquid under study at the temperature $t_1 = 20^\\circ\\mathrm{C}$ and placed in the thermostat. After switching on the electric heater, Glück found that during the first $\\tau_1 = 10\\,\\mathrm{s}$ the system heated up by $\\Delta t_1 = 1^\\circ\\mathrm{C}$. After a long time the temperature of the liquid settled at $t_2 = 40^\\circ\\mathrm{C}$.\n\nIn the second experiment he took the larger beaker, filled it with the same liquid heated to the temperature $t_3 = 35^\\circ\\mathrm{C}$, and switched on the same heater. After some time $\\tau_2$ he discovered with surprise that the temperature of the contents of the beaker had decreased by $\\Delta t_2 = 0.5^\\circ\\mathrm{C}$.\n\nAssume that the heat capacity of the beakers is small compared with the heat capacity of the liquid they contain.\n\n1. Find the temperature $t_4$ that will be established in the beaker after a long time.\n\n2. Calculate the time $\\tau_2$.\n\nNote. It is known that the energy flux passing through a layer of a substance (the wall of the beaker) per unit time is directly proportional to the temperature difference at the boundaries of the layer and to the surface area of the layer."
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Diode",
+     "problem": "Problem 4: Diode\n\nA semiconductor diode is a device that passes electric current in one direction only (Fig. 3). If the diode is connected in the reverse direction (Fig. 4), no current will flow through it. The current–voltage characteristic (the dependence of the current through the diode on the voltage across the diode) of an idealised diode is given in the graph (Fig. 5).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-4-fig1.png\n\nFig. 3\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-4-fig2.png\n\nFig. 4\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-4-fig3.png\n\nFig. 5\n\n[I, мА = current in milliamperes; U, В = voltage in volts; $U_0 = 2$ В = 2 V]\n\n1. Fig. 6 shows a fragment of a branched electric circuit. The resistances of the resistors are $R_1 = 6\\,\\mathrm{k\\Omega}$, $R_2 = 5\\,\\mathrm{k\\Omega}$. Determine the voltage drop across the diode and the current flowing through the milliammeter.\n\n2. The diode was connected into the circuit with the opposite polarity (Fig. 7). The resistances of the resistors did not change. For this case determine the voltage drop across the diode and the current flowing through the milliammeter. In both cases consider the milliammeter to be ideal.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-4-fig4.png\n\nFig. 6\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-4-fig5.png\n\nFig. 7\n\n[мА = mA]"
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: The lost mirror",
+     "problem": "Problem 5: The lost mirror\n\nIn Snellius's archive a drawing was found showing two plane mirrors $M_1$ and $M_2$ forming a dihedral angle $\\varphi$, a point light source $S$ and a region $AOB$ (it is shaded) from which both images of the source could be seen simultaneously. With time the ink has faded, and it has become impossible to make out how mirror $M_2$ and the point source $S$ were located (Fig. 8).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2012-3-5-fig1.png\n\nFig. 8\n\nUsing the available data, reconstruct with compasses and an unmarked straightedge the position of mirror $M_2$ and the locus of points where the source $S$ could be located. Consider the mirrors to be semi-infinite.\n\nCalculate the angle $\\varphi$ between the planes of the mirrors if $\\angle AOB = \\angle\\alpha = 30^\\circ$."
+    }
+   ]
+  },
+  {
+   "year": 2013,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Grade 11",
+     "title": "Problem 1: Oscillations of a rod",
+     "problem": "Problem 1: Oscillations of a rod\n\nTwo identical small metal balls are fixed at the ends of a light rod of length $L$ (Fig. 10). The rod was placed on a support of width $l\\ll L$ so that its midpoint was above the middle of the support, and it was tilted by a small angle $\\varphi_0\\ll 1$. Determine the period of small oscillations of the rod if, when the rod passes from one edge [of the support] to the other, the energy losses are negligibly small, and the rod neither leaves the support nor slips.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-1-1-fig1.png\n\nFig. 10"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Grade 11",
+     "title": "Problem 2: Three in a field, to say nothing of the capacitor",
+     "problem": "Problem 2: Three in a field, to say nothing of the capacitor\n\nA flat figure consisting of three squares with side $a$ is soldered from a single piece of wire (Fig. 11). A capacitor of small size with capacitance $C$ is soldered into one of the wire segments. The construction is in a uniform magnetic field $\\vec B$, which is perpendicular to the plane of the figure and increases at a constant rate $dB/dt=k>0$. The resistance of a piece of wire of length $a$ is $r$. For the steady-state regime, determine:\n\n1. the magnitude and direction of the current in the segment AB;\n\n2. the charge $Q$ on the capacitor and the sign of the charges on its plates;\n\n3. the quantity of heat $W$ released in the circuit during the time $\\tau$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-1-2-fig1.png\n\nFig. 11"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Grade 11",
+     "title": "Problem 3: Reconstructing a lens",
+     "problem": "Problem 3: Reconstructing a lens\n\nIt is said that an optical diagram was found in Snellius's archive on which an ideal thin lens, an object and its image were drawn. From the text it follows that the object is a rod of length $l$ with two point sources at its ends. The rod and the principal optical axis lay in the plane of the drawing, and the rod did not intersect the plane of the lens. Over time the ink faded, and on the drawing only the sources themselves and their images remained visible, and it is unknown which of the four points corresponds to what. Interestingly, these points are located at the vertices and at the centre of an equilateral triangle (Fig. 12).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-1-3-fig1.png\n\nFig. 12\n\n1. Determine whether the point at the centre of the triangle belongs to the object itself or to its image.\n\n2. Reconstruct the optical diagram (the object, the image, the lens, its principal optical axis, the foci) up to a rotation of the figure by $120^\\circ$ and a reflection.\n\n3. Find the focal length of the lens.\n\nNote. A lens is called ideal if any beam of parallel rays is focused in the focal plane."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Grade 11",
+     "title": "Problem 4: Pressure of soda water",
+     "problem": "Problem 4: Pressure of soda water\n\nAt a factory, water in bottles (Fig. 13) is degassed (the dissolved air is removed), carbonated with carbon dioxide to saturation at the temperature $t_1=4\\,^\\circ$C and the pressure $p_1=150$ kPa, and then the bottles are hermetically sealed and sent to a warehouse where, according to the storage conditions, the air temperature does not exceed $t_2=35\\,^\\circ$C. Neglecting the change in the volumes of the liquid and the bottle, determine:\n\n1. the minimum volume $V_0$ of the part above the water, if the maximum pressure in the bottle during storage is $p_2=370$ kPa;\n\n2. the level $x$ up to which water is poured at the factory corresponding to this volume.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-1-4-fig1.png\n\nFig. 13\n\nThe mass of water in the bottle is $m_{\\rm w}=2$ kg, the molar mass of carbon dioxide is $\\mu=44$ g/mol.\n\nGeometric dimensions of the bottle: $d=3$ cm, $b=10$ cm, $h=27$ cm, $H=30$ cm, $D=13$ cm.\n\nNote. Assume that the solubility $\\sigma$ of gases at constant temperature is proportional to their partial pressure above the liquid (Henry's law), and the graph of the solubility of carbon dioxide in water versus temperature at its partial pressure $p_0=100$ kPa is given in Figure 14. The partial pressure of water vapour in this temperature range may be neglected. The solubility $\\sigma$ is the mass of gas (in grams) dissolved in 1 kg of liquid.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-1-4-fig2.png\n\nFig. 14\n\n[Axis labels in Fig. 14: «Растворимость σ, г/кг» = solubility $\\sigma$, g/kg; «Температура t, °C» = temperature $t$, °C. The words on the bottle label in Fig. 13 («ГАЗ ВОДА», soda water) are decorative.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Grade 11",
+     "title": "Problem 5: Faulty rocket",
+     "problem": "Problem 5: Faulty rocket\n\nLieutenant-experimenter Glück carried out his research at a military testing ground with new signal rockets which, during flight at a constant speed $v$, emit sound of a constant frequency $f_0$, using frequency detectors. The speed of sound at the testing ground is $c=330$ m/s.\n\n1. What frequency of sound will a detector receive if the rocket flies straight towards it?\n\n2. What frequency of sound will a detector receive that is located at a large distance from the flying rocket, if the angle between the velocity of the rocket and the direction to the detector is $\\varphi$?\n\n3. While carrying out his research, Lieutenant-experimenter Glück accidentally launched a faulty signal rocket, which began to fly along the surface of the testing ground at a low height with the same constant speed $v$ in a circle of radius $r$. The rocket was successfully neutralised, and Lieutenant-experimenter Glück noticed the graphs of the chart recorder, which recorded the dependence of the sound frequency on time at two detectors 1 and 2 located at the testing ground. Using the graphs obtained (Fig. 15), help Lieutenant-experimenter Glück to determine the distance $L$ between these detectors.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-1-5-fig1.png\n\nFig. 15\n\n[Axis labels in Fig. 15: «f, кГц» = $f$, kHz; «t, с» = $t$, s. The curves are labelled 1 and 2 for the two detectors.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Grade 10",
+     "title": "Problem 1: Bag and friction",
+     "problem": "Problem 1: Bag and friction\n\nA small bag of sand is thrown from the horizontal surface of the ground at some angle $\\alpha$ to the horizontal with initial speed $v_0$. After landing it loses the vertical component of its velocity. Find the maximum horizontal displacement of the bag relative to the point of throwing and the angle $\\alpha$ at which it is achieved. The coefficient of friction between the bag and the plane is $\\mu$. The free-fall acceleration is $g$. Assume the duration of the impact to be small."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Grade 10",
+     "title": "Problem 2: Processes in a vessel",
+     "problem": "Problem 2: Processes in a vessel\n\nA horizontally placed thermally insulated cylindrical vessel is divided into two compartments by a fixed heat-conducting partition. The second compartment is separated from the atmosphere by a movable piston that does not conduct heat. Both compartments are filled with nitrogen; the system is in equilibrium. The gas in the first compartment is heated rapidly. It is known that from the moment immediately after the heating until thermal equilibrium is restored, the total internal energy of the gas changed by $\\Delta U$. Find the change $\\Delta U_1$ of the internal energy of the nitrogen in the first compartment during the same time interval. The heat capacity of the vessel and of the piston may be neglected."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Grade 10",
+     "title": "Problem 3: Two balls",
+     "problem": "Problem 3: Two balls\n\nTwo identical small balls of mass $m$ are connected by a massless inextensible string of length $l$ and rest on a smooth horizontal plane (Fig. 7). The right ball is given a vertical velocity $v_0$. The free-fall acceleration is $g$.\n\n1. Find the radius of curvature of the trajectory of the upper ball at the moment when the string is vertical.\n\n2. For what value of the initial velocity $v_0$ will the lower ball stop pressing on the plane at this moment?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-2-3-fig1.png\n\nFig. 7"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Grade 10",
+     "title": "Problem 4: Experiment",
+     "problem": "Problem 4: Experiment\n\nTwo vertical cylindrical vessels are connected in their lower part by a tube with a pressure gauge of negligibly small volume (Fig. 8). Pistons are installed inside the cylinders, and in the upper part of the cylinders there are stops limiting the rise of the pistons. The distances from the lower side of the pistons to the bottoms of the cylinders, with the pistons in the upper position, are the same and equal to $h=1$ m. Under the pistons there is one mole of an ideal gas; the atmospheric pressure is $p_0=10^5$ Pa. The pistons can move in the cylinders without friction.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-2-4-fig1.png\n\nFig. 8\n\nThe table presents the results of measurements of the pressure in the cylinders at five different values of the gas temperature:\n\n$$\\begin{array}{c|c|c|c|c|c} t,\\ ^\\circ\\mathrm{C} & -50.0 & -32.4 & 27.8 & 174.7 & 264.1 \\\\ \\hline p,\\ 10^5\\ \\mathrm{Pa} & 2.0 & 2.0 & 2.5 & 2.5 & 3.0 \\end{array}$$\n\nDetermine the masses of both pistons $m_1$, $m_2$ and the cross-sectional areas of the cylinders $S_1$, $S_2$."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Grade 10",
+     "title": "Problem 5: Electric circuit",
+     "problem": "Problem 5: Electric circuit\n\nIn the circuit (Fig. 9) all elements may be considered ideal. The emf of the source is $\\mathcal{E}=4.0$ V, the resistances of the resistors are $r=50\\,\\mathrm{k\\Omega}$, $R=150\\,\\mathrm{k\\Omega}$, and the capacitance of the capacitor is $C=2.0$ mF. Before the switch was closed there was no current in the circuit. The switch is closed for some time and then opened. While the switch was closed, the quantity of heat $Q_1=7.43$ mJ was released in the circuit, and after the switch was opened, the quantity of heat $Q_2=1.00$ mJ was released in the circuit.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-2-5-fig1.png\n\nFig. 9\n\n1. What charge flowed through the resistor $R$ while the switch was closed?\n\n2. For how long was the switch closed?"
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Grade 9",
+     "title": "Problem 1: Theory of relativity",
+     "problem": "Problem 1: Theory of relativity\n\nTwo particles started moving from the same point in mutually perpendicular directions (Fig. 1). The first one with initial speed $3v$ and constant acceleration $3a$ directed along the initial velocity, the other one with speed $4v$ and constant acceleration $4a$ directed opposite to its initial velocity.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-3-1-fig1.png\n\nFig. 1\n\nNumerically $a=0.538$ m/s$^2$, $v=10$ m/s.\n\nWhat will be the distance $L$ between the particles at the moment when the magnitude of their relative velocity again becomes equal to the initial relative velocity? What will be the minimum relative speed $v_{\\rm rel}$ of the particles?"
+    },
+    {
+     "day": 3,
+     "number": 2,
+     "paper_label": "Grade 9",
+     "title": "Problem 2: The case is a pipe!",
+     "problem": "Problem 2: The case is a pipe!\n\nIn a thermally insulated cylinder, two easily movable heat-conducting pistons are at a distance $L_1=80$ cm from each other. The space between them is filled with water, and atmospheric pressure acts on the pistons from outside (Fig. 2).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-3-2-fig1.png\n\nFig. 2\n\nTo the left of the left piston a refrigerator was switched on that maintains a constant temperature $t_1=-40\\,^\\circ$C, and to the right of the right piston a heater maintaining a constant temperature $t_2=16\\,^\\circ$C. After some time the system reached a steady state and the distance between the pistons became $L_2$.\n\nAfter this the pistons were thermally insulated from the outside and thermal equilibrium in the cylinder was awaited. The distance between the pistons became $L_3$. Find the distances $L_2$ and $L_3$. The density of ice is $\\rho_{\\rm i}=900$ kg/m$^3$, the density of water $\\rho_{\\rm w}=1000$ kg/m$^3$, the specific heat capacity of water $c_{\\rm w}=4200$ J/(kg$\\cdot{}^\\circ$C), the specific heat capacity of ice $c_{\\rm i}=2100$ J/(kg$\\cdot{}^\\circ$C), the specific latent heat of fusion of ice $\\lambda=330$ kJ/kg; the thermal conductivity of ice is 4 times greater than the thermal conductivity of water.\n\nHint. Assume that the power of the heat flow $P$ along a cylinder between whose end faces a constant temperature difference $\\Delta t$ is maintained equals\n\n$$P=\\frac{kS\\Delta t}{L},$$\n\nwhere $k$ is the thermal conductivity of the medium, $S$ is the area of the end face of the cylinder, and $L$ is the length of the cylinder."
+    },
+    {
+     "day": 3,
+     "number": 3,
+     "paper_label": "Grade 9",
+     "title": "Problem 3: Beads on a ring",
+     "problem": "Problem 3: Beads on a ring\n\nA thin wire ring of mass $M$ stands on a horizontal plane (Fig. 3). Two identical beads, each of mass $m$, can slide without friction along the ring. At the initial moment the beads are near the top point of the ring. They are released simultaneously and begin to move symmetrically. For what mass ratio $n=m/M$ will the ring lift off the plane?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-3-3-fig1.png\n\nFig. 3"
+    },
+    {
+     "day": 3,
+     "number": 4,
+     "paper_label": "Grade 9",
+     "title": "Problem 4: Ice in laser beams",
+     "problem": "Problem 4: Ice in laser beams\n\nTo study the properties of ice, a set-up of pulleys and strings on a stand was assembled in a laboratory, to which four pieces of ice of different masses were attached, placing them in a cylindrical beaker with water. The system came to equilibrium when the heavy pieces of ice were partly submerged in the water, while the lightest one, of mass $m$, remained hanging in the air (Fig. 4).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-3-4-fig1.png\n\nFig. 4\n\nIn the course of the experiment, a laser beam was directed at the piece of ice hanging in the air, and it began to melt. The melt water flowed down into the beaker.\n\nAfter the piece of ice had received the quantity of heat $Q=825$ J, the water level in the beaker changed by $\\Delta h_1=1$ cm. After the hanging piece of ice had melted completely, the change of the level compared with the initial one was $\\Delta h_2=3$ cm.\n\n1. Does the water level in the beaker rise or fall?\n\n2. Determine the area of the bottom of the beaker.\n\n3. Within what range did the tension of the string holding the piece of ice of mass $6m$ vary?\n\nAssume that until it melted completely the hanging piece of ice $m$ remained on the string without touching the water. The pulleys and strings are massless. The temperature of the ice and the water at the beginning and during the experiment was equal to the room temperature $t_{\\rm r}=0\\,^\\circ$C. The density of ice is $\\rho_{\\rm i}=900$ kg/m$^3$, the density of water $\\rho=1000$ kg/m$^3$. The specific latent heat of fusion of ice is $\\lambda=330$ kJ/kg. The free-fall acceleration is $g=10$ m/s$^2$."
+    },
+    {
+     "day": 3,
+     "number": 5,
+     "paper_label": "Grade 9",
+     "title": "Problem 5: Rheostatics",
+     "problem": "Problem 5: Rheostatics\n\nThe experimenter Glück performs experiments with an electric circuit whose diagram is shown in Figure 5. The circuit consists of a source of unknown voltage $U_0$, a resistor $R_3=1\\,\\mathrm{M\\Omega}$, resistors $R_1$ and $R_2$ of unknown resistances, two ideal ammeters and a rheostat 1–2, a conductor of constant cross-section to which the slider 3 is connected. The length of the rheostat is $L=1$ m and its resistance is $r=1\\,\\mathrm{k\\Omega}$. Changing the position of the slider of the rheostat, Glück plotted the graph of the current $I_A$ through ammeter A$_1$ versus the length $x$ of the section 1–3 of the rheostat (Fig. 6).\n\n1. Find the ratio of the resistances $R_1:R_2$.\n\n2. Sketch the graph of the approximate dependence of the current $I_0$ through ammeter A$_2$ on the length $x$ of the section 1–3 of the rheostat.\n\n3. Find the resistances of the resistors $R_1$, $R_2$ and the voltage of the source $U_0$.\n\nNote. All values may be calculated with an error of no more than 0.1%.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-3-5-fig1.png\n\nFig. 5\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/russia-2013-3-5-fig2.png\n\nFig. 6\n\n[Axis labels in Fig. 6: «I, мкА» = $I$, μA; «x, м» = $x$, m.]"
+    }
+   ]
+  },
+  {
    "year": 2014,
    "problems": [
     {

@@ -31,6 +31,13 @@
      "paper_label": "Theory",
      "title": "Heating a Vessel",
      "problem": "Problem 4\n\nA closed vessel with volume $V_0=10\\,\\mathrm{l}$ contains dry air in the normal conditions ($t_0=0^\\circ\\mathrm{C}$, $p_0=1\\,\\mathrm{atm}$). In some moment $3\\,\\mathrm{g}$ of water were added to the vessel and the system was warmed up to $t=100^\\circ\\mathrm{C}$. Find the pressure in the vessel. Discuss assumption you made to solve the problem."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Experimental",
+     "title": "Heating Petroleum",
+     "problem": "Experimental problem\n\nThe following devices and materials are given:\n\n• 1. Balance (without weights)\n• 2. Calorimeter\n• 3. Thermometer\n• 4. Source of voltage\n• 5. Switches\n• 6. Wires\n• 7. Electric heater\n• 8. Stop-watch\n• 9. Beakers\n• 10. Water\n• 11. Petroleum\n• 12. Sand (for balancing)\n\nDetermine specific heat of petroleum. The specific heat of water is $1\\,\\mathrm{cal/(g\\cdot{}^{\\circ}C)}$. The specific heat of the calorimeter is $0.092\\,\\mathrm{cal/(g\\cdot{}^{\\circ}C)}$.\n\nDiscuss assumptions made in the solution."
     }
    ]
   },
@@ -57,6 +64,13 @@
      "paper_label": "Theory",
      "title": "Glass Semi-cylinder",
      "problem": "Problem 3\n\nParallel light rays are falling on the plane surface of a semi-cylinder made of glass, at an angle of $45^\\circ$, in such a plane which is perpendicular to the axis of the semi-cylinder (Fig. 4). (Index of refraction is $\\sqrt{2}$.) Where are the rays emerging out of the cylindrical surface?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1968-3-fig1.png\n\nFigure 4"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Experimental",
+     "title": "Three Black Boxes",
+     "problem": "Experimental problem\n\nThree closed boxes (black boxes) with two plug sockets on each are present for investigation. The participants have to find out, without opening the boxes, what kind of elements are in them and measure their characteristic properties. AC and DC meters (their internal resistance and accuracy are given) and AC ($50\\,\\mathrm{Hz}$) and DC sources are put at the participants’ disposal."
     }
    ]
   },
@@ -123,6 +137,13 @@
      "paper_label": "Theory",
      "title": "A Telescope with a Spherical Mirror",
      "problem": "Problem 4.\n\nA spherical mirror is installed into a telescope. Its lateral diameter is $D=0{,}5\\,\\mathrm{m}$ and the radius of the curvature $R=2\\,\\mathrm{m}$. In the main focus of the mirror there is an emission receiver in the form of a round disk. The disk is placed perpendicular to the optical axis of the mirror (Fig. 4). What should the radius $r$ of the receiver be so that it could receive the entire flux of the emission reflected by the mirror? How would the received flux of the emission decrease if the detector's dimensions decreased by 8 times?\n\nDirections: 1) When calculating small values $\\alpha$ $(\\alpha\\ll1)$ one may perform a substitution $\\sqrt{1-\\alpha}\\approx1-\\dfrac{\\alpha}{2}$; 2) diffraction should not be taken into account.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1970-4-fig1.png\n\nFig. 4"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Experimental",
+     "title": "Three Lenses",
+     "problem": "Experimental Problem\n\nDetermine the focal distances of lenses.\n\nList of instruments: three different lenses installed on posts, a screen bearing an image of a geometric figure, some vertical wiring also fixed on the posts and a ruler."
     }
    ]
   },
@@ -156,6 +177,13 @@
      "paper_label": "Theory",
      "title": "Spherical Aquarium",
      "problem": "Question 4.\n\nA spherical aquarium, filled with water, is placed in front of a flat vertical mirror. The radius of the aquarium is $R$, and the distance between its center and the mirror is $3R$. A small fish, which is initially at the point nearest to the mirror, starts to move with velocity $v$ along the wall. An observer looks at the fish from a very large distance along a horizontal line passing trough the center of the aquarium.\n\nWhat is the relative velocity $v_{rel}$ at which the two images of the fish seen by the observer will move apart? Express your answer in terms of $v$. Assume that:\n\n• The wall of the aquarium is made of a very thin glass.\n• The index of refraction of water is $n=4/3$."
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Experimental",
+     "title": "Rheostat Dissipation",
+     "problem": "Experimental Problem\n\nApparatus: dc source, ammeter, voltmeter, rheostat (coil of high resistance wire with sliding contact), and connecting wires.\n\nProblem: Construct appropriate circuit and establish the dependence of the electric power $P$ dissipated in the rheostat as a function of the current $I$ supplied by the dc source.\n\n• 1. Make a plot of $P$ versus $I$.\n• 2. Find the internal resistance of the dc source.\n• 3. Determine the electromotive force $E$ of the source.\n• 4. Make a graph of the electric power $P$ versus resistance $R$ of the rheostat.\n• 5. Make a graph of the total power $P_{\\mathrm{tot}}$ dissipated in the circuit as a function of $R$.\n• 6. Make a graph of the efficiency $\\eta$ of the dc source versus $R$."
     }
    ]
   },
@@ -189,6 +217,13 @@
      "paper_label": "Theory",
      "title": "Geometrical Optics and Interference",
      "problem": "Problem 4 (Optics)\n\nA thin lens plane-convex with the diameter $2r$, the curvature radius $R$ and the refractive index $n_o$ is positioned so that on its left side is air ($n_1=1$), and on its right side there is a transparent medium with the refractive index $n_2\\neq1$. The convex face of the lens is directed towards air. In the air, at the distance $s_1$ from the lens, measured on the principal optic ax, there is a punctual source of monochromatic light.\n\na) Demonstrate, using Gauss approximation, that between the position of the image, given by the distance $s_2$ from the lens, and the position of the light source, exists the relation:\n\n$$\\frac{f_1}{s_1}+\\frac{f_2}{s_2}=1$$\n\nwhere $f_1$ and $f_2$ are the focal distances of the lens, in air, respectively in the medium with the refractive index $n_2$.\n\nObservation: All the refractive indexes are absolute indexes.\n\nb) The lens is cut perpendicular on its plane face in two equal parts. These parts are moved away at a distance $\\delta\\ll r$ (Billet lens). On the symmetry axis of the system obtained is led a punctual source of light at the distance $s_1$ ($s_1>f_1$) (fig. 4.1). On the right side of the lens there is a screen E at the distance $d$. The screen is parallel with the plane face of the lens. On this screen there are $N$ interference fringes, if on the right side of the lens is air.\n\nDetermine $N$ function of the wave length.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/ipho-1972-4-fig1.png\n\nFig. 4.1"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Experimental",
+     "title": "Two Cylinders",
+     "problem": "Experimental part (Mechanics)\n\nThere are given two cylindrical bodies (having identical external shapes and from the same material), two measuring rules, one graduated and other un-graduated, and a vessel with water.\n\nIt is known that one of the bodies is homogenous and the other has an internal cavity with the following characteristics:\n\n• the cavity is cylindrical\n• has the axis parallel with the axis of the body\n• its length is practically equal with that of the body\n\nDetermine experimentally and justify theoretically:\n\n• a) The density of the material the two bodies consist of.\n• b) The radius of the internal cavity.\n• c) The distance between the axis of the cavity and the axis of the cylinder.\n• d) Indicate the sources of errors and appreciate which of them influences more the final results.\n\nWrite all the variants you have found."
     }
    ]
   },

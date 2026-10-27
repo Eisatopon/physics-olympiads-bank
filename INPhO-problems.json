@@ -2,6 +2,673 @@
  "competition": "India — Indian National Physics Olympiad (INPhO)",
  "years": [
   {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Question 1",
+     "problem": "We define three quantities as follow:\n\n$$A = m_ec^2,\\ B = h/m_ec,\\ C = e^2/2\\epsilon_0 ch$$\n\nWhere $m_e$ is electron mass and other symbols have their usual meanings. For the hydrogen atom, express the radius of the $n^{th}$ Bohr orbit $r_n$, the energy level $E_n$, and the Rydberg constant $R$ in terms of any two of $\\{A,\\ B,\\ C\\}$\n\n$\\textbf{[5]}$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Question 2",
+     "problem": "Consider a ball which is projected horizontally with speed $u$ from the edge of a cliff of height $H$ as shown in the Fig. (1). There is air resistance proportional to the velocity in both $x$ and $y$ direction i.e. the motion in the $x$ ($y$) direction has air resistance given by the $c\\,v_x$ ($c\\,v_y$) where $c$ is the proportionality constant and $v_x$($v_y$) is the velocity in the $x$ ($y$) directions. Take the downward direction to be negative. The acceleration due to gravity is $g$. Take the origin of the system to be at the bottom of the cliff as shown in Fig. (1).\n\n(a) Obtain expression for $x(t)$ and $y(t)$.\n\n(b) Obtain the expression for the equation of trajectory.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2008-2-fig1.png\n\nFigure 1:\n\n(c) Make a qualitative, comparative sketch of the trajectories with and without air resistance.\n\n(d) Given that height of cliff is $500\\,\\mathrm{m}$ and $c = 0.05\\,\\mathrm{sec^{-1}}$. Obtain the approximate time in which the ball reaches the ground. Take $g = 10\\,\\mathrm{m\\text{-}sec^{-2}}$\n\n$\\textbf{[ 4 + 3 + 2 + 3 = 12 ]}$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Question 3: Free Standing Tower",
+     "problem": "Consider a tower of constant density ($\\rho$) and cross sectional area ($A$) (see Fig. (2)) at the earth's equator. The tower has a counter weight at one end. It is free standing. In other words its weight is balanced by the outward centrifugal weight so that it exerts no force on the ground beneath it and tension in the tower is zero at both ends. Consider the earth to be an isolated heavenly body and ignore gravitational effects due to the other heavenly bodies such as moon. Further assume that there is no bending of the tower.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2008-3-fig1.png\n\nFigure 2:\n\n(a) Draw the free body diagram of the small element of this tower at distance $r$ from the center of the earth.\n\n(b) Let $T(r)$ be the tensile stress (tension per unit area) in the tower. Use Newton's equations to write down the equation for $dT/dr$ in terms of $G$, $\\rho$, geostationary height $R_g$ from the earth's center and earth's mass $M$.\n\n(c) Taking the boundary condition ($T_R = T_H = 0$), obtain the height of tower $H$ in terms of $R$ and $R_g$. Note that $R$ is the radius of earth. Calculate the value of $H$.\n\n(d) The tensile stress in the tower changes as we move from $r = R$ to $r = H$. Sketch this tensile stress $T(r)$.\n\n(e) Steel has density of $\\rho = 7.9\\times10^3\\,\\mathrm{kg\\text{-}m^{-3}}$. The breaking tensile strength is $6.37\\,\\mathrm{GPa}$. Calculate the maximum stress in the tower. State if a tower made of steel would be feasible.\n\nNote: $M = 5.98\\times10^{24}\\,\\mathrm{kg}$; $R = 6370\\,\\mathrm{km}$; $R_g = 42\\,300\\,\\mathrm{km}$\n\n$\\textbf{[ 0.5 + 1.5 + 5 + 3 + 2 = 12 ]}$\n\n[Constant from the paper's Table of Information: universal constant of gravitation $G = 6.67\\times10^{-11}\\,\\mathrm{N\\text{-}m^2\\text{-}kg^{-2}}$.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Question 4",
+     "problem": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2008-4-fig1.png\n\nFigure 3:\n\nTwo identical walls, each of width $w$ ($=0.01\\,\\mathrm{m}$), are separated by a distance $d$ ($= 0.1\\,\\mathrm{m}$) as shown in Fig. (3). Temperatures of the external face of the walls are fixed ($T_1$ and $T_2$, $T_2 > T_1$). Coefficient of thermal conductivity of wall is $k_w = 0.72\\,\\mathrm{W\\text{-}m^{-1}\\text{-}K^{-1}}$. We define\n\n$$T_0 = \\frac{T_1+T_2}{2}, \\quad \\Delta = T_2 - T_1 \\quad \\text{and} \\quad \\delta = T'' - T' \\qquad (1)$$\n\nwhere $T'$ and $T''$ are the temperatures of the internal face of the walls 1 and 2 respectively. Then $\\delta$ will depend on the type of heat transfer process in central region (of width $d$) between the walls i.e. on the conduction, radiation or convection heat transfer. Assume that the heat transfer is a steady state process.\n\n(a) Write down the expression for heat transfer flux $q_w$ ($\\mathrm{watt\\text{-}m^{-2}}$) inside the wall 1 in terms of $k_w$, $T_1$, $T'$, and $w$. Similarly also write the expression for wall 2.\n\n(b) Rewrite $q_w$ in terms of $\\Delta$, $\\delta$, $k_w$, and $w$.\n\nAs mentioned above, in the central region between the walls, heat is transmitted by conduction, convection and radiation. Also due to the steady state process, the corresponding fluxes are equal to $q_w$. In what follows we will calculate the heat transfer fluxes between the walls due to these three processes each of these processes being considered separately.\n\nRadiation process will take place without the presence of material medium in the central region between the walls. We assume that the central region between the walls is vacuum. Let $\\epsilon$ be the emissivity of the walls and $E_1$ and $E_2$ be the total heat flux due to radiation from wall 1 to 2 and vice versa. Thus $E_1 = \\epsilon\\sigma T'^4 + (1-\\epsilon)E_2$ where $\\sigma$ is Stefan constant. Similarly one may write the equation for $E_2$.\n\n(c) The net heat transfer is $q_r = E_2 - E_1$. Write the expression for $q_r$ in terms of $\\epsilon$, $T''$, and $T'$.\n\n(d) Rewrite $q_r$ in terms of $\\{k_w,\\ \\Delta,\\ T_0,\\ \\sigma,\\ \\epsilon$ and $w\\}$.\n[ Hint: Eliminate $\\delta$ using $\\delta^2 << {T_0}^2$. ]\n\n(e) Calculate $q_r$ if $\\epsilon = 0.9$.\n\nIn the following two parts we are considering only convection betwen the walls.\n\n(f) Now we assume that central region is filled with air of coefficient of thermal conductivity $k_a$. In this condition, convected heat transfer between walls will take place. Equation for flux due to this process is given by\n\n$$q_{cv} = \\frac{N_u\\,k_a}{d}(T'' - T')$$\n\nwhere $N_u$ is called the Nusselt number and for the given system $N_u = 6.4$.\nDue to the steady state nature of the process $q_w = q_{cv}$. Express $q_{cv}$ in terms of $\\{k_w,\\ k_a,\\ \\Delta,\\ w,\\ d,$ and $N_u\\}$.\n\n(g) Calculate the value of $q_{cv}$ if $k_a = 0.026\\,\\mathrm{W\\text{-}m^{-1}\\text{-}K^{-1}}$.\n\n(h) Instead of air, the central region is now filled with sheathing material having coefficient of thermal conductivity $k_s$. Hence heat transfer will take place by conduction between walls. Express heat transfer flux $q_{cd}$ in terms of $\\{k_s,\\ k_w,\\ d,\\ w,$ and $\\Delta\\}$. We assume that no radiation passes through sheathing material.\n\n(i) Taking $k_s = 0.05\\,\\mathrm{W\\text{-}m^{-1}\\text{-}K^{-1}}$, calculate the value of $q_{cd}$.\n\n(j) Considering all possible heat transfer process in the central region between the walls, which insulation (sheathing, air, or vaccum) is the most efficient?\n\n$\\textbf{[ 1 + 1 + 1 + 3 + 2 + 1.5 + 1.5 + 2.5 + 1.5 + 1 = 16 ]}$\n\n[Constant from the paper's Table of Information: Stefan-Boltzmann constant $\\sigma = 5.67\\times10^{-8}\\,\\mathrm{watt\\text{-}meter^{-2}\\text{-}K^{-4}}$ (printed as \"watt-meter$^{-2}$ – K$^4$\").]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Question 5",
+     "problem": "Sunlight falls on the convex surface of the plano - convex lens of aperture $0.080\\,\\mathrm{m}$. The radius of curvature of the convex surface of the lens is $0.100\\,\\mathrm{m}$. The refractive indices of the material of the lens for extreme red and violet colours of sunlight are $1.600$ and $1.700$ respectively.\n\n(a) Calculate the positions of the observed image of the Sun with violet and red center.\n\n(b) Calculate the sizes of the observed image of the sun with violet and red center.\n\n$\\textbf{[ 3 + 7 = 10 ]}$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Question 6: Determination of The Speed of Light",
+     "problem": "The speed light maybe determined by an electrical circuit using low frequency ac fields only. Consider the arrangement shown in the Fig. (4). A sinusoidally varying voltage $V_0\\cos(2\\pi ft)$ is applied to a parallel plate capacitor $C_1$ of radius $a$ and separation $s$ and also to the capacitor $C_2$. The charge flowing into and out of $C_2$ constitutes the current in the two rings of radii $b$ and separation $h$. When the voltage is turned off the two sides (the capacitor $C_1$ on one side and the rings on the other) are exactly balanced. Ignore wire resistance, inductance and gravitational effects.\n\n(a) Obtain an expression for the time-averaged force between the plates of $C_1$.\n\n(b) Obtain an expression for the time-averaged force between the rings. The magnetic force between the two rings maybe approximated by those due to long straight wires since $b >> h$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2008-6-fig1.png\n\nFigure 4:\n\n(c) Assume that $C_2$ and the various distances are so adjusted that the time-averaged downward force on the upper plate of $C_1$ is exactly balanced by the time-averaged downward force on the upper ring. Under these conditions obtain an expression for the speed of light.\n\n(d) Numerically estimate the speed of light given that: $a = 0.10\\,\\mathrm{m}$, $s = 0.005\\,\\mathrm{m}$, $b = 0.50\\,\\mathrm{m}$, $h = 0.02\\,\\mathrm{m}$, $f = 60.0\\,\\mathrm{Hz}$, $C_1 = 1.00\\,\\mathrm{nF}$ (nano Farad) and $C_2 = 632\\,\\mathrm{\\mu F}$ (micro Farad).\n[Hint: Not all the given quantities are required to obtain the estimate.]\n\n$\\textbf{[ 3 + 4 + 2 + 3 = 12 ]}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Question 7",
+     "problem": "An $N$ turn metallic ring of radius $a$, resistance $R$, and inductance $L$ is held fixed with its axis along a spatially uniform magnetic field $\\vec{B}$ whose magnitude is given by $B_0\\sin(\\omega t)$.\n\n(a) Set up the emf equation for the current $i$ in the ring.\n\n(b) Assuming that in the steady state $i$ oscillates with the same frequency $\\omega$ as the magnetic field obtain the expression for $i$.\n\n(c) Obtain the force per unit length. Further obtain its oscillatory part and the time-averaged compressional part.\n\n(d) Calculate the time-averaged compressional force per unit length given that $B_0 = 1$ tesla, $N = 10$, $a = 10.0\\,\\mathrm{cm}$, $\\omega = 1000.0\\,\\mathrm{radians/sec}$, $R = 10\\,\\Omega$, $L = 100\\,\\mathrm{mH}$.\n\n(e) Answer the following two questions without providing rigorous justification:\n\ni. For $\\omega/2\\pi = 60\\,\\mathrm{Hz}$, the ring emits a humming sound. What is the frequency of this sound.\n\nii. A capacitor is included in the circuit. How does this affect the force on the ring?\n\n$\\textbf{[ 2 + 3.5 + 4 + 1.5 + 2 = 13 ]}$"
+    }
+   ]
+  },
+  {
+   "year": 2009,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Part A, Question 1",
+     "problem": "A block of weight $200\\,\\mathrm{N}$ is at rest on a rough inclined plane of inclination angle $\\theta = 30^0$. The inclined plane is at rest in the earth's inertial frame. Then the magnitude of the force the plane exerts on the block is\n\n(a) $100\\sqrt{3}\\,\\mathrm{N}$.\n\n(b) $100\\,\\mathrm{N}$\n\n(c) $200\\,\\mathrm{N}$\n\n(d) zero."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Part A, Question 2",
+     "problem": "A spatially uniform magnetic field $\\vec{B}$ exists in the circular region $S$ and this field is decreasing in magnitude with time at a constant rate (see Fig. (1)). The wooden ring $C_1$ and the conducting ring $C_2$ are concentric with the magnetic field. The magnetic field is perpendicular to the plane of the figure. Then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-2-fig1.png\n\nFigure 1:\n\n(a) there is no induced electric field in $C_1$.\n\n(b) there is an induced electric field in $C_1$ and its magnitude is greater than the magnitude of the induced electric field in $C_2$.\n\n(c) there is an induced electric field in $C_2$ and its magnitude is greater than the induced electric field in $C_1$.\n\n(d) there is no induced electric field in $C_2$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Part A, Question 3",
+     "problem": "During negative $\\beta$ decay, an anti-neutrino is also emitted along with the ejected electron. Then\n\n(a) only linear momentum will be conserved.\n\n(b) total linear momentum and total angular momentum but not total energy will be conserved.\n\n(c) total liner momentum and total energy but not total angular momentum will be conserved.\n\n(d) total linear momentum, total angular momentum and total energy will be conserved."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Part A, Question 4",
+     "problem": "Five identical balls each of mass $m$ and radius $r$ are strung like beads at random and at rest along a smooth, rigid horizontal thin rod of length $L$, mounted between immovable supports (see Fig. (2)). Assume $10r < L$ and that the collision between balls or between balls and supports are elastic. If one ball is struck horizontally so as to acquire a speed $v$, the average force felt by the support is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-4-fig1.png\n\nFigure 2:\n\n(a) $\\dfrac{5mv^2}{L-5r}$\n\n(b) $\\dfrac{mv^2}{L-10r}$\n\n(c) $\\dfrac{5mv^2}{L-10r}$\n\n(d) $\\dfrac{mv^2}{L-5r}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Part A, Question 5",
+     "problem": "In Young's double slit experiment, one of the slits is wider than the other, so that the amplitude of the light from one slit is double that from the other slit. If $I_m$ be the maximum intensity, the resultant intensity when they interfere at phase difference $\\phi$ is given by\n\n(a) $\\dfrac{I_m}{3}\\left(1 + 2\\cos^2\\dfrac{\\phi}{2}\\right)$\n\n(b) $\\dfrac{I_m}{5}\\left(1 + 4\\cos^2\\dfrac{\\phi}{2}\\right)$\n\n(c) $\\dfrac{I_m}{9}\\left(1 + 8\\cos^2\\dfrac{\\phi}{2}\\right)$\n\n(d) $\\dfrac{I_m}{9}\\left(8 + \\cos^2\\dfrac{\\phi}{2}\\right)$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Part A",
+     "title": "Part A, Question 6",
+     "problem": "A point luminous object ($O$) is at a distance $h$ from front face of a glass slab of width $d$ and of refractive index $n$. On the back face of slab is a reflecting plane mirror. An observer sees the image of object in mirror (see Fig. (3)). Distance of image from front face as seen by observer will be\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-6-fig1.png\n\nFigure 3:\n\n(a) $h + \\dfrac{2d}{n}$\n\n(b) $2h + 2d$\n\n(c) $h + d$\n\n(d) $h + \\dfrac{d}{n}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Part A",
+     "title": "Part A, Question 7",
+     "problem": "A uniform wire of diameter $0.04\\,\\mathrm{cm}$ and length $60\\,\\mathrm{cm}$ made of steel (density $8000\\,\\mathrm{kg\\text{-}m^{-3}}$) is tied at both ends under a tension of $80\\,\\mathrm{N}$. Transverse vibrations of frequency about $700\\,\\mathrm{Hz}$ will be predominant if the wire is plucked at\n\n(a) $15\\,\\mathrm{cm}$ and held at $30\\,\\mathrm{cm}$.\n\n(b) $10\\,\\mathrm{cm}$ and held at $20\\,\\mathrm{cm}$.\n\n(c) $30\\,\\mathrm{cm}$.\n\n(d) $20\\,\\mathrm{cm}$ and held at $40\\,\\mathrm{cm}$."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Part A",
+     "title": "Part A, Question 8",
+     "problem": "Consider a circle of radius $R$. A point charge lies at a distance $a$ from its center and on its axis such that $R = a\\sqrt{3}$. If electric flux passing through the circle is $\\phi$ then the magnitude of the point charge is\n\n(a) $\\sqrt{3}\\epsilon_0\\phi$\n\n(b) $2\\epsilon_0\\phi$\n\n(c) $4\\epsilon_0\\phi/\\sqrt{3}$\n\n(d) $4\\epsilon_0\\phi$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Part A",
+     "title": "Part A, Question 9",
+     "problem": "A uniform tube $60\\,\\mathrm{cm}$ long, stands vertically with lower end dipping into water. When its length above water is $14.8\\,\\mathrm{cm}$ and again when it is $48\\,\\mathrm{cm}$, the tube resonates to a vibrating tuning fork of frequency $512\\,\\mathrm{Hz}$. The lowest frequency to which this tube can resonate when it is taken out of water is nearly\n\n(a) $275\\,\\mathrm{Hz}$\n\n(b) $267\\,\\mathrm{Hz}$\n\n(c) $283\\,\\mathrm{Hz}$\n\n(d) $256\\,\\mathrm{Hz}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Part A",
+     "title": "Part A, Question 10",
+     "problem": "A binary star has a period ($T$) of 2 earth years while distance $L$ between its components having masses $M_1$ and $M_2$ is four astronomical units. If $M_1 = M_S$ where $M_S$ is the mass of Sun, the mass of other component $M_2$ is\n\n(a) $3M_S$\n\n(b) $7\\,M_S$\n\n(c) $15\\,M_S$\n\n(d) $M_S$\n\n$\\textbf{Note}$: The earth - sun distance is one astronomical unit."
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Part A",
+     "title": "Part A, Question 11",
+     "problem": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-11-fig1.png\n\nFigure 4:\n\nA uniform rod of mass $2M$ is bent into four adjacent semicircles each of radius $r$ all lying in the same plane (see Fig. (4)). The moment of inertia of the bent rod about an axis through one end $A$ and perpendicular to plane of rod is\n\n(a) $22Mr^2$\n\n(b) $88Mr^2$\n\n(c) $44Mr^2$\n\n(d) $66Mr^2$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Part A",
+     "title": "Part A, Question 12",
+     "problem": "Two pulses on the same string are described by the following wave equations:\n\n$$y_1 = \\frac{5}{(3x-4t)^2+2} \\quad \\text{and} \\quad y_2 = \\frac{-5}{(3x+4t-6)^2+2}.$$\n\nChoose the INCORRECT statement.\n\n(a) Pulse $y_1$ and pulse $y_2$ travel along +ve and -ve $x$ axis respectively.\n\n(b) At $t = 0.75\\,\\mathrm{s}$, displacement at all points on the string is zero.\n\n(c) At $x = 1\\,\\mathrm{m}$ displacement is zero for all times.\n\n(d) Energy of string is zero at $t = 0.75\\,\\mathrm{s}$."
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Part A",
+     "title": "Part A, Question 13",
+     "problem": "A ray of light enters at grazing angle of incidence into an assembly of five isosceles right-angled prisms having refractive indices $\\mu_1$, $\\mu_2$, $\\mu_3$, $\\mu_4$ and $\\mu_5$ respectively (see Fig. (5)). The ray also emerges out at a grazing angle. Then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-13-fig1.png\n\nFigure 5:\n\n(a) $\\mu_1^2 + \\mu_3^2 + \\mu_5^2 = 1 + \\mu_2^2 + \\mu_4^2$\n\n(b) $\\mu_1^2 + \\mu_3^2 + \\mu_5^2 = 2 + \\mu_2^2 + \\mu_4^2$\n\n(c) $\\mu_1^2 + \\mu_3^2 + \\mu_5^2 = \\mu_2^2 + \\mu_4^2$\n\n(d) none of the above"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Part A",
+     "title": "Part A, Question 14",
+     "problem": "The circuit shown in Fig. (6)) is allowed to reach steady state and then a soft iron core is inserted in the coil such that the coefficient of self inductance changes from $L$ to $nL$. The current in the circuit at the time of complete insertion is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-14-fig1.png\n\nFigure 6:\n\n(a) $E/R$\n\n(b) $nE/R$\n\n(c) $E/nR$\n\n(d) zero"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Part A",
+     "title": "Part A, Question 15",
+     "problem": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-15-fig1.png\n\nFigure 7:\n\nConsider an infinitely extending gas cloud in space at temperature $T = 0\\,\\mathrm{K}$ with two spherical vacuum cavities (see Fig. (7)). Consider only gravitational forces between gas molecules. Then\n\n(a) the cavities would come closer to each other.\n\n(b) the cavities would move away from each other.\n\n(c) the cavities would be static.\n\n(d) the motion of cavities would depend on the size of cavities."
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Part A",
+     "title": "Part A, Question 16",
+     "problem": "Questions (16) and (17) are based on Fig. (8) and following information. A rod of mass $m$ and length $l$ is hinged at one end $O$. A particle of mass $m$ travelling with speed $v$ collides with the rod at a distance $x$ from the center of mass of the rod such that the reaction force at the hinge is zero.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-16-fig1.png\n\nFigure 8:\n\nThen for the system\n\n(a) linear momentum is conserved.\n\n(b) angular momentum is not conserved about point $O$.\n\n(c) Linear momentum is not conserved and angular momentum about point $O$ is conserved.\n\n(d) the mechanical energy is conserved."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Part A",
+     "title": "Part A, Question 17",
+     "problem": "[Common data printed before Question 16:] Questions (16) and (17) are based on Fig. (8) and following information. A rod of mass $m$ and length $l$ is hinged at one end $O$. A particle of mass $m$ travelling with speed $v$ collides with the rod at a distance $x$ from the center of mass of the rod such that the reaction force at the hinge is zero.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-17-fig1.png\n\nFigure 8:\n\nThen\n\n(a) $x = l/6$.\n\n(b) $x = l/2$.\n\n(c) $x = l/3$.\n\n(d) $x = l/4$."
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Part A",
+     "title": "Part A, Question 18",
+     "problem": "Consider a huge charge reservoir at potential $V$. A spherical capacitor $C_1$ is brought in contact with the charge reservoir and then removed. Next another spherical capacitor $C_2$ is brought in contact with $C_1$ and removed. We repeat this process a large number of times. Assume that potential of reservoir does not change during this exercise. Then the charge on $C_2$ after a very long time is\n\n(a) $C_2V$\n\n(b) $C_1V$\n\n(c) $C_2C_1V/(C_1+C_2)$\n\n(d) $(C_1+C_2)V$"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Part A",
+     "title": "Part A, Question 19",
+     "problem": "A particle of mass $1\\,\\mathrm{kg}$ is taken along the path $ABCDE$ from $A$ to $E$ (see Fig. (9)). The two \"hills\" are of heights $50\\,\\mathrm{m}$ and $100\\,\\mathrm{m}$ and the horizontal distance $AE$ is $20\\,\\mathrm{m}$ while the path length is $400\\,\\mathrm{m}$. The coefficient of friction of the surface is $0.1$. Take $g = 10\\,\\mathrm{m\\text{-}s^{-2}}$ and $\\sqrt{3} = 1.73$. The minimum work on the mass required to accomplish this is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-19-fig1.png\n\nFigure 9:\n\n(a) $20\\,\\mathrm{J}$\n\n(b) $173\\,\\mathrm{J}$\n\n(c) $400\\,\\mathrm{J}$\n\n(d) $0\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Part A",
+     "title": "Part A, Question 20",
+     "problem": "Two positrons ($e^+$) and two protons ($p$) are kept on four corners of a square of side $a$ as shown in Fig. (10). The mass of proton is much larger than the mass of positron. Let $q$ denote the charge on the proton as well as the positron. Then the kinetic energies of one of the positrons and one of the protons respectively after a very long time will be\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-20-fig1.png\n\nFigure 10:\n\n(a) $\\dfrac{q^2}{4\\pi\\epsilon_0 a}\\left(1 + \\dfrac{1}{2\\sqrt{2}}\\right), \\quad \\dfrac{q^2}{4\\pi\\epsilon_0 a}\\left(1 + \\dfrac{1}{2\\sqrt{2}}\\right)$\n\n(b) $\\dfrac{q^2}{2\\pi\\epsilon_0 a}, \\quad \\dfrac{q^2}{4\\sqrt{2}\\pi\\epsilon_0 a}$\n\n(c) $\\dfrac{q^2}{4\\pi\\epsilon_0 a}, \\quad \\dfrac{q^2}{4\\pi\\epsilon_0 a}$\n\n(d) $\\dfrac{q^2}{2\\pi\\epsilon_0 a}\\left(1 + \\dfrac{1}{4\\sqrt{2}}\\right), \\quad \\dfrac{q^2}{8\\sqrt{2}\\pi\\epsilon_0 a}$"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Part A",
+     "title": "Part A, Question 21",
+     "problem": "An electrostatic field line leaves at angle $\\alpha$ from point charge $q_1$, and connects with point charge $-q_2$ at angle $\\beta$ (see Fig. (11)). Then the relationship between $\\alpha$ and $\\beta$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-21-fig1.png\n\nFigure 11:\n\n(a) $q_1\\sin^2\\alpha = q_2\\sin^2\\beta$.\n\n(b) $q_1\\tan\\alpha = q_2\\tan\\beta$.\n\n(c) $q_1\\sin^2\\dfrac{\\alpha}{2} = q_2\\sin^2\\dfrac{\\beta}{2}$.\n\n(d) $q_1\\cos\\alpha = q_2\\cos\\beta$."
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Part A",
+     "title": "Part A, Question 22",
+     "problem": "A square metal frame in the vertical plane is hinged at $O$ at its center (see Fig. (12)). A bug moves along the rod $PN$ which is at a distance $l$ from the hinge, such that the whole frame is always stationary, even though the frame is free to rotate in the vertical plane about the hinge. Then the motion of the bug will be simple harmonic, with time period,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-22-fig1.png\n\nFigure 12:\n\n(a) $2\\pi\\sqrt{l/g}$\n\n(b) $2\\pi\\sqrt{2l/g}$\n\n(c) $2\\pi\\sqrt{4l/g}$\n\n(d) $2\\pi\\sqrt{l/2g}$\n\n[ $\\textbf{Hint:}$ There is a frictional force between the rod and the bug. ]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Part A",
+     "title": "Part A, Question 23",
+     "problem": "A long flexible inextensible rope of uniform linear mass density $\\lambda$ is being pulled on a rough floor with horizontal force $\\vec{F}$ in such a way that its lower part is at rest and upper part moves with constant speed $v$ (see Fig. (13)). The magnitude of $\\vec{F}$ will be\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-23-fig1.png\n\nFigure 13:\n\n(a) $2\\lambda v^2$\n\n(b) $\\lambda v^2$\n\n(c) $\\lambda v^2/2$\n\n(d) some function of time and not constant."
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "Part A",
+     "title": "Part A, Question 24",
+     "problem": "A particle moving with initial velocity $\\vec{v}_i = (3\\hat{\\imath} + 5\\hat{\\jmath})\\,\\mathrm{m\\text{-}s^{-1}}$, collides with a smooth plane wall placed at some orientation to the particle's trajectory. The resulting velocity of the particle is $\\vec{v}_f = (-2\\hat{\\imath} - \\hat{\\jmath})\\,\\mathrm{m\\text{-}s^{-1}}$. The coefficient of restitution for this collision is\n\n(a) $16/33$\n\n(b) $5/34$\n\n(c) $16/45$\n\n(d) $8/45$"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "Part A",
+     "title": "Part A, Question 25",
+     "problem": "A long straight wire is carrying current $I_1$ in $+z$ direction. The $x-y$ plane contains a closed circular loop carrying current $I_2$ and not encircling the straight wire. The force on the loop will be\n\n(a) $\\mu_0 I_1 I_2/2\\pi$.\n\n(b) $\\mu_0 I_1 I_2/4\\pi$.\n\n(c) zero.\n\n(d) depends on the distance of the centre of the loop from the wire."
+    },
+    {
+     "day": 1,
+     "number": 26,
+     "paper_label": "Part A",
+     "title": "Part A, Question 26",
+     "problem": "A uniform electric field $\\vec{E}$ in the $y$ direction and uniform magnetic field $\\vec{B}$ in the $x$ direction exists in free space. A particle of mass $m$ and carrying charge $q$ is projected from the origin with speed $v_0$ along the $y$ axis. The speed of particle as a function of its $y$ co-ordinate will be\n\n(a) $\\sqrt{v_0^2 + \\dfrac{2qEy}{m}}$\n\n(b) $\\sqrt{v_0^2 - \\dfrac{4qEy}{m}}$\n\n(c) $\\sqrt{v_0^2 + \\dfrac{qEy}{m}}$\n\n(d) $v_0$."
+    },
+    {
+     "day": 1,
+     "number": 27,
+     "paper_label": "Part A",
+     "title": "Part A, Question 27",
+     "problem": "The atmospheric pressure on the earth's surface is $P$ in MKS units. A table of area $2\\,\\mathrm{m^2}$ is tilted at $45^0$ to the horizontal. The force on the table due to the atmosphere is (in newtons)\n\n(a) $2P$\n\n(b) $\\sqrt{2}P$\n\n(c) $2\\sqrt{2}P$\n\n(d) $P/\\sqrt{2}$"
+    },
+    {
+     "day": 1,
+     "number": 28,
+     "paper_label": "Part A",
+     "title": "Part A, Question 28",
+     "problem": "The shear modulus of lead is $2\\times10^9\\,\\mathrm{Pa}$. A cubic lead slab of side $50\\,\\mathrm{cm}$ is subjected to a shearing force of magnitude $9.0\\times10^4\\,\\mathrm{N}$ on its narrow face (see Fig. (14)). The displacement of the upper edge is $\\delta l$, where $\\delta l$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-28-fig1.png\n\nFigure 14:\n\n(a) $2\\times10^{-3}\\,\\mathrm{m}$\n\n(b) $5\\times10^{-4}\\,\\mathrm{m}$\n\n(c) $4\\times10^{-4}\\,\\mathrm{m}$\n\n(d) $9\\times10^{-5}\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 29,
+     "paper_label": "Part A",
+     "title": "Part A, Question 29",
+     "problem": "In a moving coil galvanometer the number of turns $N = 24$, area of the coil $A = 2\\times10^{-3}\\,\\mathrm{m^2}$, and the magnetic field strength $B = 0.2\\,\\mathrm{T}$. To increase its current sensitivity by 25% we\n\n(a) Increase $B$ to $0.30\\,\\mathrm{T}$\n\n(b) Decrease $A$ to $1.5\\times10^{-3}\\,\\mathrm{m^2}$\n\n(c) Increase $N$ to 30\n\n(d) None of the above."
+    },
+    {
+     "day": 1,
+     "number": 30,
+     "paper_label": "Part A",
+     "title": "Part A, Question 30",
+     "problem": "Which of the following statement is TRUE ?\n\n(a) Sound waves cannot interfere.\n\n(b) Only light waves may interfere.\n\n(c) The de Broglie waves associated with moving particles can interfere.\n\n(d) The Bragg formula for crystal structure is an example of the corpuscular nature of electromagnetic radiation."
+    },
+    {
+     "day": 1,
+     "number": 31,
+     "paper_label": "Part A",
+     "title": "Part A, Question 31",
+     "problem": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-31-fig1.png\n\nFigure 15:\n\nTwo metallic rods $AB$ and $BC$ of different materials are joined together at the junction $B$ (see Fig.(15)). It is observed that if the ends $A$ and $C$ are kept at $100^0\\,\\mathrm{C}$ and $0^0\\,\\mathrm{C}$ respectively, the temperature of the junction $B$ is $60^0\\,\\mathrm{C}$. There is no loss of heat to the surroundings. The rod $BC$ is replaced by another rod $BC'$ of the same material and length ($BC = BC'$). If the area of cross-section of $BC'$ is twice that of $BC$ and the ends $A$ and $C'$ are maintained at $100^0\\,\\mathrm{C}$ and $0^0\\,\\mathrm{C}$ respectively, the temperature of the junction $B$ will be nearly\n\n(a) $29^0\\,\\mathrm{C}$\n\n(b) $33^0\\,\\mathrm{C}$\n\n(c) $60^0\\,\\mathrm{C}$\n\n(d) $43^0\\,\\mathrm{C}$"
+    },
+    {
+     "day": 1,
+     "number": 32,
+     "paper_label": "Part A",
+     "title": "Part A, Question 32",
+     "problem": "Three closed vessels $A$, $B$ and $C$ are at the same temperature ($T$) and contain gases which obey the Maxwellian distribution of velocities. The vessel $A$ contains only $O_2$, $B$ only $N_2$ and $C$ a mixture of equal quantities of $O_2$ and $N_2$. If the average speed of the $N_2$ molecules in vessel $B$ is $V_2$ and that of oxygen molecules in $A$ is $V_1$, the average speed of the $N_2$ molecules in $C$ is\n\n(a) $(V_1+V_2)/2$\n\n(b) $(V_1-V_2)/2$\n\n(c) $V_2$\n\n(d) $\\sqrt{(V_1V_2)}$"
+    },
+    {
+     "day": 1,
+     "number": 33,
+     "paper_label": "Part A",
+     "title": "Part A, Question 33",
+     "problem": "When a system is taken from state $a$ to state $b$ along the path $a-c-b$ (see Fig.(16)), $60\\,\\mathrm{J}$ of heat flows into the system and $30\\,\\mathrm{J}$ of work are done by the system. Along the path $a-d-b$, if the work done by the system is $10\\,\\mathrm{J}$, heat flow into the system is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-33-fig1.png\n\nFigure 16:\n\n(a) $100\\,\\mathrm{J}$\n\n(b) $20\\,\\mathrm{J}$\n\n(c) $80\\,\\mathrm{J}$\n\n(d) $40\\,\\mathrm{J}$"
+    },
+    {
+     "day": 1,
+     "number": 34,
+     "paper_label": "Part A",
+     "title": "Part A, Question 34",
+     "problem": "Two identical piano strings, when stretched with the same tension $T_0$, have a fundamental frequency of $300\\,\\mathrm{Hz}$. The tension in one of the strings is increased to $(T_0 + \\Delta T)$ and 3 beats per second occur when both strings vibrate simultaneously. $(\\Delta T/T_0)\\times100$ is\n\n(a) 2\n\n(b) 3\n\n(c) 1\n\n(d) 4"
+    },
+    {
+     "day": 1,
+     "number": 35,
+     "paper_label": "Part A",
+     "title": "Part A, Question 35",
+     "problem": "The half life of a certain radioactive material (${}_zX^{100}$) is $6.93\\times10^6\\,\\mathrm{s}$. In order to have an activity of $6.0\\times10^8$ disintegrations per second, the amount of material needed is nearly\n\n(a) $10^{-9}\\,\\mathrm{kg}$\n\n(b) $10^{-16}\\,\\mathrm{kg}$\n\n(c) $10^{-6}\\,\\mathrm{kg}$\n\n(d) $10^{-4}\\,\\mathrm{kg}$"
+    },
+    {
+     "day": 1,
+     "number": 36,
+     "paper_label": "Part A",
+     "title": "Part A, Question 36",
+     "problem": "Sound of frequency $1000\\,\\mathrm{Hz}$ from a stationary source is reflected from an object approaching the source at $30\\,\\mathrm{m\\text{-}s^{-1}}$, back to a stationary observer located at the source. The speed of sound in air is $330\\,\\mathrm{m\\text{-}s^{-1}}$. The frequency of the sound heard by the observer is\n\n(a) $1200\\,\\mathrm{Hz}$\n\n(b) $1000\\,\\mathrm{Hz}$\n\n(c) $1090\\,\\mathrm{Hz}$\n\n(d) $1100\\,\\mathrm{Hz}$"
+    },
+    {
+     "day": 1,
+     "number": 37,
+     "paper_label": "Part A",
+     "title": "Part A, Question 37",
+     "problem": "Current ($I$) - applied voltage ($V$) characteristics are shown in Fig. (17). Possible observed plot(s) for a photoelectric setup is(are):\n\n(a) only II.\n\n(b) I and II.\n\n(c) II and III.\n\n(d) II and IV.\n\n$\\textbf{[Please note: This question is dropped]}$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-1-37-fig1.png\n\nFigure 17:"
+    },
+    {
+     "day": 1,
+     "number": 38,
+     "paper_label": "Part A",
+     "title": "Part A, Question 38",
+     "problem": "A triply ionized beryllium ($\\mathrm{Be^{+++}}$) has the some orbital radius as the ground state of hydrogen. Then the quantum state $n$ of $\\mathrm{Be^{+++}}$ is\n\n(a) $n = 1$\n\n(b) $n = 2$\n\n(c) $n = 3$\n\n(d) $n = 4$"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Part B, Question 1",
+     "problem": "$\\textbf{Setup for the next three questions}$\n\n$\\textbf{You are to conduct a series of trials. For each trial the inclination of the plane is set to an angle}$ $\\theta$, $\\textbf{ranging from}$ $0^0$ $\\textbf{to}$ $90^0$, $\\textbf{and an object is released from rest at the top of the stationary inclined plane. The coefficient of static friction between the object and the inclined plane is}$ $\\mu_s$. $\\textbf{In each case below, predict the observed outcome for the trial.}$\n\nIn the following questions 'tumble' means 'tip over and rotate' and 'sliding' means NO tumbling.\n\nCase 1: The object is a sphere and $\\mu_s = 0$:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-1-fig1.png\n\n(a) The sphere will roll without slipping for small $\\theta$ and slide down only for $\\theta$ greater than a certain non-zero value.\n\n(b) The sphere will remain at rest for small $\\theta$ and roll without slipping only for $\\theta$ greater than a certain non-zero value.\n\n(c) The sphere will slide down for all $\\theta > 0^0$.\n\n(d) The sphere will roll without slipping for all $\\theta > 0^0$.\n\n(e) None of the above."
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Part B",
+     "title": "Part B, Question 2",
+     "problem": "[Common setup printed before Part B, Question 1:] $\\textbf{You are to conduct a series of trials. For each trial the inclination of the plane is set to an angle}$ $\\theta$, $\\textbf{ranging from}$ $0^0$ $\\textbf{to}$ $90^0$, $\\textbf{and an object is released from rest at the top of the stationary inclined plane. The coefficient of static friction between the object and the inclined plane is}$ $\\mu_s$. $\\textbf{In each case below, predict the observed outcome for the trial.}$ In the following questions 'tumble' means 'tip over and rotate' and 'sliding' means NO tumbling.\n\nCase 2: The object is a cube and $\\mu_s = 0$. In this experiment, the angle $\\theta$ is varied only between $0^0$ and $45^0$:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-2-fig1.png\n\n(a) The cube will slide down for all $45^0 > \\theta > 0^0$.\n\n(b) The cube will remain at rest for small $\\theta$ and slide down only for $\\theta$ greater than a certain non-zero value.\n\n(c) The cube will roll without slipping for all $45^0 > \\theta > 0^0$.\n\n(d) The cube will tumble down for all $45^0 > \\theta > 0^0$.\n\n(e) None of the above."
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Part B",
+     "title": "Part B, Question 3",
+     "problem": "[Common setup printed before Part B, Question 1:] $\\textbf{You are to conduct a series of trials. For each trial the inclination of the plane is set to an angle}$ $\\theta$, $\\textbf{ranging from}$ $0^0$ $\\textbf{to}$ $90^0$, $\\textbf{and an object is released from rest at the top of the stationary inclined plane. The coefficient of static friction between the object and the inclined plane is}$ $\\mu_s$. $\\textbf{In each case below, predict the observed outcome for the trial.}$ In the following questions 'tumble' means 'tip over and rotate' and 'sliding' means NO tumbling.\n\nCase 3: The object is a cube and $\\mu_s$ is very large ($\\mu_s >> 1$):\n\n(a) The cube will remain at rest for small $\\theta$ and slide down only for $\\theta$ greater than a certain non-zero value.\n\n(b) The cube will stay on the incline as if it were glued to it, for all $\\theta$.\n\n(c) The cube will move relative to the inclined plane only for $\\theta = 90^0$.\n\n(d) The cube will tumble down only for $\\theta > 45^0$.\n\n(e) None of the above."
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Part B",
+     "title": "Part B, Question 4",
+     "problem": "$\\textbf{Setup for next two questions}$\n\n$\\textbf{A rigid wheel of radius}$ $R$ $\\textbf{rolls without slipping on a horizontal road. The linear velocity of the center of the wheel with respect to the road is}$ $\\vec{v}$ $\\textbf{and the angular speed is}$ $\\omega$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-4-fig1.png\n\nThe direction of instantaneous velocity of point B (see the figure above) with respect to the road is roughly:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-4-fig2.png\n\n[Options (a)–(d) are printed as small arrows, shown in the figure above.]\n\n(e) There is no direction since the instantaneous speed of point B is zero with respect to the road."
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Part B",
+     "title": "Part B, Question 5",
+     "problem": "[Common setup printed before Part B, Question 4:] $\\textbf{A rigid wheel of radius}$ $R$ $\\textbf{rolls without slipping on a horizontal road. The linear velocity of the center of the wheel with respect to the road is}$ $\\vec{v}$ $\\textbf{and the angular speed is}$ $\\omega$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-5-fig1.png\n\nRank order the speeds of points A, B, C at the rim of the wheel with respect to the road, largest first (see the figure above).\n\n(a) $v_A = v_B = v_C$.\n\n(b) $v_A > v_B > v_C$.\n\n(c) $v_B > v_C > v_A$.\n\n(d) $v_C > v_A > v_B$.\n\n(e) $v_C > v_B > v_A$."
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Part B",
+     "title": "Part B, Question 6",
+     "problem": "Whenever a constant non-zero net torque acts on a rigid object, it produces a\n\n(a) rotational equilibrium.\n\n(b) constant angular velocity.\n\n(c) constant angular momentum.\n\n(d) change in angular acceleration.\n\n(e) change in angular velocity."
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "Part B",
+     "title": "Part B, Question 7",
+     "problem": "$\\textbf{Setup for next two questions}$\n\n$\\textbf{An aluminum disk and an iron wheel (with spokes of negligible mass) have the same radius}$ $R$ $\\textbf{and mass}$ $M$ $\\textbf{as shown below. Each is free to rotate about its own fixed horizontal frictionless axle. Both objects are initially at rest. Identical small lumps of clay are attached to their rims as shown in the figure.}$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-7-fig1.png\n\nConsider the net torque acting on the disc+clay and wheel+clay systems, about a point on its own axle. Which one of the following statements is true?\n\n(a) The net torque is greater for the disc+clay system.\n\n(b) The net torque is greater for the wheel+clay system.\n\n(c) Which system has a greater net torque depends on actual numerical values of $R$ and $M$.\n\n(d) There is no net torque on either system.\n\n(e) The net torque on both systems are equal and non-zero."
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "Part B",
+     "title": "Part B, Question 8",
+     "problem": "[Common setup printed before Part B, Question 7:] $\\textbf{An aluminum disk and an iron wheel (with spokes of negligible mass) have the same radius}$ $R$ $\\textbf{and mass}$ $M$ $\\textbf{as shown below. Each is free to rotate about its own fixed horizontal frictionless axle. Both objects are initially at rest. Identical small lumps of clay are attached to their rims as shown in the figure.}$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-8-fig1.png\n\nWhich one of the following statements about their angular acceleration is true?\n\n(a) The angular acceleration is greater for the disk+clay system.\n\n(b) The angular acceleration is greater for the wheel+clay system.\n\n(c) Which system has greater angular acceleration depends in the actual numerical values of $R$ and $M$.\n\n(d) There is no angular acceleration for either system.\n\n(e) The angular acceleration of both the systems are equal and non-zero."
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "Part B",
+     "title": "Part B, Question 9",
+     "problem": "[Common setup printed before Part B, Question 7 (the printed heading says \"next two questions\"; Questions 7, 8 and 9 refer to it):] $\\textbf{An aluminum disk and an iron wheel (with spokes of negligible mass) have the same radius}$ $R$ $\\textbf{and mass}$ $M$ $\\textbf{as shown below. Each is free to rotate about its own fixed horizontal frictionless axle. Both objects are initially at rest. Identical small lumps of clay are attached to their rims as shown in the figure.}$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-9-fig1.png\n\nWhich one of the following statements about their maximum angular velocities is true?\n\n(a) The maximum angular velocity is greater for the disk+clay system.\n\n(b) The maximum angular velocity is greater for the wheel+clay system.\n\n(c) Which object has a greater maximum angular velocity is determined by the actual numerical values of $R$ and $M$.\n\n(d) The maximum angular velocities of both systems are equal and non-zero.\n\n(e) There is no angular velocity for either system so the question of a maximum value does not arise."
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "Part B",
+     "title": "Part B, Question 10",
+     "problem": "Two identical rigid marbles roll without slipping across rigid horizontal floors. One rolls on a stone floor with coefficient of static friction $\\mu_s = 0.080$, and the other rolls on a glass floor with $\\mu_s = 0.040$. Which marble is slowed down more by friction, and why? Ignore air-resistance.\n\n(a) Both marbles are slowed equally because the marbles themselves are identical.\n\n(b) Neither marble is slowed down by friction because both roll without slipping.\n\n(c) The marble rolling on stone is slowed more, because the greater $\\mu_s$ makes the force of friction on it greater.\n\n(d) The marble rolling on glass is slowed more, because the slippery nature of the glass impedes rolling.\n\n(e) It is impossible to answer without knowing the coefficient of kinetic friction $\\mu_k$ because the marbles are moving."
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "Part B",
+     "title": "Part B, Question 11",
+     "problem": "$\\textbf{Setup for the next two questions}$\n\n$\\textbf{Two copper disks of different thicknesses have the same radius but different masses as shown below. Each disk is free to rotate about its own fixed horizontal frictionless axle. Both disks are initially at rest. Identical small lumps of clay are attached to their rims as shown in the figure.}$\n\nConsider the net torque acting on each disk+clay system, about a point on its own axle. Which one of the following statements is true?\n\n(a) The net torque is greater for the system in which the disk has larger mass.\n\n(b) The net torque is greater for the system in which the disk has smaller mass.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-11-fig1.png\n\n(c) Which system has a greater net torque depends on the actual numerical values of their masses.\n\n(d) There is no torque on either system.\n\n(e) The net torque on both systems are equal and non-zero."
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "Part B",
+     "title": "Part B, Question 12",
+     "problem": "[Common setup printed before Part B, Question 11:] $\\textbf{Two copper disks of different thicknesses have the same radius but different masses as shown below. Each disk is free to rotate about its own fixed horizontal frictionless axle. Both disks are initially at rest. Identical small lumps of clay are attached to their rims as shown in the figure.}$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-12-fig1.png\n\nWhich one of the following statements about their angular acceleration is true?\n\n(a) The angular acceleration is greater for the system in which the disc has a larger mass.\n\n(b) The angular acceleration is greater for the system in which the disc has a smaller mass.\n\n(c) Which system has a greater angular acceleration depends on the actual numerical values of their masses.\n\n(d) There is no angular acceleration for either system.\n\n(e) The angular acceleration of both systems are equal and non-zero"
+    },
+    {
+     "day": 2,
+     "number": 13,
+     "paper_label": "Part B",
+     "title": "Part B, Question 13",
+     "problem": "A wheel of mass $M$ and radius $R$ is free to rotate about a fixed horizontal axle. A small lump of clay of mass $m$ is attached to its rim as shown in the figure. Consider the magnitude of the net torque $\\tau$ acting on the wheel+clay system about a point on the axle shown in the figure given below, and let $g$ be the magnitude of the acceleration due to gravity. Which one of the following statements is true?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-13-fig1.png\n\n(a) $\\tau = mgR$\n\n(b) $\\tau = (m+M)gR$\n\n(c) $\\tau = (m+M/2)gR$\n\n(d) $\\tau = (m+M)g/R$\n\n(e) None of the above."
+    },
+    {
+     "day": 2,
+     "number": 14,
+     "paper_label": "Part B",
+     "title": "Part B, Question 14",
+     "problem": "An aluminum disk and an iron wheel (with spokes of negligible mass) have the same mass $M$ and radius $R$. They are spinning around their frictionless axles with the same angular speed as shown. Which of them has more rotational kinetic energy?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-14-fig1.png\n\n(a) The aluminum disk.\n\n(b) The iron wheel.\n\n(c) Both have the same rotational kinetic energy.\n\n(d) It depends on the actual numerical value of the mass $M$.\n\n(e) None of the above."
+    },
+    {
+     "day": 2,
+     "number": 15,
+     "paper_label": "Part B",
+     "title": "Part B, Question 15",
+     "problem": "A bicycle wheel is free to rotate about a horizontal frictionless axle. A small lump of clay is attached to the rim as shown in the figure, and the wheel is released from rest. Which one of the following statements about the motion of the wheel is true?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-15-fig1.png\n\n(a) The wheel will remain at rest if the mass of the lump of clay is smaller than a certain critical value.\n\n(b) The wheel will oscillate.\n\n(c) The wheel will rotate and come to rest when lump of clay is at the lowest possible point.\n\n(d) The number of full revolutions (angle $2\\pi$) the wheel makes before coming to rest depends on the mass of the lump of clay.\n\n(e) None of the above."
+    },
+    {
+     "day": 2,
+     "number": 16,
+     "paper_label": "Part B",
+     "title": "Part B, Question 16",
+     "problem": "$\\textbf{Setup for the next two questions}$\n\n$\\textbf{The figures in the next two questions show three cases in which a rigid rod of length}$ $2L$ $\\textbf{is acted upon by some forces. All forces labelled}$ $F$ $\\textbf{have the same magnitude.}$\n\nWhich cases have a non-zero net torque acting on the rod about its center?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-16-fig1.png\n\n(a) (I) only.\n\n(b) (II) only.\n\n(c) (III) only.\n\n(d) (I) and (II) only.\n\n(e) The net torque is zero in all cases."
+    },
+    {
+     "day": 2,
+     "number": 17,
+     "paper_label": "Part B",
+     "title": "Part B, Question 17",
+     "problem": "[Common setup printed before Part B, Question 16:] $\\textbf{The figures in the next two questions show three cases in which a rigid rod of length}$ $2L$ $\\textbf{is acted upon by some forces. All forces labelled}$ $F$ $\\textbf{have the same magnitude.}$\n\nWhich cases have a non-zero net torque acting on the rod about its center?\n\n(a) (I) only.\n\n(b) (II) only.\n\n(c) (III) only.\n\n(d) (I) and (II) only.\n\n(e) The net torque is zero in all cases.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-17-fig1.png"
+    },
+    {
+     "day": 2,
+     "number": 18,
+     "paper_label": "Part B",
+     "title": "Part B, Question 18",
+     "problem": "Consider the moment of inertia, $I$, of the rigid homogeneous disk of mass $M$ shown below, about an axis through its center (different shadings only differentiate the two parts of the disk, each with equal mass $M/2$). Which one of the following statements concerning $I$ is correct?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-18-fig1.png\n\n(a) The inner and outer parts of the disk, each with mass $M/2$ (see figure), contribute equal amounts to $I$.\n\n(b) The inner part of the disk contributes more to $I$ than the outer part.\n\n(c) The inner part of the disk contributes less to $I$ than the outer part.\n\n(d) The inner part of the disk may contribute more or less to $I$ than the outer part depending on the actual numerical value of the mass $M$ of the disk.\n\n(e) None of the above."
+    },
+    {
+     "day": 2,
+     "number": 19,
+     "paper_label": "Part B",
+     "title": "Part B, Question 19",
+     "problem": "A copper disc and a plastic disc have different radii and masses as shown below. Each disk is free to rotate about its own fixed horizontal frictionless axle. Both disks are initially at rest. Identical small lumps of clay are attached to their rims as shown in the figure. Consider the net torque acting on each disc+clay system, about a point on its own axle. Which one of the following statements is true?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-19-fig1.png\n\n(a) The net torque is greater for the system with the plastic disk.\n\n(b) The net torque is greater for the system with the copper disk.\n\n(c) Which system has a greater net torque depends on the actual numerical values of the masses and the radii of the disks.\n\n(d) There is no net torque on either system.\n\n(e) The net torques on both systems are equal and non-zero."
+    },
+    {
+     "day": 2,
+     "number": 20,
+     "paper_label": "Part B",
+     "title": "Part B, Question 20",
+     "problem": "A bicycle wheel rolls without slipping on a horizontal floor. Which one of the following is true about the motion of points on the rim of the wheel, relative to the axis at the wheel's center?\n\n(a) Points near the top move faster than points near the bottom.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-2-20-fig1.png\n\n(b) Points near the bottom move faster than points near the top.\n\n(c) All points on the rim move with the same speed.\n\n(d) All points have the velocity vectors that are pointing in the radial direction towards the center of the wheel.\n\n(e) All points have acceleration vectors that are tangent to the wheel."
+    },
+    {
+     "day": 3,
+     "number": 1,
+     "paper_label": "Part C",
+     "title": "Part C",
+     "problem": "One mole of gas undergoes a linear process as shown in Fig. (18).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2009-3-1-fig1.png\n\nFigure 18:\n\n1. Express $P$ in terms of $\\{V,\\ V_0,\\ P_0\\}$.\n\n2. Assuming that the gas is ideal, obtain the expression for $T$ in terms of gas constant $R$ and $\\{V,\\ V_0,\\ P_0\\}$.\n\n3. Obtain the expression for volume change with temperature ($dV/dT$) in terms of $\\{R,\\ V,\\ V_0, P_0\\}$.\n\n4. Let $T_{max}$ be the maximum temperature in the process. Express $T_{max}$ in terms of $\\{V_0,\\ P_0,\\ \\mathrm{R}\\}$.\n\n5. Sketch the $T-V$ diagram. ($T$ on $y$-axis and $V$ on $x$-axis.)\n\n6. Let $C_p/C_v = \\gamma$, where $C_p$ ($C_v$) is specific heat at constant pressure (volume). Express heat capacity $C_v$ in terms of $R$ and $\\gamma$.\n\n7. Using the first law of thermodynamics, obtain the expression for specific heat $C$ for the above linear process in terms of $\\{R,\\ \\gamma,\\ V_0,\\ V\\}$.\n\n8. Suppose mixture consists of half mole of mono atomic and half mole of diatomic gas. Obtain $\\gamma$ for this mixture.\n\n9. For the mixture described in Part (8), obtain $C$ in terms of $\\{R,\\ V,\\ V_0\\}$.\n\n10. Plot $C/R$ (on $y$-axis) vs $V/V_0$ ($x$-axis).\n\n$\\textbf{[ 1 + 1 + 1 + 1 + 1.5 + 0.5 + 3 + 0.5 + 1 + 2.5 = 13 ]}$"
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Part A",
+     "title": "Question 1",
+     "problem": "Two skaters ($A$ and $B$), each of mass $70\\,\\mathrm{kg}$, are approaching each another on a frictionless surface, each with a speed of $1\\,\\mathrm{m\\,s^{-1}}$. Skater $A$ carries a ball of mass $10\\,\\mathrm{kg}$. Both skaters can toss the ball at $5\\,\\mathrm{m\\,s^{-1}}$ relative to themselves such that when $A$ tosses the ball at $t = 0\\,\\mathrm{s}$ to $B$ then the ball leaves at $6\\,\\mathrm{m\\,s^{-1}}$ with respect to the ground. Further, they start ($t = 0\\,\\mathrm{s}$) tossing the ball back and forth when they are $10\\,\\mathrm{m}$ apart (see Fig. (1)). Assume that the motion is one dimensional, all collisions are completely inelastic and that the time delay between receiving the ball and tossing it back is $1\\,\\mathrm{s}$.\n\n[1 + 2 + 2 + 1.5 + 3.5 = 10]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-1-1-fig1.png\n\nFigure 1:\n\n(a) State initial momenta of skaters (just before $t = 0\\,\\mathrm{s}$).\n\n(b) At $t = 0\\,\\mathrm{s}$ skater $A$ tosses the ball to skater $B$. State momenta of both the skaters immediately after $B$ catches the ball.\n\n(c) Indicate the minimum number of tosses by each skater required to avoid collision.\n\n(d) Indicate motion of each skater on the following $x - t$ plot if no tosses are made. [Note : For this and the next part you must select the scale on the time axis appropriately. You may use a pencil for sketching.]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-1-1-fig2.png\n\n[Blank $x$–$t$ grid printed for part (d).]\n\n(e) Indicate motion of each skater on the following $x$-$t$ plot from $t = 0\\,\\mathrm{s}$ till just after one round trip by the ball (from $A$ to $B$ and back to $A$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-1-1-fig3.png\n\n[Blank $x$–$t$ grid printed for part (e).]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Part A",
+     "title": "Question 2",
+     "problem": "Consider a closed cylinder whose walls are adiabatic. The cylinder lies in a horizontal position and is divided into three parts $A_1$, $A_2$ and $A_3$ by means of partitions $S_1$ and $S_2$ which can move along the length of the cylinder without friction. Piston $S_1$ is adiabatic while $S_2$ is conducting. Initially each of the parts $A_1$, $A_2$ and $A_3$ contains one mole of Helium gas at pressure $P_0$, temperature $T_0$, and volume $V_0$ (see Fig. (2)). Helium is to be regarded as an ideal monoatomic gas. Also $C_v = 3R/2$, $C_p = 5R/2$ and $\\gamma = 5/3$.\n\nNow heat is slowly supplied to the gas in part $A_1$ till the temperature in part $A_3$ becomes $T_3 = 9T_0/4$.\n\n[3.5 + 2 + 2 + 2.5 = 10]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-1-2-fig1.png\n\nFigure 2:\n\n(a) Let the final thermodynamic coordinates of the partitions $A_1$, $A_2$ and $A_3$ be $\\{P_1,\\ V_1,\\ T_1\\}$, $\\{P_2,\\ V_2,\\ T_2\\}$ and $\\{P_3,\\ V_3,\\ T_3\\}$ respectively. Fill the table below expressing the pressure in terms of $P_0$, volume in terms of $V_0$ and temperature in terms of $T_0$:\n\n$$\\begin{array}{|l|l|l|} \\hline P_1 = \\qquad\\qquad & P_2 = \\qquad\\qquad & P_3 = \\qquad\\qquad \\\\ \\hline V_1 = & V_2 = & V_3 = \\\\ \\hline T_1 = & T_2 = & T_3 = \\\\ \\hline \\end{array}$$\n\n(b) What work is done by the gas in $A_1$ on the gases in $A_2$ and $A_3$ in terms of $\\{P_0,\\ V_0\\}$ and related quantities?\n\n(c) What is the amount of heat supplied to the gas in part $A_1$ in terms of $\\{P_0,\\ V_0\\}$ and related quantities?\n\n(d) Obtain the entropy change in systems $A_2 + A_3$ and $A_1$?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Part A",
+     "title": "Question 3",
+     "problem": "A small angle prism of crown glass and a small angle prism of flint glass are arranged to deviate a light beam in opposite directions. A white light beam is incident on the crown glass prism of the arrangement. The refracting angle of the crown prism is $10.0^0$ and that of the flint prism is such that the net deviation of the light beam from both the prisms for the $C$ and $F$ spectral lines are equal. Assume minimum deviation condition for both the prisms. See Table 1 below.\n\nTable 1: Values of $n$ (refractive indices) for three different spectral lines.\n\n$$\\begin{array}{|c|c|c|c|} \\hline & C & D & F \\\\ \\hline \\text{Flint} & 1.644 & 1.650 & 1.665 \\\\ \\hline \\text{Crown} & 1.517 & 1.520 & 1.527 \\\\ \\hline \\end{array}$$\n\n[3 + 2 + 5 = 10]\n\n(a) State the refracting angle ($A_F$) of the flint prism in degrees.\n\n(b) State the net deviation ($\\Delta_D$) for the $D$ line in degrees.\n\n(c) Draw a schematic ray diagram of the $D$ line for this arrangement indicating the numerical values of the following important angles: (i) incidence on each prism; (ii) deviation from each prism and (iii) angle between the adjacent surfaces of the two prisms. You may use a pencil for this diagram."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Part A",
+     "title": "Question 4",
+     "problem": "Consider a long thin uniform electrically insulating and magnetically nonpermeable cylindrical shell of length $l$, radius $R$ (with $l \\gg R$) and moment of inertia $I$ about the horizontal axis (see Fig. 3). A massless string is wound around the shell surface and a vertically hanging mass $m$ is attached to its free end and released from rest at time $t = 0$.\n\n[1 + 1 + 1 + 2 + 2 + 1 + 2 + 1.5 + 2 + 1.5 = 15]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-1-4-fig1.png\n\nFigure 3:\n\n(a) State the magnitude of angular acceleration $\\alpha$ in terms of $\\{m,\\ g,\\ R, \\text{ and } I\\}$.\n\n(b) State the magnitude of angular velocity ($\\omega$) of the shell in terms of $\\{\\alpha,\\ H$ and $R\\}$. Here $H$ is the height through which mass '$m$' has fallen.\n\n(c) State the total kinetic energy ($K$) of the assembly in terms of $m$, $g$ and $H$.\n\nLet a charge $Q$ be uniformly distributed on the shell. As the shell rotates it will produce a magnetic field ($\\vec{B}$) and an electric field of magnitude $E$ associated with electromotive force in accordance with Faraday's law of induction. Let $\\alpha'$ and $\\omega'$ denote the magnitudes of angular acceleration and angular velocity of this rotating charged shell respectively. Ignore radiation losses due to acceleration.\n\n(d) State magnetic field in terms of $Q$, $\\omega'$ and relevant quantities.\n\n(e) State $E$ in terms of $\\alpha'$ and relevant quantities.\n\n(f) Electric field produces a torque ($\\vec{\\tau}_{em}$) on this shell. State $\\tau_{em}$ in terms of $E$ and relevant quantities.\n\n(g) State $\\alpha'$.\n\n(h) State total kinetic energy ($K'$) of the shell in terms of $m$, $g$, $H$ and relevant quantities.\n\n(i) State the difference in energies obtained in parts (4c) and (4h) in terms of $B$, $R$, $l$ and relevant quantities.\n\n(j) Interpret $K' - K$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Part A",
+     "title": "Question 5",
+     "problem": "$Tc^{99}_{43}$ radio-nuclide decays by $\\gamma$-emission with a half-life of 6 hours and by $\\beta$-emission with a half-life of $2.12\\times10^{5}$ years. A small quantity of solution containing $Tc^{99}_{43}$ with an activity of $1.0\\,\\mathrm{\\mu Ci}$ (micro Curie) is injected into the bloodstream of an adult person. The solution mixes rapidly and uniformly in the person's blood. It is excreted from the kidneys with an effective half-life of 6 hours. A $1\\,\\mathrm{ml}$ sample of the blood taken after 3.0 hours reveals an activity of 3.70 disintegrations per second on an average. Note, $1\\,\\mathrm{Ci}$ (Curie) $= 3.70\\times10^{10}$ disintegrations per second.\n\n[1 + 2 + 2 = 5]\n\n(a) State the decay constant $\\lambda_k$ (in $\\mathrm{hour^{-1}}$) for excretion from the kidney?\n\n(b) State the total activity $A$ at the end of 3 hours?\n\n(c) State the total volume ($V$) of blood in the person's body in liters?"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Part B",
+     "title": "Part B: Multiple choice questions 1-20",
+     "problem": "[From the paper's instructions: Part B is a set of multiple choice questions. One of the given choices is the best choice. In Part B, there are 20 questions. Each right answer carries 0.5 marks. There is no negative marking for this part.]\n\n1. An isolated hollow metal sphere is electrically neutral (no excess charge) and supported on an insulating stand. A small amount of negative charge is suddenly placed at one point P on this metal sphere. If we check on this excess negative charge a few seconds later we will find one of the following possibilities:\n\n• (a) All of the excess charge remains right around P.\n• (b) The excess charge has distributed itself evenly over the outside surface of the sphere.\n• (c) The excess charge is evenly distributed over the inside and outside surface.\n• (d) Most of the charge is still at point P, but some will have spread over the sphere.\n• (e) There will be no excess charge left on the sphere.\n\n2. A non-conducting wall is given a negative net charge. Next, a sheet of very flexible rubber with zero net charge is suspended from the ceiling near the charged wall as shown below. The rubber sheet will:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig1.png\n\n• (a) not be affected by the charges on the wall since rubber is an insulator.\n• (b) not be affected by the charged wall because the rubber sheet has zero net charge.\n• (c) bend away from the wall due to the electrical repulsion between the electrons in the rubber and the charges on the wall.\n• (d) bend away from the wall due to the polarization of the rubber molecules by the charged wall.\n• (e) bend towards the wall due to the polarization of the rubber molecules by the charged wall.\n\n3. Two small objects each with a net charge of $+Q$ exert a force of magnitude $F$ on each other. We replace one of the objects with another whose net charge is $+4Q$. We move the $+Q$ and $+4Q$ charges to be 3 times as far apart as they were. What is the magnitude of the force on the $+4Q$ charge?\n\n• (a) $F$\n• (b) $4F$\n• (c) $4F/3$\n• (d) $4F/9$\n• (e) $F/3$\n\n4. The associated figure shows an electric charge $+q$ located at the centre of a hollow uncharged conducting metal sphere. Outside the sphere is a second charge $+Q$. Both charges are positive. Choose the description below that describes the net electrical forces on each charge in this situation.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig2.png\n\n• (a) Both charges experience the same net force directed away from each other.\n• (b) No net force experienced by either charge.\n• (c) There is no net force on $Q$ but a net force on $q$.\n• (d) There is no net force on $q$ but a net force on $Q$.\n• (e) Both charges experience a net force but they are different from each other.\n\nFOR QUESTIONS 5-7: In the following figures, the dotted lines show the equipotential lines of electric fields. (A charge moving along a line of equal potential would have a constant electric potential energy.) A charged object is moved directly from point A to point B. The charge on the object is $+1\\,\\mathrm{\\mu C}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig3.png\n\n5. How does the amount of work needed to move this charge compare for these three cases?\n\n• (a) Most work required in I.\n• (b) Most work required in II.\n• (c) Most work required in III.\n• (d) I and II require the same amount of work but less than III.\n• (e) All three would require the same amount of work.\n\n6. How does the magnitude of the electric field at B compare for these three cases?\n\n• (a) I > III > II\n• (b) I > II > III\n• (c) III > I > II\n• (d) II > I > III\n• (e) I = II = III\n\n7. For case III what is the direction of the electric force exerted by the field on the $+1\\,\\mathrm{\\mu C}$ charged object when at A and when at B?\n\n• (a) left at A and left at B\n• (b) right at A and right at B\n• (c) left at A and right at B\n• (d) right at A and left at B\n• (e) no electric force at either positions.\n\n8. Two identical charges of magnitude $+Q$ are fixed as shown. A third charge $-Q$ is placed midway between them at point P. Then small displacements of $-Q$ are made in the directions indicated by arrows. The $-Q$ is stable with respect to displacement.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig4.png\n\n• (a) I and III\n• (b) I and V\n• (c) II and V\n• (d) III and V\n• (e) stable for any small displacement.\n\n9. Salt water contains $n$ sodium ions ($\\mathrm{Na^+}$) per cubic meter and n chloride ions ($\\mathrm{Cl^-}$) per cubic meter. A battery is connected to metal rods that dip into a narrow pipe full of salt water. The cross sectional area of the pipe is $A$. The magnitude of the drift velocity of the sodium ions is $V_{Na}$ and the magnitude of the drift velocity of the chloride ions is $V_{Cl}$. Assume that $V_{Na} > V_{Cl}$ ($+e$ is the charge of a proton).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig5.png\n\nWhat is the magnitude of the ammeter reading?\n\n• (a) $enAV_{Na} - enAV_{Cl}$\n• (b) $enAV_{Na} + enAV_{Cl}$\n• (c) $enAV_{Na}$\n• (d) $enAV_{Cl}$\n• (e) zero\n\n10. In these three circuits all the batteries are identical and have negligible internal resistance, and all the light bulbs are identical. Rank all 5 light bulbs ($A, B, C, D, E$) in order of brightness from brightest to dimmest.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig6.png\n\n• (a) $A = B = C > D = E$\n• (b) $A > B = C > D = E$\n• (c) $A = D = E > B = C$\n• (d) $A = D = E > B > C$\n• (e) $D = E > A > B = C$\n\n11. Which of the following statements is true about the electric field inside the bulb filament?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig7.png\n\n• (a) The field must be zero because the filament is made of metal.\n• (b) The field must be zero because a current is flowing.\n• (c) The field must be zero because any excess charges are on the surface of the filament.\n• (d) The field must be non-zero because the flowing current produces an electric field.\n• (e) The field must be non-zero because no current will flow without an applied field.\n\n12. The magnetic field lines due to a bar magnet are correctly shown in\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig8.png\n\n13. Two strong bar magnets A and B are placed on a horizontal table such that the axis of B intersects A at mid-point as shown in figure. B is fixed while A is free to move. There are no magnetic fields except those due to A and B. Then A will\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig9.png\n\n• (a) rotate but not move toward or away from B.\n• (b) rotate and move toward B.\n• (c) move toward B and not rotate.\n• (d) rotate and move away from B.\n• (e) move away from B and not rotate.\n\n14. A neutral metal bar is moving at constant velocity $v$ to the right through a region where there is a uniform magnetic field pointing out of the page. The magnetic field is produced by some large coils which are not shown in the diagram.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig10.png\n\nWhich one of the following diagrams best describes the charge distribution on the metal bar?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig11.png\n\n15. A wire is placed between the poles of two fixed bar magnets as shown. A small current in the wire is into the plane of the paper. The direction of the magnetic force on the wire is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig12.png\n\n• (a) $\\uparrow$\n• (b) $\\downarrow$\n• (c) $\\rightarrow$\n• (d) $\\leftarrow$\n• (e) $\\odot$ out of the plane of the paper.\n\n16. The Earth's magnetic field at a point P near the equator has only a horizontal component. A horizontal overhead high tension wire above this point carries a current such that it completely nullifies this horizontal component at P. The direction of the current in the wire is most likely\n\n• (a) north to south.\n• (b) south to north.\n• (c) east to west.\n• (d) west to east.\n• (e) such that the direction does not matter.\n\n17. The figure below depicts a long wire carrying a current coming out of the plane of the paper. A charge $q$ at a distance $x$ from it is moving towards it with speed $v$ and experiences a magnetic force of magnitude $F$. If the distance of the charge from the wire were $2x$ (and all other conditions remaining the same) then the force would be\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig13.png\n\n• (a) $F$\n• (b) $2F$\n• (c) $F/2$\n• (d) $F/4$\n• (e) zero.\n\n18. The four separate figures below involve a cylindrical magnet and a tiny light bulb connected to the ends of a loop of copper wire. These figures are to be used in the following question. The plane of the wire loop is perpendicular to the reference axis. The states of motion of the magnet and of the loop of wire are indicated in the diagram. Speed will be represented by $v$ and CCW represents counter clockwise.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig14.png\n\nIn which one of the above figures will the light bulb be glowing?\n\n• (a) I, II, III\n• (b) II, III, IV\n• (c) I, III, IV\n• (d) I, II, IV\n• (e) I, II, III, IV\n\n19. A metallic coin is sliding on a long frictionless horizontal table. A uniform vertical magnetic field $\\vec{B}$ exists between points $\\mathrm{P_1}$ and $\\mathrm{P_2}$ of this table as shown. Which figure below accurately depicts the speed of the coin as it slides across the table?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig15.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig16.png\n\n20. Shown below is a long solenoid (coils of wire along a long cylinder), and an end view of the solenoid. Conventional current runs counter clockwise in the solenoid and is increasing with time.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2010-2-1-fig17.png\n\nWhat is the direction of the electric field at location 1 (marked with x)?\n\n• (a) $\\uparrow$\n• (b) $\\downarrow$\n• (c) $\\odot$ out of page\n• (d) $\\otimes$ into page\n• (e) Zero"
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Question 1",
+     "problem": "A long wire of radius '$a$' is carrying a direct current $I$. From its surface at point $A$, an electron of charge $-e\\ (e > 0)$ escapes with velocity $v_0$ perpendicular to this surface (see Fig. (1)). Ignore gravity.\n\n[2.5 + 4 + 1.5 = 8]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2011-1-fig1.png\n\nFigure 1:\n\n(a) At $x$ and $y$ the components of the velocity are $v_x$ and $v_y$ respectively. Obtain the components of force $F_x$ and $F_y$ on the electron at any arbitrary point $\\{x, y\\}$.\n\n(b) Integrate the equation of motion to obtain $v_x$.\n\n(c) Find the maximum distance $x_{max}$ of electron from the axis of the wire before it turns back."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Question 2",
+     "problem": "In a modified Young's double slit experiment the region between screen and slits is immersed in a liquid whose refractive index varies with time $t$ (in seconds) as $\\mu_l = 2.50 - 0.25t$ until it reaches a steady state value $1.25$. The distance between the slits and the screen is $D = 1.00\\,\\mathrm{m}$ and the distance between the slits $S_1$ and $S_2$ is $d = 2.00\\times10^{-3}\\,\\mathrm{m}$. A glass plate of thickness $t_g = 3.60\\times10^{-5}\\,\\mathrm{m}$ and refractive index $\\mu_g = 1.50$ is introduced in front of one of the slits. Note that the illuminations at $S_1$ and $S_2$ are from coherent sources with zero phase difference.\n\n[2.5 + 2.5 + 1 + 2 + 2 = 10]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2011-2-fig1.png\n\n(a) Consider the point $P$ on the screen at distance $y$ from $O$ ($S_1O = S_2O;\\ OP = y$). Obtain the expression for the optical path difference $\\Delta x$ in terms of the refractive indices and the lengths mentioned in the problem.\n\n(b) Now let $P$ denote the central maximum. Obtain the expression for $y$ as a function of time.\n\n(c) Obtain the time ($t_m$) when central maximum is at point $O$, equidistant from $S_1$ and $S_2$ i. e. $S_1O = S_2O$.\n\n(d) What is the speed ($v$) of the central maxima when it is at $O$.\n\n(e) If monochromatic light of wavelength $6000\\,\\mathrm{\\mathring{A}}$ is used to illuminate the slits, determine the time interval ($\\Delta t$) between two consecutive maxima at $O$ before steady state is reached."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Question 3",
+     "problem": "A Carnot engine cycle is shown in the Fig. (2). The cycle runs between temperatures $T_H = \\alpha T_0$ and $T_L = T_0\\ \\ (\\alpha > 1)$. Minimum and maximum volume at state 1 and state 3 are $V_0$ and $nV_0$ respectively. The cycle uses one mole of an ideal gas with $C_P/C_V = \\gamma$. Here $C_P$ and $C_V$ are the specific heats at constant pressure and volume respectively. You must express all answers in terms of the given parameters $\\{\\alpha, n, T_0, V_0, \\gamma\\}$ and universal gas constant $R$.\n\n[3 + 4 + 1 = 8]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2011-3-fig1.png\n\nFigure 2:\n\n(a) List $\\{P, V, T\\}$ of all the four states.\n\n(b) Calculate the work done by the engine in each process: $W_{12}$, $W_{23}$, $W_{34}$, $W_{41}$.\n\n(c) Calculate $Q$, the heat absorbed in the cycle."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Question 4",
+     "problem": "Consider a modification of Coulomb's law by replacing it with the force between two charges $q_1$, $q_2$ separated by $\\vec{r}$ given by\n\n$$\\vec{F} = \\frac{q_1 q_2}{4\\pi\\epsilon_0}\\left[\\frac{1}{r^2} + \\frac{\\beta}{r^3}\\right]\\hat{r}$$\n\nwhere $\\beta$ is a constant. As far as possible express your answers in terms of the standard Bohr radius $a_o = 4\\pi\\epsilon_0\\hbar^2/me^2$ where the symbols have their usual meanings.\n\n[3 + 4 + 1 = 8]\n\n(a) Obtain the Bohr radius ($r_n$) for this modified law.\n\n(b) Obtain the expression for the energy ($E_n$) for the $n^{th}$ orbit of this modified law.\n\n(c) Take $\\beta$ to be small ($\\beta = 0.1a_0$). Take the binding energy of the standard Bohr hydrogen atom to be $13.60\\,\\mathrm{eV}$. Calculate the transition energy ($\\Delta E$) from $n = 2$ to $n = 1$ for this modified law. For your calculation you may ignore terms of order $\\beta^2$ and higher."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Question 5",
+     "problem": "Consider the motion of electrons in a metal in the presence of electric ($\\vec{E}$) and magnetic ($\\vec{B}$) fields. Due to collisions there arises a \"retarding\" force on the electron which is modeled by $m\\vec{v}/\\tau$ where $m$ is the electron mass, $\\vec{v}$ its velocity and $\\tau$ a typical collision time. Take the magnitude of the electron charge to be $e$ ( note $e$ is positive). Ignore gravity.\n\n[1 + 2 + 2.5 + 3 + 2 + 1.5 = 12]\n\n(a) State the equation of motion of the electron.\n\n(b) Consider the case $\\vec{E} = 0$ and $\\tau \\to \\infty$. Obtain the expression for the angular cyclotron frequency $\\omega_c$ and its numerical value for the case $B = 5.70\\,\\mathrm{T}$.\n\n(c) Consider the case of $\\vec{B} = 0$ and $\\vec{E} = E\\hat{i}$. If $n$ is the number of free (valence) electrons per unit volume, obtain the expression for the conductivity $\\sigma_0$ of the sample. Obtain also the numerical value for the conductivity of Cu given that $n = 8.45\\times10^{28}\\,\\mathrm{m^{-3}}$ and $\\tau = 2.48\\times10^{-14}\\,\\mathrm{s}$. We assume steady state i.e. the acceleration dies down and terminal speed is attained.\n\n(d) Consider the case $\\vec{E} = E_y\\hat{j} + E_z\\hat{k}$ ($E_x = 0$) and $\\vec{B} = B\\hat{k}$. Assume steady state and relate $\\{j_x, j_y, j_z\\}$ to $\\{E_x E_y, E_z\\}$. Here $j$'s are the current densities (current per unit area).\n\n$$\\begin{aligned} j_x &= \\sigma_{xy}E_y + \\sigma_{xz}E_z \\\\ j_y &= \\sigma_{yy}E_y + \\sigma_{yz}E_z \\\\ j_z &= \\sigma_{zy}E_y + \\sigma_{zz}E_z \\end{aligned}$$\n\nwhere $\\sigma_{ij}$'s are to be written in terms of $\\sigma_0$, $\\omega_c$ and $\\tau$.\n\n(e) Sketch $j_x$ ($y$-axis) versus $B$ ($x$-axis) .\n\n(f) Taking Cu as an example, for what value of the magnetic field will $j_x$ be a maximum?\n\n[Constants from the paper's Table of Information: $e = 1.60\\times10^{-19}\\,\\mathrm{C}$, $m_e = 9.11\\times10^{-31}\\,\\mathrm{kg}$.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Question 6",
+     "problem": "Two blocks, say $B$ and $C$, each of mass $m$ are connected by a light spring of force constant $k$ and natural length $L$. The whole system is resting on a frictionless table such that $x_B = 0$ and $x_C = L$, where $x_B$ and $x_C$ are the coordinates of the blocks $B$ and $C$ respectively. Another block (named $A$) of mass $M$, which is travelling at speed $V_0$ collides head-on with the block $B$ at an instant $t = 0$ (see Fig. (3)).\n\n[3 + 2 + 2 + 3 = 10]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2011-6-fig1.png\n\nFigure 3:\n\n(a) Obtain the velocities of blocks $A$, $B$ and $C$ just after the collision at $t = 0$? Express the velocities in terms of $V_0$ and $\\gamma = m/M$. Assume that the collision is elastic.\n\n(b) Draw free body diagrams for the blocks $B$ and $C$ after the collison and write down the equation of motion.\n\n(c) For $t > 0$ the positions of the blocks are given by\n\n$$\\begin{aligned} x_B &= \\alpha t + \\beta\\sin(\\omega t) &\\qquad (1) \\\\ x_C &= L + \\alpha t - \\beta\\sin(\\omega t) &\\qquad (2) \\end{aligned}$$\n\nFind $\\omega$ in terms of $m$ and $k$. Express $\\alpha$ and $\\beta$ in terms of $V_0, \\gamma$ and $\\omega$. (For this part, ignore the motion of block A.)\n\n(d) Obtain the condition on $\\gamma$ such that the block $A$ will collide with the block $B$ again at some time $t > 0$?"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Question 7: The Cubic Potential",
+     "problem": "$\\textbf{The Cubic Potential}$: Consider a particle of mass $m$ moving in one dimension under the influence of potential energy\n\n$$u(x) = \\frac{m\\omega^2 x^2}{2} - \\delta x - \\frac{\\alpha x^3}{3}$$\n\nHere $\\omega$, $\\delta$ and $\\alpha$ are real and positive.\n\n[6 + 3 = 9]\n\n(a) Sketch typical plots of $u(x)$ and identify extrema if any.\n\n(b) Consider the case where (in appropriate units) we have $m = 1,\\ \\omega = \\sqrt{2},\\ \\alpha = 1$ and $\\delta = 1/2$. Sketch the potential energy $u(x)$. If the total energy of the particle moving in this one-dimensional potential is $E = 0$ (in same units), discuss the motion of the particle in terms of allowed regions, boundedness and periodicity."
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Question 1",
+     "problem": "Figure (1) shows a mechanical system free of any dissipation. The two spheres ($A$ and $B$) are each of equal mass $m$, and a uniform connecting rod $AB$ of length $2r$ has mass $4m$. The collar is massless. Right above the position of sphere $A$ in Fig. (1) is a tunnel from which balls each of mass $m$ fall vertically at suitable intervals. The falling balls cause the rods and attached spheres to rotate. Sphere $B$ when it reaches the position now occupied by sphere $A$, suffers a collision from another falling ball and so on. Just before striking, the falling ball has velocity $v$. All collisions are elastic and the spheres as well as the falling balls can be considered to be point masses.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2012-1-fig1.png\n\nFigure 1:\n\n(a) [4] Find the angular velocity $\\omega_{i+1}$ of the assembly in terms of $\\{\\omega_i,\\ v,\\ \\text{and } r\\}$ after the $i^{th}$ ball has struck it.\n\n(b) [2] The rotating assembly eventually assumes constant angular speed $\\omega^*$. Obtain $\\omega^*$ in terms of $v$ and $r$ by solving the equation obtained in part (a). Argue how a constant $\\omega^*$ does not violate energy conservation.\n\n(c) [4] Solve the expression obtained in part (a) to obtain $\\omega_i$ in terms of $\\{i,\\ v,\\ \\text{and } r\\}$.\n\n(d) [2] If instead of a pair of spheres, we have two pairs of spheres as shown in figure below. What would be the new constant angular speed $\\omega^*$ of the assembly (i.e. the answer corresponding to part (b)).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2012-1-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Question 2: Rear view mirrors",
+     "problem": "Rear view mirrors in automobiles are generally convex. Suppose a car $A$ moves with a constant speed of 40.0 kilometre per hour on a straight level road and is followed by another car $B$ moving with the constant speed 60.0 kilometre per hour. At a given instant of time, we denote:\n\n• $x$ : distance of the car $B$ from the mirror of car $A$,\n• $y$ : distance of the car $B$ from $A$ as seen by the driver of $A$ in the mirror,\n• $v_x$ : speed of approach of $B$ relative to $A$ and\n• $v_y$ : speed of approach of $B$ as seen in the mirror of $A$.\n\n(a) [3] Obtain an expression for $v_y$ in terms of $x$, $v_x$ and the radius of curvature $R$ of the convex mirror used as the rear view mirror in the car $A$.\n\n(b) [2] Show a plot of $|v_y/v_x|$ against $x$.\n\n(c) [1] If $R = 2.0\\,\\mathrm{m}$, what is the speed of approach of $B$ in kilometre per hour as seen by the driver of $A$ in the mirror for $x = 2.0\\,\\mathrm{m}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Question 3: Cloud formation condition",
+     "problem": "Consider a simplified model of cloud formation. Hot air in contact with the earth's surface contains water vapor. This air rises convectively till the water vapor content reaches its saturation pressure. When this happens, the water vapor starts condensing and droplets are formed. We shall estimate the height at which this happens. We assume that the atmosphere consists of the diatomic gases oxygen and nitrogen in the mass proportion 21:79 respectively. We further assume that the atmosphere is an ideal gas, $g$ the acceleration due to gravity is constant and air processes are adiabatic. Under these assumptions one can show that the pressure is given by\n\n$$p = p_0\\left(\\frac{T_0 - \\Gamma z}{T_0}\\right)^{\\alpha} \\qquad (1)$$\n\nHere $p_0$ and $T_0$ is the pressure and temperature respectively at sea level ($z = 0$), $\\Gamma$ is the lapse rate (magnitude of the change in temperature $T$ with height $z$ above the earth's surface, i.e. $\\Gamma > 0$).\n\n(a) [4] Obtain an expression for the lapse rate $\\Gamma$ in terms of $\\gamma$, $R$, $g$ and $m_a$. Here $\\gamma$ is the ratio of specific heat at constant pressure to specific heat at constant volume; $R$, the gas constant; and $m_a$, the relevant molar mass.\n\n(b) [1] Estimate the change in temperature when we ascend a height of one kilometer?\n\n(c) [3] Show that pressure will depend on height as given by Eq. (1). Find an explicit expression for exponent $\\alpha$ in terms of $\\gamma$.\n\n(d) [2] According to this model what is the height to which the atmosphere extends? Take $T_0 = 300\\,\\mathrm{K}$ and $p_0 = 1\\,\\mathrm{atm}$.\n\n(e) [3] The pressure at which vapor and liquid can co-exist is called the saturation vapor pressure $p_s$. The temperature dependence of $p_s$ is given by the Clausius-Clapeyron equation\n\n$$\\frac{dp_s}{dT} = \\frac{L}{T(v_2 - v_1)} \\qquad (2)$$\n\nWhere $L$ is the latent heat of vaporisation and $v_2$ and $v_1$ are the specific volumes (volume per mass) of vapor and liquid respectively. Obtain an expression for $p_s$ in terms of temperature $T$, gas constant $R$, molar mass of water vapour $m_v$ and $L$. You may assume that water vapour also obeys ideal gas law. You can also use the fact that $v_2 >> v_1$ and ignore $v_1$ in Eq. (2).\n\n(f) [1] State the condition for condensation in terms of condensation height $z_c$.\n\n[Constants from the paper's Table of Information: $g = 9.81\\,\\mathrm{m\\,s^{-2}}$, $R = 8.31\\,\\mathrm{J\\,K^{-1}\\,mol^{-1}}$, molar mass of air $= 29.0\\,\\mathrm{kg\\,kmol^{-1}}$.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Question 4",
+     "problem": "A long solenoid of length $l = 2.0\\,\\mathrm{m}$, radius $r = 0.1\\,\\mathrm{m}$ and total number of turns $N = 1000$ is carrying a current $i_0 = 20.0\\,\\mathrm{A}$. The axis of the solenoid coincides with the $z$-axis.\n\n(a) [1 1/2] State the expression for the magnetic field of the solenoid and calculate its value?\n\n(b) [1 1/2] Obtain the expression for the self-inductance ($L$) of the solenoid. Calculate its value.\n\n(c) [1] Calculate the energy stored ($E$) when the solenoid carries this current?\n\n(d) [2] Let the resistance of the solenoid be $R$. It is connected to a battery of emf $e$. Obtain the expression for the current ($i$) in the solenoid.\n\n(e) [2] Let the solenoid with resistance $R$ described in part (d) be stretched at a constant speed $v$ ($l$ is increased but $N$ and $r$ are constant). State Kirchhoff's second law for this case. ($\\textbf{Note}$: Do not solve for the current.)\n\n(f) [3] Consider a time varying current $i = i_0\\cos(\\omega t)$ (where $i_0 = 20.0\\,\\mathrm{A}$) flowing in the solenoid. Obtain an expression for the electric field due to the current in the solenoid. ($\\textbf{Note}$: Part (e) is not operative, i.e. the solenoid is not being stretched.)\n\n(g) [3] Consider $t = \\pi/2\\omega$ and $\\omega = 200/\\pi\\,\\mathrm{rad\\text{-}s^{-1}}$ in the previous part. Plot the magnitude of the electric field as a function of the radial distance from the solenoid. Also, sketch the electric lines of force.\n\n[Constant from the paper's Table of Information: permeability constant $\\mu_0 = 4\\pi\\times10^{-7}\\,\\mathrm{H\\,m^{-1}}$.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Question 5: Ionization of atoms",
+     "problem": "A Rydberg hydrogenic atom is one in which the electron possesses a very large quantum number e.g. $n = 100$. Take the electron charge to be $-e$ ($e > 0$). The binding energy of the Rydberg electron may be taken as $E_b = 10^{-3}\\,\\mathrm{eV}$.\n\n(a) [1] Would a photon of angular frequency $\\omega_0 = 10^{10}\\,\\mathrm{rad\\cdot s^{-1}}$ ionize such an atom?\n\nNow consider the electron in the Rydberg hydrogenic atom to be unbounded and free for all practical purposes. Supposing such Rydberg atoms are injected uniformly into an oscillating electric field $F_0\\cos\\omega t\\,\\hat{k}$ provided by an electromagnetic wave. Let the speed of the electron at the time of injection ($t = 0$), be $v = 0$.\n\n(b) [2] Obtain an expression for the speed of the electron at a later time $t$.\n\n(c) [2] Obtain an expression for the average kinetic energy of the electron.\n\n(d) [2] Assuming that the criterion for photo-ionization is that the average kinetic energy exceed $E_b$ estimate the value of the ionizing field ($F_0$) for microwave radiation of angular frequency $\\omega_0 = 10^{10}\\,\\mathrm{rad\\cdot s^{-1}}$.\n\nNext consider the ionization of an atom by a steady electric field. Consider a hydrogen atom at rest (at $z = 0$) in a uniform steady electric field $F_0\\hat{k}$. We take the potential energy due to the electric field to be zero at $z = 0$.\n\n(e) [1] Write down the expression for the potential energy of the electron in this field.\n\n(f) [3] For this and subsequent parts take $x = y = 0$. Sketch the potential energy due to this field along $z-$ axis and between $-1 < z < 1$. Identify important points. To make this plot select a system of units where $e = 1$, $4\\pi\\epsilon_0 = 1$ and $F_0 = 20$.\n\n(g) [2] Let the energy of the electron confined in the atom be $E$. At what $F_0$ would the atom ionize?\n\n(h) [1] If we take $E = 10^{-3}\\,\\mathrm{eV}$, estimate the value of $F_0$. Is this physically acceptable?\n\n[Constants from the paper's Table of Information: $h = 6.63\\times10^{-34}\\,\\mathrm{J\\,s}$, $e = 1.60\\times10^{-19}\\,\\mathrm{C}$, $m_e = 9.11\\times10^{-31}\\,\\mathrm{kg}$, $1/4\\pi\\epsilon_0 = 9.00\\times10^{9}\\,\\mathrm{N\\,m^2\\,C^{-2}}$.]"
+    }
+   ]
+  },
+  {
+   "year": 2013,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Question 1",
+     "problem": "A parallel plate capacitor with plate area $A$ and separation $d$ ($d \\ll$ lateral dimensions) is filled with a dielectric of dielectric constant $k = e^{\\alpha x}$ where $\\alpha$ is a constant ($\\alpha > 0$) and plate is at $x = 0$. The capacitor is charged to a potential $V$.\n\n(a) [2] Obtain the capacitance $C$.\n\n(b) [1] Sketch $C$ vs $d$.\n\n(c) [1] Obtain the charge on the plates.\n\n(d) [1] Obtain the electric field $\\vec{E}(x)$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Question 2",
+     "problem": "The figure below depicts the reflection of normally incident monochromatic wave by two neighbouring surface atoms of crystal. Angle of reflection and nearest neighbour distance are $\\phi$ and $d$ respectively.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2013-2-fig1.png\n\nTwo reflected waves will interfere. The interference is due to deBroglie wave of the electron accelerated from rest by less then $1\\,\\mathrm{keV}$.\n\n(a) [3] Obtain a relationship between $\\phi$, $d$ and the kinetic energy ($K$) of the electron with rest mass $m_0$ for the case of constructive interference.\n\n(b) [2] Calculate $d$ if first maxima occurs at $\\phi = 30\\,\\mathrm{deg}$ for $K = 100\\,\\mathrm{eV}$ electron.\n\n[Constants from the paper's Table of Information: $h = 6.63\\times10^{-34}\\,\\mathrm{J\\,s}$, $e = 1.60\\times10^{-19}\\,\\mathrm{C}$, $m_e = 9.11\\times10^{-31}\\,\\mathrm{kg} = 0.51\\,\\mathrm{MeV}\\cdot c^{-2}$, $c = 3.00\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Question 3",
+     "problem": "Consider a bicycle in vertical position accelerating forward without slipping on a straight horizontal road. The combined mass of the bicycle and the rider is $M$ and the magnitude of the accelerating torque applied to the rear wheel by the pedal and gear system is $\\tau$. The radius and the moment of inertia of each wheel is $R$ and $I$ (with respect to axis) respectively. The acceleration due to gravity is $g$.\n\n(a) [2] Draw the free body diagram of the system (bicycle and rider).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2013-3-fig1.png\n\n(b) [2] Obtain the acceleration $a$ in terms of the above mentioned quantities.\n\n(c) [3] For simplicity assume that the centre of mass of the system is at height $R$ from the ground and equidistant at $2R$ from the center of each of the two wheels. Let $\\mu$ be the coefficient of friction (both static and dynamic) between the wheels and the ground. Consider $M \\gg I/R^2$ and no slipping. Obtain the conditions for the maximum acceleration $a_m$ of the bike.\n\n(d) [1] For $\\mu = 1.0$ calculate $a_m$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Question 4",
+     "problem": "The figure below depicts a concave mirror with center of curvature $C$ focus $F$, and a horizontally drawn $OFC$ as the optic axis. The radius of curvature is $R$ ($OC = R$) and $OF = R/2$). A ray of light $QP$, parallel to the optical axis and at a perpendicular distance $w$ ($w \\le R/2$) from it, is incident on the mirror at $P$. It is reflected to the point $B$ on the optical axis, such that $BF = k$. Here $k$ is a measure of lateral aberration.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2013-4-fig1.png\n\n(a) [3] Express $k$ in terms of $\\{w, R\\}$.\n\n(b) [2] Sketch $k$ vs $w$ for $w \\in [0,\\, R/2]$.\n\n(c) [3] Consider points $P_1, P_2, \\ldots P_n$ on the concave mirror which are increasingly further away from the optic center $O$ and approximately equidistant from each other (see figure below). Rays parallel to the optic axis are incident at $P_1, P_2, \\ldots P_n$ and reflected to points on the optic axis. Consider the points where these rays reflected from $P_n, P_{n-1}, \\ldots P_2$ intersect the rays reflected from $P_{n-1}, P_{n-2}, \\ldots P_1$ respectively. Qualitatively sketch the locus of these points in figure below for a mirror (shown with solid line) with radius of curvature $2\\,\\mathrm{cm}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2013-4-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Question 5",
+     "problem": "Two long parallel wires in the $yz$ plane at a distance $2a$ apart carry a steady current $I$ in opposite directions. Midway between the wires is a rectangular loop of wire $2b \\times d$ carrying current $I$ as shown in the figure ($b < a < 2b$). The loop is free to rotate about the $z$ axis and the currents remain fixed to $I$ irrespective of the relative motion between the loop and the wire.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2013-5-fig1.png\n\n(a) [5] Obtain the torque tending to rotate the rectangular loop about its axis as a function of $\\phi$. Here $\\phi$ is the angle that plane of loop makes with the plane of wires.\n\n(b) [3] Obtain the value of $\\phi$ for which the torque is maximum?"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Question 6",
+     "problem": "A planet of mass $m$ is orbiting a star of mass $M$ ($M \\gg m$) under the influence of a central force. A central force ($F(r)\\hat{r}$) is a force that is directed from the particle towards (or away from) a fixed point in space, the center, and whose magnitude only depends on the distance from the planet to the center. Thus gravitational force is central force and it is generally known that the orbit is a conic section of a body under the influence of gravitational force The planet's position at some point $P$ can be shown in polar coordinates $(r, \\theta)$ as shown in figure below:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/inpho-2013-6-fig1.png\n\nThe planet's position ($\\vec{r}$), velocity ($\\vec{v}$) and acceleration ($\\vec{a}$) can be written as\n\n$$\\vec{r} = r\\hat{r},\\ \\ \\vec{v} = \\dot{r}\\hat{r} + r\\dot{\\theta}\\hat{\\theta}\\ \\text{ and }\\ \\vec{a} = (\\ddot{r} - r\\dot{\\theta}^2)\\hat{r} + (2\\dot{r}\\dot{\\theta} + r\\ddot{\\theta})\\hat{\\theta}$$\n\nConsider central force to be gravitational force for parts (c-h).\n\n(a) [1] One can write scalar form of newton's second law as\n\n$$\\frac{d^2r}{dt^2} = g(r, \\theta, \\dot{r}, \\dot{\\theta})$$\n\nObtain $g(r, \\theta, \\dot{r}, \\dot{\\theta})$.\n\n(b) [1/2] Show that the magnitude of the angular momentum ($L$) of planet is constant.\n\n(c) [1] Obtain total energy ($E$) of the planet at distance $r$ from the center of the force. Take potential energy to be zero at large $r$.\n\n(d) [2] State the energy part $V(r) = E - m\\dot{r}^2/2$ in terms of $L$ and other quantities.\n\n(e) [1 1/2] Sketch $V(r)$.\n\n(f) [2] Comment on the allowed regions and shape of the orbit if planet's energy $E > 0$, and $E < 0$.\n\n(g) [1] Obtain the radius ($r_0$) of the circular orbit in terms of $L$, $m$ and related quantities.\n\n(h) [2] Hence forward we take that orbit is circular of radius $r_0$ and planet is slightly disturbed from its position such that its position is $r = r_0 + \\delta$ where $\\delta/r_0 \\ll 1$. Show that planet will oscillate simple harmonically around mean position $r_0$. Obtain time period ($T_r$) for these radial oscillations.\n\n(i) [2] For this part we assume that planet moves under the force expressible as a power of $r$ as $F = -cr^n$ where $c$ ($c > 0$) is a constant. For what values of $n$ a stable orbit is possible?"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Question 7: Brunt-Vaisälä Oscillations",
+     "problem": "A balloon containing inert gas Helium is used to study the weather. It rises up and rests at an equilibrium height in the atmosphere, where its weight is exactly balanced by the upward buoyant force. We shall assume ideal gas law to hold for all processes and neglect the mass of the balloon. If the balloon is displaced vertically, it is often found to oscillate about the equilibrium position. The frequency of this oscillation is called \"Brunt-Vaisälä\" frequency. We shall investigate this phenomenon.\n\n(a) [1] Suppose the balloon is displaced upwards adiabatically from the equilibrium position. In the displaced position, let $T_b$ and $m_b$ be the temperature and molar mass of the gas in the balloon. Let $T_a$ and $m_a$ be the temperature and molar mass of the outside atmosphere at the same level. Let $dT_b/dz$ and $dT_a/dz$ be the rate of change of temperature with height for the gas in the balloon and the outside air respectively where the positive $z$ axis is vertically upwards and $z$ is the height from the ground.\n\nDerive and Calculate the lapse rate ($\\Gamma_a = dT_a/dz$) for atmosphere given that the molar mass of air is $29\\,\\mathrm{kg\\cdot kmol^{-1}}$ and the gas constant is $R = 8.31\\,\\mathrm{J\\cdot K\\cdot mol^{-1}}$. Assume that acceleration due to gravity ($g$) remains constant and all air processes are adiabatic.\n\n(b) [2] Assuming that the pressure inside the balloon is the same as that outside, derive an expression for $\\Gamma_b = dT_b/dz$ in terms of the molar specific heat at constant pressure ($C_b$) of the gas in the balloon.\n\n(c) [2] Obtain an expression for the vertical acceleration ($\\ddot{z}$) of the balloon in terms of temperatures and molar masses.\n\n(d) [2] Find the equilibrium height ($z_0$) in terms of molar masses, $C_b$ and relevant quantities? Assume that for both ballon and air, $T = T_0$ at $z = 0$.\n\n(e) [4] State the condition for balloon to oscillate simple harmonically. Also obtain the frequency of oscillation ($\\omega$) for balloon.\n\n(f) [2] Calculate approximately the time period ($\\tau$) of the oscillating balloon if $T_0 = 300\\,\\mathrm{K}$ in a balloon consisting of Ar-He mixture in the mass ratio 1:1 (Atomic Weights of Ar $= 36$ amu and He $= 4$ amu)."
+    }
+   ]
+  },
+  {
    "year": 2014,
    "problems": [
     {

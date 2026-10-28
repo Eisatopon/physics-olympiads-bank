@@ -1052,7 +1052,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261028-share';
+const DATA_VERSION = '20261028-share-credit';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe' };
@@ -1071,7 +1071,7 @@ const COUNTRIES = [
     { key: 'russia', name: 'Russia', flag: '🇷🇺', file: 'Russia-VOS-problems.json', kind: 'years', full: 'All-Russian Olympiad in Physics, final stage, theoretical round, grades 9–11 · English translation' },
     { key: 'aso', name: 'Australia', flag: '🇦🇺', file: 'ASO-Physics-problems.json', kind: 'years', full: 'Australian Science Olympiad – Physics (Australian Science Innovations) · problems © ASI' },
     { key: 'cap', name: 'Canada', flag: '🇨🇦', file: 'CAP-problems.json', kind: 'years', full: 'CAP High School/CEGEP Prize Exam (Canadian Physics Olympiad), Sections A and B · problems © CAP / CPO' },
-    { key: 'usapho', name: 'USAPhO', flag: '🇺🇸', file: 'USAPhO-problems.json', kind: 'years', full: 'United States Physics Olympiad (AAPT), Parts A and B · problems © AAPT · not affiliated with, endorsed by or supported by AAPT, USAPhO or the U.S. Physics Team' },
+    { key: 'usapho', name: 'USAPhO', flag: '🇺🇸', file: 'USAPhO-problems.json', kind: 'years', full: 'United States Physics Olympiad (AAPT), Parts A and B · problems © AAPT · not affiliated with, endorsed by or supported by AAPT, USAPhO or the U.S. Physics Team', credit: 'Adapted from USAPhO (retyped, statement only). © AAPT. Not affiliated with AAPT, USAPhO or the U.S. Physics Team.' },
     { key: 'apho', name: 'APhO', flag: '🌏', file: 'APhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'Asian Physics Olympiad, theoretical problems' },
     { key: 'nbpho', name: 'NBPhO', flag: '🌍', file: 'NBPhO-problems.json', kind: 'years', scope: 'regional', full: 'Nordic-Baltic Physics Olympiad (formerly Estonian-Finnish Olympiad), theoretical problems, numbered as printed' },
     { key: 'eupho', name: 'EuPhO', flag: '🇪🇺', file: 'EuPhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'European Physics Olympiad, theoretical problems' },
@@ -2732,7 +2732,7 @@ async function problemImage(p) {
     const link = problemLink(p);
     const node = document.createElement('div');
     node.className = 'share-card f-' + p.country;
-    node.innerHTML = `<div class="sc-head">${esc(problemLabel(p))}</div><div class="statement">${bodyHtml(p.text, p)}</div>
+    node.innerHTML = `<div class="sc-head">${esc(problemLabel(p))}</div><div class="statement">${bodyHtml(p.text, p)}</div>${typeof creditHtml === 'function' ? creditHtml(p) : ''}
         <div class="sc-foot"><div class="sc-text"><b>Archimedes</b> – World Physics Olympiads Bank · eisatopon.github.io/physics-olympiads-bank<br>Open this problem: <span class="sc-link">${esc(link.replace(/^https:\/\//, ''))}</span></div>${qrcode ? `<div class="sc-qr">${qrSvg(qrcode, link)}</div>` : ''}</div>`;
     node.querySelectorAll('img').forEach(img => { img.loading = 'eager'; });
     document.body.appendChild(node);
@@ -2772,7 +2772,7 @@ function shareAction(kind, uid) {
     const url = problemLink(p);
     if (kind === 'native') navigator.share({title: problemLabel(p), text: problemLabel(p), url}).catch(() => {});
     else if (kind === 'link') copyText(url, 'Link copied — the preview shows this problem.');
-    else if (kind === 'latex') copyText(`${problemLabel(p)}\n\n${p.text}\n\n${url}`, 'Statement copied (LaTeX).');
+    else if (kind === 'latex') copyText(`${problemLabel(p)}\n\n${p.text}${typeof creditText === 'function' && creditText(p) ? `\n\n(${creditText(p)})` : ''}\n\n${url}`, 'Statement copied (LaTeX).');
     else if (kind === 'image') shareImage(p);
 }
 // ?p=<uid> opens one problem and highlights it.

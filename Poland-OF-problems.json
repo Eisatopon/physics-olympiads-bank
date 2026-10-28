@@ -2,6 +2,136 @@
  "competition": "Poland — Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part",
  "years": [
   {
+   "year": 2006,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA metal ball of radius $r_1 = 10\\,\\mathrm{cm}$ is surrounded by a metal spherical shell, concentric with it, of inner radius $r_2 = 2r_1$ (see Fig. 1). There is a vacuum between the shell and the ball. The ball is coated with a thin, uniform layer of the curium isotope ${}^{242}\\mathrm{Cm}$ in the amount $n = 0.01$ mol. The ${}^{242}\\mathrm{Cm}$ nucleus decays by emitting an alpha particle of energy $E_0 \\approx 6.1\\,\\mathrm{MeV}$. The half-life of curium is $t_{1/2} = 163$ days. The shell is connected to the ball by a thin wire running radially. We assume that the presence of the wire and the current flowing in it do not affect the electric field between the shells. The alpha particles are completely absorbed by the shell and by the ball, but they are neither absorbed nor scattered by the curium.\n\na) What is the current flowing in the wire if its resistance is equal to $R_1 = 100\\,\\mathrm{k\\Omega}$?\n\nb) What should the resistance $R_2$ of the wire be so that the current flowing in it is equal to half of the current determined in part a)?\n\nAvogadro number $N_{\\mathrm{A}} \\approx 6.0\\cdot10^{23}\\,\\mathrm{mol^{-1}}$, magnitude of the electron charge $e \\approx 1.6\\cdot10^{-19}\\,\\mathrm{C}$. We neglect the emission of electrons from the ball and from the shell surrounding it.\n\nWe consider the stationary situation, i.e. after the current in the wire has (approximately) settled, over a time short compared with $t_{1/2}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2006-1-fig1.png\n\nFig. 1\n\n[Label in the figure: przewód = wire.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nA rod of length $l$ and mass $m$ has been placed on an inclined plane with angle of inclination $\\alpha$ (see Fig. 2), at a height $h$ above the floor (where $h \\gg l$).\n\na) Describe qualitatively the motion of the rod.\n\nb) Determine the velocity of the rod in the last phase of the motion. Give the numerical value for $h = 6.4\\,\\mathrm{m}$, $\\alpha = 45^\\circ$, $g = 10\\,\\mathrm{m/s^2}$ (gravitational acceleration).\n\nFriction and air resistance are neglected. The rod is perfectly rigid and all the time lies in a vertical plane perpendicular to the surface of the inclined plane. The floor and the inclined plane absorb impacts perfectly, i.e. they cause the velocity component perpendicular to them of the striking point to be equal to 0 just after the impact, and their deflection during the impact is negligibly small.\n\nThe moment of inertia of the rod about its centre of mass is equal to $I = (1/12)ml^2$. At the initial moment the rod was at rest. The angle of inclination satisfies the condition $0^\\circ < \\alpha < 90^\\circ$, where $\\alpha$ is not close to $90^\\circ$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2006-2-fig1.png\n\nFig. 2\n\n[Labels in the figure: pręt = rod; równia = inclined plane; podłoga = floor.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nA certain designer built a complicated heat engine whose working substance is $n$ moles of a monatomic ideal gas (molar specific heat equal to $(3/2)R$) working in a cycle which forms, on the $p-V$ diagram, a triangle ABC with vertices at the points $(V_0, p_0)$, $((3/2)V_0, (5/2)p_0)$, $(3V_0, p_0)$ (see Fig. 3). The gas takes heat from a heat source at temperature $T_1$ and gives it up to a cooler at temperature $T_2$. We assume that the gas is at every moment of the cycle in a state of thermodynamic equilibrium, and we neglect all resistances of the mechanisms.\n\na) Calculate the efficiency of this engine.\n\nb) What conditions must the temperatures $T_1$ and $T_2$ satisfy for the engine to work?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2006-3-fig1.png\n\nFig. 3"
+    }
+   ]
+  },
+  {
+   "year": 2007,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA ball strikes a horizontal floor at an angle $\\alpha$ with velocity $v_0$. The coefficient of friction between the ball and the floor is equal to $\\mu$. At what distance from the place of the first impact will the ball strike the floor again?\n\nGive the numerical values for $\\alpha = 45^\\circ$, $v_0 = 10\\,\\mathrm{m/s}$ in two cases: $\\mu = 0.1$ and $\\mu = 0.8$.\n\nThe ball does not rotate before the collision. The duration of the collision is very short, and during the collision the deformation of the ball is negligibly small compared with its radius. The ball is perfectly elastic, i.e. in the case when, not rotating, it strikes the floor vertically, the collision is perfectly elastic. The thickness of the ball's shell is very small compared with the radius. The shell does not undergo tangential deformation. The mass of the air in the ball is negligibly small compared with the mass of its shell. Neglect aerodynamic drag.\n\nGravitational acceleration $g \\approx 9.8\\,\\mathrm{m/s^2}$, and the moment of inertia of a sphere of radius $R$ and mass $m$ about an axis passing through its centre is $I = (2/3)mR^2$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nA spherical vessel consists of concentric, thin, metal spheres of radii $r_2$ and $r_1$ (where $r_2 > r_1$), between which there is a vacuum (see the figure). The outer sphere is divided by a plane into two parts, the smaller of which has area $S_3$. A mixture of water of mass $m_W$ and ice of mass $m_L$ has been placed in the inner sphere. The larger part of the outer shell of the vessel has a constant temperature $t_2$, and the smaller part a constant temperature $t_3$ ($t_2$ and $t_3$ are temperatures on the Celsius scale).\n\nAfter what time will the ice melt completely?\n\nGive the numerical result for $r_1 = 0.04\\,\\mathrm{m}$, $r_2 = 0.08\\,\\mathrm{m}$, $S_3 = 0.03\\,\\mathrm{m^2}$, $m_W = 0.1\\,\\mathrm{kg}$, $m_L = 0.1\\,\\mathrm{kg}$, $t_2 = 20\\,^\\circ\\mathrm{C}$, $t_3 = 10\\,^\\circ\\mathrm{C}$.\n\nThe surfaces of the spheres are perfectly black. The heat capacity of the vessel can be neglected. Assume that the ice is all the time in thermodynamic equilibrium with the water. The pressure inside the inner sphere is all the time equal to normal pressure.\n\nThe heat of fusion of ice is $q = 334\\,\\mathrm{kJ/kg}$, the Stefan–Boltzmann constant $\\sigma = 5.7\\cdot10^{-8}\\,\\mathrm{W\\cdot m^{-2}\\cdot K^{-4}}$, the specific heat of water $c_W = 4.2\\,\\mathrm{kJ\\cdot kg^{-1}\\cdot K^{-1}}$, the specific heat of ice $c_L = 2.1\\,\\mathrm{kJ\\cdot kg^{-1}\\cdot K^{-1}}$, the melting point of ice under normal conditions $T_0 = 273.15\\,\\mathrm{K}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2007-2-fig1.png\n\n[Labels in the figure: próżnia = vacuum; mieszanina wody z lodem = mixture of water and ice.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nA thin, uniform ring of mass $m$ and radius $r$ rests on the horizontal top of a table. The ring is made of a single turn of wire whose resistance per unit length is $\\lambda$. Under the table top there is a solenoid coaxial with the ring.\n\nThe dependence on time $t$ of the current flowing in the solenoid is given by the formula\n\n$$I_s = \\left\\{\\begin{array}{lll} 0 & \\text{for} & t < 0, \\\\ I_0\\frac{t}{T} & \\text{for} & 0 \\le t < T, \\\\ I_0 & \\text{for} & t \\ge T, \\end{array}\\right.$$\n\n(this is ensured by a suitable electronic circuit to which the solenoid is connected).\n\na) Find the largest value $I_0$ $(= I_{0m})$ for which the ring does not yet jump up above the table top.\n\nb) Assuming that $I_0 \\gg I_{0m}$ (see part a)), determine the height to which the ring will jump.\n\nIn the solution take into account the following information:\n\n(i) when the ring is placed (coaxially with the solenoid) at a small height $z$ above the table top, and the current flowing in the solenoid is $I_s$, then to a very good approximation the flux of the magnetic induction through the ring is given by the formula $\\Phi = (a - bz)\\,I_s$, where $a$, $b$ are positive constants;\n\n(ii) at every point the magnetic field produced by the ring can be neglected in comparison with the field produced by the solenoid;\n\n(iii) the influence of the motion of the ring on the current flowing in it can be neglected;\n\n(iv) the parameter $T$ is so small that the distance travelled by the ring up to the moment $t = T$ is negligibly small;\n\n(v) the table top is non-magnetic and non-conducting, and the solenoid is at rest;\n\n(vi) effects related to radiation and the aerodynamic drag of the air can be neglected.\n\nGive the numerical values of the required quantities for $m = 2.3\\cdot10^{-3}\\,\\mathrm{kg}$, $r = 2\\cdot10^{-2}\\,\\mathrm{m}$, $\\lambda = 0.9\\cdot10^{-2}\\,\\Omega/\\mathrm{m}$, $a = 10^{-3}\\,\\mathrm{T\\cdot m^2\\cdot A^{-1}}$, $b = 10^{-2}\\,\\mathrm{T\\cdot m/A}$, $T = 10^{-3}\\,\\mathrm{s}$, $I_0 = 10\\,\\mathrm{A}$, $g = 9.8\\,\\mathrm{m/s^2}$ (gravitational acceleration)."
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nOn a horizontal plane there is a uniform, thin, initially stationary disc of radius $R$ and mass $M$. At the moment $t_0 = 0$ a small projectile of mass $m$ is fired with velocity $v$ from a point P on this plane, at a distance $d$ from the centre S of the disc. The projectile slides on the plane, then strikes the disc and sticks to it at the point of collision, at a distance $a$ from the axis PS (Fig. 1). There is no friction between the plane and the disc, nor between the plane and the projectile.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2008-1-fig1.png\n\nFig. 1. The disc and the projectile – top view.\n\nAfter what smallest time $t > 0$ should the second shot be fired so that the second projectile hits the disc at the place where the first projectile struck? The second shot is fired with an identical projectile, from the same place, in the same direction and with the same initial velocity as the first.\n\nGive the numerical result for $M = 100\\,\\mathrm{g}$, $m = 10\\,\\mathrm{g}$, $R = 0.05\\,\\mathrm{m}$, $a = 0.04\\,\\mathrm{m}$, $v = 10\\,\\mathrm{m/s}$, $d = 2\\,\\mathrm{m}$.\n\nThe moment of inertia of the disc about its axis of rotational symmetry is $I_0 = MR^2/2$.\n\n[Editorial note: the following formulas are printed for the whole paper at the end of page 1 under the heading \"Wzory, które mogą być przydatne w zadaniach 1-3\" (Formulas that may be useful in Problems 1–3):]\n\n$$\\int \\frac{dx}{\\alpha + \\beta x} = \\frac{1}{\\beta}\\ln|\\alpha + \\beta x| + \\mathrm{const}$$\n\n$$\\int (\\alpha + \\beta x)^{\\gamma}\\,dx = \\frac{1}{(\\gamma + 1)\\beta}\\,(\\alpha + \\beta x)^{\\gamma + 1} + \\mathrm{const}, \\quad \\text{where } \\gamma \\neq -1$$\n\n[The solid angle at the vertex of a cone with apex angle $2\\theta$ is $\\Omega = 2\\pi(1 - \\cos\\theta)$.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nConsider the following model of an optical fibre (a so-called multimode fibre): a cylindrical core of radius $r = 25\\,\\mathrm{\\mu m}$ and refractive index $n_1 = 1.475$ is surrounded by a cladding (whose thickness does not matter for the behaviour of the fibre) of refractive index $n_2 = 1.460$.\n\nAt a distance $d = 25\\,\\mathrm{\\mu m}$ from the beginning of the fibre, a point-like, isotropic source of electromagnetic radiation of power $P = 1\\,\\mathrm{mW}$, emitting radiation of wavelength $1.55\\,\\mathrm{\\mu m}$, has been placed on its axis of symmetry (Fig. 2).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2008-2-fig1.png\n\nFig. 2. The optical fibre and the radiation source.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2008-2-fig2.png\n\nFig. 3. The signal corresponding to the sequence 0110101001.\n\n[Label in Fig. 3: natezenie sygnalu (natężenie sygnału) = signal intensity.]\n\nCalculate the maximum distance $L$ over which information can be transmitted through this fibre at a rate $S$ equal to a) 1 Gb/s, b) 1 Mb/s, c) 1 kb/s, where b/s denotes bit/second.\n\nTake into account that:\n\n• The attenuation coefficient $\\alpha$, defined as\n\n$$\\alpha = (10/L)\\log_{10}\\left(E_{out}/E_{in}\\right)$$\n\nwhere $E_{out}$ is the energy of the signal after travelling the distance $L$ if at the input its energy was $E_{in}$, is in the case of the core equal to $\\alpha = -0.02/\\mathrm{km}$.\n\n• The detector registering a pulse at the end of the fibre is able to register pulses of energy greater than $E_d = 10^{-15}\\,\\mathrm{J}$.\n\n• A single pulse (bit) initially has the shape of a rectangle of width $1/S$ (by width we mean here the time interval between the beginning and the end of sending this pulse – Fig. 3).\n\nWe consider that information cannot be transmitted if, as a result of the transmission, the duration of a single pulse increases more than twofold.\n\n• The parameters in the problem are chosen so that the wave nature of the radiation can be neglected and it can be treated as a beam of rays.\n\n• Radiation that finds itself in the cladding is attenuated so quickly that its role in the transmission of information can be neglected.\n\n• The radiation source is placed in air (assume that the refractive index is $n = 1$), and the reflection at the air–core boundary can be neglected.\n\n• The speed of light in vacuum is $c \\approx 3\\cdot10^{8}\\,\\mathrm{m/s}$.\n\n[Editorial note: the following formulas are printed for the whole paper at the end of page 1 under the heading \"Wzory, które mogą być przydatne w zadaniach 1-3\" (Formulas that may be useful in Problems 1–3):]\n\n$$\\int \\frac{dx}{\\alpha + \\beta x} = \\frac{1}{\\beta}\\ln|\\alpha + \\beta x| + \\mathrm{const}$$\n\n$$\\int (\\alpha + \\beta x)^{\\gamma}\\,dx = \\frac{1}{(\\gamma + 1)\\beta}\\,(\\alpha + \\beta x)^{\\gamma + 1} + \\mathrm{const}, \\quad \\text{where } \\gamma \\neq -1$$\n\n[The solid angle at the vertex of a cone with apex angle $2\\theta$ is $\\Omega = 2\\pi(1 - \\cos\\theta)$.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nThermal energy is transmitted from a combined heat and power plant by means of a straight metal pipe inside which hot water flows. The pipe runs at a depth $h$ below the surface of the ground, at a distance $d$ from a channel filled with water, parallel to it (Fig. 4). It is known that the temperature of the ground just below the surface, exactly above the pipe, is $t_p$, and the temperature of the water and of the ground in contact with it is $t_b$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2008-3-fig1.png\n\nFig. 4. A heating pipe in the ground.\n\n[Labels in the figure: powietrze = air; rura = pipe; woda = water; ziemia = ground.]\n\na) Calculate the rate of heat loss per unit length of the pipe, i.e. the amount of heat flowing into the ground per unit time from a section of the pipe of unit length.\n\nb) Knowing that the radius of the pipe is $R$, calculate its temperature.\n\nIn parts a) and b) give the numerical results for $h = 3\\,\\mathrm{m}$, $d = 2\\,\\mathrm{m}$, $t_p = 10^\\circ\\mathrm{C}$, $t_b = 4^\\circ\\mathrm{C}$, $R = 0.1\\,\\mathrm{m}$, thermal conductivity of the ground $\\sigma = 0.7\\,\\mathrm{W/(m\\cdot K)}$.\n\nMake the following simplifying assumptions:\n\n• the surface of the ground is flat and horizontal; no heat flows through it (i.e. we assume that air is a thermal insulator);\n\n• the channel has infinite depth and is filled with water up to the surface of the ground; its edge is vertical and at every point has the temperature $t_b$;\n\n• the ground is homogeneous; its temperature at any place does not change in time;\n\n• the diameter of the pipe is small compared with $h$ and $d$, and its temperature is constant;\n\n• there is no transport of energy by radiation.\n\nThe thermal conductivity $\\sigma$ is defined as follows: consider two close parallel surfaces, a distance $\\Delta r$ apart, each of area $S$. The region between them is filled with a medium of thermal conductivity $\\sigma$. If the temperature on one of these surfaces is $t$, and on the other $t + \\Delta t$, then the flux of thermal energy (heat per unit time) flowing perpendicularly to them is equal to $J_S = S\\sigma\\,\\Delta t/\\Delta r$.\n\n[Editorial note: the following formulas are printed for the whole paper at the end of page 1 under the heading \"Wzory, które mogą być przydatne w zadaniach 1-3\" (Formulas that may be useful in Problems 1–3):]\n\n$$\\int \\frac{dx}{\\alpha + \\beta x} = \\frac{1}{\\beta}\\ln|\\alpha + \\beta x| + \\mathrm{const}$$\n\n$$\\int (\\alpha + \\beta x)^{\\gamma}\\,dx = \\frac{1}{(\\gamma + 1)\\beta}\\,(\\alpha + \\beta x)^{\\gamma + 1} + \\mathrm{const}, \\quad \\text{where } \\gamma \\neq -1$$\n\n[The solid angle at the vertex of a cone with apex angle $2\\theta$ is $\\Omega = 2\\pi(1 - \\cos\\theta)$.]"
+    }
+   ]
+  },
+  {
+   "year": 2009,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1",
+     "problem": "Problem 1 [20 points]\n\nA uniform, thin-walled pipe of radius $R$, length $L$ and mass $m$ is made of an insulator and charged with a total charge $q$ of constant surface density. The pipe rolls on a horizontal table, and the whole system is placed in a vertical, uniform magnetic field of induction $B$ and in a uniform gravitational field of strength $g$ (see the figure). The coefficient of friction between the pipe and the table is $\\mu$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2009-1-fig1.png\n\nDetermine the maximum value of the velocity $v_{\\max}$ at which the pipe rolls without slipping on the table, touching it at more than one point. Discuss the dependence of the obtained result on $L$ at fixed values of $q/m$, $R$, $\\mu$ and $g$.\n\nDescribe qualitatively the behaviour of the pipe for small times $t > 0$ if at the moment $t = 0$ the pipe rolls without slipping with velocity $v > v_{\\max}$.\n\n[Editorial note: the following formulas are printed for the whole paper at the end of page 1 under the heading \"Wzory, które mogą być przydatne\" (Formulas that may be useful):]\n\n$$\\int x^n dx = \\frac{1}{n+1}x^{n+1} + \\mathrm{const},$$\n\n$$\\int \\frac{1}{x}dx = \\ln x + \\mathrm{const},$$\n\n$$\\int \\cos(x)dx = \\sin(x) + \\mathrm{const},$$\n\n$$\\int \\sin(x)dx = -\\cos(x) + \\mathrm{const},$$\n\n$$\\frac{1}{1+x} \\approx 1 - x, \\ \\text{for small } x.$$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2",
+     "problem": "Problem 2 [20 points]\n\nA geothermal power plant takes water at temperature $T_w$ from an underground reservoir located at a depth $h$. The pressure of the water in this reservoir is equal to $p_w$. The water is discharged into a lake at the surface of the ground. The temperature of the surroundings, including the temperature of the water in the lake, is $T_0$, and the pressure of the surroundings is equal to $p_0$. The mass of water that can be taken per unit time is $J$.\n\na) What maximum power can this power plant have?\n\nb) What would this maximum power be if the water were pumped back into the same underground reservoir?\n\nAssume that the specific heat of water $c_w$ is constant and neglect its compressibility and thermal expansion.\n\nGive the numerical values taking $T_0 = 280\\,\\mathrm{K}$, $T_w = 370\\,\\mathrm{K}$, $h = 2000\\,\\mathrm{m}$, $p_0 = 10^5\\,\\mathrm{Pa}$, $p_w = 2.10\\cdot10^7\\,\\mathrm{Pa}$, density of water $\\rho = 10^3\\,\\mathrm{kg/m^3}$, specific heat of water $c_w = 4.2\\cdot10^3\\,\\mathrm{J/(kg\\,K)}$, gravitational acceleration $g = 10\\,\\mathrm{m/s^2}$ and $J = 100\\,\\mathrm{kg/s}$.\n\n[Editorial note: the following formulas are printed for the whole paper at the end of page 1 under the heading \"Wzory, które mogą być przydatne\" (Formulas that may be useful):]\n\n$$\\int x^n dx = \\frac{1}{n+1}x^{n+1} + \\mathrm{const},$$\n\n$$\\int \\frac{1}{x}dx = \\ln x + \\mathrm{const},$$\n\n$$\\int \\cos(x)dx = \\sin(x) + \\mathrm{const},$$\n\n$$\\int \\sin(x)dx = -\\cos(x) + \\mathrm{const},$$\n\n$$\\frac{1}{1+x} \\approx 1 - x, \\ \\text{for small } x.$$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3",
+     "problem": "Problem 3 [20 points]\n\nConsider a loop of wire loaded with a weight of mass $m$ (see the figure), located in surroundings at temperature $T_0$. The ends of the loop are connected to a voltage $U$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2009-3-fig1.png\n\nWhen the length of the wire is $l$ and its temperature is $T$, the electrical resistance of the loop is equal to $R = R_0\\left[1 + G\\left(l - l_0\\right)/l_0 + a_R\\left(T - T_0\\right)\\right]$, where $G$, $a_R$, $R_0$, $l_0$ are constants, while the tension force of the wire is $F_N = k\\left\\{l - l_0\\left[1 + \\alpha\\left(T - T_0\\right)\\right]\\right\\}$, where $k$ is the elastic constant and $\\alpha$ is the coefficient of linear expansion. It is known that in the situation considered the thermal power $P_c$ carried away from the wire to the surroundings satisfies the relation $P_c = \\beta\\cdot\\left(T - T_0\\right)$, where $\\beta$ is a positive constant. Neglecting the heat capacity of the wire, determine the frequency of small vertical oscillations of the weight on the loop.\n\nGive the numerical value of this frequency for $k = 5000\\,\\mathrm{N/m}$, $l_0 = 1\\,\\mathrm{m}$, $m = 1\\,\\mathrm{kg}$, $U = 2\\,\\mathrm{V}$, $R_0 = 2\\,\\Omega$, $\\alpha = 1\\cdot10^{-5}\\,\\mathrm{K^{-1}}$, $\\beta = 0.01\\,\\mathrm{W/K}$, $a_R = 5\\cdot10^{-3}\\,\\mathrm{K^{-1}}$, $T_0 = 300\\,\\mathrm{K}$ and $G = 200$.\n\nIn the calculations restrict yourself to terms linear in the increments of the temperature and of the length of the wire. The mass of the wire is negligible compared with $m$.\n\nAdditional information: the phenomenon of a relatively large dependence of the resistance of some materials on their deformation is used in sensors measuring forces (so-called strain gauges). For \"ordinary\" materials a typical value of the constant $G$ is close to 2.\n\n[Editorial note: the following formulas are printed for the whole paper at the end of page 1 under the heading \"Wzory, które mogą być przydatne\" (Formulas that may be useful):]\n\n$$\\int x^n dx = \\frac{1}{n+1}x^{n+1} + \\mathrm{const},$$\n\n$$\\int \\frac{1}{x}dx = \\ln x + \\mathrm{const},$$\n\n$$\\int \\cos(x)dx = \\sin(x) + \\mathrm{const},$$\n\n$$\\int \\sin(x)dx = -\\cos(x) + \\mathrm{const},$$\n\n$$\\frac{1}{1+x} \\approx 1 - x, \\ \\text{for small } x.$$"
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA spacecraft of mass $m$ orbits the Sun in a circular orbit of radius $R$, where $R \\gg r_s$, $r_s$ being the radius of the Sun. The spacecraft is equipped with a foldable space sail which, when unfolded, has area $S$. Initially the sail is folded. By what maximum value $\\Delta R$ can the distance of the spacecraft from the Sun be increased before it goes around the Sun twice? Only the sail under consideration may be used for propulsion.\n\nThe unfolded sail is flat, reflects electromagnetic radiation perfectly, and is always set perpendicular to the spacecraft–Sun direction. The surface area of the spacecraft together with the folded sail is negligibly small compared with the area of the unfolded sail.\n\nGive the numerical value of $\\Delta R$ for\n\n$R = 200\\cdot10^{9}\\,\\mathrm{m}$, $m = 5000\\,\\mathrm{kg}$, $S = 10^{4}\\,\\mathrm{m^2}$.\n\nThe time of unfolding (and possible folding) of the sail is negligibly small compared with the orbital period of the spacecraft around the Sun. The surface temperature of the Sun is $T_s = 5800\\,\\mathrm{K}$, the mass of the Sun\n\n$M = 2.0\\cdot10^{30}\\,\\mathrm{kg}$, and its radius $r_s = 7.0\\cdot10^{8}\\,\\mathrm{m}$.\n\nThe Stefan–Boltzmann constant is equal to $\\sigma = 5.7\\cdot10^{-8}\\,\\mathrm{W/\\left(m^2K^4\\right)}$, the gravitational constant $G = 6.7\\cdot10^{-11}\\,\\mathrm{m^3/kg\\cdot s^2}$, the speed of light $c = 3.0\\cdot10^{8}\\,\\mathrm{m/s}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nTwo infinite, parallel and earthed conducting planes are a distance $d$ apart. Between them, at a distance $x$ from one of them, there is a point charge $q$. Determine the charges $q_1$ and $q_2$ induced on each of the planes."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2010-3-fig1.png\n\nA uniform ball of mass $m$ and radius $r$ was rolling without slipping with velocity $v_0$ on a horizontal floor (see the figure). The ball struck a vertical wall perpendicularly. Determine the velocity $v_k$ with which the ball moves away from the wall after a very long time.\n\nThe coefficient of friction between the ball and the floor is equal to $\\mu$, while the coefficient of friction between the ball and the wall is very large. The floor, the wall and the ball are perfectly elastic and do not undergo deformations tangential to the surface. Assume that there is no rolling friction. The gravitational acceleration is $g$. The moment of inertia of a uniform ball about its centre is $I = 2mr^2/5$. Assume that the collisions last infinitely briefly. Neglect air resistance.\n\nGive the numerical value of $v_k$ for\n\n$m = 0.15\\,\\mathrm{kg}$, $r = 2\\,\\mathrm{cm}$, $\\mu = 0.3$, $v_0 = 3\\,\\mathrm{m/s}$. Take $g = 10\\,\\mathrm{m/s^2}$."
+    }
+   ]
+  },
+  {
    "year": 2011,
    "problems": [
     {

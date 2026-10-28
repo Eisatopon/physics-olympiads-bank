@@ -1001,7 +1001,7 @@ dialog p { color: var(--muted); font-size: .92rem; }
     <div class="wrap">
         <span>eisatopon.gr © 2026–<span id="yr">2026</span> – Archimedes, World Physics Olympiads Bank</span>
         <a href="https://github.com/Eisatopon/physics-olympiads-bank" target="_blank" rel="noopener">Data on GitHub</a>
-        <p class="thanks">Statements are reproduced from the competitions' official papers for study; the problems remain the work of their authors and organising committees. Archimedes is an independent project: it is not affiliated with, endorsed by or supported by any competition organiser (in particular not by AAPT, USAPhO or the U.S. Physics Team). Sister project of <a href="https://eisatopon.github.io/national-olympiads-bank/">Pythagoras – World Mathematical Olympiads Bank</a>.</p>
+        <p class="thanks">Statements are reproduced from the competitions' official papers for study; the problems remain the work of their authors and organising committees. Archimedes is an independent project: it is not affiliated with, endorsed by or supported by any competition organiser (in particular not by AAPT, USAPhO or the U.S. Physics Team). Problems remain the property of their organisers; any organiser may ask for corrections or removal at <a href="mailto:sokkorom@gmail.com">sokkorom@gmail.com</a>. Sister project of <a href="https://eisatopon.github.io/national-olympiads-bank/">Pythagoras – World Mathematical Olympiads Bank</a>.</p>
     </div>
 </footer>
 
@@ -1052,7 +1052,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261028-share-credit';
+const DATA_VERSION = '20261028-credits-all';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe' };
@@ -1071,7 +1071,7 @@ const COUNTRIES = [
     { key: 'russia', name: 'Russia', flag: '🇷🇺', file: 'Russia-VOS-problems.json', kind: 'years', full: 'All-Russian Olympiad in Physics, final stage, theoretical round, grades 9–11 · English translation' },
     { key: 'aso', name: 'Australia', flag: '🇦🇺', file: 'ASO-Physics-problems.json', kind: 'years', full: 'Australian Science Olympiad – Physics (Australian Science Innovations) · problems © ASI' },
     { key: 'cap', name: 'Canada', flag: '🇨🇦', file: 'CAP-problems.json', kind: 'years', full: 'CAP High School/CEGEP Prize Exam (Canadian Physics Olympiad), Sections A and B · problems © CAP / CPO' },
-    { key: 'usapho', name: 'USAPhO', flag: '🇺🇸', file: 'USAPhO-problems.json', kind: 'years', full: 'United States Physics Olympiad (AAPT), Parts A and B · problems © AAPT · not affiliated with, endorsed by or supported by AAPT, USAPhO or the U.S. Physics Team', credit: 'Adapted from USAPhO (retyped, statement only). © AAPT. Not affiliated with AAPT, USAPhO or the U.S. Physics Team.' },
+    { key: 'usapho', name: 'USAPhO', flag: '🇺🇸', file: 'USAPhO-problems.json', kind: 'years', full: 'United States Physics Olympiad (AAPT), Parts A and B · problems © AAPT', credit: 'Adapted from USAPhO (retyped, statement only). © AAPT. Not affiliated with AAPT, USAPhO or the U.S. Physics Team.' },
     { key: 'apho', name: 'APhO', flag: '🌏', file: 'APhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'Asian Physics Olympiad, theoretical problems' },
     { key: 'nbpho', name: 'NBPhO', flag: '🌍', file: 'NBPhO-problems.json', kind: 'years', scope: 'regional', full: 'Nordic-Baltic Physics Olympiad (formerly Estonian-Finnish Olympiad), theoretical problems, numbered as printed' },
     { key: 'eupho', name: 'EuPhO', flag: '🇪🇺', file: 'EuPhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'European Physics Olympiad, theoretical problems' },
@@ -1987,8 +1987,9 @@ function syncFilters() {
 const box = () => $('#resultsBox');
 
 function scopeTitle() {
-    if (state.country && state.year !== null) return [`${CBY[state.country].flag} ${CBY[state.country].name} ${state.year}`, CBY[state.country].full || ''];
-    if (state.country) return [`${CBY[state.country].flag} ${CBY[state.country].name}`, CBY[state.country].full ? `${CBY[state.country].full} · All years` : 'All years'];
+    const notAff = state.country && orgDisclaimer(state.country) ? ` · ${orgDisclaimer(state.country)}` : '';
+    if (state.country && state.year !== null) return [`${CBY[state.country].flag} ${CBY[state.country].name} ${state.year}`, (CBY[state.country].full || '') + notAff];
+    if (state.country) return [`${CBY[state.country].flag} ${CBY[state.country].name}`, (CBY[state.country].full ? `${CBY[state.country].full} · All years` : 'All years') + notAff];
     const nat = state.tab === 'national';
     const tabLabel = (TABS.find(([k]) => k === state.tab) || TABS[0])[1];
     const label = tabLabel.toLowerCase();
@@ -2156,7 +2157,41 @@ async function openRelatedProblem(uid) {
 const CREDITS = {
     usapho: p => `Adapted from USAPhO ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : ''}, Problem ${(/^Part ([A-Z])$/.exec(p.paperLabel || '') || ['', ''])[1]}${p.num}: statement only (solutions omitted), retyped in LaTeX. © AAPT. Original source: AAPT / USAPhO. Not affiliated with, endorsed by or supported by AAPT, USAPhO or the U.S. Physics Team.`,
 };
-function creditText(p) { return CREDITS[p.country] ? CREDITS[p.country](p) : ''; }
+// Every other row: competition, original organiser, rights holder and what this bank changed.
+// [competition, organiser, rights holder, language of the official paper if it is translated]
+const ORGS = {
+    ipho: ['IPhO', 'the International Physics Olympiad (host organisers and IPhO Steering Committee)', 'the IPhO organisers'],
+    eupho: ['EuPhO', 'the European Physics Olympiad organisers', 'the EuPhO organisers'],
+    apho: ['APhO', 'the Asian Physics Olympiad (host organisers)', 'the APhO organisers'],
+    nbpho: ['NBPhO', 'the Nordic-Baltic Physics Olympiad (formerly the Estonian-Finnish Olympiad) committee', 'the NBPhO organisers'],
+    plancks: ['PLANCKS', 'IAPS (International Association of Physics Students) and the PLANCKS organising committees', 'the PLANCKS organisers'],
+    bphor2: ['BPhO Round 2', 'the British Physics Olympiad', 'British Physics Olympiad'],
+    cap: ['CAP Prize Exam', 'the Canadian Association of Physicists / Canadian Physics Olympiad', 'Canadian Association of Physicists'],
+    aso: ['ASO Physics', 'Australian Science Innovations (Australian Science Olympiads)', 'Australian Science Innovations'],
+    russia: ['All-Russian Physics Olympiad', 'the organisers of the All-Russian Olympiad in Physics', 'the All-Russian Olympiad organisers', 'Russian'],
+    inpho: ['INPhO', 'HBCSE (Homi Bhabha Centre for Science Education, TIFR)', 'HBCSE'],
+    cpho: ['CPhO', 'the Chinese Physical Society', 'Chinese Physical Society', 'Chinese'],
+    jpho: ['Physics Challenge (JPhO)', 'the Japan Physics Olympiad Committee (JPhO)', 'JPhO', 'Japanese'],
+    poland: ['Olimpiada Fizyczna', 'the Komitet Główny Olimpiady Fizycznej', 'Komitet Główny Olimpiady Fizycznej', 'Polish'],
+    greece: ['Panhellenic Physics Competition', 'the Hellenic Physical Society', 'Hellenic Physical Society', 'Greek'],
+};
+function orgCredit(p) {
+    const o = ORGS[p.country];
+    if (!o) return '';
+    const [comp, org, holder, lang] = o;
+    const meta = typeof collectionMetadata !== 'undefined' && collectionMetadata[CBY[p.country].file];
+    const fmt = meta?.statement_checks?.[p.uid]?.source_format || '';
+    const change = /compilation/i.test(fmt)
+        ? 'Text taken from a later compilation of the problems (secondary source), not from the original examination paper; retyped in LaTeX, statement only'
+        : lang ? `Translated into English from the official ${lang} paper and retyped in LaTeX; statement only (no solutions)`
+        : 'Retyped in LaTeX from the official paper; statement only (no solutions)';
+    return `Source: ${comp} ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : p.day ? `, Day ${p.day}` : ''}, Problem ${p.num}. Original organiser: ${org}; © ${holder}. ${change}. Not affiliated with, endorsed by or supported by ${org}.`;
+}
+function creditText(p) { return CREDITS[p.country] ? CREDITS[p.country](p) : orgCredit(p); }
+function orgDisclaimer(key) {
+    if (key === 'usapho') return 'Not affiliated with, endorsed by or supported by AAPT, USAPhO or the U.S. Physics Team.';
+    return ORGS[key] ? `Not affiliated with, endorsed by or supported by ${ORGS[key][1]}.` : '';
+}
 function creditHtml(p) { const t = creditText(p); return t ? `<p class="p-credit">${esc(t)}</p>` : ''; }
 
 function problemHtml(p) {

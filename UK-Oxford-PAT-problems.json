@@ -2,6 +2,310 @@
  "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
  "years": [
   {
+   "year": 2015,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nExpand $(2x+x^2)^5$ in powers of $x$. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nSolve for $x$ in the equation $\\log_2 x+\\log_4 16=2$. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nEvaluate the sum\n\n$$\\sum_{n=1}^{5}\\left(\\frac{1}{3}\\right)^n.$$\n\nWhat is the sum if the number of terms tends to infinity? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nEvaluate the integral\n\n$$\\int_4^6 (2x-6)[(x-4)(x-2)]^{1/2}\\,dx.$$\n\n[5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nFor what values of $m$ does $4x^2+8x-8=m(4x-3)$ have no real solutions? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nAn unbiased coin is tossed 3 times. Each toss results in a “head” or “tail”. What is the probability\n\n(a) of two or more tails in succession?\n\n(b) that two consecutive toss results are the same?\n\n(c) that if any one of the toss results is known to be a tail, that all of the tosses resulted in tails? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nIn the figure below, which is drawn only approximately to scale, the lengths of line segments $AB$, $BC$, $CD$, $DA$, and $BD$ are equal. $E$ is at the centre of the larger circle. The smaller circle is tangent to $BC$, $CD$, and $BD$, and has radius $r$. Derive an exact expression for the area of the shaded region in terms of $r$. [6 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2015-7-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nFind the slopes and $y$-intercepts of the straight lines that are tangent and normal to the circle $(x+3)^2+(y-3)^2=17$ at the point $(1,2)$. [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nBy sketching the function below, or otherwise, find what values of $y$ the function takes when $x$ can take any real value.\n\n$$y=-\\left(\\frac{8}{x^2-4}\\right)-3$$\n\n[8 marks]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nFor what values of $x$ are the following inequalities satisfied?\n\n$$-1<\\frac{3x+4}{x-6}<1$$\n\n[8 marks]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA ball is thrown at an angle of $30^\\circ$ up from the horizontal, at a speed of $10\\,\\mathrm{m/s}$, off the top of a cliff which is $10$ metres high above a flat beach. How long does it take for the ball to hit the beach below? You may assume that the acceleration due to gravity is $10\\,\\mathrm{m/s^2}$, and that air resistance can be neglected. [4 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used, and that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nAn ice cube slides down a frictionless slope, which is at an angle $\\alpha$ to the horizontal. The slope sits on a horizontal table of height $H$ above the ground. If the ice cube is released from rest at height $h$ above the ground, what is the speed of the cube when it is half way down the slope? [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nUsing your knowledge of solar eclipses, estimate the radius of the Moon. You may assume the radius of the Sun is $700{,}000\\,\\mathrm{km}$, the distance from the Earth to the Sun is $150{,}000{,}000\\,\\mathrm{km}$, and the distance from the Earth to the centre of the Moon is $400{,}000\\,\\mathrm{km}$. [3 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used, and that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nWrite an expression relating the angle of incidence $\\theta_1$ and angle of refraction $\\theta_2$ of a ray of light travelling from one optically transparent material with index of refraction $n_1$ to another with index of refraction $n_2$. Sketch a diagram of the ray of light, clearly labelling the angles and indices of refraction. Under what conditions and for what angles of incidence is light reflected completely at the boundary? [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nConsider a mass and three strings, all lying on a horizontal table. The strings exert forces outwards on the mass as shown below. The mass does not move. What is the force on string $C$ in terms of the force on string $A$? What is the relationship between the force exerted by string $A$ and the force exerted by string $B$? [3 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2015-15-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA non-rotating ball of mass $2\\,\\mathrm{kg}$ slides on a smooth, frictionless, horizontal surface at a speed of $1\\,\\mathrm{m/s}$. It collides elastically and head-on with a stationary ball of mass $1\\,\\mathrm{kg}$. What are the speeds of the two balls after the collision? [4 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used, and that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA small boat floats on the sea. It encounters waves of the form\n\n$$y(x,t)=A\\sin(kx-\\omega t)$$\n\nwhere $y(x,t)$ is the height of the wave at position $x$ and time $t$, and $k$ and $\\omega$ are constants. The waves have a wavelength of $10$ metres, amplitude of $0.5$ metres, and travel at a horizontal speed of $2$ metres per second. What is the maximum vertical velocity of the boat? [4 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used, and that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA garden hose with a cross sectional area $A$ ejects water at a rate of $x$, usually measured in units of $\\mathrm{m^3\\,s^{-1}}$.\n\n(a) What is the speed of the water leaving the nozzle?\n\n(b) The water hits a wall close to the end of the garden hose, perpendicular to the direction of flow. What is the force on the wall if (i) the water falls to the ground when it hits the wall, or (ii) the water rebounds horizontally? You may assume the density of water is $\\rho$, usually measured in units of $\\mathrm{kg\\,m^{-3}}$. [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nConsider a circular orbit of radius $r$ around the Earth. If the Earth's mass is $M$ and radius is $R$, and Newton's gravitational constant is $G$, derive an expression for the speed that is required for a stable orbit.\n\nAssuming that the radius of the Earth is $6400\\,\\mathrm{km}$, and the gravitational acceleration $g$ at the surface of the Earth is $10\\,\\mathrm{m/s^2}$, calculate the speed required for a stable orbit around the equator at sea level. [5 marks]\n\nWhat physical reasons make it difficult for a satellite to maintain a circular orbit around the equator at sea level, even if one can ignore the atmosphere? [1 mark]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used, and that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nThe energy levels of hydrogen are given by the expression\n\n$$E_n=-\\left(\\frac{R}{n^2}\\right)$$\n\nwhere $R$ is the Rydberg constant, and $n$ is a positive integer.\n\nNeutral hydrogen atoms are excited to a state with $n=10$. The atoms then de-excite, emitting light before settling to the ground state ($n=1$).\n\n(a) What is the shortest wavelength of light emitted?\n\n(b) What is the longest wavelength emitted?\n\n(c) How many emission lines may be observed?\n\n[Leave answers as fractions multiplied by powers of $R$, Planck's constant $h$, and the speed of light $c$ as needed.] [7 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nConsider the resistor array below. All the resistors are identical, with resistance $R$.\n\n(a) Calculate the total resistance between $A$ and $B$.\n\n(b) If a potential difference $V$ is applied between $A$ and $B$, calculate the power dissipated in the resistor between $B$ and $D$.\n\n(c) Calculate the total resistance between $C$ and $D$.\n\n[Leave answers as fractions multiplied by powers of $R$ and $V$ as needed.] [8 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2015-21-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nDifferentiate the expression $x\\sin x^2$ with respect to $x$. [2 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nFind all values of $\\theta$ between $0$ and $2\\pi$ which satisfy the equation\n\n$$\\sqrt{3}\\tan^2\\theta-2\\tan\\theta-\\sqrt{3}=0.$$\n\n[5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nGiven the two equations\n\n$$\\begin{aligned}\\log_4\\left(\\frac{64^x}{16^y}\\right)&=13\\\\ \\log_{10}10^x+\\log_3 3^y&=1,\\end{aligned}$$\n\nfind $x$ and $y$. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nWhat is the term independent of $x$ in the expansion\n\n$$\\left(x-\\frac{1}{x^2}\\right)^{12}\\,?$$\n\n[3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nHow many numbers greater than 5000 may be formed by using some or all of the digits 3, 4, 5, 6, and 7 (but only those) without repetition? [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA seed is planted. After one month, there is one twig containing two leaves. In the following month, the twig grows two further twigs, each new twig again containing two leaves. If in successive months each new twig produces two further twigs with their leaves, how many leaves will be on the plant after 10 months? (You may assume that no leaves fall off the plant, and once a new twig has produced two twigs it does not produce further twigs in subsequent months.) [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nIn a dice game, a player throws a fair 6-sided die $n$ times. To win the game, the player needs to throw the following exact sequence within the $n$ throws: 6, 5, 4, four 3's, two 2's, and 1. What is the probability that the player will win if the die is thrown (a) 8 times, (b) 10 times, and (c) 12 times? (You may leave your answer in terms of powers.) [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nCompare a regular octagon with a circle of radius $r$. The distance between two parallel sides of the octagon is $x$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2016-8-fig1.png\n\nWhat should $x$ be (in terms of $r$ only) if the two shapes are to have the same area? [6 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nFor what range(s) of $x$ is the following inequality satisfied?\n\n$$5-3x<\\frac{2}{x}$$\n\n[6 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nFind the area of the region enclosed between the following curves and including the origin:\n\n$$\\begin{aligned}y&=2-x\\\\ y&=2+x\\\\ y&=x^2-4.\\end{aligned}$$\n\n[6 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA cylinder of dough is squashed such that its height $h$ decreases linearly with time $t$ as\n\n$$h(t)=h_0-\\alpha t$$\n\nfor $t<h_0/\\alpha$. Assume that the volume $V$ of the dough remains constant, and it retains a cylindrical shape. Find an expression for the rate of change of the radius of the cylinder as a function of time and the parameters $h_0$, $\\alpha$, and $V$.\n\nDoes the rate of change increase or decrease with time? [6 marks]\n\n[Editorial note: the paper's general instructions state that answers in Section A should be given exactly and in simplest terms unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA ball of mass 100 g bounces on a hard surface. Every time it hits the floor, it loses a quarter of its kinetic energy. If the ball is released from a height of 1 m, after how many bounces will the ball bounce no higher than 0.25 m? [3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nFor a range of temperatures around room temperature and above, sketch how the resistance of the following components vary with temperature:\n\n(a) an ideal wire,\n\n(b) a filament light bulb, and\n\n(c) a thermistor.\n\n[3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nAssume that the moons Io and Europa travel in circular orbits around Jupiter. The radius of Europa's orbit is 1.6 times that of Io's. In what ratio are the moons' orbital periods? Give the answer to 2 significant figures. [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA rower wants to cross a river to a point on the opposite river bank directly opposite from where she will start. The distance to cover is $100\\,\\mathrm{m}$, and she wants to cross in 10 seconds. The river flows uniformly at $7.5\\,\\mathrm{m/s}$. How fast must she row her boat, and at what angle, relative to the flowing water? Give your answers as exact expressions in simplest terms. [3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA negative point charge, with charge $-q$ (with $q>0\\,\\mathrm{C}$), lies on a line between two fixed positive point charges with charges $Q_1$ and $Q_2$. Assume that charge $Q_1$ lies at $x=0$, and charge $Q_2$ lies at $x=a$. Find all positions where the charge $-q$ experiences no net force from the positive charges, for cases $Q_1=Q_2$ and $Q_1\\neq Q_2$.\n\nIn the latter case, what is the physical significance of your unused solution for the position of the charge $-q$? [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nThe diagonal line in the graph below shows the relationship between force and displacement for a certain frictionless physical system:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2016-17-fig1.png\n\n(a) Initially, a mass of 20 grams is placed at a displacement of 5 cm and released. What work is done in moving the mass to a displacement of 0 cm?\n\n(b) What is the speed of the mass when it reaches a displacement of 0 cm?\n\n(c) Describe the mass's motion after it reaches 0 cm.\n\n[7 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nThe drag force $F$ on a sphere is related to the radius of the sphere ($r$), the velocity of the sphere ($v$), and the coefficient of viscosity of the fluid the drop is falling through ($\\eta$) by the formula\n\n$$F=kr^x\\eta^y v^z$$\n\nwhere $k$ is a dimensionless constant, and $x$, $y$, and $z$ are integers. By considering the units of the equation, work out the values of $x$, $y$, and $z$. (The coefficient of viscosity has units of $\\mathrm{kg\\,m^{-1}s^{-1}}$.) [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nLight of wavelength $625\\,\\mathrm{nm}$ shines onto a metal surface with a work function of $1.0\\,\\mathrm{eV}$. Electrons are emitted from the metal.\n\n(a) What is the maximum speed of the emitted electrons?\n\n(b) The electrons are then accelerated through a potential difference of $5.0\\,\\mathrm{keV}$ towards a fluorescent screen. What is the final speed of the electrons when they hit the screen?\n\n[6 marks]\n\n[You may assume that Planck's constant is $6.0\\times10^{-34}\\,\\mathrm{J\\,s}$, the speed of light is $3.0\\times10^{8}\\,\\mathrm{m/s}$, the mass of the electron is $1.0\\times10^{-30}\\,\\mathrm{kg}$, and the charge on the electron is $1.6\\times10^{-19}\\,\\mathrm{C}$.]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nIn the resistor network shown below, each rectangle represents a resistor with fixed resistance $12\\,\\Omega$, and each circle a water heater with fixed resistance $6\\,\\Omega$. Each water heater contains $1\\,\\mathrm{kg}$ of water, initially at $20^\\circ\\mathrm{C}$, and you may assume that all the power dissipated by the water heater heats the water.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2016-20-fig1.png\n\nA voltage $84\\,\\mathrm{V}$ is applied as indicated in the figure. How long does it take for each individual water heater to raise their waters' temperature to $27^\\circ\\mathrm{C}$?\n\n[The specific heat capacity of water is approximately $4200\\,\\mathrm{J/kg\\,^\\circ C}$.]\n\n[8 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA sphere of radius $R=2\\,\\mathrm{m}$ is made of a material with the same refractive index as vacuum, and is supported in a fluid with refractive index $n$ by a straight wire going through its centre $C$. A laser is directed toward the sphere with its beam parallel to the wire but offset by $1\\,\\mathrm{m}$, and strikes the sphere at point $A$. What refractive index $n$ would be needed for the refracted beam to travel at $45^\\circ$ relative to the line $AC$ (which includes points $A$ and $C$)?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2016-21-fig1.png\n\nAnother beam, not necessarily parallel with the wire, strikes the sphere at point $A$. At what angle, relative to the line $AC$, should the beam be directed such that it would be completely reflected by the sphere? [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Section B should be calculated to 2 significant figures unless indicated otherwise; no calculators may be used.]"
+    }
+   ]
+  },
+  {
    "year": 2017,
    "problems": [
     {

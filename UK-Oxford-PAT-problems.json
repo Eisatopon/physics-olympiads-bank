@@ -2,6 +2,380 @@
  "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
  "years": [
   {
+   "year": 2009,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nIf $x=\\sin t$ and $y=\\tan t$, express $y$ in terms of $x$. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nSketch the function $y=x+\\dfrac{4}{x^2}$ over the range $-4<x<+4$. Find the stationary point of this function. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nFind the equations of the two lines which pass through the point $(0,4)$ and form tangents to a circle of radius $2$, centred on the origin. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\n(i) Find $x$ where $\\log_2\\sqrt[3]{x}=\\dfrac{1}{2}$, [2 marks]\n\n(ii) Calculate $\\sqrt{\\log_8 16}$. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nFind all the solutions to $x^4-13x^2+36=0$. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nFind the range of values for $x$ (where $x>0$) for which\n\n$$x+2<1+\\frac{1}{x}+\\frac{1}{x^2}+\\frac{1}{x^3}+\\cdots$$\n\n[5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nIf two identical dice are thrown, what is the probability that the total of the numbers is 10 or higher? [Hint: list the combinations that can give a total of 10 or higher.] [2 marks]\n\nTwo dice have been thown, giving a total of at least 10. What is the probability that the throw of a third die will bring the total of the three numbers shown to 15 or higher? [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nSketch the function $y=1-2\\sin^2 x$ over the range $-\\pi<x<+\\pi$. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nThe plot below shows the function $y=\\dfrac{(x^2-4x)}{\\sqrt{x}}$. Calculate the area of the shaded regions between the $x$-axis and the section of the line below the $x$-axis. [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2009-9-fig1.png\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThe figure below shows three circles arranged within a triangle. Find an expression for the ratio of the area of the circles to the area of the triangle. [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2009-10-fig1.png\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nDetermine the value of $b$ for which the sequence $-a, -\\dfrac{a}{b}, \\dfrac{a}{b}, a$ is an arithmetic progression (where $a\\neq0$). [2 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nEvaluate $2.1^5$ to one decimal place. [3 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nThe sun produces $3.8\\times10^{26}\\,\\mathrm{W}$ through fusion. How much mass is it losing every second? (The speed of light is $c=3.0\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$.) [1 mark]\n\n(A) $4.2\\times10^{9}\\,\\mathrm{kg\\,s^{-1}}$\n\n(B) $4.2\\times10^{12}\\,\\mathrm{kg\\,s^{-1}}$\n\n(C) $3.4\\times10^{8}\\,\\mathrm{kg\\,s^{-1}}$\n\n(D) $1.3\\times10^{7}\\,\\mathrm{kg\\,s^{-1}}$\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA battery is replaced by two identical batteries connected in parallel. The combination can deliver [1 mark]\n\n(A) the same maximum voltage and the same maximum current\n\n(B) the same maximum voltage and a lower maximum current\n\n(C) the same maximum voltage and a higher maximum current\n\n(D) a higher maximum voltage and a lower maximum current"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nThe moon Titan has an angular diameter of $4.4\\,\\mathrm{mrad}$ as seen from the surface of Saturn. The Sun has an angular diameter of $9.3\\,\\mathrm{mrad}$ as seen from the surface of the Earth. Which of the following eclipses cannot be seen from the surface of Saturn? [1 mark]\n\n(A) A lunar eclipse of Titan by Saturn.\n\n(B) A partial solar eclipse due to Titan.\n\n(C) A total solar eclipse due to Titan.\n\n(D) An annular solar eclipse due to Titan"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA yacht on a lake drops its anchor overboard. What happens to the water level in the lake? [1 mark]\n\n(A) It rises very slightly.\n\n(B) It stays exactly the same.\n\n(C) It falls very slightly.\n\n(D) It’s impossible to say."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nEstimate the change in temperature of the water in Fell Beck before and after it falls into the Gaping Gill pothole (depth $105\\,\\mathrm{m}$). The specific heat capacity of water is $4.2\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}}$. [1 mark]\n\n(A) $4\\,^\\circ\\mathrm{C}$\n\n(B) $0.25\\,^\\circ\\mathrm{C}$\n\n(C) $0.025\\,^\\circ\\mathrm{C}$\n\n(D) $9.2\\times10^{-4}\\,^\\circ\\mathrm{C}$\n\n[Editorial note: the paper's general instructions state that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA time-of-flight mass spectrometer can be used to determine the mass of charged molecules through the equation $t=d\\sqrt{m/2qU}$, where $t$ is the time-of-flight, $d=1.5\\,\\mathrm{m}$ is the length of the tube, $m$ is the mass of the molecule, $q$ is its charge, and $U=16\\,\\mathrm{kV}$ is the accelerating voltage. Assuming that $q$ is a single elementary charge ($1.6\\times10^{-19}\\,\\mathrm{C}$) what is the mass that corresponds with a time-of-flight of $30\\,\\mu\\mathrm{s}$? [1 mark]\n\n(A) $1.4\\times10^{-12}\\,\\mathrm{kg}$\n\n(B) $1.0\\times10^{-23}\\,\\mathrm{kg}$\n\n(C) $1.0\\times10^{-24}\\,\\mathrm{kg}$\n\n(D) $2.0\\times10^{-24}\\,\\mathrm{kg}$\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nWhen an object moves at high velocity in a fluid the drag force on it is given by $F=K\\,v^2A$, where $v$ is the object’s velocity and $A$ its area. What sort of quantity is $K$? [1 mark]\n\n(A) A mass\n\n(B) An acceleration\n\n(C) A length\n\n(D) A density"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA battery is connected across two identical resistors in series. If one of the resistors is instantaneously replaced by an uncharged capacitor, what happens to the current in the circuit? [1 mark]\n\n(A) It rises\n\n(B) It falls\n\n(C) It initially rises, but then falls\n\n(D) It initially falls, but then rises"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA triangular glass prism sits on a table point upwards, and a beam of coloured light is directed horizontally near the top of the prism. What happens to the light beam at the prism? [1 mark]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2009-21-fig1.png\n\n(A) It is bent up\n\n(B) It is bent down\n\n(C) It continues horizontally\n\n(D) It depends on the colour"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nThe moon orbits the earth at a distance of $400{,}000\\,\\mathrm{km}$ with a period of $2.4\\times10^{6}\\,\\mathrm{s}$. What is its acceleration towards the earth? [1 mark]\n\n(A) $2.7\\times10^{-3}\\,\\mathrm{m\\,s^{-2}}$\n\n(B) $2.7\\times10^{-6}\\,\\mathrm{m\\,s^{-2}}$\n\n(C) $10\\,\\mathrm{m\\,s^{-2}}$\n\n(D) $6.6\\times10^{3}\\,\\mathrm{m\\,s^{-2}}$\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA hot object will glow, emitting radiation with a total power approximately given by $P=A\\,k\\,T^4$ where $A$ is the surface area, $T$ is the temperature in Kelvin, and $k\\approx6\\times10^{-8}\\,\\mathrm{W\\,m^{-2}\\,K^{-4}}$ is a constant (the Stefan–Boltzmann constant). Estimate the surface area of the filament of a $75\\,\\mathrm{W}$ incandescent light bulb working at $5000\\,\\mathrm{K}$. [3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nFreight transport on Titan is mostly by ship, with three types of ship called pangs, quizzers, and roodles in common use. All three ships have the same shape and design but differ in size. The cargo capacity depends on the hold volume, while the number of crew required is proportional to the surface area of the deck. A quizzer and a roodle taken together have the same length as two pangs, and the crew of a quizzer is just sufficient to provide crew for two pangs and a roodle.\n\nA fully loaded quizzer wishes to transfer all its cargo to smaller pangs and roodles, while minimising the number of crew required for the resultant fleet. How many pangs and roodles are needed?\n\n[Hint: Note that for objects of any shape the surface area is proportional to the square of the object’s size, and the volume is proportional to the cube of its size.] [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "PAT",
+     "title": "Question 25",
+     "problem": "Question 25\n\nFive identical $1\\,\\mathrm{k\\Omega}$ resistors are arranged in a network as shown\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2009-25-fig1.png\n\nWhat resistance would be measured between terminals A and B? If a $6\\,\\mathrm{V}$ battery with an internal resistance of $125\\,\\Omega$ is connected across terminals A and B, what current flows in the wire connecting terminals C and D? [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 26,
+     "paper_label": "PAT",
+     "title": "Question 26",
+     "problem": "Question 26\n\nAn electron gun in a cathode ray tube accelerates an electron with mass $m$ and charge $-e$ across a potential difference of $50\\,\\mathrm{V}$ and directs it horizontally towards a fluorescent screen $0.4\\,\\mathrm{m}$ away. How far does the electron fall during its journey to the screen? Take $m\\approx10^{-30}\\,\\mathrm{kg}$ and $e\\approx1.6\\times10^{-19}\\,\\mathrm{C}$. [5 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 27,
+     "paper_label": "PAT",
+     "title": "Question 27",
+     "problem": "Question 27\n\nIn this question you will use a simple model to estimate how the energy used by a car depends on its design and how it is driven. Begin by neglecting air and ground resistance, and assume that the car travels at constant velocity between regular equally spaced stops.\n\n(a) A stationary car of mass $m$ is rapidly accelerated to a velocity $v$, driven for a distance $s$, and is rapidly brought to a halt by its brakes. Calculate the energy dispersed by the brakes. [1 mark]\n\n(b) Assuming the car restarts immediately, calculate the time between subsequent stops and hence the average power dissipated. [2 marks]\n\n(c) Hence or otherwise calculate the energy used in travelling a total distance $d$. [2 marks]\n\n(d) Taking $m=1000\\,\\mathrm{kg}$, $v=10\\,\\mathrm{m\\,s^{-1}}$ and $s=100\\,\\mathrm{m}$ calculate the energy used in travelling $1\\,\\mathrm{km}$. What would be the effect of doubling the speed to $20\\,\\mathrm{m\\,s^{-1}}$? [3 marks]\n\nNow consider the effect of air resistance. This can be estimated by assuming that the car has to accelerate all the air it travels through to the same average velocity as itself. (You may ignore the rapid random motion of individual air molecules in this calculation.)\n\n(e) Treating the car as a disc with cross sectional area $A$ travelling at velocity $v$ calculate the volume of air swept out in a time $t$. If the air has density $D$ calculate the kinetic energy transferred to the air in this time, and hence the power needed to overcome the air resistance. [5 marks]\n\n(f) Taking $A=1\\,\\mathrm{m^2}$, $v=10\\,\\mathrm{m\\,s^{-1}}$ and $D=1\\,\\mathrm{kg\\,m^{-3}}$ calculate the energy used in travelling $1\\,\\mathrm{km}$. [2 marks]\n\n(g) Using the data above calculate the distance between stops at which the energy dissipated in the brakes is the same as that lost to air resistance. [2 marks]\n\n(h) Comment on the significance of these calculations for the design of cars optimised for driving in cities and cars optimised for driving on highways. [3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\n(i) Solve $\\sin 3x=\\sqrt{3}\\cos 3x$ for $x$ in the range $0\\le x\\le\\pi$. [3 marks]\n\n(ii) Solve $\\cos^2 x-\\sin x+1=0$ for $x$ also in the range $0\\le x\\le\\pi$. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThe equation of the larger circle in the figure below is $(x-1)^2+(y-1)^2=1$. Find the equation of the smaller circle. [4 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2010-2-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nShow that $x=-1$ is a root of the polynomial equation\n\n$$x^3+2x^2-5x-6=0,$$\n\nand find the other two roots. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nFind the equation of the line passing through the points $A(2,3)$ and $B(1,5)$ in the $x$–$y$ plane. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nFind the area of the shaded region of the circle in the figure below, as a function of the radius $R$. [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2010-5-fig1.png\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA rectangle is formed by bending a length of wire of length $L$ around four pegs. Calculate the area of the largest rectangle which can be formed this way (as a function of $L$). [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\n(i) Calculate $\\log_3 9$. [2 marks]\n\n(ii) Simplify $\\log 4+\\log 16-\\log 2$. [2 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\n(i) Calculate $(16.1)^2$. [2 marks]\n\n(ii) Calculate $10.11\\times 3.2$. [2 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nThe first, fourth, and seventh terms of an arithmetic progression are given by $x^3$, $x$, and $x^2$ respectively (where $x\\ne 0$ and $x\\ne 1$). Find $x$, and the common difference of the progression. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nIn a game of dice, a player initially throws a single die, and receives the number of points shown. If the die shows a 6, the player then throws the die again and adds the number shown to his/her score. The player does not throw the die more than twice. Calculate the probability that the player will gain an even number of points. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSketch the curves: $y=x^2$ and $x=y^2$, label the points of intersection and calculate the area between the two curves. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA rock sample contains two radioactive elements A and B, with half lives of 8000 and 16000 years respectively. If the relative proportion of A:B is initially 1:1, what is their relative proportion after 16000 years? [1 mark]\n\n(A) 2:1\n\n(B) 1:2\n\n(C) 3:1\n\n(D) 1:3"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nTwo resistors $R_1$ and $R_2$ are connected in series with a potential difference V across them. The power dissipated by the resistor $R_1$ is: [1 mark]\n\n(A) $V^2R_1/(R_1+R_2)^2$\n\n(B) $V^2{R_2}^2/(R_1(R_1+R_2)^2)$\n\n(C) $V^2R_1\\times(R_1+R_2)^2$\n\n(D) $V^2{R_2}^2\\times(R_1(R_1+R_2)^2)$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA block of concrete, of mass $100\\,\\mathrm{kg}$, lies on a $2\\,\\mathrm{m}$-long plank of wood at a distance $0.5\\,\\mathrm{m}$ from one end. If a builder lifts up the other end of the plank, how much force must he apply to lift the block? [1 mark]\n\n(A) $125\\,\\mathrm{N}$\n\n(B) $12.5\\,\\mathrm{N}$\n\n(C) $250\\,\\mathrm{N}$\n\n(D) $25\\,\\mathrm{N}$\n\n[Editorial note: the paper's general instructions state that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA plane flies in a direction NW (according to the plane’s internal compass) at an airspeed of $141\\,\\mathrm{km/hr}$. If the wind at the plane’s cruise altitude is blowing with a speed of $100\\,\\mathrm{km/hr}$ directly from the north, what is the plane’s actual speed and direction relative to the ground? [1 mark]\n\n(A) $141\\,\\mathrm{km/hr}$, SW\n\n(B) $100\\,\\mathrm{km/hr}$, W\n\n(C) $141\\,\\mathrm{km/hr}$, S\n\n(D) $223\\,\\mathrm{km/hr}$, NNW"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA teacher wants to listen to a programme on his favourite radio station, broadcasting at a frequency of $1000\\,\\mathrm{kHz}$, but his radio only indicates the wavelength of the station. To what wavelength must the teacher tune his radio to hear the programme? [1 mark]\n\n(A) $300\\,\\mathrm{m}$\n\n(B) $300000\\,\\mathrm{m}$\n\n(C) $0.0033\\,\\mathrm{m}$\n\n(D) $50\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nTwo mirrors are set at right angles to each other. A beam of light, which is perpendicular to the line of intersection of the two mirrors is incident on the first mirror $M_1$ at an angle $A$ with respect to its normal. The light reflected by $M_1$ is then reflected by $M_2$. What is the angle through which the resultant beam is turned with respect to the incident beam direction? [1 mark]\n\n(A) Greater than $180^\\circ$\n\n(B) Exactly $180^\\circ$\n\n(C) Less than $180^\\circ$\n\n(D) It depends on the wavelength"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA capacitor, of capacitance $3\\,\\mathrm{nF}$, is charged to a voltage of $10\\,\\mathrm{V}$. What is the charge held by the capacitor? [1 mark]\n\n(A) $3.3\\times 10^{9}\\,\\mathrm{C}$\n\n(B) $3\\times 10^{-10}\\,\\mathrm{C}$\n\n(C) $3\\times 10^{-8}\\,\\mathrm{C}$\n\n(D) $3\\times 10^{-9}\\,\\mathrm{C}$"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nThe suspension spring of a car, which has a spring constant of $k=80000\\,\\mathrm{N\\,m^{-1}}$ is sat on by a person weighing $80\\,\\mathrm{kg}$. By how much is the spring compressed? [1 mark]\n\n(A) $1\\,\\mathrm{mm}$\n\n(B) $10\\,\\mathrm{mm}$\n\n(C) $5\\,\\mathrm{mm}$\n\n(D) $20\\,\\mathrm{mm}$\n\n[Editorial note: the paper's general instructions state that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA comet orbits a star. At its closest approach to the star at a distance of $4\\times 10^{10}\\,\\mathrm{km}$, the comet has a speed of $50\\,\\mathrm{km/s}$. How fast is it travelling when it is at its maximum distance from the star of $10\\times 10^{10}\\,\\mathrm{km}$? [1 mark]\n\n(A) $50\\,\\mathrm{km/s}$\n\n(B) $30\\,\\mathrm{km/s}$\n\n(C) $20\\,\\mathrm{km/s}$\n\n(D) $10\\,\\mathrm{km/s}$"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA fisherman sees a fish in a river at an apparent depth below the surface of the water of $0.75\\,\\mathrm{m}$. Given that the refractive index of water is $1.33$, is the true depth of the fish below the water’s surface: [1 mark]\n\n(A) $0.75\\,\\mathrm{m}$?\n\n(B) Less than $0.75\\,\\mathrm{m}$?\n\n(C) $1\\,\\mathrm{m}$?\n\n(D) More than $1\\,\\mathrm{m}$?"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA bathroom contains three rubber ducks, red, green and blue, of identical shape and density, but different overall sizes. The following observations are made:\n\nA) The length of a red duck is equal to the length of a blue duck added to that of a green duck.\n\nB) The area of the base of the green duck is four times larger than the area of the base of the blue duck.\n\nD) The blue duck has a mass of $3\\,\\mathrm{g}$.\n\nWhat are the masses of the red and green ducks?\n\nIf, when fully submersed, the green duck displaces a total mass of water of $32\\,\\mathrm{g}$, what is the density of the ducks (the density of water is $1000\\,\\mathrm{kg\\,m^{-3}}$)?\n\n[Hint: Note that for objects of any shape the surface area is proportional to the square of the object’s size, and the volume is proportional to the cube of its size.] [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures unless otherwise directed and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nLight from the Sun has an approximate flux level of $1\\times 10^{3}\\,\\mathrm{W\\,m^{-2}}$ at the distance of the Earth and is incident on a steel frying pan of area $0.07\\,\\mathrm{m^2}$, total mass $2\\,\\mathrm{kg}$, and initially at a temperature of $20^\\circ\\mathrm{C}$. Assuming that the frying pan is perfectly thermally insulated from its surroundings and absorbs all the sunlight incident upon it, how long does it take for the pan to reach a temperature of $70^\\circ\\mathrm{C}$ and thus be hot enough to fry an egg? [3 marks]\n\nThe frying pan, still at $70^\\circ\\mathrm{C}$, is then plunged into a bowl containing $4\\,\\mathrm{kg}$ of water at $20^\\circ\\mathrm{C}$. Assuming the bowl has negligible heat capacity and assuming that there is no heat flow to or from the surroundings, what is the final temperature of the water in the bowl to the nearest $^\\circ\\mathrm{C}$? [4 marks]\n\n(The specific heat capacity of steel is $490\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}$ and the specific heat capacity of water is $4200\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}$.)\n\n[Hint: For the second part of the question, you may find it easier to write the problem in terms of the temperature change of the water.]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures unless otherwise directed and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nAn astronaut arrives on the planet Oceania and climbs to the top of a cliff overlooking the sea. The astronaut’s eye is $100\\,\\mathrm{m}$ above the sea level and he observes that the horizon in all directions appears to be at angle of $5\\,\\mathrm{mrad}$ below the local horizontal. What is the radius of the planet Oceania at sea level? [4 marks]\n\nHow far away is the horizon from the astronaut? [3 marks]\n\n[Hint: the line of sight from the astronaut to the horizon is tangential to surface of the planet at sea level.]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures unless otherwise directed and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "PAT",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA gun is designed that can launch a projectile, of mass $10\\,\\mathrm{kg}$, at a speed of $200\\,\\mathrm{m/s}$. The gun is placed close to a straight, horizontal railway line and aligned such the projectile will land further down the line. A small rail car, of mass $200\\,\\mathrm{kg}$ and travelling at a speed of $100\\,\\mathrm{m/s}$ passes the gun just as it is fired. Assuming the gun and the car are at the same level, at what angle upwards must the projectile be fired in order that it lands in the rail car? [3 marks]\n\nHow long does it take for the projectile to reach its maximum altitude? [3 marks]\n\n(You may use $\\sqrt{3}\\approx 1.732$)\n\nHow far is the rail car from the gun when the projectile lands in it? [3 marks]\n\nWithout considering energy, calculate the projectile’s maximum altitude. [2 marks]\n\nNow consider energy. What is the initial kinetic energy of the rail car and what is the initial kinetic energy of the projectile in both the vertical and horizontal directions? [3 marks]\n\nUsing your calculation of the projectile’s initial kinetic energy, again calculate the projectile’s maximum altitude. [2 marks]\n\nWhen the projectile lands in the rail car, why does the velocity of the car not change? [2 marks]\n\nAssuming that the projectile remains in the car, what is the combined kinetic energy of the car plus projectile after the projectile has landed (to three significant figures)? [2 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures unless otherwise directed, that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used, and that no calculators, tables or formula sheets may be used.]"
+    }
+   ]
+  },
+  {
    "year": 2011,
    "problems": [
     {

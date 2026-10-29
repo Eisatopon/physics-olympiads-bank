@@ -1,0 +1,531 @@
+{
+ "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
+ "years": [
+  {
+   "year": 2021,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhat is the next number in the sequence? 1, 32, 243, 1024, 3125 [2 marks]\n\n(A) 5040\n(B) 6225\n(C) 7164\n(D) 7776\n(E) 8192"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nWhat is the effective spring constant of the combination of springs shown in the diagram, if each spring has spring constant $k$? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-2-fig1.png\n\n(A) $\\dfrac{5}{6}k$\n(B) $k$\n(C) $\\dfrac{6}{5}k$\n(D) $2k$\n(E) $5k$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nEvaluate $\\sum_{n=1}^{10}\\left(2-\\frac{n}{2}+2^n\\right)$. [2 marks]\n\n(A) $2^{10}-\\dfrac{11}{2}$\n(B) $2^{12}-\\dfrac{19}{2}$\n(C) $2^{11}-\\dfrac{19}{2}$\n(D) $2^{10}-\\dfrac{11}{4}$\n(E) $2^{11}-\\dfrac{11}{2}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nFive different ions are accelerated from rest by the same potential difference. Which will have the smallest final velocity? [2 marks]\n\n(A) ${}^{6}_{3}\\mathrm{Li}^{2+}$\n(B) ${}^{7}_{3}\\mathrm{Li}^{2+}$\n(C) ${}^{7}_{3}\\mathrm{Li}^{3+}$\n(D) ${}^{9}_{4}\\mathrm{Be}^{3+}$\n(E) ${}^{9}_{4}\\mathrm{Be}^{4+}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nGravity on the Moon satisfies\n\n$$g_{Moon}=\\frac{1}{6}g_{Earth}.$$\n\nA ball dropped on Earth from a height $h$ takes a time $t$ to reach the ground. From which height should it be dropped on the Moon so that it takes the same time $t$ to reach the surface? You can neglect all effects of air resistance. [2 marks]\n\n(A) $\\dfrac{1}{36}h$\n(B) $\\dfrac{1}{6}h$\n(C) $\\dfrac{1}{\\sqrt{6}}h$\n(D) $h$\n(E) $6h$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nTwo unbiased dice are rolled and the numbers obtained are added. If the probability of getting the sum $S$ is $P(S)$, which of the following statements are true? [2 marks]\n\n1. $P(10)+P(11)=P(6)$\n2. $P(6)>P(8)$\n3. $P(2)+P(3)+P(4)>P(7)$\n4. $P(7)=\\frac{3}{2}P(5)$\n5. $P(11)=P(3)$\n\n(A) 1,2,4\n(B) 3,4,5\n(C) 2,3,4\n(D) 1,3,5\n(E) 1,4,5"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA light ray follows a path through three media separated by plane boundaries as shown in the diagram, with refractive indices $n_1$, $n_2$ and $n_3$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-7-fig1.png\n\nWhich of the following sequences puts the refractive indices in order of increasing value? [2 marks]\n\n(A) $n_1, n_2, n_3$\n(B) $n_2, n_1, n_3$\n(C) $n_1, n_3, n_2$\n(D) $n_3, n_1, n_2$\n(E) $n_3, n_2, n_1$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIf $f(x)=x^2$ and $g(x)=x+3$, find $\\frac{\\mathrm{d}y}{\\mathrm{d}x}$ where $y=f(g(x))-g(f(x))$. [2 marks]\n\n(A) $6$\n(B) $2x+5$\n(C) $2x-1$\n(D) $6x+6$\n(E) $2$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nWhat is the current at the point P in the diagram? [2 marks]\n\n(A) $\\dfrac{2V}{13R}$\n(B) $\\dfrac{2V}{11R}$\n(C) $\\dfrac{V}{9R}$\n(D) $\\dfrac{6V}{13R}$\n(E) $\\dfrac{6V}{11R}$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-9-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nWhich of these represents a simpler form for $\\cos\\left(\\sin^{-1}(x)\\right)$? [2 marks]\n\n(A) $\\sqrt{1-x^2}$\n(B) $\\sqrt{1+x^2}$\n(C) $\\sqrt{1-x}$\n(D) $1-x^2$\n(E) $\\sqrt{x-1}$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nConsider the following five graphs.\n\n1. Force ($y$-axis) against distance ($x$-axis)\n2. Force ($y$-axis) against time ($x$-axis)\n3. Velocity ($y$-axis) against time ($x$-axis)\n4. Mass ($y$-axis) against velocity squared ($x$-axis)\n5. Voltage ($y$-axis) against charge ($x$-axis)\n\nFor which graphs could the area under the graph potentially be a measurement of energy? [2 marks]\n\n(A) 1, 4, 5\n(B) 1, 5\n(C) 1, 4\n(D) 1, 3, 4\n(E) All of them."
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nWhich of the following integrals are equal to zero (you do \\textbf{not} need to evaluate the integrals explicitly)? [2 marks]\n\n1. $\\int_{-\\pi/2}^{\\pi/2}\\sin(3x)\\,\\mathrm{d}x$\n2. $\\int_{-\\sqrt{7}}^{\\sqrt{7}}\\frac{1}{9}x^5-\\frac{1}{7}x^3+\\frac{1}{21}x\\,\\mathrm{d}x$\n3. $\\int_{0}^{1}\\cos x\\,\\mathrm{d}x$\n4. $\\int_{-2}^{2}\\frac{1}{4}x^4+\\frac{1}{12}x^2\\,\\mathrm{d}x$\n5. $\\int_{-90}^{90}\\sin(5x)-\\frac{1}{2}\\sin x\\,\\mathrm{d}x$\n\n(A) 1,2\n(B) 3,4\n(C) 1\n(D) 1,2,5\n(E) 1,5"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA toilet roll is made up of an inner cardboard tube, diameter $x$ cm, with toilet paper wrapped around it to give an overall diameter of $y$ cm. The length of the cardboard tube is $z$ cm. Suppose the diameter of the inner tube is reduced from $x$ cm to $(x-1)$ cm, but the volume of toilet \\textit{paper} is kept the same. What is the difference in the \\textit{total} volume of the roll? [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA machine requires 10kW of electrical power when operating at 100V.\n\n(a) If power is delivered through a cable with resistance $100\\,\\Omega$, how much power is lost to the cable's resistance? [2 marks]\n\n(b) In order to reduce power loss, a transformer is used between the cable and the machine. What ratio of turns is required on the transformer in order to reduce power loss on the cable by a factor of $10^4$? [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nThe observed brightness of a Sun-like star shows periodic dips. The time period between these dips $T=225\\,\\mathrm{days}$.\n\n(a) If these dips are interpreted as being due to the transits of a planet in a circular orbit around the star, estimate the radius $R$ of that orbit.\n\nYou may assume that the star has the same mass as the Sun and that the planet's mass is much smaller than the mass of the star. You can take the mean radius of the Earth's orbit around the Sun to be approximately $R_E=1.5\\times10^{11}\\,\\mathrm{m}$. [5 marks]\n\n(b) A model of a transit and its effect on the star's brightness is shown in the figure below. Assuming that we observe the system in the plane of the planet's orbit, draw the relative positions of the planet and the star at the times $t_a$ to $t_d$ and calculate the radii of the planet, $R_P$ and the star, $R_S$. [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-15-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA vehicle travels in a fixed direction at a velocity $v(t)$ that varies with time as follows:\n\n$$\\begin{array}{rl} t<t_1 & v(t)=At^2 \\\\ t_1<t<t_2 & v(t)=C-B(t-t_2)^2 \\\\ t>t_2 & v(t)=v_2. \\end{array}$$\n\nHere $A$, $B$, $C$ and $v_2$ are constants.\n\n(a) Find $A$, $B$ and $C$ such that both the velocity and acceleration are continuous at $t=t_1$ and $t=t_2$. [3 marks]\n\n(b) Sketch the velocity and acceleration as a function of time. [3 marks]\n\n(c) Find the total distance travelled between $t=0$ and $t=t_3$, where $t_3>t_2$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nIn Einstein's theory of gravity, light passing a star of mass $M$, at a distance $R$ from the centre of the star, is bent by an angle $\\theta$ (measured in radians, $2\\pi$ radians $=360^\\circ$) as shown in the diagram.\n\n(a) Assume that $\\theta$ depends on the gravitational constant $G$ and also depends on the mass of the star $M$, the distance $R$ and the speed of light $c=3\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$, as\n\n$$\\theta=\\lambda G M^{\\alpha} R^{\\beta} c^{\\gamma},$$\n\nwhere $\\lambda$ is an undetermined dimensionless constant.\n\nBy considering the dimensions of these quantities determine $\\alpha$, $\\beta$ and $\\gamma$. [4 marks]\n\n(b) In SI units the numerical value of $G$ is $6.67\\times10^{-11}$.\n\nNeglecting any spatial extent to the star, and taking $\\lambda=1$ and $M=2\\times10^{30}\\,\\mathrm{kg}$, determine the distance $R$ such that light is bent so much that it falls directly into the star. [3 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-17-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nFind the area of the dark regions of this figure in terms of the overall radius of the outer circle (denoted $R$). [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-18-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nSand is poured at a constant rate onto a flat horizontal surface. It forms a pile in the shape of a cone with a constant slope.\n\n(a) If $r$ is the radius of the base of the cone, find how $r$ varies with $t$, given that $r(0)=0$. [3 marks]\n\n(b) If it takes a time $t_1$ for $r$ to reach $r_1$, how long does it take for the radius to reach $2r_1$ (in terms of $t_1$)? [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nExpand $(a+bx)^c$, where $c$ is a positive integer, as a polynomial in $x$ up to and including terms involving $x^2$.\n\nIf the coefficient of the $x^0$ term is equal to $\\frac{1}{16}$, $b=\\frac{1}{4}$ and the coefficient of the $x^2$ term is $\\frac{3}{32}$, find $a$ and $c$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA pinhole camera consists of a box with a small aperture (of diameter $x$). A point light source $P$ is at a distance $u$ from the aperture outside the box. It projects an image on the screen, which is inside the box at a distance $D$ from the aperture.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-21-fig1.png\n\n(a) If diffraction is ignored, what is the diameter $s_1$ of the spot projected on the screen? [2 marks]\n\n(b) If $D\\gg x$, diffraction of light of wavelength $\\lambda$ by the aperture produces a distribution of intensity that varies with angle $\\theta$ (measured in radians from the $z$ axis marked on the diagram; $2\\pi$ radians $=360$ degrees) approximately as shown below:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-21-fig2.png\n\nWhat is the approximate diameter, $s_2$, of the central peak of the diffraction pattern projected on the screen? [2 marks]\n\n(c) Assume that the effects in part (a) and (b) can be combined to give a total diameter $s_3$, where\n\n$$s_3^2=s_1^2+s_2^2.$$\n\nFind the pinhole size that produces the sharpest image of the light source on the screen. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\n(a) Sketch the functions $f(x)=x^2+2x-7$ and $g(x)=\\frac{2}{x}$ on the same graph. [2 marks]\n\n(b) Determine the coordinates of the points of intersection of the two curves and label their exact values. You are \\textbf{not} required to determine coordinates of intersections with $x$ or $y$ axes. [4 marks]\n\n(c) Evaluate the finite area enclosed between the two curves. [4 marks]\n\nYou are expected to show clear working for all parts."
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nThe potential energy for a system of two atoms separated by a distance $x$ is $U(x)$ (shown below).\n\nSketch $-\\frac{\\mathrm{d}U}{\\mathrm{d}x}$. [2 marks]\n\nWhat does this new curve represent physically and what does the point $x_0$ represent? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-23-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nIf $f(x)$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-24-fig1.png\n\nand $g(x)$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-24-fig2.png\n\nthen sketch $f(x-ct)+g(x+ct)$ for $t=a/2c$, $3a/4c$ and $a/c$. Each sketch should be done separately with its own set of axes. [6 marks]"
+    }
+   ]
+  },
+  {
+   "year": 2022,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhat is the total resistance of the circuit? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2022-1-fig1.png\n\n(A) $\\dfrac{11R}{6}$\n(B) $6R$\n(C) $\\dfrac{6R}{11}$\n(D) $3R$\n(E) $\\dfrac{R}{3}$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nFor which values of $x$ is $\\left(24-14x-3x^2\\right)^{-1}$ positive? [2 marks]\n\n(A) $x<-4/3$ and $x>6$\n(B) $x<-6$ and $x>4/3$\n(C) $-4/3<x<6$\n(D) $-6<x<4/3$\n(E) $-\\infty<x<\\infty$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nMolecules of oxygen in the atmosphere absorb solar radiation in bands centred at about 80 nm, 650 nm and 1000 nm. In which parts of the electromagnetic spectrum are these absorption bands? [2 marks]\n\n(A) Visible, Infrared and Microwave\n(B) Visible and Infrared\n(C) Ultraviolet and Infrared\n(D) Ultraviolet, Visible and Infrared\n(E) X-ray, Ultraviolet and Visible"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nWhich of these polynomial functions has the largest second derivative at $x=0$? [2 marks]\n\n(A) $5x^5-x^3+4x$\n(B) $3x^4+x^2+16$\n(C) $4x^6+x^2-1$\n(D) $x^3+2x^2-5x+10$\n(E) $10x^5+3x^3-7x+2$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nAn asteroid of mass $10^3\\,\\mathrm{kg}$ is moving towards a space station at $1\\,\\mathrm{m\\,s^{-1}}$. It is proposed to stop it by firing a $1\\,\\mathrm{MW}$ laser at it. For how long must the laser be fired? You may assume that the surface of the asteroid is perfectly reflective, all photons are incident perpendicular to the surface of the asteroid, and a photon's momentum is related to its energy by $p=\\frac{E}{c}$, where $c=3\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$ is the speed of light. [2 marks]\n\n(A) $3\\times10^{-3}\\,\\mathrm{s}$\n(B) $7.5\\times10^{4}\\,\\mathrm{s}$\n(C) $1.5\\times10^{5}\\,\\mathrm{s}$\n(D) $3\\times10^{5}\\,\\mathrm{s}$\n(E) $3\\times10^{11}\\,\\mathrm{s}$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nWhich expression correctly represents the sum $\\sum\\limits_{k=0}^{n} ar^{2k}$? [2 marks]\n\n(A) $\\dfrac{a}{1-r^2}k$\n(B) $\\dfrac{a(1-r^{2n})}{1-r}$\n(C) $\\dfrac{a(1-r^{2n})}{1-r^2}$\n(D) $\\dfrac{a(1-r^{2n+2})}{1-r}$\n(E) $\\dfrac{a(1-r^{2n+2})}{1-r^2}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nIn a cathode ray tube, an electron (mass $9.1\\times10^{-31}\\,\\mathrm{kg}$, charge $-1.6\\times10^{-19}\\,\\mathrm{C}$) is accelerated from rest by a uniform electric field of strength $20\\,\\mathrm{kV\\,m^{-1}}$. How much time does it take to travel $50\\,\\mathrm{cm}$? [2 marks]\n\n(A) $1.1\\times10^{-18}\\,\\mathrm{s}$\n(B) $2.8\\times10^{-16}\\,\\mathrm{s}$\n(C) $1.7\\times10^{-8}\\,\\mathrm{s}$\n(D) $5.3\\times10^{-7}\\,\\mathrm{s}$\n(E) $3.2\\times10^{-5}\\,\\mathrm{s}$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIf a function $y=f(x)$ has a stationary point at $(x_0,y_0)$, what are the co-ordinates of the corresponding stationary point of the function $y=af(bx+c)$? [2 marks]\n\n(A) $\\left(\\frac{x_0}{b}-c,\\ ay_0\\right)$\n(B) $(bx_0+c,\\ ay_0)$\n(C) $\\left(\\frac{x_0-c}{b},\\ ay_0\\right)$\n(D) $\\left(x_0-\\frac{c}{b},\\ ay_0\\right)$\n(E) $\\left(\\frac{x_0+c}{b},\\ ay_0\\right)$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nAs it appears to move across the sky, the Sun moves through an angle equal to that subtended by its diameter in about two minutes, as in the diagram. In a solar eclipse, the Moon covers the Sun almost exactly in the sky. Using this, what is the approximate ratio of the Moon's radius to its orbital distance from Earth? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2022-9-fig1.png\n\n(A) $0.0014$\n(B) $0.0022$\n(C) $0.0028$\n(D) $0.0044$\n(E) $0.0056$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nWhat is the next number in the sequence $0,\\ \\frac{3}{4},\\ \\frac{3}{8},\\ \\frac{9}{16},\\ \\frac{15}{32},\\ \\frac{33}{64}$? [2 marks]\n\n(A) $\\dfrac{51}{128}$\n(B) $\\dfrac{53}{128}$\n(C) $\\dfrac{63}{128}$\n(D) $\\dfrac{65}{128}$\n(E) $\\dfrac{71}{128}$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nTwo moons occupy circular orbits around a planet. The smaller moon has mass $1.5\\times10^{15}\\,\\mathrm{kg}$ and orbital radius $2.3\\times10^{4}\\,\\mathrm{km}$. The larger moon has mass $1.1\\times10^{16}\\,\\mathrm{kg}$ and orbital radius $9.4\\times10^{3}\\,\\mathrm{km}$. If the gravitational force exerted by the planet on the smaller moon is $10^{14}\\,\\mathrm{N}$, what force does the planet exert on the larger moon? [2 marks]\n\n(A) $2.4\\times10^{14}\\,\\mathrm{N}$\n(B) $6.0\\times10^{14}\\,\\mathrm{N}$\n(C) $7.3\\times10^{14}\\,\\mathrm{N}$\n(D) $1.8\\times10^{15}\\,\\mathrm{N}$\n(E) $4.4\\times10^{15}\\,\\mathrm{N}$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nWhat is the derivative of $y=x^6+6x^5+12x^4+8x^3$? [2 marks]\n\n(A) $(3x+3)(x^2+2x)^2$\n(B) $(2x+2)(x^2+2x)^2$\n(C) $(6x+6)(x^2+2x)$\n(D) $(2x+2)(x^2+2x)^3$\n(E) $(6x+6)(x^2+2x)^2$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\n(a) Draw the functions $y_1(x)=x^2-1$, $y_2(x)=4x-2$ and $y_3(x)=-\\frac{x}{2}-2$ on a common set of axes. Label where they cross the axes. [3 marks]\n\n(b) Work out the $x$-values of the intersection points of these three functions. [3 marks]\n\n(c) Write down a single integral which describes a finite area bounded by two of the three functions. You do not need to evaluate the integral. [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nThe Trojan asteroids share Jupiter's orbit around the Sun: approximately circular with a mean radius $5.2\\,\\mathrm{AU}$ ($1\\,\\mathrm{AU}=1.5\\times10^{11}\\,\\mathrm{m}$ is the mean radius of the Earth's orbit around the Sun). The Trojans are clustered around two points labelled $L_4$ and $L_5$, where the $L_4$ point is $60^\\circ$ ahead of Jupiter in its orbit and the $L_5$ point is $60^\\circ$ behind Jupiter in its orbit.\n\n(a) Determine the mean distance between the asteroids 588 Achilles (at the $L_4$ point) and 617 Patroclus (at the $L_5$ point). [2 marks]\n\n(b) A spacecraft travels in a straight line between the two asteroids, accelerating at $10\\,\\mathrm{m\\,s^{-2}}$ until the half-way point between the asteroids, and decelerating at $10\\,\\mathrm{m\\,s^{-2}}$ from there to the end-point. Assuming that the asteroids are approximately stationary on the timescale of the journey, and neglecting any gravitational effects of Jupiter or the Sun, find the total travel time. [3 marks]\n\n(c) Explain why the assumption that the asteroids are approximately stationary during the journey is well-justified. [1 mark]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA projectile is launched at speed $v$ and angle $\\theta$ (as measured from the horizontal) outwards from the top of a high cliff.\n\n(a) Sketch the trajectory of the projectile for launch angles $\\theta=5^\\circ$, $45^\\circ$ and $85^\\circ$. Use $x(t)$ for the horizontal displacement from the launch point and $y(t)$ for the vertical displacement from the launch point. [2 marks]\n\n(b) Using separate axes, now sketch the absolute distance, $r(t)=\\sqrt{x(t)^2+y(t)^2}$, from its launch point as a function of time for all of the three launch angles above. [2 marks]\n\n(c) Obtain an expression for $r(t)$. For which angles does $r(t)$ have a stationary point? [5 marks]\n\n(d) For angles below these, what happens to $r(t)$ as time increases? [1 mark]\n\n[Editorial note: the paper's general instructions state that the gravitational field strength on the surface of Earth may be taken to be $g\\approx10\\,\\mathrm{m\\,s^{-2}}$.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nSuppose $f(t)=4t$ and $g(x)=\\frac{3}{2}\\left(3x-x^2\\right)$. Consider the inequality\n\n$$\\frac{\\mathrm{d}g(x)}{\\mathrm{d}x}>\\int_{3/2}^{x}f(t)\\,\\mathrm{d}t\\,.$$\n\nFor which values of $x$ is this inequality satisfied? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nFour circles of radius $r_1$ are inscribed inside a square of side $4r_1$ as shown in the diagram below.\n\n(a) What is the radius $r_2$ of the largest circle that can fit in the space at the centre of the square, bounded by the outer circles? [3 marks]\n\n(b) If 8 spheres of radius $r_1$ are now similarly arranged inside a cube of edge length $4r_1$, what is the radius $r_3$ of the largest sphere that can fit in the space at the centre of the cube? [3 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2022-17-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nConsider the function\n\n$$f(x)=-\\frac{P}{x^3}+\\frac{Q}{x^2}-\\frac{R}{x}$$\n\nin the region $x>0$, where $P$, $Q$ and $R$ are all positive constants.\n\n(a) Find an inequality satisfied by $P$, $Q$ and $R$ in order for $f(x)$ to have at least one real root. [2 marks]\n\n(b) Find a relationship between $P$, $Q$ and $R$ in order for $f(x)$ to have exactly one stationary point. [3 marks]\n\n(c) If the relationshiop of the previous part holds, so that exactly one stationary point exists, what is the nature of that stationary point and at what value of $x$ (expressed in terms of $P$, $Q$ and $R$) is it? It is not necessary to work out a second derivative to answer this. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nFollowing Bohr, we assume that a hydrogen-like atom may be modelled as a single electron (mass $m$ and charge $-e$) in a circular orbit around a much more massive nucleus (charge $+Ze$).\n\n(a) By balancing forces, find the speed $v$ of the electron in terms of its orbital radius. [3 marks]\n\n(b) Show that the total energy of the electron is equal to the negative of its kinetic energy. You may assume that its potential energy $U$ is given by (where $r$ is the radius of the orbit) [3 marks]\n\n$$U=-\\frac{Ze^2}{4\\pi\\epsilon_0 r}$$\n\n(c) Assuming that for the electron the product $mvr=n\\hbar$, where $n$ is an integer and $\\hbar$ (pronounced h-bar) is a constant, find an expression for the electron energy in terms of $n$ (and which does not depend on either $v$ or $r$). [2 marks]\n\n(d) If $E(n=1)=-13.6\\,\\mathrm{eV}$ for hydrogen, what is $E(n=3)$ for once-ionised helium ($\\mathrm{He^+}$)? [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nTwo unbiased dice are rolled. The numbers obtained are multiplied.\n\n(a) What is the probability that the product is even? [1 mark]\n\n(b) Which product has a probability of $\\frac{1}{12}$ to occur? [1 mark]\n\n(c) What is the probability that the product is greater than 28? [1 mark]\n\n(d) Which product(s) has(ve) the highest probability to occur? [2 marks]\n\n(e) If the product is known to be even, what is the probability that it is also divisible by 4? [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA ball of mass $2m$ slides along a frictionless track with speed $u$. Starting from a long distance away, it collides elastically with a stationary ball of mass $m$.\n\n(a) Calculate the final speeds of both balls (you may neglect any rotation of the balls). [5 marks]\n\n(b) If both balls were now positively electrically charged, describe qualitatively either how the results would change or why you would leave the results unaltered. [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nConsider the following set of equations:\n\n$$\\begin{aligned} 2x+y &= z,\\\\ x^2 &= y,\\\\ z+2y &= 2x^3. \\end{aligned}$$\n\nFind the possible values of $x$ which satisfy these equations. [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nThe number of atoms $N_x$ in a sample of a radioactive substance $x$ decays with time according to the equation,\n\n$$N_x(t)=N_x(0)e^{-\\lambda_x t},$$\n\nwhere $N_x(0)$ is the number of atoms at time $t=0$ and $\\lambda_x$ is a constant for substance $x$.\n\nThe half-life of a substance is defined as the time taken for $N_x$ to reach half of its initial value. Substance $a$ has a half-life of 1 hour. 36% of its decays emit an alpha particle and 64% of its decays emit a beta particle. Substance $b$ has a half-life of 15 minutes. 56% of its decays emit an alpha particle and 44% of its decays emit a beta particle.\n\nIf the total particle emission rate of substance $x$ (where $x=a,b$) is $\\lambda_x N_x(t)$ and $N_a(0)=N_b(0)$, what time in minutes passes before the beta particle emission rates from the two samples are equal? [5 marks]"
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhat speed does a bull elephant (mass $4900\\,\\mathrm{kg}$) have to move at to have the same kinetic energy as a cyclist (mass $100\\,\\mathrm{kg}$) moving at $30\\,\\mathrm{km\\,h^{-1}}$? [2 marks]\n\n(A) $0.6\\,\\mathrm{m\\,s^{-1}}$\n\n(B) $1.2\\,\\mathrm{m\\,s^{-1}}$\n\n(C) $4.2\\,\\mathrm{m\\,s^{-1}}$\n\n(D) $8.3\\,\\mathrm{m\\,s^{-1}}$\n\n(E) $16.6\\,\\mathrm{m\\,s^{-1}}$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA seed packet contains 100 seeds. When planted, 75 will successfully become plants, but of these only a third will have flowers, and of these only one fifth will produce fruit. How many seeds produce fruiting plants? [2 marks]\n\n(A) 5\n\n(B) 10\n\n(C) 15\n\n(D) 20\n\n(E) 25"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nTwo black holes orbit each other and emit gravitational waves arising from the periodic nature of the orbit. The orbital separation is around $10\\,\\mathrm{km}$, the relative speeds of the black holes are close to the speed of light, and gravitational waves travel at the speed of light. Which of the following would best describe the frequency of the emitted radiation? [2 marks]\n\n(A) $10^{-2}\\,\\mathrm{Hz}$\n\n(B) $10\\,\\mathrm{Hz}$\n\n(C) $10^{4}\\,\\mathrm{Hz}$\n\n(D) $10^{7}\\,\\mathrm{Hz}$\n\n(E) $10^{10}\\,\\mathrm{Hz}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nWhat is the next number in the sequence $\\frac{1}{5}, \\frac{3}{25}, \\frac{7}{125}, \\frac{3}{125}, \\frac{31}{3125}$ ? [2 marks]\n\n(A) $\\frac{7}{125}$\n\n(B) $\\frac{27}{3125}$\n\n(C) $\\frac{59}{3125}$\n\n(D) $\\frac{59}{15625}$\n\n(E) $\\frac{63}{15625}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nConsider the pulley system in the diagram, containing 4 wheels. If you pull the free end a distance $y$, how far will $m$ rise by? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2023-5-fig1.png\n\n(A) $y/16$\n\n(B) $y/4$\n\n(C) $y/2$\n\n(D) $2y$\n\n(E) $4y$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nConsider $f(x) = x^2$. You want to transform the function so you get a new function $g(x)$ stretched by a vertical scale factor of 2, with a line of symmetry about $x = 1$ and which is never positive. $g(x)$ would be equal to which of the following functions? [2 marks]\n\n(A) $-2f(x-1)$\n\n(B) $-f(x-1)$\n\n(C) $-2f(x+1)$\n\n(D) $-f(x+1)$\n\n(E) $-f(2x-2)$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nIf $y = \\left(2+\\frac{x}{2}\\right)^4$, which of the following is $\\frac{dy}{dx}$? [2 marks]\n\n(A) $4+2x+\\frac{3x^2}{4}+\\frac{x^3}{4}$\n\n(B) $8+6x+\\frac{3x^2}{2}+\\frac{x^3}{8}$\n\n(C) $32+24x+6x^2+\\frac{x^3}{2}$\n\n(D) $16+12x+3x^2+\\frac{x^3}{4}$\n\n(E) $2+x+\\frac{3x^2}{8}+\\frac{x^3}{8}$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nAll resistors in the circuit below have the same value. If an ammeter is placed in the circuit in turn at points (a) through to (e), which of the following sets of points will give the same reading? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2023-8-fig1.png\n\n(A) $a, b$\n\n(B) $a, c$\n\n(C) $b, e$\n\n(D) $c, d$\n\n(E) $a, b, c$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nIf $\\frac{dy}{dx} = x^2 + \\frac{1}{x^3}$ and $y = 0$ when $x = 1$, what is $\\int_1^3 y\\,dx$? [2 marks]\n\n(A) $\\frac{4}{3}$\n\n(B) $\\frac{8}{3}$\n\n(C) $\\frac{20}{3}$\n\n(D) $8$\n\n(E) $\\frac{22}{3}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA particle of mass $m$, travelling freely at an initial speed $v$, can be stopped in a distance $d$ by a constant retarding force $F$. What magnitude of force (applied in a direction perpendicular to the motion) would be needed to change the trajectory of the same particle (at the same speed $v$) into a circular arc of radius $d$? [2 marks]\n\n(A) $F/2$\n\n(B) $F/\\sqrt{2}$\n\n(C) $F$\n\n(D) $\\sqrt{2}F$\n\n(E) $2F$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nWhat is the (integer) $m$ such that $\\sum\\limits_{n=1}^{m} (3 + 2n) = 140$ ? [2 marks]\n\n(A) 6\n\n(B) 8\n\n(C) 10\n\n(D) 12\n\n(E) 14"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA device uses $3\\,\\mathrm{kW}$ of power at a voltage of $60\\,\\mathrm{V}$. It is connected to a power supply via an ideal transformer. The transformer has $N$ turns on the winding connected to the device and $20N$ turns on the winding connected to the power supply. What current flows in the winding connected to the power supply? [2 marks]\n\n(A) $1\\,\\mathrm{mA}$\n\n(B) $0.4\\,\\mathrm{A}$\n\n(C) $2.5\\,\\mathrm{A}$\n\n(D) $50\\,\\mathrm{A}$\n\n(E) $1\\,\\mathrm{kA}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nYou use some measuring scales to discover the following relationships between masses of apples (each of mass $m_A$), bananas ($m_B$) and carrots ($m_C$):\n\n$$2m_A + 3m_B + 4m_C = 4m_A + 3m_B + 3m_C$$\n\n$$m_A + 4m_B + m_C = 8m_B$$\n\nFind all combinations of apples and/or bananas that have the same mass as 5 carrots (note that only whole numbers of apples and bananas are allowed). [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nIf $2^{x+2y} = 16$ and $xy = 2$, find $x$ and $y$. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA ball of mass $m$ sits in equilibrium on top of a set of three identical springs of spring constant $k$ as in the diagram (you can assume that the springs are stiff and that the ball is light). The ball is pressed down by a distance $x$ and then released. Assuming that 90% of the stored energy is transferred to the ball, how high will the ball go above its point of release (in terms of $m$, $k$, $x$ and $g$, where $g$ is the acceleration due to gravity)? [6 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2023-15-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nIn astrophysics, the Jeans length $\\lambda_J$ is a measure of the size of a cloud of gas in which internal pressure just supports the cloud against collapse under gravity. It depends on the speed of sound in the gas, $c_s$, the gravitational constant $G = 6.67\\times10^{-11}\\,\\mathrm{kg^{-1}\\,m^{3}\\,s^{-2}}$ and the mass density of the cloud $\\rho$. The dependences may be expressed in the form $\\lambda_J = c_s^{\\alpha} G^{\\beta} \\rho^{\\gamma}$. What values of $\\alpha$, $\\beta$ and $\\gamma$ are required for $\\lambda_J$ to have the correct units (or dimensions) of length? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA mass $m$ on the end of a rigid rod of negligible mass hangs from a (pivot) point. The pivot point moves horizontally at speed $v$ and the mass experiences a drag force $f(v)$ in the direction opposite to its velocity. At speed $v$, the rod makes a constant angle $\\theta$ to the vertical.\n\n(a) Find an expression for $f(v)$ in terms of the angle $\\theta$ that the pendulum makes to the vertical.\n\n(b) Sketch $\\theta$ as a function of $v$ in the case that $f(v)$ is proportional to $v$.\n\n[4 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2023-17-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA quartic polynomial function $f(x)$ has the following properties:\n\n$$\\begin{array}{rl} \\dfrac{d^2f}{dx^2} = 0 & \\quad \\text{at } x = 1 \\text{ and } x = 3 \\ \\ \\textbf{only} \\\\ \\dfrac{df}{dx} = 0 & \\quad \\text{at } x = 2 \\\\ f(0) = 0, & \\\\ f(1) = 3. & \\end{array}$$\n\nFind $f(x)$. [7 marks]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nSolve the following equation for real $x$, [3 marks]\n\n$$6e^{2x} + e^{x} = 15$$"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA diver 5 metres under the surface of the sea looks up. They see a circle of light directly above them, where they can see what is on the surface, but outside of this circle the diver only sees a reflection of what is under the water. Explain why there is such a circle and calculate its radius. You may assume $n_{air} = 1$ and $n_{water} = 1.33$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nFind all values of $x$ that satisfy the equation. [5 marks]\n\n$$4\\sin x\\left(\\sin x + \\cos^2 x\\right) = 3 + \\sin x$$"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nTwo identical spacecraft of mass $m$ are in stable circular orbits around the Earth – one at height $R_E$ and the other at height $2R_E$ above the surface of the Earth. What is the difference in the total energy between the two spacecraft? The radius of the Earth is $R_E$. [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA beam of light in a medium with refractive index $n_1$ is incident at an angle $\\theta_1$ on a slab of material of thickness $d$ with refractive index $n_2 > n_1$ as shown in the figure. The rear surface of the slab is mirrored and perfectly reflective.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2023-23-fig1.png\n\n(a) What distance, $l$, does the beam transmitted into the slab travel before re-emerging from it? Express your answer in terms of $n_1$, $n_2$, $\\theta_1$ and $d$. [3 marks]\n\n(b) What are the limiting values of $l$ at large and small $\\theta_1$? [3 marks]\n\n(c) Now consider the case in which light of wavelength (in medium 1) $\\lambda_1$ is incident normally. For what value(s) of $d$ would light reflected from the two surfaces interfere constructively? Ignore any phase changes that might occur at reflections. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA ship floating at anchor moves vertically only, as waves on the surface of the sea cause the surface height to vary with position $x$ and time $t$ as\n\n$$y(x,t) = A\\sin\\left(\\frac{2\\pi}{\\lambda}(x - vt)\\right),$$\n\nwhere $A$, $\\lambda$ and $v$ are positive constants.\n\n(a) What is the period $P$ of the ship's vertical oscillations? [1 mark]\n\n(b) What total vertical distance does the ship move through during a time interval equal to $P$? [1 mark]\n\n(c) Sketch curves for the ship's kinetic and potential energies as functions of time on the same plot, from $t = 0$ to $t = 2P$. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "PAT",
+     "title": "Question 25",
+     "problem": "Question 25\n\nSketch $y = x^4 - 2x^3$ and $y = 2x - x^2$ on the same axes, showing clearly the natures of the stationary points and labelling their coordinates. Write down an integral expression for the finite area enclosed between the two curves (you do not need to evaluate the integral). [7 marks]"
+    },
+    {
+     "day": 1,
+     "number": 26,
+     "paper_label": "PAT",
+     "title": "Question 26",
+     "problem": "Question 26\n\nTwo separate pairs of unbiased dice are rolled. One pair consists of two eight-sided dice (with faces numbered 1-8). The other pair consists of one six-sided die (with faces numbered 1-6) and one ten-sided die (with faces numbered 1-10).\n\n(a) Which pair is most likely to show a total of 16? [1 mark]\n\n(b) Are any totals equally likely to be rolled using the two pairs of dice? [1 mark]\n\n(c) What is the smallest total that is more probable when using the pair consisting of 8-sided dice? [1 mark]\n\n(d) Which pair is more likely to give a total that is divisible by 3? [2 marks]\n\n(e) Given that at least one of the eight-sided dice has landed 5, is a total of 11 or 10 more likely? Give a reason for your answer. [2 marks]"
+    }
+   ]
+  }
+ ]
+}

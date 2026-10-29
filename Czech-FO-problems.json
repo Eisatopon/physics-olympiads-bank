@@ -2,6 +2,105 @@
  "competition": "Czech Republic — Physics Olympiad (Fyzikální olympiáda), category A, national round, theoretical problems",
  "years": [
   {
+   "year": 2000,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1",
+     "problem": "Problem 1\n\nA cyclist rode a mountain bike without mudguards on a wet horizontal road. At what speed was he moving, if the radius of the tyres is $R$ and the drops splashed from the tyres reached at most a height $h_{\\max} > 2R$ above the road? We neglect air resistance.\n\nSolve in general form and for the values $R = 35\\,\\mathrm{cm}$, $h_{\\max} = 2.0\\,\\mathrm{m}$, $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2",
+     "problem": "Problem 2\n\nFigs. 1 and 2 show the mass spectrograph with which J. J. Thomson discovered the isotope $^{22}_{10}\\mathrm{Ne}$ in 1912.\n\n$\\mathrm{Ne}^+$ ions, which are produced in the discharge bulb, are accelerated by the electric field between the anode and the cathode and fly through a narrow channel in the cathode, as so-called canal rays, between the pole pieces of a strong electromagnet. The ends of the pole pieces are insulated and serve at the same time as deflecting plates of length $l$ connected to a source of DC voltage.\n\nBetween the pole pieces, therefore, the ions are acted on simultaneously by the magnetic field of the electromagnet of induction $\\boldsymbol{B}$ and by the electric field of the deflecting plates of intensity $\\boldsymbol{E}$. The vectors $\\boldsymbol{B}$ and $\\boldsymbol{E}$ are parallel — both point upwards. At a distance $d$ from the deflecting plates a photographic plate is placed perpendicular to the axis of the cathode; the ions deflected by the action of both fields strike it.\n\nLet us assume the values:\n\n$$l = 3.0\\,\\mathrm{cm},\\quad d = 15\\,\\mathrm{cm},\\quad B = 0.50\\,\\mathrm{T},\\quad E = 1.00\\cdot10^{5}\\,\\mathrm{V/m}.$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2000-2-fig1.png\n\nFig. 1\n\n[Label in the figure: k vývěvě = to the vacuum pump.]\n\na) At which points of the photographic plate do the ions $^{20}_{10}\\mathrm{Ne}^+$ and $^{22}_{10}\\mathrm{Ne}^+$ land, if both leave the cathode with speed $v = 5.0\\cdot10^{5}\\,\\mathrm{m\\cdot s^{-1}}$?\n\nb) Ions produced at different places of the discharge bulb are accelerated unequally and leave the channel of the cathode with different speeds. Two curves are formed on the photographic plate — one produced by the ions $^{20}_{10}\\mathrm{Ne}^+$ and the other by the ions $^{22}_{10}\\mathrm{Ne}^+$. Determine their equations and describe their shape.\n\nThe ions $^{20}_{10}\\mathrm{Ne}^+$ and $^{22}_{10}\\mathrm{Ne}^+$ have masses $m_1 \\doteq 20.0\\,\\mathrm{m_u}$ and $m_2 \\doteq 22.0\\,\\mathrm{m_u}$.\n\nThe deflections of the ions are small. Use the relations\n\n$$\\alpha \\doteq \\mathrm{tg}\\,\\alpha \\doteq \\sin\\alpha \\doteq 2\\,\\mathrm{tg}(\\alpha/2),\\quad \\cos\\alpha \\doteq 1.$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2000-2-fig2.png\n\nFig. 2"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3",
+     "problem": "Problem 3\n\nA slender cylindrical capacitor is given, consisting of two coaxial metal cylindrical electrodes of negligible thickness; the inner electrode has radius $r_1$, the outer one radius $r_2$, and their length is $l$. Between the electrodes there is a dielectric of permittivity $\\varepsilon$ and resistivity $\\varrho$. The capacitor is connected to a source of DC voltage $U_0$.\n\na) Calculate the capacitance $C$ of the capacitor; do not consider edge effects.\n\nb) What is the insulation resistance $R_\\mathrm{i}$ of the capacitor and what leakage current $I_\\mathrm{z}$ flows through the capacitor?\n\nc) At time $t = 0$ we disconnect the capacitor from the voltage source. Calculate the initial charge $Q_0$ of the capacitor and derive the functional relation $Q = Q(t)$ expressing the dependence of the charge of the capacitor on time. From it calculate the charge of the capacitor at time $t_1$ after the source is disconnected.\n\nSolve in general form and for these numerical values of the quantities: $r_1 = 2.0\\,\\mathrm{mm}$, $r_2 = 6.0\\,\\mathrm{mm}$, $l = 250\\,\\mathrm{mm}$, $\\varepsilon = 4.4\\cdot10^{-11}\\,\\mathrm{F\\cdot m^{-1}}$, $\\varrho = 6.7\\cdot10^{10}\\,\\Omega\\cdot\\mathrm{m}$, $U_0 = 1\\,200\\,\\mathrm{V}$, $t_1 = 4.0\\,\\mathrm{s}$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4",
+     "problem": "Problem 4\n\nInto a large vessel with water we put a test tube with a flat thin bottom, turned bottom up and partly filled with water, so that at temperatures around $20\\,^\\circ\\mathrm{C}$ the bottom of the test tube is just above the water surface. The bottom of the vessel is at a depth $H = 350\\,\\mathrm{mm}$ (Fig. 3). If we slowly cool the system, the test tube starts to move towards the bottom of the vessel when the temperature reaches $t_1 = 15\\,^\\circ\\mathrm{C}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2000-4-fig3.png\n\nFig. 3\n\nThe length of the test tube is $L = 200\\,\\mathrm{mm}$, its outer diameter $D = 25.0\\,\\mathrm{mm}$, inner diameter $d = 23.5\\,\\mathrm{mm}$; the gravitational acceleration is $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$, the atmospheric pressure $p_\\mathrm{a} = 100\\,\\mathrm{kPa}$, the density of glass $\\varrho_\\mathrm{s} = 2.60\\cdot10^{3}\\,\\mathrm{kg\\cdot m^{-3}}$, the density of water $\\varrho_\\mathrm{v} = 1.00\\cdot10^{3}\\,\\mathrm{kg\\cdot m^{-3}}$. Consider the thickness and the mass of the bottom to be negligible.\n\na) What is the height $x$ of the air column in the test tube at the moment when the test tube starts to move towards the bottom of the vessel?\n\nb) The temperature of the system will slowly fluctuate for a long time between $10\\,^\\circ\\mathrm{C}$ and $25\\,^\\circ\\mathrm{C}$. Draw the graph of the dependence of the height of the lower end of the test tube on temperature. (The emergence of the bottom of the test tube above the surface is negligible and can be neglected in the given temperature range.)\n\nc) By thermally insulating the system we achieve that the temperature fluctuates only between $16\\,^\\circ\\mathrm{C}$ and $18\\,^\\circ\\mathrm{C}$. How does the graph from part b) change?"
+    }
+   ]
+  },
+  {
+   "year": 2004,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Oscillations of a cylinder with a cavity",
+     "problem": "Problem 1: Oscillations of a cylinder with a cavity\n\nOn a rough horizontal plane lies a homogeneous circular cylinder of radius $r$ with an eccentric cavity of radius $r/2$ (Fig. 1). The body has mass $m$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2004-1-fig1.png\n\nFig. 1\n\na) Determine the position of the centre of mass of the body.\n\nb) Determine the moment of inertia of the body about the axis that is the line of contact of the body with the base in the equilibrium position.\n\nc) Set up the equation of motion of the rolling motion of the body after a small displacement from the equilibrium position.\n\nd) Derive the formula for the period of small oscillations of the body about the equilibrium position."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Barlow's wheel",
+     "problem": "Problem 2: Barlow's wheel\n\nBarlow's wheel (Fig. 2) is a simple motor whose construction is similar to that of Faraday's disc, but whose operation is the reverse: from a source of electromotive force $U_\\mathrm{e} = 3.00\\,\\mathrm{V}$ we lead an electric current into a metal disc through a sliding contact K1 touching the axle of the disc and a liquid contact K2 realised by means of a small vessel with mercury, which touches the lower edge of the disc. The resistance of the circuit can be regulated with a rheostat in the range from $R_1 = 3.00\\,\\Omega$ to $R_2 = 6.00\\,\\Omega$. The lower part of the disc between the axle and the contact K2 is located in a transverse magnetic field between the poles of a magnet. For simplicity, assume that in this whole region the magnetic induction has a constant magnitude $B = 800\\,\\mathrm{mT}$. Under the action of the magnetic field the disc starts to rotate. The disc has radius $r_0 = 120\\,\\mathrm{mm}$; the moment of inertia of the disc together with the axle is $J = 5.00\\cdot10^{-4}\\,\\mathrm{kg\\cdot m^2}$. Do not consider mechanical resistive forces.\n\na) Determine the direction of rotation of the wheel when viewed from the south pole towards the north pole of the magnet.\n\nb) Calculate the limiting angular velocity $\\omega_\\mathrm{m}$ of the wheel for both limiting values $R_1$ and $R_2$ of the resistance of the circuit.\n\nc) Determine the initial angular accelerations $\\varepsilon_{01}$ and $\\varepsilon_{02}$ of the disc after the electric current is switched on, for both limiting values $R_1$ and $R_2$ of the resistance of the circuit.\n\nd) Derive the functional dependence of the angular velocity on time and calculate the angular velocities $\\omega_1$ and $\\omega_2$ ten seconds after the current is switched on, for both considered values $R_1$ and $R_2$ of the resistance.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2004-2-fig2.png\n\nFig. 2"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Decay of a meson",
+     "problem": "Problem 3: Decay of a meson\n\nA $\\mathrm{K}^+$ meson with rest mass $m_\\mathrm{K} = 497.7\\,\\mathrm{MeV/c^2}$ decays into a $\\pi^+$ meson with rest mass $m_{\\pi^+} = 139.6\\,\\mathrm{MeV/c^2}$ and a $\\pi^0$ meson with rest mass $m_{\\pi^0} = 135.0\\,\\mathrm{MeV/c^2}$.\n\na) Determine the total energy $E_{\\pi^+}$ and the speed $v_{\\pi^+}$ of the $\\pi^+$ meson, and also the total energy $E_{\\pi^0}$ and the speed $v_{\\pi^0}$ of the $\\pi^0$ meson, in the reference frame in which the $\\mathrm{K}^+$ meson was at rest before the decay.\n\nb) Determine the speed $v'_{\\pi^+}$ of the $\\pi^+$ meson and its total energy $E'_{\\pi^+}$ in the reference frame attached to the $\\pi^0$ meson.\n\nSolve the problem in general form and then for the given values of the rest masses of the mesons and for the value of the speed of light in vacuum $c = 3.00\\cdot10^{8}\\,\\mathrm{m\\cdot s^{-1}}$.\n\nHint: Use the relation between the total energy $E$, the momentum $\\boldsymbol{p}$ and the rest energy $E_0 = m_0c^2$ of a particle\n\n$$E^2 - p^2c^2 = E_0^2 = m_0^2c^4\\,.$$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Thermal insulation",
+     "problem": "Problem 4: Thermal insulation\n\nTwo perfectly black, plane, mutually parallel surfaces of area $S = 2.00\\,\\mathrm{m^2}$ are kept at constant temperatures $t_1 = 20\\,^\\circ\\mathrm{C}$ and $t_2 = 120\\,^\\circ\\mathrm{C}$. Between the plates there is vacuum; their distance is small compared with their dimensions (Fig. 3).\n\na) What heat $Q_0$ passes from the warmer surface to the colder one in a time $\\tau = 60.0\\,\\mathrm{s}$?\n\nb) To reduce the transfer of energy between the two surfaces, we insert between them, as thermal insulation, three parallel and mutually separated thin metal sheets, perfectly black and perfectly thermally conducting, each of area $S$ (Fig. 4). How many times is the energy flow between the two surfaces reduced, and what heat $Q$ passes in the time $\\tau$?\n\nc) What temperatures will the individual sheets forming the insulation have?\n\nThe Stefan–Boltzmann constant has the value $\\sigma = 5.67\\cdot10^{-8}\\,\\mathrm{W\\cdot K^{-4}\\cdot m^{-2}}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2004-4-fig3.png\n\nFig. 3\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2004-4-fig4.png\n\nFig. 4"
+    }
+   ]
+  },
+  {
+   "year": 2005,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Seesaw",
+     "problem": "Problem 1: Seesaw\n\nA homogeneous bar of mass $m = 310\\,\\mathrm{g}$, length $L = 20.0\\,\\mathrm{cm}$ and rectangular cross-section of height $b = 1.00\\,\\mathrm{cm}$ and width $c = 2.00\\,\\mathrm{cm}$ is laid horizontally and perpendicularly across a rod of circular cross-section of radius $r = 1.00\\,\\mathrm{cm}$ fixed in a horizontal position (Fig. 1). The centre of the upper bar lies above the axis of the lower rod.\n\na) Verify that, for the given dimensions of the rods, the upper bar is in a stable equilibrium position.\n\nb) Determine the period $T$ of the motion of the bar that arises if the upper bar is displaced slightly from the equilibrium position and left to oscillate freely. Assume that the angular displacements are very small and that there is no slipping between the surfaces in the region of contact. Neglect passive resistances.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2005-1-fig1.png\n\nFig. 1\n\nThe moment of inertia of a homogeneous rectangular block of dimensions $a$, $b$, $c$ (Fig. 2) about an axis passing through its centre parallel to the dimension $c$ is\n\n$$J_0 = \\frac{m(a^2 + b^2)}{12}\\,.$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2005-1-fig2.png\n\nFig. 2\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Cylinder",
+     "problem": "Problem 2: Cylinder\n\nA cylinder of mass $m$, radius $R$ and moment of inertia $J_0 = \\frac{1}{2}mR^2$ rolls on a horizontal plane under the action of a force $\\boldsymbol{F}$ that makes an angle $\\alpha$ with the horizontal plane (Fig. 3). The coefficient of sliding friction between the cylinder and the plane is $f$; the rolling resistance is negligible.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2005-2-fig3.png\n\nFig. 3\n\na) Determine the maximum magnitude $F_{\\max}$ of the force $\\boldsymbol{F}$ at which slipping does not yet occur, and the corresponding angular acceleration $\\varepsilon_{\\max}$ of the cylinder.\n\nb) How must the angle $\\alpha$ be chosen so that the magnitude $F_{\\max}$ of the force $\\boldsymbol{F}$ at which slipping does not yet occur is as small as possible? What are then the values of the quantities determined in part a)?\n\nSolve part a) only in general form. Solve part b) first in general form, then for the values $m = 5.0\\,\\mathrm{kg}$, $R = 10\\,\\mathrm{cm}$ and $f = 0.25$.\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Measuring the speed and energy of relativistic electrons",
+     "problem": "Problem 3: Measuring the speed and energy of relativistic electrons\n\nTo measure the energy of electrons we can use the curvature of their trajectory in a magnetic field (Fig. 4). The accelerated electrons enter through a slit into the homogeneous magnetic field of the analyser perpendicular to the magnetic field lines and perpendicular to the recording plate with a film, on which they leave tracks when they strike it. When the analyser is tested, electrons accelerated by a voltage $U_1 = 500\\,\\mathrm{kV}$ strike the plate at a distance $x_1 = 50\\,\\mathrm{mm}$ from the slit.\n\na) Determine the magnitude $B$ of the magnetic induction in the analyser.\n\nb) Determine the largest kinetic energy $E_{\\mathrm{k\\,max}}$ of an electron measurable with the analyser, if the maximum distance of the track from the slit is $x_{\\max} = 400\\,\\mathrm{mm}$.\n\nc) Determine the magnitude $v_{\\max}$ of the velocity of an electron with kinetic energy $E_{\\mathrm{k\\,max}}$.\n\nThe rest mass of the electron is $m_0 = 9.1\\cdot10^{-31}\\,\\mathrm{kg}$, the elementary charge $e = 1.60\\cdot10^{-19}\\,\\mathrm{C}$, the speed of light in vacuum $c = 3.0\\cdot10^{8}\\,\\mathrm{m\\cdot s^{-1}}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2005-3-fig4.png\n\nFig. 4\n\n[Labels in the figure: vstup elektronů = entrance of electrons; záznamová deska = recording plate.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Condenser lens",
+     "problem": "Problem 4: Condenser lens\n\nA plano-convex lens made of glass of refractive index $n$ is bounded by a plane and a spherical surface. A point light source $Z$ is placed on its optical axis at a distance $d$ from its vertex (Fig. 5).\n\na) What radius must the spherical surface of the lens have so that the rays coming from the source and incident on the lens near the optical axis are refracted parallel to the optical axis?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2005-4-fig5.png\n\nFig. 5\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2005-4-fig6.png\n\nFig. 6\n\nb) As a result of spherical aberration, rays incident on the lens at a larger distance from the optical axis will not be refracted parallel to the optical axis, but somewhat more. To remove this defect, we must replace the spherical surface of the lens by a surface of revolution, which we create by rotating a curve $p$ (the meridian of the surface) about the optical axis (Fig. 6). Find the equation of the curve $p$ and investigate its geometric properties. Choose the coordinate system according to Fig. 6.\n\nHint: Realise that the action of the lens changes the originally spherical wavefront of the light into a plane wavefront perpendicular to the optical axis, and that there is no path difference between the individual parallel rays.\n\nc) A single-lens condenser for a projector according to Fig. 7 is made of glass of refractive index $n = 1.52$. The filament of the bulb is at a distance $d_1 = 12\\,\\mathrm{mm}$ from the condenser; the rays leaving the condenser converge at a distance $d_2 = 120\\,\\mathrm{mm}$, where the centre of the objective lens is located. Inside the condenser the light rays travel parallel to the optical axis. The mount of the condenser has radius $\\varrho = 25\\,\\mathrm{mm}$. Determine the dimensions $x_1$ and $x_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2005-4-fig7.png\n\nFig. 7"
+    }
+   ]
+  },
+  {
    "year": 2006,
    "problems": [
     {

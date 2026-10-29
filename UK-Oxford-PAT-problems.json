@@ -2,6 +2,366 @@
  "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
  "years": [
   {
+   "year": 2019,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhat is the next number in the sequence? $-972,\\ 324,\\ -108,\\ 36,\\ -12$ [2 marks]\n\n(A) $-4$\n\n(B) $-3$\n\n(C) $3$\n\n(D) $4$\n\n(E) $9$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nWhich values of $x$ and $y$ solve the following equations simultaneously: [2 marks]\n\n$$\\begin{aligned} \\log x + 2\\log y &= \\log 32 \\\\ \\log x - \\log y &= -\\log 2 \\end{aligned}$$\n\n(A) $x=2$, $y=4$\n\n(B) $x=-2$, $y=-4$\n\n(C) $x=2$, $y=-4$\n\n(D) $x=-2$, $y=4$\n\n(E) no solution exists"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nConsider a system of many interacting particles. Let each particle have a potential energy $V(r)$ with respect to any other particle, where $V(r)\\propto r^n$ where $r$ is the distance to another particle and $n$ is an integer. For such systems the Virial Theorem relates the time averaged total kinetic energy of all particles $\\langle T_{tot}\\rangle$ to the time averaged total potential energy $\\langle V_{tot}\\rangle$ as follows:\n\n$$2\\langle T_{tot}\\rangle = n\\langle V_{tot}\\rangle$$\n\nIf the particles in our system interact only via gravity, what is the time averaged total energy $\\langle E_{tot}\\rangle$ of the system? [2 marks]\n\n(A) $\\langle E_{tot}\\rangle = 0$\n\n(B) $\\langle E_{tot}\\rangle = 2\\langle V_{tot}\\rangle$\n\n(C) $\\langle E_{tot}\\rangle = \\langle V_{tot}\\rangle/2$\n\n(D) $\\langle E_{tot}\\rangle = -\\langle V_{tot}\\rangle$\n\n(E) $\\langle E_{tot}\\rangle = -2\\langle V_{tot}\\rangle$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe acceleration $g$ due to gravity on a spherical planet in any universe is given by:\n\n$$g=\\frac{GM}{R^2}$$\n\nwhere $M$ is the mass, $R$ the radius of the planet and $G$ is the gravitational constant in that planet's universe.\n\nIn a different universe the gravitational constant is $G'$ and has twice the value of the gravitational constant in our Universe $G$.\n\nFind the ratio $\\frac{g_{planet}}{g_{Earth}}$ for a planet in the different universe which has half the radius and twice the density of the Earth. [2 marks]\n\n(A) $\\frac{g_{\\rm planet}}{g_{\\rm Earth}}=2$\n\n(B) $\\frac{g_{\\rm planet}}{g_{\\rm Earth}}=1$\n\n(C) $\\frac{g_{\\rm planet}}{g_{\\rm Earth}}=\\frac{1}{2}$\n\n(D) $\\frac{g_{\\rm planet}}{g_{\\rm Earth}}=4$\n\n(E) $\\frac{g_{\\rm planet}}{g_{\\rm Earth}}=\\frac{1}{4}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nIn which range of $\\alpha$ does the following equation have real solutions? [2 marks]\n\n$$\\sec^2\\theta + \\alpha\\tan\\theta = 0$$\n\n(A) $\\alpha\\le -2$ or $\\alpha\\ge 2$\n\n(B) $\\alpha\\le -2$\n\n(C) $\\alpha\\ge 2$\n\n(D) $\\alpha\\ge -0$\n\n(E) $\\alpha\\le 0$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA bag contains $b$ blue balls and $r$ red balls. If two balls are picked at random and removed from the bag, what is the probability $P$ that they are different colours? [2 marks]\n\n(A) $\\frac{2br}{(b+r)(b+r-1)}$\n\n(B) $\\frac{br}{(b+r)(b+r-1)}$\n\n(C) $\\frac{br}{(b+r)^2}$\n\n(D) $\\frac{2br}{(b+r)^2}$\n\n(E) $2br$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nWe wish to represent integer numbers by using our ten fingers. A finger is assumed to be either stretched out or curled up. How many different integers can we represent with our fingers? [2 marks]\n\n(A) $10$\n\n(B) $512$\n\n(C) $1000$\n\n(D) $20$\n\n(E) $1024$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nWithout explicit calculation state which integrals are non-zero.\n\n$$\\begin{aligned} I_1 &= \\int_{-3\\pi}^{3\\pi} x^2\\sin(x)\\,dx && (1)\\\\ I_2 &= \\int_{-\\infty}^{\\infty} e^{-x^2}\\,dx && (2)\\\\ I_3 &= \\int_{3\\pi/2}^{-3\\pi/2} \\cos^2(x)\\,dx && (3)\\\\ I_4 &= \\int_{-\\infty}^{\\infty} x e^{-x^2}\\,dx && (4) \\end{aligned}$$\n\n[2 marks]\n\n(A) 2 and 3\n\n(B) 1 and 4\n\n(C) 1 and 3\n\n(D) 2 and 4\n\n(E) all"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA long, thin, straight wire carrying an electric current $I$ causes a magnetic field of flux density $B$ at a perpendicular distance $r$ from the wire. The magnitude of this flux density is given by the following relation:\n\n$$B=\\frac{\\alpha I}{r}$$\n\nwhere $\\alpha$ is a constant. The magnetic field points circumferentially around the wire. A second, identical wire is placed parallel to the first one at a distance $D$. Find the current $I_2$ that has to flow in the second wire if the flux density at a line half way between and parallel to the wires is to double, compared to the flux density from only one wire at current $I$. [2 marks]\n\n(A) $I_2=I$\n\n(B) $I_2=2I$\n\n(C) $I_2=-2I$\n\n(D) $I_2=-I$\n\n(E) $I_2=-I/2$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nWhen the phase of the Moon as seen from the Earth is Full, what phase of the Earth is seen by an observer on the Moon? [2 marks]\n\n(A) Full\n\n(B) Gibbous\n\n(C) Quarter (or 'half')\n\n(D) Crescent\n\n(E) New\n\nThe symbols below show phases of the Earth as seen from the Moon.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-10-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nIn the circuit shown below all resistors have the same resistance $R$ and the light bulb has a fixed resistance. You wish to change the state of the switches so that the brightness of the bulb increases from its minimum to its maximum. Which sequence of switch states will achieve this? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-11-fig1.png\n\n(A) 1. both closed; 2. only A closed; 3. only B closed\n\n(B) 1. both closed; 2. only B closed; 3. only A closed\n\n(C) 1. only B closed; 2. only A closed; 3. both closed\n\n(D) 1. only A closed; 2. only B closed; 3. both closed\n\n(E) all states give the same brightness"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nAn organ pipe is open at one end and closed at the other. The lowest note you can play on this pipe has frequency $f_{min}$. If the speed of sound in the pipe is $v$, what is the length $L$ of the pipe? [2 marks]\n\n(A) $L=\\frac{v}{2f_{min}}$\n\n(B) $L=\\frac{v}{4f_{min}}$\n\n(C) $L=\\frac{v}{f_{min}}$\n\n(D) $L=\\frac{2v}{f_{min}}$\n\n(E) $L=\\frac{4v}{f_{min}}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\n(a) Sketch the graphs of $y=(1+x)^n$ for integer values of $n$ from $0$ to $3$, each on a separate set of axes. Which point(s) are common to all the graphs? [4 marks]\n\n(b) Describe two of the further features common to the graphs for integer $n>1$. [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA radioactive sample contains two isotopes, $A$ and $B$. Isotope $A$ decays to isotope $B$ with a half life of $t_{1/2}$. Isotope $B$ is stable.\n\n(a) The number of atoms of $A$ left after a time $t$ is given by:\n\n$$N_A(t)=N_{A0}\\,e^{-\\lambda t}$$\n\nwhere $N_{A0}$ is the initial number of atoms of $A$. Derive an expression for $\\lambda$ in terms of $t_{1/2}$. [2 marks]\n\n(b) Initially the number of $B$ atoms in the sample is $N_B(t=0)=N_{B0}$. Let $N_B(t)$ be the time dependent number of $B$ atoms in the sample. Write down an expression for $N_B(t)$ in terms of $\\lambda$, $N_{B0}$, $N_{A0}$ and $t$. [1 mark]\n\n(c) At the start there are $x$ times as many $A$ atoms in the sample as there are $B$ atoms. How long does it take until this ratio is reversed? [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nThe diagram below shows an air-cell refractometer.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-15-fig1.png\n\nA narrow beam of light enters the entrance window at normal incidence and you can observe the light leaving the exit window by eye. The outer box is filled with a liquid of unknown refractive index $n_l$. The glass of the air cell has refractive index $n_g$ and the cell is filled with air of refractive index $n_a$. The air-cell in the liquid filled vessel makes angle $\\theta_i$ with respect to the incoming beam of light, as shown in the diagram. This angle can be precisely adjusted and measured.\n\n(a) On the diagram provided on the next page, draw the refracted path of the beam through the air cell. For this diagram you should assume $n_g>n_l>n_a$. [3 marks]\n\n(b) Describe qualitatively what you will observe at the exit window as you increase $\\theta_i$ from zero and hence explain how this instrument could be used to determine the refractive index of the liquid $n_l$ in the chamber. Find the relation between $n_l$ and a special value of $\\theta_i$. [3 marks]\n\n(c) Suggest with reasons, a way to modify the apparatus or its use to improve the measurement. [2 marks]\n\n[Diagram provided on the next page for part (a):]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-15-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nThe energy levels of the electron in a hydrogen atom are characterised by a quantum number $n$:\n\n$$E_n=-\\frac{hcR}{n^2}$$\n\nwhere $h$ is Planck's constant, $c$ is the speed of light and $R$ is the Rydberg constant.\n\n(a) State a formula that relates the wavelength of light $\\lambda$ to $h$, $c$ and $E$ which is the energy of a photon. [1 mark]\n\n(b) Let $p$ and $q$ be the quantum numbers of the upper and lower energy levels of an electron transition in hydrogen. Find a formula that relates the wavelength of light emitted in such transitions to $p$ and $q$. [2 marks]\n\n(c) For each of the three hydrogen emission line sets shown in the table below, identify the quantum number of its lower energy level $q$. Each set (column) of five emission lines has the same lower energy level. The first column shows the quantum number of the upper energy level $q$ relative to the lower level.\n\n$$\\begin{array}{c|c|c|c} & \\text{Set-A} & \\text{Set-B} & \\text{Set-C} \\\\ \\mathbf{p} & \\lambda\\,[\\mathrm{nm}] & \\lambda\\,[\\mathrm{nm}] & \\lambda\\,[\\mathrm{nm}] \\\\ \\hline q+1 & 121.57 & 4051 & 7460 \\\\ q+2 & 102.57 & 2625 & 4654 \\\\ q+3 & 97.254 & 2166 & 3741 \\\\ q+4 & 94.974 & 1944 & 3297 \\\\ q+5 & 93.780 & 1817 & 3039 \\end{array}$$\n\nYou may assume that $p<6$ and $R=10973731.6\\,\\mathrm{m^{-1}}$ [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\n(a) Find an expression for the angle $\\theta$ for which the grey area $A_g$ is $f$ times the area of the outer square $A_S$. Your expression for $\\theta$ should take the form:\n\n$$\\theta = B-\\frac{C(f)x^2}{x^2-1}$$\n\nwhere $B$ is a constant and $C(f)$ is a function of $f$. State $B$ and $C(f)$ explicitly. You may assume that $x>1$, $f<1$ and $f>0$. The value of $xR$ indicates the radius of the outer circle. [6 marks]\n\n(b) Find the numerical value for $\\theta$ to five significant figures when $x=3$ and $f=1/2$. [1 mark]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-17-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nSolve the following equation for $x$:\n\n$$\\frac{e^x+9}{e^{-x}+5}=2$$\n\n[3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA firework rocket is launched vertically. At the moment of explosion it is moving with a vertical speed of $v_0=2\\,\\mathrm{m\\,s^{-1}}$ upwards. The explosion releases an energy of $E_{exp}=1\\,\\mathrm{J}$ and the rocket bursts into four pieces with masses of $m_1=1\\,\\mathrm{g}$, $m_2=2\\,\\mathrm{g}$, $m_3=3\\,\\mathrm{g}$ and $m_4=4\\,\\mathrm{g}$. The piece with mass $m_4$ moves vertically upwards with a speed of $v_4=1\\,\\mathrm{m\\,s^{-1}}$. The pieces of mass $m_3$ and $m_2$ move horizontally and the piece of mass $m_1$ moves vertically. All velocities and directions in this question are given relative to the ground and your answer should do the same.\n\n(a) Obtain the speeds of all the pieces after the explosion. [5 marks]\n\n(b) Higher speed pieces can be obtained if the directions of movement of the pieces are different from those in part (a). Under which choice of directions would the maximum speed of one of the pieces be achieved? [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nThe diagram below shows an interferometer with two paths (Path A and Path B) which a wave can take from its source S to a detector D.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-20-fig1.png\n\nThe lengths of the paths differ by an amount $L$ which can change with time. The intensity at the detector $I$ is measured and varies as a function of $L$ as follows:\n\n$$I=I_p+I_q\\cos(kL)$$\n\nIn the above $k$ is the wavenumber of the wave which relates to the wavelength $\\lambda$ via $k=2\\pi/\\lambda$. $I_p$ and $I_q$ are constants.\n\n(a) Sketch the intensity as a function of $L$ in the range from $0$ to $2\\lambda$. Label both axes and identify $I_p$ and $I_q$ in the sketch. [3 marks]\n\nWe wish to use the interferometer to measure how the path length difference $L$ changes with time by measuring the intensity at the detector as a function of time. The change in path length difference is $\\Delta L$.\n\n(b) Indicate on your sketch the biggest $\\Delta L$ you can infer unambiguously from a measurement of intensity. [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nYou wish to build an adjustable delay line using electrical switches as shown in the diagram below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-21-fig1.png\n\nIts purpose is to adjust the delay of an electrical signal through the delay line by switching different amounts of delay into the signal path.\n\nThe delay line should use the minimum amount of switches.\n\nThe delay line should have a minimal delay of $L_{min}$ and a maximal delay of $L_{max}\\le L_{min}+\\Delta L$. We refer to $\\Delta L$ as the delay range.\n\nThe delay should be adjustable in increments of $\\delta L$ so that the line can achieve an evenly spaced set of delays between $L_{min}$ and $L_{max}$ with a resolution of $\\delta L$.\n\nFor all segments in the line you have to determine a common, small delay $l$ which is active when its switch is in the lower position.\n\nYou further have to determine a larger, individual delay of $L_i+l\\gg l$ for each segment which is active when its switch is in the upper position.\n\nFor a line with $n$ segments to satisfy the demands on the minimum number of switches, minimum delay $L_{min}$, delay range $\\Delta L$ and delay resolution $\\delta L$:\n\n(a) Find a value for $l$ in terms of $L_{min}$ and $n$. [1 mark]\n\n(b) Find the delays of each segment $L_i$ in terms of $\\delta L$. [3 marks]\n\n(c) Find the minimum necessary $n$ in terms of $\\Delta L$ and $\\delta L$ [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA conical cup has dimensions as shown in the diagram of its cross-section below. The cup can hold a maximum volume $V$ when filled to its full depth $H$. Find an expression for the depth $h$ to which you have to fill the cup so that it contains a volume of liquid equal to $V/2$. Your expression for $h$ should only depend on the dimensions of the cup. [4 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-22-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nIn an imaginary water filtration process a fraction of $1/n$ of an impurity is removed in the first pass of the water through the system. In each succeeding pass, the amount of impurity removed is $1/n$ of the amount removed in the preceding pass. Show that if $n=2$ the water can be made arbitrarily pure but if $n=3$, at least half of the impurity will remain. [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nThe sketch below shows a ball of mass $m$ on a spring of unextended length $R_0$ and spring constant $k$. The spring is pivoted on the left on a central axis marked with a cross. The axis is perpendicular to the plane of the sketch. The ball and spring rotate around the central axis on a smooth horizontal table as indicated by the arrow in the sketch. The spring will break if it is stretched with a force larger than $F_{max}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2019-24-fig1.png\n\n(a) Find the equilibrium extension $R$ of the system when it rotates with angular frequency $\\omega$. [3 marks]\n\n(b) Find the equilibrium angular frequency $\\omega_c$ at which the spring will break. [1 mark]\n\n(c) Sketch $\\omega_c$ against $F_{max}$ in the range from zero to one Newton for the following parameters $m=1\\,\\mathrm{kg}$, $R_0=1\\,\\mathrm{m}$, $k=1\\,\\mathrm{N\\,m^{-1}}$. Label your axes. [2 marks]\n\n(d) Under some conditions the system can only achieve a maximum angular frequency $\\omega_i<\\omega_c$. Find a relationship between $k$, $m$ and $\\omega_i$ and explain what happens to the system as the angular frequency increases to $\\omega_i$. [4 marks]"
+    }
+   ]
+  },
+  {
+   "year": 2020,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nThe stable isotopes of carbon, nitrogen and oxygen are represented symbolically below:\n\n$${}^{12}_{6}\\mathrm{C}\\,,\\quad {}^{13}_{6}\\mathrm{C}\\,,\\quad {}^{14}_{7}\\mathrm{N}\\,,\\quad {}^{15}_{7}\\mathrm{N}\\,,\\quad {}^{16}_{8}\\mathrm{O}\\,,\\quad {}^{17}_{8}\\mathrm{O}\\,,\\quad {}^{18}_{8}\\mathrm{O}$$\n\nWhich of the following statements are true? [2 marks]\n\n1. ${}^{13}_{6}\\mathrm{C}$ has a larger number of protons than ${}^{12}_{6}\\mathrm{C}$.\n2. ${}^{15}_{7}\\mathrm{N}$ has a larger mass than ${}^{14}_{7}\\mathrm{N}$.\n3. ${}^{16}_{8}\\mathrm{O}$ has a larger nuclear charge than ${}^{15}_{7}\\mathrm{N}$.\n4. ${}^{18}_{8}\\mathrm{O}$ has a larger mass per unit charge than ${}^{12}_{6}\\mathrm{C}$.\n5. ${}^{14}_{7}\\mathrm{N}$ has a larger number of neutrons than ${}^{13}_{6}\\mathrm{C}$.\n\n(A) 1, 3, 4\n(B) 3, 4, 5\n(C) 2, 3, 4\n(D) 1, 2, 3\n(E) 2, 3, 5"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA triangle $ABC$ has vertices at points in two-dimensional Cartesian co-ordinates $A:(0,1)$, $B:(1,2)$, and $C:(-1,2)$. It is reflected in the line $y=x$ and then rotated around the origin by 90 degrees in a clockwise direction. Which single transformation maps the initial triangle to the final state of the above transformations? [2 marks]\n\n(A) reflection in $x=0$\n(B) reflection in $y=0$\n(C) rotation by $180^\\circ$ anti-clockwise around the origin\n(D) rotation by $90^\\circ$ anti-clockwise around $(2,0)$\n(E) scale factor of $-1$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nWhich ammeter A, B, C, D, E gives the highest reading? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-3-fig1.png\n\n(A) A\n(B) B\n(C) C\n(D) D\n(E) E"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nSolve $\\log_2 x+\\log_2(2x+3)=1$ for $x$. [2 marks]\n\n(A) $x=-2$\n(B) $x=\\frac{1}{2}$\n(C) $x=1$\n(D) $x=-2$ and $\\frac{1}{2}$\n(E) $x=0$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nIf the gravitational field strength at the Earth's surface is $g_E=10\\,\\mathrm{N/kg}$, and at a distance $R>R_E$ from its centre the field strength is $g_R=2\\,\\mathrm{N/kg}$, what is the radius of the Earth $R_E$ in terms of $R$? [2 marks]\n\n(A) $R/25$\n(B) $R/5$\n(C) $R/\\sqrt{10}$\n(D) $R/\\sqrt{5}$\n(E) $R/\\sqrt{2}$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nConsider the function $y(x)=\\sin\\left(\\frac{100}{x}\\right)$. The angle is in degrees, so that $\\sin(180)=0$. How many maxima of $y(x)$ occur for $x>0.1$? [2 marks]\n\n(A) $0$\n(B) $1$\n(C) $3$\n(D) $14$\n(E) $\\infty$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nWhat is the order, from shortest to longest, of the wavelengths of the peak electromagnetic emission from each of the following objects? [2 marks]\n\n1. an electric torch\n2. a microwave oven\n3. a radioactive source\n4. a hot cooking stove\n5. a short-wave radio transmitter.\n\n(A) 31425\n(B) 52413\n(C) 34152\n(D) 31245\n(E) 54213"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA particle of type X decays with equal probability either to a pair of particles of type Y or a pair of particles of type Z. Both Y and Z particles are stable. The decays of two X particles are observed. A pair of Y particles is found among the decay products. What is the probability that a pair of Z particles is among these decay products? [2 marks]\n\n(A) $1/4$\n(B) $1/3$\n(C) $1/2$\n(D) $2/3$\n(E) $1$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nTen students need to complete their compulsory practicals for their high school examinations as detailed in the table below:\n\n$$\\begin{array}{|c|c|}\\hline \\text{No. of students} & \\text{No. of different practicals to complete}\\\\ \\hline 2 & 1\\\\ 4 & 2\\\\ 4 & 3\\\\ \\hline \\end{array}$$\n\nThe school only has one laboratory in which several different experiments can be set up simultaneously. A maximum of six students are allowed in the school's laboratory for a lesson. Each practical takes one lesson. What is the minimum number of lessons required to complete all the practicals? [2 marks]\n\n(A) $3$\n(B) $4$\n(C) $5$\n(D) $6$\n(E) $10$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nWhat is the next number in the sequence? $37, 41, 43, 47, 53, 59$ [2 marks]\n\n(A) $61$\n(B) $62$\n(C) $64$\n(D) $65$\n(E) $67$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA stone of average diameter 10 cm is hit with a hammer and splits into pieces. Every time the stone or one of its pieces is hit, it splits into three further pieces of equal volume and similar shape. How many hits will it take before a piece reaches the size of a typical atom? [2 marks]\n\n(A) $9$\n(B) $12$\n(C) $22$\n(D) $56$\n(E) $81$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nThe graph below shows a function $f(x)$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-12-fig1.png\n\nIf $a$ is a constant such that $0<a<b$, identify the sketch of $g(x)=-f(a-x)$ from the sketches below. [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-12-fig2.png\n\n(A) sketch A\n(B) sketch B\n(C) sketch C\n(D) sketch D\n(E) sketch E"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nConsider a set of masses of three different values $m_a$, $m_b$ and $m_c$. Each of the following three combinations have the same total mass.\n\n1. two masses of $m_a$ plus three masses of $m_b$\n2. five masses of $m_a$ plus one mass of $m_c$\n3. two masses of $m_a$ plus one mass of $m_b$ plus one mass of $m_c$\n\nFind $m_b$ and $m_c$ in terms of $m_a$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nFind all solutions of the following equation in the range $0\\le\\theta\\le360^\\circ$.\n\n$$4\\cos^2(\\theta)+2(\\sqrt{3}-1)\\sin(\\theta)=4-\\sqrt{3}$$\n\n[3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-15-fig1.png\n\nThe above figure depicts a ball of mass $m$ which is equipped on its lower side with a massless spring of uncompressed length $L_0$ and spring constant $k$. The spring is initially compressed to a length $L<L_0$, as shown in the figure.\n\nThe ball-spring system is either dropped vertically or launched with a horizontal speed $v_0$ from a height of $h_0$ at a distance $x_0$ from a wall of height $h_W$.\n\nThe spring remains compressed until it touches the ground. When it touches the ground the spring is released (by a mechanism not shown on the figure) and expands very quickly back to its uncompressed length $L_0$ and is then held fixed at length $L_0$.\n\nThe bounce of the ball-spring system on the ground is assumed to be totally elastic.\n\n(a) When the ball is dropped vertically, find the maximum height $h_{max}$ the ball-spring system could reach after its bounce in terms of the spring's compression $\\Delta L=L_0-L$, and the parameters $m$, $g$, $k$ and $h_0$. In analogy to $h_0$ in the figure, $h_{max}$ should be the vertical distance between the floor and the lower end of the spring after the bounce. You may take $g=10\\,\\mathrm{m\\,s^{-1}}$. [3 marks]\n\n(b) Find the optimal value for the distance $x_0$ from which the ball would bounce over a wall with maximum value of $h_W$. [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nGiven that\n\n$$\\begin{aligned}\\frac{\\mathrm{d}f(x)}{\\mathrm{d}x}&=-2x-x^{\\frac{1}{2}}+\\frac{1}{3}\\\\ \\frac{\\mathrm{d}g(x)}{\\mathrm{d}x}&=f(x)\\end{aligned}$$\n\ndetermine $g(x)$ such that $f(1)=-1$ and $g(1)=0$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nAs indicated in the figure, a motor bike of total mass $m$ ($m$ is the mass of bike plus rider) is ridden along a horizontal trajectory of radius $R$ on the inside of a cylindrical cage.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-17-fig1.png\n\nThe bike and the rider are inclined at an angle $\\alpha$ to the wall. The angles $\\alpha$ that the bike can make with respect to the walls of the cage are limited by its handle bars to a certain minimum $\\alpha_{min}>0$. The tyres of the bike have a very high co-efficient of friction with the cage so that the tyres can only roll but not slip along the cage.\n\n(a) Show in a diagram the forces acting on the bike if it is to maintain a horizontal trajectory as shown in the figure. [2 marks]\n\n(b) At what minimum speed $v_{min}$ must the bike travel if it is not to fall down? [3 marks]\n\n(c) Given that $\\alpha_{min}=30^\\circ$, $R=4\\,\\mathrm{m}$, $g=10\\,\\mathrm{m\\,s^{-2}}$, $m=250\\,\\mathrm{kg}$ find a numerical value for $v_{min}$. [1 mark]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nFor which $x$ is the following inequality satisfied?\n\n$$\\frac{2x^2+3x-2}{2x^2-3x-2}>0$$\n\n[6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nThe Euler number $E_u$ has no units. It is used in fluid flow calculations. It depends on the pressure $P$, density $\\rho$, and fluid velocity $v$ such that:\n\n$$E_u=P^a\\rho^b v^c$$\n\nwhere $a$, $b$ and $c$ are constants.\n\nFind the ratio of $a:b:c$ in its simplest form, where $a$, $b$ and $c$ are positive or negative integers. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nFind the coordinates of the point(s) at which the line $y=m(3x-2)$ is tangent to the curve $y=9x^2+6x-7$. In the above $m$ is a real constant. [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nMars' moons Phobos and Deimos are in equatorial, near-circular orbits around Mars. They both orbit in the direction of the planet's rotation. Phobos has an orbital period of $1/3$ of a Martian day, and Deimos has an orbital period of $5/4$ Martian days. An astronomer on Mars, near the equator, observes both moons during the course of a Martian night.\n\n(a) Would the two moons appear to move in the same direction in the sky? Explain your answer [2 marks]\n\n(b) Describe qualitatively how the phases of the two moons might vary during the night [2 marks]\n\n(c) Would it be possible for the astronomer to see Phobos both rise and set within a single night? [1 mark]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA number can be represented using base $N$ as follows:\n\n$$(x...cba)_N=a\\cdot N^0+b\\cdot N^1+c\\cdot N^2+....+x\\cdot N^w$$\n\nIn which base less than 10 is the following equation true?\n\n$$(1101)_N-(313)_N=(344)_N$$\n\n[5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nA monochromatic beam of light travels through air of refractive index $n_a$ and strikes a liquid of refractive index $n_l$ at an angle of incidence $\\theta$ as shown in the figure below. At the bottom of the tank which contains the liquid is a plane mirror at angle $\\phi$ to the horizontal. The tank can be considered infinitely long.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-23-fig1.png\n\nBeyond a certain value of $\\theta$ the light no longer leaves the tank after the first reflection in the mirror. Find the value of $\\theta$ for this case given $\\phi=10^\\circ$, $n_a=1$ and $n_l=\\frac{4}{3}$. [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nThe points $A$, $B$ and $C$ lie on a straight line. The length of $AD$ is $x$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-24-fig1.png\n\n$D$ is the centre of the arc $AB$, and $B$ is the centre of the arc $CD$. Find the total shaded area in terms of $x$ and $\\theta$. [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "PAT",
+     "title": "Question 25",
+     "problem": "Question 25\n\nIn Millikan's oil drop experiment, shown below, a spherical oil drop with charge $+Q$, radius $r$ and density $\\rho_{oil}$ falls between two parallel conducting plates.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-25-fig1.png\n\n(a) Initially the switch is open and the drop is falling with terminal velocity $v_t$ in air of density $\\rho_{air}$ and viscosity $\\eta$. We now measure its terminal velocity.\n\nWrite down an equation that relates all the forces on the drop while it falls at terminal velocity. [1 mark]\n\nHint: You may assume that the drag force $f_D$ on the drop is given by $f_D=6\\pi\\eta r v_t$ and that the drop also experiences a buoyant force or upthrust $f_B$ equal to the weight of the air displaced by the drop.\n\n(b) The switch is now closed. A uniform electric field $E$ is applied to the drop and it becomes stationary. Write down a new equation relating the forces on the drop. [1 mark]\n\n(c) Derive an equation for $Q$ which does not depend on the radius $r$. [3 marks]\n\n[Editorial note: the paper's general instructions state that the gravitational field strength on the surface of Earth may be taken to be $g\\approx10\\,\\mathrm{m\\,s^{-2}}$.]"
+    },
+    {
+     "day": 1,
+     "number": 26,
+     "paper_label": "PAT",
+     "title": "Question 26",
+     "problem": "Question 26\n\n(a) On the same axes, sketch the functions $y=x^2+1$, $y=2/x$, and $y=3x+1$. [3 marks]\n\n(b) Determine the exact $x$ coordinates at which any of the graphs intersect and mark these on the $x$-axis. [3 marks]\n\n(c) Find the exact area enclosed between $y=3x+1$ and $y=x^2+1$ that is also below the curve $y=2/x$. [4 marks]"
+    }
+   ]
+  },
+  {
    "year": 2021,
    "problems": [
     {

@@ -714,7 +714,7 @@ svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; s
 .p-tag { font-size: .82rem; font-weight: 600; color: var(--f-ink); background: var(--f-tint); padding: 2px 9px; border-radius: 3px; }
 
 .statement { font: 400 1.08rem/1.75 var(--serif); max-width: 74ch; overflow-wrap: anywhere; }
-.p-credit { margin: 10px 0 0; max-width: 74ch; font: 400 .86rem/1.5 var(--sans); color: var(--muted, #555); border-left: 3px solid var(--f-tint, #ddd); padding-left: 10px; }
+.p-credit { margin: 8px 0 0; max-width: 74ch; font: 400 .78rem/1.4 var(--sans); color: var(--muted, #6b7280); }
 .statement .para + .para { margin-top: .6em; }
 .statement .choices .choice { display: block; }
 .statement .fig { margin: .9em 0; text-align: center; }
@@ -1052,7 +1052,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261029-oxpat-2006';
+const DATA_VERSION = '20261029-credit-min';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', czech: 'europe', oxpat: 'europe' };
@@ -2158,7 +2158,7 @@ async function openRelatedProblem(uid) {
 
 /* Per-problem credit lines requested by organisers (shown on cards, in print and in Ask AI prompts). */
 const CREDITS = {
-    usapho: p => `Adapted from USAPhO ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : ''}, Problem ${(/^Part ([A-Z])$/.exec(p.paperLabel || '') || ['', ''])[1]}${p.num}: statement only (solutions omitted), retyped in LaTeX. © AAPT. Original source: AAPT / USAPhO. Not affiliated with, endorsed by or supported by AAPT, USAPhO or the U.S. Physics Team.`,
+    usapho: p => '© AAPT · adapted from USAPhO',
 };
 // Every other row: competition, original organiser, rights holder and what this bank changed.
 // [competition, organiser, rights holder, language of the official paper if it is translated]
@@ -2183,14 +2183,10 @@ const ORGS = {
 function orgCredit(p) {
     const o = ORGS[p.country];
     if (!o) return '';
-    const [comp, org, holder, lang] = o;
+    const holder = o[2];
     const meta = typeof collectionMetadata !== 'undefined' && collectionMetadata[CBY[p.country].file];
     const fmt = meta?.statement_checks?.[p.uid]?.source_format || '';
-    const change = /compilation/i.test(fmt)
-        ? 'Text taken from a later compilation of the problems (secondary source), not from the original examination paper; retyped in LaTeX, statement only'
-        : lang ? `Translated into English from the official ${lang} paper and retyped in LaTeX; statement only (no solutions)`
-        : 'Retyped in LaTeX from the official paper; statement only (no solutions)';
-    return `Source: ${comp} ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : p.day ? `, Day ${p.day}` : ''}, Problem ${p.num}. Original organiser: ${org}; © ${holder}. ${change}. Not affiliated with, endorsed by or supported by ${org}.`;
+    return `© ${holder}${/compilation/i.test(fmt) ? ' · from a later compilation' : ''}`;
 }
 function creditText(p) { return CREDITS[p.country] ? CREDITS[p.country](p) : orgCredit(p); }
 function orgDisclaimer(key) {

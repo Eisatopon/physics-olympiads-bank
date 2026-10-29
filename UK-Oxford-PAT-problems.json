@@ -2,6 +2,352 @@
  "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
  "years": [
   {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nFind the values of $\\theta$ between $0$ and $2\\pi$ which solve: $\\sin\\theta-2\\cos^2\\theta=-1$. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nSketch the function $y=3+2\\sin\\left((x-3)\\dfrac{\\pi}{3}\\right)$ between $x=0$ and $x=12$. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nThe area $A$ is defined as the area to the left of point $x$, within an equilateral triangle with sides of length $a$. Find an expression for $A$ as a function of $x$,\n\n(i) for $0\\le x\\le\\dfrac{a}{2}$\n\n(ii) for $\\dfrac{a}{2}\\le x\\le a$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2011-3-fig1.png\n\n[5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe figure below shows a rhombus with diagonals $a$ and $b$, which contains a circle. Find an expression for the ratio of the area of the circle to the area of the rhombus in terms of $a$ and $b$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2011-4-fig1.png\n\n[6 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nGiven that $\\log 5=0.7$ (to one decimal place). Find the value of $x$ such that $2^x=10$ (again to one decimal place). [4 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nEvaluate: $\\displaystyle\\sum_{r=1}^{6}\\left(2^r+\\frac{2r}{3}\\right)$ [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nGiven that $x^2-x-6$ is a factor of $x^4+4x^3-17x^2-24x+36=0$, find all the roots of this polynomial. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nEvaluate the following integrals:\n\n(i) $\\displaystyle\\int\\frac{x+2}{(x+1)(x-1)}\\,dx$ [3 marks]\n\n(ii) $\\displaystyle\\int_0^1\\frac{1}{\\sqrt{x+1}}\\,dx$ [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nGiven the functions:\n\n$$y_1=x^3-3x^2+2x+3$$\n\n$$y_2=x^2-3x-4$$\n\nFind the values of $x$ between $0.8$ and $1.9$ which give the maximum and minimum difference between $y_1$ and $y_2$. [6 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nGiven that $s=x^2+y^2$ and $t=2xy$, find expressions for $x$ and $y$ in terms of $s$ and $t$. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThe numbers shown by two dice are labelled $d_1$ and $d_2$; a score is constructed from these by the expression: $S=Ad_1+Bd_2+C$, where $A$, $B$ and $C$ are constants. Determine the values of $A$, $B$ and $C$ such that the range of possible values for $S$ covers all integers from $0$ to $35$, with an equal probability of each score. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA boy sitting on a harbour wall observes waves on the water’s surface. He sees that the waves have a period of $2\\,\\mathrm{s}$ and that a single wave travels the length of the harbour wall in $25\\,\\mathrm{s}$. If the harbour wall is of length $45\\,\\mathrm{m}$, what is the wavelength of the wave? [1 mark]\n\n(A) $4.0\\,\\mathrm{m}$\n\n(B) $1.8\\,\\mathrm{m}$\n\n(C) $3.6\\,\\mathrm{m}$\n\n(D) $1.0\\,\\mathrm{m}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nThe contents of a refrigerator, which are kept at a temperature $T=6\\,^\\circ\\mathrm{C}$, has to be cooled at a rate of $\\alpha(T_S-T)$, where $T_S$ is the temperature of the surroundings and $\\alpha=15\\,\\mathrm{W/K}$. If the refrigerator has an efficiency of $30\\%$, what is its power consumption on a day when $T_S=26\\,^\\circ\\mathrm{C}$? [1 mark]\n\n(A) $1\\,\\mathrm{kW}$\n\n(B) $2\\,\\mathrm{kW}$\n\n(C) $3\\,\\mathrm{kW}$\n\n(D) $4\\,\\mathrm{kW}$"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA lunar eclipse can only occur when the moon’s phase is [1 mark]\n\n(A) New moon.\n\n(B) Full moon.\n\n(C) First quarter.\n\n(D) Last quarter."
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nTwo stars in the night sky are observed to have the same apparent brightness, but one is known to be at a distance of $10$ light years and the other at a distance of $20$ light years. What is the ratio of the total power radiated by the more distant star to that radiated by the nearer star? [1 mark]\n\n(A) $1.0$\n\n(B) $2.0$\n\n(C) $3.0$\n\n(D) $4.0$"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nAn exoplanet is observed to orbit a nearby star at a distance of $0.4$ A.U. with a period of $3$ days. If a second exoplanet is observed to orbit the same star with a period of $24$ days, what must be its orbital radius?\n\n(N.B. 1 A.U. is an Astronomical Unit and is the distance the Earth orbits the Sun ($1\\text{ A.U.}=1.49\\times10^{8}\\,\\mathrm{km}$)). [1 mark]\n\n(A) $1.6$ A.U.\n\n(B) $3.2$ A.U.\n\n(C) $1$ A.U.\n\n(D) $16$ A.U."
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nWhat is the resistance of the following network of resistors between points A and B? [1 mark]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2011-17-fig1.png\n\n(A) $R/2$\n\n(B) $5R/3$\n\n(C) $R$\n\n(D) $3R/5$"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nThe primary coil of a transformer is connected to an alternating voltage supply of $240\\,\\mathrm{V}$ and draws a current of $1\\,\\mathrm{A}$. The secondary coil is connected to a resistor and delivers a voltage of $120\\,\\mathrm{V}$. If there are $50$ turns in the primary coil, how many turns are there in the secondary coil? [1 mark]\n\n(A) $240$\n\n(B) $100$\n\n(C) $25$\n\n(D) $50$"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nAn electric motor is driven by a battery of voltage $6\\,\\mathrm{V}$ and draws a current of $1\\,\\mathrm{A}$. If the motor is used to lift vertically a block of mass $100\\,\\mathrm{g}$, what is the vertical velocity of the mass? [1 mark]\n\n(A) $12\\,\\mathrm{m/s}$\n\n(B) $6\\,\\mathrm{m/s}$\n\n(C) $10\\,\\mathrm{m/s}$\n\n(D) $0.6\\,\\mathrm{m/s}$\n\n[Editorial note: the paper's general instructions state that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA toy car of mass $10\\,\\mathrm{g}$ rests on a slope of inclination $30^\\circ$. Neglecting friction, What is its acceleration down the slope? [1 mark]\n\n(A) $10\\,\\mathrm{m/s^2}$\n\n(B) $2.5\\,\\mathrm{m/s^2}$\n\n(C) $8.7\\,\\mathrm{m/s^2}$\n\n(D) $5.0\\,\\mathrm{m/s^2}$\n\n[Editorial note: the paper's general instructions state that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA boat crosses a river of width $100\\,\\mathrm{m}$ and flowing in the east-west direction. The water in the river flows from east to west at a speed of $5\\,\\mathrm{m/s}$. The boat can travel at a speed of $10\\,\\mathrm{m/s}$. The boat leaves one bank and the skipper wants to reach the point directly on the opposite bank. What course must she steer? [1 mark]\n\n(A) $30^\\circ$W\n\n(B) $20^\\circ$W\n\n(C) $30^\\circ$E\n\n(D) $60^\\circ$E"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA catapult consists of a massless cup attached to a massless spring of length $l$ and of spring constant $k$. If a ball of mass $m$ is loaded into the cup and the catapult pulled back to extend the spring to a total length $x$, what velocity does the ball reach when launched horizontally? [2 marks]\n\nThe catapult is then used to launch the ball vertically. If the spring is extended to the same total length of $x$ before release, to what velocity does the catapult now accelerate the ball? [2 marks]\n\nWhat height above its position at launch will the ball reach if launched vertically? [2 marks]\n\n[Editorial note: the paper's general instructions state that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nAn electron, initially at rest, is accelerated by a potential $V$ in a vacuum and then travels horizontally in a region of space where there is an electric field, $E$, and a magnetic field, $B$. The fields are aligned such that the electron is subjected to a force $eE$ upwards and a force $evB$ downwards, where $e$ is the charge of the electron and $v$ is its velocity. If $E=1000\\,\\mathrm{V/m}$ and $B=1\\times10^{-5}\\,\\mathrm{T}$, what is the value of the initial accelerating voltage $V$ for the electron to continue flying undeflected?\n\n(Take $m\\approx10^{-30}\\,\\mathrm{kg}$ and $e\\approx1.6\\times10^{-19}\\,\\mathrm{C}$) [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA radioactive source emits a parallel beam of alpha, beta and gamma radiation and is placed $10\\,\\mathrm{cm}$ from a detector, which is sensitive to all forms of radiation and receives $100$ counts/sec.\n\nWhen a sheet of aluminium of thickness $1\\,\\mathrm{cm}$ is placed in front of the detector, the radiation level is seen to fall to $50$ counts/sec.\n\nWhen the source is taken away completely, the radiation levels are seen to fall to $10$ counts/sec.\n\nWhen the source is placed $1\\,\\mathrm{cm}$ from the detector, the radiation levels are seen to increase to $400$ counts/sec.\n\nIn what proportion is the source emitting alpha:beta:gamma particles? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "PAT",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA packing company supplies storage boxes in three different sizes: small, medium, and large. All three types of box have the same ratio of width:length and height:length. It is noted that:\n\nA. Eight small boxes fit neatly inside one medium box.\n\nB. The length of the small box is the same as the height of the medium box.\n\nC. The base area (i.e. width times length) of a large box is 9 times smaller than the base area of the small box.\n\nD. The lengths of all three boxes added together is $2.4\\,\\mathrm{m}$.\n\nE. The width of the medium box is twice the height of the small box.\n\nWhat are the lengths of the three different boxes?\n\nWhat are the ratios of the width:height and width:length of the boxes? [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 26,
+     "paper_label": "PAT",
+     "title": "Question 26",
+     "problem": "Question 26\n\nAn archer draws the string of her bow back a distance of $0.6\\,\\mathrm{m}$ and holds it there with a force of $120\\,\\mathrm{N}$ before releasing an arrow of mass $20\\,\\mathrm{g}$. What is the speed of the arrow when it leaves the bowstring, assuming that all the energy in the bow is imparted to the arrow? [6 marks]\n\nIn fact, the stored energy of the bow not only accelerates the arrow, but also the arms of the bow and only a fraction $h$ of the original stored energy is imparted to the arrow. If $h=25/36$, what is the actual speed of the arrow leaving the bow? [2 marks]\n\nThe archer aims at a target, which is a distance $50\\,\\mathrm{m}$ away. How long will it take for the arrow to reach the target, assuming the arrow does not slow through air friction? [2 marks]\n\nTo account for the effects of gravity, estimate how far above the centre of the target the archer must aim to ensure that the arrow strikes the middle. [2 marks]\n\nIf the arrow is brought to rest in a distance of $5\\,\\mathrm{mm}$, what is the average force of the arrow strike? [4 marks]\n\nIf the target has a mass of $5\\,\\mathrm{kg}$, at what velocity is it thrown back by the arrow strike? [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures, that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used, and that no calculators, tables or formula sheets may be used.]"
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nFind the area between $y=x^2$ and $y=|x|$. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\n(i) Write down the binomial expansion of $(4+x)^4$.\n\n(ii) Hence or otherwise evaluate $(4.2)^4$ to 2 d.p (decimal places).\n\n[4 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nEvaluate $\\displaystyle\\sum_{r=1}^{8}\\left(2+4^r\\right)$. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nConsider a square inside a circle of radius $r$ as shown. What is the shaded area in terms of $r$? [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2012-4-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nShow $x=1$ is a solution to $x^3-6x^2-9x+14=0$ and find the other solutions. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nFind the equation of the line passing through $(0,2)$ and just touching $y=(x-2)^2$ at $x>0$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nIf $5=\\log_2 16+\\log_{10}\\sqrt{0.01}+\\log_3 x$, determine $x$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nConsider two dice – one contains the numbers 1-6, the other contains only 1,2,3 each shown twice (i.e. 1,2,3,1,2,3). What is the probability that when we roll the two dice we will obtain a score of 7? [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nSolve $\\cos^2\\theta+\\sin\\theta=0$ for $\\theta$. Leave your answer in terms of $\\sin\\theta$. [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nSketch an example of a real function $f(x)$ defined for all real arguments $x$, which has all of the following properties:\n\n(a) $f(x)>0$ for all $x$,\n\n(b) $f(x)$ is a continuous function,\n\n(c) $\\frac{df}{dx}=0$ only for $x=4$,\n\n(d) $\\frac{d^2f}{dx^2}=0$ only for $x=2$ and $x=6$.\n\n[4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSolve $-1<-\\dfrac{1}{x}+2x<1$. [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSketch $y=\\dfrac{1-x-x^2}{x^2}$. [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA vintage steam locomotive made of iron has a mass of $6.5\\times10^4$ kg and is 10 m long. How long is its scale model which is also made out of iron and has a mass of 1 kg? [2 marks]\n\n(A) $\\simeq 4$ cm\n\n(B) $\\simeq 20$ cm\n\n(C) $\\simeq 25$ cm\n\n(D) $\\simeq 30$ cm\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA gas cylinder has a volume of $0.02\\ \\mathrm{m^3}$ and contains 88 g of carbon dioxide at a temperature of $27^\\circ$ C. The molar gas constant $\\mathrm{R}\\simeq 8.3\\ \\mathrm{J\\,mol^{-1}K^{-1}}$. What is the gas pressure? [2 marks]\n\n(A) $\\simeq 101$ kPa\n\n(B) $\\simeq 149$ kPa\n\n(C) $\\simeq 201$ kPa\n\n(D) $\\simeq 249$ kPa\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nAn electric car has a battery pack delivering 160 V and 100 A of steady current when moving at 36 km/h. What is the air resistance, assuming 100 % efficiency? [2 marks]\n\n(A) $\\simeq 440$ N\n\n(B) $\\simeq 1600$ N\n\n(C) $\\simeq 2000$ N\n\n(D) $\\simeq 3200$ N\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA cube painted black is cut into 125 identical cubes. How many of them are not painted at all? [2 marks]\n\n(A) 21\n\n(B) 25\n\n(C) 27\n\n(D) 30"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA massive slider starts from rest from a point S (which is at the same height as a point T at the top of the track) and slides along a frictionless circular track as sketched in figure below. The slider [2 marks]\n\n(A) does not get to T.\n\n(B) gets to T and falls straight down.\n\n(C) gets to T but then, leaves the track and falls down following a parabola trajectory to the left.\n\n(D) passes T staying on the track all the way through.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2012-17-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA 12V battery, a voltmeter, an ammeter and a resistor $R=2\\ \\mathrm{k\\Omega}$ are sketched in figure (a) below.\n\nSketch connections to create a circuit to measure a potential difference across the resistor and an electric current. How big is the current? [1 mark]\n\nA capacitor $C=4\\ \\mu\\mathrm{F}$ and a switch S, as sketched in figure (b), are inserted into the circuit. Sketch how the current depends on time from the moment $t_e$ when the switch is moved to $e$ closing the circuit. Estimate the time $T$ after which the current is not changing significantly. After a time $t_d$ much longer than $T$, the switch is moved to $d$. Sketch the current from that moment until the moment when the current is not changing significantly, indicating on your sketch the time interval $T$. [3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that no calculators, tables or formula sheets may be used.]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2012-18-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA loudspeaker L is placed between a microphone M and a screen S reflecting sound waves as sketched below. The loudspeaker emits sound of fixed wavelength $\\lambda$ in all directions. When the screen is moving slowly, to the right along the $x$ direction (slowly in comparison with the speed of sound), the microphone records minima and maxima of the sound intensity. What is the distance between two screen positions giving two successive maxima? Would the microphone record minima and maxima if (a) the loudspeaker or (b) the microphone is moving along $x$ direction instead of the screen? [4 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2012-19-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nThe $^{238}$U isotope has a half-life $\\mathrm{T}_{238}=4.5\\times10^9$ years and the $^{235}$U has $\\mathrm{T}_{235}=7.0\\times10^8$ years. $\\mathrm{N}_{238}(t)$ is the number of $^{238}$U nuclei at time $t$ and $\\mathrm{N}_{235}(t)$ is the corresponding number for $^{235}$U. The relative abundance $r(t)$ is defined as $r(t)=\\frac{\\mathrm{N}_{235}(t)}{\\mathrm{N}_{238}(t)}$. At present, $r=0.0072$. Estimate the relative abundance of these two isotopes $10^9$ years ago. You might use the following approximations: $\\mathrm{e}^x\\simeq 1+x$ for small $x$, $\\mathrm{e}\\simeq 2.7$ and $\\ln 2\\simeq 0.7$. [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA meteoroid of mass $m$ is on a circular Earth orbit of radius $R$ which is a few ($>2$) times larger than the radius of the Earth $R_E$. Derive an expression for the meteoroid's speed. State the meanings of all symbols used. [2 marks]\n\nAnother meteoroid of the same mass is on the same orbit, in the same plane but rotating in the opposite direction. At an azimuthal angle $\\varphi_0$, see figure below, the two meteoroids collide head-on and coalesce (combine). Sketch the complete trajectory of the newly formed double mass meteoroid showing how the azimuthal angle $\\varphi$ depends on the distance $r$. Sketch also its kinetic energy and expected meteoroid surface temperature as a function of $r$. Give a very brief explanation of why you expect the temperature to depend on $r$ that way. For $r<2R_E$ effects due to the Earth's atmosphere can not be neglected; $r$ is the distance from the Earth's centre. [6 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2012-21-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA point like object with mass $m=1$ kg starts from rest at point $x_0=10$ m and moves without any friction under a force F which depends on the coordinate $x$ as illustrated in figure below. The motion is confined to one dimension along $x$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2012-22-fig1.png\n\na1 What is its speed at $x=0$? [2 marks]\n\na2 Sketch its kinetic energy as a function of $x$. [4 marks]\n\na3 Sketch its velocity as well as its acceleration as a function of time $t$. [6 marks]\n\nNow consider a case when, in addition, a friction force of a magnitude of 1 N is present for $x\\ge 0$.\n\nb1 Sketch how the velocity depends on $x$ in that case. [6 marks]\n\nb2 How many meters this point like object travelled during the time when its position coordinate $x$ was $\\ge 0$? [2 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that no calculators, tables or formula sheets may be used.]"
+    }
+   ]
+  },
+  {
    "year": 2013,
    "problems": [
     {

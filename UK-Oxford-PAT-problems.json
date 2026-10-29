@@ -2,6 +2,574 @@
  "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
  "years": [
   {
+   "year": 2006,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT, Physics",
+     "title": "Question 1",
+     "problem": "Question 1\n\nIn the equation $x=ut+\\frac{1}{2}at^2$ the term $ut$ represents: [1 mark]\n\n(A) a speed\n\n(B) an acceleration\n\n(C) a displacement\n\n(D) an impulse"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT, Physics",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA block of Niobium, a metal with density $8570\\,\\mathrm{kg/m^3}$, has sides of length $3\\,\\mathrm{cm}$, $4\\,\\mathrm{cm}$ and $5\\,\\mathrm{cm}$. What is the maximum pressure that can be exerted by this block when it is stood upright on one of its faces? [1 mark]\n\n(A) $4.3\\,\\mathrm{kPa}$\n\n(B) $430\\,\\mathrm{Pa}$\n\n(C) $2.6\\,\\mathrm{kPa}$\n\n(D) $510\\,\\mathrm{kPa}$\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used, that no tables may be used and that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be taken.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT, Physics",
+     "title": "Question 3",
+     "problem": "Question 3\n\nThe diagram below shows the approximate orbit of the dwarf planet Eris (X) around the sun (S).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2006-1-3-fig1.png\n\nWhich of the following statements is false? [1 mark]\n\n(A) Eris moves fastest at point D.\n\n(B) Eris moves at the same speed at points A and C.\n\n(C) Eris moves in an ellipse with the sun at one focus.\n\n(D) The potential energy of Eris changes during the orbit."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT, Physics",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA hollow toy boat is floating in a bath. If you take a teaspoon full of water out of the bath and put it in the boat, what happens to the water level in the bath? [1 mark]\n\n(A) The level goes down.\n\n(B) The level goes up.\n\n(C) The level stays the same.\n\n(D) There isn’t enough information to say."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT, Physics",
+     "title": "Question 5",
+     "problem": "Question 5\n\nIn quantum mechanics the de Broglie wavelength of an object depends on its momentum according to $\\lambda=h/p$ where $h$ is Planck’s constant. Protons of charge $e$ and mass $m$ are accelerated from rest through a potential $V$. What is their de Broglie wavelength? [1 mark]\n\n(A) $2h/\\sqrt{meV}$\n\n(B) $h/\\sqrt{2meV}$\n\n(C) $h\\sqrt{meV}$\n\n(D) $h/eV$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT, Physics",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA car accelerates steadily from $0\\,\\mathrm{m/s}$ to $20\\,\\mathrm{m/s}$ in a distance $d$ and a time $t$. Another car takes a time $2t$ to accelerate steadily from stationary to the same final velocity. What distance does the second car cover during the new acceleration? [1 mark]\n\n(A) $d/4$\n\n(B) $d/2$\n\n(C) $d$\n\n(D) $2d$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT, Physics",
+     "title": "Question 7",
+     "problem": "Question 7\n\nAn alien civilization is in the business of building custom solar systems. Their basic model has five planets in circular orbits at distances $D$ that are perfect square multiples of a basic length, so that they are in the ratio 1:4:9:16:25. For this model the year lengths $Y$ of the planets are in ratios 1:8:27:64:125. How are $D$ and $Y$ related? [1 mark]\n\n(A) $Y/D=k$\n\n(B) $D=k\\sqrt{Y}$\n\n(C) $Y=kD\\sqrt{D}$\n\n(D) $Y^3/D^2=k$"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT, Physics",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA Martian attempts to measure his mass using a set of bathroom scales in his house on Mars, and gets a reading of $93\\,\\mathrm{kg}$. Unfortunately his scales were designed for use on Venus. Given that the gravitational strengths at the surface of Mars and Venus are $3.8\\,\\mathrm{N/kg}$ and $8.8\\,\\mathrm{N/kg}$ respectively, what is his true mass? [1 mark]\n\n(A) $40\\,\\mathrm{kg}$\n\n(B) $106\\,\\mathrm{kg}$\n\n(C) $215\\,\\mathrm{kg}$\n\n(D) $245\\,\\mathrm{kg}$\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT, Physics",
+     "title": "Question 9",
+     "problem": "Question 9\n\nWhen a metal bar is cooled it contracts. Which of the following is true? [1 mark]\n\n(A) The density and mass increase.\n\n(B) The density increases and the mass remains constant.\n\n(C) The density and mass are unchanged.\n\n(D) The mass remains constant and the density decreases."
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT, Physics",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA hot air balloon is descending at a steady speed of $11\\,\\mathrm{m/s}$. The pilot drops a sandbag, which takes $7\\,\\mathrm{s}$ to fall to the ground. What was the height of the balloon when the sandbag was released? [1 mark]\n\n(A) $168\\,\\mathrm{m}$\n\n(B) $245\\,\\mathrm{m}$\n\n(C) $322\\,\\mathrm{m}$\n\n(D) $528\\,\\mathrm{m}$\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used, that no tables may be used and that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be taken.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT, Physics",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThe diagram below shows a circuit in which the bulb lights up with normal brightness.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2006-1-11-fig1.png\n\nIn the circuits below the bulbs and cells all have the same specifications as the bulb and cell shown above.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2006-1-11-fig2.png\n\nDetermine whether the bulbs marked by letters in these circuits are brighter than normal, normal, dimmer than normal, or off. [8 marks]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT, Physics",
+     "title": "Question 12",
+     "problem": "Question 12\n\nWhile exploring the north pole of Mars an astronaut stumbles into a cave, containing a pool of glowing liquid and a collection of coloured cubes. Lacking any proper instruments she uses her spare oxygen tank as a measure and determines that\n\n(a) A red cube and a green cube together are as long as the tank.\n\n(b) Two green cubes and a blue cube together are twice as long as the tank.\n\n(c) A red cube and a blue cube together are as long as two green cubes.\n\n(d) A red cube, a green cube and a blue cube together weigh the same as the tank.\n\nShe also tries dropping the cubes into the pool, and notices that they all float with half their volume exposed. On returning to her base she discovers that her tank is $35\\,\\mathrm{cm}$ long and has a mass of $20\\,\\mathrm{kg}$. Find the density of the glowing liquid. [6 marks]\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT, Physics",
+     "title": "Question 13",
+     "problem": "Question 13\n\nThe graph below shows the velocity of a rocket as a function of time.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2006-1-13-fig1.png\n\n(a) What has happened at point X? [1 mark]\n\n(b) When is the acceleration of the rocket a maximum? Suggest an explanation of this. [2 marks]\n\n(c) Describe the subsequent motion of the rocket. [2 marks]\n\n(d) How in principle would you determine from this graph the maximum height reached by the rocket? [1 mark]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT, Physics",
+     "title": "Question 14",
+     "problem": "Question 14\n\nThis problem concerns the mathematical treatment of a simple model of an electric toy car of mass $m$, which is initially stationary. The batteries in the car can be considered as an electrical power source with constant power $P$. You may neglect air-resistance and other experimental imperfections in the calculations.\n\n(a) Suppose that the car is placed on a level surface and that the motor can be treated as a device which converts electrical energy directly into kinetic energy. Calculate the kinetic energy of the car as a function of time, and hence its velocity as a function of time. [3 marks]\n\n(b) Hence calculate the acceleration of the car and the distance traveled by the car as a function of time. [4 marks]\n\n(c) Find the limiting value of the velocity at very large times and comment on whether your result seems reasonable. [2 marks]\n\n(d) Find the limiting value of the acceleration at very large and very small times and comment on whether your results seem reasonable. [4 marks]\n\n(e) Instead of driving the car forward the motor could be used to lift the car up a vertical rope. Calculate the height which the car can reach as a function of time, and hence calculate the velocity at which it climbs the rope. [3 marks]\n\n(f) The calculation in part (e) ignored the fact that as the car is moving then some of the motor’s power must be used to give kinetic energy to the car. Assuming that the approach you used in part (e) is correct, calculate the ratio between the kinetic energy and the potential energy of the car climbing the rope as a function of time. Use your result to determine under what circumstances it is reasonable to ignore kinetic energy in this way. [4 marks]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 1",
+     "problem": "Question 1\n\nEvaluate\n\n(i) $2007^2-2006^2$ precisely;\n\n(ii) $1.001^6-1.001^5$ to one significant figure. [3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 2",
+     "problem": "Question 2\n\nFind the gradient of the line joining the points $(4,8)$ and $(5,-2)$. [2 marks]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 3",
+     "problem": "Question 3\n\nFind all the values of $x$ for which\n\n(i) $\\log_{\\mathrm{e}}(\\mathrm{e}^{3x})=6$;\n\n(ii) $\\log_3 x^2=2$; [3 marks]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 4",
+     "problem": "Question 4\n\nSimplify\n\n$$13\\sin\\left[\\tan^{-1}\\left(\\frac{12}{5}\\right)\\right].$$\n\n[3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 5",
+     "problem": "Question 5\n\nSketch the functions\n\n(i) $\\sin^2 x$;\n\n(ii) $\\dfrac{1}{x^2-1}$. [8 marks]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 6",
+     "problem": "Question 6\n\nCircle A has a radius which is $1\\,\\mathrm{cm}$ bigger than circle B, and its area is $2\\pi\\,\\mathrm{cm^2}$ bigger. Find the radii of the two circles. [4 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 7",
+     "problem": "Question 7\n\nThree dice are thrown, one after the other. Calculate the probability that\n\n(i) all three dice give a six;\n\n(ii) all three dice give the same number;\n\n(iii) only the third die gives a six. [3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 8",
+     "problem": "Question 8\n\nThe volume of a spherical balloon increases by $1\\,\\mathrm{cm^3}$ every second. What is the rate of growth of the radius when the surface area of the balloon is $100\\,\\mathrm{cm^2}$? [3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 9",
+     "problem": "Question 9\n\nFind the area between the curve $y=|x^n|$, where $n$ is a positive constant, the line defined by $y=-2$, and the lines defined by $|x|=2$. [5 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 10",
+     "problem": "Question 10\n\nSum the following series:\n\n(i) $1+\\mathrm{e}^{y}+\\mathrm{e}^{2y}+\\mathrm{e}^{3y}+\\cdots$, where $\\mathrm{e}^{y}\\ll1$;\n\n(ii) $\\log_2 1+\\log_2 2+\\log_2 4+\\cdots+\\log_2 2^n$. [4 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 11",
+     "problem": "Question 11\n\nIdentify and classify the stationary points of the function\n\n$$y=5+24x-9x^2-2x^3.$$\n\n[6 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 12",
+     "problem": "Question 12\n\nIn the figure below, the radius of the larger circle is twice that of the smaller circle. Find an expression for the fraction of the area of the square which is occupied by the two circles. [6 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2006-2-12-fig1.png\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    }
+   ]
+  },
+  {
+   "year": 2007,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT, Physics",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA cube of metal has sides of length $x$. The electrical resistance between opposite faces of the cube is: [1 mark]\n\n(A) directly proportional to $x$\n\n(B) proportional to $x^2$\n\n(C) inversely proportional to $x$\n\n(D) independent of $x$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT, Physics",
+     "title": "Question 2",
+     "problem": "Question 2\n\nAn astronaut in the International space station experiences weightlessness because [1 mark]\n\n(A) She is outside the earth’s gravitational field\n\n(B) The attractive force of the moon cancels that of the earth\n\n(C) She is moving\n\n(D) She is accelerating at the same rate as the space station"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT, Physics",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA $9\\,\\mathrm{V}$ battery is connected across a $100\\,\\Omega$ resistor. Given that the charge on an electron is $1.6\\times10^{-19}\\,\\mathrm{C}$ what is the number of electrons passing through the resistor every second? [1 mark]\n\n(A) $5.6\\times10^{17}$\n\n(B) $6.9\\times10^{19}$\n\n(C) $5.6\\times10^{21}$\n\n(D) $6.9\\times10^{15}$\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT, Physics",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA drop slide in a fairground has a very steep initial slope which gradually curves into a more gentle slope. If a child drops down the slide, what happens to his speed $v$ and the magnitude of his acceleration $a$? [1 mark]\n\n(A) $v$ and $a$ both increase\n\n(B) $v$ increases and $a$ stays the same\n\n(C) $v$ increases and $a$ decreases\n\n(D) $v$ decreases and $a$ increases"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT, Physics",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA spring that obeys Hooke’s law has a spring constant $k$. Two such springs are linked to form a spring of twice the length. What is the spring constant of this new longer spring? [1 mark]\n\n(A) $k/2$\n\n(B) $k/\\sqrt{2}$\n\n(C) $\\sqrt{2}k$\n\n(D) $2k$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT, Physics",
+     "title": "Question 6",
+     "problem": "Question 6\n\nTwo resistors $R_1$ and $R_2$ are in parallel with a potential difference $V$ across them. The total power dissipated in this circuit is [1 mark]\n\n(A) $V^2\\times\\left(\\dfrac{1}{R_1}+\\dfrac{1}{R_2}\\right)$\n\n(B) $\\dfrac{V^2}{R_1+R_2}$\n\n(C) $V^2\\div\\left(\\dfrac{1}{R_1}+\\dfrac{1}{R_2}\\right)$\n\n(D) $V^2\\,(R_1+R_2)$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT, Physics",
+     "title": "Question 7",
+     "problem": "Question 7\n\nPositron Emission Tomography (PET) scanners frequently operate using the radioactive isotope $^{18}\\mathrm{F}$, which has a half life of about two hours. The isotope is incorporated into a drug, half of which is excreted by the body every two hours. How long will it take before the quantity of radioactive drug in the body halves? [1 mark]\n\n(A) $0.5$ hours\n\n(B) $1$ hour\n\n(C) $1.5$ hours\n\n(D) $2$ hours"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT, Physics",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA pressure cooker has an escape valve that is essentially a $125\\,\\mathrm{g}$ weight resting on a circular hole of radius $1\\,\\mathrm{mm}$. What pressure will lift the weight off the hole? [1 mark]\n\n(A) $400\\,\\mathrm{Pa}$\n\n(B) $40\\,\\mathrm{kPa}$\n\n(C) $400\\,\\mathrm{kPa}$\n\n(D) $400\\,\\mathrm{MPa}$\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used, that no tables may be used and that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be taken.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT, Physics",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA car of mass $1500\\,\\mathrm{kg}$ is towing a trailer of mass $1000\\,\\mathrm{kg}$ at a steady speed. The driver decides to overtake another car and accelerates at $4\\,\\mathrm{m/s^2}$. If the frictional force on the trailer is $2500\\,\\mathrm{N}$ what is the force on the towbar during the manoeuvre? [2 marks]\n\n(A) $6500\\,\\mathrm{N}$\n\n(B) $8500\\,\\mathrm{N}$\n\n(C) $10000\\,\\mathrm{N}$\n\n(D) $12500\\,\\mathrm{N}$\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT, Physics",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA pilot plans to fly an aeroplane from his base to another airport $300\\,\\mathrm{km}$ due north. His aeroplane can travel at a speed of $170\\,\\mathrm{km/h}$ relative to the air.\n\n(a) He sets off at 9:00 am and aims his aeroplane due north. Calculate his estimated arrival time assuming there is no wind. [2 marks]\n\n(b) After flying for one hour he discovers that he is only $153\\,\\mathrm{km}$ from his starting point and has travelled along a line bearing $010^\\circ$. Assuming the wind has been steady throughout the journey calculate its speed. [5 marks]\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT, Physics",
+     "title": "Question 11",
+     "problem": "Question 11\n\nMake a sketch copy of the diagram below and indicate clearly the position and nature of the image formed by the mirror. Draw rays corresponding to light coming from the open circle, and mark any relevant angles. [3 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2007-1-11-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT, Physics",
+     "title": "Question 12",
+     "problem": "Question 12\n\nThe planet Pluto (radius $1180\\,\\mathrm{km}$) is populated by three species of purple caterpillar. Studies have established the following facts:\n\n(a) A line of 5 mauve caterpillars is as long as a line of 7 violet caterpillars\n\n(b) A line of 3 lavender caterpillars and 1 mauve caterpillar is as long as a line of 8 violet caterpillars.\n\n(c) A line of 5 lavender caterpillars, 5 mauve caterpillars and 2 violet caterpillars is $1\\,\\mathrm{m}$ long in total.\n\n(d) A lavender caterpillar takes $10\\,\\mathrm{s}$ to crawl the length of a violet caterpillar.\n\n(e) Violet and mauve caterpillars both crawl twice as fast as lavender caterpillars.\n\nHow long would it take a mauve caterpillar to crawl around the equator of Pluto? [6 marks]\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT, Physics",
+     "title": "Question 13",
+     "problem": "Question 13\n\nThe current in amperes through a certain type of non-linear resistor is given by $I=0.05V^3$, where $V$ is the potential difference in volts across the resistor. This resistor is connected in series to a fixed resistor and a constant voltage source of $9\\,\\mathrm{V}$ is connected across the series combination. What value of resistance should the fixed resistor have so that a current of $0.40\\,\\mathrm{A}$ flows? [4 marks]\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT, Physics",
+     "title": "Question 14",
+     "problem": "Question 14\n\nYou should already be familiar with the mathematical treatment of an ideal pendulum, in which the pendulum bob is modelled as a point mass on the end of a rigid rod of negligible mass. In this problem you will consider the behaviour of more complex types of pendulum. You will be given all the information you need in the sections below.\n\nFor a general pendulum of any shape and size the period $P$ is given by\n\n$$P=2\\pi\\sqrt{\\frac{I}{gML_{CM}}}$$\n\nwhere $g$ is the acceleration due to gravity, $M$ is the total mass of the pendulum, $L_{CM}$ is the effective length of the pendulum, defined as the distance from the pivot to the centre of mass, and $I$ is the moment of inertia around the pivot point. For a point mass $m$ fixed at a distance $r$ from the pivot $I=mr^2$, while for a uniform rod of mass $m$ and length $r$ attached to the pivot at one end $I=\\frac{1}{3}mr^2$. For more complex objects the total moment of inertia can be calculated by adding together values for the component parts.\n\n(a) Identify $L_{CM}$ and $I$ for an ideal pendulum of length $L$ with a bob of mass $M$, and hence calculate its period. [3 marks]\n\n(b) Repeat this calculation for a pendulum made from a unform rod of mass $M$ and length $L$. [3 marks]\n\n(c) Now consider the case of a real pendulum, with a bob of mass $M_b$ (which you may treat as a point mass) attached to the pivot using a uniform rod of mass $M_r$ and length $L$, and find the period in this case. Show that the result for a real pendulum reduces to the results for an ideal pendulum and a rod pendulum by taking appropriate limits. [7 marks]\n\nFor the remainder of this problem you can consider an ideal pendulum, for which you will calculate the effect of changing its environment.\n\n(d) Most substances expand with increasing temperature, and so a metal rod will expand in length by a fraction $\\alpha\\,\\delta T$ if the temperature is changed by $\\delta T$, where $\\alpha$ is called the coefficient of linear thermal expansion. Consider the effect of this expansion on a pendulum clock with a pendulum made from brass, with $\\alpha=19\\times10^{-6}\\,\\mathrm{K^{-1}}$. What temperature change can this clock tolerate if it is to remain accurate to 1 second in 24 hours? [5 marks]\n\n(e) Repeat the calculation for a pendulum made from Invar alloy, with $\\alpha=1.2\\times10^{-6}\\,\\mathrm{K^{-1}}$. [2 marks]\n\n[Editorial note: the instructions of the Physics paper state that any calculator may be used and that no tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 1",
+     "problem": "Question 1\n\nEvaluate $6667^2-3333^2$ [2 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 2",
+     "problem": "Question 2\n\nFind the equation of the line which is tangent to the curve $y=x^4$ at the point $(-2,16)$. [3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 3",
+     "problem": "Question 3\n\nEvaluate\n\n$$\\frac{2\\log 125}{3\\log 25}$$\n\n[3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 4",
+     "problem": "Question 4\n\nTwo dice are thrown. What is the probability that their numbers add up to (i) six (ii) eleven? [4 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 5",
+     "problem": "Question 5\n\nExpand $(2+x)^5$ in ascending powers of $x$ as far as the term in $x^3$. [3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 6",
+     "problem": "Question 6\n\nIn the figure shown below, the triangle is equilateral. Find the ratio of the areas of\n\n(i) the larger to the smaller circle;\n\n(ii) the larger to the smaller shaded region. [6 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2007-2-6-fig1.png\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 7",
+     "problem": "Question 7\n\nSketch the curves $y=x^2$, $y=(x-2)^2$ and $y=x^2+(x-2)^2$ on the same graph. [5 marks]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 8",
+     "problem": "Question 8\n\nSolve the equation $\\tan\\theta=2\\sin\\theta$ for $0\\leq\\theta\\leq2\\pi$. [4 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 9",
+     "problem": "Question 9\n\nShow that the points $(-5,4)$, $(-1,-2)$ and $(5,2)$ lie at three corners of a square. Find the coordinates of the fourth corner and the area of the square. [4 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 10",
+     "problem": "Question 10\n\nEvaluate\n\n$$\\int_1^9\\left(\\sqrt{x}+\\frac{1}{\\sqrt{x}}\\right)\\mathrm{d}x.$$\n\n[4 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 11",
+     "problem": "Question 11\n\nThe first two terms of a geometric progression (first term $a$ and common ratio $r$) are the same as the first two terms of an arithmetic progression (first term $a$ and common difference $d$). The third term of the geometric progression is twice as big as the third term of the arithmetic progression. Find two different expressions for $d$ and hence or otherwise find the two possible values of $r$. [6 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "PAT, Mathematics for Physics",
+     "title": "Question 12",
+     "problem": "Question 12\n\nAn isosceles triangle has sides of length $x$, $x$ and $p-2x$ where $p$ is the length of the perimeter of the triangle. Find the value of $x$ which maximises the area of the triangle for fixed $p$ and all the angles of the triangle for this value of $x$. [6 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nEvaluate the sum of integers $1+2+3+\\cdots+99+100$. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nEvaluate $(0.25)^{-1/2}$ and $(0.09)^{3/2}$ [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nThe first three terms of the series expansion of $(1+x)^m$ are:\n\n$$1+mx+\\frac{m(m-1)x^2}{2}.$$\n\nFind the first three terms in the series expansion of $(1+x)^{m+1}(1-2x)^m$. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nFind the set of values of $x$ for which\n\n$$\\frac{x^2+2}{1-x^2}<3.$$\n\n[3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nGiven that $x=\\log_9 2$, find, in terms of $x$, (i) $\\log_2 9$; (ii) $\\log_8 3$. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nFind the two values of $x$ for which $1, x^2, x$ are successive terms of an arithmetic progression. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nDetermine the value of $a$ such that the curve $y=x+\\frac{x^2}{2}+\\frac{x^3}{3}+\\frac{x^4}{4}+\\cdots$ and the line $y=ax$ have the same gradient at $x=0$. What value will $a$ have if instead they have the same gradient at $x=\\frac{1}{4}$?. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nThe points $(5,2)$ and $(-3,8)$ are at opposite ends of the diameter of a circle. Determine the equation of the circle. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA die is biased so that the numbers 5 and 6 are obtained three times as often as 2, 3 and 4, and the number 1 is never obtained. Calculate the probability that (i) a two is thrown; (ii) two consecutive throws give a total $\\geq 10$. [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA cube has side $a$. Find the length of its body diagonal. [3 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nEvaluate\n\n(i) $\\displaystyle\\int_{-1}^{1} x+x^3+x^5+x^7\\,\\mathrm{d}x$\n\n(ii) $\\displaystyle\\int_0^1 \\frac{x^9+x^{99}}{11}\\,\\mathrm{d}x$. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nIn the figure below, the shaded area ADEC is defined by concentric circles which share a common centre O with the shaded triangle ABC. The straight lines AD and CE, if extended, pass through O. The lengths AD=AB=BC=CA=CE. Find the ratio of the two shaded areas ADEC and ABC. [8 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2008-12-fig1.png\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA symmetric seesaw is $3\\,\\mathrm{m}$ long from end to end. If a boy of mass $20\\,\\mathrm{kg}$ sits on one end, how far away from him should a girl of mass $30\\,\\mathrm{kg}$ sit to balance the seesaw? [1 mark]\n\n(A) $0.5\\,\\mathrm{m}$\n\n(B) $1.0\\,\\mathrm{m}$\n\n(C) $2.0\\,\\mathrm{m}$\n\n(D) $2.5\\,\\mathrm{m}$\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nWhen nuclear fission occurs in a commercial nuclear reactor the mass of the products compared with the mass of the reactants is [1 mark]\n\n(A) increased\n\n(B) decreased\n\n(C) stays the same\n\n(D) it depends on the reaction"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nThe visible universe contains about 400 billion galaxies (where 1 billion equals $10^9$). Our galaxy contains about 250 billion stars. The mass of our sun is about $2\\times10^{30}\\,\\mathrm{kg}$. NASA estimates that dark matter out-masses stars by about 20:1. Use this data to estimate the total mass of the visible universe. [1 mark]\n\n(A) $4.2\\times10^{36}\\,\\mathrm{kg}$\n\n(B) $9.5\\times10^{51}\\,\\mathrm{kg}$\n\n(C) $2.0\\times10^{53}\\,\\mathrm{kg}$\n\n(D) $4.2\\times10^{54}\\,\\mathrm{kg}$\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA solar eclipse can only occur when the moon’s phase is [1 mark]\n\n(A) new moon\n\n(B) full moon\n\n(C) waning\n\n(D) waxing"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nWhen an ideal gas is heated in a container of fixed volume then [1 mark]\n\n(A) the pressure and density both rise\n\n(B) the pressure rises and the density falls\n\n(C) the pressure rises and the density stays the same\n\n(D) the pressure stays the same and the density falls"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA physics lecture theatre is situated $3\\,\\mathrm{m}$ east and $4\\,\\mathrm{m}$ above reception. Calculate the minimum energy a $60\\,\\mathrm{kg}$ receptionist would have to expend to reach the lecture theatre. [1 mark]\n\n(A) $1800\\,\\mathrm{J}$\n\n(B) $2400\\,\\mathrm{J}$\n\n(C) $3000\\,\\mathrm{J}$\n\n(D) $4200\\,\\mathrm{J}$\n\n[Editorial note: the paper's general instructions state that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA $3.6\\,\\mathrm{V}$ mobile phone battery can produce $0.7\\,\\mathrm{A}$ of current for 1 hour. This can be charged using a square solar panel $25\\,\\mathrm{cm}$ on each side. Assuming an efficiency of 10% and an incident solar power of $1\\,\\mathrm{kW\\,m^{-2}}$ what time is needed to charge the battery? [1 mark]\n\n(A) $0.10$ hours\n\n(B) $0.28$ hours\n\n(C) $0.40$ hours\n\n(D) $1.5$ hours\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA light dependent resistor is connected across an ideal $12\\,\\mathrm{V}$ source and placed in the open in the middle of a desert. When is the power dissipated in the resistor highest? [1 mark]\n\n(A) dawn\n\n(B) mid morning\n\n(C) noon\n\n(D) midnight"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA bullet with a mass of $10\\,\\mathrm{g}$ is fired at a velocity of $400\\,\\mathrm{m\\,s^{-1}}$ into a cubical tank of water $2\\,\\mathrm{m}$ on each side and is brought to a halt by friction. Given that the heat capacity of water is $4.2\\,\\mathrm{kJ\\,K^{-1}\\,kg^{-1}}$, and its density is $1000\\,\\mathrm{kg\\,m^{-3}}$, calculate the temperature rise of the water in the tank [1 mark]\n\n(A) $2.4\\times10^{-5}\\,\\mathrm{K}$\n\n(B) $4.8\\times10^{-5}\\,\\mathrm{K}$\n\n(C) $1.9\\times10^{-4}\\,\\mathrm{K}$\n\n(D) $2.4\\times10^{-2}\\,\\mathrm{K}$\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nWhen using Einstein’s formula $E=mc^2$ a student enters the mass $m$ in grams. If he uses a value of $c=3.0\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$ for the speed of light, what are the units of the energy $E$? [1 mark]\n\n(A) $\\mathrm{mJ}$\n\n(B) $\\mathrm{J}$\n\n(C) $\\mathrm{kJ}$\n\n(D) $\\mathrm{MJ}$"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nThis problem will consider the possibility of storing electrical energy in capacitors, made up of two parallel metal plates, each of area $A$, separated by a thickness $d$ of a dielectric with electrical permittivity $p$. A capacitor will store a charge $q=CV$ where the capacitance is given by $C=pA/d$ and $V$ is the voltage across the capacitor. Given that the work done in charging the capacitor is\n\n$$W=\\frac{q^2}{2C}$$\n\nshow that the work done to charge a parallel plate capacitor is\n\n$$W=\\frac{pAV^2}{2d}.$$\n\nThis work done is equal to the energy stored in the capacitor. In practice a capacitor is limited by the breakdown voltage of its dielectric which is proportional to the thickness, $V_{\\mathrm{max}}=Bd$, where $B$ is a constant that depends on the material. Determine how the maximum energy stored in a capacitor depends on the mass $m$ of the dielectric, its density $D$ and other constants.\n\nFor a dielectric with $p=2\\times10^{-11}\\,\\mathrm{F\\,m^{-1}}$, $B=2\\times10^{7}\\,\\mathrm{V\\,m^{-1}}$, and $D=1000\\,\\mathrm{kg\\,m^{-3}}$ (which is about right for common plastic dielectrics) calculate the maximum energy can be stored in a capacitor with a mass of $1\\,\\mathrm{kg}$. Comment on the practicality of using a capacitor of this type to smooth the output from a $1\\,\\mathrm{kW}$ domestic wind turbine in a gusty area. [7 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 24,
+     "paper_label": "PAT",
+     "title": "Question 24",
+     "problem": "Question 24\n\nA pilot takes off from an airfield $5\\,\\mathrm{km}$ west of her house and flies in a direction $60^\\circ$ east of north. After 5 minutes she sees that direction to her house is now at angle of $135^\\circ$ to her course. How far away is she from her house? (Use $\\sqrt{2}\\approx1.4$) [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 25,
+     "paper_label": "PAT",
+     "title": "Question 25",
+     "problem": "Question 25\n\nA forest is inhabited by three species of macaw which are all the same shape but are different sizes and colours. The food consumption of each type is proportional to the square of its length. Given that\n\n(a) A crimson macaw and a ruby macaw put together are twice as long as a scarlet macaw\n\n(b) A crimson macaw and a scarlet macaw put together eat as much as a ruby macaw\n\n(c) 2 crimson macaws and a scarlet macaw put together are $1\\,\\mathrm{m}$ long\n\ndetermine the lengths of the three types of macaw. [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 26,
+     "paper_label": "PAT",
+     "title": "Question 26",
+     "problem": "Question 26\n\nThe graph below shows tide heights at Wadebridge on July 7 2008.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2008-26-fig1.png\n\nAt what time in the morning (to the nearest hour) is the tide height changing most rapidly? What is the rate of change in cm per minute at this time? [3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 27,
+     "paper_label": "PAT",
+     "title": "Question 27",
+     "problem": "Question 27\n\nA $2\\,\\mathrm{m}$ tall birdwatcher with a mass of $100\\,\\mathrm{kg}$ sees a nest in a tree. When he stands $18\\,\\mathrm{m}$ away from the tree his line of sight to the nest makes an angle of $45^\\circ$ to a line parallel to the ground.\n\n(a) The birdwatcher sees an egg fall from the nest. How long does it take to reach the ground? (You may neglect the effects of air resistance.) [3 marks]\n\n(b) How fast is the egg travelling when it reaches the ground? [2 marks]\n\n(c) The egg strikes the ground and is brought to a stop in a distance of $1\\,\\mathrm{mm}$. Assuming a mass of $20\\,\\mathrm{g}$ for the egg calculate the force required. (You may assume a constant braking force.) [3 marks]\n\n(d) Calculate the work done by this braking force and compare it with the gravitational potential energy of the egg. [3 marks]\n\n(e) Unsurprisingly the egg is smashed by the impact. To prevent this happening again the birdwatcher places a pad of foam which is $10\\,\\mathrm{cm}$ thick around the tree. This responds to impacts by compressing to half its initial thickness. Find the new braking force when a second egg falls and the time taken to bring the egg to a halt. [3 marks]\n\n(f) The birdwatcher considers the possibility of returning the egg to the nest by climbing the tree. Calculate the minimum energy he would have to expend to achieve this. [2 marks]\n\n(g) Instead he decides to use this energy to boil the egg using a small electrical heater powered from a hand generator. Calculate the minimum efficiency required for the system so that it requires no more effort to boil the egg that to return it to the nest. Assume that the egg has a specific heat capacity of $4\\,\\mathrm{kJ\\,kg^{-1}}$, the same boiling point as water, and starts at $20^\\circ\\mathrm{C}$. [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used; no calculators, tables or formula sheets may be used.]"
+    }
+   ]
+  },
+  {
    "year": 2009,
    "problems": [
     {

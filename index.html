@@ -1052,10 +1052,10 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261028-credits-all';
+const DATA_VERSION = '20261029-czech-2012';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', czech: 'europe' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
@@ -1067,6 +1067,7 @@ const COUNTRIES = [
     { key: 'cpho', name: 'China', flag: '🇨🇳', file: 'CPhO-problems.json', kind: 'years', full: 'Chinese Physics Olympiad (Chinese Physical Society), final and semifinal theory · English translation' },
     { key: 'jpho', name: 'Japan', flag: '🇯🇵', file: 'JPhO-problems.json', kind: 'years', full: 'Physics Challenge (Japan Physics Olympiad), Second Challenge theory · English translation' },
     { key: 'poland', name: 'Poland', flag: '🇵🇱', file: 'Poland-OF-problems.json', kind: 'years', full: 'Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part · English translation' },
+    { key: 'czech', name: 'Czechia', flag: '🇨🇿', file: 'Czech-FO-problems.json', kind: 'years', full: 'Czech Physics Olympiad (Fyzikální olympiáda), category A, national round, theoretical problems · English translation' },
     { key: 'inpho', name: 'India', flag: '🇮🇳', file: 'INPhO-problems.json', kind: 'years', full: 'Indian National Physics Olympiad (HBCSE) · problems © HBCSE' },
     { key: 'russia', name: 'Russia', flag: '🇷🇺', file: 'Russia-VOS-problems.json', kind: 'years', full: 'All-Russian Olympiad in Physics, final stage, theoretical round, grades 9–11 · English translation' },
     { key: 'aso', name: 'Australia', flag: '🇦🇺', file: 'ASO-Physics-problems.json', kind: 'years', full: 'Australian Science Olympiad – Physics (Australian Science Innovations) · problems © ASI' },
@@ -2173,6 +2174,7 @@ const ORGS = {
     cpho: ['CPhO', 'the Chinese Physical Society', 'Chinese Physical Society', 'Chinese'],
     jpho: ['Physics Challenge (JPhO)', 'the Japan Physics Olympiad Committee (JPhO)', 'JPhO', 'Japanese'],
     poland: ['Olimpiada Fizyczna', 'the Komitet Główny Olimpiady Fizycznej', 'Komitet Główny Olimpiady Fizycznej', 'Polish'],
+    czech: ['Fyzikální olympiáda', 'the Central Committee of the Czech Physics Olympiad (Ústřední komise fyzikální olympiády)', 'Ústřední komise fyzikální olympiády (CC BY 3.0 CZ)', 'Czech'],
     greece: ['Panhellenic Physics Competition', 'the Hellenic Physical Society', 'Hellenic Physical Society', 'Greek'],
 };
 function orgCredit(p) {

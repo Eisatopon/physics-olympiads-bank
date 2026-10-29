@@ -2,6 +2,204 @@
  "competition": "Czech Republic — Physics Olympiad (Fyzikální olympiáda), category A, national round, theoretical problems",
  "years": [
   {
+   "year": 2006,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Rotating system",
+     "problem": "Problem 1: Rotating system\n\nA motor is fixed in a vertical position. One end of a rod of length $l$ and of negligible cross-section is attached to the lower end of the motor shaft by a pivot, so that the rod can rotate about the horizontal axis $o$ (Fig. 1). The rotor of the motor starts to rotate together with the axis $o$, and its angular velocity increases very slowly.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2006-1-fig1.png\n\nFig. 1\n\na) Explain why, in a real device, the rod deflects from the vertical position once a certain critical angular velocity $\\omega_0$ is exceeded.\n\nb) Determine how the deflection of the revolving rod from the vertical depends on the angular velocity of the rotor.\n\nc) Construct the graph of this dependence if $l = 0.50\\,\\mathrm{m}$. At what angular velocity does the deflection of the rod from the vertical reach $60^\\circ$?\n\nUse the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$. Neglect the effect of the surrounding air."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Satellite",
+     "problem": "Problem 2: Satellite\n\nAn Earth satellite of mass $m = 150\\,\\mathrm{kg}$ was placed on a circular orbit of radius $R = 6.70\\cdot10^{3}\\,\\mathrm{km}$.\n\na) What are its speed and its orbital period?\n\nb) What is the total mechanical energy of the satellite? (The potential energy at infinite distance is taken as zero.)\n\nc) How do the radius of the trajectory and the speed of the satellite change during one revolution if the upper layers of the atmosphere act on it with a drag force of magnitude $F = 7.50\\cdot10^{-3}\\,\\mathrm{N}$?\n\nSolve the problem first in general, then for the given numerical values. Mass of the Earth $M = 5.98\\cdot10^{24}\\,\\mathrm{kg}$, gravitational constant $\\varkappa = 6.67\\cdot10^{-11}\\,\\mathrm{N\\cdot m^2\\cdot kg^{-2}}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Periodic recharging of a capacitor",
+     "problem": "Problem 3: Periodic recharging of a capacitor\n\nAn electric circuit consists of a source of rectangular pulses, a switch, two resistors of resistances $r$ and $R$, and a capacitor of capacitance $C$ (Fig. 2). The rectangular pulses have amplitude $U_0$, duration $\\tau$ and period $T$ (Fig. 3). The internal resistance of the source is negligible. (Among other things, this means that when the terminal voltage of the source is zero, the source behaves as a short circuit.)\n\nWhen the switch is closed, after a long time the voltage across the capacitor will fluctuate about a constant mean value $U_C$, while the ripple $\\Delta U$, i.e. the difference between the largest and the smallest value of the instantaneous voltage across the capacitor during one period of the source, will be much smaller than the mean value $U_C$.\n\na) Under the given assumptions, determine $U_C$ and $\\Delta U$.\n\nb) Determine the condition that the quantities $R$, $r$, $C$, $\\tau$ and $T$ must satisfy for the assumption of the problem that $\\Delta U \\ll U_C$ to be ensured.\n\nc) Verify that this condition is satisfied if $R = 1.00\\,\\mathrm{M\\Omega}$, $r = 220\\,\\mathrm{k\\Omega}$, $C = 1.00\\,\\mathrm{\\mu F}$, $\\tau = 2.0\\,\\mathrm{ms}$, $T = 10.0\\,\\mathrm{ms}$ and $U_0 = 5.00\\,\\mathrm{V}$. Then calculate the numerical values of $U_C$ and $\\Delta U$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2006-3-fig1.png\n\nFig. 2\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2006-3-fig2.png\n\nFig. 3"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Magnifying glass",
+     "problem": "Problem 4: Magnifying glass\n\nWe observe a small object through a plano-convex magnifying glass of thickness $d = 30\\,\\mathrm{mm}$ made of glass with refractive index $n = 1.56$. The radius of the spherical surface of the magnifier is $R = -100\\,\\mathrm{mm}$; the object is at a distance $v = 50\\,\\mathrm{mm}$ from the plane surface of the magnifier (Fig. 4). Determine the position of the image formed by the magnifier and its lateral magnification.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2006-4-fig1.png\n\nFig. 4"
+    }
+   ]
+  },
+  {
+   "year": 2007,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Potential",
+     "problem": "Problem 1: Potential\n\nTwo point masses located in vacuum at a mutual distance $r$ carry negative electric charges $Q$ and $nQ$, where $n > 1$.\n\na) Determine the point of maximum electric potential on the line segment joining the two point masses, and the value of the potential there.\n\nb) An electron is placed at this point and is slightly displaced off the line joining the two point masses. Determine the limiting speed of the electron at a very large distance. Carry out the solution both classically and relativistically.\n\nSolve the problems first in general, then for the values $Q = -1.00\\,\\mathrm{\\mu C}$, $n = 5$, $r = 0.200\\,\\mathrm{m}$. Rest mass of the electron $m_0 = 9.109\\cdot10^{-31}\\,\\mathrm{kg}$, elementary charge $e = 1.602\\cdot10^{-19}\\,\\mathrm{C}$, speed of light in vacuum $c = 3.00\\cdot10^{8}\\,\\mathrm{m\\cdot s^{-1}}$, $k = 8.99\\cdot10^{9}\\,\\mathrm{N\\cdot C^{-2}\\cdot m^2}$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Binary star",
+     "problem": "Problem 2: Binary star\n\nAlgol (beta Persei) is an eclipsing binary star whose two components revolve about their common centre of mass on approximately circular trajectories with period $T = 2.867$ days. The speeds of the two components have magnitudes $v_1 = 44.5\\,\\mathrm{km/s}$ and $v_2 = 203\\,\\mathrm{km/s}$.\n\na) Determine the radii of their trajectories and express them in astronomical units ($1\\,\\mathrm{AU} = 1.50\\cdot10^{8}\\,\\mathrm{km}$).\n\nb) Determine the masses of the two components and compare them with the mass of the Sun ($m_\\odot = 1.99\\cdot10^{30}\\,\\mathrm{kg}$).\n\nc) Determine the magnitude of the gravitational forces with which the two components act on each other.\n\nd) The values $v_1$, $v_2$ were calculated from the results of spectroscopic measurements. It was also found that the radial velocity with which the centre of mass of Algol recedes from the Sun has magnitude $v_c = 3.7\\,\\mathrm{km/s}$. Within what range does the wavelength of a spectral line of potassium in the spectrum of the less massive component of Algol vary during long-term observation, if in the spectrum of potassium from a terrestrial source we measure the value $\\lambda_0 = 766.491\\,\\mathrm{nm}$? Consider the motion of the Earth around the Sun to be uniform with speed of magnitude $v_z = 30\\,\\mathrm{km/s}$; the line joining the Sun and Algol is inclined at the angle $\\beta = 11.5^\\circ$ to the plane of the ecliptic.\n\nThe gravitational constant is $\\varkappa = 6.67\\cdot10^{-11}\\,\\mathrm{N\\cdot m^2\\cdot kg^{-2}}$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Charger",
+     "problem": "Problem 3: Charger\n\nTo charge an accumulator with terminal voltage $U_\\mathrm{a} = 12.0\\,\\mathrm{V}$ from a power source with terminal voltage $U = 5.0\\,\\mathrm{V}$, we use the circuit shown in Fig. 1, consisting of a coil of inductance $L = 1\\,\\mathrm{H}$, a diode D and a switch S, which is alternately closed and opened for equal time intervals $\\tau_1 = \\tau_2 = 0.010\\,\\mathrm{s}$.\n\na) Determine and represent graphically how the instantaneous current $i$ through the coil, the instantaneous voltage $u_L$ across the coil and the instantaneous voltage $u_\\mathrm{D}$ across the diode vary with time.\n\nb) Determine the mean value of the current charging the accumulator.\n\nThe internal resistances of the power source and of the accumulator are negligible, and the terminal voltage of the accumulator increases only slightly during charging. Consider the coil to be ideal. Consider the diode to be ideal as well, i.e. the voltage across it in the forward direction is negligible and its resistance in the reverse direction is infinitely large.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2007-3-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Drop",
+     "problem": "Problem 4: Drop\n\nA wheel of radius $R = 1.00\\,\\mathrm{m}$ rotates with angular velocity $\\omega = 5.0\\,\\mathrm{rad\\cdot s^{-1}}$ about a horizontal axis located at height $H = 2.00\\,\\mathrm{m}$ above the ground. A drop flew off the wheel and landed at the point $B$ exactly below the centre of the wheel (Fig. 2).\n\na) Determine the time of flight of the drop and the position of the point $A$ at which it left the wheel.\n\nb) Determine the magnitude and direction of the velocity of impact.\n\nNeglect air resistance, $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2007-4-fig1.png\n\nFig. 2"
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Rolling of a ball on a carpet",
+     "problem": "Problem 1: Rolling of a ball on a carpet\n\nA homogeneous ball of mass $m = 7.00\\,\\mathrm{kg}$ and radius $r = 6.00\\,\\mathrm{cm}$ was rolling on a carpet on a horizontal floor. The motion was recorded photographically with a flash device whose flashes were repeated with period $\\tau = 2.00\\,\\mathrm{s}$. Three successive positions 1, 2, 3 of the ball were at mutual distances $s_1 = 2.10\\,\\mathrm{m}$, $s_2 = 1.10\\,\\mathrm{m}$ (Fig. 1). We assume that the motion of the ball was uniformly decelerated without slipping. Air resistance is negligible.\n\na) Where was the ball at the next flash?\n\nb) Determine the direction, the magnitude and the point of application of the resultant $\\boldsymbol{R}$ of the forces with which the particles of the carpet acted on the ball during the motion.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2008-1-fig1.png\n\nFig. 1\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Double lens",
+     "problem": "Problem 2: Double lens\n\nTwo plano-convex lenses placed on each other with their plane faces form a centred optical system (Fig. 2). The spherical surfaces of the lenses have radii $r_1 = 50\\,\\mathrm{mm}$ and $r_2 = 25\\,\\mathrm{mm}$; their rim circles have radii $\\varrho_1 = 14\\,\\mathrm{mm}$ and $\\varrho_2 = 7\\,\\mathrm{mm}$. The refractive index of the glass is $n = 1.55$. A point source of light is placed on the optical axis of the system at a distance $a = 200\\,\\mathrm{mm}$ in front of the first lens, and a screen perpendicular to the optical axis is placed behind the second lens. What must the distance $x$ of the screen from the plane faces of the two lenses be for the radius $\\varrho$ of the illuminated area of the screen to be as small as possible? Determine this smallest radius.\n\nSolve it as a problem on thin lenses.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2008-2-fig1.png\n\nFig. 2"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Solar photon radiation",
+     "problem": "Problem 3: Solar photon radiation\n\nThe solar radiation falling perpendicularly on $1\\,\\mathrm{m^2}$ of a plane surface in free space at a distance of $1\\,\\mathrm{AU}$ from the centre of the Sun has a power of $1365\\,\\mathrm{W}$. The Sun can be considered a perfectly black body, which absorbs all electromagnetic radiation falling on it and emits only its own radiation. According to the Stefan–Boltzmann law, the radiant exitance (i.e. the energy of the radiation leaving $1\\,\\mathrm{m^2}$ of the surface of the body in $1\\,\\mathrm{s}$) of such a body whose surface temperature is $T$ is\n\n$$H = \\sigma T^4, \\qquad \\text{where} \\quad \\sigma = 5.67\\cdot10^{-8}\\,\\mathrm{W\\cdot m^{-2}\\cdot K^{-4}}.$$\n\nAn observer on the surface of the Earth sees the diameter of the solar photosphere at an angle of $32'$; the radius of the Earth is $6371\\,\\mathrm{km}$, $1\\,\\mathrm{AU} = 149.6\\cdot10^{6}\\,\\mathrm{km}$.\n\na) Determine the total radiant power (luminosity) $L$ of the Sun.\n\nb) Determine the temperature $T_\\mathrm{s}$ of the solar photosphere.\n\nc) Determine the energy income of the solar radiation falling on the Earth in one day and in one year ($365.25$ days).\n\nd) At present there is talk of a project in which a power plant made of solar cells would be installed in the Sahara: let us assume that $40\\,\\%$ of the radiation that has reached the upper boundary of the atmosphere falls on the surface of the Earth after passing through the atmosphere. We further assume that existing solar cells have an efficiency of $12\\,\\%$. How large a maximum power $P_\\mathrm{max}$ would solar cells with an area of $1\\,\\mathrm{km^2}$ have?\n\ne) A spherical satellite is launched into an orbit around the Earth so that it is continuously illuminated by the Sun. The satellite will have good thermal conductivity and its coating will have properties close to those of the surface of a perfectly black body. Determine its temperature $T_\\mathrm{z}$. Neglect the radiation of the Earth falling on the satellite.\n\nf) Determine the temperature $T_\\mathrm{m}$ of the same satellite orbiting around Mars, if the mean distance of Mars from the Sun is $1.52\\,\\mathrm{AU}$.\n\ng) Within what limits does the temperature of the satellites of the Earth and of Mars from parts e) and f) vary, if the numerical eccentricities of the trajectories of the two planets are $\\varepsilon_\\mathrm{z} = 0.017$ and $\\varepsilon_\\mathrm{m} = 0.093$, respectively?"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Statically indeterminate system",
+     "problem": "Problem 4: Statically indeterminate system\n\nA homogeneous beam of constant cross-section and length $3a = 120\\,\\mathrm{cm}$, acted on by the gravitational force $F_G = 2000\\,\\mathrm{N}$, was placed in a horizontal position on two supports $\\mathrm{P_1}$, $\\mathrm{P_2}$. At the temperature $t_1 = 10\\,^\\circ\\mathrm{C}$, one of its ends was attached to a wall by a pivot, and the beam was suspended from the ceiling by means of two vertical elastic steel rods 1, 2 of length $l = 0.60\\,\\mathrm{m}$, attached at one third and at two thirds of the length of the beam (Fig. 3). The rods have a circular cross-section of area $S = 25.0\\,\\mathrm{mm^2}$, and after they were connected to the beam and to the ceiling, the stress in them was zero. After the assembly was completed, the supports were removed.\n\na) Assuming that the beam, the wall and the ceiling are perfectly rigid, determine the forces $\\boldsymbol{F}_1$, $\\boldsymbol{F}_2$ and $\\boldsymbol{F}_0$ with which the rods and the wall acted on the beam, the elongations $\\Delta l_1$, $\\Delta l_2$ of the two rods, the stresses $\\sigma_1$ and $\\sigma_2$ in the rods, and the deviation $\\varphi$ of the beam from the horizontal position.\n\nb) During operation of the device the temperature of the rods rose to $t_2 = 35\\,^\\circ\\mathrm{C}$, while the temperature of the wall and the ceiling and their dimensions did not change. How did the values of the quantities calculated in part a) change?\n\nc) At what temperature $t_3$ in both rods was the stress in rod 1 zero?\n\nYoung's modulus of steel is $E = 2.1\\cdot10^{11}\\,\\mathrm{Pa}$, the temperature coefficient of linear expansion of steel is $\\alpha = 1.5\\cdot10^{-5}\\,\\mathrm{K^{-1}}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2008-4-fig1.png\n\nFig. 3\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    }
+   ]
+  },
+  {
+   "year": 2009,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Motions in the planetary system",
+     "problem": "Problem 1: Motions in the planetary system\n\n(a problem for the International Year of Astronomy)\n\nOn the basis of measurements made from the surface of the Earth, astronomers found that the (sidereal) orbital period of the planet Mars is $T_\\mathrm{M} = 1.881$ years. The trajectory of the Earth can be considered a circle (the distance of the Earth from the Sun is $r_\\mathrm{Z} = 1.000\\,\\mathrm{AU}$), but the trajectory of Mars is elliptical with numerical eccentricity $0.0934$. Both trajectories lie approximately in the same plane.\n\na) From the given data determine the length of the semi-major axis $a$ and of the semi-minor axis $b$ of the trajectory of Mars, the distance $r_\\mathrm{a}$ of Mars from the Sun at aphelion and the distance $r_\\mathrm{p}$ at perihelion.\n\nb) Determine the areal velocity $w$ of Mars (i.e. the area swept by its radius vector per unit time), the magnitude $v_\\mathrm{a}$ of its velocity at aphelion and the magnitude $v_\\mathrm{p}$ of its velocity at perihelion. How does the ratio of the values $v_\\mathrm{p}$, $v_\\mathrm{a}$ depend on the numerical eccentricity of the trajectory of Mars?\n\nc) Determine the values $k_\\mathrm{sa}$, $k_\\mathrm{sp}$ of the solar constant in the vicinity of Mars at its passages through aphelion and perihelion, if the solar constant in the vicinity of the Earth is $k_\\mathrm{sZ} = 1\\,360\\,\\mathrm{W\\cdot m^{-2}}$. How does the ratio of the values $k_\\mathrm{sp}$, $k_\\mathrm{sa}$ depend on the numerical eccentricity of the trajectory of Mars?\n\nd) For a journey from the vicinity of the Earth to the vicinity of Mars, the energetically optimal motion is along a trajectory in the shape of an ellipse that touches the trajectory of the Earth from outside and the trajectory of Mars from inside. Sketch the situation. What would be the time of motion of the spacecraft from the vicinity of the Earth to the vicinity of Mars if at the moment of approach Mars were 1) at perihelion, 2) at aphelion?\n\nIn the solution take $1\\,\\mathrm{AU} = 1.496\\cdot10^{11}\\,\\mathrm{m}$, $1\\ \\text{year} = T_\\mathrm{Z} = 3.156\\cdot10^{7}\\,\\mathrm{s}$. In the result choose a \"reasonable\" number of significant figures."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Springs",
+     "problem": "Problem 2: Springs\n\nFig. 1 shows a system of two springs of negligible mass with stiffnesses $k_1$ and $k_2$, whose ends are connected by a homogeneous rod of constant cross-section of length $l$ and mass $m$. In the unloaded state (before their ends were connected by the rod) both springs had the same length. We hang a bag of shot of mass $M$ on the rod as a weight.\n\na) Determine the coordinate $x \\in \\langle 0; l\\rangle$ of the place on the rod where we must hang the weight so that the rod remains in the horizontal position. What will be the deformation of the two springs in this case?\n\nb) We remove the rod connecting the ends of the springs and divide all the shot into two bags of masses $m_1$ and $m_2$; we hang the first on the spring of stiffness $k_1$ and the second on the spring of stiffness $k_2$. What must the ratio $p = m_1/m_2$ be so that the extensions of both springs are equal?\n\nc) Derive a relation for the total elastic energy of both springs as a function of the ratio $p$. Determine for which value of $p$ this energy is minimal and for which it is maximal. Calculate its values.\n\nSolve first in general, then for the values $M = 500\\,\\mathrm{g}$, $m = 100\\,\\mathrm{g}$, $l = 20\\,\\mathrm{cm}$, $k_1 = 16\\,\\mathrm{N\\cdot m^{-1}}$, $k_2 = 32\\,\\mathrm{N\\cdot m^{-1}}$, $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2009-2-fig1.png\n\nFig. 1"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Cylinder with a piston",
+     "problem": "Problem 3: Cylinder with a piston\n\nA perfectly thermally insulated cylindrical vessel of total volume $V = 20.0\\,\\mathrm{dm^3}$ is divided into two parts by an easily movable piston of negligible mass (Fig. 2). Into the left part of the vessel we let hydrogen of mass $m_1 = 3.00\\,\\mathrm{g}$ and temperature $T_1 = 300\\,\\mathrm{K}$, into the right part oxygen of mass $m_2 = 16.0\\,\\mathrm{g}$ and temperature $T_2 = 400\\,\\mathrm{K}$. The piston conducts heat weakly and the temperatures in both parts of the vessel gradually equalize.\n\na) Determine the initial volumes $V_1$, $V_2$ of the hydrogen and the oxygen and the initial pressure $p_0$ of the gases in the vessel.\n\nb) Determine the temperature $T$, the pressure $p'$ and the volumes $V_1'$, $V_2'$ of the gases after the temperatures have equalized.\n\nc) Determine the heat that passes through the piston during the whole process.\n\nThe internal energy of $n$ moles of an ideal gas with diatomic molecules is $\\frac{5}{2}nRT$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2009-3-fig1.png\n\nFig. 2"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Three capacitors",
+     "problem": "Problem 4: Three capacitors\n\nThree identical capacitors of capacitance $C$ were connected in series to a source of terminal voltage $U$. After disconnecting the source, we simultaneously connect two resistors of the same resistance $R$ to the capacitors according to Fig. 3.\n\na) At what value will the voltage on the individual capacitors settle?\n\nb) What heat is released during the transient process in each of the resistors?\n\nc) Explain why at a certain instant the voltage on the middle capacitor will be zero. What current will flow through the resistors at that instant?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2009-4-fig1.png\n\nFig. 3"
+    }
+   ]
+  },
+  {
+   "year": 2010,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Pushing a small vessel under the water surface",
+     "problem": "Problem 1: Pushing a small vessel under the water surface\n\na) Into a vessel with water we slowly push a small cylindrical vessel turned bottom up (Fig. 1). The bottom of the small vessel has area $S$; the height $l$ of the small vessel is much smaller than the height $H$ of the water column that would produce a hydrostatic pressure equal to the barometric pressure $p_0$. At the beginning the small vessel touches the water surface and it descends down to the depth $h = l$. Prove that the height $h_1$ to which the water level inside the small vessel rises above its rim is approximately directly proportional to the depth $h$ of the rim of the small vessel below the surrounding water surface, and determine the constant of proportionality $k_1$.\n\nb) We perform the same experiment with a flask with a narrow cylindrical neck of length $l \\ll H$ and inner cross-section of area $S$ (Fig. 2). The volume of the flask including the neck is $V_0$. Prove that in this case too the height $h_1$ is approximately directly proportional to the depth $h$, and determine the constant of proportionality $k_2$. What must the diameter $d$ of the neck be for the given volume $V_0$ so that $h_1 \\approx h/2$ holds?\n\nSolve the problem in general and then problem a) for the values $p_0 = 1.00\\cdot10^5\\,\\mathrm{Pa}$, $S = 50\\,\\mathrm{cm^2}$, $l = 20\\,\\mathrm{cm}$, problem b) for the values $p_0 = 1.00\\cdot10^5\\,\\mathrm{Pa}$, $l = 20\\,\\mathrm{cm}$, $V_0 = 1.00\\,\\mathrm{dm^3}$. The density of water is $\\varrho = 998\\,\\mathrm{kg\\cdot m^{-3}}$; neglect the influence of water vapour in the vessels.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2010-1-fig1.png\n\nFig. 1\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2010-1-fig2.png\n\nFig. 2\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Charging an accumulator from a source of lower voltage",
+     "problem": "Problem 2: Charging an accumulator from a source of lower voltage\n\nTo charge an accumulator of electromotive voltage $U_\\mathrm{e} = 12.0\\,\\mathrm{V}$ from a source of terminal voltage $U = 5.0\\,\\mathrm{V}$ and negligible internal resistance, we use the circuit according to Fig. 3, consisting of a coil of inductance $L = 1.0\\,\\mathrm{H}$, a diode D and an interrupter S, which is periodically switched on and off in equal time intervals $\\tau_1 = \\tau_2 = 0.010\\,\\mathrm{s}$.\n\na) Determine and represent graphically how the current through the coil will vary with time.\n\nb) Determine the mean value of the current charging the accumulator.\n\nConsider the coil and the diode to be ideal; neglect the internal resistance of the accumulator.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2010-2-fig1.png\n\nFig. 3\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Spot",
+     "problem": "Problem 3: Spot\n\nA point source of light Z is at the distance $l$ from a screen S. Between the source and the screen we place, according to Fig. 4, a thin converging lens of focal length $f > l/4$ and diameter $M$.\n\na) Explain why a sharp image of the source cannot be formed on the screen.\n\nb) What must the distance $a$ of the lens from the source be so that the diameter $m$ of the light spot on the screen is as small as possible? Determine its size.\n\nWe neglect the spherical aberration of the lens.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2010-3-fig1.png\n\nFig. 4\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Landing of a fighter plane",
+     "problem": "Problem 4: Landing of a fighter plane\n\nA fighter plane of mass $m = 6\\,500\\,\\mathrm{kg}$ lands on a horizontal airfield surface and touches down on it with speed $v_0 = 180\\,\\mathrm{km/h}$.\n\na) At the moment of contact with the landing surface the pilot activates the brakes, which act on the aircraft with a force of constant magnitude $F_0 = 9.0\\,\\mathrm{kN}$. Calculate the length $s_0$ of the landing run if you neglect the aerodynamic drag forces.\n\nb) If the fighter is to land at an airfield with a short runway, the pilot must, at the contact with the airfield surface, in addition to activating the brakes as in a), fire 3 landing parachutes. Then the magnitude of the total braking force is\n\n$$F = F_0 + Av^2,$$\n\nwhere $A = 25\\,\\mathrm{kg\\cdot m^{-1}}$. Calculate the magnitude $a_1$ of the deceleration of the aircraft at the initial instant of landing. Express the result as a multiple of the gravitational acceleration.\n\nc) Derive the functional dependence $v = v(x)$ of the speed of the fighter according to b) on the distance $x$ from the point of touchdown on the airfield surface.\n\nd) Calculate the length $s_1$ of the landing run when the landing parachute is used.\n\ne) What diameter must each of the three identical parachutes in the shape of a hollow hemisphere have so that the constant $A$ has the given value? (Drag coefficient $C = 1.4$, density of air $\\varrho = 1.3\\,\\mathrm{kg\\cdot m^{-3}}$.)\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    }
+   ]
+  },
+  {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Problem 1: Rotation of a bifilar suspension",
+     "problem": "Problem 1: Rotation of a bifilar suspension\n\nA small ball of mass $m = 100\\,\\mathrm{g}$ with an eyelet was hung on a bifilar suspension fixed symmetrically on a holder in the shape of an inverted letter T rotatable about the vertical axis $o$. The two halves of the thread made the angle $2\\alpha = 45^\\circ$ with each other (Fig. 1). The centre of the ball was at the distance $l = 30\\,\\mathrm{cm}$ from the centre of the holder and its lowest point was at the height $H = 1.00\\,\\mathrm{m}$ above the horizontal floor of the room. The suspension started to rotate and the frequency of rotation increased very slowly. At a certain frequency $f_0$ the original equilibrium position of the ball ceased to be stable and the ball started to move along a circular trajectory whose radius gradually increased (Fig. 2). At the instant when the deviation $\\varphi$ of the plane of the bifilar suspension from the axis of rotation reached the value $\\varphi_1 = 65^\\circ$, the thread broke. Determine\n\na) the frequency $f_0$,\n\nb) with what force $F_1$ the thread was stretched at the instant of breaking,\n\nc) at what distance $d$ from the axis of rotation the ball hit the floor.\n\nSolve in general and then for the given values of the quantities. Neglect the deformation of the thread by the tensile force.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2011-1-fig1.png\n\nFig. 1\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2011-1-fig2.png\n\nFig. 2\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Problem 2: Particle in an electric field",
+     "problem": "Problem 2: Particle in an electric field\n\nEach of four point masses located at the vertices of a square of side length $a$ in vacuum has an electric charge $Q$ of the same sign.\n\na) Consider the $x$ axis identical with the axis of symmetry of the square perpendicular to the plane of the square, with its origin at the centre of the square. Find the coordinate $x_\\mathrm{m}$ of the point of the axis where the electric field strength is maximal. Determine the magnitude $E_\\mathrm{max}$ of this field strength in general and numerically.\n\nb) At the centre of the square we place a particle of rest mass $m_0$ and with charge $q$ of the same sign as the charge $Q$, and we displace it slightly perpendicularly to the plane of the square. Determine the limiting magnitude of the velocity of the particle at a very large distance. Solve in general both classically and relativistically.\n\nc) Calculate the magnitude of the velocity from problem b) for an alpha particle with charge $q = 2e$ and rest mass $m_\\alpha = 6.644\\cdot10^{-27}\\,\\mathrm{kg}$ and for an electron with charge $q = -e$ and rest mass $m_e = 9.109\\cdot10^{-31}\\,\\mathrm{kg}$.\n\nFurther values for the numerical solutions: $|Q| = 1.80\\cdot10^{-7}\\,\\mathrm{C}$, $a = 4.00\\cdot10^{-2}\\,\\mathrm{m}$, $e = 1.602\\cdot10^{-19}\\,\\mathrm{C}$, $k = \\dfrac{1}{4\\pi\\varepsilon_0} = 8.99\\cdot10^{9}\\,\\mathrm{N\\cdot C^{-2}\\cdot m^2}$, $c = 3.00\\cdot10^{8}\\,\\mathrm{m\\cdot s^{-1}}$.\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Problem 3: Imaging system",
+     "problem": "Problem 3: Imaging system\n\nWe use a centred system of two thin converging lenses of focal lengths $f_1$ and $f_2$. Just in front of the first lens we place an object and start to move it away with constant velocity $\\boldsymbol{v}$ in the direction of the optical axis (Fig. 3).\n\na) What must the distance $d$ between the centres of the lenses be so that the transverse magnification of the final image is always the same?\n\nb) Determine what in that case is the functional dependence of the distance $a_2'$ of the final image from the second lens on the distance $a_1$ of the object from the first lens, and construct its graph. When will the final image be real? Determine the velocity $\\boldsymbol{v}'$ of the motion of the final image.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/czech-2011-3-fig1.png\n\nFig. 3\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Problem 4: Sinking of a shot",
+     "problem": "Problem 4: Sinking of a shot\n\nAn athletics shot of mass $m = 7.26\\,\\mathrm{kg}$, made of steel of density $\\varrho_\\mathrm{k} = 7\\,800\\,\\mathrm{kg\\cdot m^{-3}}$, is placed below the surface of a deep water reservoir and released.\n\na) What terminal velocity will the shot reach during its sinking to the bottom?\n\nb) What velocity will the shot gain during the first second of sinking and how deep will it sink in this time?\n\nSolve problem b) by numerical modelling with the Euler method with time step $h = 0.1\\,\\mathrm{s}$. We assume that the Newton formula $F_\\mathrm{o} = \\frac{1}{2}CS\\varrho v^2$ holds for the drag of the medium. Density of water $\\varrho = 1\\,000\\,\\mathrm{kg\\cdot m^{-3}}$, drag coefficient $C = 0.48$.\n\n[Editorial note: the paper states for all problems: \"In all problems use the gravitational acceleration $g = 9.81\\,\\mathrm{m\\cdot s^{-2}}$.\"]"
+    }
+   ]
+  },
+  {
    "year": 2012,
    "problems": [
     {

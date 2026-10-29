@@ -2,6 +2,296 @@
  "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
  "years": [
   {
+   "year": 2013,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhat is the sum of the series $\\dfrac{2}{3}-\\dfrac{2}{9}+\\dfrac{2}{27}-\\ldots$? [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nIf $y=\\sqrt{x\\nu}$ and $(y-\\sqrt{x})^2=u$, find an expression for $x$ in terms of $u$ and $\\nu$. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\n50 people are in a room. 8 people in the room have red hair, 3 people have black hair and 20 people are male. You may assume that hair colour and gender are independent.\n\n(a) If a person is selected at random from the room, what is the probability that they will be a female with red hair?\n\n(b) If a person is selected at random from the room, what is the probability that they will be a male who does not have red or black hair?\n\n[3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nConsider the function $f(x)=x^3-x^2-4x+4$\n\n(a) Show that $x=1$ is a root of $f(x)=0$ and hence factorise $f(x)$ to find the remaining roots.\n\n(b) Having found the roots of $f(x)=0$, find the area bounded by the curve $f(x)$ and the $x$-axis between the two smallest roots.\n\n[5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nIf $x=\\log_{10}100+\\log_5\\sqrt{25}-\\log_3 y^2$ and\n\n$$\\frac{x}{2}=\\log_2 8-9\\log_{10}\\sqrt{10}+2\\log_3 y$$\n\nfind $x$ and $y$. [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nFind the equation of the straight line that passes through the centres of the two circles: $x^2+4x+y^2-2y=-1$ and $x^2-4x+y^2-6y=3$ [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nHow many terms in the binomial expansion would be needed to determine $(3.12)^5$ to one decimal place? [4 marks]\n\n[Editorial note: the paper's general instructions state that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nSketch the regions in the $xy$ plane defined by the inequalities: $1<xy<2$ and $\\dfrac{1}{2}<\\dfrac{y}{x}<2$ [7 marks]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\n(a) Sketch $y=\\exp(-x)$\n\n(b) Sketch $y=3\\{\\exp[-2(x-1)]-2\\exp[-(x-1)]\\}$ for $x>0$\n\n[$\\exp(x)$ is defined as $\\exp(x)\\equiv \\mathrm{e}^x$] [8 marks]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nIn the figure below, all triangles are equilateral. Find the shaded area in terms of $r$. [7 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2013-10-fig1.png\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nAn ideal transformer has 100 turns on the primary coil. It is connected to an alternating supply of $100\\,\\mathrm{V}$, $2.4\\,\\mathrm{A}$. How many turns are required on the secondary coil to supply $4.8\\,\\mathrm{A}$? [2 marks]\n\n(A) 25 turns\n\n(B) 50 turns\n\n(C) 75 turns\n\n(D) 200 turns"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA radioactive sample contains two different isotopes, A and B. A has a half-life of 3 days, B has a half-life of 6 days. Initially in the sample there are twice as many atoms of A as of B. At what time will the ratio of the number of atoms of A to B be reversed? [2 marks]\n\n(A) 3 days\n\n(B) 6 days\n\n(C) 12 days\n\n(D) ratio will never be reversed"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nConsider the resistor network shown below. What is the overall resistance between A and B? [2 marks]\n\n(A) $2R/7$\n\n(B) $R/2$\n\n(C) $3R/2$\n\n(D) $7R/2$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2013-13-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nTwo satellites are in orbit around the Earth. The first is in a geostationary orbit, the second satellite orbits at a radius half that of the first. What is the period of the second satellite? [2 marks]\n\n(A) approx. 4.3 hours\n\n(B) approx. 8.5 hours\n\n(C) approx. 17.0 hours\n\n(D) approx. 72.0 hours"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nYou are in a desert and discover a radio mast. $100\\,\\mathrm{m}$ from the mast you measure $20\\,\\mathrm{W}$ of power from the transmitter. If you require a minimum power level of $1\\,\\mathrm{mW}$, how far can you go away from the mast and still obtain the minimum power? You may assume the transmitter acts like a point source. [2 marks]\n\n(A) $1/(10\\sqrt{2})\\,\\mathrm{km}$\n\n(B) $\\sqrt{20}\\,\\mathrm{km}$\n\n(C) $10\\sqrt{2}\\,\\mathrm{km}$\n\n(D) $20\\,\\mathrm{km}$"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA four wheeled car, of mass $1000\\,\\mathrm{kg}$, rests on the ground. If each tyre is inflated to $2\\,\\mathrm{bar}$ (where $1\\,\\mathrm{bar}=100\\,\\mathrm{kPa}$), what area of each tyre is in contact with the ground? (Assume a uniform distribution of mass across the car.) [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures, that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used, and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nTwo masses, $m$ and $M$, are connected by a massless string of fixed length on a slope inclined at an angle $\\alpha$ as sketched in the figure below. The pulley $P$ is massless. Ignoring friction, calculate the acceleration of mass $m$ and the tension of the string. What is the condition for the masses to be stationary? [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2013-17-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA projectile of mass $0.2\\,\\mathrm{kg}$ and speed $122\\,\\mathrm{m\\,s^{-1}}$ hits a ball of mass $12\\,\\mathrm{kg}$ hanging on a massless string of fixed length, as sketched in the figure below. The projectile was moving at the height of the centre of the ball and after hitting the ball it stops inside the ball, i.e. it becomes stationary with respect to the ball. What is the maximum height that the ball (with the projectile inside) will reach above its original position? [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2013-18-fig1.png\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures, that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used, and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA monochromatic point light source of wavelength $\\lambda$ is shining through two narrow slits separated by a distance $d$ ($d$ is of the order of $\\lambda$) on a screen which is a distance $D$ away ($D\\gg d$) from the slits. Sketch the pattern of light intensity observed on the screen. Explain why there are minima and maxima. If $\\lambda$ corresponds to red light, what would the pattern look like for green light; make a sketch on the same scale. [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nAn explorer tests her gas fuelled cooking stove before setting off on an expedition. She has a pot which has a square base of side $10\\,\\mathrm{cm}$ and height $15\\,\\mathrm{cm}$. Starting from $20\\,^\\circ\\mathrm{C}$, how much energy is required to heat the water in a totally full pot to boiling point? (You may assume the specific heat capacity of water is $4.2\\,\\mathrm{kJ\\,kg^{-1}\\,K^{-1}}$ and the density of water is $1\\,\\mathrm{g\\,cm^{-3}}$. You may also neglect the specific heat capacity of the pot.) [4 marks]\n\nThe explorer now goes up Mount Everest. She discovers that the boiling point of water decreases by $1\\,^\\circ\\mathrm{C}$ every $300\\,\\mathrm{m}$. What physical effect causes this reduction in boiling point? [1 mark]\n\nWhen she reaches $6000\\,\\mathrm{m}$ she uses her stove to make a cup of tea. Her mug only requires $100\\,\\mathrm{g}$ of water. How much energy will it take to boil the water and make the cup of tea (assuming it is $10\\,^\\circ\\mathrm{C}$ in her tent at $6000\\,\\mathrm{m}$)? [2 marks]\n\nShe discovers there is a problem with her stove and it now only produces $50\\,\\%$ of the power it did at sea level. If a full pot took 15 minutes to reach boiling point at sea level, how long will it take to boil the water for the cup of tea? [3 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA particle of mass $m$ moves with a velocity $v_0$ along the positive $x$ direction before entering a region of length $d$ where it is accelerated by a constant force $f$ acting along the direction $x$.\n\n(a) What is the velocity of the particle as it leaves the region of the acceleration? [1 mark]\n\nAfter being accelerated, the particle travels a distance $D$ and then enters a region where a force of a magnitude $F$ proportional to its speed $v$ acts on it, $F=\\alpha v$ and $\\alpha>0$ is constant. As sketched below, the force acts in the plane of the figure, and is perpendicular to the velocity at every point on the particle trajectory. A detector is placed as shown below, extending downwards, from the point of the entry to the region were the force is acting, along the direction $y$. (There is no gravitational force involved.)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2013-21-fig1.png\n\n(b) Derive an expression for the $y$ coordinate where the particle is detected. [4 marks]\n\nNow, instead of one particle, there are many particles, initially following the same path as the first particle with speeds $v$, ranging between $v_1$ and $v_2$, at the point of entry to the region where the force $F$ is acting. The detector has a CCD like structure, meaning it is segmented into pixels of size $\\Delta y$, the same for all $y$.\n\n(c) What is the minimal spread of the speeds $\\Delta v>0$ such that $v$ and $v+\\Delta v<v_2$ are resolved by the detector? [2 marks]\n\n(d) For a given particle, how much work is done by both the forces involved from when the particle enters the accelerator until it strikes the detector? [3 marks]"
+    }
+   ]
+  },
+  {
+   "year": 2014,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA jar contains buttons of four different colours. There are twice as many yellow as green, twice as many red as yellow and twice as many blue as red. What is the probability of taking from the jar:\n\na) a blue button\n\nb) a red button\n\nc) a yellow button\n\nd) a green button\n\n(You may assume that you are only taking one button at a time and replacing it in the jar before selecting the next colour.) [4 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nWhat is the sum of the following terms:\n\n$$1+e^{-x}+e^{-2x}+\\ldots$$\n\nOver what range of $x$ is the solution valid? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nEvaluate the integrals:\n\na) $\\displaystyle\\int_0^{\\pi/2}\\frac{\\cos x}{1+\\sin x}\\,\\mathrm{d}x$\n\nb) $\\displaystyle\\int_0^{2}\\frac{x}{x^2+6x+8}\\,\\mathrm{d}x.$\n\n[6 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nWhat is the coefficient of $x^7$ in the expansion of $(1+2x)^4(1-2x)^6$? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nConsider the shape shown below. What is the area of the equilateral triangle (with length of side $=2r$) which is not enclosed within the circles (each with radius $=r$), and which is shown shaded black in the figure? [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-5-fig1.png\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nYou want to make a snowman out of modelling clay. The snowman consists of 2 spheres, where one sphere has a radius $r$, the other has a radius $2r$. The modelling clay comes in the form of a cylinder with radius $r/2$. What length of modelling clay is required to make the snowman? [5 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nSketch the region defined by:\n\n$$y\\le x^2\\quad\\text{and}\\quad 4\\ge y\\ge 0\\quad\\text{and}\\quad y\\ge 2x-4.$$\n\nEvaluate the area defined by the above inequalities. [7 marks]\n\n[Editorial note: the paper's general instructions state that answers in Part A should be given exactly unless indicated otherwise; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIf $f(x)=e^x$ for $x<0$ and $f(x)=e^{-x}+2x$ for $x\\ge 0$, sketch the function $f(x)$ and its first, second and third derivatives. [8 marks]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nFind the equations of the tangents drawn from the point $(-4,3)$ to the circle $x^2+y^2=5$. [7 marks]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nExcluding Pluto, for the planets in our solar system, in order of increasing mean distance from the Sun, which of the following statements is/are correct?\n\ni) the duration of the day on each planet increases\n\nii) the duration of the year on each planet increases\n\niii) the size/volume of the planets increases\n\niv) the number of moons of each planet increases\n\nv) the planets change from rocky to gas giants\n\n(A) statements i) and ii) and v)\n\n(B) statement ii) only\n\n(C) statements iii) and iv)\n\n(D) statements ii) and v)\n\n[2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nIn which part of the Electromagnetic Spectrum do waves have a frequency of approx. $100\\,\\mathrm{GHz}$?\n\n(A) X rays\n\n(B) visible light\n\n(C) microwave\n\n(D) radio wave\n\n[2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nAn object with small mass becomes detached from the International Space Station (ISS) while it orbits the Earth. Its relative velocity with respect to the ISS can be neglected. Would the object\n\n(A) follow ISS in its orbit\n\n(B) go straight along a direction tangential to ISS orbit at the point when it became detached\n\n(C) fall straight down towards the Earth\n\n(D) stay still with respect to the Earth\n\n[2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nGiven the circuit below, where all resistors have the same value ($=R$), what is the resistance between A and B? [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-13-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA mass $m$ is attached to a spring $S$ (as sketched in figure a below) and oscillates with a period $T$. What would be the period of the oscillation if two springs $S$ are connected in series (figure b) or in parallel (figure c)?\n\nWhat would be the period of the oscillations in case (a) on a planet with surface gravity $2g$? [4 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-14-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nAn electric motor is lifting a mass via a system of pulleys as sketched below. The motor is powered by a voltage source of $230\\,\\mathrm{V}$. The diameter of the motor winding reel is $D=5\\,\\mathrm{cm}$ and a mass $m=100\\,\\mathrm{kg}$ is being lifted with a speed $u=0.5\\,\\mathrm{m/s}$. The masses of the pulleys and the string can be neglected.\n\nWhat is the electric current driving the motor?\n\nWhat is the angular velocity of the motor's winding reel?\n\nWhat is the force $F$ with which the motor is pulling? [5 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-15-fig1.png\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures and that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used; no calculators, tables or formula sheets may be used.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nTwo diodes are connected as sketched below. Sketch the current flowing between points C and D as a function of voltage applied between points C and D.\n\nA sensitive amplifier is connected to terminals E and F to measure small electric signals from an instrument connected to terminals A and B. From time to time there are discharges in the instrument which might destroy the amplifier if the amplifier is connected to the instrument directly, without the diodes. Explain briefly how the diodes protect the amplifier. [4 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-16-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nFor this question you may assume that the electrostatic potential energy of two positively charged particles (with charge $+Q_1$ and $+Q_2$) separated by a distance $x$ is given by\n\n$$k\\frac{Q_1Q_2}{x}$$\n\nwhere $k$ is a constant.\n\nTwo charged particles are placed a distance $d$ apart from each other. One has charge $=+Q$ and mass $=m$, whilst the other has charge $=+2Q$ and mass $=2m$. The charges are initially held stationary, but are then released. Find an expression for the maximum speed of the particle with mass $=2m$. [6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nThis question concerns total internal reflection, optical fibres and refraction. You may assume that the refractive index of glass is larger than that of water, and that the refractive index of water is larger than that of air.\n\na) Explain what is meant by the phrases “total internal reflection” and “critical angle”. (You are encouraged to use a diagram to explain your answer.) [2 marks]\n\nb) Derive an equation relating the critical angle and the refractive indices of two materials, $n_1$ and $n_2$ where $n_2<n_1$. [2 marks]\n\nc) An optical fibre is usually made of two materials - a core and a cladding as shown in the diagram below (not drawn to scale).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-18-fig1.png\n\nLight may only be transmitted along the fibre if the incident angle of the light is less than a maximum angle $\\theta_{\\max}$. By using your expression from part b) and Snell's law, or otherwise, derive an expression for $\\theta_{\\max}$ in terms of the core and cladding refractive indices only. [3 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-18-fig2.png\n\nd) In an experiment, light is transmitted along the glass fibre before leaving at a perfectly vertical end. A screen is placed a long distance away from the end of the fibre and a uniform circular spot is seen as shown above.\n\nA small glass tank containing water is placed in front of the beam so it perfectly touches the end of the fibre. You may assume the tank is parallel to the screen. On a copy of the above diagram, sketch how the extent of the spot on the screen changes. [2 marks]\n\ne) The tank is kept in place and now white light is used instead of a laser. What will the image now look like? [1 mark]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nTwo masses $m_1$ and $m_2$ are connected by a massless, non-extensible string supported by a massless pulley attached to a table with a hole in the middle; see sketch below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2014-19-fig1.png\n\na) Assuming no friction, derive an expression for the acceleration of the masses and for the tension of the string. [2 marks]\n\nNow and for the rest of this question, consider friction acting on the table but not on the pulley. Friction force $F_{fr}$ is proportional to the mass's weight; $F_{fr}=\\mu_s mg$ or $F_{fr}=\\mu_d mg$ depending whether the mass is at rest ($\\mu_s=$ static friction coefficient) or in motion ($\\mu_d=$ dynamic friction coefficient). Both coefficients are known.\n\nb) Derive expressions for the acceleration of the masses and for the tension of the string. What condition needs to be satisfied for $m_1$ to accelerate? [3 marks]\n\nc) The table on which the mass $m_1$ is resting is now rotating about the vertical axis going through the middle of the table with angular speed $\\omega$. Assuming that the object with mass $m_1$ can be treated as point like, derive expressions for the minimal, $r_{\\min}$, and maximal, $r_{\\max}$, distance between $m_1$ and the axis of rotation such that for $r_{\\min}<r<r_{\\max}$, $m_1$ will not be moving radially. [5 marks]"
+    }
+   ]
+  },
+  {
    "year": 2015,
    "problems": [
     {

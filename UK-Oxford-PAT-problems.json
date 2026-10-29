@@ -2,6 +2,338 @@
  "competition": "UK — Oxford Physics Aptitude Test (PAT), University of Oxford",
  "years": [
   {
+   "year": 2017,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nDifferentiate $y=2x\\cos x$ with respect to $x$: [2 marks]\n\n(A) $-2\\sin x$\n\n(B) $2\\cos x$\n\n(C) $2\\cos x+2x\\sin x$\n\n(D) $2\\cos x-2x\\sin x$\n\n(E) $-2x\\sin x$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nWhich equation has the same solutions as $2x^2-2x-12=0$? [2 marks]\n\n(A) $(x+2)(x-3)=0$\n\n(B) $2(x-2)(x+3)=0$\n\n(C) $(x-6)(x+1)=0$\n\n(D) $(x-1-2\\sqrt{10})(x-1+2\\sqrt{10})=0$\n\n(E) $(x-2-\\sqrt{10})(x-2+\\sqrt{10})=0$"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nEvaluate the following sum:\n\n$$\\sum_{n=0}^{10}\\left(-e^{-1}\\right)^n$$\n\n[2 marks]\n\n(A) $\\dfrac{1}{1+e^{-1}}$\n\n(B) $\\dfrac{1-e^{-10}}{1-e^{-1}}$\n\n(C) $\\dfrac{1+e^{-10}}{1+e^{-1}}$\n\n(D) $\\dfrac{1+e^{-9}}{1-e^{-1}}$\n\n(E) $\\dfrac{1+e^{-11}}{1+e^{-1}}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\nIf\n\n$$a^{3-x}b^{5x}=a^{x+5}b^{3x}$$\n\nwith $a$ and $b$ both real and positive, and $a\\neq b$, what is $x$? [2 marks]\n\n(A) $\\dfrac{2\\log(a-b)}{\\log b}$\n\n(B) $2\\log a-\\log b$\n\n(C) $\\dfrac{2\\log b}{\\log a-\\log b}$\n\n(D) $\\dfrac{\\log a}{\\log b-\\log a}$\n\n(E) $\\dfrac{\\log a+\\log b}{\\log a}$"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nWhich of the following integrals are equal to zero?\n\n$$\\begin{aligned} I_1 &= \\int_{-1}^{1} x^3\\,dx\\\\ I_2 &= \\int_{-\\infty}^{\\infty} e^{-x^2}\\,dx\\\\ I_3 &= \\int_{-\\pi}^{\\pi} x\\sin x\\,dx\\\\ I_4 &= \\int_{-\\pi/2}^{\\pi/2} x\\cos x\\,dx \\end{aligned}$$\n\n[2 marks]\n\n(A) None of these\n\n(B) $I_1$ and $I_4$\n\n(C) $I_1$, $I_2$, and $I_4$\n\n(D) $I_2$, $I_3$, and $I_4$\n\n(E) All of these"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nThe graph below could represent which of the following functions? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2017-6-fig1.png\n\n(A) $\\dfrac{1}{x-1}+\\dfrac{2}{x+3}$\n\n(B) $\\dfrac{-1}{x^2-2x+3}$\n\n(C) $\\dfrac{1}{x^2+2x-3}$\n\n(D) $\\dfrac{1}{x^2-1}+\\dfrac{2}{x+3}$\n\n(E) $\\dfrac{3}{x^2-9}$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nAn astronaut on the surface of the Moon lightly tosses a ball of mass $m$ upward. What happens to the ball? [2 marks]\n\n(A) The ball enters an orbit around the Earth.\n\n(B) The ball eventually falls toward the Earth, burning up in the atmosphere.\n\n(C) The ball falls to the surface of the Moon.\n\n(D) The ball rises slowly until it hovers above the astronaut.\n\n(E) The ball enters an orbit around the Moon."
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIn which of the following lists are the parts of the electromagnetic spectrum ordered correctly from shortest wavelength (at the top) to longest wavelength (at the bottom)? [2 marks]\n\n(A) ultraviolet, X-ray, visible, radio, infrared\n\n(B) X-ray, ultraviolet, visible, radio, infrared\n\n(C) ultraviolet, X-ray, visible, infrared, radio\n\n(D) infrared, radio, visible, ultraviolet, X-ray\n\n(E) X-ray, ultraviolet, visible, infrared, radio"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nWhat is the value of the current $I$ in the circuit below? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2017-9-fig1.png\n\n(A) $\\dfrac{V}{4R}$\n\n(B) $\\dfrac{3V}{5R}$\n\n(C) $\\dfrac{4V}{3R}$\n\n(D) $\\dfrac{5V}{3R}$\n\n(E) $\\dfrac{3V}{4R}$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA capacitor is constructed with two conducting plates of equal area $A$ separated by an insulator. The capacitance is measured to be $C$.\n\nThe conducting plates are then shrunk to half the original area. What is the capacitance now? [2 marks]\n\n(A) $\\dfrac{C}{2}$\n\n(B) $C$\n\n(C) $2C$\n\n(D) $C^2$\n\n(E) $\\dfrac{1}{C^2}$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nConsider the pulley system below supporting an object with mass $m$. Assume gravitational acceleration to be $g$, that the pulleys are massless and frictionless, and the string is massless and inextensible. With how much force $F$ must the string be pulled to keep the mass at the same height? [2 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2017-11-fig1.png\n\n(A) $\\dfrac{mg}{3}$\n\n(B) $\\dfrac{mg}{2}$\n\n(C) $mg$\n\n(D) $2mg$\n\n(E) $3mg$"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA particle with charge $q$ and initial speed $v$ is stopped by a potential difference $V$ in a distance $d$ and time $t$. What was its initial momentum? [2 marks]\n\n(A) $\\dfrac{qVt}{d}$\n\n(B) $\\dfrac{qV}{v}$\n\n(C) $\\dfrac{qVd}{t}$\n\n(D) $2qVv$\n\n(E) $\\dfrac{qV}{2v}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nExpand $(3+2x)^5$ as a sum of powers of $x$. [3 marks]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nPerson A is busy for 50% of the week, Person B 75%, and Person C 20%. If a time for a meeting is picked at random, what is the probability that (a) all three people are busy, and (b) all three people can attend the meeting? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA spring with spring constant $k$ and natural length $L$ joins two blocks of mass $m$ and $M$. The two blocks lie on a horizontal table, initially $L$ apart. The maximum force for static friction between a block and the table is given by the coefficient of static friction $\\mu_s$ multiplied by the block's weight.\n\nHow far must the mass $M$ be displaced to cause mass $m$ to move? [5 marks]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA cone has a height equal to the diameter of a sphere. If the volumes of the two objects are equal, and the radius of the sphere is $r$, what is the radius of the base of the cone? [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA parachutist jumps out of a plane at height $h$. She is subject to air resistance with a force of $-\\alpha v^2$. The equation of her motion is given by\n\n$$m\\frac{dv}{dt}=mg-\\alpha v^2.$$\n\nWhat are the units of $\\alpha$?\n\nCalculate the terminal velocity of the parachutist.\n\nEstimate how much work is done by the air resistance as she falls, assuming that she is falling at near terminal velocity by the time she reaches the ground. [7 marks]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nConsider two sound waves travelling with the same speed and amplitude but having similar but slightly different wavelengths, $\\lambda_1$ and $\\lambda_2$, and angular frequencies, $\\omega_1$ and $\\omega_2$. The two waves are described with the functions\n\n$$\\begin{aligned} y_1(x,t) &= A\\cos\\left(\\frac{2\\pi x}{\\lambda_1}-\\omega_1 t\\right)\\\\ y_2(x,t) &= A\\cos\\left(\\frac{2\\pi x}{\\lambda_2}-\\omega_2 t\\right). \\end{aligned}$$\n\nWhat is the speed $v$ in terms of the angular frequencies and wavelengths?\n\nSketch $y_1+y_2$ as a function of $x$, at some time $t$.\n\nIf you stood in the path of these sound waves, what frequency would you hear (assuming you can hear it)? What is the distance between points where the sound disappears?\n\n[Hint: you can use the formula $\\cos x+\\cos y=2\\cos\\frac{x+y}{2}\\cos\\frac{x-y}{2}$.] [8 marks]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA curve is defined parametrically:\n\n$$\\begin{aligned} x &= a(\\omega t-\\sin\\omega t)\\\\ y &= a(\\sqrt{3}-2\\cos\\omega t) \\end{aligned}$$\n\nwith non-zero constants $a$ and $\\omega$. At what values of $x$ is $y$ equal to zero? [9 marks]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nIn a certain binary star system, two stars with identical mass $m$ have equal and opposite velocities $v_2$ on the opposite sides of the same circular orbit with radius $R$.\n\nIn another system with three identical stars of the same mass $m$ as before, it is observed that all three stars are equally spaced around a circular orbit with the same radius $R$ as before. What is the speed $v_3$ of these stars in terms of $v_2$?\n\n[Hint: consider the direction and magnitude of the force exerted on one star by the other two.] [9 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nEvaluate the following expression:\n\n$$\\frac{d}{dt}\\int_0^{2t^2}(xt)^4\\,dx.$$\n\n[9 marks]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nThe equation of circle $C_1$ is\n\n$$4x^2+24x+4y^2-16y+43=0$$\n\nwhile the equation of circle $C_2$ is\n\n$$4x^2-40x+4y^2-8y+79=0.$$\n\nSketch a diagram of these circles on the axes below, along with all lines which are tangent to both circles.\n\nFor each line, calculate the length of the line segment joining the tangent points. [9 marks]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2017-22-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nAn experimental setup consists of two deep tanks, each of width $L$, separated by a thin, transparent membrane, as shown in the figure below. The left tank is filled with a transparent liquid with refractive index $n_1$, and the right tank with a transparent liquid with refractive index $n_2$. The membrane has refractive index $n_1$. Assume that the refractive index of air is $1$, and $1<n_2<n_1$.\n\nA gold ring is dropped in the right pool (with refractive index $n_2$), near the membrane, and drops straight down. An observer, at height $h$ above the left edge of the experimental setup, watches the ring drop. The dashed line in the figure indicates the path of a light ray from the ring to the observer, with lengths and angles indicated.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2017-23-fig1.png\n\nAt a certain apparent depth, the ring will appear to the observer to stop descending. At what apparent depth does this happen? [9 marks]"
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "PAT",
+     "title": "Question 1",
+     "problem": "Question 1\n\nWhat is the next number in the sequence? $4,\\ 5,\\ 9,\\ 14,\\ 23$ [2 marks]\n\n(A) $28$\n\n(B) $34$\n\n(C) $37$\n\n(D) $39$\n\n(E) $42$"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "PAT",
+     "title": "Question 2",
+     "problem": "Question 2\n\nWhich of the curves shown in the figure is not a trajectory in the gravitational field of a central star at the point $(x=0,\\ y=0)$ marked by the star symbol?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2018-2-fig1.png\n\n[2 marks]\n\n(A) All are trajectories\n\n(B) none of these is a trajectory\n\n(C) 5 is not a trajectory\n\n(D) 4 and 5 are not trajectories\n\n(E) 3 is not a trajectory"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "PAT",
+     "title": "Question 3",
+     "problem": "Question 3\n\nWhich combination of units is the odd one out? [2 marks]\n\n(A) $\\mathrm{C\\,V\\,m^{-1}}$\n\n(B) $\\mathrm{A\\,T\\,m}$\n\n(C) $\\mathrm{kg\\ m\\,s^{-2}}$\n\n(D) $\\mathrm{J\\,m^{-1}}$\n\n(E) $\\mathrm{C\\,m\\,s^{-1}}$"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "PAT",
+     "title": "Question 4",
+     "problem": "Question 4\n\n90 people enter a maze. At each junction a third will go left and two thirds will go right. After three such junctions, what is the most likely combination of turns people will have taken? [2 marks]\n\n(A) Gone right three times\n\n(B) Gone left three times\n\n(C) Gone right twice and once left\n\n(D) Gone twice left and once right\n\n(E) It is impossible to tell"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "PAT",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA person drinks many cups of tea. The first cup the person drinks is filled completely. They don't want to drink too much tea in total so the second cup is filled with only a fraction ($\\alpha$) of the tea in the first cup, the third cup contains the same fraction $\\alpha$ of the second cup and so on. What is the maximum value of $\\alpha$ so that the person drinks no more than 3 times the amount of tea in the first cup however many drinks they take? [2 marks]\n\n(A) $\\alpha=\\frac{1}{3}$\n\n(B) $\\alpha=\\frac{1}{2}$\n\n(C) $\\alpha=\\frac{2}{3}$\n\n(D) $\\alpha=\\frac{1}{4}$\n\n(E) $\\alpha=\\frac{3}{4}$"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "PAT",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA stationary wave is set up on a string of length $L$. If the centre and the ends of the string are held fixed with zero displacement, what wavelengths ($\\lambda_m$) can this stationary wave have? In the table below $m$ denotes any positive non zero integer. [2 marks]\n\n(A) $\\lambda_m=\\frac{2L}{m}$\n\n(B) $\\lambda_m=\\frac{L}{m}$\n\n(C) $\\lambda_m=\\frac{L}{2m}$\n\n(D) $\\lambda_m=mL$\n\n(E) $\\lambda_m=2mL$"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "PAT",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA car of mass $m$ is traveling along a straight and narrow road at speed $u$. A cat walks into the road a distance $d$ in front of the car and stops in the middle of the road. What constant force must be applied to the car so that it does not hit the cat? The road is too narrow for the car to drive past the cat without hitting it. [2 marks]\n\n(A) $F=\\frac{-mu^2}{2d}$\n\n(B) $F=\\frac{-u^2}{2d}$\n\n(C) $F=\\frac{-mu^2}{2}$\n\n(D) $F=\\frac{-mu^2}{d}$\n\n(E) the car cannot avoid hitting the cat"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "PAT",
+     "title": "Question 8",
+     "problem": "Question 8\n\nWhat is the value of $x$ for which $y$ has a minimum in the function $y=(x-3)(x+1)$? [2 marks]\n\n(A) $x=1$\n\n(B) $x=-1$\n\n(C) $x=3$\n\n(D) $x=0$\n\n(E) $x=-3$"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "PAT",
+     "title": "Question 9",
+     "problem": "Question 9\n\nWhat is the equation of the line which intersects $y=2x-2$ at right angles and at position $x=1$? [2 marks]\n\n(A) $y=-\\frac{1}{2}x$\n\n(B) $y=-\\frac{1}{2}x+\\frac{1}{2}$\n\n(C) $y=\\frac{1}{2}x-\\frac{1}{2}$\n\n(D) $y=x$\n\n(E) $y=2x$"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "PAT",
+     "title": "Question 10",
+     "problem": "Question 10\n\nFor which range of $x$ is the inequality $x^3-x^2-x+1\\ge 0$ satisfied ? [2 marks]\n\n(A) $x\\ge 1$\n\n(B) $x\\le 1$\n\n(C) $x\\ge 1$ and $x\\le -1$\n\n(D) $-1\\le x\\le 1$\n\n(E) $x\\ge -1$"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "PAT",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA rectangular building with sides $50\\,\\mathrm{m}$ and $100\\,\\mathrm{m}$ long has a flat roof on top of it. The roof has a mass per unit area of $100\\,\\mathrm{kg\\,m^{-2}}$. The walls are $10\\,\\mathrm{cm}$ thick and can take a maximum stress of $S_{max}$ which depends on the material of the wall. The values of $S_{max}$ for five building materials are:\n\nmoist wood: $S_{max}=25.5\\,\\mathrm{N\\,mm^{-2}}$\n\ndry wood: $S_{max}=48.3\\,\\mathrm{N\\,mm^{-2}}$\n\nconcrete: $S_{max}=300\\,\\mathrm{N\\,mm^{-2}}$\n\nsolid cardboard: $S_{max}=15\\,\\mathrm{N\\,mm^{-2}}$\n\nbrick: $S_{max}=7\\,\\mathrm{N\\,mm^{-2}}$\n\nWhich materials could be used so that the walls will support the building, assuming that the mass of the walls is negligible? [2 marks]\n\n[Take the gravitational field strength on the surface of the Earth to be $g\\approx 10\\,\\mathrm{m\\,s^{-2}}$ (printed instruction for the whole paper).]\n\n(A) only concrete\n\n(B) only brick\n\n(C) any of the materials above\n\n(D) concrete or dry wood\n\n(E) concrete, dry or moist wood"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "PAT",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA light ray passes through an infinite stack of thin transparent plates. The refractive index of these plates increases slightly by a constant factor from one plate to the next. The ray enters the first plate making an angle $\\theta_0$ with the surface normal. The ray's angle to the normal changes at each new interface. At the $i^{th}$ interface between plates the ray makes an angle $\\theta_i$ to the normal. Find the limiting value $\\theta_\\infty$ for the angle $\\theta_i$ when the ray has traversed an infinite number of plates. [2 marks]\n\n(A) $\\theta_\\infty=\\theta_0$\n\n(B) $\\theta_\\infty=-\\theta_0$\n\n(C) $\\theta_\\infty=0^{o}$\n\n(D) $\\theta_\\infty=90^{o}$\n\n(E) $\\theta_\\infty=180^{o}$"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "PAT",
+     "title": "Question 13",
+     "problem": "Question 13\n\nConsider the network of capacitors shown below. All capacitors in the network have the same capacitance $C$. Assume that capacitances combine as follows:\n\n- Two capacitors in series combine their capacitance in the same way that two resistors in parallel combine their resistance.\n\n- Two capacitors in parallel combine their capacitance in the same way that two resistors in series combine their resistance.\n\nFind the total capacitance $C_{tot}$ between the points A and B.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2018-13-fig1.png\n\n[4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "PAT",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSolve the following equation for $x$: $\\log_x 25=\\log_5(x)$ [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "PAT",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA car is initially stationary. At time $t_0$ it starts to move at speed $v_1$ for a time $\\Delta t_1$. Immediately after this it moves at speed $v_2>v_1$ for a time $\\Delta t_2<\\Delta t_1$. After this time it is stationary again.\n\n(a) Using this information sketch a graph of speed $v$ versus time $t$. Label all axes sufficiently so that the graph is quantitatively accurate. [1 mark]\n\n(b) From your graph determine the average speed $\\langle v\\rangle_t$ of the car while it is moving. Express $\\langle v\\rangle_t$ as a formula using the symbols $v_1$, $\\Delta t_1$, $v_2$, $\\Delta t_2$. $\\langle v\\rangle_t$ is known as the time weighted average. Compute a numerical value for $\\langle v\\rangle_t$ given the following: $v_1=1\\,\\mathrm{ms^{-1}}$, $\\Delta t_1=2\\,\\mathrm{s}$, $v_2=2\\,\\mathrm{ms^{-1}}$, $\\Delta t_2=1\\,\\mathrm{s}$, $t_0=0\\,s$ [2 marks]\n\n(c) Now draw a graph of speed $v$ versus distance $s$ using the numerical values for speeds and times given in section (b) and label the axes as before. [1 mark]\n\n(d) From the second graph find the average speed $\\langle v\\rangle_s$ known as the distance weighted average. Again express $\\langle v\\rangle_s$ as a formula using the symbols $v_1$, $\\Delta s_1$, $v_2$, $\\Delta s_2$, where $\\Delta s_1$ and $\\Delta s_1$ are the distances that the car travels at $v_1$ and $v_2$. Also provide a numerical value for $\\langle v\\rangle_s$ using the values given in section (b) [2 marks]\n\n(e) Which of the two averages $\\langle v\\rangle_t$ or $\\langle v\\rangle_s$ is equivalent to the conventional definition of average speed which we assume to be $\\langle v\\rangle_c=\\frac{\\text{total distance travelled}}{\\text{total time taken}}$ ? [1 mark]\n\n(f) State the mathematical operation that should be applied to the curve of $v(t)$ to compute $\\langle v\\rangle_c$ if we assume $v$ to be any function of time or distance. [1 mark]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "PAT",
+     "title": "Question 16",
+     "problem": "Question 16\n\nConsider the cross section of a pencil, where a concentric circle of radius r sits at the centre of regular hexagon. If the black area is a quarter of the total area of the hexagon, what is the length of the dimension $x$ in terms of $r$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2018-16-fig1.png\n\n[6 marks]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "PAT",
+     "title": "Question 17",
+     "problem": "Question 17\n\nTo which order should you expand $(1+x)^9$ in the integral $\\int_0^{0.1}(1+x)^9\\,dx$ so that the approximate integral agrees with the exact result to better than 10%? [7 marks]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "PAT",
+     "title": "Question 18",
+     "problem": "Question 18\n\nThe diagram shows two spheres of mass $m$ suspended from wires of negligible mass. The length between the pivot points and the centres of each sphere is L. The two suspension points lie on a horizontal line and are separated by a distance $x$. The system is in equilibrium. Take the total acceleration due to gravity to be $g$.\n\nHint: You may assume that $\\delta x\\ll L$ as well as $\\delta x\\ll x$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2018-18-fig1.png\n\n(a) Show that the small deflection $\\delta x$ by which the gravitational force $F_g$ between the spheres will deflect them from the vertical is given by:\n\n$$\\delta x\\ \\approx\\ \\frac{x}{8}-\\sqrt{\\left(\\frac{x}{8}\\right)^2-\\frac{LmG}{4xg}}$$\n\nwhere G is Newton's gravitational constant. Clearly state all assumptions you make and show all your workings. [7 marks]\n\n(b) The spheres are now both electrically charged with the same positive charge $Q$. How big must $Q$ be so that the wires hang vertically again?\n\nHint: The force between two spheres, electrically charged with charges $Q_1$ and $Q_2$ is given by:\n\n$$F_Q=k\\frac{Q_1Q_2}{r^2}$$\n\nwhere $k$ is a constant and $r$ is the separation of their centres. [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "PAT",
+     "title": "Question 19",
+     "problem": "Question 19\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2018-19-fig1.png\n\nConsider the above circuit. The filament lamp A consumes an electrical power $P_A=100\\,\\mathrm{W}$ when it alone is connected to a voltage of $U=100\\,\\mathrm{V}$. Filament lamp B consumes a power $P_B=20\\,\\mathrm{W}$ when it alone is connected to a voltage of $U=100\\,\\mathrm{V}$.\n\n(a) When the switch is closed, which lamp will be brighter and why?\n\nFind the ratio of the levels of brightness of the two lamps assuming their resistances are constant. Assume further that the brightness of a lamp is proportional to the power it consumes. [5 marks]\n\n(b) How would your answer change if the lamps were wired in parallel rather than series? [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "PAT",
+     "title": "Question 20",
+     "problem": "Question 20\n\nIn a crystalline material, planes of symmetry are labeled using triplets of integer numbers of the form $(hkl)$, e.g. $(100)$ is equivalent to $h=1$, $k=0$, $l=0$. For this question it is not important how this labeling scheme works exactly or what $h$, $k$ and $l$ mean. By performing certain experiments, it is possible to determine these $(hkl)$ triplets for multiple planes of symmetry. From the knowledge of several such triplets the microscopic structure of the material can be inferred using the following rules:\n\n- If for all planes all positive integer values of $h$, $k$ and $l$ are possible the material has a simple cubic lattice.\n\n- If for all planes $h+k+l=2n$ where n is any positive integer then the material has a body centred cubic lattice.\n\n- If for all planes $h$ and $k$ and $l$ are either all even or all odd the material has a face centred cubic lattice.\n\nNote: zero is an even number\n\nDuring the analysis of the data from such an experiment the following four planes of symmetry were found: $(111)$, $(200)$, $(220)$, $(311)$.\n\n(a) What type of lattice did the material in these experiments have? [2 marks]\n\n(b) In a material with some form of cubic lattice the distance $d$ between the planes of symmetry is given by:\n\n$$d=\\frac{a}{\\sqrt{h^2+k^2+l^2}}$$\n\nwhere $a$ is a constant length that is usually of the order of a fraction of a nanometre. Using the formula for $d$ and the data in the table below determine the best estimate for $a$. [3 marks]\n\n$$\\begin{array}{|c|c|} \\hline d\\,(\\mathrm{nm}) & \\text{Plane} \\\\ \\hline 0.224 & (111) \\\\ 0.195 & (200) \\\\ 0.137 & (220) \\\\ 0.117 & (311) \\\\ \\hline \\end{array}$$\n\n(c) A cube of the material has a length $L$ in each dimension where $L=Na$ and $N$ is a very large number. Pressure is applied to two opposite sides of the cube. The volume of the cube remains constant but one of the cube's dimensions reduces to a length of $L'=\\frac{2}{3}Na$. What is the new length of the deformed object in the other two dimensions? [2 marks]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "PAT",
+     "title": "Question 21",
+     "problem": "Question 21\n\nA child of mass $m$ stands on a platform which rotates freely at angular speed $\\omega$. The child's centre of mass (COM) is initially at a radius of $r_0$ from the axis of the platform as shown in the figure below. The child now slowly pulls itself closer to the centre of the platform.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2018-21-fig1.png\n\n(a) State the minimal force $F(r)$ needed to pull the child closer to the centre as a function of the radius $r$ of the child's COM. [1 mark]\n\n(b) Find a mathematical expression for the work done by the child when it has reached the centre of the platform.\n\nHint: You may take the work done along a path to be $W=\\int F(s)\\,ds$ where F is the force in the direction of motion and s is the distance. If your expression contains an integral you do not have to perform the integration yet. [1 mark]\n\n(c) Into which form of energy is the child's work converted and what will qualitatively happen to the angular speed $\\omega$ as the child approaches the centre? [2 marks]\n\n(d) The angular momentum $J$ of the system of child and platform is a conserved quantity during the above process. It is defined to be $J=I\\omega$ where I is the moment of inertia of the system which is given by $I=mr^2+I_p$ where $I_p$ is the constant moment of interial of the platform. Find an expression for the angular speed $\\omega(r)$ as a function of the radius $r$ of the child's COM. [2 marks]\n\n(e) Find the total work done by the child when it has reached $r=0$.\n\nHint: $\\int\\frac{x}{(a+x^2)^2}\\,dx=\\frac{-1}{2(a+x^2)}$ [4 marks]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "PAT",
+     "title": "Question 22",
+     "problem": "Question 22\n\nDetermine the area inside the circle defined by:\n\n$$x^2+y^2-8x+4y+4\\ =\\ 0$$\n\nbut outside the triangle bounded by the three lines below.\n\n$$\\begin{aligned} y &= x-7 \\\\ y &= \\frac{1}{5}(2x-29) \\\\ x &= 7 \\end{aligned}$$\n\n[9 marks]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "PAT",
+     "title": "Question 23",
+     "problem": "Question 23\n\nGiven that\n\n$$f(x)\\ =\\ \\frac{\\sqrt{x^2-2}}{\\ln(3x+10)}$$\n\nDetermine the range of $x$ for which $f(x)$ is real and finite. [5 marks]"
+    }
+   ]
+  },
+  {
    "year": 2019,
    "problems": [
     {

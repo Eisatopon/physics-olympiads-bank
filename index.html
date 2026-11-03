@@ -1091,10 +1091,10 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261103-jeep-2007';
+const DATA_VERSION = '20261103-grpan-2022';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', jeep: 'asia' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
@@ -1108,6 +1108,7 @@ const COUNTRIES = [
     { key: 'poland', name: 'Poland', flag: '🇵🇱', file: 'Poland-OF-problems.json', kind: 'years', full: 'Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part · English translation' },
     { key: 'czech', name: 'Czechia', flag: '🇨🇿', file: 'Czech-FO-problems.json', kind: 'years', full: 'Czech Physics Olympiad (Fyzikální olympiáda), category A, national round, theoretical problems · English translation' },
     { key: 'oxpat', name: 'UK – Oxford PAT', flag: '🇬🇧', file: 'UK-Oxford-PAT-problems.json', kind: 'years', scope: 'entrance', full: 'Oxford Physics Aptitude Test (PAT), University of Oxford · statements only' },
+    { key: 'grpan', name: 'Greece – Panhellenic Exams', flag: '🇬🇷', file: 'Greece-panhellenic-problems.json', kind: 'years', scope: 'entrance', full: 'Panhellenic university entrance examinations, Physics (Greek Ministry of Education) · Greek original and English translation' },
     { key: 'cypan', name: 'Cyprus – Pancyprian Exams', flag: '🇨🇾', file: 'Cyprus-pancyprian-problems.json', kind: 'years', scope: 'entrance', full: 'Pancyprian university entrance examinations, Physics (Cyprus Ministry of Education) · Greek original and English translation' },
     { key: 'jeep', name: 'India – JEE Advanced', flag: '🇮🇳', file: 'India-JEE-Advanced-Physics-problems.json', kind: 'years', scope: 'entrance', full: 'JEE (Advanced), entrance examination of the Indian Institutes of Technology · Physics, Papers 1 and 2' },
     { key: 'inpho', name: 'India', flag: '🇮🇳', file: 'INPhO-problems.json', kind: 'years', full: 'Indian National Physics Olympiad (HBCSE) · problems © HBCSE' },
@@ -2223,6 +2224,7 @@ const ORGS = {
     jpho: ['Physics Challenge (JPhO)', 'the Japan Physics Olympiad Committee (JPhO)', 'JPhO', 'Japanese'],
     poland: ['Olimpiada Fizyczna', 'the Komitet Główny Olimpiady Fizycznej', 'Komitet Główny Olimpiady Fizycznej', 'Polish'],
     jeep: ['JEE (Advanced)', 'the Indian Institutes of Technology (JEE Advanced)', 'the Indian Institutes of Technology (JEE Advanced)'],
+    grpan: ['Panhellenic Exams', 'the Greek Ministry of Education', 'the Greek Ministry of Education'],
     cypan: ['Pancyprian Exams', 'the Cyprus Ministry of Education (Examinations Service)', 'the Cyprus Ministry of Education (Examinations Service)'],
     oxpat: ['Oxford PAT', 'the University of Oxford (Department of Physics)', 'the University of Oxford'],
     czech: ['Fyzikální olympiáda', 'the Central Committee of the Czech Physics Olympiad (Ústřední komise fyzikální olympiády)', 'Ústřední komise fyzikální olympiády (CC BY 3.0 CZ)', 'Czech'],

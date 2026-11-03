@@ -2,6 +2,555 @@
  "competition": "India — JEE (Advanced), Physics (Papers 1 and 2)",
  "years": [
   {
+   "year": 2007,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Paper 1",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA resistance of $2\\,\\Omega$ is connected across one gap of a metre-bridge (the length of the wire is $100\\,\\mathrm{cm}$) and an unknown resistance, greater than $2\\,\\Omega$, is connected across the other gap. When these resistances are interchanged, the balance point shifts by $20\\,\\mathrm{cm}$. Neglecting any corrections, the unknown resistance is\n\n(A) $3\\,\\Omega$\n(B) $4\\,\\Omega$\n(C) $5\\,\\Omega$\n(D) $6\\,\\Omega$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Paper 1",
+     "title": "Question 2",
+     "problem": "Question 2\n\nIn an experiment to determine the focal length ($f$) of a concave mirror by the $u$-$v$ method, a student places the object pin A on the principal axis at a distance $x$ from the pole P. The student looks at the pin and its inverted image from a distance keeping his/her eye in line with PA. When the student shifts his/her eye towards left, the image appears to the right of the object pin. Then,\n\n(A) $x < f$\n(B) $f < x < 2f$\n(C) $x = 2f$\n(D) $x > 2f$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Paper 1",
+     "title": "Question 3",
+     "problem": "Question 3\n\nTwo particles of mass $m$ each are tied at the ends of a light string of length $2a$. The whole system is kept on a frictionless horizontal surface with the string held tight so that each mass is at a distance '$a$' from the center P (as shown in the figure). Now, the mid-point of the string is pulled vertically upwards with a small but constant force $F$. As a result, the particles move towards each other on the surface. The magnitude of acceleration, when the separation between them becomes $2x$, is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-1-3-fig1.png\n\n(A) $\\dfrac{F}{2m}\\dfrac{a}{\\sqrt{a^2-x^2}}$\n(B) $\\dfrac{F}{2m}\\dfrac{x}{\\sqrt{a^2-x^2}}$\n(C) $\\dfrac{F}{2m}\\dfrac{x}{a}$\n(D) $\\dfrac{F}{2m}\\dfrac{\\sqrt{a^2-x^2}}{x}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Paper 1",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA long, hollow conducting cylinder is kept coaxially inside another long, hollow conducting cylinder of larger radius. Both the cylinders are initially electrically neutral.\n\n(A) A potential difference appears between the two cylinders when a charge density is given to the inner cylinder\n(B) A potential difference appears between the two cylinders when a charge density is given to the outer cylinder\n(C) No potential difference appears between the two cylinders when a uniform line charge is kept along the axis of the cylinders\n(D) No potential difference appears between the two cylinders when same charge density is given to both the cylinders\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Paper 1",
+     "title": "Question 5",
+     "problem": "Question 5\n\nConsider a neutral conducting sphere. A positive point charge is placed outside the sphere. The net charge on the sphere is then,\n\n(A) negative and distributed uniformly over the surface of the sphere\n(B) negative and appears only at the point on the sphere closest to the point charge\n(C) negative and distributed non-uniformly over the entire surface of the sphere\n(D) zero\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Paper 1",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA circuit is connected as shown in the figure with the switch S open. When the switch is closed, the total amount of charge that flows from Y to X is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-1-6-fig1.png\n\n(A) $0$\n(B) $54\\,\\mu\\mathrm{C}$\n(C) $27\\,\\mu\\mathrm{C}$\n(D) $81\\,\\mu\\mathrm{C}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Paper 1",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA ray of light traveling in water is incident on its surface open to air. The angle of incidence is $\\theta$, which is less than the critical angle. Then there will be\n\n(A) only a reflected ray and no refracted ray\n(B) only a refracted ray and no reflected ray\n(C) a reflected ray and a refracted ray and the angle between them would be less than $180^\\circ - 2\\theta$\n(D) a reflected ray and a refracted ray and the angle between them would be greater than $180^\\circ - 2\\theta$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Paper 1",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIn the options given below, let $E$ denote the rest mass energy of a nucleus and $n$ a neutron. The correct option is\n\n(A) $E\\left({}^{236}_{92}U\\right) > E\\left({}^{137}_{53}I\\right) + E\\left({}^{97}_{39}Y\\right) + 2E(n)$\n(B) $E\\left({}^{236}_{92}U\\right) < E\\left({}^{137}_{53}I\\right) + E\\left({}^{97}_{39}Y\\right) + 2E(n)$\n(C) $E\\left({}^{236}_{92}U\\right) < E\\left({}^{140}_{56}Ba\\right) + E\\left({}^{94}_{36}Kr\\right) + 2E(n)$\n(D) $E\\left({}^{236}_{92}U\\right) = E\\left({}^{140}_{56}Ba\\right) + E\\left({}^{94}_{36}Kr\\right) + 2E(n)$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Paper 1",
+     "title": "Question 9",
+     "problem": "Question 9\n\nThe largest wavelength in the ultraviolet region of the hydrogen spectrum is $122\\,\\mathrm{nm}$. The smallest wavelength in the infrared region of the hydrogen spectrum (to the nearest integer) is\n\n(A) $802\\,\\mathrm{nm}$\n(B) $823\\,\\mathrm{nm}$\n(C) $1882\\,\\mathrm{nm}$\n(D) $1648\\,\\mathrm{nm}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Paper 1",
+     "title": "Question 10",
+     "problem": "Question 10\n\nSTATEMENT-1\nA block of mass $m$ starts moving on a rough horizontal surface with a velocity $v$. It stops due to friction between the block and the surface after moving through a certain distance. The surface is now tilted to an angle of $30^\\circ$ with the horizontal and the same block is made to go up on the surface with the same initial velocity $v$. The decrease in the mechanical energy in the second situation is smaller than that in the first situation.\n\nbecause\n\nSTATEMENT-2\nThe coefficient of friction between the block and the surface decreases with the increase in the angle of inclination.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Paper 1",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSTATEMENT-1\nIn an elastic collision between two bodies, the relative speed of the bodies after collision is equal to the relative speed before the collision.\n\nbecause\n\nSTATEMENT-2\nIn an elastic collision, the linear momentum of the system is conserved.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Paper 1",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSTATEMENT-1\nThe formula connecting $u$, $v$ and $f$ for a spherical mirror is valid only for mirrors whose sizes are very small compared to their radii of curvature.\n\nbecause\n\nSTATEMENT-2\nLaws of reflection are strictly valid for plane surfaces, but not for large spherical surfaces.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Paper 1",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSTATEMENT-1\nIf the accelerating potential in an X-ray tube is increased, the wavelengths of the characteristic X-rays do not change.\n\nbecause\n\nSTATEMENT-2\nWhen an electron beam strikes the target in an X-ray tube, part of the kinetic energy is converted into X-ray energy.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Paper 1",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSome physical quantities are given in Column I and some possible SI units in which these quantities may be expressed are given in Column II. Match the physical quantities in Column I with the units in Column II.\n\nColumn I\n(A) $GM_eM_s$ ($G$ – universal gravitational constant, $M_e$ – mass of the earth, $M_s$ – mass of the Sun)\n(B) $\\dfrac{3RT}{M}$ ($R$ – universal gas constant, $T$ – absolute temperature, $M$ – molar mass)\n(C) $\\dfrac{F^2}{q^2B^2}$ ($F$ – force, $q$ – charge, $B$ – magnetic field)\n(D) $\\dfrac{GM_e}{R_e}$ ($G$ – universal gravitational constant, $M_e$ – mass of the earth, $R_e$ – radius of the earth)\n\nColumn II\n(p) (volt) (coulomb) (metre)\n(q) (kilogram) $(\\text{metre})^3$ $(\\text{second})^{-2}$\n(r) $(\\text{metre})^2$ $(\\text{second})^{-2}$\n(s) (farad) $(\\text{volt})^2$ $(\\text{kg})^{-1}$\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Paper 1",
+     "title": "Question 15",
+     "problem": "Question 15\n\nColumn I gives certain situations in which a straight metallic wire of resistance $R$ is used and Column II gives some resulting effects. Match the statements in Column I with the statements in Column II.\n\nColumn I\n(A) A charged capacitor is connected to the ends of the wire\n(B) The wire is moved perpendicular to its length with a constant velocity in a uniform magnetic field perpendicular to the plane of motion\n(C) The wire is placed in a constant electric field that has a direction along the length of the wire\n(D) A battery of constant emf is connected to the ends of the wire\n\nColumn II\n(p) A constant current flows through the wire\n(q) Thermal energy is generated in the wire\n(r) A constant potential difference develops between the ends of the wire\n(s) Charges of constant magnitude appear at the ends of the wire\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Paper 1",
+     "title": "Question 16",
+     "problem": "Question 16\n\nSome laws / processes are given in Column I. Match these with the physical phenomena given in Column II.\n\nColumn I\n(A) Transition between two atomic energy levels\n(B) Electron emission from a material\n(C) Mosley's law\n(D) Change of photon energy into kinetic energy of electrons\n\nColumn II\n(p) Characteristic X-rays\n(q) Photoelectric effect\n(r) Hydrogen spectrum\n(s) $\\beta$-decay\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Paper 2",
+     "title": "Question 1",
+     "problem": "Question 1\n\nIn the experiment to determine the speed of sound using a resonance column,\n\n(A) prongs of the tuning fork are kept in a vertical plane\n(B) prongs of the tuning fork are kept in a horizontal plane\n(C) in one of the two resonances observed, the length of the resonating air column is close to the wavelength of sound in air\n(D) in one of the two resonances observed, the length of the resonating air column is close to half of the wavelength of sound in air\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Paper 2",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA student performs an experiment to determine the Young's modulus of a wire, exactly $2\\,\\mathrm{m}$ long, by Searle's method. In a particular reading, the student measures the extension in the length of the wire to be $0.8\\,\\mathrm{mm}$ with an uncertainty of $\\pm 0.05\\,\\mathrm{mm}$ at a load of exactly $1.0\\,\\mathrm{kg}$. The student also measures the diameter of the wire to be $0.4\\,\\mathrm{mm}$ with an uncertainty of $\\pm 0.01\\,\\mathrm{mm}$. Take $g = 9.8\\,\\mathrm{m/s^2}$ (exact). The Young's modulus obtained from the reading is\n\n(A) $(2.0 \\pm 0.3)\\times10^{11}\\,\\mathrm{N/m^2}$\n(B) $(2.0 \\pm 0.2)\\times10^{11}\\,\\mathrm{N/m^2}$\n(C) $(2.0 \\pm 0.1)\\times10^{11}\\,\\mathrm{N/m^2}$\n(D) $(2.0 \\pm 0.05)\\times10^{11}\\,\\mathrm{N/m^2}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Paper 2",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA particle moves in the X-Y plane under the influence of a force such that its linear momentum is $\\vec{p}(t) = A\\left[\\hat{i}\\cos(kt) - \\hat{j}\\sin(kt)\\right]$, where $A$ and $k$ are constants. The angle between the force and the momentum is\n\n(A) $0^\\circ$\n(B) $30^\\circ$\n(C) $45^\\circ$\n(D) $90^\\circ$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Paper 2",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA small object of uniform density rolls up a curved surface with an initial velocity $v$. It reaches up to a maximum height of $\\dfrac{3v^2}{4g}$ with respect to the initial position. The object is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-4-fig1.png\n\n(A) ring\n(B) solid sphere\n(C) hollow sphere\n(D) disc\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Paper 2",
+     "title": "Question 5",
+     "problem": "Question 5\n\nWater is filled up to a height $h$ in a beaker of radius $R$ as shown in the figure. The density of water is $\\rho$, the surface tension of water is $T$ and the atmospheric pressure is $P_0$. Consider a vertical section ABCD of the water column through a diameter of the beaker. The force on water on one side of this section by water on the other side of this section has magnitude\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-5-fig1.png\n\n(A) $\\left|2P_0Rh + \\pi R^2\\rho gh - 2RT\\right|$\n(B) $\\left|2P_0Rh + R\\rho gh^2 - 2RT\\right|$\n(C) $\\left|P_0\\pi R^2 + R\\rho gh^2 - 2RT\\right|$\n(D) $\\left|P_0\\pi R^2 + R\\rho gh^2 + 2RT\\right|$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Paper 2",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA spherical portion has been removed from a solid sphere having a charge distributed uniformly in its volume as shown in the figure. The electric field inside the emptied space is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-6-fig1.png\n\n(A) zero everywhere\n(B) non-zero and uniform\n(C) non-uniform\n(D) zero only at its center\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "Paper 2",
+     "title": "Question 7",
+     "problem": "Question 7\n\nPositive and negative point charges of equal magnitude are kept at $\\left(0, 0, \\dfrac{a}{2}\\right)$ and $\\left(0, 0, \\dfrac{-a}{2}\\right)$, respectively. The work done by the electric field when another positive point charge is moved from $(-a, 0, 0)$ to $(0, a, 0)$ is\n\n(A) positive\n(B) negative\n(C) zero\n(D) depends on the path connecting the initial and final positions\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "Paper 2",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA magnetic field $\\vec{B} = B_0\\hat{j}$ exists in the region $a < x < 2a$ and $\\vec{B} = -B_0\\hat{j}$, in the region $2a < x < 3a$, where $B_0$ is a positive constant. A positive point charge moving with a velocity $\\vec{v} = v_0\\hat{i}$, where $v_0$ is a positive constant, enters the magnetic field at $x = a$. The trajectory of the charge in this region can be like,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-8-fig1.png\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-8-fig2.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-8-fig3.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-8-fig4.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-8-fig5.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "Paper 2",
+     "title": "Question 9",
+     "problem": "Question 9\n\nElectrons with de-Broglie wavelength $\\lambda$ fall on the target in an X-ray tube. The cut-off wavelength of the emitted X-rays is\n\n(A) $\\lambda_0 = \\dfrac{2mc\\lambda^2}{h}$\n(B) $\\lambda_0 = \\dfrac{2h}{mc}$\n(C) $\\lambda_0 = \\dfrac{2m^2c^2\\lambda^3}{h^2}$\n(D) $\\lambda_0 = \\lambda$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "Paper 2",
+     "title": "Question 10",
+     "problem": "Question 10\n\nSTATEMENT-1\nIf there is no external torque on a body about its center of mass, then the velocity of the center of mass remains constant.\n\nbecause\n\nSTATEMENT-2\nThe linear momentum of an isolated system remains constant.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "Paper 2",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSTATEMENT-1\nA cloth covers a table. Some dishes are kept on it. The cloth can be pulled out without dislodging the dishes from the table.\n\nbecause\n\nSTATEMENT-2\nFor every action there is an equal and opposite reaction.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "Paper 2",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSTATEMENT-1\nA vertical iron rod has a coil of wire wound over it at the bottom end. An alternating current flows in the coil. The rod goes through a conducting ring as shown in the figure. The ring can float at a certain height above the coil.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-12-fig1.png\n\nbecause\n\nSTATEMENT-2\nIn the above situation, a current is induced in the ring which interacts with the horizontal component of the magnetic field to produce an average force in the upward direction.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 13,
+     "paper_label": "Paper 2",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSTATEMENT-1\nThe total translational kinetic energy of all the molecules of a given mass of an ideal gas is 1.5 times the product of its pressure and its volume.\n\nbecause\n\nSTATEMENT-2\nThe molecules of a gas collide with each other and the velocities of the molecules change due to the collision.\n\n(A) Statement-1 is True, Statement-2 is True; Statement-2 is a correct explanation for Statement-1\n(B) Statement-1 is True, Statement-2 is True; Statement-2 is NOT a correct explanation for Statement-1\n(C) Statement-1 is True, Statement-2 is False\n(D) Statement-1 is False, Statement-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 14,
+     "paper_label": "Paper 2",
+     "title": "Question 14",
+     "problem": "Question 14\n\nColumn I describes some situations in which a small object moves. Column II describes some characteristics of these motions. Match the situations in Column I with the characteristics in Column II.\n\nColumn I\n(A) The object moves on the $x$-axis under a conservative force in such a way that its \"speed\" and \"position\" satisfy $v = c_1\\sqrt{c_2 - x^2}$, where $c_1$ and $c_2$ are positive constants.\n(B) The object moves on the $x$-axis in such a way that its velocity and its displacement from the origin satisfy $v = -kx$, where $k$ is a positive constant.\n(C) The object is attached to one end of a mass-less spring of a given spring constant. The other end of the spring is attached to the ceiling of an elevator. Initially everything is at rest. The elevator starts going upwards with a constant acceleration $a$. The motion of the object is observed from the elevator during the period it maintains this acceleration.\n(D) The object is projected from the earth's surface vertically upwards with a speed $2\\sqrt{GM_e/R_e}$, where, $M_e$ is the mass of the earth and $R_e$ is the radius of the earth. Neglect forces from objects other than the earth.\n\nColumn II\n(p) The object executes a simple harmonic motion.\n(q) The object does not change its direction.\n(r) The kinetic energy of the object keeps on decreasing.\n(s) The object can change its direction only once.\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 2,
+     "number": 15,
+     "paper_label": "Paper 2",
+     "title": "Question 15",
+     "problem": "Question 15\n\nTwo wires each carrying a steady current $I$ are shown in four configurations in Column I. Some of the resulting effects are described in Column II. Match the statements in Column I with the statements in Column II.\n\nColumn I\n(A) Point P is situated midway between the wires.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-15-fig1.png\n\n(B) Point P is situated at the mid-point of the line joining the centers of the circular wires, which have same radii.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-15-fig2.png\n\n(C) Point P is situated at the mid-point of the line joining the centers of the circular wires, which have same radii.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-15-fig3.png\n\n(D) Point P is situated at the common center of the wires.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2007-2-15-fig4.png\n\nColumn II\n(p) The magnetic fields ($B$) at P due to the currents in the wires are in the same direction.\n(q) The magnetic fields ($B$) at P due to the currents in the wires are in opposite directions.\n(r) There is no magnetic field at P.\n(s) The wires repel each other.\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 2,
+     "number": 16,
+     "paper_label": "Paper 2",
+     "title": "Question 16",
+     "problem": "Question 16\n\nColumn I gives some devices and Column II gives some processes on which the functioning of these devices depend. Match the devices in Column I with the processes in Column II.\n\nColumn I\n(A) Bimetallic strip\n(B) Steam engine\n(C) Incandescent lamp\n(D) Electric fuse\n\nColumn II\n(p) Radiation from a hot body\n(q) Energy conversion\n(r) Melting\n(s) Thermal expansion of solids\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    }
+   ]
+  },
+  {
+   "year": 2008,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Paper 1",
+     "title": "Question 1",
+     "problem": "Question 1\n\nStudents I, II and III perform an experiment for measuring the acceleration due to gravity ($g$) using a simple pendulum. They use different lengths of the pendulum and/or record time for different number of oscillations. The observations are shown in the table.\n\nLeast count for length $= 0.1\\,\\mathrm{cm}$\nLeast count for time $= 0.1\\,\\mathrm{s}$\n\n$$\\begin{array}{|c|c|c|c|c|} \\hline \\text{Student} & \\text{Length of the pendulum (cm)} & \\text{Number of oscillations } (n) & \\text{Total time for } (n) \\text{ oscillations (s)} & \\text{Time period (s)} \\\\ \\hline \\text{I} & 64.0 & 8 & 128.0 & 16.0 \\\\ \\hline \\text{II} & 64.0 & 4 & 64.0 & 16.0 \\\\ \\hline \\text{III} & 20.0 & 4 & 36.0 & 9.0 \\\\ \\hline \\end{array}$$\n\nIf $\\mathrm{E_I}$, $\\mathrm{E_{II}}$ and $\\mathrm{E_{III}}$ are the percentage errors in $g$, i.e., $\\left(\\dfrac{\\Delta g}{g}\\times 100\\right)$ for students I, II and III, respectively,\n\n(A) $\\mathrm{E_I} = 0$\n(B) $\\mathrm{E_I}$ is minimum\n(C) $\\mathrm{E_I} = \\mathrm{E_{II}}$\n(D) $\\mathrm{E_{II}}$ is maximum\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Paper 1",
+     "title": "Question 2",
+     "problem": "Question 2\n\nFigure shows three resistor configurations R1, R2 and R3 connected to $3\\,\\mathrm{V}$ battery. If the power dissipated by the configuration R1, R2 and R3 is P1, P2 and P3, respectively, then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-2-fig1.png\n\n(A) P1 > P2 > P3\n(B) P1 > P3 > P2\n(C) P2 > P1 > P3\n(D) P3 > P2 > P1\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Paper 1",
+     "title": "Question 3",
+     "problem": "Question 3\n\nWhich one of the following statements is WRONG in the context of X-rays generated from a X-ray tube?\n\n(A) Wavelength of characteristic X-rays decreases when the atomic number of the target increases\n(B) Cut-off wavelength of the continuous X-rays depends on the atomic number of the target\n(C) Intensity of the characteristic X-rays depends on the electrical power given to the X-ray tube\n(D) Cut-off wavelength of the continuous X-rays depends on the energy of the electrons in the X-ray tube\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Paper 1",
+     "title": "Question 4",
+     "problem": "Question 4\n\nTwo beams of red and violet colours are made to pass separately through a prism (angle of the prism is $60^\\circ$). In the position of minimum deviation, the angle of refraction will be\n\n(A) $30^\\circ$ for both the colours\n(B) greater for the violet colour\n(C) greater for the red colour\n(D) equal but not $30^\\circ$ for both the colours\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Paper 1",
+     "title": "Question 5",
+     "problem": "Question 5\n\nAn ideal gas is expanding such that $PT^2 = $ constant. The coefficient of volume expansion of the gas is\n\n(A) $\\dfrac{1}{T}$\n(B) $\\dfrac{2}{T}$\n(C) $\\dfrac{3}{T}$\n(D) $\\dfrac{4}{T}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Paper 1",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA spherically symmetric gravitational system of particles has a mass density\n$$\\rho = \\begin{cases} \\rho_0 & \\text{for } r \\le R \\\\ 0 & \\text{for } r > R \\end{cases}$$\nwhere $\\rho_0$ is a constant. A test mass can undergo circular motion under the influence of the gravitational field of particles. Its speed $V$ as a function of distance $r$ $(0 < r < \\infty)$ from the centre of the system is represented by\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-6-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-6-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-6-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-6-fig4.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Paper 1",
+     "title": "Question 7",
+     "problem": "Question 7\n\nTwo balls, having linear momenta $\\vec{p}_1 = p\\,\\hat{i}$ and $\\vec{p}_2 = -p\\,\\hat{i}$, undergo a collision in free space. There is no external force acting on the balls. Let $\\vec{p}_1{}'$ and $\\vec{p}_2{}'$ be their final momenta. The following option(s) is(are) NOT ALLOWED for any non-zero value of $p, a_1, a_2, b_1, b_2, c_1$ and $c_2$.\n\n(A) $\\vec{p}_1{}' = a_1\\hat{i} + b_1\\hat{j} + c_1\\hat{k}$, $\\vec{p}_2{}' = a_2\\hat{i} + b_2\\hat{j}$\n(B) $\\vec{p}_1{}' = c_1\\hat{k}$, $\\vec{p}_2{}' = c_2\\hat{k}$\n(C) $\\vec{p}_1{}' = a_1\\hat{i} + b_1\\hat{j} + c_1\\hat{k}$, $\\vec{p}_2{}' = a_2\\hat{i} + b_2\\hat{j} - c_1\\hat{k}$\n(D) $\\vec{p}_1{}' = a_1\\hat{i} + b_1\\hat{j}$, $\\vec{p}_2{}' = a_2\\hat{i} + b_1\\hat{j}$\n\n[One or more of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Paper 1",
+     "title": "Question 8",
+     "problem": "Question 8\n\nAssume that the nuclear binding energy per nucleon (B/A) versus mass number (A) is as shown in the figure. Use this plot to choose the correct choice(s) given below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-8-fig1.png\n\n(A) Fusion of two nuclei with mass numbers lying in the range of $1 < A < 50$ will release energy\n(B) Fusion of two nuclei with mass numbers lying in the range of $51 < A < 100$ will release energy\n(C) Fission of a nucleus lying in the mass range of $100 < A < 200$ will release energy when broken into two equal fragments\n(D) Fission of a nucleus lying in the mass range of $200 < A < 260$ will release energy when broken into two equal fragments\n\n[One or more of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Paper 1",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA particle of mass $m$ and charge $q$, moving with velocity $V$ enters Region II normal to the boundary as shown in the figure. Region II has a uniform magnetic field $B$ perpendicular to the plane of the paper. The length of the Region II is $\\ell$. Choose the correct choice(s).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-9-fig1.png\n\n(A) The particle enters Region III only if its velocity $V > \\dfrac{q\\ell B}{m}$\n(B) The particle enters Region III only if its velocity $V < \\dfrac{q\\ell B}{m}$\n(C) Path length of the particle in Region II is maximum when velocity $V = \\dfrac{q\\ell B}{m}$\n(D) Time spent in Region II is same for any velocity $V$ as long as the particle returns to Region I\n\n[One or more of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Paper 1",
+     "title": "Question 10",
+     "problem": "Question 10\n\nIn a Young's double slit experiment, the separation between the two slits is $d$ and the wavelength of the light is $\\lambda$. The intensity of light falling on slit 1 is four times the intensity of light falling on slit 2. Choose the correct choice(s).\n\n(A) If $d = \\lambda$, the screen will contain only one maximum\n(B) If $\\lambda < d < 2\\lambda$, at least one more maximum (besides the central maximum) will be observed on the screen\n(C) If the intensity of light falling on slit 1 is reduced so that it becomes equal to that of slit 2, the intensities of the observed dark and bright fringes will increase\n(D) If the intensity of light falling on slit 2 is increased so that it becomes equal to that of slit 1, the intensities of the observed dark and bright fringes will increase\n\n[One or more of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Paper 1",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSTATEMENT-1\nIn a Meter Bridge experiment, null point for an unknown resistance is measured. Now, the unknown resistance is put inside an enclosure maintained at a higher temperature. The null point can be obtained at the same point as before by decreasing the value of the standard resistance.\n\nand\n\nSTATEMENT-2\nResistance of a metal increases with increase in temperature.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Paper 1",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSTATEMENT-1\nAn astronaut in an orbiting space station above the Earth experiences weightlessness.\n\nand\n\nSTATEMENT-2\nAn object moving around the Earth under the influence of Earth's gravitational force is in a state of 'free-fall'.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Paper 1",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSTATEMENT-1\nTwo cylinders, one hollow (metal) and the other solid (wood) with the same mass and identical dimensions are simultaneously allowed to roll without slipping down an inclined plane from the same height. The hollow cylinder will reach the bottom of the inclined plane first.\n\nand\n\nSTATEMENT-2\nBy the principle of conservation of energy, the total kinetic energies of both the cylinders are identical when they reach the bottom of the incline.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Paper 1",
+     "title": "Question 14",
+     "problem": "Question 14\n\nSTATEMENT-1\nThe stream of water flowing at high speed from a garden hose pipe tends to spread like a fountain when held vertically up, but tends to narrow down when held vertically down.\n\nand\n\nSTATEMENT-2\nIn any steady flow of an incompressible fluid, the volume flow rate of the fluid remains constant.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Paper 1",
+     "title": "Question 15",
+     "problem": "Question 15\n\nParagraph for Questions 15 to 17\n\nA small spherical monoatomic ideal gas bubble $\\left(\\gamma = \\dfrac{5}{3}\\right)$ is trapped inside a liquid of density $\\rho_\\ell$ (see figure). Assume that the bubble does not exchange any heat with the liquid. The bubble contains $n$ moles of gas. The temperature of the gas when the bubble is at the bottom is $T_0$, the height of the liquid is $H$ and the atmospheric pressure is $P_0$ (Neglect surface tension).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-15-fig1.png\n\nAs the bubble moves upwards, besides the buoyancy force the following forces are acting on it\n\n(A) Only the force of gravity\n(B) The force due to gravity and the force due to the pressure of the liquid\n(C) The force due to gravity, the force due to the pressure of the liquid and the force due to viscosity of the liquid\n(D) The force due to gravity and the force due to viscosity of the liquid\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Paper 1",
+     "title": "Question 16",
+     "problem": "Question 16\n\nParagraph for Questions 15 to 17\n\nA small spherical monoatomic ideal gas bubble $\\left(\\gamma = \\dfrac{5}{3}\\right)$ is trapped inside a liquid of density $\\rho_\\ell$ (see figure). Assume that the bubble does not exchange any heat with the liquid. The bubble contains $n$ moles of gas. The temperature of the gas when the bubble is at the bottom is $T_0$, the height of the liquid is $H$ and the atmospheric pressure is $P_0$ (Neglect surface tension).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-16-fig1.png\n\nWhen the gas bubble is at a height $y$ from the bottom, its temperature is\n\n(A) $T_0\\left(\\dfrac{P_0+\\rho_\\ell gH}{P_0+\\rho_\\ell gy}\\right)^{2/5}$\n(B) $T_0\\left(\\dfrac{P_0+\\rho_\\ell g(H-y)}{P_0+\\rho_\\ell gH}\\right)^{2/5}$\n(C) $T_0\\left(\\dfrac{P_0+\\rho_\\ell gH}{P_0+\\rho_\\ell gy}\\right)^{3/5}$\n(D) $T_0\\left(\\dfrac{P_0+\\rho_\\ell g(H-y)}{P_0+\\rho_\\ell gH}\\right)^{3/5}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Paper 1",
+     "title": "Question 17",
+     "problem": "Question 17\n\nParagraph for Questions 15 to 17\n\nA small spherical monoatomic ideal gas bubble $\\left(\\gamma = \\dfrac{5}{3}\\right)$ is trapped inside a liquid of density $\\rho_\\ell$ (see figure). Assume that the bubble does not exchange any heat with the liquid. The bubble contains $n$ moles of gas. The temperature of the gas when the bubble is at the bottom is $T_0$, the height of the liquid is $H$ and the atmospheric pressure is $P_0$ (Neglect surface tension).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-17-fig1.png\n\nThe buoyancy force acting on the gas bubble is (Assume $R$ is the universal gas constant)\n\n(A) $\\rho_\\ell nRgT_0\\dfrac{(P_0+\\rho_\\ell gH)^{2/5}}{(P_0+\\rho_\\ell gy)^{7/5}}$\n(B) $\\dfrac{\\rho_\\ell nRgT_0}{(P_0+\\rho_\\ell gH)^{2/5}\\,[P_0+\\rho_\\ell g(H-y)]^{3/5}}$\n(C) $\\rho_\\ell nRgT_0\\dfrac{(P_0+\\rho_\\ell gH)^{3/5}}{(P_0+\\rho_\\ell gy)^{8/5}}$\n(D) $\\dfrac{\\rho_\\ell nRgT_0}{(P_0+\\rho_\\ell gH)^{3/5}\\,[P_0+\\rho_\\ell g(H-y)]^{2/5}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Paper 1",
+     "title": "Question 18",
+     "problem": "Question 18\n\nParagraph for Questions 18 to 20\n\nIn a mixture of $\\mathrm{H}$ – $\\mathrm{He^+}$ gas ($\\mathrm{He^+}$ is singly ionized He atom), H atoms and $\\mathrm{He^+}$ ions are excited to their respective first excited states. Subsequently, H atoms transfer their total excitation energy to $\\mathrm{He^+}$ ions (by collisions). Assume that the Bohr model of atom is exactly valid.\n\nThe quantum number $n$ of the state finally populated in $\\mathrm{He^+}$ ions is\n\n(A) 2\n(B) 3\n(C) 4\n(D) 5\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Paper 1",
+     "title": "Question 19",
+     "problem": "Question 19\n\nParagraph for Questions 18 to 20\n\nIn a mixture of $\\mathrm{H}$ – $\\mathrm{He^+}$ gas ($\\mathrm{He^+}$ is singly ionized He atom), H atoms and $\\mathrm{He^+}$ ions are excited to their respective first excited states. Subsequently, H atoms transfer their total excitation energy to $\\mathrm{He^+}$ ions (by collisions). Assume that the Bohr model of atom is exactly valid.\n\nThe wavelength of light emitted in the visible region by $\\mathrm{He^+}$ ions after collisions with H atoms is\n\n(A) $6.5\\times10^{-7}\\,\\mathrm{m}$\n(B) $5.6\\times10^{-7}\\,\\mathrm{m}$\n(C) $4.8\\times10^{-7}\\,\\mathrm{m}$\n(D) $4.0\\times10^{-7}\\,\\mathrm{m}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Paper 1",
+     "title": "Question 20",
+     "problem": "Question 20\n\nParagraph for Questions 18 to 20\n\nIn a mixture of $\\mathrm{H}$ – $\\mathrm{He^+}$ gas ($\\mathrm{He^+}$ is singly ionized He atom), H atoms and $\\mathrm{He^+}$ ions are excited to their respective first excited states. Subsequently, H atoms transfer their total excitation energy to $\\mathrm{He^+}$ ions (by collisions). Assume that the Bohr model of atom is exactly valid.\n\nThe ratio of the kinetic energy of the $n = 2$ electron for the H atom to that of $\\mathrm{He^+}$ ion is\n\n(A) $\\dfrac{1}{4}$\n(B) $\\dfrac{1}{2}$\n(C) $1$\n(D) $2$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Paper 1",
+     "title": "Question 21",
+     "problem": "Question 21\n\nParagraph for Questions 21 to 23\n\nA small block of mass M moves on a frictionless surface of an inclined plane, as shown in figure. The angle of the incline suddenly changes from $60^\\circ$ to $30^\\circ$ at point B. The block is initially at rest at A. Assume that collisions between the block and the incline are totally inelastic ($g = 10\\,\\mathrm{m/s^2}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-21-fig1.png\n\nThe speed of the block at point B immediately after it strikes the second incline is\n\n(A) $\\sqrt{60}\\,\\mathrm{m/s}$\n(B) $\\sqrt{45}\\,\\mathrm{m/s}$\n(C) $\\sqrt{30}\\,\\mathrm{m/s}$\n(D) $\\sqrt{15}\\,\\mathrm{m/s}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Paper 1",
+     "title": "Question 22",
+     "problem": "Question 22\n\nParagraph for Questions 21 to 23\n\nA small block of mass M moves on a frictionless surface of an inclined plane, as shown in figure. The angle of the incline suddenly changes from $60^\\circ$ to $30^\\circ$ at point B. The block is initially at rest at A. Assume that collisions between the block and the incline are totally inelastic ($g = 10\\,\\mathrm{m/s^2}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-22-fig1.png\n\nThe speed of the block at point C, immediately before it leaves the second incline is\n\n(A) $\\sqrt{120}\\,\\mathrm{m/s}$\n(B) $\\sqrt{105}\\,\\mathrm{m/s}$\n(C) $\\sqrt{90}\\,\\mathrm{m/s}$\n(D) $\\sqrt{75}\\,\\mathrm{m/s}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Paper 1",
+     "title": "Question 23",
+     "problem": "Question 23\n\nParagraph for Questions 21 to 23\n\nA small block of mass M moves on a frictionless surface of an inclined plane, as shown in figure. The angle of the incline suddenly changes from $60^\\circ$ to $30^\\circ$ at point B. The block is initially at rest at A. Assume that collisions between the block and the incline are totally inelastic ($g = 10\\,\\mathrm{m/s^2}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-1-23-fig1.png\n\nIf collision between the block and the incline is completely elastic, then the vertical (upward) component of the velocity of the block at point B, immediately after it strikes the second incline is\n\n(A) $\\sqrt{30}\\,\\mathrm{m/s}$\n(B) $\\sqrt{15}\\,\\mathrm{m/s}$\n(C) $0$\n(D) $-\\sqrt{15}\\,\\mathrm{m/s}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Paper 2",
+     "title": "Question 1",
+     "problem": "Question 1\n\nConsider a system of three charges $\\dfrac{q}{3}$, $\\dfrac{q}{3}$ and $-\\dfrac{2q}{3}$ placed at points A, B and C, respectively, as shown in the figure. Take O to be the centre of the circle of radius $R$ and angle CAB $= 60^\\circ$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-1-fig1.png\n\n(A) The electric field at point O is $\\dfrac{q}{8\\pi\\varepsilon_0 R^2}$ directed along the negative $x$-axis\n(B) The potential energy of the system is zero\n(C) The magnitude of the force between the charges at C and B is $\\dfrac{q^2}{54\\pi\\varepsilon_0 R^2}$\n(D) The potential at point O is $\\dfrac{q}{12\\pi\\varepsilon_0 R}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Paper 2",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA radioactive sample S1 having an activity of $5\\,\\mu\\mathrm{Ci}$ has twice the number of nuclei as another sample S2 which has an activity of $10\\,\\mu\\mathrm{Ci}$. The half lives of S1 and S2 can be\n\n(A) 20 years and 5 years, respectively\n(B) 20 years and 10 years, respectively\n(C) 10 years each\n(D) 5 years each\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Paper 2",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA transverse sinusoidal wave moves along a string in the positive $x$-direction at a speed of $10\\,\\mathrm{cm/s}$. The wavelength of the wave is $0.5\\,\\mathrm{m}$ and its amplitude is $10\\,\\mathrm{cm}$. At a particular time $t$, the snap-shot of the wave is shown in figure. The velocity of point P when its displacement is $5\\,\\mathrm{cm}$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-3-fig1.png\n\n(A) $\\dfrac{\\sqrt{3}\\pi}{50}\\,\\hat{j}\\ \\mathrm{m/s}$\n(B) $-\\dfrac{\\sqrt{3}\\pi}{50}\\,\\hat{j}\\ \\mathrm{m/s}$\n(C) $\\dfrac{\\sqrt{3}\\pi}{50}\\,\\hat{i}\\ \\mathrm{m/s}$\n(D) $-\\dfrac{\\sqrt{3}\\pi}{50}\\,\\hat{i}\\ \\mathrm{m/s}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Paper 2",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA block (B) is attached to two unstretched springs S1 and S2 with spring constants $k$ and $4k$, respectively (see figure I). The other ends are attached to identical supports M1 and M2 not attached to the walls. The springs and supports have negligible mass. There is no friction anywhere. The block B is displaced towards wall 1 by a small distance $x$ (figure II) and released. The block returns and moves a maximum distance $y$ towards wall 2. Displacements $x$ and $y$ are measured with respect to the equilibrium position of the block B. The ratio $\\dfrac{y}{x}$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-4-fig1.png\n\n(A) $4$\n(B) $2$\n(C) $\\dfrac{1}{2}$\n(D) $\\dfrac{1}{4}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Paper 2",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA bob of mass M is suspended by a massless string of length L. The horizontal velocity V at position A is just sufficient to make it reach the point B. The angle $\\theta$ at which the speed of the bob is half of that at A, satisfies\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-5-fig1.png\n\n(A) $\\theta = \\dfrac{\\pi}{4}$\n(B) $\\dfrac{\\pi}{4} < \\theta < \\dfrac{\\pi}{2}$\n(C) $\\dfrac{\\pi}{2} < \\theta < \\dfrac{3\\pi}{4}$\n(D) $\\dfrac{3\\pi}{4} < \\theta < \\pi$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Paper 2",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA glass tube of uniform internal radius ($r$) has a valve separating the two identical ends. Initially, the valve is in a tightly closed position. End 1 has a hemispherical soap bubble of radius $r$. End 2 has sub-hemispherical soap bubble as shown in figure. Just after opening the valve,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-6-fig1.png\n\n(A) air from end 1 flows towards end 2. No change in the volume of the soap bubbles\n(B) air from end 1 flows towards end 2. Volume of the soap bubble at end 1 decreases\n(C) no change occurs\n(D) air from end 2 flows towards end 1. Volume of the soap bubble at end 1 increases\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "Paper 2",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA vibrating string of certain length $\\ell$ under a tension T resonates with a mode corresponding to the first overtone (third harmonic) of an air column of length $75\\,\\mathrm{cm}$ inside a tube closed at one end. The string also generates 4 beats per second when excited along with a tuning fork of frequency $n$. Now when the tension of the string is slightly increased the number of beats reduces to 2 per second. Assuming the velocity of sound in air to be $340\\,\\mathrm{m/s}$, the frequency $n$ of the tuning fork in Hz is\n\n(A) $344$\n(B) $336$\n(C) $117.3$\n(D) $109.3$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "Paper 2",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA parallel plate capacitor $C$ with plates of unit area and separation $d$ is filled with a liquid of dielectric constant $K = 2$. The level of liquid is $\\dfrac{d}{3}$ initially. Suppose the liquid level decreases at a constant speed $V$, the time constant as a function of time $t$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-8-fig1.png\n\n(A) $\\dfrac{6\\varepsilon_0 R}{5d + 3Vt}$\n(B) $\\dfrac{(15d + 9Vt)\\varepsilon_0 R}{2d^2 - 3dVt - 9V^2t^2}$\n(C) $\\dfrac{6\\varepsilon_0 R}{5d - 3Vt}$\n(D) $\\dfrac{(15d - 9Vt)\\varepsilon_0 R}{2d^2 + 3dVt - 9V^2t^2}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "Paper 2",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA light beam is traveling from Region I to Region IV (Refer Figure). The refractive index in Regions I, II, III and IV are $n_0$, $\\dfrac{n_0}{2}$, $\\dfrac{n_0}{6}$ and $\\dfrac{n_0}{8}$, respectively. The angle of incidence $\\theta$ for which the beam just misses entering Region IV is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-9-fig1.png\n\n(A) $\\sin^{-1}\\left(\\dfrac{3}{4}\\right)$\n(B) $\\sin^{-1}\\left(\\dfrac{1}{8}\\right)$\n(C) $\\sin^{-1}\\left(\\dfrac{1}{4}\\right)$\n(D) $\\sin^{-1}\\left(\\dfrac{1}{3}\\right)$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "Paper 2",
+     "title": "Question 10",
+     "problem": "Question 10\n\nSTATEMENT-1\nFor an observer looking out through the window of a fast moving train, the nearby objects appear to move in the opposite direction to the train, while the distant objects appear to be stationary.\n\nand\n\nSTATEMENT-2\nIf the observer and the object are moving at velocities $\\vec{V}_1$ and $\\vec{V}_2$ respectively with reference to a laboratory frame, the velocity of the object with respect to the observer is $\\vec{V}_2 - \\vec{V}_1$.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "Paper 2",
+     "title": "Question 11",
+     "problem": "Question 11\n\nSTATEMENT-1\nIt is easier to pull a heavy object than to push it on a level ground.\n\nand\n\nSTATEMENT-2\nThe magnitude of frictional force depends on the nature of the two surfaces in contact.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "Paper 2",
+     "title": "Question 12",
+     "problem": "Question 12\n\nSTATEMENT-1\nFor practical purposes, the earth is used as a reference at zero potential in electrical circuits.\n\nand\n\nSTATEMENT-2\nThe electrical potential of a sphere of radius $R$ with charge $Q$ uniformly distributed on the surface is given by $\\dfrac{Q}{4\\pi\\varepsilon_0 R}$.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 13,
+     "paper_label": "Paper 2",
+     "title": "Question 13",
+     "problem": "Question 13\n\nSTATEMENT-1\nThe sensitivity of a moving coil galvanometer is increased by placing a suitable magnetic material as a core inside the coil.\n\nand\n\nSTATEMENT-2\nSoft iron has a high magnetic permeability and cannot be easily magnetized or demagnetized.\n\n(A) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is a correct explanation for STATEMENT-1\n(B) STATEMENT-1 is True, STATEMENT-2 is True; STATEMENT-2 is NOT a correct explanation for STATEMENT-1\n(C) STATEMENT-1 is True, STATEMENT-2 is False\n(D) STATEMENT-1 is False, STATEMENT-2 is True\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 14,
+     "paper_label": "Paper 2",
+     "title": "Question 14",
+     "problem": "Question 14\n\nParagraph for Questions 14 to 16\n\nThe nuclear charge ($Ze$) is non-uniformly distributed within a nucleus of radius $R$. The charge density $\\rho(r)$ [charge per unit volume] is dependent only on the radial distance $r$ from the centre of the nucleus as shown in figure. The electric field is only along the radial direction.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-14-fig1.png\n\nThe electric field at $r = R$ is\n\n(A) independent of $a$\n(B) directly proportional to $a$\n(C) directly proportional to $a^2$\n(D) inversely proportional to $a$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 15,
+     "paper_label": "Paper 2",
+     "title": "Question 15",
+     "problem": "Question 15\n\nParagraph for Questions 14 to 16\n\nThe nuclear charge ($Ze$) is non-uniformly distributed within a nucleus of radius $R$. The charge density $\\rho(r)$ [charge per unit volume] is dependent only on the radial distance $r$ from the centre of the nucleus as shown in figure. The electric field is only along the radial direction.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-15-fig1.png\n\nFor $a = 0$, the value of $d$ (maximum value of $\\rho$ as shown in the figure) is\n\n(A) $\\dfrac{3Ze}{4\\pi R^3}$\n(B) $\\dfrac{3Ze}{\\pi R^3}$\n(C) $\\dfrac{4Ze}{3\\pi R^3}$\n(D) $\\dfrac{Ze}{3\\pi R^3}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 16,
+     "paper_label": "Paper 2",
+     "title": "Question 16",
+     "problem": "Question 16\n\nParagraph for Questions 14 to 16\n\nThe nuclear charge ($Ze$) is non-uniformly distributed within a nucleus of radius $R$. The charge density $\\rho(r)$ [charge per unit volume] is dependent only on the radial distance $r$ from the centre of the nucleus as shown in figure. The electric field is only along the radial direction.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-16-fig1.png\n\nThe electric field within the nucleus is generally observed to be linearly dependent on $r$. This implies\n\n(A) $a = 0$\n(B) $a = \\dfrac{R}{2}$\n(C) $a = R$\n(D) $a = \\dfrac{2R}{3}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 17,
+     "paper_label": "Paper 2",
+     "title": "Question 17",
+     "problem": "Question 17\n\nParagraph for Questions 17 to 19\n\nA uniform thin cylindrical disk of mass $M$ and radius $R$ is attached to two identical massless springs of spring constant $k$ which are fixed to the wall as shown in the figure. The springs are attached to the axle of the disk symmetrically on either side at a distance $d$ from its centre. The axle is massless and both the springs and the axle are in a horizontal plane. The unstretched length of each spring is $L$. The disk is initially at its equilibrium position with its centre of mass (CM) at a distance $L$ from the wall. The disk rolls without slipping with velocity $\\vec{V}_0 = V_0\\hat{i}$. The coefficient of friction is $\\mu$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-17-fig1.png\n\nThe net external force acting on the disk when its centre of mass is at displacement $x$ with respect to its equilibrium position is\n\n(A) $-kx$\n(B) $-2kx$\n(C) $-\\dfrac{2kx}{3}$\n(D) $-\\dfrac{4kx}{3}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 18,
+     "paper_label": "Paper 2",
+     "title": "Question 18",
+     "problem": "Question 18\n\nParagraph for Questions 17 to 19\n\nA uniform thin cylindrical disk of mass $M$ and radius $R$ is attached to two identical massless springs of spring constant $k$ which are fixed to the wall as shown in the figure. The springs are attached to the axle of the disk symmetrically on either side at a distance $d$ from its centre. The axle is massless and both the springs and the axle are in a horizontal plane. The unstretched length of each spring is $L$. The disk is initially at its equilibrium position with its centre of mass (CM) at a distance $L$ from the wall. The disk rolls without slipping with velocity $\\vec{V}_0 = V_0\\hat{i}$. The coefficient of friction is $\\mu$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-18-fig1.png\n\nThe centre of mass of the disk undergoes simple harmonic motion with angular frequency $\\omega$ equal to\n\n(A) $\\sqrt{\\dfrac{k}{M}}$\n(B) $\\sqrt{\\dfrac{2k}{M}}$\n(C) $\\sqrt{\\dfrac{2k}{3M}}$\n(D) $\\sqrt{\\dfrac{4k}{3M}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 19,
+     "paper_label": "Paper 2",
+     "title": "Question 19",
+     "problem": "Question 19\n\nParagraph for Questions 17 to 19\n\nA uniform thin cylindrical disk of mass $M$ and radius $R$ is attached to two identical massless springs of spring constant $k$ which are fixed to the wall as shown in the figure. The springs are attached to the axle of the disk symmetrically on either side at a distance $d$ from its centre. The axle is massless and both the springs and the axle are in a horizontal plane. The unstretched length of each spring is $L$. The disk is initially at its equilibrium position with its centre of mass (CM) at a distance $L$ from the wall. The disk rolls without slipping with velocity $\\vec{V}_0 = V_0\\hat{i}$. The coefficient of friction is $\\mu$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-19-fig1.png\n\nThe maximum value of $V_0$ for which the disk will roll without slipping is\n\n(A) $\\mu g\\sqrt{\\dfrac{M}{k}}$\n(B) $\\mu g\\sqrt{\\dfrac{M}{2k}}$\n(C) $\\mu g\\sqrt{\\dfrac{3M}{k}}$\n(D) $\\mu g\\sqrt{\\dfrac{5M}{2k}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 20,
+     "paper_label": "Paper 2",
+     "title": "Question 20",
+     "problem": "Question 20\n\nColumn I gives a list of possible set of parameters measured in some experiments. The variations of the parameters in the form of graphs are shown in Column II. Match the set of parameters given in Column I with the graphs given in Column II.\n\nColumn I\n(A) Potential energy of a simple pendulum ($y$ axis) as a function of displacement ($x$ axis)\n(B) Displacement ($y$ axis) as a function of time ($x$ axis) for a one dimensional motion at zero or constant acceleration when the body is moving along the positive $x$-direction\n(C) Range of a projectile ($y$ axis) as a function of its velocity ($x$ axis) when projected at a fixed angle\n(D) The square of the time period ($y$ axis) of a simple pendulum as a function of its length ($x$ axis)\n\nColumn II\n(p)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-20-fig1.png\n\n(q)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-20-fig2.png\n\n(r)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-20-fig3.png\n\n(s)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-20-fig4.png\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 2,
+     "number": 21,
+     "paper_label": "Paper 2",
+     "title": "Question 21",
+     "problem": "Question 21\n\nAn optical component and an object S placed along its optic axis are given in Column I. The distance between the object and the component can be varied. The properties of images are given in Column II. Match all the properties of images from Column II with the appropriate components given in Column I.\n\nColumn I\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-21-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-21-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-21-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-21-fig4.png\n\nColumn II\n(p) Real image\n(q) Virtual image\n(r) Magnified image\n(s) Image at infinity\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 2,
+     "number": 22,
+     "paper_label": "Paper 2",
+     "title": "Question 22",
+     "problem": "Question 22\n\nColumn I contains a list of processes involving expansion of an ideal gas. Match this with Column II describing the thermodynamic change during this process.\n\nColumn I\n(A) An insulated container has two chambers separated by a valve. Chamber I contains an ideal gas and the Chamber II has vacuum. The valve is opened.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-22-fig1.png\n\n(B) An ideal monoatomic gas expands to twice its original volume such that its pressure $P \\propto \\dfrac{1}{V^2}$, where $V$ is the volume of the gas\n(C) An ideal monoatomic gas expands to twice its original volume such that its pressure $P \\propto \\dfrac{1}{V^{4/3}}$, where $V$ is its volume\n(D) An ideal monoatomic gas expands such that its pressure $P$ and volume $V$ follows the behaviour shown in the graph\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2008-2-22-fig2.png\n\nColumn II\n(p) The temperature of the gas decreases\n(q) The temperature of the gas increases or remains constant\n(r) The gas loses heat\n(s) The gas gains heat\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    }
+   ]
+  },
+  {
    "year": 2009,
    "problems": [
     {

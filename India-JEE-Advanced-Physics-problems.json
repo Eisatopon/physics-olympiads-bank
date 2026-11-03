@@ -2,6 +2,576 @@
  "competition": "India — JEE (Advanced), Physics (Papers 1 and 2)",
  "years": [
   {
+   "year": 2013,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Paper 1",
+     "title": "Question 1",
+     "problem": "Question 1\n\nThe diameter of a cylinder is measured using a Vernier callipers with no zero error. It is found that the zero of the Vernier scale lies between $5.10\\,\\mathrm{cm}$ and $5.15\\,\\mathrm{cm}$ of the main scale. The Vernier scale has 50 divisions equivalent to $2.45\\,\\mathrm{cm}$. The $24^{\\text{th}}$ division of the Vernier scale exactly coincides with one of the main scale divisions. The diameter of the cylinder is\n\n(A) $5.112\\,\\mathrm{cm}$\n(B) $5.124\\,\\mathrm{cm}$\n(C) $5.136\\,\\mathrm{cm}$\n(D) $5.148\\,\\mathrm{cm}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Paper 1",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA ray of light travelling in the direction $\\frac{1}{2}\\left(\\hat{i}+\\sqrt{3}\\,\\hat{j}\\right)$ is incident on a plane mirror. After reflection, it travels along the direction $\\frac{1}{2}\\left(\\hat{i}-\\sqrt{3}\\,\\hat{j}\\right)$. The angle of incidence is\n\n(A) $30^\\circ$\n(B) $45^\\circ$\n(C) $60^\\circ$\n(D) $75^\\circ$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Paper 1",
+     "title": "Question 3",
+     "problem": "Question 3\n\nIn the Young's double slit experiment using a monochromatic light of wavelength $\\lambda$, the path difference (in terms of an integer $n$) corresponding to any point having half the peak intensity is\n\n(A) $(2n+1)\\dfrac{\\lambda}{2}$\n(B) $(2n+1)\\dfrac{\\lambda}{4}$\n(C) $(2n+1)\\dfrac{\\lambda}{8}$\n(D) $(2n+1)\\dfrac{\\lambda}{16}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Paper 1",
+     "title": "Question 4",
+     "problem": "Question 4\n\nTwo non-reactive monoatomic ideal gases have their atomic masses in the ratio $2:3$. The ratio of their partial pressures, when enclosed in a vessel kept at a constant temperature, is $4:3$. The ratio of their densities is\n\n(A) $1:4$\n(B) $1:2$\n(C) $6:9$\n(D) $8:9$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Paper 1",
+     "title": "Question 5",
+     "problem": "Question 5\n\nTwo rectangular blocks, having identical dimensions, can be arranged either in configuration I or in configuration II as shown in the figure. One of the blocks has thermal conductivity $\\kappa$ and the other $2\\kappa$. The temperature difference between the ends along the $x$-axis is the same in both the configurations. It takes $9\\,\\mathrm{s}$ to transport a certain amount of heat from the hot end to the cold end in the configuration I. The time to transport the same amount of heat in the configuration II is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-1-5-fig1.png\n\n(A) $2.0\\,\\mathrm{s}$\n(B) $3.0\\,\\mathrm{s}$\n(C) $4.5\\,\\mathrm{s}$\n(D) $6.0\\,\\mathrm{s}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Paper 1",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA pulse of light of duration $100\\,\\mathrm{ns}$ is absorbed completely by a small object initially at rest. Power of the pulse is $30\\,\\mathrm{mW}$ and the speed of light is $3\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$. The final momentum of the object is\n\n(A) $0.3\\times10^{-17}\\,\\mathrm{kg\\,m\\,s^{-1}}$\n(B) $1.0\\times10^{-17}\\,\\mathrm{kg\\,m\\,s^{-1}}$\n(C) $3.0\\times10^{-17}\\,\\mathrm{kg\\,m\\,s^{-1}}$\n(D) $9.0\\times10^{-17}\\,\\mathrm{kg\\,m\\,s^{-1}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Paper 1",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA particle of mass $m$ is projected from the ground with an initial speed $u_0$ at an angle $\\alpha$ with the horizontal. At the highest point of its trajectory, it makes a completely inelastic collision with another identical particle, which was thrown vertically upward from the ground with the same initial speed $u_0$. The angle that the composite system makes with the horizontal immediately after the collision is\n\n(A) $\\dfrac{\\pi}{4}$\n(B) $\\dfrac{\\pi}{4}+\\alpha$\n(C) $\\dfrac{\\pi}{2}-\\alpha$\n(D) $\\dfrac{\\pi}{2}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Paper 1",
+     "title": "Question 8",
+     "problem": "Question 8\n\nThe work done on a particle of mass $m$ by a force, $K\\left[\\dfrac{x}{\\left(x^2+y^2\\right)^{3/2}}\\,\\hat{i}+\\dfrac{y}{\\left(x^2+y^2\\right)^{3/2}}\\,\\hat{j}\\right]$ ($K$ being a constant of appropriate dimensions), when the particle is taken from the point $(a,0)$ to the point $(0,a)$ along a circular path of radius $a$ about the origin in the $x$-$y$ plane is\n\n(A) $\\dfrac{2K\\pi}{a}$\n(B) $\\dfrac{K\\pi}{a}$\n(C) $\\dfrac{K\\pi}{2a}$\n(D) $0$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Paper 1",
+     "title": "Question 9",
+     "problem": "Question 9\n\nOne end of a horizontal thick copper wire of length $2L$ and radius $2R$ is welded to an end of another horizontal thin copper wire of length $L$ and radius $R$. When the arrangement is stretched by applying forces at two ends, the ratio of the elongation in the thin wire to that in the thick wire is\n\n(A) $0.25$\n(B) $0.50$\n(C) $2.00$\n(D) $4.00$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Paper 1",
+     "title": "Question 10",
+     "problem": "Question 10\n\nThe image of an object, formed by a plano-convex lens at a distance of $8\\,\\mathrm{m}$ behind the lens, is real and is one-third the size of the object. The wavelength of light inside the lens is $\\dfrac{2}{3}$ times the wavelength in free space. The radius of the curved surface of the lens is\n\n(A) $1\\,\\mathrm{m}$\n(B) $2\\,\\mathrm{m}$\n(C) $3\\,\\mathrm{m}$\n(D) $6\\,\\mathrm{m}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Paper 1",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA horizontal stretched string, fixed at two ends, is vibrating in its fifth harmonic according to the equation, $y(x,t)=(0.01\\,\\mathrm{m})\\sin\\left[(62.8\\,\\mathrm{m^{-1}})\\,x\\right]\\cos\\left[(628\\,\\mathrm{s^{-1}})\\,t\\right]$. Assuming $\\pi=3.14$, the correct statement(s) is (are)\n\n(A) The number of nodes is 5.\n(B) The length of the string is $0.25\\,\\mathrm{m}$.\n(C) The maximum displacement of the midpoint of the string, from its equilibrium position is $0.01\\,\\mathrm{m}$.\n(D) The fundamental frequency is $100\\,\\mathrm{Hz}$.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Paper 1",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA solid sphere of radius $R$ and density $\\rho$ is attached to one end of a mass-less spring of force constant $k$. The other end of the spring is connected to another solid sphere of radius $R$ and density $3\\rho$. The complete arrangement is placed in a liquid of density $2\\rho$ and is allowed to reach equilibrium. The correct statement(s) is (are)\n\n(A) the net elongation of the spring is $\\dfrac{4\\pi R^3\\rho g}{3k}$.\n(B) the net elongation of the spring is $\\dfrac{8\\pi R^3\\rho g}{3k}$.\n(C) the light sphere is partially submerged.\n(D) the light sphere is completely submerged.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Paper 1",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA particle of mass $M$ and positive charge $Q$, moving with a constant velocity $\\vec{u}_1=4\\hat{i}\\,\\mathrm{m\\,s^{-1}}$, enters a region of uniform static magnetic field normal to the $x$-$y$ plane. The region of the magnetic field extends from $x=0$ to $x=L$ for all values of $y$. After passing through this region, the particle emerges on the other side after 10 milliseconds with a velocity $\\vec{u}_2=2\\left(\\sqrt{3}\\,\\hat{i}+\\hat{j}\\right)\\mathrm{m\\,s^{-1}}$. The correct statement(s) is (are)\n\n(A) The direction of the magnetic field is $-z$ direction.\n(B) The direction of the magnetic field is $+z$ direction.\n(C) The magnitude of the magnetic field $\\dfrac{50\\pi M}{3Q}$ units.\n(D) The magnitude of the magnetic field is $\\dfrac{100\\pi M}{3Q}$ units.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Paper 1",
+     "title": "Question 14",
+     "problem": "Question 14\n\nTwo non-conducting solid spheres of radii $R$ and $2R$, having uniform volume charge densities $\\rho_1$ and $\\rho_2$ respectively, touch each other. The net electric field at a distance $2R$ from the centre of the smaller sphere, along the line joining the centres of the spheres, is zero. The ratio $\\dfrac{\\rho_1}{\\rho_2}$ can be\n\n(A) $-4$\n(B) $-\\dfrac{32}{25}$\n(C) $\\dfrac{32}{25}$\n(D) $4$\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Paper 1",
+     "title": "Question 15",
+     "problem": "Question 15\n\nIn the circuit shown in the figure, there are two parallel plate capacitors each of capacitance $C$. The switch $S_1$ is pressed first to fully charge the capacitor $C_1$ and then released. The switch $S_2$ is then pressed to charge the capacitor $C_2$. After some time, $S_2$ is released and then $S_3$ is pressed. After some time,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-1-15-fig1.png\n\n(A) the charge on the upper plate of $C_1$ is $2CV_0$.\n(B) the charge on the upper plate of $C_1$ is $CV_0$.\n(C) the charge on the upper plate of $C_2$ is 0.\n(D) the charge on the upper plate of $C_2$ is $-CV_0$.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Paper 1",
+     "title": "Question 16",
+     "problem": "Question 16\n\nThe work functions of Silver and Sodium are 4.6 and $2.3\\,\\mathrm{eV}$, respectively. The ratio of the slope of the stopping potential versus frequency plot for Silver to that of Sodium is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Paper 1",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA freshly prepared sample of a radioisotope of half-life $1386\\,\\mathrm{s}$ has activity $10^3$ disintegrations per second. Given that $\\ln 2=0.693$, the fraction of the initial number of nuclei (expressed in nearest integer percentage) that will decay in the first $80\\,\\mathrm{s}$ after preparation of the sample is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Paper 1",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA particle of mass $0.2\\,\\mathrm{kg}$ is moving in one dimension under a force that delivers a constant power $0.5\\,\\mathrm{W}$ to the particle. If the initial speed (in $\\mathrm{m\\,s^{-1}}$) of the particle is zero, the speed (in $\\mathrm{m\\,s^{-1}}$) after $5\\,\\mathrm{s}$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Paper 1",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA uniform circular disc of mass $50\\,\\mathrm{kg}$ and radius $0.4\\,\\mathrm{m}$ is rotating with an angular velocity of $10\\,\\mathrm{rad\\,s^{-1}}$ about its own axis, which is vertical. Two uniform circular rings, each of mass $6.25\\,\\mathrm{kg}$ and radius $0.2\\,\\mathrm{m}$, are gently placed symmetrically on the disc in such a manner that they are touching each other along the axis of the disc and are horizontal. Assume that the friction is large enough such that the rings are at rest relative to the disc and the system rotates about the original axis. The new angular velocity (in $\\mathrm{rad\\,s^{-1}}$) of the system is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Paper 1",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA bob of mass $m$, suspended by a string of length $l_1$, is given a minimum velocity required to complete a full circle in the vertical plane. At the highest point, it collides elastically with another bob of mass $m$ suspended by a string of length $l_2$, which is initially at rest. Both the strings are mass-less and inextensible. If the second bob, after collision acquires the minimum speed required to complete a full circle in the vertical plane, the ratio $\\dfrac{l_1}{l_2}$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Paper 2",
+     "title": "Question 1",
+     "problem": "Question 1\n\nUsing the expression $2d\\sin\\theta=\\lambda$, one calculates the values of $d$ by measuring the corresponding angles $\\theta$ in the range 0 to $90^\\circ$. The wavelength $\\lambda$ is exactly known and the error in $\\theta$ is constant for all values of $\\theta$. As $\\theta$ increases from $0^\\circ$,\n\n(A) the absolute error in $d$ remains constant.\n(B) the absolute error in $d$ increases.\n(C) the fractional error in $d$ remains constant.\n(D) the fractional error in $d$ decreases.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Paper 2",
+     "title": "Question 2",
+     "problem": "Question 2\n\nTwo non-conducting spheres of radii $R_1$ and $R_2$ and carrying uniform volume charge densities $+\\rho$ and $-\\rho$, respectively, are placed such that they partially overlap, as shown in the figure. At all points in the overlapping region,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-2-2-fig1.png\n\n(A) the electrostatic field is zero.\n(B) the electrostatic potential is constant.\n(C) the electrostatic field is constant in magnitude.\n(D) the electrostatic field has same direction.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Paper 2",
+     "title": "Question 3",
+     "problem": "Question 3\n\nThe figure below shows the variation of specific heat capacity ($C$) of a solid as a function of temperature ($T$). The temperature is increased continuously from 0 to $500\\,\\mathrm{K}$ at a constant rate. Ignoring any volume change, the following statement(s) is (are) correct to a reasonable approximation.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-2-3-fig1.png\n\n(A) the rate at which heat is absorbed in the range $0$-$100\\,\\mathrm{K}$ varies linearly with temperature $T$.\n(B) heat absorbed in increasing the temperature from $0$-$100\\,\\mathrm{K}$ is less than the heat required for increasing the temperature from $400$-$500\\,\\mathrm{K}$.\n(C) there is no change in the rate of heat absorption in the range $400$-$500\\,\\mathrm{K}$.\n(D) the rate of heat absorption increases in the range $200$-$300\\,\\mathrm{K}$.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Paper 2",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe radius of the orbit of an electron in a Hydrogen-like atom is $4.5\\,a_0$, where $a_0$ is the Bohr radius. Its orbital angular momentum is $\\dfrac{3h}{2\\pi}$. It is given that $h$ is Planck constant and $R$ is Rydberg constant. The possible wavelength(s), when the atom de-excites, is (are)\n\n(A) $\\dfrac{9}{32R}$\n(B) $\\dfrac{9}{16R}$\n(C) $\\dfrac{9}{5R}$\n(D) $\\dfrac{4}{3R}$\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Paper 2",
+     "title": "Question 5",
+     "problem": "Question 5\n\nTwo bodies, each of mass $M$, are kept fixed with a separation $2L$. A particle of mass $m$ is projected from the midpoint of the line joining their centres, perpendicular to the line. The gravitational constant is $G$. The correct statement(s) is (are)\n\n(A) The minimum initial velocity of the mass $m$ to escape the gravitational field of the two bodies is $4\\sqrt{\\dfrac{GM}{L}}$.\n(B) The minimum initial velocity of the mass $m$ to escape the gravitational field of the two bodies is $2\\sqrt{\\dfrac{GM}{L}}$.\n(C) The minimum initial velocity of the mass $m$ to escape the gravitational field of the two bodies is $\\sqrt{\\dfrac{2GM}{L}}$.\n(D) The energy of the mass $m$ remains constant.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Paper 2",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA particle of mass $m$ is attached to one end of a mass-less spring of force constant $k$, lying on a frictionless horizontal plane. The other end of the spring is fixed. The particle starts moving horizontally from its equilibrium position at time $t=0$ with an initial velocity $u_0$. When the speed of the particle is $0.5\\,u_0$, it collides elastically with a rigid wall. After this collision,\n\n(A) the speed of the particle when it returns to its equilibrium position is $u_0$.\n(B) the time at which the particle passes through the equilibrium position for the first time is $t=\\pi\\sqrt{\\dfrac{m}{k}}$.\n(C) the time at which the maximum compression of the spring occurs is $t=\\dfrac{4\\pi}{3}\\sqrt{\\dfrac{m}{k}}$.\n(D) the time at which the particle passes through the equilibrium position for the second time is $t=\\dfrac{5\\pi}{3}\\sqrt{\\dfrac{m}{k}}$.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "Paper 2",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA steady current $I$ flows along an infinitely long hollow cylindrical conductor of radius $R$. This cylinder is placed coaxially inside an infinite solenoid of radius $2R$. The solenoid has $n$ turns per unit length and carries a steady current $I$. Consider a point $P$ at a distance $r$ from the common axis. The correct statement(s) is (are)\n\n(A) In the region $0<r<R$, the magnetic field is non-zero.\n(B) In the region $R<r<2R$, the magnetic field is along the common axis.\n(C) In the region $R<r<2R$, the magnetic field is tangential to the circle of radius $r$, centered on the axis.\n(D) In the region $r>2R$, the magnetic field is non-zero.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "Paper 2",
+     "title": "Question 8",
+     "problem": "Question 8\n\nTwo vehicles, each moving with speed $u$ on the same horizontal straight road, are approaching each other. Wind blows along the road with velocity $w$. One of these vehicles blows a whistle of frequency $f_1$. An observer in the other vehicle hears the frequency of the whistle to be $f_2$. The speed of sound in still air is $V$. The correct statement(s) is (are)\n\n(A) If the wind blows from the observer to the source, $f_2>f_1$.\n(B) If the wind blows from the source to the observer, $f_2>f_1$.\n(C) If the wind blows from observer to the source, $f_2<f_1$.\n(D) If the wind blows from the source to the observer, $f_2<f_1$.\n\n[One or more options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "Paper 2",
+     "title": "Question 9",
+     "problem": "Question 9\n\nParagraph for Questions 9 and 10\n\nA point charge $Q$ is moving in a circular orbit of radius $R$ in the $x$-$y$ plane with an angular velocity $\\omega$. This can be considered as equivalent to a loop carrying a steady current $\\dfrac{Q\\omega}{2\\pi}$. A uniform magnetic field along the positive $z$-axis is now switched on, which increases at a constant rate from 0 to $B$ in one second. Assume that the radius of the orbit remains constant. The application of the magnetic field induces an emf in the orbit. The induced emf is defined as the work done by an induced electric field in moving a unit positive charge around a closed loop. It is known that, for an orbiting charge, the magnetic dipole moment is proportional to the angular momentum with a proportionality constant $\\gamma$.\n\nThe magnitude of the induced electric field in the orbit at any instant of time during the time interval of the magnetic field change is\n\n(A) $\\dfrac{BR}{4}$\n(B) $\\dfrac{BR}{2}$\n(C) $BR$\n(D) $2BR$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "Paper 2",
+     "title": "Question 10",
+     "problem": "Question 10\n\nParagraph for Questions 9 and 10\n\nA point charge $Q$ is moving in a circular orbit of radius $R$ in the $x$-$y$ plane with an angular velocity $\\omega$. This can be considered as equivalent to a loop carrying a steady current $\\dfrac{Q\\omega}{2\\pi}$. A uniform magnetic field along the positive $z$-axis is now switched on, which increases at a constant rate from 0 to $B$ in one second. Assume that the radius of the orbit remains constant. The application of the magnetic field induces an emf in the orbit. The induced emf is defined as the work done by an induced electric field in moving a unit positive charge around a closed loop. It is known that, for an orbiting charge, the magnetic dipole moment is proportional to the angular momentum with a proportionality constant $\\gamma$.\n\nThe change in the magnetic dipole moment associated with the orbit, at the end of the time interval of the magnetic field change, is\n\n(A) $-\\gamma BQR^2$\n(B) $-\\gamma\\dfrac{BQR^2}{2}$\n(C) $\\gamma\\dfrac{BQR^2}{2}$\n(D) $\\gamma BQR^2$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "Paper 2",
+     "title": "Question 11",
+     "problem": "Question 11\n\nParagraph for Questions 11 and 12\n\nThe mass of a nucleus ${}^{A}_{Z}X$ is less than the sum of the masses of $(A-Z)$ number of neutrons and $Z$ number of protons in the nucleus. The energy equivalent to the corresponding mass difference is known as the binding energy of the nucleus. A heavy nucleus of mass $M$ can break into two light nuclei of masses $m_1$ and $m_2$ only if $(m_1+m_2)<M$. Also two light nuclei of masses $m_3$ and $m_4$ can undergo complete fusion and form a heavy nucleus of mass $M'$ only if $(m_3+m_4)>M'$. The masses of some neutral atoms are given in the table below:\n\n$$\\begin{array}{|c|c|c|c|c|c|c|c|} \\hline {}^{1}_{1}\\mathrm{H} & 1.007825\\,u & {}^{2}_{1}\\mathrm{H} & 2.014102\\,u & {}^{3}_{1}\\mathrm{H} & 3.016050\\,u & {}^{4}_{2}\\mathrm{He} & 4.002603\\,u \\\\ \\hline {}^{6}_{3}\\mathrm{Li} & 6.015123\\,u & {}^{7}_{3}\\mathrm{Li} & 7.016004\\,u & {}^{70}_{30}\\mathrm{Zn} & 69.925325\\,u & {}^{82}_{34}\\mathrm{Se} & 81.916709\\,u \\\\ \\hline {}^{152}_{64}\\mathrm{Gd} & 151.919803\\,u & {}^{206}_{82}\\mathrm{Pb} & 205.974455\\,u & {}^{209}_{83}\\mathrm{Bi} & 208.980388\\,u & {}^{210}_{84}\\mathrm{Po} & 209.982876\\,u \\\\ \\hline \\end{array}$$\n\n$(1\\,u=932\\,\\mathrm{MeV}/c^2)$\n\nThe correct statement is\n\n(A) The nucleus ${}^{6}_{3}\\mathrm{Li}$ can emit an alpha particle.\n(B) The nucleus ${}^{210}_{84}\\mathrm{Po}$ can emit a proton.\n(C) Deuteron and alpha particle can undergo complete fusion.\n(D) The nuclei ${}^{70}_{30}\\mathrm{Zn}$ and ${}^{82}_{34}\\mathrm{Se}$ can undergo complete fusion.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "Paper 2",
+     "title": "Question 12",
+     "problem": "Question 12\n\nParagraph for Questions 11 and 12\n\nThe mass of a nucleus ${}^{A}_{Z}X$ is less than the sum of the masses of $(A-Z)$ number of neutrons and $Z$ number of protons in the nucleus. The energy equivalent to the corresponding mass difference is known as the binding energy of the nucleus. A heavy nucleus of mass $M$ can break into two light nuclei of masses $m_1$ and $m_2$ only if $(m_1+m_2)<M$. Also two light nuclei of masses $m_3$ and $m_4$ can undergo complete fusion and form a heavy nucleus of mass $M'$ only if $(m_3+m_4)>M'$. The masses of some neutral atoms are given in the table below:\n\n$$\\begin{array}{|c|c|c|c|c|c|c|c|} \\hline {}^{1}_{1}\\mathrm{H} & 1.007825\\,u & {}^{2}_{1}\\mathrm{H} & 2.014102\\,u & {}^{3}_{1}\\mathrm{H} & 3.016050\\,u & {}^{4}_{2}\\mathrm{He} & 4.002603\\,u \\\\ \\hline {}^{6}_{3}\\mathrm{Li} & 6.015123\\,u & {}^{7}_{3}\\mathrm{Li} & 7.016004\\,u & {}^{70}_{30}\\mathrm{Zn} & 69.925325\\,u & {}^{82}_{34}\\mathrm{Se} & 81.916709\\,u \\\\ \\hline {}^{152}_{64}\\mathrm{Gd} & 151.919803\\,u & {}^{206}_{82}\\mathrm{Pb} & 205.974455\\,u & {}^{209}_{83}\\mathrm{Bi} & 208.980388\\,u & {}^{210}_{84}\\mathrm{Po} & 209.982876\\,u \\\\ \\hline \\end{array}$$\n\n$(1\\,u=932\\,\\mathrm{MeV}/c^2)$\n\nThe kinetic energy (in $\\mathrm{keV}$) of the alpha particle, when the nucleus ${}^{210}_{84}\\mathrm{Po}$ at rest undergoes alpha decay, is\n\n(A) 5319\n(B) 5422\n(C) 5707\n(D) 5818\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 13,
+     "paper_label": "Paper 2",
+     "title": "Question 13",
+     "problem": "Question 13\n\nParagraph for Questions 13 and 14\n\nA small block of mass $1\\,\\mathrm{kg}$ is released from rest at the top of a rough track. The track is a circular arc of radius $40\\,\\mathrm{m}$. The block slides along the track without toppling and a frictional force acts on it in the direction opposite to the instantaneous velocity. The work done in overcoming the friction up to the point $Q$, as shown in the figure below, is $150\\,\\mathrm{J}$. (Take the acceleration due to gravity, $g=10\\,\\mathrm{m\\,s^{-2}}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-2-13-fig1.png\n\nThe speed of the block when it reaches the point $Q$ is\n\n(A) $5\\,\\mathrm{m\\,s^{-1}}$\n(B) $10\\,\\mathrm{m\\,s^{-1}}$\n(C) $10\\sqrt{3}\\,\\mathrm{m\\,s^{-1}}$\n(D) $20\\,\\mathrm{m\\,s^{-1}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 14,
+     "paper_label": "Paper 2",
+     "title": "Question 14",
+     "problem": "Question 14\n\nParagraph for Questions 13 and 14\n\nA small block of mass $1\\,\\mathrm{kg}$ is released from rest at the top of a rough track. The track is a circular arc of radius $40\\,\\mathrm{m}$. The block slides along the track without toppling and a frictional force acts on it in the direction opposite to the instantaneous velocity. The work done in overcoming the friction up to the point $Q$, as shown in the figure below, is $150\\,\\mathrm{J}$. (Take the acceleration due to gravity, $g=10\\,\\mathrm{m\\,s^{-2}}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-2-14-fig1.png\n\nThe magnitude of the normal reaction that acts on the block at the point $Q$ is\n\n(A) $7.5\\,\\mathrm{N}$\n(B) $8.6\\,\\mathrm{N}$\n(C) $11.5\\,\\mathrm{N}$\n(D) $22.5\\,\\mathrm{N}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 15,
+     "paper_label": "Paper 2",
+     "title": "Question 15",
+     "problem": "Question 15\n\nParagraph for Questions 15 and 16\n\nA thermal power plant produces electric power of $600\\,\\mathrm{kW}$ at $4000\\,\\mathrm{V}$, which is to be transported to a place $20\\,\\mathrm{km}$ away from the power plant for consumers' usage. It can be transported either directly with a cable of large current carrying capacity or by using a combination of step-up and step-down transformers at the two ends. The drawback of the direct transmission is the large energy dissipation. In the method using transformers, the dissipation is much smaller. In this method, a step-up transformer is used at the plant side so that the current is reduced to a smaller value. At the consumers' end, a step-down transformer is used to supply power to the consumers at the specified lower voltage. It is reasonable to assume that the power cable is purely resistive and the transformers are ideal with a power factor unity. All the currents and voltages mentioned are rms values.\n\nIf the direct transmission method with a cable of resistance $0.4\\,\\Omega\\,\\mathrm{km^{-1}}$ is used, the power dissipation (in %) during transmission is\n\n(A) 20\n(B) 30\n(C) 40\n(D) 50\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 16,
+     "paper_label": "Paper 2",
+     "title": "Question 16",
+     "problem": "Question 16\n\nParagraph for Questions 15 and 16\n\nA thermal power plant produces electric power of $600\\,\\mathrm{kW}$ at $4000\\,\\mathrm{V}$, which is to be transported to a place $20\\,\\mathrm{km}$ away from the power plant for consumers' usage. It can be transported either directly with a cable of large current carrying capacity or by using a combination of step-up and step-down transformers at the two ends. The drawback of the direct transmission is the large energy dissipation. In the method using transformers, the dissipation is much smaller. In this method, a step-up transformer is used at the plant side so that the current is reduced to a smaller value. At the consumers' end, a step-down transformer is used to supply power to the consumers at the specified lower voltage. It is reasonable to assume that the power cable is purely resistive and the transformers are ideal with a power factor unity. All the currents and voltages mentioned are rms values.\n\nIn the method using the transformers, assume that the ratio of the number of turns in the primary to that in the secondary in the step-up transformer is $1:10$. If the power to the consumers has to be supplied at $200\\,\\mathrm{V}$, the ratio of the number of turns in the primary to that in the secondary in the step-down transformer is\n\n(A) $200:1$\n(B) $150:1$\n(C) $100:1$\n(D) $50:1$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 17,
+     "paper_label": "Paper 2",
+     "title": "Question 17",
+     "problem": "Question 17\n\nMatch List I with List II and select the correct answer using the codes given below the lists:\n\nList-I\n\n(P) Boltzmann constant\n(Q) Coefficient of viscosity\n(R) Planck constant\n(S) Thermal conductivity\n\nList-II\n\n(1) $[ML^2T^{-1}]$\n(2) $[ML^{-1}T^{-1}]$\n(3) $[MLT^{-3}K^{-1}]$\n(4) $[ML^2T^{-2}K^{-1}]$\n\n(A) P-3, Q-1, R-2, S-4\n(B) P-3, Q-2, R-1, S-4\n(C) P-4, Q-2, R-1, S-3\n(D) P-4, Q-1, R-2, S-3\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 18,
+     "paper_label": "Paper 2",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA right angled prism of refractive index $\\mu_1$ is placed in a rectangular block of refractive index $\\mu_2$, which is surrounded by a medium of refractive index $\\mu_3$, as shown in the figure. A ray of light '$e$' enters the rectangular block at normal incidence. Depending upon the relationships between $\\mu_1$, $\\mu_2$ and $\\mu_3$, it takes one of the four possible paths '$ef$', '$eg$', '$eh$' or '$ei$'.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-2-18-fig1.png\n\nMatch the paths in List I with conditions of refractive indices in List II and select the correct answer using the codes given below the lists:\n\nList-I\n\n(P) $e\\rightarrow f$\n(Q) $e\\rightarrow g$\n(R) $e\\rightarrow h$\n(S) $e\\rightarrow i$\n\nList-II\n\n(1) $\\mu_1>\\sqrt{2}\\,\\mu_2$\n(2) $\\mu_2>\\mu_1$ and $\\mu_2>\\mu_3$\n(3) $\\mu_1=\\mu_2$\n(4) $\\mu_2<\\mu_1<\\sqrt{2}\\,\\mu_2$ and $\\mu_2>\\mu_3$\n\n(A) P-2, Q-3, R-1, S-4\n(B) P-1, Q-2, R-4, S-3\n(C) P-4, Q-1, R-2, S-3\n(D) P-2, Q-3, R-4, S-1\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 19,
+     "paper_label": "Paper 2",
+     "title": "Question 19",
+     "problem": "Question 19\n\nMatch List I of the nuclear processes with List II containing parent nucleus and one of the end products of each process and then select the correct answer using the codes given below the lists:\n\nList-I\n\n(P) Alpha decay\n(Q) $\\beta^{+}$ decay\n(R) Fission\n(S) Proton emission\n\nList-II\n\n(1) ${}^{15}_{8}\\mathrm{O}\\rightarrow{}^{15}_{7}\\mathrm{N}+\\ldots$\n(2) ${}^{238}_{92}\\mathrm{U}\\rightarrow{}^{234}_{90}\\mathrm{Th}+\\ldots$\n(3) ${}^{185}_{83}\\mathrm{Bi}\\rightarrow{}^{184}_{82}\\mathrm{Pb}+\\ldots$\n(4) ${}^{239}_{94}\\mathrm{Pu}\\rightarrow{}^{140}_{57}\\mathrm{La}+\\ldots$\n\n(A) P-4, Q-2, R-1, S-3\n(B) P-1, Q-3, R-2, S-4\n(C) P-2, Q-1, R-4, S-3\n(D) P-4, Q-3, R-2, S-1\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 20,
+     "paper_label": "Paper 2",
+     "title": "Question 20",
+     "problem": "Question 20\n\nOne mole of a monatomic ideal gas is taken along two cyclic processes $E\\rightarrow F\\rightarrow G\\rightarrow E$ and $E\\rightarrow F\\rightarrow H\\rightarrow E$ as shown in the PV diagram. The processes involved are purely isochoric, isobaric, isothermal or adiabatic.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2013-2-20-fig1.png\n\nMatch the paths in List I with the magnitudes of the work done in List II and select the correct answer using the codes given below the lists.\n\nList-I\n\n(P) $G\\rightarrow E$\n(Q) $G\\rightarrow H$\n(R) $F\\rightarrow H$\n(S) $F\\rightarrow G$\n\nList-II\n\n(1) $160\\,P_0V_0\\ln 2$\n(2) $36\\,P_0V_0$\n(3) $24\\,P_0V_0$\n(4) $31\\,P_0V_0$\n\n(A) P-4, Q-3, R-2, S-1\n(B) P-4, Q-3, R-1, S-2\n(C) P-3, Q-1, R-2, S-4\n(D) P-1, Q-3, R-2, S-4\n\n[Only one option is correct.]"
+    }
+   ]
+  },
+  {
+   "year": 2014,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Paper 1",
+     "title": "Question 1",
+     "problem": "Question 1\n\nAt time $t=0$, terminal A in the circuit shown in the figure is connected to B by a key and an alternating current $I(t)=I_0\\cos(\\omega t)$, with $I_0=1\\,\\mathrm{A}$ and $\\omega=500\\,\\mathrm{rad\\,s^{-1}}$ starts flowing in it with the initial direction shown in the figure. At $t=\\dfrac{7\\pi}{6\\omega}$, the key is switched from B to D. Now onwards only A and D are connected. A total charge $Q$ flows from the battery to charge the capacitor fully. If $C=20\\,\\mathrm{\\mu F}$, $R=10\\,\\Omega$ and the battery is ideal with emf of $50\\,\\mathrm{V}$, identify the correct statement(s).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-1-fig1.png\n\n(A) Magnitude of the maximum charge on the capacitor before $t=\\dfrac{7\\pi}{6\\omega}$ is $1\\times10^{-3}\\,\\mathrm{C}$.\n(B) The current in the left part of the circuit just before $t=\\dfrac{7\\pi}{6\\omega}$ is clockwise.\n(C) Immediately after A is connected to D, the current in $R$ is $10\\,\\mathrm{A}$.\n(D) $Q=2\\times10^{-3}\\,\\mathrm{C}$.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Paper 1",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA light source, which emits two wavelengths $\\lambda_1=400\\,\\mathrm{nm}$ and $\\lambda_2=600\\,\\mathrm{nm}$, is used in a Young's double slit experiment. If recorded fringe widths for $\\lambda_1$ and $\\lambda_2$ are $\\beta_1$ and $\\beta_2$ and number of fringes for them within a distance $y$ on one side of the central maximum are $m_1$ and $m_2$, respectively, then\n\n(A) $\\beta_2>\\beta_1$\n(B) $m_1>m_2$\n(C) From the central maximum, $3^{\\text{rd}}$ maximum of $\\lambda_2$ overlaps with $5^{\\text{th}}$ minimum of $\\lambda_1$\n(D) The angular separation of fringes for $\\lambda_1$ is greater than $\\lambda_2$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Paper 1",
+     "title": "Question 3",
+     "problem": "Question 3\n\nOne end of a taut string of length $3\\,\\mathrm{m}$ along the $x$ axis is fixed at $x=0$. The speed of the waves in the string is $100\\,\\mathrm{m\\,s^{-1}}$. The other end of the string is vibrating in the $y$ direction so that stationary waves are set up in the string. The possible waveform(s) of these stationary waves is(are)\n\n(A) $y(t)=A\\sin\\dfrac{\\pi x}{6}\\cos\\dfrac{50\\pi t}{3}$\n(B) $y(t)=A\\sin\\dfrac{\\pi x}{3}\\cos\\dfrac{100\\pi t}{3}$\n(C) $y(t)=A\\sin\\dfrac{5\\pi x}{6}\\cos\\dfrac{250\\pi t}{3}$\n(D) $y(t)=A\\sin\\dfrac{5\\pi x}{2}\\cos 250\\pi t$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Paper 1",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA parallel plate capacitor has a dielectric slab of dielectric constant $K$ between its plates that covers $1/3$ of the area of its plates, as shown in the figure. The total capacitance of the capacitor is $C$ while that of the portion with dielectric in between is $C_1$. When the capacitor is charged, the plate area covered by the dielectric gets charge $Q_1$ and the rest of the area gets charge $Q_2$. The electric field in the dielectric is $E_1$ and that in the other portion is $E_2$. Choose the correct option/options, ignoring edge effects.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-4-fig1.png\n\n(A) $\\dfrac{E_1}{E_2}=1$\n(B) $\\dfrac{E_1}{E_2}=\\dfrac{1}{K}$\n(C) $\\dfrac{Q_1}{Q_2}=\\dfrac{3}{K}$\n(D) $\\dfrac{C}{C_1}=\\dfrac{2+K}{K}$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Paper 1",
+     "title": "Question 5",
+     "problem": "Question 5\n\nLet $E_1(r)$, $E_2(r)$ and $E_3(r)$ be the respective electric fields at a distance $r$ from a point charge $Q$, an infinitely long wire with constant linear charge density $\\lambda$, and an infinite plane with uniform surface charge density $\\sigma$. If $E_1(r_0)=E_2(r_0)=E_3(r_0)$ at a given distance $r_0$, then\n\n(A) $Q=4\\sigma\\pi r_0^2$\n(B) $r_0=\\dfrac{\\lambda}{2\\pi\\sigma}$\n(C) $E_1(r_0/2)=2E_2(r_0/2)$\n(D) $E_2(r_0/2)=4E_3(r_0/2)$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Paper 1",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA student is performing an experiment using a resonance column and a tuning fork of frequency $244\\,\\mathrm{s^{-1}}$. He is told that the air in the tube has been replaced by another gas (assume that the column remains filled with the gas). If the minimum height at which resonance occurs is $(0.350\\pm0.005)\\,\\mathrm{m}$, the gas in the tube is\n\n(Useful information: $\\sqrt{167RT}=640\\,\\mathrm{J^{1/2}\\,mole^{-1/2}}$; $\\sqrt{140RT}=590\\,\\mathrm{J^{1/2}\\,mole^{-1/2}}$. The molar masses $M$ in grams are given in the options. Take the values of $\\sqrt{\\dfrac{10}{M}}$ for each gas as given there.)\n\n(A) Neon $\\left(M=20,\\ \\sqrt{\\dfrac{10}{20}}=\\dfrac{7}{10}\\right)$\n(B) Nitrogen $\\left(M=28,\\ \\sqrt{\\dfrac{10}{28}}=\\dfrac{3}{5}\\right)$\n(C) Oxygen $\\left(M=32,\\ \\sqrt{\\dfrac{10}{32}}=\\dfrac{9}{16}\\right)$\n(D) Argon $\\left(M=36,\\ \\sqrt{\\dfrac{10}{36}}=\\dfrac{17}{32}\\right)$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Paper 1",
+     "title": "Question 7",
+     "problem": "Question 7\n\nHeater of an electric kettle is made of a wire of length $L$ and diameter $d$. It takes 4 minutes to raise the temperature of $0.5\\,\\mathrm{kg}$ water by $40\\,\\mathrm{K}$. This heater is replaced by a new heater having two wires of the same material, each of length $L$ and diameter $2d$. The way these wires are connected is given in the options. How much time in minutes will it take to raise the temperature of the same amount of water by $40\\,\\mathrm{K}$?\n\n(A) 4 if wires are in parallel\n(B) 2 if wires are in series\n(C) 1 if wires are in series\n(D) 0.5 if wires are in parallel\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Paper 1",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIn the figure, a ladder of mass $m$ is shown leaning against a wall. It is in static equilibrium making an angle $\\theta$ with the horizontal floor. The coefficient of friction between the wall and the ladder is $\\mu_1$ and that between the floor and the ladder is $\\mu_2$. The normal reaction of the wall on the ladder is $N_1$ and that of the floor is $N_2$. If the ladder is about to slip, then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-8-fig1.png\n\n(A) $\\mu_1=0$, $\\mu_2\\neq0$ and $N_2\\tan\\theta=\\dfrac{mg}{2}$\n(B) $\\mu_1\\neq0$, $\\mu_2=0$ and $N_1\\tan\\theta=\\dfrac{mg}{2}$\n(C) $\\mu_1\\neq0$, $\\mu_2\\neq0$ and $N_2=\\dfrac{mg}{1+\\mu_1\\mu_2}$\n(D) $\\mu_1=0$, $\\mu_2\\neq0$ and $N_1\\tan\\theta=\\dfrac{mg}{2}$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Paper 1",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA transparent thin film of uniform thickness and refractive index $n_1=1.4$ is coated on the convex spherical surface of radius $R$ at one end of a long solid glass cylinder of refractive index $n_2=1.5$, as shown in the figure. Rays of light parallel to the axis of the cylinder traversing through the film from air to glass get focused at distance $f_1$ from the film, while rays of light traversing from glass to air get focused at distance $f_2$ from the film. Then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-9-fig1.png\n\n(A) $|f_1|=3R$\n(B) $|f_1|=2.8R$\n(C) $|f_2|=2R$\n(D) $|f_2|=1.4R$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Paper 1",
+     "title": "Question 10",
+     "problem": "Question 10\n\nTwo ideal batteries of emf $V_1$ and $V_2$ and three resistances $R_1$, $R_2$ and $R_3$ are connected as shown in the figure. The current in resistance $R_2$ would be zero if\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-10-fig1.png\n\n(A) $V_1=V_2$ and $R_1=R_2=R_3$\n(B) $V_1=V_2$ and $R_1=2R_2=R_3$\n(C) $V_1=2V_2$ and $2R_1=2R_2=R_3$\n(D) $2V_1=V_2$ and $2R_1=R_2=R_3$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Paper 1",
+     "title": "Question 11",
+     "problem": "Question 11\n\nAirplanes A and B are flying with constant velocity in the same vertical plane at angles $30^\\circ$ and $60^\\circ$ with respect to the horizontal respectively as shown in figure. The speed of A is $100\\sqrt{3}\\,\\mathrm{m\\,s^{-1}}$. At time $t=0\\,\\mathrm{s}$, an observer in A finds B at a distance of $500\\,\\mathrm{m}$. This observer sees B moving with a constant velocity perpendicular to the line of motion of A. If at $t=t_0$, A just escapes being hit by B, $t_0$ in seconds is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-11-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Paper 1",
+     "title": "Question 12",
+     "problem": "Question 12\n\nDuring Searle's experiment, zero of the Vernier scale lies between $3.20\\times10^{-2}\\,\\mathrm{m}$ and $3.25\\times10^{-2}\\,\\mathrm{m}$ of the main scale. The $20^{\\text{th}}$ division of the Vernier scale exactly coincides with one of the main scale divisions. When an additional load of $2\\,\\mathrm{kg}$ is applied to the wire, the zero of the Vernier scale still lies between $3.20\\times10^{-2}\\,\\mathrm{m}$ and $3.25\\times10^{-2}\\,\\mathrm{m}$ of the main scale but now the $45^{\\text{th}}$ division of Vernier scale coincides with one of the main scale divisions. The length of the thin metallic wire is $2\\,\\mathrm{m}$ and its cross-sectional area is $8\\times10^{-7}\\,\\mathrm{m^2}$. The least count of the Vernier scale is $1.0\\times10^{-5}\\,\\mathrm{m}$. The maximum percentage error in the Young's modulus of the wire is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Paper 1",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA uniform circular disc of mass $1.5\\,\\mathrm{kg}$ and radius $0.5\\,\\mathrm{m}$ is initially at rest on a horizontal frictionless surface. Three forces of equal magnitude $F=0.5\\,\\mathrm{N}$ are applied simultaneously along the three sides of an equilateral triangle XYZ with its vertices on the perimeter of the disc (see figure). One second after applying the forces, the angular speed of the disc in $\\mathrm{rad\\,s^{-1}}$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-13-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Paper 1",
+     "title": "Question 14",
+     "problem": "Question 14\n\nTwo parallel wires in the plane of the paper are distance $X_0$ apart. A point charge is moving with speed $u$ between the wires in the same plane at a distance $X_1$ from one of the wires. When the wires carry current of magnitude $I$ in the same direction, the radius of curvature of the path of the point charge is $R_1$. In contrast, if the currents $I$ in the two wires have directions opposite to each other, the radius of curvature of the path is $R_2$. If $\\dfrac{X_0}{X_1}=3$, the value of $\\dfrac{R_1}{R_2}$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Paper 1",
+     "title": "Question 15",
+     "problem": "Question 15\n\nTo find the distance $d$ over which a signal can be seen clearly in foggy conditions, a railways engineer uses dimensional analysis and assumes that the distance depends on the mass density $\\rho$ of the fog, intensity (power/area) $S$ of the light from the signal and its frequency $f$. The engineer finds that $d$ is proportional to $S^{1/n}$. The value of $n$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Paper 1",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA galvanometer gives full scale deflection with $0.006\\,\\mathrm{A}$ current. By connecting it to a $4990\\,\\Omega$ resistance, it can be converted into a voltmeter of range $0$–$30\\,\\mathrm{V}$. If connected to a $\\dfrac{2n}{249}\\,\\Omega$ resistance, it becomes an ammeter of range $0$–$1.5\\,\\mathrm{A}$. The value of $n$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Paper 1",
+     "title": "Question 17",
+     "problem": "Question 17\n\nConsider an elliptically shaped rail PQ in the vertical plane with $OP=3\\,\\mathrm{m}$ and $OQ=4\\,\\mathrm{m}$. A block of mass $1\\,\\mathrm{kg}$ is pulled along the rail from P to Q with a force of $18\\,\\mathrm{N}$, which is always parallel to line PQ (see the figure given). Assuming no frictional losses, the kinetic energy of the block when it reaches Q is $(n\\times10)$ Joules. The value of $n$ is (take acceleration due to gravity $=10\\,\\mathrm{m\\,s^{-2}}$)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-17-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Paper 1",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA rocket is moving in a gravity free space with a constant acceleration of $2\\,\\mathrm{m\\,s^{-2}}$ along $+x$ direction (see figure). The length of a chamber inside the rocket is $4\\,\\mathrm{m}$. A ball is thrown from the left end of the chamber in $+x$ direction with a speed of $0.3\\,\\mathrm{m\\,s^{-1}}$ relative to the rocket. At the same time, another ball is thrown in $-x$ direction with a speed of $0.2\\,\\mathrm{m\\,s^{-1}}$ from its right end relative to the rocket. The time in seconds when the two balls hit each other is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-18-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Paper 1",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA horizontal circular platform of radius $0.5\\,\\mathrm{m}$ and mass $0.45\\,\\mathrm{kg}$ is free to rotate about its axis. Two massless spring toy-guns, each carrying a steel ball of mass $0.05\\,\\mathrm{kg}$ are attached to the platform at a distance $0.25\\,\\mathrm{m}$ from the centre on its either sides along its diameter (see figure). Each gun simultaneously fires the balls horizontally and perpendicular to the diameter in opposite directions. After leaving the platform, the balls have horizontal speed of $9\\,\\mathrm{m\\,s^{-1}}$ with respect to the ground. The rotational speed of the platform in $\\mathrm{rad\\,s^{-1}}$ after the balls leave the platform is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-19-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Paper 1",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA thermodynamic system is taken from an initial state $i$ with internal energy $U_i=100\\,\\mathrm{J}$ to the final state $f$ along two different paths $iaf$ and $ibf$, as schematically shown in the figure. The work done by the system along the paths $af$, $ib$ and $bf$ are $W_{af}=200\\,\\mathrm{J}$, $W_{ib}=50\\,\\mathrm{J}$ and $W_{bf}=100\\,\\mathrm{J}$ respectively. The heat supplied to the system along the path $iaf$, $ib$ and $bf$ are $Q_{iaf}$, $Q_{ib}$ and $Q_{bf}$ respectively. If the internal energy of the system in the state $b$ is $U_b=200\\,\\mathrm{J}$ and $Q_{iaf}=500\\,\\mathrm{J}$, the ratio $Q_{bf}/Q_{ib}$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-1-20-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Paper 2",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA tennis ball is dropped on a horizontal smooth surface. It bounces back to its original position after hitting the surface. The force on the ball during the collision is proportional to the length of compression of the ball. Which one of the following sketches describes the variation of its kinetic energy $K$ with time $t$ most appropriately? The figures are only illustrative and not to the scale.\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-1-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-1-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-1-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-1-fig4.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Paper 2",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA wire, which passes through the hole in a small bead, is bent in the form of quarter of a circle. The wire is fixed vertically on ground as shown in the figure. The bead is released from near the top of the wire and it slides along the wire without friction. As the bead moves from A to B, the force it applies on the wire is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-2-fig1.png\n\n(A) always radially outwards.\n(B) always radially inwards.\n(C) radially outwards initially and radially inwards later.\n(D) radially inwards initially and radially outwards later.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Paper 2",
+     "title": "Question 3",
+     "problem": "Question 3\n\nDuring an experiment with a metre bridge, the galvanometer shows a null point when the jockey is pressed at $40.0\\,\\mathrm{cm}$ using a standard resistance of $90\\,\\Omega$, as shown in the figure. The least count of the scale used in the metre bridge is $1\\,\\mathrm{mm}$. The unknown resistance is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-3-fig1.png\n\n(A) $60\\pm0.15\\,\\Omega$\n(B) $135\\pm0.56\\,\\Omega$\n(C) $60\\pm0.25\\,\\Omega$\n(D) $135\\pm0.23\\,\\Omega$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Paper 2",
+     "title": "Question 4",
+     "problem": "Question 4\n\nCharges $Q$, $2Q$ and $4Q$ are uniformly distributed in three dielectric solid spheres 1, 2 and 3 of radii $R/2$, $R$ and $2R$, respectively, as shown in figure. If magnitudes of the electric fields at point P at a distance $R$ from the center of spheres 1, 2 and 3 are $E_1$, $E_2$ and $E_3$ respectively, then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-4-fig1.png\n\n(A) $E_1>E_2>E_3$\n(B) $E_3>E_1>E_2$\n(C) $E_2>E_1>E_3$\n(D) $E_3>E_2>E_1$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Paper 2",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA point source $S$ is placed at the bottom of a transparent block of height $10\\,\\mathrm{mm}$ and refractive index $2.72$. It is immersed in a lower refractive index liquid as shown in the figure. It is found that the light emerging from the block to the liquid forms a circular bright spot of diameter $11.54\\,\\mathrm{mm}$ on the top of the block. The refractive index of the liquid is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-5-fig1.png\n\n(A) $1.21$\n(B) $1.30$\n(C) $1.36$\n(D) $1.42$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Paper 2",
+     "title": "Question 6",
+     "problem": "Question 6\n\nParallel rays of light of intensity $I=912\\,\\mathrm{W\\,m^{-2}}$ are incident on a spherical black body kept in surroundings of temperature $300\\,\\mathrm{K}$. Take Stefan-Boltzmann constant $\\sigma=5.7\\times10^{-8}\\,\\mathrm{W\\,m^{-2}\\,K^{-4}}$ and assume that the energy exchange with the surroundings is only through radiation. The final steady state temperature of the black body is close to\n\n(A) $330\\,\\mathrm{K}$\n(B) $660\\,\\mathrm{K}$\n(C) $990\\,\\mathrm{K}$\n(D) $1550\\,\\mathrm{K}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "Paper 2",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA metal surface is illuminated by light of two different wavelengths $248\\,\\mathrm{nm}$ and $310\\,\\mathrm{nm}$. The maximum speeds of the photoelectrons corresponding to these wavelengths are $u_1$ and $u_2$, respectively. If the ratio $u_1:u_2=2:1$ and $hc=1240\\,\\mathrm{eV\\,nm}$, the work function of the metal is nearly\n\n(A) $3.7\\,\\mathrm{eV}$\n(B) $3.2\\,\\mathrm{eV}$\n(C) $2.8\\,\\mathrm{eV}$\n(D) $2.5\\,\\mathrm{eV}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "Paper 2",
+     "title": "Question 8",
+     "problem": "Question 8\n\nIf $\\lambda_{Cu}$ is the wavelength of $K_\\alpha$ X-ray line of copper (atomic number 29) and $\\lambda_{Mo}$ is the wavelength of the $K_\\alpha$ X-ray line of molybdenum (atomic number 42), then the ratio $\\lambda_{Cu}/\\lambda_{Mo}$ is close to\n\n(A) $1.99$\n(B) $2.14$\n(C) $0.50$\n(D) $0.48$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "Paper 2",
+     "title": "Question 9",
+     "problem": "Question 9\n\nA planet of radius $R=\\dfrac{1}{10}\\times$ (radius of Earth) has the same mass density as Earth. Scientists dig a well of depth $\\dfrac{R}{5}$ on it and lower a wire of the same length and of linear mass density $10^{-3}\\,\\mathrm{kg\\,m^{-1}}$ into it. If the wire is not touching anywhere, the force applied at the top of the wire by a person holding it in place is (take the radius of Earth $=6\\times10^{6}\\,\\mathrm{m}$ and the acceleration due to gravity on Earth is $10\\,\\mathrm{m\\,s^{-2}}$)\n\n(A) $96\\,\\mathrm{N}$\n(B) $108\\,\\mathrm{N}$\n(C) $120\\,\\mathrm{N}$\n(D) $150\\,\\mathrm{N}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "Paper 2",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA glass capillary tube is of the shape of a truncated cone with an apex angle $\\alpha$ so that its two ends have cross sections of different radii. When dipped in water vertically, water rises in it to a height $h$, where the radius of its cross section is $b$. If the surface tension of water is $S$, its density is $\\rho$, and its contact angle with glass is $\\theta$, the value of $h$ will be ($g$ is the acceleration due to gravity)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-10-fig1.png\n\n(A) $\\dfrac{2S}{b\\rho g}\\cos(\\theta-\\alpha)$\n(B) $\\dfrac{2S}{b\\rho g}\\cos(\\theta+\\alpha)$\n(C) $\\dfrac{2S}{b\\rho g}\\cos(\\theta-\\alpha/2)$\n(D) $\\dfrac{2S}{b\\rho g}\\cos(\\theta+\\alpha/2)$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "Paper 2",
+     "title": "Question 11",
+     "problem": "Question 11\n\nParagraph for Questions 11 and 12\n\nIn the figure a container is shown to have a movable (without friction) piston on top. The container and the piston are all made of perfectly insulating material allowing no heat transfer between outside and inside the container. The container is divided into two compartments by a rigid partition made of a thermally conducting material that allows slow transfer of heat. The lower compartment of the container is filled with 2 moles of an ideal monatomic gas at $700\\,\\mathrm{K}$ and the upper compartment is filled with 2 moles of an ideal diatomic gas at $400\\,\\mathrm{K}$. The heat capacities per mole of an ideal monatomic gas are $C_V=\\dfrac{3}{2}R$, $C_P=\\dfrac{5}{2}R$, and those for an ideal diatomic gas are $C_V=\\dfrac{5}{2}R$, $C_P=\\dfrac{7}{2}R$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-11-fig1.png\n\nConsider the partition to be rigidly fixed so that it does not move. When equilibrium is achieved, the final temperature of the gases will be\n\n(A) $550\\,\\mathrm{K}$\n(B) $525\\,\\mathrm{K}$\n(C) $513\\,\\mathrm{K}$\n(D) $490\\,\\mathrm{K}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "Paper 2",
+     "title": "Question 12",
+     "problem": "Question 12\n\nParagraph for Questions 11 and 12\n\nIn the figure a container is shown to have a movable (without friction) piston on top. The container and the piston are all made of perfectly insulating material allowing no heat transfer between outside and inside the container. The container is divided into two compartments by a rigid partition made of a thermally conducting material that allows slow transfer of heat. The lower compartment of the container is filled with 2 moles of an ideal monatomic gas at $700\\,\\mathrm{K}$ and the upper compartment is filled with 2 moles of an ideal diatomic gas at $400\\,\\mathrm{K}$. The heat capacities per mole of an ideal monatomic gas are $C_V=\\dfrac{3}{2}R$, $C_P=\\dfrac{5}{2}R$, and those for an ideal diatomic gas are $C_V=\\dfrac{5}{2}R$, $C_P=\\dfrac{7}{2}R$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-12-fig1.png\n\nNow consider the partition to be free to move without friction so that the pressure of gases in both compartments is the same. Then total work done by the gases till the time they achieve equilibrium will be\n\n(A) $250R$\n(B) $200R$\n(C) $100R$\n(D) $-100R$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 13,
+     "paper_label": "Paper 2",
+     "title": "Question 13",
+     "problem": "Question 13\n\nParagraph for Questions 13 and 14\n\nA spray gun is shown in the figure where a piston pushes air out of a nozzle. A thin tube of uniform cross section is connected to the nozzle. The other end of the tube is in a small liquid container. As the piston pushes air through the nozzle, the liquid from the container rises into the nozzle and is sprayed out. For the spray gun shown, the radii of the piston and the nozzle are $20\\,\\mathrm{mm}$ and $1\\,\\mathrm{mm}$, respectively. The upper end of the container is open to the atmosphere.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-13-fig1.png\n\nIf the piston is pushed at a speed of $5\\,\\mathrm{mm\\,s^{-1}}$, the air comes out of the nozzle with a speed of\n\n(A) $0.1\\,\\mathrm{m\\,s^{-1}}$\n(B) $1\\,\\mathrm{m\\,s^{-1}}$\n(C) $2\\,\\mathrm{m\\,s^{-1}}$\n(D) $8\\,\\mathrm{m\\,s^{-1}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 14,
+     "paper_label": "Paper 2",
+     "title": "Question 14",
+     "problem": "Question 14\n\nParagraph for Questions 13 and 14\n\nA spray gun is shown in the figure where a piston pushes air out of a nozzle. A thin tube of uniform cross section is connected to the nozzle. The other end of the tube is in a small liquid container. As the piston pushes air through the nozzle, the liquid from the container rises into the nozzle and is sprayed out. For the spray gun shown, the radii of the piston and the nozzle are $20\\,\\mathrm{mm}$ and $1\\,\\mathrm{mm}$, respectively. The upper end of the container is open to the atmosphere.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-14-fig1.png\n\nIf the density of air is $\\rho_a$ and that of the liquid $\\rho_\\ell$, then for a given piston speed the rate (volume per unit time) at which the liquid is sprayed will be proportional to\n\n(A) $\\sqrt{\\dfrac{\\rho_a}{\\rho_\\ell}}$\n(B) $\\sqrt{\\rho_a\\rho_\\ell}$\n(C) $\\sqrt{\\dfrac{\\rho_\\ell}{\\rho_a}}$\n(D) $\\rho_\\ell$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 15,
+     "paper_label": "Paper 2",
+     "title": "Question 15",
+     "problem": "Question 15\n\nParagraph for Questions 15 and 16\n\nThe figure shows a circular loop of radius $a$ with two long parallel wires (numbered 1 and 2) all in the plane of the paper. The distance of each wire from the centre of the loop is $d$. The loop and the wires are carrying the same current $I$. The current in the loop is in the counterclockwise direction if seen from above.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-15-fig1.png\n\nWhen $d\\approx a$ but wires are not touching the loop, it is found that the net magnetic field on the axis of the loop is zero at a height $h$ above the loop. In that case\n\n(A) current in wire 1 and wire 2 is the direction PQ and RS, respectively and $h\\approx a$\n(B) current in wire 1 and wire 2 is the direction PQ and SR, respectively and $h\\approx a$\n(C) current in wire 1 and wire 2 is the direction PQ and SR, respectively and $h\\approx 1.2a$\n(D) current in wire 1 and wire 2 is the direction PQ and RS, respectively and $h\\approx 1.2a$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 16,
+     "paper_label": "Paper 2",
+     "title": "Question 16",
+     "problem": "Question 16\n\nParagraph for Questions 15 and 16\n\nThe figure shows a circular loop of radius $a$ with two long parallel wires (numbered 1 and 2) all in the plane of the paper. The distance of each wire from the centre of the loop is $d$. The loop and the wires are carrying the same current $I$. The current in the loop is in the counterclockwise direction if seen from above.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-16-fig1.png\n\nConsider $d\\gg a$, and the loop is rotated about its diameter parallel to the wires by $30^\\circ$ from the position shown in the figure. If the currents in the wires are in the opposite directions, the torque on the loop at its new position will be (assume that the net field due to the wires is constant over the loop)\n\n(A) $\\dfrac{\\mu_0I^2a^2}{d}$\n(B) $\\dfrac{\\mu_0I^2a^2}{2d}$\n(C) $\\dfrac{\\sqrt{3}\\mu_0I^2a^2}{d}$\n(D) $\\dfrac{\\sqrt{3}\\mu_0I^2a^2}{2d}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 17,
+     "paper_label": "Paper 2",
+     "title": "Question 17",
+     "problem": "Question 17\n\nFour charges $Q_1$, $Q_2$, $Q_3$ and $Q_4$ of same magnitude are fixed along the $x$ axis at $x=-2a$, $-a$, $+a$ and $+2a$, respectively. A positive charge $q$ is placed on the positive $y$ axis at a distance $b>0$. Four options of the signs of these charges are given in List I. The direction of the forces on the charge $q$ is given in List II. Match List I with List II and select the correct answer using the code given below the lists.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-17-fig1.png\n\nList-I\n\n(P) $Q_1, Q_2, Q_3, Q_4$ all positive\n(Q) $Q_1, Q_2$ positive; $Q_3, Q_4$ negative\n(R) $Q_1, Q_4$ positive; $Q_2, Q_3$ negative\n(S) $Q_1, Q_3$ positive; $Q_2, Q_4$ negative\n\nList-II\n\n(1) $+x$\n(2) $-x$\n(3) $+y$\n(4) $-y$\n\n(A) P-3, Q-1, R-4, S-2\n(B) P-4, Q-2, R-3, S-1\n(C) P-3, Q-1, R-2, S-4\n(D) P-4, Q-2, R-1, S-3\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 18,
+     "paper_label": "Paper 2",
+     "title": "Question 18",
+     "problem": "Question 18\n\nFour combinations of two thin lenses are given in List I. The radius of curvature of all curved surfaces is $r$ and the refractive index of all the lenses is $1.5$. Match lens combinations in List I with their focal length in List II and select the correct answer using the code given below the lists.\n\nList-I\n\n(P)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-18-fig1.png\n\n(Q)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-18-fig2.png\n\n(R)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-18-fig3.png\n\n(S)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-18-fig4.png\n\nList-II\n\n(1) $2r$\n(2) $r/2$\n(3) $-r$\n(4) $r$\n\n(A) P-1, Q-2, R-3, S-4\n(B) P-2, Q-4, R-3, S-1\n(C) P-4, Q-1, R-2, S-3\n(D) P-2, Q-1, R-3, S-4\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 19,
+     "paper_label": "Paper 2",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA block of mass $m_1=1\\,\\mathrm{kg}$ another mass $m_2=2\\,\\mathrm{kg}$, are placed together (see figure) on an inclined plane with angle of inclination $\\theta$. Various values of $\\theta$ are given in List I. The coefficient of friction between the block $m_1$ and the plane is always zero. The coefficient of static and dynamic friction between the block $m_2$ and the plane are equal to $\\mu=0.3$. In List II expressions for the friction on block $m_2$ are given. Match the correct expression of the friction in List II with the angles given in List I, and choose the correct option. The acceleration due to gravity is denoted by $g$.\n\n[Useful information: $\\tan(5.5^\\circ)\\approx0.1$; $\\tan(11.5^\\circ)\\approx0.2$; $\\tan(16.5^\\circ)\\approx0.3$]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2014-2-19-fig1.png\n\nList-I\n\n(P) $\\theta=5^\\circ$\n(Q) $\\theta=10^\\circ$\n(R) $\\theta=15^\\circ$\n(S) $\\theta=20^\\circ$\n\nList-II\n\n(1) $m_2g\\sin\\theta$\n(2) $(m_1+m_2)g\\sin\\theta$\n(3) $\\mu m_2g\\cos\\theta$\n(4) $\\mu(m_1+m_2)g\\cos\\theta$\n\n(A) P-1, Q-1, R-1, S-3\n(B) P-2, Q-2, R-2, S-3\n(C) P-2, Q-2, R-2, S-4\n(D) P-2, Q-2, R-3, S-3\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 20,
+     "paper_label": "Paper 2",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA person in a lift is holding a water jar, which has a small hole at the lower end of its side. When the lift is at rest, the water jet coming out of the hole hits the floor of the lift at a distance of $1.2\\,\\mathrm{m}$ from the person. In the following, state of the lift's motion is given in List I and the distance where the water jet hits the floor of the lift is given in List II. Match the statements from List I with those in List II and select the correct answer using the code given below the list.\n\nList-I\n\n(P) Lift is accelerating vertically up.\n(Q) Lift is accelerating vertically down with an acceleration less than the gravitational acceleration.\n(R) Lift is moving vertically up with constant speed.\n(S) Lift is falling freely.\n\nList-II\n\n(1) $d=1.2\\,\\mathrm{m}$\n(2) $d>1.2\\,\\mathrm{m}$\n(3) $d<1.2\\,\\mathrm{m}$\n(4) No water leaks out of the jar\n\n(A) P-2, Q-3, R-2, S-4\n(B) P-2, Q-3, R-1, S-4\n(C) P-1, Q-1, R-1, S-4\n(D) P-2, Q-3, R-1, S-1\n\n[Only one option is correct.]"
+    }
+   ]
+  },
+  {
    "year": 2015,
    "problems": [
     {

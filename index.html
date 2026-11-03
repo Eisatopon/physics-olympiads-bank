@@ -1092,7 +1092,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261103-praise3';
+const DATA_VERSION = '20261103-export-tex';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe' };
@@ -2055,6 +2055,7 @@ function headHtml(count) {
             ${wide || filtersOn() ? '<button type="button" class="btn btn-sm btn-quiet" data-copy-view>Copy link to this view</button>' : ''}
             ${wide ? `<button type="button" class="btn btn-sm" data-all-scope>${state.tab === 'national' ? 'All countries, all years' : 'All competitions, all years'}</button>` : ''}
             ${count && count <= 60 ? `<button type="button" class="btn btn-sm" data-add-all>${ICON.plus} Add all (${count})</button>` : ''}
+            ${count && (state.country || filtersOn()) ? `<button type="button" class="btn btn-sm" data-export-view title="Download every problem of this view as a LaTeX (.tex) file">Export LaTeX (${count})</button>` : ''}
         </div>
     </div>`;
 }
@@ -2866,6 +2867,92 @@ function focusProblem() {
     card.scrollIntoView({block: 'start'});
 }
 
+/* ---------- LaTeX export ---------- */
+// Statements are MathJax LaTeX: math and environments are kept, text outside math is escaped for LaTeX.
+const TEX_MATH_RE = /\\\$|\$\$[\s\S]*?\$\$|\$(?:\\.|[^$\\])+\$|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\\begin\{([A-Za-z*]+)\}[\s\S]*?\\end\{\1\}/g;
+function texText(x) {
+    return String(x)
+        .replace(/\\?[&%#_$]/g, m => m.length === 2 ? m : '\\' + m)
+        .replace(/\^/g, '\\^{}').replace(/~/g, '\\textasciitilde{}')
+        .replace(/</g, '\\textless{}').replace(/>/g, '\\textgreater{}');
+}
+function texStatement(text) {
+    const figs = [];
+    const s = String(text).replace(IMG_RE, (m, url, ext) => { figs.push(`${url}.${ext}`); return ''; }).trim();
+    let out = '', last = 0;
+    for (const m of s.matchAll(TEX_MATH_RE)) {
+        out += texText(s.slice(last, m.index));
+        out += m[0] === '\\$' ? m[0] : m[0].startsWith('$$') ? `\\[${m[0].slice(2, -2)}\\]` : m[0];
+        last = m.index + m[0].length;
+    }
+    out += texText(s.slice(last));
+    out = out.split(/\n\s*\n/).map(x => x.trim().replace(/\n(?=\s*(\([A-E]\)|•))/g, '\n\n')).filter(Boolean).join('\n\n');
+    figs.forEach(u => {
+        const name = u.split('/').pop();
+        out += `\n\n\\begin{center}\\IfFileExists{${name}}{\\includegraphics[width=0.6\\linewidth]{${name}}}{\\url{${u}}}\\end{center}`;
+    });
+    return out;
+}
+// Characters that pdfLaTeX cannot typeset from UTF-8 input: declared only when the set uses them.
+const TEX_CHARS = (() => {
+    const m = {'−': '\\ensuremath{-}', ' ': '\\quad{}', ' ': '\\,', ' ': '\\,', '₹': 'Rs.', '，': ',', '：': ':',
+        '●': '\\ensuremath{\\bullet}', '○': '\\ensuremath{\\circ}', '□': '\\ensuremath{\\square}', '◇': '\\ensuremath{\\diamond}',
+        '▲': '\\ensuremath{\\blacktriangle}', '△': '\\ensuremath{\\triangle}', '♡': '\\ensuremath{\\heartsuit}', '♣': '\\ensuremath{\\clubsuit}',
+        '✲': '\\ensuremath{\\ast}', '≤': '\\ensuremath{\\le}', '≥': '\\ensuremath{\\ge}', '≠': '\\ensuremath{\\ne}', '∞': '\\ensuremath{\\infty}',
+        '→': '\\ensuremath{\\to}', '∈': '\\ensuremath{\\in}', '√': '\\ensuremath{\\surd}', '∠': '\\ensuremath{\\angle}', '⋅': '\\ensuremath{\\cdot}'};
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach((c, i) => { m[String.fromCharCode(0x24b6 + i)] = `(${c})`; });
+    const lower = 'alpha beta gamma delta varepsilon zeta eta theta iota kappa lambda mu nu xi o pi rho varsigma sigma tau upsilon varphi chi psi omega'.split(' ');
+    lower.forEach((n, i) => { m[String.fromCharCode(0x3b1 + i)] = n === 'o' ? '\\ensuremath{o}' : `\\ensuremath{\\${n}}`; });
+    const upper = 'A B Gamma Delta E Z H Theta I K Lambda M N Xi O Pi P - Sigma T Upsilon Phi X Psi Omega'.split(' ');
+    upper.forEach((n, i) => { if (n !== '-') m[String.fromCharCode(0x391 + i)] = n.length > 1 ? `\\ensuremath{\\${n}}` : `\\ensuremath{\\mathrm{${n}}}`; });
+    return m;
+})();
+function texCharDecls(tex) {
+    const seen = new Set([...tex].filter(c => c.codePointAt(0) > 0x17f && !'–—‘’“”…•€™'.includes(c)));
+    const hex = c => c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
+    return seen.size ? `\\ifPDFTeX\n${[...seen].map(c => `\\DeclareUnicodeCharacter{${hex(c)}}{${TEX_CHARS[c] || `[U+${hex(c)}]`}}`).join('\n')}\n\\fi` : '';
+}
+function buildTex(items = getSelected(), title = $('#examTitle').value.trim() || 'Physics Olympiads problem set', viewExport = false) {
+    const showSrc = viewExport || $('#showSource').checked;
+    const space = viewExport ? 0 : Number($('#solutionSpace').value);
+    const head = String.raw`% Exported from Archimedes – World Physics Olympiads Bank
+% https://eisatopon.github.io/physics-olympiads-bank/
+% Compiles with pdfLaTeX, XeLaTeX or LuaLaTeX. Figures: put the PNG files next to this file,
+% otherwise their web address is printed instead.
+\documentclass[11pt,a4paper]{article}
+\usepackage{iftex}
+\ifPDFTeX\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\else\usepackage{fontspec}\fi
+\usepackage{amsmath,amssymb,graphicx,array}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\providecommand{\lt}{<}\providecommand{\gt}{>}
+\providecommand{\overarc}[1]{\overset{\frown}{#1}}\providecommand{\overparen}[1]{\overset{\frown}{#1}}
+\providecommand{\bigtimes}{\mathop{\vcenter{\hbox{\Large$\times$}}}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{plain}
+\begin{document}
+`;
+    const body = items.map((p, i) => {
+        const src = `${CBY[p.country].name} ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : p.day ? `, Day ${p.day}` : ''}, Problem ${p.num}`;
+        const credit = typeof creditText === 'function' ? creditText(p) : '';
+        return `\\subsection*{Problem ${i + 1}}\n` + (showSrc ? `{\\small\\itshape ${texText(src)}${credit ? ' · ' + texText(credit) : ''}}\\par\n` : '') +
+            texStatement(p.text) + (space ? `\n\n\\vspace{${space}mm}` : '') + '\n';
+    }).join('\n');
+    const doc = `\\begin{center}{\\Large\\bfseries ${texText(title)}}\\end{center}\n\n` + body;
+    const decls = texCharDecls(doc);
+    const extra = (doc.includes('\\mathscr') ? '\\usepackage{mathrsfs}\n' : '') + (decls ? decls + '\n' : '');
+    return head.replace('\\begin{document}', extra + '\\begin{document}') + doc + '\n\\end{document}\n';
+}
+function exportTex(items = getSelected(), title = $('#examTitle').value.trim() || 'problem-set', viewExport = false) {
+    if (!items.length) return;
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([buildTex(items, title, viewExport)], {type: 'application/x-tex;charset=utf-8'}));
+    a.download = (title.normalize('NFKD').replace(/[^\w-]+/g, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'problem-set') + '.tex';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    say('LaTeX file downloaded.');
+}
 function parseIncoming() {
     const set = new URLSearchParams(location.search).get('set');
     const out = [];
@@ -2941,6 +3028,12 @@ document.addEventListener('click', e => {
     if (t.hasAttribute('data-clear-filters')) { state.day = 'all'; state.topic = 'all'; state.q = ''; $('#q').value = ''; limit = PAGE; pendingCountries().length ? refresh() : renderResults(); return; }
     if (t.hasAttribute('data-all-scope')) { setScope(null, null); return; }
     if (t.hasAttribute('data-copy-view')) { copyView(); return; }
+    if (t.hasAttribute('data-export-view')) {
+        const [title] = scopeTitle();
+        const topic = state.topic !== 'all' ? ` – ${state.topic}` : '';
+        exportTex(shownUids.map(u => byUid.get(u)).filter(Boolean), title.replace(/^[^\p{L}\p{N}]+/u, '') + topic, true);
+        return;
+    }
     if (t.hasAttribute('data-retry')) { failed.clear(); refresh(); return; }
     if (t.hasAttribute('data-more')) {
         limit += PAGE;

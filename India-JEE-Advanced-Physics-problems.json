@@ -2,6 +2,597 @@
  "competition": "India — JEE (Advanced), Physics (Papers 1 and 2)",
  "years": [
   {
+   "year": 2011,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Paper 1",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA police car with a siren of frequency $8\\,\\mathrm{kHz}$ is moving with uniform velocity $36\\,\\mathrm{km/hr}$ towards a tall building which reflects the sound waves. The speed of sound in air is $320\\,\\mathrm{m/s}$. The frequency of the siren heard by the car driver is\n\n(A) $8.50\\,\\mathrm{kHz}$\n(B) $8.25\\,\\mathrm{kHz}$\n(C) $7.75\\,\\mathrm{kHz}$\n(D) $7.50\\,\\mathrm{kHz}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Paper 1",
+     "title": "Question 2",
+     "problem": "Question 2\n\n$5.6$ liter of helium gas at STP is adiabatically compressed to $0.7$ liter. Taking the initial temperature to be $T_1$, the work done in the process is\n\n(A) $\\dfrac{9}{8}RT_1$\n(B) $\\dfrac{3}{2}RT_1$\n(C) $\\dfrac{15}{8}RT_1$\n(D) $\\dfrac{9}{2}RT_1$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Paper 1",
+     "title": "Question 3",
+     "problem": "Question 3\n\nConsider an electric field $\\vec{E}=E_0\\,\\hat{x}$, where $E_0$ is a constant. The flux through the shaded area (as shown in the figure) due to this field is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-3-fig1.png\n\n(A) $2E_0a^2$\n(B) $\\sqrt{2}\\,E_0a^2$\n(C) $E_0a^2$\n(D) $\\dfrac{E_0a^2}{\\sqrt{2}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Paper 1",
+     "title": "Question 4",
+     "problem": "Question 4\n\nThe wavelength of the first spectral line in the Balmer series of hydrogen atom is $6561\\,\\mathring{\\mathrm{A}}$. The wavelength of the second spectral line in the Balmer series of singly-ionized helium atom is\n\n(A) $1215\\,\\mathring{\\mathrm{A}}$\n(B) $1640\\,\\mathring{\\mathrm{A}}$\n(C) $2430\\,\\mathring{\\mathrm{A}}$\n(D) $4687\\,\\mathring{\\mathrm{A}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Paper 1",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA ball of mass ($m$) $0.5\\,\\mathrm{kg}$ is attached to the end of a string having length ($L$) $0.5\\,\\mathrm{m}$. The ball is rotated on a horizontal circular path about vertical axis. The maximum tension that the string can bear is $324\\,\\mathrm{N}$. The maximum possible value of angular velocity of ball (in radian/s) is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-5-fig1.png\n\n(A) $9$\n(B) $18$\n(C) $27$\n(D) $36$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Paper 1",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA meter bridge is set-up as shown, to determine an unknown resistance '$X$' using a standard $10$ ohm resistor. The galvanometer shows null point when tapping-key is at $52\\,\\mathrm{cm}$ mark. The end-corrections are $1\\,\\mathrm{cm}$ and $2\\,\\mathrm{cm}$ respectively for the ends A and B. The determined value of '$X$' is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-6-fig1.png\n\n(A) $10.2$ ohm\n(B) $10.6$ ohm\n(C) $10.8$ ohm\n(D) $11.1$ ohm\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Paper 1",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA $2\\,\\mathrm{\\mu F}$ capacitor is charged as shown in figure. The percentage of its stored energy dissipated after the switch S is turned to position 2 is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-7-fig1.png\n\n(A) $0\\%$\n(B) $20\\%$\n(C) $75\\%$\n(D) $80\\%$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Paper 1",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA spherical metal shell A of radius $R_A$ and a solid metal sphere B of radius $R_B$ ($<R_A$) are kept far apart and each is given charge '$+Q$'. Now they are connected by a thin metal wire. Then\n\n(A) $E_A^{\\text{inside}}=0$\n(B) $Q_A>Q_B$\n(C) $\\dfrac{\\sigma_A}{\\sigma_B}=\\dfrac{R_B}{R_A}$\n(D) $E_A^{\\text{on surface}}<E_B^{\\text{on surface}}$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Paper 1",
+     "title": "Question 9",
+     "problem": "Question 9\n\nAn electron and a proton are moving on straight parallel paths with same velocity. They enter a semi-infinite region of uniform magnetic field perpendicular to the velocity. Which of the following statement(s) is/are true?\n\n(A) They will never come out of the magnetic field region.\n(B) They will come out travelling along parallel paths.\n(C) They will come out at the same time.\n(D) They will come out at different times.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Paper 1",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA composite block is made of slabs A, B, C, D and E of different thermal conductivities (given in terms of a constant $K$) and sizes (given in terms of length, $L$) as shown in the figure. All slabs are of same width. Heat '$Q$' flows only from left to right through the blocks. Then in steady state\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-10-fig1.png\n\n(A) heat flow through A and E slabs are same.\n(B) heat flow through slab E is maximum.\n(C) temperature difference across slab E is smallest.\n(D) heat flow through C $=$ heat flow through B $+$ heat flow through D.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Paper 1",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA metal rod of length '$L$' and mass '$m$' is pivoted at one end. A thin disk of mass '$M$' and radius '$R$' ($<L$) is attached at its center to the free end of the rod. Consider two ways the disc is attached: (case A) The disc is not free to rotate about its center and (case B) the disc is free to rotate about its center. The rod-disc system performs SHM in vertical plane after being released from the same displaced position. Which of the following statement(s) is (are) true?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-11-fig1.png\n\n(A) Restoring torque in case A $=$ Restoring torque in case B\n(B) Restoring torque in case A $<$ Restoring torque in case B\n(C) Angular frequency for case A $>$ Angular frequency for case B.\n(D) Angular frequency for case A $<$ Angular frequency for case B.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Paper 1",
+     "title": "Question 12",
+     "problem": "Question 12\n\nParagraph for Questions 12 to 14\n\nPhase space diagrams are useful tools in analyzing all kinds of dynamical problems. They are especially useful in studying the changes in motion as initial position and momentum are changed. Here we consider some simple dynamical systems in one-dimension. For such systems, phase space is a plane in which position is plotted along horizontal axis and momentum is plotted along vertical axis. The phase space diagram is $x(t)$ vs. $p(t)$ curve in this plane. The arrow on the curve indicates the time flow. For example, the phase space diagram for a particle moving with constant velocity is a straight line as shown in the figure. We use the sign convention in which position or momentum upwards (or to right) is positive and downwards (or to left) is negative.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-12-fig1.png\n\nThe phase space diagram for a ball thrown vertically up from ground is\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-12-fig2.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-12-fig3.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-12-fig4.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-12-fig5.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Paper 1",
+     "title": "Question 13",
+     "problem": "Question 13\n\nParagraph for Questions 12 to 14\n\nPhase space diagrams are useful tools in analyzing all kinds of dynamical problems. They are especially useful in studying the changes in motion as initial position and momentum are changed. Here we consider some simple dynamical systems in one-dimension. For such systems, phase space is a plane in which position is plotted along horizontal axis and momentum is plotted along vertical axis. The phase space diagram is $x(t)$ vs. $p(t)$ curve in this plane. The arrow on the curve indicates the time flow. For example, the phase space diagram for a particle moving with constant velocity is a straight line as shown in the figure. We use the sign convention in which position or momentum upwards (or to right) is positive and downwards (or to left) is negative.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-13-fig1.png\n\nThe phase space diagram for simple harmonic motion is a circle centered at the origin. In the figure, the two circles represent the same oscillator but for different initial conditions, and $E_1$ and $E_2$ are the total mechanical energies respectively. Then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-13-fig2.png\n\n(A) $E_1=\\sqrt{2}\\,E_2$\n(B) $E_1=2E_2$\n(C) $E_1=4E_2$\n(D) $E_1=16E_2$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Paper 1",
+     "title": "Question 14",
+     "problem": "Question 14\n\nParagraph for Questions 12 to 14\n\nPhase space diagrams are useful tools in analyzing all kinds of dynamical problems. They are especially useful in studying the changes in motion as initial position and momentum are changed. Here we consider some simple dynamical systems in one-dimension. For such systems, phase space is a plane in which position is plotted along horizontal axis and momentum is plotted along vertical axis. The phase space diagram is $x(t)$ vs. $p(t)$ curve in this plane. The arrow on the curve indicates the time flow. For example, the phase space diagram for a particle moving with constant velocity is a straight line as shown in the figure. We use the sign convention in which position or momentum upwards (or to right) is positive and downwards (or to left) is negative.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-14-fig1.png\n\nConsider the spring-mass system, with the mass submerged in water, as shown in the figure. The phase space diagram for one cycle of this system is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-14-fig2.png\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-14-fig3.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-14-fig4.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-14-fig5.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-14-fig6.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Paper 1",
+     "title": "Question 15",
+     "problem": "Question 15\n\nParagraph for Questions 15 and 16\n\nA dense collection of equal number of electrons and positive ions is called neutral plasma. Certain solids containing fixed positive ions surrounded by free electrons can be treated as neutral plasma. Let '$N$' be the number density of free electrons, each of mass '$m$'. When the electrons are subjected to an electric field, they are displaced relatively away from the heavy positive ions. If the electric field becomes zero, the electrons begin to oscillate about the positive ions with a natural angular frequency '$\\omega_p$', which is called the plasma frequency. To sustain the oscillations, a time varying electric field needs to be applied that has an angular frequency $\\omega$, where a part of the energy is absorbed and a part of it is reflected. As $\\omega$ approaches $\\omega_p$, all the free electrons are set to resonance together and all the energy is reflected. This is the explanation of high reflectivity of metals.\n\nTaking the electronic charge as '$e$' and the permittivity as '$\\varepsilon_0$', use dimensional analysis to determine the correct expression for $\\omega_p$.\n\n(A) $\\sqrt{\\dfrac{Ne}{m\\varepsilon_0}}$\n(B) $\\sqrt{\\dfrac{m\\varepsilon_0}{Ne}}$\n(C) $\\sqrt{\\dfrac{Ne^2}{m\\varepsilon_0}}$\n(D) $\\sqrt{\\dfrac{m\\varepsilon_0}{Ne^2}}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Paper 1",
+     "title": "Question 16",
+     "problem": "Question 16\n\nParagraph for Questions 15 and 16\n\nA dense collection of equal number of electrons and positive ions is called neutral plasma. Certain solids containing fixed positive ions surrounded by free electrons can be treated as neutral plasma. Let '$N$' be the number density of free electrons, each of mass '$m$'. When the electrons are subjected to an electric field, they are displaced relatively away from the heavy positive ions. If the electric field becomes zero, the electrons begin to oscillate about the positive ions with a natural angular frequency '$\\omega_p$', which is called the plasma frequency. To sustain the oscillations, a time varying electric field needs to be applied that has an angular frequency $\\omega$, where a part of the energy is absorbed and a part of it is reflected. As $\\omega$ approaches $\\omega_p$, all the free electrons are set to resonance together and all the energy is reflected. This is the explanation of high reflectivity of metals.\n\nEstimate the wavelength at which plasma reflection will occur for a metal having the density of electrons $N\\approx 4\\times10^{27}\\,\\mathrm{m^{-3}}$. Take $\\varepsilon_0\\approx10^{-11}$ and $m\\approx10^{-30}$, where these quantities are in proper SI units.\n\n(A) $800\\,\\mathrm{nm}$\n(B) $600\\,\\mathrm{nm}$\n(C) $300\\,\\mathrm{nm}$\n(D) $200\\,\\mathrm{nm}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Paper 1",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA boy is pushing a ring of mass $2\\,\\mathrm{kg}$ and radius $0.5\\,\\mathrm{m}$ with a stick as shown in the figure. The stick applies a force of $2\\,\\mathrm{N}$ on the ring and rolls it without slipping with an acceleration of $0.3\\,\\mathrm{m/s^2}$. The coefficient of friction between the ground and the ring is large enough that rolling always occurs and the coefficient of friction between the stick and the ring is $(P/10)$. The value of $P$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-17-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Paper 1",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA block is moving on an inclined plane making an angle $45^\\circ$ with the horizontal and the coefficient of friction is $\\mu$. The force required to just push it up the inclined plane is 3 times the force required to just prevent it from sliding down. If we define $N=10\\,\\mu$, then $N$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Paper 1",
+     "title": "Question 19",
+     "problem": "Question 19\n\nFour point charges, each of $+q$, are rigidly fixed at the four corners of a square planar soap film of side '$a$'. The surface tension of the soap film is $\\gamma$. The system of charges and planar film are in equilibrium, and $a=k\\left[\\dfrac{q^2}{\\gamma}\\right]^{1/N}$, where '$k$' is a constant. Then $N$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Paper 1",
+     "title": "Question 20",
+     "problem": "Question 20\n\nSteel wire of length '$L$' at $40^\\circ\\mathrm{C}$ is suspended from the ceiling and then a mass '$m$' is hung from its free end. The wire is cooled down from $40^\\circ\\mathrm{C}$ to $30^\\circ\\mathrm{C}$ to regain its original length '$L$'. The coefficient of linear thermal expansion of the steel is $10^{-5}/{}^\\circ\\mathrm{C}$, Young's modulus of steel is $10^{11}\\,\\mathrm{N/m^2}$ and radius of the wire is $1\\,\\mathrm{mm}$. Assume that $L\\gg$ diameter of the wire. Then the value of '$m$' in kg is nearly\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 21,
+     "paper_label": "Paper 1",
+     "title": "Question 21",
+     "problem": "Question 21\n\nThe activity of a freshly prepared radioactive sample is $10^{10}$ disintegrations per second, whose mean life is $10^{9}\\,\\mathrm{s}$. The mass of an atom of this radioisotope is $10^{-25}\\,\\mathrm{kg}$. The mass (in mg) of the radioactive sample is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 22,
+     "paper_label": "Paper 1",
+     "title": "Question 22",
+     "problem": "Question 22\n\nA long circular tube of length $10\\,\\mathrm{m}$ and radius $0.3\\,\\mathrm{m}$ carries a current $I$ along its curved surface as shown. A wire-loop of resistance $0.005$ ohm and of radius $0.1\\,\\mathrm{m}$ is placed inside the tube with its axis coinciding with the axis of the tube. The current varies as $I=I_0\\cos(300\\,t)$ where $I_0$ is constant. If the magnetic moment of the loop is $N\\mu_0I_0\\sin(300\\,t)$, then '$N$' is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-1-22-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 23,
+     "paper_label": "Paper 1",
+     "title": "Question 23",
+     "problem": "Question 23\n\nFour solid spheres each of diameter $\\sqrt{5}\\,\\mathrm{cm}$ and mass $0.5\\,\\mathrm{kg}$ are placed with their centers at the corners of a square of side $4\\,\\mathrm{cm}$. The moment of inertia of the system about the diagonal of the square is $N\\times10^{-4}\\,\\mathrm{kg\\text{-}m^2}$, then $N$ is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Paper 2",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA light ray traveling in glass medium is incident on glass-air interface at an angle of incidence $\\theta$. The reflected ($R$) and transmitted ($T$) intensities, both as function of $\\theta$, are plotted. The correct sketch is\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-1-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-1-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-1-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-1-fig4.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Paper 2",
+     "title": "Question 2",
+     "problem": "Question 2\n\nA satellite is moving with a constant speed '$V$' in a circular orbit about the earth. An object of mass '$m$' is ejected from the satellite such that it just escapes from the gravitational pull of the earth. At the time of its ejection, the kinetic energy of the object is\n\n(A) $\\dfrac{1}{2}mV^2$\n(B) $mV^2$\n(C) $\\dfrac{3}{2}mV^2$\n(D) $2mV^2$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Paper 2",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA long insulated copper wire is closely wound as a spiral of '$N$' turns. The spiral has inner radius '$a$' and outer radius '$b$'. The spiral lies in the X-Y plane and a steady current '$I$' flows through the wire. The Z-component of the magnetic field at the center of the spiral is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-3-fig1.png\n\n(A) $\\dfrac{\\mu_0NI}{2(b-a)}\\ln\\left(\\dfrac{b}{a}\\right)$\n(B) $\\dfrac{\\mu_0NI}{2(b-a)}\\ln\\left(\\dfrac{b+a}{b-a}\\right)$\n(C) $\\dfrac{\\mu_0NI}{2b}\\ln\\left(\\dfrac{b}{a}\\right)$\n(D) $\\dfrac{\\mu_0NI}{2b}\\ln\\left(\\dfrac{b+a}{b-a}\\right)$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Paper 2",
+     "title": "Question 4",
+     "problem": "Question 4\n\nA point mass is subjected to two simultaneous sinusoidal displacements in x-direction, $x_1(t)=A\\sin\\omega t$ and $x_2(t)=A\\sin\\left(\\omega t+\\dfrac{2\\pi}{3}\\right)$. Adding a third sinusoidal displacement $x_3(t)=B\\sin(\\omega t+\\phi)$ brings the mass to a complete rest. The values of $B$ and $\\phi$ are\n\n(A) $\\sqrt{2}\\,A,\\ \\dfrac{3\\pi}{4}$\n(B) $A,\\ \\dfrac{4\\pi}{3}$\n(C) $\\sqrt{3}\\,A,\\ \\dfrac{5\\pi}{6}$\n(D) $A,\\ \\dfrac{\\pi}{3}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Paper 2",
+     "title": "Question 5",
+     "problem": "Question 5\n\nWhich of the field patterns given below is valid for electric field as well as for magnetic field?\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-5-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-5-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-5-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-5-fig4.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Paper 2",
+     "title": "Question 6",
+     "problem": "Question 6\n\nA ball of mass $0.2\\,\\mathrm{kg}$ rests on a vertical post of height $5\\,\\mathrm{m}$. A bullet of mass $0.01\\,\\mathrm{kg}$, traveling with a velocity $V\\,\\mathrm{m/s}$ in a horizontal direction, hits the centre of the ball. After the collision, the ball and bullet travel independently. The ball hits the ground at a distance of $20\\,\\mathrm{m}$ and the bullet at a distance of $100\\,\\mathrm{m}$ from the foot of the post. The initial velocity $V$ of the bullet is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-6-fig1.png\n\n(A) $250\\,\\mathrm{m/s}$\n(B) $250\\sqrt{2}\\,\\mathrm{m/s}$\n(C) $400\\,\\mathrm{m/s}$\n(D) $500\\,\\mathrm{m/s}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "Paper 2",
+     "title": "Question 7",
+     "problem": "Question 7\n\nThe density of a solid ball is to be determined in an experiment. The diameter of the ball is measured with a screw gauge, whose pitch is $0.5\\,\\mathrm{mm}$ and there are $50$ divisions on the circular scale. The reading on the main scale is $2.5\\,\\mathrm{mm}$ and that on the circular scale is $20$ divisions. If the measured mass of the ball has a relative error of $2\\%$, the relative percentage error in the density is\n\n(A) $0.9\\%$\n(B) $2.4\\%$\n(C) $3.1\\%$\n(D) $4.2\\%$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "Paper 2",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA wooden block performs SHM on a frictionless surface with frequency, $\\nu_0$. The block carries a charge $+Q$ on its surface. If now a uniform electric field $\\vec{E}$ is switched-on as shown, then the SHM of the block will be\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-8-fig1.png\n\n(A) of the same frequency and with shifted mean position.\n(B) of the same frequency and with the same mean position.\n(C) of changed frequency and with shifted mean position.\n(D) of changed frequency and with the same mean position.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "Paper 2",
+     "title": "Question 9",
+     "problem": "Question 9\n\nTwo solid spheres A and B of equal volumes but of different densities $d_A$ and $d_B$ are connected by a string. They are fully immersed in a fluid of density $d_F$. They get arranged into an equilibrium state as shown in the figure with a tension in the string. The arrangement is possible only if\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-9-fig1.png\n\n(A) $d_A<d_F$\n(B) $d_B>d_F$\n(C) $d_A>d_F$\n(D) $d_A+d_B=2d_F$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "Paper 2",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA series R-C circuit is connected to AC voltage source. Consider two cases; (A) when C is without a dielectric medium and (B) when C is filled with dielectric of constant 4. The current $I_R$ through the resistor and voltage $V_C$ across the capacitor are compared in the two cases. Which of the following is/are true?\n\n(A) $I_R^A>I_R^B$\n(B) $I_R^A<I_R^B$\n(C) $V_C^A>V_C^B$\n(D) $V_C^A<V_C^B$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "Paper 2",
+     "title": "Question 11",
+     "problem": "Question 11\n\nWhich of the following statement(s) is/are correct?\n\n(A) If the electric field due to a point charge varies as $r^{-2.5}$ instead of $r^{-2}$, then the Gauss law will still be valid.\n(B) The Gauss law can be used to calculate the field distribution around an electric dipole.\n(C) If the electric field between two point charges is zero somewhere, then the sign of the two charges is the same.\n(D) The work done by the external force in moving a unit positive charge from point A at potential $V_A$ to point B at potential $V_B$ is $(V_B-V_A)$.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "Paper 2",
+     "title": "Question 12",
+     "problem": "Question 12\n\nA thin ring of mass $2\\,\\mathrm{kg}$ and radius $0.5\\,\\mathrm{m}$ is rolling without slipping on a horizontal plane with velocity $1\\,\\mathrm{m/s}$. A small ball of mass $0.1\\,\\mathrm{kg}$, moving with velocity $20\\,\\mathrm{m/s}$ in the opposite direction, hits the ring at a height of $0.75\\,\\mathrm{m}$ and goes vertically up with velocity $10\\,\\mathrm{m/s}$. Immediately after the collision\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-12-fig1.png\n\n(A) the ring has pure rotation about its stationary CM.\n(B) the ring comes to a complete stop.\n(C) friction between the ring and the ground is to the left.\n(D) there is no friction between the ring and the ground.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 13,
+     "paper_label": "Paper 2",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA train is moving along a straight line with a constant acceleration '$a$'. A boy standing in the train throws a ball forward with a speed of $10\\,\\mathrm{m/s}$, at an angle of $60^\\circ$ to the horizontal. The boy has to move forward by $1.15\\,\\mathrm{m}$ inside the train to catch the ball back at the initial height. The acceleration of the train, in $\\mathrm{m/s^2}$, is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 14,
+     "paper_label": "Paper 2",
+     "title": "Question 14",
+     "problem": "Question 14\n\nA block of mass $0.18\\,\\mathrm{kg}$ is attached to a spring of force-constant $2\\,\\mathrm{N/m}$. The coefficient of friction between the block and the floor is $0.1$. Initially the block is at rest and the spring is un-stretched. An impulse is given to the block as shown in the figure. The block slides a distance of $0.06\\,\\mathrm{m}$ and comes to rest for the first time. The initial velocity of the block in $\\mathrm{m/s}$ is $V=N/10$. Then $N$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-14-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 15,
+     "paper_label": "Paper 2",
+     "title": "Question 15",
+     "problem": "Question 15\n\nTwo batteries of different emfs and different internal resistances are connected as shown. The voltage across AB in volts is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-15-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 16,
+     "paper_label": "Paper 2",
+     "title": "Question 16",
+     "problem": "Question 16\n\nWater (with refractive index $=\\dfrac{4}{3}$) in a tank is $18\\,\\mathrm{cm}$ deep. Oil of refractive index $\\dfrac{7}{4}$ lies on water making a convex surface of radius of curvature '$R=6\\,\\mathrm{cm}$' as shown. Consider oil to act as a thin lens. An object '$S$' is placed $24\\,\\mathrm{cm}$ above water surface. The location of its image is at '$x$' cm above the bottom of the tank. Then '$x$' is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-16-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 17,
+     "paper_label": "Paper 2",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA series R-C combination is connected to an AC voltage of angular frequency $\\omega=500\\,\\mathrm{radian/s}$. If the impedance of the R-C circuit is $R\\sqrt{1.25}$, the time constant (in millisecond) of the circuit is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 18,
+     "paper_label": "Paper 2",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA silver sphere of radius $1\\,\\mathrm{cm}$ and work function $4.7\\,\\mathrm{eV}$ is suspended from an insulating thread in free-space. It is under continuous illumination of $200\\,\\mathrm{nm}$ wavelength light. As photoelectrons are emitted, the sphere gets charged and acquires a potential. The maximum number of photoelectrons emitted from the sphere is $A\\times10^{Z}$ (where $1<A<10$). The value of '$Z$' is\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 19,
+     "paper_label": "Paper 2",
+     "title": "Question 19",
+     "problem": "Question 19\n\nOne mole of a monatomic ideal gas is taken through a cycle ABCDA as shown in the P-V diagram. Column II gives the characteristics involved in the cycle. Match them with each of the processes given in Column I.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-19-fig1.png\n\nColumn I\n(A) Process A $\\to$ B\n(B) Process B $\\to$ C\n(C) Process C $\\to$ D\n(D) Process D $\\to$ A\n\nColumn II\n(p) Internal energy decreases.\n(q) Internal energy increases.\n(r) Heat is lost.\n(s) Heat is gained.\n(t) Work is done on the gas.\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    },
+    {
+     "day": 2,
+     "number": 20,
+     "paper_label": "Paper 2",
+     "title": "Question 20",
+     "problem": "Question 20\n\nColumn I shows four systems, each of the same length $L$, for producing standing waves. The lowest possible natural frequency of a system is called its fundamental frequency, whose wavelength is denoted as $\\lambda_f$. Match each system with statements given in Column II describing the nature and wavelength of the standing waves.\n\nColumn I\n(A) Pipe closed at one end\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-20-fig1.png\n\n(B) Pipe open at both ends\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-20-fig2.png\n\n(C) Stretched wire clamped at both ends\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-20-fig3.png\n\n(D) Stretched wire clamped at both ends and at mid-point\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2011-2-20-fig4.png\n\nColumn II\n(p) Longitudinal waves\n(q) Transverse waves\n(r) $\\lambda_f=L$\n(s) $\\lambda_f=2L$\n(t) $\\lambda_f=4L$\n\n[One or more entries in Column I may match with one or more entries in Column II.]"
+    }
+   ]
+  },
+  {
+   "year": 2012,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Paper 1",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA thin uniform rod, pivoted at $O$, is rotating in the horizontal plane with constant angular speed $\\omega$, as shown in the figure. At time $t=0$, a small insect starts from $O$ and moves with constant speed $v$ with respect to the rod towards the other end. It reaches the end of the rod at $t=T$ and stops. The angular speed of the system remains $\\omega$ throughout. The magnitude of the torque ($|\\vec{\\tau}|$) on the system about $O$, as a function of time is best represented by which plot?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-1-fig1.png\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-1-fig2.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-1-fig3.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-1-fig4.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-1-fig5.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Paper 1",
+     "title": "Question 2",
+     "problem": "Question 2\n\nThree very large plates of same area are kept parallel and close to each other. They are considered as ideal black surfaces and have very high thermal conductivity. The first and third plates are maintained at temperatures $2T$ and $3T$ respectively. The temperature of the middle (i.e. second) plate under steady state condition is\n\n(A) $\\left(\\dfrac{65}{2}\\right)^{\\frac{1}{4}}T$\n(B) $\\left(\\dfrac{97}{4}\\right)^{\\frac{1}{4}}T$\n(C) $\\left(\\dfrac{97}{2}\\right)^{\\frac{1}{4}}T$\n(D) $(97)^{\\frac{1}{4}}T$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Paper 1",
+     "title": "Question 3",
+     "problem": "Question 3\n\nConsider a thin spherical shell of radius $R$ with its centre at the origin, carrying uniform positive surface charge density. The variation of the magnitude of the electric field $|\\vec{E}(r)|$ and the electric potential $V(r)$ with the distance $r$ from the centre, is best represented by which graph?\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-3-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-3-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-3-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-3-fig4.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Paper 1",
+     "title": "Question 4",
+     "problem": "Question 4\n\nIn the determination of Young's modulus $\\left(Y=\\dfrac{4MLg}{\\pi l d^2}\\right)$ by using Searle's method, a wire of length $L=2\\,\\mathrm{m}$ and diameter $d=0.5\\,\\mathrm{mm}$ is used. For a load $M=2.5\\,\\mathrm{kg}$, an extension $l=0.25\\,\\mathrm{mm}$ in the length of the wire is observed. Quantities $d$ and $l$ are measured using a screw gauge and a micrometer, respectively. They have the same pitch of $0.5\\,\\mathrm{mm}$. The number of divisions on their circular scale is $100$. The contributions to the maximum probable error of the $Y$ measurement\n\n(A) due to the errors in the measurements of $d$ and $l$ are the same.\n(B) due to the error in the measurement of $d$ is twice that due to the error in the measurement of $l$.\n(C) due to the error in the measurement of $l$ is twice that due to the error in the measurement of $d$.\n(D) due to the error in the measurement of $d$ is four times that due to the error in the measurement of $l$.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Paper 1",
+     "title": "Question 5",
+     "problem": "Question 5\n\nA small block is connected to one end of a massless spring of un-stretched length $4.9\\,\\mathrm{m}$. The other end of the spring (see the figure) is fixed. The system lies on a horizontal frictionless surface. The block is stretched by $0.2\\,\\mathrm{m}$ and released from rest at $t=0$. It then executes simple harmonic motion with angular frequency $\\omega=\\dfrac{\\pi}{3}\\,\\mathrm{rad/s}$. Simultaneously at $t=0$, a small pebble is projected with speed $v$ from point $P$ at an angle of $45^\\circ$ as shown in the figure. Point $P$ is at a horizontal distance of $10\\,\\mathrm{m}$ from $O$. If the pebble hits the block at $t=1\\,\\mathrm{s}$, the value of $v$ is (take $g=10\\,\\mathrm{m/s^2}$)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-5-fig1.png\n\n(A) $\\sqrt{50}\\,\\mathrm{m/s}$\n(B) $\\sqrt{51}\\,\\mathrm{m/s}$\n(C) $\\sqrt{52}\\,\\mathrm{m/s}$\n(D) $\\sqrt{53}\\,\\mathrm{m/s}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Paper 1",
+     "title": "Question 6",
+     "problem": "Question 6\n\nYoung's double slit experiment is carried out by using green, red and blue light, one color at a time. The fringe widths recorded are $\\beta_G$, $\\beta_R$ and $\\beta_B$, respectively. Then,\n\n(A) $\\beta_G>\\beta_B>\\beta_R$\n(B) $\\beta_B>\\beta_G>\\beta_R$\n(C) $\\beta_R>\\beta_B>\\beta_G$\n(D) $\\beta_R>\\beta_G>\\beta_B$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Paper 1",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA small mass $m$ is attached to a massless string whose other end is fixed at $P$ as shown in the figure. The mass is undergoing circular motion in the $x$-$y$ plane with centre at $O$ and constant angular speed $\\omega$. If the angular momentum of the system, calculated about $O$ and $P$ are denoted by $\\vec{L}_O$ and $\\vec{L}_P$ respectively, then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-7-fig1.png\n\n(A) $\\vec{L}_O$ and $\\vec{L}_P$ do not vary with time.\n(B) $\\vec{L}_O$ varies with time while $\\vec{L}_P$ remains constant.\n(C) $\\vec{L}_O$ remains constant while $\\vec{L}_P$ varies with time.\n(D) $\\vec{L}_O$ and $\\vec{L}_P$ both vary with time.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Paper 1",
+     "title": "Question 8",
+     "problem": "Question 8\n\nA mixture of $2$ moles of helium gas (atomic mass $=4\\,\\mathrm{amu}$) and $1$ mole of argon gas (atomic mass $=40\\,\\mathrm{amu}$) is kept at $300\\,\\mathrm{K}$ in a container. The ratio of the rms speeds $\\left(\\dfrac{v_{rms}(\\text{helium})}{v_{rms}(\\text{argon})}\\right)$ is\n\n(A) $0.32$\n(B) $0.45$\n(C) $2.24$\n(D) $3.16$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Paper 1",
+     "title": "Question 9",
+     "problem": "Question 9\n\nTwo large vertical and parallel metal plates having a separation of $1\\,\\mathrm{cm}$ are connected to a DC voltage source of potential difference $X$. A proton is released at rest midway between the two plates. It is found to move at $45^\\circ$ to the vertical JUST after release. Then $X$ is nearly\n\n(A) $1\\times10^{-5}\\,\\mathrm{V}$\n(B) $1\\times10^{-7}\\,\\mathrm{V}$\n(C) $1\\times10^{-9}\\,\\mathrm{V}$\n(D) $1\\times10^{-10}\\,\\mathrm{V}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Paper 1",
+     "title": "Question 10",
+     "problem": "Question 10\n\nA bi-convex lens is formed with two thin plano-convex lenses as shown in the figure. Refractive index $n$ of the first lens is $1.5$ and that of the second lens is $1.2$. Both the curved surfaces are of the same radius of curvature $R=14\\,\\mathrm{cm}$. For this bi-convex lens, for an object distance of $40\\,\\mathrm{cm}$, the image distance will be\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-10-fig1.png\n\n(A) $-280.0\\,\\mathrm{cm}$.\n(B) $40.0\\,\\mathrm{cm}$.\n(C) $21.5\\,\\mathrm{cm}$.\n(D) $13.3\\,\\mathrm{cm}$.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Paper 1",
+     "title": "Question 11",
+     "problem": "Question 11\n\nA cubical region of side $a$ has its centre at the origin. It encloses three fixed point charges, $-q$ at $(0,-a/4,0)$, $+3q$ at $(0,0,0)$ and $-q$ at $(0,+a/4,0)$. Choose the correct option(s).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-11-fig1.png\n\n(A) The net electric flux crossing the plane $x=+a/2$ is equal to the net electric flux crossing the plane $x=-a/2$.\n(B) The net electric flux crossing the plane $y=+a/2$ is more than the net electric flux crossing the plane $y=-a/2$.\n(C) The net electric flux crossing the entire region is $\\dfrac{q}{\\varepsilon_0}$.\n(D) The net electric flux crossing the plane $z=+a/2$ is equal to the net electric flux crossing the plane $x=+a/2$.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Paper 1",
+     "title": "Question 12",
+     "problem": "Question 12\n\nFor the resistance network shown in the figure, choose the correct option(s).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-12-fig1.png\n\n(A) The current through $PQ$ is zero.\n(B) $I_1=3\\,\\mathrm{A}$.\n(C) The potential at $S$ is less than that at $Q$.\n(D) $I_2=2\\,\\mathrm{A}$.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Paper 1",
+     "title": "Question 13",
+     "problem": "Question 13\n\nA small block of mass of $0.1\\,\\mathrm{kg}$ lies on a fixed inclined plane $PQ$ which makes an angle $\\theta$ with the horizontal. A horizontal force of $1\\,\\mathrm{N}$ acts on the block through its center of mass as shown in the figure. The block remains stationary if (take $g=10\\,\\mathrm{m/s^2}$)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-13-fig1.png\n\n(A) $\\theta=45^\\circ$\n(B) $\\theta>45^\\circ$ and a frictional force acts on the block towards $P$.\n(C) $\\theta>45^\\circ$ and a frictional force acts on the block towards $Q$.\n(D) $\\theta<45^\\circ$ and a frictional force acts on the block towards $Q$.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Paper 1",
+     "title": "Question 14",
+     "problem": "Question 14\n\nConsider the motion of a positive point charge in a region where there are simultaneous uniform electric and magnetic fields $\\vec{E}=E_0\\,\\hat{j}$ and $\\vec{B}=B_0\\,\\hat{j}$. At time $t=0$, this charge has velocity $\\vec{v}$ in the $x$-$y$ plane, making an angle $\\theta$ with the $x$-axis. Which of the following option(s) is(are) correct for time $t>0$?\n\n(A) If $\\theta=0^\\circ$, the charge moves in a circular path in the $x$-$z$ plane.\n(B) If $\\theta=0^\\circ$, the charge undergoes helical motion with constant pitch along the $y$-axis.\n(C) If $\\theta=10^\\circ$, the charge undergoes helical motion with its pitch increasing with time, along the $y$-axis.\n(D) If $\\theta=90^\\circ$, the charge undergoes linear but accelerated motion along the $y$-axis.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 15,
+     "paper_label": "Paper 1",
+     "title": "Question 15",
+     "problem": "Question 15\n\nA person blows into open-end of a long pipe. As a result, a high-pressure pulse of air travels down the pipe. When this pulse reaches the other end of the pipe,\n\n(A) a high-pressure pulse starts traveling up the pipe, if the other end of the pipe is open.\n(B) a low-pressure pulse starts traveling up the pipe, if the other end of the pipe is open.\n(C) a low-pressure pulse starts traveling up the pipe, if the other end of the pipe is closed.\n(D) a high-pressure pulse starts traveling up the pipe, if the other end of the pipe is closed.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 1,
+     "number": 16,
+     "paper_label": "Paper 1",
+     "title": "Question 16",
+     "problem": "Question 16\n\nAn infinitely long solid cylinder of radius $R$ has a uniform volume charge density $\\rho$. It has a spherical cavity of radius $R/2$ with its centre on the axis of the cylinder, as shown in the figure. The magnitude of the electric field at the point $P$, which is at a distance $2R$ from the axis of the cylinder, is given by the expression $\\dfrac{23\\rho R}{16k\\varepsilon_0}$. The value of $k$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-16-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 17,
+     "paper_label": "Paper 1",
+     "title": "Question 17",
+     "problem": "Question 17\n\nA cylindrical cavity of diameter $a$ exists inside a cylinder of diameter $2a$ as shown in the figure. Both the cylinder and the cavity are infinitely long. A uniform current density $J$ flows along the length. If the magnitude of the magnetic field at the point $P$ is given by $\\dfrac{N}{12}\\mu_0 aJ$, then the value of $N$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-17-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 18,
+     "paper_label": "Paper 1",
+     "title": "Question 18",
+     "problem": "Question 18\n\nA lamina is made by removing a small disc of diameter $2R$ from a bigger disc of uniform mass density and radius $2R$, as shown in the figure. The moment of inertia of this lamina about axes passing through $O$ and $P$ is $I_O$ and $I_P$, respectively. Both these axes are perpendicular to the plane of the lamina. The ratio $\\dfrac{I_P}{I_O}$ to the nearest integer is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-18-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 19,
+     "paper_label": "Paper 1",
+     "title": "Question 19",
+     "problem": "Question 19\n\nA circular wire loop of radius $R$ is placed in the $x$-$y$ plane centered at the origin $O$. A square loop of side $a$ ($a\\ll R$) having two turns is placed with its center at $z=\\sqrt{3}\\,R$ along the axis of the circular wire loop, as shown in figure. The plane of the square loop makes an angle of $45^\\circ$ with respect to the $z$-axis. If the mutual inductance between the loops is given by $\\dfrac{\\mu_0 a^2}{2^{p/2}R}$, then the value of $p$ is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-1-19-fig1.png\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 1,
+     "number": 20,
+     "paper_label": "Paper 1",
+     "title": "Question 20",
+     "problem": "Question 20\n\nA proton is fired from very far away towards a nucleus with charge $Q=120\\,e$, where $e$ is the electronic charge. It makes a closest approach of $10\\,\\mathrm{fm}$ to the nucleus. The de Broglie wavelength (in units of fm) of the proton at its start is: (take the proton mass, $m_p=(5/3)\\times10^{-27}\\,\\mathrm{kg}$; $h/e=4.2\\times10^{-15}\\,\\mathrm{J.s/C}$; $\\dfrac{1}{4\\pi\\varepsilon_0}=9\\times10^{9}\\,\\mathrm{m/F}$; $1\\,\\mathrm{fm}=10^{-15}\\,\\mathrm{m}$)\n\n[Answer is a single-digit integer from 0 to 9.]"
+    },
+    {
+     "day": 2,
+     "number": 1,
+     "paper_label": "Paper 2",
+     "title": "Question 1",
+     "problem": "Question 1\n\nA loop carrying current $I$ lies in the $x$-$y$ plane as shown in the figure. The unit vector $\\hat{k}$ is coming out of the plane of the paper. The magnetic moment of the current loop is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-1-fig1.png\n\n(A) $a^2I\\hat{k}$\n(B) $\\left(\\dfrac{\\pi}{2}+1\\right)a^2I\\hat{k}$\n(C) $-\\left(\\dfrac{\\pi}{2}+1\\right)a^2I\\hat{k}$\n(D) $(2\\pi+1)a^2I\\hat{k}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 2,
+     "paper_label": "Paper 2",
+     "title": "Question 2",
+     "problem": "Question 2\n\nAn infinitely long hollow conducting cylinder with inner radius $R/2$ and outer radius $R$ carries a uniform current density along its length. The magnitude of the magnetic field, $|\\vec{B}|$ as a function of the radial distance $r$ from the axis is best represented by\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-2-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-2-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-2-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-2-fig4.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 3,
+     "paper_label": "Paper 2",
+     "title": "Question 3",
+     "problem": "Question 3\n\nA thin uniform cylindrical shell, closed at both ends, is partially filled with water. It is floating vertically in water in half-submerged state. If $\\rho_c$ is the relative density of the material of the shell with respect to water, then the correct statement is that the shell is\n\n(A) more than half-filled if $\\rho_c$ is less than $0.5$.\n(B) more than half-filled if $\\rho_c$ is more than $1.0$.\n(C) half-filled if $\\rho_c$ is more than $0.5$.\n(D) less than half-filled if $\\rho_c$ is less than $0.5$.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 4,
+     "paper_label": "Paper 2",
+     "title": "Question 4",
+     "problem": "Question 4\n\nIn the given circuit, a charge of $+80\\,\\mu\\mathrm{C}$ is given to the upper plate of the $4\\,\\mu\\mathrm{F}$ capacitor. Then in the steady state, the charge on the upper plate of the $3\\,\\mu\\mathrm{F}$ capacitor is\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-4-fig1.png\n\n(A) $+32\\,\\mu\\mathrm{C}$\n(B) $+40\\,\\mu\\mathrm{C}$\n(C) $+48\\,\\mu\\mathrm{C}$\n(D) $+80\\,\\mu\\mathrm{C}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 5,
+     "paper_label": "Paper 2",
+     "title": "Question 5",
+     "problem": "Question 5\n\nTwo moles of ideal helium gas are in a rubber balloon at $30^\\circ\\mathrm{C}$. The balloon is fully expandable and can be assumed to require no energy in its expansion. The temperature of the gas in the balloon is slowly changed to $35^\\circ\\mathrm{C}$. The amount of heat required in raising the temperature is nearly (take $R=8.31\\,\\mathrm{J/mol.K}$)\n\n(A) $62\\,\\mathrm{J}$\n(B) $104\\,\\mathrm{J}$\n(C) $124\\,\\mathrm{J}$\n(D) $208\\,\\mathrm{J}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 6,
+     "paper_label": "Paper 2",
+     "title": "Question 6",
+     "problem": "Question 6\n\nConsider a disc rotating in the horizontal plane with a constant angular speed $\\omega$ about its centre $O$. The disc has a shaded region on one side of the diameter and an unshaded region on the other side as shown in the figure. When the disc is in the orientation as shown, two pebbles $P$ and $Q$ are simultaneously projected at an angle towards $R$. The velocity of projection is in the $y$-$z$ plane and is same for both pebbles with respect to the disc. Assume that (i) they land back on the disc before the disc has completed $\\dfrac{1}{8}$ rotation, (ii) their range is less than half the disc radius, and (iii) $\\omega$ remains constant throughout. Then\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-6-fig1.png\n\n(A) $P$ lands in the shaded region and $Q$ in the unshaded region.\n(B) $P$ lands in the unshaded region and $Q$ in the shaded region.\n(C) Both $P$ and $Q$ land in the unshaded region.\n(D) Both $P$ and $Q$ land in the shaded region.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 7,
+     "paper_label": "Paper 2",
+     "title": "Question 7",
+     "problem": "Question 7\n\nA student is performing the experiment of Resonance Column. The diameter of the column tube is $4\\,\\mathrm{cm}$. The frequency of the tuning fork is $512\\,\\mathrm{Hz}$. The air temperature is $38^\\circ\\mathrm{C}$ in which the speed of sound is $336\\,\\mathrm{m/s}$. The zero of the meter scale coincides with the top end of the Resonance Column tube. When the first resonance occurs, the reading of the water level in the column is\n\n(A) $14.0\\,\\mathrm{cm}$\n(B) $15.2\\,\\mathrm{cm}$\n(C) $16.4\\,\\mathrm{cm}$\n(D) $17.6\\,\\mathrm{cm}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 8,
+     "paper_label": "Paper 2",
+     "title": "Question 8",
+     "problem": "Question 8\n\nTwo identical discs of same radius $R$ are rotating about their axes in opposite directions with the same constant angular speed $\\omega$. The discs are in the same horizontal plane. At time $t=0$, the points $P$ and $Q$ are facing each other as shown in the figure. The relative speed between the two points $P$ and $Q$ is $v_r$. In one time period ($T$) of rotation of the discs, $v_r$ as a function of time is best represented by\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-8-fig1.png\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-8-fig2.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-8-fig3.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-8-fig4.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-8-fig5.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 9,
+     "paper_label": "Paper 2",
+     "title": "Question 9",
+     "problem": "Question 9\n\nParagraph for Questions 9 and 10\n\nMost materials have the refractive index, $n>1$. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $\\dfrac{\\sin\\theta_1}{\\sin\\theta_2}=\\dfrac{n_2}{n_1}$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation, $n=\\left(\\dfrac{c}{v}\\right)=\\pm\\sqrt{\\varepsilon_r\\mu_r}$, where c is the speed of electromagnetic waves in vacuum, $v$ its speed in the medium, $\\varepsilon_r$ and $\\mu_r$ are the relative permittivity and permeability of the medium respectively.\n\nIn normal materials, both $\\varepsilon_r$ and $\\mu_r$ are positive, implying positive $n$ for the medium. When both $\\varepsilon_r$ and $\\mu_r$ are negative, one must choose the negative root of $n$. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behavior, without violating any physical laws. Since $n$ is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials.\n\nFor light incident from air on a meta-material, the appropriate ray diagram is\n\n(A)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-9-fig1.png\n\n(B)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-9-fig2.png\n\n(C)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-9-fig3.png\n\n(D)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-9-fig4.png\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 10,
+     "paper_label": "Paper 2",
+     "title": "Question 10",
+     "problem": "Question 10\n\nParagraph for Questions 9 and 10\n\nMost materials have the refractive index, $n>1$. So, when a light ray from air enters a naturally occurring material, then by Snell's law, $\\dfrac{\\sin\\theta_1}{\\sin\\theta_2}=\\dfrac{n_2}{n_1}$, it is understood that the refracted ray bends towards the normal. But it never emerges on the same side of the normal as the incident ray. According to electromagnetism, the refractive index of the medium is given by the relation, $n=\\left(\\dfrac{c}{v}\\right)=\\pm\\sqrt{\\varepsilon_r\\mu_r}$, where c is the speed of electromagnetic waves in vacuum, $v$ its speed in the medium, $\\varepsilon_r$ and $\\mu_r$ are the relative permittivity and permeability of the medium respectively.\n\nIn normal materials, both $\\varepsilon_r$ and $\\mu_r$ are positive, implying positive $n$ for the medium. When both $\\varepsilon_r$ and $\\mu_r$ are negative, one must choose the negative root of $n$. Such negative refractive index materials can now be artificially prepared and are called meta-materials. They exhibit significantly different optical behavior, without violating any physical laws. Since $n$ is negative, it results in a change in the direction of propagation of the refracted light. However, similar to normal materials, the frequency of light remains unchanged upon refraction even in meta-materials.\n\nChoose the correct statement.\n\n(A) The speed of light in the meta-material is $v=c|n|$\n(B) The speed of light in the meta-material is $v=\\dfrac{c}{|n|}$\n(C) The speed of light in the meta-material is $v=c$.\n(D) The wavelength of the light in the meta-material ($\\lambda_m$) is given by $\\lambda_m=\\lambda_{air}|n|$, where $\\lambda_{air}$ is the wavelength of the light in air.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 11,
+     "paper_label": "Paper 2",
+     "title": "Question 11",
+     "problem": "Question 11\n\nParagraph for Questions 11 and 12\n\nThe $\\beta$-decay process, discovered around $1900$, is basically the decay of a neutron ($n$). In the laboratory, a proton ($p$) and an electron ($e^-$) are observed as the decay products of the neutron. Therefore, considering the decay of a neutron as a two-body decay process, it was predicted theoretically that the kinetic energy of the electron should be a constant. But experimentally, it was observed that the electron kinetic energy has a continuous spectrum. Considering a three-body decay process, i.e. $n\\rightarrow p+e^-+\\bar{\\nu}_e$, around $1930$, Pauli explained the observed electron energy spectrum. Assuming the anti-neutrino ($\\bar{\\nu}_e$) to be massless and possessing negligible energy, and the neutron to be at rest, momentum and energy conservation principles are applied. From this calculation, the maximum kinetic energy of the electron is $0.8\\times10^{6}\\,\\mathrm{eV}$. The kinetic energy carried by the proton is only the recoil energy.\n\nWhat is the maximum energy of the anti-neutrino?\n\n(A) Zero.\n(B) Much less than $0.8\\times10^{6}\\,\\mathrm{eV}$.\n(C) Nearly $0.8\\times10^{6}\\,\\mathrm{eV}$.\n(D) Much larger than $0.8\\times10^{6}\\,\\mathrm{eV}$.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 12,
+     "paper_label": "Paper 2",
+     "title": "Question 12",
+     "problem": "Question 12\n\nParagraph for Questions 11 and 12\n\nThe $\\beta$-decay process, discovered around $1900$, is basically the decay of a neutron ($n$). In the laboratory, a proton ($p$) and an electron ($e^-$) are observed as the decay products of the neutron. Therefore, considering the decay of a neutron as a two-body decay process, it was predicted theoretically that the kinetic energy of the electron should be a constant. But experimentally, it was observed that the electron kinetic energy has a continuous spectrum. Considering a three-body decay process, i.e. $n\\rightarrow p+e^-+\\bar{\\nu}_e$, around $1930$, Pauli explained the observed electron energy spectrum. Assuming the anti-neutrino ($\\bar{\\nu}_e$) to be massless and possessing negligible energy, and the neutron to be at rest, momentum and energy conservation principles are applied. From this calculation, the maximum kinetic energy of the electron is $0.8\\times10^{6}\\,\\mathrm{eV}$. The kinetic energy carried by the proton is only the recoil energy.\n\nIf the anti-neutrino had a mass of $3\\,\\mathrm{eV}/c^2$ (where $c$ is the speed of light) instead of zero mass, what should be the range of the kinetic energy, $K$, of the electron?\n\n(A) $0\\le K\\le 0.8\\times10^{6}\\,\\mathrm{eV}$\n(B) $3.0\\,\\mathrm{eV}\\le K\\le 0.8\\times10^{6}\\,\\mathrm{eV}$\n(C) $3.0\\,\\mathrm{eV}\\le K<0.8\\times10^{6}\\,\\mathrm{eV}$\n(D) $0\\le K<0.8\\times10^{6}\\,\\mathrm{eV}$\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 13,
+     "paper_label": "Paper 2",
+     "title": "Question 13",
+     "problem": "Question 13\n\nParagraph for Questions 13 and 14\n\nThe general motion of a rigid body can be considered to be a combination of (i) a motion of its centre of mass about an axis, and (ii) its motion about an instantaneous axis passing through the centre of mass. These axes need not be stationary. Consider, for example, a thin uniform disc welded (rigidly fixed) horizontally at its rim to a massless stick, as shown in the figure. When the disc–stick system is rotated about the origin on a horizontal frictionless plane with angular speed $\\omega$, the motion at any instant can be taken as a combination of (i) a rotation of the centre of mass of the disc about the $z$-axis, and (ii) a rotation of the disc through an instantaneous vertical axis passing through its centre of mass (as is seen from the changed orientation of points $P$ and $Q$). Both these motions have the same angular speed $\\omega$ in this case.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-13-fig1.png\n\nNow consider two similar systems as shown in the figure: Case (a) the disc with its face vertical and parallel to $x$-$z$ plane; Case (b) the disc with its face making an angle of $45^\\circ$ with $x$-$y$ plane and its horizontal diameter parallel to $x$-axis. In both the cases, the disc is welded at point $P$, and the systems are rotated with constant angular speed $\\omega$ about the $z$-axis.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-13-fig2.png\n\nWhich of the following statements about the instantaneous axis (passing through the centre of mass) is correct?\n\n(A) It is vertical for both the cases (a) and (b).\n(B) It is vertical for case (a); and is at $45^\\circ$ to the $x$-$z$ plane and lies in the plane of the disc for case (b).\n(C) It is horizontal for case (a); and is at $45^\\circ$ to the $x$-$z$ plane and is normal to the plane of the disc for case (b).\n(D) It is vertical for case (a); and is at $45^\\circ$ to the $x$-$z$ plane and is normal to the plane of the disc for case (b).\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 14,
+     "paper_label": "Paper 2",
+     "title": "Question 14",
+     "problem": "Question 14\n\nParagraph for Questions 13 and 14\n\nThe general motion of a rigid body can be considered to be a combination of (i) a motion of its centre of mass about an axis, and (ii) its motion about an instantaneous axis passing through the centre of mass. These axes need not be stationary. Consider, for example, a thin uniform disc welded (rigidly fixed) horizontally at its rim to a massless stick, as shown in the figure. When the disc–stick system is rotated about the origin on a horizontal frictionless plane with angular speed $\\omega$, the motion at any instant can be taken as a combination of (i) a rotation of the centre of mass of the disc about the $z$-axis, and (ii) a rotation of the disc through an instantaneous vertical axis passing through its centre of mass (as is seen from the changed orientation of points $P$ and $Q$). Both these motions have the same angular speed $\\omega$ in this case.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-14-fig1.png\n\nNow consider two similar systems as shown in the figure: Case (a) the disc with its face vertical and parallel to $x$-$z$ plane; Case (b) the disc with its face making an angle of $45^\\circ$ with $x$-$y$ plane and its horizontal diameter parallel to $x$-axis. In both the cases, the disc is welded at point $P$, and the systems are rotated with constant angular speed $\\omega$ about the $z$-axis.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-14-fig2.png\n\nWhich of the following statements regarding the angular speed about the instantaneous axis (passing through the centre of mass) is correct?\n\n(A) It is $\\sqrt{2}\\,\\omega$ for both the cases.\n(B) It is $\\omega$ for case (a); and $\\dfrac{\\omega}{\\sqrt{2}}$ for case (b).\n(C) It is $\\omega$ for case (a); and $\\sqrt{2}\\,\\omega$ for case (b).\n(D) It is $\\omega$ for both the cases.\n\n[Only one option is correct.]"
+    },
+    {
+     "day": 2,
+     "number": 15,
+     "paper_label": "Paper 2",
+     "title": "Question 15",
+     "problem": "Question 15\n\nIn the given circuit, the AC source has $\\omega=100\\,\\mathrm{rad/s}$. Considering the inductor and capacitor to be ideal, the correct choice(s) is(are)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-15-fig1.png\n\n(A) The current through the circuit, $I$ is $0.3\\,\\mathrm{A}$.\n(B) The current through the circuit, $I$ is $0.3\\sqrt{2}\\,\\mathrm{A}$.\n(C) The voltage across $100\\,\\Omega$ resistor $=10\\sqrt{2}\\,\\mathrm{V}$.\n(D) The voltage across $50\\,\\Omega$ resistor $=10\\,\\mathrm{V}$.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 16,
+     "paper_label": "Paper 2",
+     "title": "Question 16",
+     "problem": "Question 16\n\nA current carrying infinitely long wire is kept along the diameter of a circular wire loop, without touching it. The correct statement(s) is(are)\n\n(A) The emf induced in the loop is zero if the current is constant.\n(B) The emf induced in the loop is finite if the current is constant.\n(C) The emf induced in the loop is zero if the current decreases at a steady rate.\n(D) The emf induced in the loop is finite if the current decreases at a steady rate.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 17,
+     "paper_label": "Paper 2",
+     "title": "Question 17",
+     "problem": "Question 17\n\nSix point charges are kept at the vertices of a regular hexagon of side $L$ and centre $O$, as shown in the figure. Given that $K=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{L^2}$, which of the following statement(s) is(are) correct?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-17-fig1.png\n\n(A) The electric field at $O$ is $6K$ along $OD$.\n(B) The potential at $O$ is zero.\n(C) The potential at all points on the line $PR$ is same.\n(D) The potential at all points on the line $ST$ is same.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 18,
+     "paper_label": "Paper 2",
+     "title": "Question 18",
+     "problem": "Question 18\n\nTwo solid cylinders $P$ and $Q$ of same mass and same radius start rolling down a fixed inclined plane from the same height at the same time. Cylinder $P$ has most of its mass concentrated near its surface, while $Q$ has most of its mass concentrated near the axis. Which statement(s) is(are) correct?\n\n(A) Both cylinders $P$ and $Q$ reach the ground at the same time.\n(B) Cylinder $P$ has larger linear acceleration than cylinder $Q$.\n(C) Both cylinders reach the ground with same translational kinetic energy.\n(D) Cylinder $Q$ reaches the ground with larger angular speed.\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 19,
+     "paper_label": "Paper 2",
+     "title": "Question 19",
+     "problem": "Question 19\n\nTwo spherical planets $P$ and $Q$ have the same uniform density $\\rho$, masses $M_P$ and $M_Q$, and surface areas $A$ and $4A$, respectively. A spherical planet $R$ also has uniform density $\\rho$ and its mass is $(M_P+M_Q)$. The escape velocities from the planets $P$, $Q$ and $R$, are $V_P$, $V_Q$ and $V_R$, respectively. Then\n\n(A) $V_Q>V_R>V_P$\n(B) $V_R>V_Q>V_P$\n(C) $V_R/V_P=3$\n(D) $V_P/V_Q=\\dfrac{1}{2}$\n\n[One or more than one of the options may be correct.]"
+    },
+    {
+     "day": 2,
+     "number": 20,
+     "paper_label": "Paper 2",
+     "title": "Question 20",
+     "problem": "Question 20\n\nThe figure shows a system consisting of (i) a ring of outer radius $3R$ rolling clockwise without slipping on a horizontal surface with angular speed $\\omega$ and (ii) an inner disc of radius $2R$ rotating anti-clockwise with angular speed $\\omega/2$. The ring and disc are separated by frictionless ball bearings. The system is in the $x$-$z$ plane. The point $P$ on the inner disc is at a distance $R$ from the origin, where $OP$ makes an angle of $30^\\circ$ with the horizontal. Then with respect to the horizontal surface,\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/jeep-2012-2-20-fig1.png\n\n(A) the point $O$ has a linear velocity $3R\\omega\\hat{i}$.\n(B) the point $P$ has a linear velocity $\\dfrac{11}{4}R\\omega\\hat{i}+\\dfrac{\\sqrt{3}}{4}R\\omega\\hat{k}$.\n(C) the point $P$ has a linear velocity $\\dfrac{13}{4}R\\omega\\hat{i}-\\dfrac{\\sqrt{3}}{4}R\\omega\\hat{k}$.\n(D) the point $P$ has a linear velocity $\\left(3-\\dfrac{\\sqrt{3}}{4}\\right)R\\omega\\hat{i}+\\dfrac{1}{4}R\\omega\\hat{k}$.\n\n[One or more than one of the options may be correct.]"
+    }
+   ]
+  },
+  {
    "year": 2013,
    "problems": [
     {

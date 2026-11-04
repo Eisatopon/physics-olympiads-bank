@@ -794,6 +794,12 @@ dialog::backdrop { background: rgba(10, 31, 52, .6); }
 dialog h2 { font: 800 1.3rem/1.2 var(--serif); color: var(--ink); margin-bottom: 6px; }
 dialog p { color: var(--muted); font-size: .92rem; }
 .related-card { border-top: 1px solid var(--line-strong); padding: 18px 0; }
+.linkish { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline; cursor: pointer; }
+#wnDialog { width: min(640px, 94vw); max-height: 88vh; overflow-y: auto; }
+.wn-list { list-style: none; margin: 8px 0 0; padding: 0; }
+.wn-list a { color: var(--ink); }
+.wn-list li { padding: 7px 0; border-bottom: 1px solid var(--line); }
+.wn-date { display: inline-block; min-width: 92px; color: var(--muted); font-size: .88rem; }
 #relatedDialog { width: min(850px, 94vw); max-height: 88vh; overflow-y: auto; }
 .math-profile .p-tag { display: inline-block; margin-bottom: 6px; }
 .share-url { width: 100%; height: 38px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: 4px; font-size: .82rem; color: var(--muted); }
@@ -919,7 +925,7 @@ dialog p { color: var(--muted); font-size: .92rem; }
             <div class="stat"><b id="statTotal">—</b><span>problems</span></div>
             <div class="stat"><b id="statRows">—</b><span>competitions</span></div>
             <div class="stat"><b id="statYears">—</b><span>years</span></div>
-            <p class="updated" id="statUpdated"></p>
+            <p class="updated"><span id="statUpdated"></span> · <button type="button" class="linkish" data-whats-new>What's new</button></p>
         </div>
     </div>
 
@@ -1073,6 +1079,11 @@ dialog p { color: var(--muted); font-size: .92rem; }
     <div class="dlg-actions"><button type="button" class="btn" id="closeRelated">Close</button></div>
     <div id="relatedContent" aria-live="polite"></div>
 </dialog>
+<dialog id="wnDialog" class="wn-dlg" aria-labelledby="wnTitle">
+    <h2 id="wnTitle">What's new</h2>
+    <div class="dlg-actions"><button type="button" class="btn" id="closeWn">Close</button></div>
+    <div id="wnContent" aria-live="polite"></div>
+</dialog>
 <div id="printSheet" aria-hidden="true"></div>
 <div class="sr-only" id="srStatus" role="status"></div>
 
@@ -1091,7 +1102,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261104-nlnno-2015';
+const DATA_VERSION = '20261104-copy-tex-news';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
@@ -2057,7 +2068,7 @@ function headHtml(count) {
             ${wide || filtersOn() ? '<button type="button" class="btn btn-sm btn-quiet" data-copy-view>Copy link to this view</button>' : ''}
             ${wide ? `<button type="button" class="btn btn-sm" data-all-scope>${state.tab === 'national' ? 'All countries, all years' : 'All competitions, all years'}</button>` : ''}
             ${count && count <= 60 ? `<button type="button" class="btn btn-sm" data-add-all>${ICON.plus} Add all (${count})</button>` : ''}
-            ${count && (state.country || filtersOn()) ? `<button type="button" class="btn btn-sm" data-export-view title="Download every problem of this view as a LaTeX (.tex) file">Export LaTeX (${count})</button>` : ''}
+            ${count && (state.country || filtersOn()) ? `<button type="button" class="btn btn-sm" data-export-view title="Download every problem of this view as a LaTeX (.tex) file">Export LaTeX (${count})</button><button type="button" class="btn btn-sm" data-copy-tex title="Copy every problem of this view as LaTeX source">Copy LaTeX (${count})</button>` : ''}
         </div>
     </div>`;
 }
@@ -2708,6 +2719,26 @@ async function copyView() {
     catch (e) { prompt('Copy this link:', url); }
     const b = $('[data-copy-view]'); if (b) { b.textContent = 'Link copied'; setTimeout(() => { if (b.isConnected) b.textContent = 'Copy link to this view'; }, 1800); }
 }
+// "What's new": the latest additions, from metadata/runtime/whats-new.json (newest first).
+async function showWhatsNew() {
+    const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+    const dlg = $('#wnDialog'), box = $('#wnContent');
+    box.textContent = 'Loading…';
+    if (!dlg.open) dlg.showModal();
+    try {
+        const r = await fetch('./metadata/runtime/whats-new.json?v=' + DATA_VERSION, {cache: 'no-cache'});
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const data = await r.json();
+        const rows = (data.entries || []).slice(0, 40).map(e => {
+            const c = CBY[e.key];
+            const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(e.date || '');
+            const date = m ? `${+m[3]} ${MONTHS[+m[2] - 1]} ${m[1]}` : esc(e.date || '');
+            const label = `${c ? c.flag + ' ' : ''}${esc(e.text || '')}`;
+            return `<li><span class="wn-date">${date}</span> ${c ? `<a href="?s=${scopeOf(c)}&amp;c=${encodeURIComponent(e.key)}">${label}</a>` : label}</li>`;
+        });
+        box.innerHTML = rows.length ? `<ul class="wn-list">${rows.join('')}</ul>` : '<p>Nothing yet.</p>';
+    } catch (e) { box.textContent = 'Could not load the list of additions.'; }
+}
 function showUpdated() {
     const m = /^(\d{4})-?(\d{2})-?(\d{2})/.exec(DATA_VERSION);
     if (!m) return;
@@ -3042,6 +3073,14 @@ document.addEventListener('click', e => {
         exportTex(shownUids.map(u => byUid.get(u)).filter(Boolean), title.replace(/^[^\p{L}\p{N}]+/u, '') + topic, true);
         return;
     }
+    if (t.hasAttribute('data-copy-tex')) {
+        const [title] = scopeTitle();
+        const topic = state.topic !== 'all' ? ` – ${state.topic}` : '';
+        const items = shownUids.map(u => byUid.get(u)).filter(Boolean);
+        copyText(buildTex(items, title.replace(/^[^\p{L}\p{N}]+/u, '') + topic, true), `LaTeX of ${items.length} problem${items.length === 1 ? '' : 's'} copied.`);
+        return;
+    }
+    if (t.hasAttribute('data-whats-new')) { showWhatsNew(); return; }
     if (t.hasAttribute('data-retry')) { failed.clear(); refresh(); return; }
     if (t.hasAttribute('data-more')) {
         limit += PAGE;
@@ -3090,6 +3129,7 @@ $('#q').addEventListener('input', e => {
 
 $('#copyAi').addEventListener('click', copyAiPrompt);
 $('#closeAi').addEventListener('click', () => $('#aiDialog').close());
+$('#closeWn').addEventListener('click', () => $('#wnDialog').close());
 $('#closeRelated').addEventListener('click', () => { ++relatedToken; $('#relatedDialog').close(); });
 $('#saveSetBtn').addEventListener('click', saveCollection);
 $('#savedSets').addEventListener('change', syncCollectionButtons);

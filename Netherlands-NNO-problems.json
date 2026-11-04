@@ -2,6 +2,851 @@
  "competition": "Netherlands — National Physics Olympiad (Nationale Natuurkunde Olympiade), final round, theory",
  "years": [
   {
+   "year": 2015,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 1: Colliding block",
+     "problem": "A block with a mass $m$ of $10\\ \\mathrm{kg}$ slides over a smooth surface. Corner D collides with a small fixed block S.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-1-fig1.png\n\nDetermine the minimum speed $v$ that the block must have so that the block tips over about corner D and lands as shown in the figure. Neglect the size of the small block S. Show clearly how you proceed.\nHint: Assume that during the collision the weight of the block is much smaller than the force of the small block S on the large block.",
+     "problem_orig": "Een blok met een massa $m$ van $10\\ \\mathrm{kg}$ glijdt over een glad oppervlak. Hoek D botst tegen een klein vastzittend blokje S aan.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-1-fig1.png\n\nBepaal de minimum snelheid $v$ die het blokje moet hebben zodat het blok om hoek D kantelt en neerkomt zoals in de figuur te zien is. Verwaarloos hierbij de grootte van blokje S. Geef duidelijk aan hoe je te werk gaat.\nHint: Neem aan dat tijdens de botsing het gewicht van het blokje veel kleiner is dan de kracht van het blokje S op het grote blok.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 2: Atwood's machine revisited",
+     "problem": "Two different masses $m_1$ and $m_2$ are connected to each other by a string of negligible mass. The string runs over two pulleys with mass $m_k$ and radius $R_k$. The pulleys rotate without friction and may be regarded as flat homogeneous discs. By timing how long the masses take to move over a certain distance, the acceleration $a$ of the system can be determined. With these data the gravitational acceleration $g$ can be determined.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-2-fig1.png\n\nGive an expression for $g$ with which you can calculate its value.",
+     "problem_orig": "Twee verschillende massa's $m_1$ en $m_2$ zijn met elkaar verbonden door een koord met verwaarloosbare massa. Het koord loopt over twee katrollen met massa $m_k$ en straal $R_k$. De katrollen draaien wrijvingloos en mogen worden beschouwd als platte homogene schijven. Door de tijd op te nemen dat de massa's over een bepaalde afstand bewegen kan de versnelling $a$ van het systeem worden bepaald. Met deze gegevens kan de valversnelling $g$ worden bepaald.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-2-fig1.png\n\nGeef een uitdrukking voor $g$, waarmee je zijn waarde kunt berekenen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 3: (Not) connected",
+     "problem": "Two capacitors with capacitances $C_1$ and $C_2$ (with $C_1 > C_2$) are charged to the same potential $U_b$ but with opposite polarity. They are placed in the circuit as shown in the left figure. Then S1 and S2 are closed, as shown in the right figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-3-fig1.png\n\n(a) Determine the potential $U_e$ between the points $a$ and $b$ after the switches have been closed.\n(b) Determine the ratio of the total energy in the capacitors before and after closing the switches.",
+     "problem_orig": "Twee condensatoren met capaciteiten $C_1$ en $C_2$ (met $C_1 > C_2$) zijn geladen tot dezelfde potentiaal $U_b$ maar met omgekeerde polariteit. Ze worden in de schakeling gezet zoals in de linker figuur te zien is. Daarna worden S1 en S2 gesloten, zoals in de rechter figuur te zien is.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-3-fig1.png\n\n(a) Bepaal de potentiaal $U_e$ tussen de punten $a$ en $b$ nadat de schakelaars gesloten zijn.\n(b) Bepaal de verhouding van de totale energie in de condensatoren voor en na het sluiten van de schakelaars.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 4: Small mirror",
+     "problem": "A concave mirror has an aperture diameter $2R = 0.2\\ \\mathrm{m}$ and a focal length $f = 1.0\\ \\mathrm{m}$. Assume that the temperature of the Sun is $6000\\ \\mathrm{K}$.\nCalculate the maximum temperature that a small plate at the focus of the mirror can reach by means of the sunlight.",
+     "problem_orig": "Een holle spiegel heeft een openingsdiameter $2R = 0{,}2\\ \\mathrm{m}$ en een brandpuntsafstand $f = 1{,}0\\ \\mathrm{m}$. Neem aan dat de temperatuur van de zon $6000\\ \\mathrm{K}$ is.\nBereken de maximale temperatuur die een plaatje in het brandpunt van de spiegel met behulp van het zonlicht kan krijgen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 5: Ideal gas",
+     "problem": "A system of 1 mol of ideal gas is in a cylinder with a piston. The specific heat at constant volume of the gas is given by $C_V = \\tfrac{3}{2}R$. Initially the gas is in equilibrium at a temperature $T_1 = 300\\ \\mathrm{K}$ and a pressure $p_1 = 10^5\\ \\mathrm{Pa}$. Two processes are carried out in succession (see figure):\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-5-fig1.png\n\nProcess (1 → 2): The small stop is removed, so that the gas expands irreversibly against a constant external pressure of $p_{ext} = 0.2\\cdot 10^5\\ \\mathrm{Pa}$. The expansion is stopped by means of a second stop when the volume has reached 2 times its original value. The gas then reaches a new equilibrium at temperature $T_2 = T_1 = 300\\ \\mathrm{K}$ and a pressure $p_2 = \\tfrac{1}{2}p_1 = 0.5\\cdot 10^5\\ \\mathrm{Pa}$.\nProcess (2 → 3): Then the gas is cooled at constant volume to $T_3 = 250\\ \\mathrm{K}$.\n(a) Calculate the heat $Q$ supplied to the system, the work $w$ done on the system, and the energy increase $\\Delta U$ of the system. Do the above for each of the 2 processes separately and for the complete process.\n(b) Calculate the entropy increase $\\Delta S$ of the system for each of the 2 processes separately and for the complete process.",
+     "problem_orig": "Een systeem van 1 mol ideaal gas bevindt zich in een cilinder met een zuiger. De specifieke warmte bij constant volume van het gas wordt gegeven door $C_V = \\tfrac{3}{2}R$. Initieel is het gas in evenwicht bij een temperatuur $T_1 = 300\\ \\mathrm{K}$ en een druk $p_1 = 10^5\\ \\mathrm{Pa}$. Er worden achtereenvolgens twee processen uitgevoerd (zie figuur):\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-5-fig1.png\n\nProces (1 → 2): Het palletje wordt weggehaald waardoor het gas irreversibel expandeert tegen een constante buitendruk van $p_{ext} = 0{,}2\\cdot 10^5\\ \\mathrm{Pa}$. De expansie wordt door middel van een tweede palletje gestopt als het volume 2 maal zijn oorspronkelijke waarde heeft bereikt. Het gas vindt hierna een nieuw evenwicht bij temperatuur $T_2 = T_1 = 300\\ \\mathrm{K}$ en een druk $p_2 = \\tfrac{1}{2}p_1 = 0{,}5\\cdot 10^5\\ \\mathrm{Pa}$.\nProces (2 → 3): Daarna wordt het gas bij constant volume afgekoeld naar $T_3 = 250\\ \\mathrm{K}$.\n(a) Bereken de warmte $Q$ die aan het systeem is toegevoerd, de arbeid $w$ die op het systeem is uitgeoefend, en de energie toename $\\Delta U$ van het systeem. Doe het bovenstaande voor elk van de 2 processen apart en voor het complete proces.\n(b) Bereken de entropie toename $\\Delta S$ van het systeem voor elk van de 2 processen apart en voor het complete proces.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 6: N slits",
+     "problem": "A plane wave, wavelength $\\lambda = 628\\ \\mathrm{nm}$, is incident on a screen containing $N$ long, thin slits. The slits all have an equal width $b$ and are at equal distances $a$ from each other. On another screen at a distance of $L = 1.00\\ \\mathrm{m}$ an irradiance distribution (or energy flux density) $I$ is measured as a function of the distance $y$ above the optical axis, as shown in the accompanying figure (only the upper half of the irradiance distribution is shown).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-6-fig1.png\n\n[Vertical axis: Irradiance (arbitrary units).]\n\n(a) How many slits does the screen have?\n(b) What is the width of the slits?\n(c) Derive a formula with which the distance between the slits can be determined, and calculate this distance. (Hint: Use a series expansion (2 terms) of the sine term.)",
+     "problem_orig": "Een vlakke golf, golflengte $\\lambda = 628\\ \\mathrm{nm}$, valt op een scherm met daarin $N$ lange, dunne spleten. De spleten hebben alle een gelijke breedte $b$ en staan op gelijke afstanden $a$ t.o.v. elkaar. Op een ander scherm op een afstand van $L = 1{,}00\\ \\mathrm{m}$ wordt een irradiantieverdeling (of energiestroomdichtheid) $I$, gemeten als functie van de afstand boven de optische as $y$, zoals afgebeeld in bijgaande figuur. (alleen de bovenste helft van de irradiantieverdeling is afgebeeld).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-6-fig1.png\n\n(a) Hoeveel spleten heeft het scherm?\n(b) Wat is de breedte van de spleten?\n(c) Leidt een formule af waarmee de afstand tussen de spleten kan worden bepaald en bereken deze afstand. (Hint: Gebruik reeksontwikkeling (2 termen) van de sinus term).",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 7: Small rug",
+     "problem": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-7-fig1.png\n\nA long, thin, flexible rug with length 1 and mass 1 lies on the floor. The left end of the rug is now folded back and pulled to the right with a constant speed $v = 1$. See the figure above.\nAt a certain instant the end of the rug has a certain position $x$.\n(a) Find an expression for the centre of mass of the moving part of the rug.\n(b) Derive an expression for the velocity of the centre of mass of the moving part of the rug.\n(c) Derive an expression for the force with which the rug must be pulled.",
+     "problem_orig": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-7-fig1.png\n\nEen lang dun plooibaar kleed met lengte 1 en massa 1 ligt op de grond. Het linker uiteinde van het kleed wordt nu omgebogen en met een constante snelheid $v = 1$ naar rechts getrokken. Zie de figuur hierboven.\nOp een zeker tijdstip heeft het uiteinde van het kleed een zekere positie $x$.\n(a) Vind een uitdrukking voor het massamiddelpunt van het bewegende deel van het kleed.\n(b) Leid een uitdrukking af voor de snelheid van massamiddelpunt van het bewegende deel van het kleed.\n(c) Leid een uitdrukking af voor de kracht waarmee aan het kleed getrokken moet worden.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 8: Charged rod, twice",
+     "problem": "A rod with length $l$ has a uniform charge per unit length $\\lambda$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-8-fig1.png\n\n(a) Calculate the electric field at a point P that lies on the extension of the rod at a distance $a$ from one of the ends of the rod.\n(b) Determine the potential at a point Q at a distance $a$ perpendicularly above one of the ends.",
+     "problem_orig": "Een staaf met lengte $l$ bezit een overal gelijke lading per lengte-eenheid $\\lambda$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-8-fig1.png\n\n(a) Bereken het elektrisch veld in een punt P, dat in het verlengde van de staaf op een afstand $a$ van een van de uiteinden van de staaf zit.\n(b) Bepaal de potentiaal in een punt Q op een afstand $a$ loodrecht boven een van de uiteinden.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 9: Two small holes",
+     "problem": "A screen with two small holes (diameter ~ $400\\ \\mathrm{\\mu m}$) is illuminated by a monochromatic plane wave ($\\lambda = 1\\ \\mathrm{\\mu m}$) that is incident at an angle $\\phi = 0.4\\ \\mathrm{mrad}$ with the optical axis (see drawing). The holes are at a distance $d = 1\\ \\mathrm{mm}$ from each other. At a distance $z = 75\\ \\mathrm{cm}$ there is a screen on which an interference pattern is visible.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-9-fig1.png\n\n[Glasplaatje (zie b) dwarsdoorsnede: glass plate (see b), cross-section.]\n\n(a) Calculate the position of the principal maximum relative to the optical axis ($y = 0$).\nA glass plate with refractive index $n = 1.5$ and thickness $\\delta$ is placed in the lower half of the incident beam. As a result, a maximum appears exactly on the optical axis.\n(b) Calculate the minimum thickness $\\delta_{\\min}$ that the plate must have to achieve this.\n(c) Show that for the given refractive index the same maximum is also obtained if the plate has a thickness $\\delta_{\\min} + m\\lambda/(n-1)$, where $m$ is an integer greater than or equal to zero.\n(d) For which thicknesses of the plate does a minimum appear on the optical axis?",
+     "problem_orig": "Een scherm met twee kleine gaten (diameter ~ $400\\ \\mathrm{\\mu m}$) wordt belicht met een monochromatische vlakke golf ($\\lambda = 1\\ \\mathrm{\\mu m}$) die onder een hoek, $\\phi = 0{,}4\\ \\mathrm{mrad}$, met de optische as invalt (zie tekening). De gaten staan op een afstand, $d = 1\\ \\mathrm{mm}$, van elkaar af. Op een afstand, $z = 75\\ \\mathrm{cm}$, staat een scherm waarop een interferentie patroon zichtbaar is.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-9-fig1.png\n\n(a) Bereken de positie van het hoofd maximum t.o.v. de optische as ($y = 0$).\nEen glasplaatje met brekingsindex, $n = 1{,}5$ en dikte $\\delta$, wordt in de onderste helft van de invallende bundel geplaatst. Het gevolg hiervan is dat er een maximum precies op de optische as ontstaat.\n(b) Bereken de minimale dikte, $\\delta_{\\min}$, dat het plaatje moet hebben om dit te bereiken.\n(c) Laat zien dat voor de gegeven brekingsindex hetzelfde maximum ook verkregen wordt als het plaatje een dikte $\\delta_{\\min} + m\\lambda/(n-1)$ heeft, waarbij $m$ een geheel getal groter dan of gelijk aan nul is.\n(d) Voor welke diktes van het plaatje ontstaat er op de optische as een minimum?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 10: Small square",
+     "problem": "A square conducting loop (side $a$) and a very long straight wire are placed in a horizontal plane. The figure is drawn in top view. An electric current of strength $I$ flows through the wire. The loop moves to the right with a constant speed $v$ perpendicular to the wire.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-10-fig1.png\n\n(a) Determine the induced voltage in the loop as a function of the distance $x$ between the wire and the loop.\n(b) Determine the direction of the current through the loop. Explain your answer.",
+     "problem_orig": "Een vierkante geleidende winding (zijde $a$) en een zeer lange rechte draad zijn geplaatst in een horizontaal vlak. De figuur is in bovenaanzicht getekend. Door de draad loopt een elektrische stroom met sterkte $I$. De winding beweegt naar rechts met een constante snelheid $v$ loodrecht op de draad.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2015-10-fig1.png\n\n(a) Bepaal de inductie spanning in de winding als functie van de afstand $x$ tussen de draad en de winding.\n(b) Bepaal de richting van de stroom door de winding. Licht je antwoord toe.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 11: (Fast) train in a tunnel",
+     "problem": "A train and a tunnel both have a proper length $L$. The train travels towards the tunnel with a speed $v$. A bomb is placed at the front of the train. The bomb is designed so that it explodes when the front of the train passes the end of the tunnel.\nA disarming sensor is located at the rear of the train. When the rear of the train passes the beginning of the tunnel, the disarming sensor sends a light signal to the bomb, whereupon the bomb disarms (dismantles) itself and no longer goes off.\nCheck both in the 'train frame' and in the 'tunnel frame' whether the bomb will explode.",
+     "problem_orig": "Een trein en een tunnel hebben beide een eigen lengte $L$. De trein rijdt naar de tunnel met een snelheid $v$. Een bom is geplaatst aan de voorkant van de trein. De bom is zo ontworpen deze ontploft wanneer de voorkant van de trein het einde van de tunnel passeert.\nEen demonteersensor is gelokaliseerd aan de achterkant van de trein. Wanneer de achterkant van de trein het begin van de tunnel passeert, stuurt de demonteersensor een lichtsignaal naar de bom, waardoor de bom zichzelf demonteert (ontmantelt) en niet meer afgaat.\nGa zowel in het 'trein stelsel' als het 'tunnel stelsel' na of de bom zal ontploffen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 12: Lattice model",
+     "problem": "A powerful way to illustrate and calculate a number of physical concepts is the so-called lattice model. In it, the space available to a collection of particles is divided into a number of equally large volume units. The volume units are as large as one particle.\n(a) Show that the number of ways $\\Omega$ to place $N$ identical particles in $M$ volume units ($M \\gg N$) is approximately equal to: $\\Omega \\approx \\frac{M^N}{N!}$\n(b) Show that the entropy of a system consisting of $N$ identical particles at constant temperature is proportional to the natural logarithm of the volume:\n$$s \\propto k \\ln V$$\nHint: Start by writing down the number of ways in which the particles can be distributed for two different volumes, and calculate the entropy difference between these two situations.\n(c) Now consider the mixing process of two different kinds of particles, $A$ and $B$. We take both kinds of particles to be equally large. Initially $N$ identical particles $A$ are in a volume that can be divided into $N_1$ volume units; $M$ identical particles $B$ are initially in $N_2$ volume units. After mixing, all particles $A$ and $B$ are in the combined volume, i.e. in $N_1 + N_2$ volume elements. Calculate the entropy difference between the mixed and the unmixed situation and show that it is always positive.",
+     "problem_orig": "Een krachtige manier om een aantal fysische concepten mee te illustreren en door te rekenen is het zogenaamde roostermodel. Hierbij wordt de ruimte die een verzameling deeltjes tot zijn beschikking heeft opgedeeld in een aantal even grote volume-eenheden. De volume-eenheden zijn zo groot als een deeltje.\n(a) Laat zien dat het aantal manieren $\\Omega$ om $N$ identieke deeltjes in $M$ volume-eenheden ($M \\gg N$) te plaatsen, bij benadering gelijk is aan: $\\Omega \\approx \\frac{M^N}{N!}$\n(b) Laat zien dat de entropie van een systeem dat bestaat uit $N$ identieke deeltjes bij constante temperatuur evenredig is met de natuurlijke logaritme van het volume:\n$$s \\propto k \\ln V$$\nHint: Begin met het opschrijven van het aantal mogelijkheden waarop de deeltjes verdeeld kunnen zijn voor twee verschillende volumes en bereken het entropieverschil tussen deze twee situaties.\n(c) Beschouw nu het mengproces van twee verschillende soorten deeltjes, $A$ en $B$. We nemen beide soorten deeltjes even groot. Aanvankelijk bevinden $N$ identieke deeltjes $A$ zich in een volume dat opgedeeld kan worden in $N_1$ volume-eenheden; $M$ identieke deeltjes $B$ bevinden zich aanvankelijk in $N_2$ volume-eenheden. Na menging bevinden zich alle deeltjes $A$ en $B$ in het gezamenlijke volume, d.w.z. in $N_1 + N_2$ volume-elementen. Bereken het entropieverschil tussen de gemengde en ontmengde situatie en toon aan dat dit altijd positief is.",
+     "orig_lang": "nl"
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 1: Playing with water",
+     "problem": "Water is poured with negligible speed into the top end of a roof gutter of length $L = 100\\ \\mathrm{cm}$, and the water flows (without friction) out of the gutter at its lower end. As shown in the figure, the gutter is fixed at its lower end at a height $h = 200\\ \\mathrm{cm}$ above the ground. You can vary the height of the upper end of the gutter by varying the angle $\\alpha$ of the gutter with the horizontal. The height of the top clearly affects how far a jet of water gets before it hits the ground.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-1-fig1.png\n\na. Prove that the time at which the water hits the ground ($t = 0\\ \\mathrm{s}$ at the moment the water leaves the gutter) is equal to\n\n$$t_{grond} = \\sqrt{\\frac{2L}{g}}\\left(\\sqrt{\\sin^3\\alpha + \\frac{h}{L}} - \\sin^{3/2}\\alpha\\right)$$\n\nb. Determine the maximum horizontal distance $x$, measured from the lower end of the gutter, that you can reach with the jet of water, and the angle the gutter must then make with the horizontal.",
+     "problem_orig": "Water wordt aan de bovenkant met een verwaarloosbare snelheid in een dakgoot met lengte $L = 100\\ \\mathrm{cm}$ gegoten en dat water loopt (zonder wrijving) aan de onderkant uit de goot. Zoals hiernaast wordt getoond, is de goot aan het onderste uiteinde bevestigd op een hoogte $h = 200\\ \\mathrm{cm}$ boven de grond. Je kunt de hoogte van het bovenste uiteinde van de dakgoot variëren door de hoek $\\alpha$ van de goot met de horizontaal te variëren. De hoogte van de top beïnvloedt duidelijk hoe ver een waterstraal komt voordat deze de grond raakt.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-1-fig1.png\n\na. Bewijs dat de tijd waarop het water de grond raakt ($t = 0\\ \\mathrm{s}$ op het moment dat het water uit de goot komt) gelijk is aan\n\n$$t_{grond} = \\sqrt{\\frac{2L}{g}}\\left(\\sqrt{\\sin^3\\alpha + \\frac{h}{L}} - \\sin^{3/2}\\alpha\\right)$$\n\nb. Bepaal de maximale horizontale afstand $x$, gemeten vanaf de onderkant van de goot, die u kunt bereiken met de waterstraal en welke hoek de goot dan moet maken met de horizontaal.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 2: The spring and two pistons",
+     "problem": "Two pistons are inserted into a horizontal cylinder of cross-section $A$ and length $2l$. The left piston is connected to a wall by a spring with spring constant $k$. Initially the left piston is at the end of the cylinder and the right piston is exactly in the middle of the cylinder, as shown in the figure. The spring is relaxed and the pressure $P$ between the pistons is equal to the atmospheric pressure $P_{atm}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-2-fig1.png\n\nThe right piston is then pulled slowly to the right until it reaches the end of the cylinder. The cylinder remains at rest. Neglect friction and assume that the temperature remains constant.\n\na. Reason that in the final situation the left piston has moved a distance $x$ to the right.\nb. What force $F$ must be exerted on the right piston to hold it in the final position? Express your answer in the given quantities $P_{atm}$, $A$, $l$ and $k$.\nc. Express the total work $W$ done on the enclosed gas in $P_{atm}$, $A$, $l$ and $k$.",
+     "problem_orig": "Twee zuigers worden ingebracht in een horizontale cilinder met dwarsdoorsnede $A$ en lengte $2l$. De linker zuiger is verbonden met een muur door een veer met veerconstante $k$. Aanvankelijk bevindt de linker zuiger zich aan het uiteinde van de cilinder en bevindt de rechter zuiger zich exact in het midden van de cilinder, zoals weergegeven in de figuur. De veer is ontspannen en de druk $P$ tussen de zuigers is gelijk aan de atmosferische druk $P_{atm}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-2-fig1.png\n\nDaarna wordt de rechter zuiger langzaam naar rechts getrokken totdat hij het einde van de cilinder bereikt. De cilinder blijft in rust. Verwaarloos wrijving en neem aan dat de temperatuur constant blijft.\n\na. Beredeneer dat de linker zuiger in de eindsituatie over een afstand $x$ naar rechts is verschoven.\nb. Welke kracht $F$ moet op de rechter zuiger worden uitgeoefend om hem in de eindpositie te houden? Druk je antwoord uit in de gegeven grootheden $P_{atm}$, $A$, $l$ en $k$.\nc. Druk de totale arbeid $W$ die verricht is op het afgesloten gas uit in $P_{atm}$, $A$, $l$ en $k$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 3: A wire full of charge",
+     "problem": "A thin, straight wire (to be regarded as a line) extends from $x = 0$ to $x = L$ and carries a charge density $\\sigma(x) = a\\,x$ [C/m], with $a$ = constant. Asked:\n\na. The total charge $Q$ in the wire.\nb. The electric field $E$ at a distance P above the left end ($x = 0$) of the rod ($E$ as a vector, so the $x$ and the $y$ component).",
+     "problem_orig": "Een dunne, rechte draad (te beschouwen als een lijn) strekt zich uit van $x = 0$ tot $x = L$ en draagt een ladingsdichtheid $\\sigma(x) = a\\,x$ [C/m], met $a$ = constant. Gevraagd:\n\na. De totale lading $Q$ in de draad\nb. Het elektrische veld $E$ op een afstand P boven het linker uiteinde ($x = 0$) van de staaf ($E$ als vector, dus de $x$ en de $y$ component).",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 4: Particles and jets",
+     "problem": "In an accelerator a very short-lived particle is produced after a collision, which has a speed $v_0 = 0.999c$. For the decay time of the particle, $2\\cdot10^{-18}\\ \\mathrm{s}$ is measured in the laboratory frame. Take $c = 3\\cdot10^{8}\\ \\mathrm{m/s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-4-fig1.png\n\n[Figure labels: stelsel van de versneller = frame of the accelerator; stelsel van het kortlevende deeltje = frame of the short-lived particle.]\n\na. Calculate the length of the path travelled by the short-lived particle.\nb. Calculate the decay time of the particle in its own frame.\n\nThe short-lived particle decays into a large number of particles with a much longer decay time. In the frame of the short-lived particle the long-lived particles fly off in random directions. In the photograph, however, they seem to fly off in nearly the same direction. This is called a jet.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-4-fig2.png\n\nIn the frame of the short-lived particle a long-lived particle flies off with a speed $v = 0.5c$ at an angle $\\theta$ with the original direction of motion, in the $xy$-plane (see drawing).\n\nc. Calculate the velocity components of the long-lived particle in the frame of the accelerator, expressed in $\\theta$ and $c$.\nd. Calculate the angle $\\theta'$ that the long-lived particle makes in the frame of the accelerator if $\\theta = \\pi/2$.",
+     "problem_orig": "In een versneller wordt na een botsing een zeer kortlevend deeltje geproduceerd dat een snelheid $v_0 = 0{,}999c$ heeft. Voor de vervaltijd van het deeltje wordt in het stelsel van het laboratorium $2\\cdot10^{-18}\\ \\mathrm{s}$ gemeten. Stel $c = 3\\cdot10^{8}\\ \\mathrm{m/s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-4-fig1.png\n\na. Bereken de lengte van de weg die het kortlevende deeltje aflegt.\nb. Bereken de vervaltijd van het deeltje in z'n eigen systeem.\n\nHet kortlevende deeltje valt uiteen in een groot aantal deeltjes met een veel grotere vervaltijd. In het systeem van het kortlevende deeltje vliegen de langlevende deeltjes in willekeurige richtingen weg. Op de foto lijken ze echter in vrijwel dezelfde richting weg te vliegen. Men noemt dit een jet.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-4-fig2.png\n\nIn het stelsel van het kortlevende deeltje vliegt een langlevend deeltje met een snelheid $v = 0{,}5c$ onder een hoek $\\theta$ met de oorspronkelijke bewegingsrichting, in het $xy$-vlak, weg (zie tekening).\n\nc. Bereken de snelheidscomponenten van het langlevende deeltje in het stelsel van de versneller, uitgedrukt in $\\theta$ en $c$.\nd. Bereken de hoek $\\theta'$ die het langlevende deeltje in het stelsel van de versneller maakt, als $\\theta = \\pi/2$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 5: A gyroscope",
+     "problem": "A toy gyroscope consists of a disc of $170\\ \\mathrm{g}$ with a radius of $5.5\\ \\mathrm{cm}$. This disc is attached at its centre to a thin axle $21\\ \\mathrm{cm}$ long. The disc spins at some 45 revolutions per second. One end of the axle is attached to a small stand. See the figure. It turns out that the gyroscope starts to rotate in the horizontal plane, i.e. precession.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-5-fig1.png\n\n(a) If the angular velocity $\\vec{\\omega}$ of the disc points to the right in the situation of the figure, what is the direction of the angular velocity of the gyroscope?\n(b) Calculate how long one precession revolution takes.\n(c) If the dimensions are doubled (radius $11\\ \\mathrm{cm}$ and axle $42\\ \\mathrm{cm}$), how long does the revolution take then?",
+     "problem_orig": "Een speelgoed gyroscoop bestaat uit een schijf van $170\\ \\mathrm{g}$ en een straal van $5{,}5\\ \\mathrm{cm}$. Deze schijf is in het midden bevestigd aan een dunne as van $21\\ \\mathrm{cm}$ lang. Deze schijf draait rond met een 45 rondjes per seconde. Een uiteinde van de as is bevestigd aan een statiefje. Zie de figuur. Het blijkt dat de gyroscoop rond gaat draaien in het horizontale vlak, oftewel precessie.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-5-fig1.png\n\n(a) Als de hoeksnelheid $\\vec{\\omega}$ van de schijf in de situatie van de figuur naar rechts wijst, wat is dan de richting van de hoeksnelheid van de gyroscoop?\n(b) Bereken hoe lang een precessie rondje duurt.\n(c) Als de dimensies worden verdubbeld (straal $11\\ \\mathrm{cm}$ en as $42\\ \\mathrm{cm}$), hoe lang duurt dan het rondje?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 6: Throwing two balls",
+     "problem": "Two balls are thrown from P with the same initial speed but in different directions. Beside this text (somewhat larger on the answer sheet) you see a 'photograph' at a certain moment.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-6-fig1.png\n\n• Determine the initial speed of the balls (take $g = 9.8\\ \\mathrm{m/s^2}$).\n\nAnswer sheet, for question 6 (larger version of the figure):\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-6-fig2.png",
+     "problem_orig": "Twee ballen worden vanuit P met dezelfde beginsnelheid maar verschillende richting gegooid. Hiernaast (op antwoordblad wat groter) zie je een ‘foto’ op een bepaald moment.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-6-fig1.png\n\n• Bepaal de beginsnelheid van de ballen (neem $g = 9{,}8\\ \\mathrm{m/s^2}$).\n\nBij vraag 6.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-6-fig2.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 7: Series circuit",
+     "problem": "A resistor $R$ of $100\\ \\Omega$, a capacitor $F$ of $200\\ \\mathrm{nF}$ and a coil with an inductance $L$ of $300\\ \\mathrm{mH}$ are connected in series with each other and with an AC voltage source of variable frequency and a fixed voltage of $20\\ \\mathrm{V}$.\n\na. Calculate the maximum current through this circuit and also state at which frequency this current occurs.\nb. How large is the voltage across the coil at a frequency of the AC voltage of $500\\ \\mathrm{Hz}$?",
+     "problem_orig": "Een weerstand $R$ van $100\\ \\Omega$, een condensator $F$ van $200\\ \\mathrm{nF}$ en een spoel met een sterkte $L$ van $300\\ \\mathrm{mH}$ staan in serie met elkaar en met een wisselspanningsbron van variabele frequentie en een vaste spanning van $20\\ \\mathrm{V}$.\n\na. Bereken de maximale stroomsterkte door deze schakeling en geef ook aan bij welke frequentie deze stroomsterkte optreedt.\nb. Hoe groot is de spanning over de spoel bij een frequentie van de wisselspanning van $500\\ \\mathrm{Hz}$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 8: R and C",
+     "problem": "$R_1$ ($= 20\\ \\Omega$) and $R_2$ are resistors in the figure. The voltage sources are considered ideal.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-8-fig1.png\n\n• Calculate the value of $R_2$ (in $\\Omega$) for which the capacitor in the circuit is uncharged.",
+     "problem_orig": "$R_1$ ($= 20\\ \\Omega$) en $R_2$ zijn weerstanden in de figuur. De spanningsbronnen worden als ideaal beschouwd.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-8-fig1.png\n\n• Bereken die $R_2$ (in $\\Omega$) waarbij de condensator in de schakeling. ongeladen is.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 9: Bicycle pump",
+     "problem": "A bicycle pump is connected by a hose to a bicycle tyre. For the bicycle pump the notion of a pump stroke is defined as follows:\n\n'A pump stroke is an action in which the handle of the pump is pushed down completely from the highest possible position and then pulled up completely again.'\n\nThe pV diagram of a certain pump stroke has been drawn. In this diagram $V$ represents the volume of the part of the pump cylinder below the piston, plus the volume of the hose. In this problem it is assumed that the processes are isothermal, that the air can be regarded as an ideal gas and that the volume of the bicycle tyre is constant.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-9-fig1.png\n\na. Explain which of the points A, B, C or D represents the beginning of the pump stroke.\nb. Draw the next pump stroke in the diagram on the attached answer sheet.\nc. Determine the volume of the tyre to be inflated.",
+     "problem_orig": "Een fietspomp is via een slang verbonden met een fietsband. Voor de fietspomp wordt het begrip pompslag als volgt gedefinieerd:\n\n' Een pompslag is een handeling waarbij het handvat van de pomp vanuit de hoogst mogelijke stand volledig neergedrukt en vervolgens weer volledig opgetrokken wordt.'\n\nVan een bepaalde pompslag is het $pV$-diagram getekend. $V$ stelt in dit diagram het volume van het deel van de pompcilinder onder de zuiger, plus het volume van de slang voor. In dit vraagstuk wordt er van uit gegaan dat de processen isotherm zijn, dat de lucht als een ideaal gas te beschouwen is en dat het volume van de fietsband constant is.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2018-9-fig1.png\n\na. Leg uit welk van de punten A, B, C of D het begin van de pompslag voorstelt.\nb. Teken in het diagram op het bijgaand antwoordvel de volgende pompslag.\nc. Bepaal het volume van de op te pompen band.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 10: Interference",
+     "problem": "We consider a two-slit interference experiment in which the two slits have different widths. Measured on a distant screen, the amplitude of the wave from the first slit is $E$, while for the other an amplitude $2E$ holds.\n\na. Show that for the intensity $I$ at each point of the interference pattern:\n\n$$I = I_0\\left(\\frac{5}{9} + \\frac{4}{9}\\cos\\phi\\right)$$\n\nwith $\\phi$ the difference in phase angle between the two waves, measured at a point on the screen, and $I_0$ the maximum intensity in the pattern.\nb. Make a graph of $I$ as a function of $\\phi$.\nc. Give an expression for the minimum value of $I$ and state at which values of $\\phi$ it occurs.",
+     "problem_orig": "We beschouwen een twee-spleten-interferentie-experiment, waarin de twee spleten een verschillende breedte hebben. Gemeten op een scherm ver weg, is de amplitude van de golf van de eerste spleet $E$, terwijl voor de andere een amplitude $2E$ geldt.\n\na. Toon aan dat voor de intensiteit $I$ in elk punt van het interferentiepatroon geldt:\n\n$$I = I_0\\left(\\frac{5}{9} + \\frac{4}{9}\\cos\\phi\\right)$$\n\nmet $\\phi$ het verschil in fasehoek tussen de twee golven, gemeten op een punt op het scherm en $I_0$ de maximum intensiteit in het patroon.\nb. Maak een grafiek van $I$ als functie van $\\phi$\nc. Geef een uitdrukking voor de minimumwaarde van $I$ en geef aan bij welke waarden van $\\phi$ dit optreedt.",
+     "orig_lang": "nl"
+    }
+   ]
+  },
+  {
+   "year": 2019,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 1: Electric ping-pong",
+     "problem": "Two identical steel balls with a radius of $5.0\\ \\mathrm{mm}$ and a mass $m = 4.0\\ \\mathrm{g}$ hang from a non-conducting ceiling on iron wires with a length of $l = 1.0\\ \\mathrm{m}$, at a distance of $d = 10\\ \\mathrm{cm}$ from each other. Initially they are at rest and uncharged.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-1-fig1.png\n\n(a) Calculate the pendulum period of the balls.\nA constant voltage source with voltage $U_0$ and with a high internal resistance of $R = 1.0\\cdot 10^{15}\\ \\Omega$ is attached to the wires.\n(b) Calculate the minimum voltage $U = U_{\\mathrm{min}}$ at which the balls will touch each other after some time.\n(c) Calculate the time $t_0$ needed to charge the balls to a voltage of $U = U_{\\mathrm{min}}$ with a voltage of $U_0 = 1.0\\cdot 10^{6}\\ \\mathrm{V}$.",
+     "problem_orig": "Twee gelijke stalen bollen met een straal van $5{,}0\\ \\mathrm{mm}$ en een massa $m = 4{,}0\\ \\mathrm{g}$ hangen aan een niet geleidend plafond aan ijzeren draden met een lengte van $l = 1{,}0\\ \\mathrm{m}$ op een afstand van $d = 10\\ \\mathrm{cm}$ van elkaar. Oorspronkelijk zijn ze in rust en ongeladen.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-1-fig1.png\n\n(a) Bereken de slingertijd van de bollen.\nEen constante spanningsbron met spanning $U_0$ en met een hoge inwendige weerstand van $R = 1{,}0\\cdot 10^{15}\\ \\Omega$ wordt aan de draden vastgemaakt.\n(b) Bereken bij welke minimale spanning $U = U_{\\mathrm{min}}$ de bollen elkaar na enige tijd zullen raken.\n(c) Bereken de tijd $t_0$ die nodig is om de bollen tot een spanning van $U = U_{\\mathrm{min}}$ op te laden met een spanning van $U_0 = 1{,}0\\cdot 10^{6}\\ \\mathrm{V}$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 2: Lunar eclipse",
+     "problem": "The Sun is not a point source of light. Seen from the Earth, the solid angle at which you see the diameter of the Sun is $2\\delta = 0.52^\\circ$. Therefore the total shadow of the Sun behind the Earth is limited.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-2-fig1.png\n\n[Labels in the figure: zon = Sun; Aarde = Earth; maan = Moon; schaduw = umbra; half-schaduw = penumbra.]\n\nThe radius of the Earth is $R = 6400\\ \\mathrm{km}$.\nThe solid angle at which you see the diameter of the Moon is equal to that of the Sun ($2\\delta$), and the Moon goes around the Earth in $27.3$ days.\nAssume that the bending of sunlight by the Earth's atmosphere is negligible.\nCalculate the duration of a total lunar eclipse.",
+     "problem_orig": "De zon is geen puntbron van licht. Vanaf aarde gezien is de ruimtehoek waaronder je de diameter van de zon ziet $2\\delta = 0{,}52^\\circ$. Daarom is de totale schaduw achter de aarde van de zon beperkt.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-2-fig1.png\n\nDe straal van de aarde is $R = 6400\\ \\mathrm{km}$.\nDe ruimtehoek waaronder je de diameter van de maan ziet is gelijk aan die van de zon ($2\\delta$) en de maan draait in $27{,}3$ dagen rond de aarde.\nGa ervan uit dat de buiging van het zonlicht door de aardatmosfeer verwaarloosbaar is.\nBereken de duur van een totale maansverduistering.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 3: Colliding balls",
+     "problem": "Two perfectly elastic balls with equal mass $m$ are connected to each other by a spring with spring constant $k$. The whole lies on a frictionless table.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-3-fig1.png\n\nA ball, identical to the others, approaches the balls with spring with a speed $v$. A fourth ball, also identical to the others, lies to the right of the balls with spring at a distance $L$.\n(a) Determine the velocity of the centre of mass of the balls connected by a spring after the collision with the ball from the left.\n(b) For which distances $L$ between the balls with spring and the right ball will the latter, after the collision with the balls, have the same velocity as the left ball had at first?",
+     "problem_orig": "Twee perfect elastische ballen met gelijke massa $m$ zijn via een veer met veerconstant $k$ met elkaar verbonden. Het geheel ligt op een wrijvingloze tafel.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-3-fig1.png\n\nEen bal, identiek aan de anderen, nadert de ballen met veer met een snelheid $v$. Een vierde bal, ook gelijk aan de anderen ligt rechts van de ballen met veer op een afstand $L$.\n(a) Bepaal de snelheid van het massamiddelpunt van de met een veer verbonden ballen na de botsing met de bal van links.\n(b) Bij welke afstanden $L$ tussen de ballen met veer en de rechter bal zal de laatste na botsing met de ballen dezelfde snelheid hebben als de linker bal eerst had?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 4: Tilting a cylinder",
+     "problem": "Consider a cylinder filled with $n = 2.00\\ \\mathrm{mol}$ of a gas that may be treated as an ideal gas, and of which it is known that the specific heat at constant temperature $c_V$ is equal to $4.000R$. The cylinder is closed by a frictionlessly movable piston with mass $M = 20.00\\ \\mathrm{kg}$ and area $O = 0.0100\\ \\mathrm{m^2}$. The cylinder is placed in space as indicated in Figure 1a. The distance between the bottom of the piston and the bottom of the cylinder (the length of the gas column in the cylinder) is $l$. The pressure of the atmosphere is $1.00\\ \\mathrm{bar}$ and the temperature is $300\\ \\mathrm{K}$. In this situation there is mechanical and thermal equilibrium: the piston does not change position and the temperature of the gas in the cylinder is equal to that of the surroundings.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-4-fig1.png\n\nFigure 1: sketch of the situation for thermodynamic calculations on a cylinder filled with gas. a: vertical arrangement; b: horizontal arrangement. Thermal insulation is indicated by grey bars. The position of the earth is shown by a dark bar.\n\n[Labels in the figure: lucht = air.]\n\n(a) Calculate the pressure of the gas in the given situation corresponding to Figure 1a.\n(b) Show that the distance $l$ in the given situation corresponding to Figure 1a is equal to $l = 4.16\\ \\mathrm{m}$.\nThe piston is now fixed at the given length of the gas column and the cylinder as a whole is rotated by 90 degrees, as indicated in Figure 1b. At the same time the cylinder is thermally insulated from the surroundings. The piston does not allow any heat exchange with the surroundings either.\nNow the piston is no longer held in place, but can move freely again.\n(c) Calculate the length and the temperature of the gas column when it is again in equilibrium with the surroundings.\n(d) Show that the process of the change in length of the column proceeds spontaneously by calculating the entropy change of the gas and of the surroundings.",
+     "problem_orig": "Beschouw een cilinder gevuld met $n = 2{,}00\\ \\mathrm{mol}$ van een gas dat mag worden behandeld als een ideaal gas, en waarvan bekend is dat de soortelijke warmte bij constante temperatuur $c_V$ gelijk is aan $4{,}000R$. De cilinder is afgesloten met een wrijvingsloos beweegbare zuiger met massa $M = 20{,}00\\ \\mathrm{kg}$ en oppervlak $O = 0{,}0100\\ \\mathrm{m^2}$. De cilinder is geplaatst in de ruimte als aangegeven in Figuur 1a. De afstand tussen de onderkant van de zuiger en de bodem van de cilinder (de lengte van de gaskolom in de cilinder) is $l$. De druk van de atmosfeer is $1{,}00\\ \\mathrm{bar}$ en de temperatuur is $300\\ \\mathrm{K}$. In deze situatie is er mechanisch en thermisch evenwicht: de zuiger verandert niet van plaats en de temperatuur van het gas in de cilinder is gelijk aan die van de omgeving.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-4-fig1.png\n\nFiguur 1: situatieschets voor thermodynamische berekeningen aan cilinder gevuld met gas. a: verticale opstelling; b: horizontale opstelling. Thermische isolatie is aangegeven met grijze balken. De positie van de aarde is weergegeven met een donkere balk.\n\n(a) Bereken de druk van het gas in de gegeven situatie behorend bij Figuur 1a.\n(b) Laat zien dat de afstand $l$ in de gegeven situatie behorend bij Figuur 1a gelijk is aan $l = 4{,}16\\ \\mathrm{m}$.\nDe zuiger wordt nu vastgezet op de gegeven lengte van de gaskolom en de cilinder als geheel wordt 90 graden gedraaid, zoals aangegeven in Figuur 1b. Tevens wordt de cilinder thermisch geïsoleerd van de omgeving. De zuiger staat ook geen warmte-uitwisseling met de omgeving toe.\nNu wordt de zuiger niet langer tegengehouden, maar kan weer vrij bewegen.\n(c) Bereken de lengte en de temperatuur van de gaskolom als deze weer in evenwicht is met de omgeving.\n(d) Laat zien dat het proces van lengteverandering van de kolom spontaan verloopt door de entropieverandering van gas en van de omgeving te berekenen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 5: Owen's bridge circuit",
+     "problem": "A coil can technically be well described by an inductance and a resistance. These can be measured with an Owen bridge circuit. In the drawing alongside, a coil is drawn as the inductance $L_1$ and resistance $R_1$. $R_2$ and $R_3$ are variable resistors and $C_3$ and $C_4$ are fixed capacitances in this measuring bridge. The trick is to get the bridge in balance, which means that no voltage is found at the terminals for a detector.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-5-fig1.png\n\n(a) Show that the balance of the bridge is independent of the frequency of the (alternating) voltage source.\nThe bridge turns out to be in balance with the following values:\n$C_3 = 8.0\\ \\mathrm{\\mu F}$; $C_4 = 5.0\\ \\mathrm{\\mu F}$; $R_2 = 0.50\\ \\Omega$; $R_3 = 3.2\\ \\mathrm{k\\Omega}$\n(b) Calculate the values $L_1$ and $R_1$ of the coil placed in the bridge.",
+     "problem_orig": "Een spoel is technisch goed te beschrijven met een inductantie en een weerstand. Met een Owen-brugschakeling zijn deze te meten. In de tekening hiernaast is een spoel ingetekend als de inductantie $L_1$ en weerstand $R_1$. $R_2$ en $R_3$ zijn variabele weerstanden en $C_3$ en $C_4$ zijn vaste capaciteiten in deze meetbrug. De kunst is om de brug in evenwicht te krijgen, wat betekent dat er bij de aansluitingen voor een detector geen spanning te vinden is.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-5-fig1.png\n\n(a) Toon aan dat het in balans zijn van de brug onafhankelijk is van de frequentie van de (wissel)spanningsbron.\nDe brug blijkt in balans te zijn met de volgende waarden:\n$C_3 = 8{,}0\\ \\mathrm{\\mu F}$; $C_4 = 5{,}0\\ \\mathrm{\\mu F}$; $R_2 = 0{,}50\\ \\Omega$; $R_3 = 3{,}2\\ \\mathrm{k\\Omega}$\n(b) Bereken de waarden $L_1$ en $R_1$ van de in de brug geplaatste spoel.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 6: Bubble-chamber photograph of an electron losing its energy",
+     "problem": "Given: electron mass $= 0.511\\ \\mathrm{MeV}/c^2$.\nA bubble chamber, filled with boiling hydrogen, was widely used to detect collisions of particles with a high energy. As a result of the collisions, electrons are often produced that also have a high energy. Because the electron ionises the hydrogen molecules on its way, it loses energy and, under the influence of the magnetic field present, the electron describes a spiral-shaped path. Each piece of the path can, however, be regarded as part of an ever smaller circle.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-6-fig1.png\n\n(a) Derive that the relation between the momentum $p$ of the electron, its charge $q$, the radius $R$ of the path and the magnetic field $B$, which is perpendicular to the plane of the path, is given by $p = BqR$.\nIt is given that the strength of the magnetic field is $B = 1.2\\ \\mathrm{T}$.\n(b) Show, starting from the relativistic form of the momentum and from the photograph, that the electron has practically the speed of light in a large part of the path.\nIn the photograph the radius is measured as a function of time. One then finds:\n$$R(t) = R(t=0)\\,e^{-kt}$$\n(c) Calculate the relative decrease of the energy of the electron as a function of time.",
+     "problem_orig": "Gegeven: elektron-massa $= 0{,}511\\ \\mathrm{MeV}/c^2$.\nEen bellenvat, gevuld met kokend waterstof, werd veel gebruikt om botsingen van deeltjes met een hoge energie te detecteren. Ten gevolge van de botsingen worden vaak elektronen gemaakt die ook een hoge energie hebben. Doordat het elektron de waterstof moleculen op z'n weg ioniseert, verliest het energie en beschrijft het elektron onder invloed van het aanwezige magneetveld, een spiraalvormige baan. Elk stuk baan kan echter opgevat worden als een deel van een steeds kleinere cirkel.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-6-fig1.png\n\n(a) Leidt af dat het verband tussen de impuls $p$ van het elektron, z'n lading $q$, de straal $R$ van de baan en het magneetveld $B$, dat loodrecht staat op het vlak van de baan, gegeven wordt door $p = BqR$.\nGegeven is dat de sterkte van het magneetveld $B = 1{,}2\\ \\mathrm{T}$.\n(b) Laat zien dat, uitgaande van de relativistische vorm van de impuls en van de foto, het elektron in een groot deel van de baan vrijwel de lichtsnelheid heeft.\nIn de foto wordt de straal gemeten als functie van de tijd. Men vindt dan:\n$$R(t) = R(t=0)\\,e^{-kt}$$\n(c) Bereken de relatieve afname van de energie van het elektron als functie van de tijd.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory, part 1",
+     "title": "Bonus problem B1: Black box",
+     "problem": "An electrical black box (a small box whose contents are not visible) has three terminals, $A$, $B$ and $C$. Inside the black box three resistors $x$, $y$ and $z$ are connected. For these resistors the following holds: each terminal $A$, $B$, $C$ is attached to 1 or 2 ends of different resistors, and between any two terminals $A$, $B$, $C$ there are 1 or 2 different paths.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-7-fig1.png\n\n(a) Given the two boundary conditions, draw the possible configurations of the black box.\nFurthermore, each resistor has a minimum value of $0.50\\ \\Omega$, and the following is measured: between $AB$ a resistance of $1.0\\ \\Omega$, between $BC$ a resistance of $2.0\\ \\Omega$ and between $AC$ a resistance of $3.0\\ \\Omega$.\n(b) Calculate the possible values of the resistances $x$, $y$ and $z$.",
+     "problem_orig": "Een elektrische blackbox (een doosje waarvan de inhoud niet zichtbaar is) heeft drie aansluitpunten, $A$, $B$ en $C$. In de blackbox zijn drie weerstanden $x$, $y$ en $z$ geschakeld. Voor deze weerstanden geldt het volgende: Elk aansluitpunt $A$, $B$, $C$ zit vast aan 1 of 2 uiteinden van verschillende weerstanden en tussen twee willekeurige aansluitpunten $A$, $B$, $C$ zitten 1 of 2 verschillende paden.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-7-fig1.png\n\n(a) Teken, gegeven de twee randcondities de mogelijke configuraties van de blackbox.\nVerder geldt dat elke weerstand een minimale waarde van $0{,}50\\ \\Omega$ heeft en er wordt gemeten: Tussen $AB$ een weerstandswaarde van $1{,}0\\ \\Omega$, tussen $BC$ een weerstandswaarde van $2{,}0\\ \\Omega$ en tussen $AC$ een weerstandswaarde van $3{,}0\\ \\Omega$.\n(b) Bereken de mogelijke waarden van de weerstanden $x$, $y$ en $z$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 7: Volleyball",
+     "problem": "We consider a volleyball. We assume that the material of which the ball is made is not elastic and can deform very easily. The ball has a radius $R = 10\\ \\mathrm{cm}$ and a mass $m = 400\\ \\mathrm{g}$. The excess pressure in the ball is $\\Delta p = 40\\ \\mathrm{kPa}$. You may neglect the mass of the air in the ball. You may neglect the change in excess pressure due to small deformations of the ball.\n(a) The ball is pressed between two parallel plates, such that the ball is dented over a distance $h = 1.0\\ \\mathrm{cm}$ on both sides. Calculate the force that the ball exerts on one of the plates.\n(b) The ball hits a wall with a speed of $v_0 = 2.0\\ \\mathrm{m/s}$. Calculate the maximum dent $h_{\\mathrm{m}}$ that the ball gets from the wall.\n(c) Also determine the time of the collision until the ball is free from the wall again.",
+     "problem_orig": "We kijken naar een volleybal. We gaan er van uit dat de stof waar de bal van gemaakt is, niet elastisch is en heel gemakkelijk kan vervormen. De bal heeft een straal $R = 10\\ \\mathrm{cm}$ en een massa $m = 400\\ \\mathrm{g}$. De overdruk in de bal is $\\Delta p = 40\\ \\mathrm{kPa}$. De massa van de lucht in de bal mag je verwaarlozen. Je mag de verandering in overdruk door kleine vervormingen van de bal verwaarlozen.\n(a) De bal wordt tussen twee parallelle platen geperst, zo dat de bal aan beide zijden over een afstand $h = 1{,}0\\ \\mathrm{cm}$ indeukt. Bereken de kracht die de bal op een van de platen uitoefent.\n(b) De bal komt met een snelheid van $v_0 = 2{,}0\\ \\mathrm{m/s}$ tegen een muur. Bereken de maximale indeuking $h_{\\mathrm{m}}$ die de bal door de muur krijgt.\n(c) Bepaal ook de tijd van de botsing tot de bal weer los van de muur is.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 8: Merry-go-round",
+     "problem": "In a playground a child jumps onto a stationary merry-go-round, which makes the merry-go-round start moving. The precise situation is shown in the figure alongside. We regard the merry-go-round as a homogeneous disc with radius $r$ and mass $M$. The child has a mass $m$ and moves with speed $v$ parallel to the drawn $x$-axis. The place where the child makes contact with the merry-go-round is given by the angle $\\theta$ and the radius $r$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-9-fig1.png\n\n(a) Calculate the angular velocity of the merry-go-round after the collision.\n(b) How much mechanical energy has been lost in the collision?",
+     "problem_orig": "In een speeltuin springt een kind op een stilstaande draaimolen, waardoor de molen in beweging komt. De precieze situatie is weergegeven in figuur hiernaast. De draaimolen beschouwen we als een homogene schijf met straal $r$ en massa $M$. Het kind heeft een massa $m$ en beweegt met snelheid $v$ evenwijdig aan de getekende $x$-as. De plek waar het kind contact maakt met de draaimolen wordt gegeven door de hoek $\\theta$ en de straal $r$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-9-fig1.png\n\n(a) Bereken de hoeksnelheid van de molen na de botsing.\n(b) Hoeveel mechanische energie is er bij de botsing verloren gegaan?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 9: Sphere on a thread",
+     "problem": "A charged metal sphere (charge $Q$, radius $r_0$) is suspended from a (long) insulated thread. The sphere slowly loses charge because the surrounding air has a non-infinite resistivity $\\rho$. Assume that this resistivity has the same value everywhere.\nDerive an expression (in the given quantities) for how long it takes before the charge on the sphere has been halved.",
+     "problem_orig": "Een geladen metalen bol (lading $Q$, straal $r_0$) is opgehangen aan een (lange) geïsoleerde draad. De bol verliest langzaam lading omdat de omringende lucht een niet oneindige soortelijke weerstand $\\rho$ heeft. Neem aan dat deze soortelijke weerstand overal dezelfde waarde heeft.\nLeid een uitdrukking (in de gegeven grootheden) af voor hoe lang het duurt voordat de lading op de bol is gehalveerd.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 10: Transparent film",
+     "problem": "A thick glass plate has a thin film coating. A graph of the transmitted intensity of the light versus the wavelength is shown alongside. The refractive index of the film is $n = 1.3$.\nHow large is the thickness $d$ of the film?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-11-fig1.png",
+     "problem_orig": "Een dikke glasplaat heeft een dunne filmcoating. Een grafiek van de doorgelaten intensiteit van het licht ten opzichte van de golflengte is hiernaast aangegeven. De brekingsindex van de film is $n = 1{,}3$.\nHoe groot is de dikte $d$ van de film?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-11-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 11: Rotating rail with a ball",
+     "problem": "A rail with length $L$ is mounted on a homogeneous disc with mass $M$ and radius $R$ that rotates about a vertical axis. The rail makes an angle $\\alpha$ with this axis. A ball with mass $m$ and radius $r$ can roll along the rail. At the top of the rail there is a stop, so that the ball cannot roll off.\nAssume at first that the angular velocity $\\omega$ with which the disc rotates is constant (see the drawing).\nThe radius of the ball is negligibly small compared to the length of the rail and the radius of the disc. The mass of the rail is negligibly small compared to the mass of the disc.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-12-fig1.png\n\n(a) At a sufficiently large angular velocity, the ball is at rest at the top of the rail with respect to the rotating frame of the rail. Indicate clearly in the figure which forces act on the ball in the frame co-rotating with the disc.\n(b) Calculate the magnitude of the centrifugal force expressed in the given quantities.\n(c) Calculate the critical value $\\omega_0$ of the angular velocity for which the ball just stays at the top of the rail.\nAs a result of friction the angular velocity will decrease, so that at a certain moment its magnitude falls below the critical value and the ball starts to roll down.\n(d) What is the reason that the angular velocity of the rotating disc changes when the ball rolls down?\nAt a certain moment the ball is at the bottom of the rail. The rail has then acquired an angular velocity $\\omega_1$.\n(e) Calculate the ratio $\\omega_0/\\omega_1$.",
+     "problem_orig": "Een rail met lengte $L$ is op een homogene schijf met massa $M$ en straal $R$ gemonteerd die rond een verticale as draait. De rail maakt een hoek $\\alpha$ met deze as. Over de rail kan een kogel met massa $m$ en straal $r$ rollen. Bovenaan de rail zit een stop, zodat de kogel er niet vanaf kan rollen.\nNeem in eerste instantie aan dat de hoeksnelheid $\\omega$ waarmee de schijf ronddraait, constant is (zie de tekening).\nDe straal van de kogel is verwaarloosbaar klein ten opzichte van de lengte van de rail en de straal van de schijf. De massa van de rail is verwaarloosbaar klein ten opzichte van de massa van de schijf.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2019-12-fig1.png\n\n(a) Bij een voldoende grote hoeksnelheid bevindt de kogel zich, ten opzichte van het roterende stelsel van de rail, in rust bovenaan de rail. Geef in de figuur duidelijk aan welke krachten er in het met de schijf meedraaiende stelsel op de kogel werken.\n(b) Bereken de grootte van de centrifugaalkracht uitgedrukt in de gegeven grootheden.\n(c) Bereken de kritische waarde $\\omega_0$ van de hoeksnelheid waarvoor de kogel nog net bovenin de rail blijft zitten.\nAls gevolg van wrijving zal de hoeksnelheid afnemen, waardoor op een bepaald moment de grootte ervan onder de kritische waarde komt en de kogel naar beneden gaat te rollen.\n(d) Wat is de reden dat bij het naar beneden rollen van de kogel de hoeksnelheid van de draaiende schijf verandert?\nOp een gegeven moment bevindt de kogel zich onderaan de rail. De rail heeft dan een hoeksnelheid $\\omega_1$ gekregen.\n(e) Bereken de verhouding $\\omega_0/\\omega_1$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 12: Diesel engine",
+     "problem": "In a diesel engine, air from the surroundings is rapidly compressed to $1/20$ of the original volume.\nMake a careful estimate of the air temperature after the compression and explain why a diesel engine does not need spark plugs.",
+     "problem_orig": "In een dieselmotor wordt lucht vanuit de omgeving snel gecomprimeerd tot $1/20$ van het originele volume.\nMaak een zorgvuldige schatting van de luchttemperatuur na de compressie en leg uit waarom een dieselmotor geen bougies nodig heeft.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Theory, part 2",
+     "title": "Bonus problem B2: Economic thrift",
+     "problem": "Two economics students, $A$ and $B$, live next to each other in student rooms and decide to economise during the exam period. They do this by connecting their ceiling lighting in series. They agree that each of them uses only a $100\\ \\mathrm{W}$ incandescent lamp and that each will pay half of the electricity bill.\nHowever, neither student uses a $100\\ \\mathrm{W}$ incandescent lamp. Student $A$ uses a $200\\ \\mathrm{W}$ lamp and student $B$ an incandescent lamp of $50\\ \\mathrm{W}$.\nAssume that both students need enough light to study the thick textbooks in the evening.\nWhich student will fail the exams?",
+     "problem_orig": "Twee economie studenten, $A$ en $B$, wonen naast elkaar in een studentenkamer en besluiten in de tentamenperiode te bezuinigen. Dat doen ze door hun plafond verlichting in serie aan te sluiten. Ze spreken af dat ze beiden enkel een $100\\ \\mathrm{W}$ gloeilamp gebruiken en dat ze beiden de helft van de elektriciteitsrekening zullen betalen.\nBeide studenten gebruiken echter geen $100\\ \\mathrm{W}$ gloeilamp. Student $A$ gebruikt een $200\\ \\mathrm{W}$ lamp en student $B$ een gloeilamp van $50\\ \\mathrm{W}$.\nGa er vanuit dat beide studenten voldoende licht nodig hebben om 's avonds de dikke studieboeken te bestuderen.\nWelke student zal de tentamens niet gaan halen?",
+     "orig_lang": "nl"
+    }
+   ]
+  },
+  {
+   "year": 2020,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Problem 1: Pendulum",
+     "problem": "A pendulum is released from rest as shown in the figure. Which part of the circular arcs shown, $AP$ and $PB$, is traversed in the shorter time?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-1-fig1.png",
+     "problem_orig": "Een slinger wordt vanuit rust losgelaten zoals in de figuur te zien is. Welk deel van de getoonde cirkelbogen, $AP$ en $PB$, wordt in de kortste tijd doorlopen?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-1-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Problem 2: Beam across the ice",
+     "problem": "A beam with a mass $m$ of 230 kg and a length $l$ of 2.7 m slides without rotating, broadside, across a frozen river with a speed of 18 m/s. A man with a mass of 65 kg who is standing on the ice grabs one end of the beam and keeps holding on to the beam while they rotate together over the ice.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-2-fig1.png\n\n(a) How fast does the centre of mass of the system move after the collision?\n(b) With what angular velocity does the system rotate about the CM?",
+     "problem_orig": "Een balk met een massa $m$ van 230 kg en een lengte $l$ van 2,7 m glijdt zonder te roteren in de breedte over een bevroren rivier met een snelheid van 18 m/s. Een man met een massa van 65 kg die op het ijs staat, pakt een uiteinde van de balk beet en blijft de balk vasthouden terwijl ze samen over het ijs roteren.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-2-fig1.png\n\n(a) Hoe snel beweegt het massamiddelpunt van het systeem na de botsing?\n(b) Met welke hoeksnelheid roteert het systeem om het CM heen?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Problem 3: Sphere and charge",
+     "problem": "A point charge with charge $e$ is placed at a distance $R$ from the centre of an uncharged neutral sphere. The sphere is insulated.\nDetermine the potential $U$ on the surface of the sphere.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-3-fig1.png",
+     "problem_orig": "Een puntlading met lading $e$ is op een afstand $R$ van het midden van een ongeladen neutrale bol geplaatst. De bol is geïsoleerd opgesteld.\nBepaal de potentiaal $U$ op het oppervlak van de bol.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-3-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Problem 4: Circuit with a constant current source",
+     "problem": "(a) We have a circuit as shown, with $I_S$ a constant current source which, independently of the rest of the circuit, supplies a constant current $I$.\nWe place an ideal voltmeter between the points A and B.\nDetermine the voltage indicated by the voltmeter, expressed in $R$ and $I$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-4-fig1.png\n\n(b) We have a circuit as shown, with $I_S$ a constant current source which, independently of the rest of the circuit, supplies a constant current $I$.\nWe place an ideal ammeter between the points A and B.\nDetermine the voltage indicated by the voltmeter, expressed in $R$ and $I$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-4-fig2.png",
+     "problem_orig": "(a) We hebben een schakeling als getoond, met $I_S$ een constante stroombron, die onafhankelijk van de rest van de schakeling een constante stroom $I$ levert.\nWe plaatsen een ideale voltmeter tussen de punten A en B.\nBepaal de spanning die de voltmeter aangeeft, uitgedrukt in $R$ en $I$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-4-fig1.png\n\n(b) We hebben een schakeling als getoond, met $I_S$ een constante stroombron, die onafhankelijk van de rest van de schakeling een constante stroom $I$ levert.\nWe plaatsen een ideale stroommeter tussen de punten A en B.\nBepaal de spanning die de voltmeter aangeeft, uitgedrukt in $R$ en $I$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-4-fig2.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Problem 5: Muons",
+     "problem": "A beam of muons is kept in a circular orbit by a homogeneous magnetic field. We assume that energy loss by electromagnetic radiation is negligible.\nThe rest mass of a muon is $m = 1.88 \\cdot 10^{-28}$ kg, the charge is $q = -1.602 \\cdot 10^{-19}$ C and the half-life is $T_{\\frac{1}{2}} = 1.523\\ \\mu\\mathrm{s}$.\nAt relativistic speeds the mass is given by: $m = \\gamma m_{rust}$ [$m_{rust}$: rest mass].\nDuring one complete revolution half of the muons decay. The muons move with a speed close to the speed of light.\nCalculate the magnitude of the magnetic field in $\\mathrm{mT}$.",
+     "problem_orig": "Een straal met muonen wordt in een cirkelvormige baan gehouden door een homogeen magnetisch veld. We nemen aan dat energieverlies door elektromagnetische straling verwaarloosbaar is.\nDe rustmassa van een muon is $m = 1{,}88 \\cdot 10^{-28}$ kg, de lading is $q = -1{,}602 \\cdot 10^{-19}$ C en de halveringstijd $T_{\\frac{1}{2}} = 1{,}523\\ \\mu\\mathrm{s}$.\nBij relativistische snelheden geldt voor de massa: $m = \\gamma m_{rust}$.\nGedurende één volledige rondgang vervalt de helft van de muonen. De muonen bewegen met een snelheid in de buurt van de lichtsnelheid.\nBereken de grootte van het magnetisch veld in $\\mathrm{mT}$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory",
+     "title": "Problem 6: Rubber duck",
+     "problem": "A measuring cylinder is partly filled with water. A rubber duck floats on the water surface.\nOil is slowly added to the measuring cylinder, at a constant rate. The readings of the levels of water and oil are taken repeatedly and plotted in a graph (attached).\nThe density of water is in this case $1.00\\ \\mathrm{g/mL}$.\nDetermine the density of the oil in $\\mathrm{g/mL}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-6-fig1.png",
+     "problem_orig": "Een maatcilinder is voor een deel gevuld met water. Op het wateroppervlak drijft een badeentje.\nEr wordt langzaam olie in de maatcilinder bijgevoegd, met een constante stroom. De aflezing van de standen van water en olie worden steeds afgelezen en in een grafiek (bijgaand) gezet.\nDe dichtheid van water is in dit geval $1{,}00\\ \\mathrm{g/mL}$.\nBepaal de dichtheid van de olie in $\\mathrm{g/mL}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-6-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory",
+     "title": "Problem 7: Slipping cord",
+     "problem": "A rigid symmetric tube consists of three pieces: two vertical pieces AB and CD and a semicircle BC. A heavy cord of length $l$ has been put through the tube. The cord can slide through the tube without friction.\nAt every moment the length of the cord in BC can be neglected compared with the length of the vertical parts of the cord.\nInitially both ends of the cord are at the same height ($l_1 = l_2 = \\frac{1}{2} l$) and the cord is at rest. The cord is then given a minimal push and starts to slide. The length difference (or height difference) relative to the total length of the cord we call\n$$k = \\frac{l_1 - l_2}{l}$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-7-fig1.png\n\n(a) Determine an expression for the acceleration $a$ of the cord.\n(b) Determine at which $k$ the force of the cord on the part BC of the tube becomes zero.",
+     "problem_orig": "Een stevige symmetrische buis bestaat uit drie stukken. Twee verticale stukken AB en CD en een halve cirkel BC. Een zwaar koord met lengte $l$ is door de buis gestopt. Het koord kan wrijvingloos door de buis glijden.\nOp elk moment kan de lengte van het koord in BC verwaarloosd worden ten opzichte van de lengte van de verticale delen van het koord.\nOorspronkelijk zitten de beide uiteinde van het koord op gelijke hoogte ($l_1 = l_2 = \\frac{1}{2} l$) en is het koord in rust. Het koord krijgt dan een minimaal zetje en begint te glijden. Het lengteverschil (of hoogteverschil) ten opzichte van de totale lengte van het koord noemen we\n$$k = \\frac{l_1 - l_2}{l}$$\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-7-fig1.png\n\n(a) Bepaal een uitdrukking voor de versnelling $a$ van het koord\n(b) Bepaal bij welke $k$ de kracht van het koord op het deel BC van de buis nul wordt.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory",
+     "title": "Problem 8: Biprism",
+     "problem": "The double-slit experiment can also be set up differently. With one light source and a so-called biprism you effectively obtain two coherent light sources, and with these you can also obtain interference; see the drawing on the right.\nIn our set-up we have a monochromatic slit source $S$ with light of wavelength $\\lambda = 500\\ \\mathrm{nm}$ at a distance $x = 0.10\\ \\mathrm{m}$ from a glass biprism with refractive index $n = 1.5$ and an angle $\\alpha = 1.0^\\circ$. As a result the virtual light sources $S_1$ and $S_2$ arise, at a distance $l$ from each other. On the screen at a distance $d = 5.0\\ \\mathrm{m}$ from the prism an interference pattern now becomes visible.\nThe biprism has a width $b = 0.10\\ \\mathrm{m}$.\nCalculate the distance between the interference fringes of the zeroth and the first order on the screen in mm.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-8-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-8-fig2.png",
+     "problem_orig": "Het twee-spleten experiment kan ook anders ingericht worden. Met één lichtbron en een zogenaamd biprisma krijg je effectief twee coherente lichtbronnen en daarmee kun je ook interferentie bereiken, zie de tekening rechts.\nIn onze opstelling hebben we een monochromatische spleetbron $S$ met licht met een golflengte $\\lambda = 500\\ \\mathrm{nm}$ op een afstand $x = 0{,}10\\ \\mathrm{m}$ van een biprisma van glas met een brekingsindex $n = 1{,}5$ en een hoek $\\alpha = 1{,}0^\\circ$. Hierdoor ontstaan virtueel de lichtbronnen $S_1$ en $S_2$ op een afstand $l$ van elkaar. Op het scherm op een afstand $d = 5{,}0\\ \\mathrm{m}$ van het prisma wordt nu een interferentiepatroon zichtbaar.\nHet biprisma heeft een breedte $b = 0{,}10\\ \\mathrm{m}$.\nBereken de afstand tussen de interferentiestrepen van de nulde en de eerste orde op het scherm in mm.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-8-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-8-fig2.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory",
+     "title": "Problem 9: Air bubbles in water",
+     "problem": "A bottle is tightly closed and completely filled with water (the height of the water is $h$), apart from two small air bubbles at the bottom. The pressure at the top of the bottle is $P_0$, the radius of each small bubble is $R_0$ and the surface tension coefficient is $\\sigma$. The excess pressure in the bubble due to the surface tension is given by: $\\delta p = \\frac{2\\sigma}{R}$\nThe two bubbles come together and become one larger air bubble. Assume that the process is isothermal.\nDetermine the total pressure change $\\Delta P$ in the bottle.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-9-fig1.png",
+     "problem_orig": "Een fles is stevig gesloten en volledig gevuld met water (hoogte water is $h$), op twee kleine luchtbellen na op de bodem. De druk boven in de fles is $P_0$, de straal van elke kleine bel is $R_0$ en de oppervlaktespanningscoëfficiënt is $\\sigma$. De overdruk in de bel tengevolge van de oppervlaktespanning wordt gegeven door: $\\delta p = \\frac{2\\sigma}{R}$\nDe twee bellen komen naar elkaar en worden één grotere luchtbel. Neem aan dat het proces isotherm is.\nBepaal de totale drukverandering $\\Delta P$ in de fles.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-9-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory",
+     "title": "Problem 10: 2 charges in a circle",
+     "problem": "Two identical balls have a mass $m$ and a charge $q$. We place them in a spherical bowl of radius $R$ with frictionless, insulating walls. The balls move and finally come to an equilibrium state in which they lie at a distance $R$ from each other; see the drawing.\nCalculate the charge on each ball, on paper expressed in $m$, $R$ and the necessary constants, then evaluated with $R = 0.050\\ \\mathrm{m}$ and $m = 1.0 \\cdot 10^{-5}\\ \\mathrm{kg}$. (Which does not immediately seem a realistic answer)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-10-fig1.png",
+     "problem_orig": "Twee identieke ballen hebben een massa $m$ en een lading $q$. We plaatsen ze in een bolvormige kom met straal $R$ en wrijvingloze, isolerende wanden. De ballen bewegen en komen uiteindelijk in een evenwichtstoestand, waar ze op een afstand R uit elkaar liggen, zie de tekening.\nBereken de lading op elke bal, op papier uitgedrukt in $m$, $R$ en benodigde constanten, daarna ingevuld met $R = 0{,}050\\ \\mathrm{m}$ en $m = 1{,}0 \\cdot 10^{-5}\\ \\mathrm{kg}$. (Wat niet direct een reëel antwoord lijkt)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-10-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Theory",
+     "title": "Problem 11: Capacitor circuit",
+     "problem": "The circuit shown alongside consists of a resistor $R$ of $10\\ \\mathrm{k\\Omega}$, maximum power 1 watt, and two capacitors with capacitances $C_1 = 0.2\\ \\mu\\mathrm{F}$ and $C_2 = 0.5\\ \\mu\\mathrm{F}$.\nThe circuit is plugged into an American wall socket ($120\\ \\mathrm{V}; 60\\ \\mathrm{Hz}$).\nDetermine the average power of the resistor.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-11-fig1.png",
+     "problem_orig": "De schakeling hiernaast bestaat uit een weerstand $R$ van $10\\ \\mathrm{k\\Omega}$, 1 Watt maximaal vermogen en twee condensatoren met een capaciteit van $C_1 = 0{,}2\\ \\mu\\mathrm{F}$ en $C_2 = 0{,}5\\ \\mu\\mathrm{F}$.\nDe schakeling wordt in een Amerikaanse wandcontactdoos ($120\\ \\mathrm{V}; 60\\ \\mathrm{Hz}$) gedaan.\nBepaal het gemiddelde vermogen van de weerstand.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-11-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Theory",
+     "title": "Problem 12: Shock wave",
+     "problem": "In the Second World War renowned physicists and mathematicians such as Taylor, Sedov and Von Neumann worked out a theoretical relation between the propagation speed of a shock wave and the energy of the explosion that causes the shock wave. For a point-like explosion it turns out that, as long as the pressure in the shock wave is greater than the air pressure, the following relation holds for the radius $R$ of the spherical wave as a function of the time $t$:\n$$R(t) = kE^{\\alpha}\\rho^{\\beta}t^{\\gamma}$$\nHere $E$ is the energy released in the explosion and $\\rho$ the density of air. The dimensionless constant $k = 1.033$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-12-fig1.png\n[Visible shock wave in the explosion of an ammunition depot in Russia.]\n\n(a) Determine by dimensional analysis the values of the exponents $\\alpha$, $\\beta$ and $\\gamma$.\nOn 13 May 2000 a fireworks storage depot exploded in Enschede. From the roof of a nearby building two firefighters filmed the explosion. On the film the progress of the shock wave can be seen. In March 2001 an article about this appeared in the Nederlands Tijdschrift voor Natuurkunde, containing a graph of the radius of the shock wave as a function of time. The pressure in the shock wave decreases rapidly until it is equal to that of the surrounding air.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-12-fig2.png\n[The radius of the shock wave as a function of time in the fireworks disaster in Enschede; vertical axis: radius R (m); horizontal axis: time (s).]\n\n(b) Determine as well as possible the moment at which the pressure of the shock wave becomes equal to that of the surrounding air. Indicate how you made the determination.\n(c) Using the formula for the radius of the wave as a function of time, make an estimate of the energy released in the explosion. Take for the density of air $\\rho = 1.3\\ \\mathrm{kg/m^3}$. Take into account that the shock wave in the fireworks disaster formed a hemisphere.",
+     "problem_orig": "In de tweede wereldoorlog hebben vermaarde fysici en wiskundigen als Taylor, Sedov en Von Neumann een theoretisch verband uitgewerkt tussen de voortplantingssnelheid van een schokgolf en de energie van de explosie die de schokgolf veroorzaakt. Voor een puntvormige explosie blijkt, zolang de druk in de schokgolf groter is dan de luchtdruk, de volgende relatie te gelden voor de straal $R$ van de bolvormige golf als functie van de tijd $t$:\n$$R(t) = kE^{\\alpha}\\rho^{\\beta}t^{\\gamma}$$\nHierin is $E$ de bij de explosie vrijgekomen energie en $\\rho$ de luchtdichtheid. De eenheidsloze constante $k = 1{,}033$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-12-fig1.png\n\n(a) Bepaal met een eenheden-analyse de waarden van de exponenten $\\alpha$, $\\beta$ en $\\gamma$.\nOp 13 mei 2000 is in Enschede een vuurwerkopslagplaats ontploft. Vanaf het dak van een nabijgelegen gebouw hebben twee brandweerlieden de explosie gefilmd. Daarop is de voortgang van de schokgolf te zien. In maart 2001 is hierover een artikel verschenen in het Nederlands Tijdschrift voor Natuurkunde waarin een grafiek voorkomt van de straal van de schokgolf als functie van de tijd. De druk in de schokgolf neemt snel af totdat deze gelijk is aan die van de omringende lucht.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2020-12-fig2.png\n\n(b) Bepaal zo goed mogelijk het tijdstip waarop de druk van de schokgolf gelijk wordt aan die van de omringende lucht. Geef aan hoe je de bepaling gedaan hebt.\n(c) Maak aan de hand van de formule voor de straal van de golf als functie van de tijd een schatting van de bij de explosie vrijgekomen energie. Neem voor de luchtdichtheid $\\rho = 1{,}3\\ \\mathrm{kg/m^3}$. Houdt er rekening mee dat de schokgolf bij de vuurwerkramp een halve bol vormde.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Theory",
+     "title": "Problem 13: Do we go or don't we?",
+     "problem": "A family, consisting of father, mother, son and daughter, want to decide by voting whether they can make an outing to a museum. The outing can be made if both children and one of the parents want to; one of the parents must namely stay at home to look after the goldfish.\nFor this purpose they make a circuit consisting of a battery, a small lamp, one switch for each family member and enough wires.\nEach family member can set the switch to 'JA' [YES] (closed) or 'NEE' [NO] (open).\nDesign a circuit in which the lamp only lights up if they can make the outing to the museum.",
+     "problem_orig": "Een gezin, bestaande uit vader, moeder, zoon en dochter willen d.m.v. stemmen besluiten of ze een uitstapje naar een museum kunnen maken. Het uitstapje kan gemaakt worden als beide kinderen en één van de ouders willen, er moet nl. één van de ouders thuisblijven om op de goudvis te passen.\nZe maken daartoe een schakeling bestaan uit een batterij, een lampje, voor elk gezinslid één schakelaar en voldoende snoertjes.\nElk gezinslid kan de schakelaar op 'JA' (dicht) of 'NEE' (open) zetten.\nOntwerp een schakeling waarbij het lampje enkel aan gaat als ze het uitstapje naar het museum kunnen maken.",
+     "orig_lang": "nl"
+    }
+   ]
+  },
+  {
+   "year": 2021,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 1: Oscillation",
+     "problem": "A mass $m$ is attached between two unstretched springs with spring constant $k$ and length $l_0$. See the figure. We neglect gravity and the masses of the springs.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-1-fig1.png\n\nIf the mass is displaced by $x = 1.0\\ \\mathrm{cm}$ perpendicular to the springs and released, the system oscillates with a period of $T = 2.0\\ \\mathrm{s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-1-fig2.png\n\nWe would like to know what the period of oscillation is if we release the mass from a position $x = 2.0\\ \\mathrm{cm}$.\nAssume that $l_0 \\gg 1\\ \\mathrm{cm}$.\n(a) Show that the equation of motion is $\\ddot{x} = -Cx^3$ and give an expression for $C$. (Hint: for $\\alpha \\ll 1$: $\\sqrt{1+\\alpha} = 1 + \\frac{\\alpha}{2}$)\nThis differential equation is not easy to solve. To still obtain an answer to the question of what the period is when the mass is released from $x = 2.0\\ \\mathrm{cm}$, a dimensional analysis can be used. Suppose that for the period: $T \\propto C^{\\alpha} \\times A^{\\beta}$\n(b) Using a dimensional analysis, calculate what the period is when the mass is released from $x = 2.0\\ \\mathrm{cm}$.",
+     "problem_orig": "Een massa $m$ is bevestigd tussen twee ongespannen veren met veerconstante $k$ en lengte $l_0$. Zie de figuur. We laten zwaartekracht en de massa's van de veren buiten beschouwing.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-1-fig1.png\n\nAls de massa $x = 1{,}0\\ \\mathrm{cm}$ loodrecht t.o.v. de veren wordt verplaats en losgelaten, gaat het systeem trillen met een periode van $T = 2{,}0\\ \\mathrm{s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-1-fig2.png\n\nWe willen graag weten wat de trillingstijd is als we de massa loslaten vanaf een positie $x = 2{,}0\\ \\mathrm{cm}$.\nNeem aan dat $l_0 \\gg 1\\ \\mathrm{cm}$.\n(a) Toon aan dat voor de bewegingsvergelijking geldt: $\\ddot{x} = -Cx^3$ en geef een uitdrukking voor $C$. (Hint: voor $\\alpha \\ll 1$ geldt: $\\sqrt{1+\\alpha} = 1 + \\frac{\\alpha}{2}$)\nDeze differentiaalvergelijking is niet eenvoudig oplosbaar. Om toch een antwoord te krijgen op de vraag wat de periode is bij loslaten vanaf $x = 2{,}0\\ \\mathrm{cm}$ kan gebruik gemaakt worden van een eenheden analyse. Stel dat voor de periode geldt: $T \\propto C^{\\alpha} \\times A^{\\beta}$\n(b) Bereken m.b.v. een eenheden analyse wat de periode is als de massa wordt losgelaten vanaf $x = 2{,}0\\ \\mathrm{cm}$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 2: Small network",
+     "problem": "An electrical network consists of 20 resistors of 5 ohm each (see figure). In the figure you see 9 cells, of which the middle one is formed by a small silver plate whose resistance may be neglected.\nCalculate the equivalent resistance between the points A and B.\nShow clearly what your solution steps are.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-2-fig1.png",
+     "problem_orig": "Een elektrisch netwerk bestaat uit 20 weerstanden van elk 5 ohm (zie figuur). Je ziet in de figuur 9 cellen, waarvan de middelste gevormd wordt door een plaatje zilver, waarvan de weerstand verwaarloosd mag worden.\nBereken de vervangingsweerstand tussen de punten A en B.\nLaat duidelijk zien wat je oplossingsstappen zijn.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-2-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 3: Your body as a Carnot engine",
+     "problem": "You are going to use your body to generate energy with a Carnot engine. You put one part of the engine in your mouth ($37\\ ^\\circ\\mathrm{C}$) and the other part is against your cheek ($30\\ ^\\circ\\mathrm{C}$).\n(a) Determine the efficiency of the engine.\n(b) You want to place a box with a mass of $2.50\\ \\mathrm{kg}$ on a table $1.20\\ \\mathrm{m}$ above the floor using the Carnot engine. Your favourite (candy) bar contains $500$ calories. 80% of the energy of that bar is converted into heat.\nHow much of the bar do you have to eat to get the box onto the table?",
+     "problem_orig": "Je gaat je lichaam gebruiken om energie op te wekken met een Carnot-machine. Eén deel van de machine stop je in je mond ($37\\ ^\\circ\\mathrm{C}$) en het andere deel zit tegen je wang ($30\\ ^\\circ\\mathrm{C}$).\n(a) Bepaal het rendement van de machine.\n(b) Je wilt een doos met een massa van $2{,}50\\ \\mathrm{kg}$ op een tafel op $1{,}20\\ \\mathrm{m}$ boven de vloer plaatsen met de carnot-machine. Je favoriete reep bevat $500$ calorieën. 80% van die de energie van die reep wordt omgezet in warmte.\nHoeveel van de reep moet je eten om de doos op de tafel te krijgen?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 4: Beam splitter",
+     "problem": "Given two straight, plane-parallel microscope slides that touch each other at $x = 0$ and are a distance $d$ apart at $x = a$. An observer looks through a beam splitter perpendicularly down onto these slides (see the figure), which are also illuminated by a Na lamp (wavelength $589.6\\ \\mathrm{nm}$, line width $0.1\\ \\mathrm{nm}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-4-fig1.png\n\n[Figure labels: waarnemer = observer; bundelsplitser = beam splitter; Na-lamp = Na lamp; microscoopglaasjes = microscope slides.]\n\n(a) The observer sees a pattern of bright and dark fringes perpendicular to the $x$-direction. Explain briefly how this fringe pattern arises. How does the observer see the fringes if he looks at the slides from the underside?\n(b) Over the whole slide, 40 dark fringes are counted in the $x$-direction ($x = 0$ and $x = a$ dark). Use this to calculate the distance $d$.\n(c) Explain why a dark fringe is observed at $x = 0$.\n(d) The space between the two slides is filled with water ($n = 1.3$). Calculate the number of dark fringes that can now be seen.",
+     "problem_orig": "Gegeven twee rechte, planparallelle microscoopglaasjes die bij $x = 0$ elkaar raken en bij $x = a$ een afstand $d$ hebben. Een waarnemer kijkt door een bundelsplitser loodrecht bovenop deze glaasjes (zie de figuur) die ook worden beschenen door een Na-lamp (golflengte $589{,}6\\ \\mathrm{nm}$, lijnbreedte $0{,}1\\ \\mathrm{nm}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-4-fig1.png\n\n(a) De waarnemer ziet een patroon van lichte en donkere strepen loodrecht op de $x$-richting. Leg kort uit waardoor dit strepenpatroon tot stand komt. Hoe ziet de waarnemer de strepen als hij van de onderkant naar de glaasjes kijkt?\n(b) Over het gehele glaasje worden in de $x$-richting 40 donkere strepen geteld ($x = 0$ en $x = a$ donker). Bereken hiermee de afstand $d$.\n(c) Leg uit waarom bij $x = 0$ een donkere streep wordt waargenomen.\n(d) De ruimte tussen de twee glaasjes wordt gevuld met water ($n = 1{,}3$). Bereken het aantal donkere strepen wat nu te zien is.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 5: Helmholtz coils",
+     "problem": "(a) Calculate the magnitude and direction of the magnetic field $B$ at position $x$ on the axis of a circular wire loop with radius $R$ carrying a current $I$. See the figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-5-fig1.png\n\nHelmholtz coils are two identical coils with the same radius $R$ and the same number of turns $N$, which are a distance equal to their radius $R$ apart and carry the same current $I$ in the same direction. See the figure. They are used in scientific instruments to produce nearly homogeneous magnetic fields.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-5-fig2.png\n\n(b) Calculate the magnitude and direction of the magnetic field $B$ at points $x$ along the line that connects the centres of the coils. Choose $x = 0$ at the centre of the left coil, and $x = R$ at the centre of the right one.\n(c) Show that the field midway between the coils is particularly homogeneous by showing that $dB/dx = 0$ and $d^2B/dx^2 = 0$ midway between the two coils.\n(d) Suppose $R = 10.0\\ \\mathrm{cm}$, $N = 250$ and $I = 2.0\\ \\mathrm{A}$. Calculate the magnitude of the field at $x = R/2$.",
+     "problem_orig": "(a) Bereken de grootte en richting het magneetveld $B$ op positie $x$ op de as van een cirkelvormige draadlus met straal $R$ waardoor een stroom $I$ loopt. Zie de figuur hiernaast.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-5-fig1.png\n\nHelmholtz-spoelen zijn twee identieke spoelen met dezelfde straal $R$ en hetzelfde aantal wikkelingen $N$ die zich op een afstand gelijk aan de straal $R$ ervan van elkaar bevinden en dezelfde stroom $I$ in dezelfde richting geleiden. Zie de figuur. Ze worden gebruikt in wetenschappelijke instrumenten om nagenoeg homogene magnetische velden op te wekken.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-5-fig2.png\n\n(b) Bereken de grootte en richting het magnetisch veld $B$ op punten $x$ langs de lijn die de middens van de spoelen met elkaar verbindt. Kies $x = 0$ ter plaatse van het middelpunt van de linker spoel. En $x = R$ ter plaatse van het middelpunt van de rechter.\n(c) Toon aan dat het veld in het midden tussen de spoelen bijzonder homogeen is door aan te tonen dat $dB/dx = 0$ en $d^2B/dx^2 = 0$ in het midden tussen de twee spoelen.\n(d) Veronderstel $R = 10{,}0\\ \\mathrm{cm}$, $N = 250$ en $I = 2{,}0\\ \\mathrm{A}$. Bereken de grootte van het veld op $x = R/2$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 6: Mr Tompkins",
+     "problem": "In 1940 George Gamow writes about Mr Tompkins, who cycles through the street in Wonderland. His speedometer reads $20\\ \\mathrm{km/h}$.\nGive an explanation for both drawings and make a well-founded estimate of the speed of light in Wonderland.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-6-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-6-fig2.png",
+     "problem_orig": "George Gamov schrijft in 1940 over Meneer Tompkins die in Wonderland door de straat fietst. Zijn snelheidsmeter geeft $20\\ \\mathrm{km/h}$ aan.\nGeef een verklaring voor beide tekeningen en maak een gefundeerde schatting van de lichtsnelheid in Wonderland.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-6-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-6-fig2.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 7: Flatworms",
+     "problem": "Two flatworms A and B of $20\\ \\mathrm{g}$ climb over a thin wall $10\\ \\mathrm{cm}$ high. Worm A is $20\\ \\mathrm{cm}$ long; worm B is thicker/wider and only $10\\ \\mathrm{cm}$ long. Which of the two worms has done more work against gravity when half of it is over the wall? What is the ratio between the work done by worms A and B?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-7-fig1.png",
+     "problem_orig": "Twee platwormen A en B van $20\\ \\mathrm{g}$ klimmen over een dunne muur van $10\\ \\mathrm{cm}$ hoog. Worm A is $20\\ \\mathrm{cm}$ lang, worm B is dikker/breder en slechts $10\\ \\mathrm{cm}$ lang. Welke van de twee wormen heeft meer arbeid verricht tegen de zwaartekracht in als de helft zich over de muur bevindt? Wat is de verhouding tussen de arbeid die door de wormen A en B worden verricht?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-7-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 8: Shuffleboard",
+     "problem": "Two homogeneous cylindrical shuffleboard (sjoelen) discs, each with mass $M$ and radius $R$, slide towards each other on a very smooth shuffleboard table (sjoelbak). Before the collision the magnitude of their velocity is $v$. After the collision they stick together at their point of contact.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-8-fig1.png\n\n[Figure labels: Voor de botsing = before the collision; Na de botsing = after the collision.]\n\nGive all answers below in terms of $M$, $R$ and $v$.\n(a) What is the total angular momentum before the collision with respect to the common centre of mass of the two discs?\n(b) Calculate the total moment of inertia of the two discs with respect to their common centre of mass after the collision.\n(c) What is the angular velocity of the two discs about their common centre of mass after the collision?\n(d) How much energy has been converted into heat during the collision?",
+     "problem_orig": "Twee cilindrische homogene sjoelschijven, elk met massa $M$ en straal $R$, glijden naar elkaar toe in een zeer gladde sjoelbak. Voor de botsing is de grootte van hun snelheid $v$. Na de botsing, blijven ze bij hun contactplaats aan elkaar plakken.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-8-fig1.png\n\nGeef alle antwoorden hieronder in termen van $M$, $R$ en $v$.\n(a) Wat is voor de botsing het totale impulsmoment t.o.v. het gezamenlijke massamiddelpunt van de twee sjoelschijven?\n(b) Bereken het totale traagheidsmoment van de twee sjoelschijven t.o.v. hun gezamenlijke massamiddelpunt na de botsing.\n(c) Hoe groot is na de botsing de hoeksnelheid van de twee sjoelschijven rond hun gezamenlijke massamiddelpunt?\n(d) Hoeveel energie is tijdens de botsing omgezet in warmte?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 9: High-pass filter",
+     "problem": "A series LR-C circuit can also be used as a high-pass or low-pass filter.\nThe figure shows a high-pass filter in which the voltage across the L-R combination is taken off (in fact it is a coil with its own resistance due to the long wire from which it is made).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-9-fig1.png\n\n(a) Derive an expression for the ratio between the applied voltage $V_s$ and the output voltage $V_{\\mathrm{out}}$ as a function of the angular frequency $\\omega$ of the voltage source.\n(b) Show that at small $\\omega$ the ratio is proportional to $\\omega$ and that it approaches 1 at higher frequencies.",
+     "problem_orig": "Een serieschakeling van LR-C kan ook gebruikt worden als hoog- of laag-doorlaatfilter.\nHiernaast zie je een hoog-doorlaatfilter, waarbij de spanning over de L-R-combinatie wordt afgenomen (in feite is het een spoel met een eigen weerstand door de lange draad waar hij van gemaakt is).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-9-fig1.png\n\n(a) Leid een uitdrukking af voor de verhouding tussen de aangeboden spanning $V_s$ en afgenomen spanning $V_{\\mathrm{out}}$ als functie van de hoekfrequentie $\\omega$ van de spanningsbron.\n(b) Toon aan dat bij kleine $\\omega$ de verhouding evenredig is met $\\omega$ en dat deze tot 1 nadert bij hogere frequenties.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 10: Pattern",
+     "problem": "In an experiment with two narrow parallel slits you obtain the pattern shown below (only the central part is shown). The centres of the bright spots are always $1.53\\ \\mathrm{mm}$ apart (except for the missing spots) on a screen at a distance of $l = 2.50\\ \\mathrm{m}$ from the slits. The light source is a He-Ne laser with a wavelength $\\lambda = 632.8\\ \\mathrm{nm}$.\n(a) Calculate the distance between the two slits.\n(b) Calculate the width of the slits.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-10-fig1.png",
+     "problem_orig": "Bij een experiment met twee smalle parallelle spleten krijg je het patroon zoals hieronder is weergegeven (alleen het centrale deel is getoond). De middens van de heldere lichtpunten liggen steeds $1{,}53\\ \\mathrm{mm}$ van elkaar af (behalve de missende lichtpunten) op een scherm op een afstand van $l = 2{,}50\\ \\mathrm{m}$ van de spleten. De lichtbron is een He-Ne laser met een golflengte $\\lambda = 632{,}8\\ \\mathrm{nm}$.\n(a) Bereken de afstand tussen de twee spleten.\n(b) Bereken de breedte van de spleten.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-10-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 11: Sputniks",
+     "problem": "Three sputniks travel to the nearest star. Sputnik A does so with a speed of $4c/5$, sputnik B with $3c/5$.\nCalculate the speed with which sputnik C must travel so that it sees sputniks A and B coming towards it with the same speed.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-11-fig1.png",
+     "problem_orig": "Drie spoetniks reizen naar de dichtstbijzijnde ster. Spoetnik A doet dat met een snelheid van $4c/5$. Spoetnik B met $3c/5$.\nBereken de snelheid waarmee spoetnik C moet reizen, opdat hij spoetnik A en B met dezelfde snelheid naar zich toe ziet komen.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-11-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 12: Piston",
+     "problem": "A piston with mass $m$ can move without friction in a vertical cylindrical neck of a large container with volume $V$. The piston fits exactly in the neck of the container. The container is filled with an (ideal) gas and there is vacuum above the piston. The piston has a cross-section of $A$. The gravitational acceleration is $g$. Assume that the motions of the piston are so slow that applying Boyle's law is allowed.\n(a) Express the pressure of the gas in terms of the given quantities when the piston is in equilibrium.\n(b) Calculate the restoring force when the piston is displaced upward by a distance $x$ from the equilibrium position.\n(c) Describe the motion that the piston will perform. Explain your answer with calculations.",
+     "problem_orig": "Een zuiger met massa $m$ kan wrijvingsloos bewegen in een verticale cilindervormige hals van een grote container met volume $V$. De zuiger past precies in de hals van de container. De container is gevuld met een (ideaal) gas en boven de zuiger heerst vacuüm. De zuiger heeft een doorsnede van $A$. De valversnelling is $g$. Neem aan dat de bewegingen van de zuiger zo langzaam zijn dat toepassen van de wet van Boyle geoorloofd is.\n(a) Druk de druk van het gas uit in de gegeven grootheden als de zuiger in evenwicht is.\n(b) Bereken de terugwerkende kracht als de zuiger een afstand $x$ vanuit de evenwichtsstand naar boven wordt verplaatst.\n(c) Beschrijf de beweging die de zuiger gaat uitvoeren. Licht je antwoord toe met berekeningen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 13: Millikan's experiment",
+     "problem": "In Millikan's experiment the elementary charge can be determined in an elegant way.\nA very small oil droplet falls downward between two large horizontally mounted capacitor plates. The plates are a distance $h$ apart.\nWhen there is not yet a voltage across the plates, the droplet falls downward with a constant speed $v_1$ between the two dashed lines (a distance $s$ apart). (See the left droplet in the figure.) Three forces then act on the particle: gravity, the buoyant force (in air) and a drag force. For the latter, Stokes' law holds: $F_w = 6\\pi\\eta r v_1$\nHere:\n$r$ is the radius of the oil droplet\n$\\eta$ is the viscosity of air\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-13-fig1.png\n\n[Figure labels: $F_z$ = gravitational force; $F_{opw}$ = buoyant force; $F_w$ = drag force; $F_e$ = electric force.]\n\n(a) Show that for the radius of the droplet:\n$$r = \\sqrt{\\frac{9\\eta v_1}{2(\\rho - d)g}}$$\nwhere:\n$\\rho$ is the density of the oil\n$g$ is the gravitational acceleration\n$d$ is the density of air\nWhen the droplet has almost reached the lower plate, a voltage $U_o$ is applied across the plates. As a result the (charged) droplet can move upward again and again has, between the two dashed lines, an (other) constant speed $v_2$. Four forces are now in equilibrium with each other. See also the right droplet in the figure.\n(b) Show that:\n$$qE = 6\\pi\\eta r(v_1 + v_2)$$\nThe speeds $v_1$ and $v_2$ can be found experimentally by successively determining/measuring the time $t_1$ in which the oil droplet falls over a (known) distance $s$ with the electric field switched off, and then the time $t_2$ in which the same droplet rises over the same distance $s$ with the electric field switched on.\n(c) Show that for the charge of the droplet:\n$$q = \\frac{K}{U_0} \\cdot \\frac{(t_1 \\cdot t_2)}{t_1^{3/2} \\cdot t_2}$$\nIn this formula $K$ is a constant that depends on $\\eta$, $s$, $h$, $\\rho$, $d$ and $g$.\nExperimenter Hans carries out measurements on three different droplets. For the apparatus that Hans uses, $K = 3.48 \\cdot 10^{-14}\\ \\mathrm{J\\,s^{3/2}}$.\nHe finds the following values:\n\n$$\\begin{array}{|l|l|l|l|} \\hline \\text{Droplet} & \\text{Voltage } U_0\\ (V) & \\text{Time } t_1 (s) & \\text{Time } t_2 (s) \\\\ \\hline \\#1 & 1130 & 16 & 24 \\\\ \\hline \\#2 & 1305 & 27 & 39 \\\\ \\hline \\#3 & 850 & 32 & 28 \\\\ \\hline \\end{array}$$\n\n(d) Using these measurements, determine the value of the elementary charge. Indicate clearly how you arrived at your answer.",
+     "problem_orig": "Bij de proef van Millikan kan de elementaire lading op een elegante manier worden bepaald.\nEen heel klein oliedruppeltje valt tussen twee grote horizontaal opgestelde condensatorplaten naar beneden. De platen hebben een onderlinge afstand $h$.\nAls er nog geen spanning over de platen staat zal het druppeltje tussen de twee gearceerde lijnen (met een onderlinge afstand $s$) met een constante snelheid $v_1$ naar beneden vallen. (Zie het linker druppeltje in de figuur.) Er werken dan drie krachten op het deeltje: de zwaartekracht, de opwaartse kracht (in lucht) en een weerstandskracht. Voor deze laatste geldt de wet van Stokes: $F_w = 6\\pi\\eta r v_1$\nHierin is:\n$r$ de straal van de oliedruppel\n$\\eta$ de viscositeit van lucht\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2021-13-fig1.png\n\n(a) Toon aan dat voor de straal van het druppeltje geldt:\n$$r = \\sqrt{\\frac{9\\eta v_1}{2(\\rho - d)g}}$$\nMet hierbij:\n$\\rho$ de dichtheid van de olie\n$g$ de valversnelling\n$d$ de dichtheid van lucht\nAls het druppeltje bijna bij de onderste plaat is aangekomen, wordt er een spanning $U_o$ over de platen gezet. Daardoor kan het (geladen) druppeltje weer omhoog bewegen en heeft wederom tussen de twee gearceerde lijnen een (andere) constante snelheid $v_2$. Er zijn nu vier krachten met elkaar in evenwicht. Zie ook het rechter druppeltje in de figuur.\n(b) Toon aan dat geldt:\n$$qE = 6\\pi\\eta r(v_1 + v_2)$$\nDe snelheden $v_1$ en $v_2$ zijn experimenteel te vinden door achtereenvolgens de tijd $t_1$ te bepalen/meten waarin de oliedruppel bij uitgeschakeld elektrisch veld valt over een (bekende) afstand $s$ en daarna de tijd $t_2$ waarin dezelfde druppel stijgt over dezelfde afstand $s$ bij ingeschakeld elektrisch veld.\n(c) Toon aan dat voor de lading van het druppeltje geldt:\n$$q = \\frac{K}{U_0} \\cdot \\frac{(t_1 \\cdot t_2)}{t_1^{3/2} \\cdot t_2}$$\nIn deze formule is $K$ een constante die afhangt van $\\eta$, $s$, $h$, $\\rho$, $d$ en $g$.\nExperimentator Hans voert metingen uit bij drie verschillende druppeltjes. Voor de apparatuur die Hans gebruikt is $K = 3{,}48 \\cdot 10^{-14}\\ \\mathrm{J\\,s^{3/2}}$.\nHij vindt de volgende waarden:\n\n$$\\begin{array}{|l|l|l|l|} \\hline \\text{Druppel} & \\text{Spanning } U_0\\ (V) & \\text{Tijd } t_1 (s) & \\text{Tijd } t_2 (s) \\\\ \\hline \\#1 & 1130 & 16 & 24 \\\\ \\hline \\#2 & 1305 & 27 & 39 \\\\ \\hline \\#3 & 850 & 32 & 28 \\\\ \\hline \\end{array}$$\n\n(d) Bepaal m.b.v. deze metingen de waarde van de elementaire lading. Geef hierbij duidelijk aan hoe je aan je antwoord bent gekomen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 14: Fuel consumption",
+     "problem": "The fuel consumption of a car is $4\\ \\mathrm{L}$ per $100\\ \\mathrm{km}$. Convert this consumption ($4\\ \\mathrm{L/100\\ km}$) into SI base units and give a creative physical interpretation of the fuel consumption expressed in these units.",
+     "problem_orig": "Het brandstofverbruik van een auto is $4\\ \\mathrm{L}$ per $100\\ \\mathrm{km}$. Zet dit verbruik ($4\\ \\mathrm{L/100\\ km}$) om in SI basisgrootheden en geef een creatieve fysieke interpretatie van het brandstofverbruik uitgedrukt in deze eenheden.",
+     "orig_lang": "nl"
+    }
+   ]
+  },
+  {
+   "year": 2022,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 1: Plutonium",
+     "problem": "Plutonium is a radioactive element.\n$\\mathrm{Pu}^{239}$ decays with a half-life of $t_{1/2} = 24\\,000$ years.\nIn this decay an $\\alpha$-particle is released.\nCalculate the flux density of $\\alpha$-particles (= the number of particles released per second and per unit area) just next to a plate of $\\mathrm{Pu}^{239}$.\nData: The plate has a thickness $d = 1.0\\ \\mathrm{mm}$. The length and width are much larger than the thickness. The density of plutonium is $\\rho = 19.8 \\cdot 10^3\\ \\mathrm{kg/m^3}$. One atom of $\\mathrm{Pu}^{239}$ has a mass $m_0 = 3.84 \\cdot 10^{-25}\\ \\mathrm{kg}$.",
+     "problem_orig": "Plutonium is een radioactief element.\n$\\mathrm{Pu}^{239}$ vervalt met een halveringstijd van $t_{1/2} = 24.000$ jaar.\nBij dit verval komt een $\\alpha$-deeltje vrij.\nBereken de flux-dichtheid van $\\alpha$-deeltjes (= het aantal deeltjes dat vrijkomt per seconde en per eenheid van oppervlak) vlak bij een plaat $\\mathrm{Pu}^{239}$.\nGegevens: De plaat heeft een dikte van $d = 1{,}0\\ \\mathrm{mm}$. De lengte en breedte zijn veel groter dan de dikte. De dichtheid van plutonium is $\\rho = 19.8 \\cdot 10^3\\ \\mathrm{kg/m^3}$. Eén atoom $\\mathrm{Pu}^{239}$ heeft een massa van $m_0 = 3{,}84 \\cdot 10^{-25}\\ \\mathrm{kg}$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 2: Interference",
+     "problem": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-2-fig1.png\n\nIn a screen D there are 4 very narrow, parallel slits at mutual distances of $2.7\\ \\mathrm{mm}$, $5.4\\ \\mathrm{mm}$ and $2.7\\ \\mathrm{mm}$ respectively. The screen D is illuminated by a parallel beam of monochromatic light of wavelength $0.48\\ \\mathrm{\\mu m}$. The light is incident perpendicularly on the screen. Behind each slit diffraction occurs, so that on a distant screen the contributions of the 4 slits give rise to an interference pattern. This pattern is made visible nearby in the focal plane F of the lens L, which has a focal length of $5.4\\ \\mathrm{m}$.\nThe light rays that leave the slits undeflected thus come together in the principal focus H and give rise there to an intensity $I_H$.\n(a) Construct in a phasor diagram, from the partial amplitudes of the 4 slits, the total amplitude that gives rise to $I_H$.\nRays that leave the slits at an angle $\\phi = 2.0 \\cdot 10^{-4}$ radian with AH arrive at the secondary focus B and give an intensity $I_B$ there.\n(b) Construct in a phasor diagram, from the partial amplitudes of the 4 slits, the total amplitude that gives rise to $I_B$. Then express $I_B$ in terms of $I_H$.\n(c) Calculate in the same way (via the construction of the total amplitude) the light intensity $I_N$ at the point N, located $1\\ \\mathrm{mm}$ below B.",
+     "problem_orig": "https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-2-fig1.png\n\nIn een scherm D bevinden zich 4 zeer nauwe, evenwijdige spleten op onderlinge afstanden van resp. $2{,}7\\ \\mathrm{mm}$, $5{,}4\\ \\mathrm{mm}$ en $2{,}7\\ \\mathrm{mm}$. Het scherm D wordt verlicht met een evenwijdige bundel monochromatisch licht van golflengte $0{,}48\\ \\mathrm{\\mu m}$. Het licht valt loodrecht in op het scherm. Achter elke spleet treedt buiging op, waardoor op een ver verwijderd scherm de bijdragen van de 4 spleten aanleiding geven tot een interferentiepatroon. Dit patroon wordt dichtbij zichtbaar gemaakt in het brandvlak F van de lens L, die een brandpuntsafstand heeft van $5{,}4\\ \\mathrm{m}$.\nDe lichtstralen, die ongebogen de spleten verlaten, komen dus samen in het hoofdbrandpunt H en geven daar aanleiding tot een intensiteit $I_H$.\n(a) Construeer in een fasediagram uit de deelamplituden der 4 spleten de totale amplitude, die aanleiding geeft tot $I_H$.\nStralen, die onder een hoek $\\phi = 2{,}0 \\cdot 10^{-4}$ radiaal met AH de spleten verlaten, komen terecht in het bijbrandpunt B en geven daar een intensiteit $I_B$.\n(b) Construeer in een fasediagram uit de deelamplituden der 4 spleten de totale amplitude, die aanleiding geeft tot $I_B$. Druk vervolgens $I_B$ uit in $I_H$.\n(c) Bereken op dezelfde wijze (via de constructie van de totale amplitude) de lichtintensiteit $I_N$ in het punt N, gelegen 1 mm beneden B.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 3: RLC circuit",
+     "problem": "In the figure the components satisfy:\n$R_1 = 3R$, $R_2 = R$, $C_1 = C_2$ and $L_1 = L_2$. The voltage of the voltage source is $\\epsilon$.\nThe switch is initially closed and the circuit has been operating for some time.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-3-fig1.png\n\n(a) Explain what the voltmeter reads in this situation.\nThe switch is now opened.\n(b) Explain what the voltmeter reads immediately after the switch is opened.\n(c) Determine, for each resistor, the heat dissipated after the switch is opened until a new equilibrium has been reached.",
+     "problem_orig": "In de figuur geldt voor de componenten:\n$R_1 = 3R$, $R_2 = R$, $C_1 = C_2$ en $L_1 = L_2$. De spanning van de spanningsbron is $\\epsilon$.\nDe schakelaar is in eerste instantie gesloten en de schakeling werkt al een tijdje.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-3-fig1.png\n\n(a) Leg uit wat de voltmeter in deze situatie aangeeft.\nDe schakelaar wordt nu geopend.\n(b) Leg uit wat de voltmeter direct na het openen van de schakelaar aangeeft.\n(c) Bepaal van elke weerstand de warmte die wordt gedissipeerd na het openen van de schakelaar en tot een nieuw evenwicht is bereikt.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 4: Satellite",
+     "problem": "A massive satellite rotating about its axis is in a weightless state. On the surface of the satellite a mechanism in the form of a ring band has been fitted. A mass $m$ is attached to this ring band by a cord in such a way that it rotates with a speed $v$ at a distance $r$ from the axis of the satellite (see the figure). The initial speed of mass $m$ is $v_0$ and the initial radius is $r_0$. With the mechanism the cord can be hauled in, so that the radius of revolution of mass $m$ decreases. The centre of rotation of the mass remains the same, and you may assume that the mass of the satellite is very much larger than the mass $m$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-4-fig1.png\n\n(a) Determine the original tension in the cord.\n(b) Suppose that the cord is hauled in at constant speed, in other words, $r$ decreases uniformly from the initial value $r_0$. Which conservation law then holds? Give an expression for the speed $v$ of the mass $m$ as a function of $r$, $r_0$ and the initial speed $v_0$.\n(c) If the cord breaks at a maximum tension $F_{max}$ and the radius of the satellite is $R$, which conditions must then be satisfied in order to bring the mass into the satellite?\n(d) Calculate the work that must be done to bring the mass $m$ from radius $r_0$ to radius $R$.",
+     "problem_orig": "Een massieve satelliet die om haar as roteert bevindt zich in een gewichtsloze toestand. Aan het oppervlak van de satelliet is een mechanisme in de vorm van een ringband aangebracht. Aan deze ringband is een massa $m$ zodanig aan een koord bevestigd, dat deze roteert met een snelheid $v$ op een afstand $r$ van de as van de satelliet (zie de figuur). De beginsnelheid van massa $m$ is $v_0$ en de beginstraal is $r_0$. Met het mechanisme kan het koord ingehaald worden, zodat de omwentelingsstraal van massa $m$ afneemt. Het middelpunt van rotatie van de massa blijft dezelfde en je mag aannemen dat de massa van de satelliet heel veel groter is dan de massa $m$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-4-fig1.png\n\n(a) Bepaal de oorspronkelijke spanning in het koord,\n(b) Veronderstel dat het koord met constante snelheid wordt ingehaald, met andere woorden, $r$ neemt vanaf de beginwaarde $r_0$ uniform af. Welke behoudswet geldt er dan? Geef een uitdrukking voor de snelheid $v$ van de massa $m$ als functie van $r$, $r_0$ en de beginsnelheid $v_0$.\n(c) Indien het koord bij een maximale spankracht $F_{max}$ breekt en de straal van de satelliet $R$ is, aan welke voorwaarden moet dan voldaan worden om de massa binnen de sateliet te brengen?\n(d) Bereken de arbeid die verricht moet worden om de massa $m$ van straal $r_0$ tot straal $R$ te brengen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 5: Speed distribution in a gas",
+     "problem": "In a gas the particles have different speeds. The distribution function of the speeds looks as follows:\n$$f(v) = Av^3e^{-av^2}$$\nThe distribution function is such that $f(v)\\,dv$ represents the number of particles that have a speed between $v$ and $v + dv$.\n$A$ is a (normalisation) constant and $\\alpha = \\frac{M}{2RT}$, where $M$ is the molar mass, $R$ the gas constant and $T$ the absolute temperature of the gas.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-5-fig1.png\n\nA narrow beam of molecules of a gas at a temperature of $500\\ \\mathrm{K}$ is passed through an apparatus consisting of two discs rotating at the same speed. In the discs there is a slot that can let the beam through. The second slot is shifted by $30^\\circ$ with respect to the first. The distance between the discs is $0.21\\ \\mathrm{m}$. The maximum number of molecules passing through is found when the discs make 250 revolutions per second.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-5-fig2.png\n\n[teller: counter (detector); 250 omw/s: 250 rev/s]\n\nCalculate the molar mass $M$ of the gas.",
+     "problem_orig": "In een gas hebben de deeltjes verschillende snelheden. De verdelingsfunctie van de snelheden ziet er als volgt uit:\n$$f(v) = Av^3e^{-av^2}$$\nDe verdelingsfunctie is zodanig dat $f(v)\\,dv$ het aantal deeltjes voorstelt dat een snelheid bezit tussen $v$ en $v + dv$ .\n$A$ is een (normerings)constante en $\\alpha = \\frac{M}{2RT}$, waarin $M$ de molaire massa is, $R$ de gasconstante en $T$ de absolute temperatuur van het gas.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-5-fig1.png\n\nEen smalle bundel moleculen van een gas met een temperatuur van $500\\ \\mathrm{K}$, wordt door een apparaat geleid dat bestaat uit twee schijven die met dezelfde snelheid ronddraaien. In de schijven zit een uitsparing die de bundel kan doorlaten. De tweede uitsparing is $30^\\circ$ verschoven t.o.v. de eerste. De onderlinge afstand van de schijven is $0{,}21\\ \\mathrm{m}$. Het maximumaantal moleculen dat doorgelaten wordt, wordt gevonden als de schijven 250 omwentelingen per seconde maken.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-5-fig2.png\n\nBereken de molaire massa $M$ van het gas.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 6: Hydrogen atom",
+     "problem": "According to quantum theory, the radius of the hydrogen atom depends on the quantities $e$ (elementary charge), $\\varepsilon_0$ (electric permittivity of vacuum), $h$ (Planck constant) and $m$ (mass of the electron).\n(a) Derive, by means of dimensional analysis, a formula for the radius of the hydrogen atom.\n(b) Assuming that the dimensionless constant in the formula you found has the value 1, calculate the radius of the hydrogen atom.",
+     "problem_orig": "Volgens de quantumtheorie hangt de straal van het waterstofatoom af van de grootheden $e$ (elementaire lading), $\\varepsilon_0$ (elektrische permittiviteit in vacuüm), $h$ (constante van Planck) en $m$ (massa van het elektron).\n(a) Leid d.m.v. een dimensieanalyse een formule af voor de straal van het waterstofatoom.\n(b) Stel dat de dimensieloze constante in je gevonden formule de waarde 1 heeft, bereken de straal van het waterstofatoom.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 7: Two spheres",
+     "problem": "Consider two concentric spherical metal shells with radii $a$ and $b$, see figure 1a. From infinity a charge $+Q$ is brought onto the inner shell and a charge $-Q$ onto the outer one.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-7-fig1.png\n\n(a) Calculate the potential difference between the spheres.\n(b) Explain how much work has been done.\nNow let the shells not be concentric, but have a distance $c$ between their centres, see figure 1b.\n(c) Argue that the work $W$ that must now be done to bring a charge $\\pm Q$ onto the two shells is given by an expression of the form $W = f(a, b, c)Q^2$. You do not need to calculate the function itself.",
+     "problem_orig": "Beschouw twee concentrische bolvormige metalen schillen met straal $a$ en $b$, zie figuur 1a. Vanuit het oneindige wordt een lading $+Q$ op de binnenste schil een een lading $-Q$ op de buitenste gebracht.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-7-fig1.png\n\n(a) Bereken het potentiaalverschil tussen de bollen.\n(b) Leg uit hoeveel arbeid er is verricht.\nLaat de schillen niet concentrisch zijn maar een afstand $c$ tussen de middelpunten hebben, zie figuur 1b.\n(c) Beredeneer dat de arbeid $W$ die nu verricht moet verrichten om een lading $\\pm Q$ op de twee schillen te brengen, wordt gegeven door een uitdrukking van de vorm $W = f(a, b, c)Q^2$. Je hoeft de functie zelf niet te berekenen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 8: Billiard ball",
+     "problem": "A billiard ball of radius $r$ is struck at a height $x$ above the table. The table is perfectly smooth. Nevertheless, for a certain value of $x$ the ball starts rolling without slipping.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-8-fig1.png\n\n[stoot: impulse]\n\n(a) Find for which value of $x$ (expressed in $r$) this is the case.\n(b) Does this value become larger or smaller when the table is not perfectly smooth?",
+     "problem_orig": "Een biljartbal met straal $r$ wordt aangestoten op een hoogte $x$ boven de tafel. De tafel is volkomen glad. Desondanks gaat de bal bij een zekere waarde voor $x$ rollen zonder te slippen.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-8-fig1.png\n\n(a) Ga na bij welke waarde voor $x$ (uitgedrukt in $r$) dit het geval is.\n(b) Wordt deze waarde groter of kleiner wanneer de tafel niet volkomen glad is?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 9: Rotating bowl",
+     "problem": "In the past, fine mirrors for astronomy were made by setting a bath of mercury rotating. Alongside you see a small experiment with coloured water, in which the shape taken by the water is visible. Derive the formula that describes the shape the water takes.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-9-fig1.png",
+     "problem_orig": "Vroeger maakte men mooie spiegels voor astronomie door een bad met kwik rond te laten draaien. Hiernaast zie je een proefje met gekleurd water, waarin de vorm die het water aanneemt zichtbaar is. Leid de formule af die de vorm die het water aanneemt beschrijft.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-9-fig1.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 10: Bouncing balls",
+     "problem": "A ball B is thrown horizontally from a height $h_B$ with a speed $v$. A little later it hits the ground at a distance $x_B$. A ball A is thrown from a height $h_A$ with the same speed $v$ and, after bouncing once, also ends up at the distance $x_B$. At each bounce the height becomes smaller by a factor $k$; the horizontal speed $v$ remains the same.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-10-fig1.png\n\n(a) Give an expression for the height $h_A$ from which you must throw ball A so that after bouncing once it arrives at the same place as ball B.\n(b) And if ball A must first bounce N times before it reaches B?",
+     "problem_orig": "Een bal B wordt van een hoogte $h_B$ met een snelheid $v$ horizontaal geworpen. Hij komt even later op de grond op een afstand $x_B$. Een bal A wordt van een hoogte $h_A$ met dezelfde snelheid $v$ geworpen en komt na één keer stuiteren ook op de afstand $x_B$ uit. Bij elke stuiter wordt de hoogte een factor $k$ kleiner, de horizontale snelheid $v$ blijft daarbij gelijk.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-10-fig1.png\n\n(a) Geef een uitdrukking voor de hoogte $h_A$ waar je de bal A vanaf moet werpen om na één keer stuiteren op dezelfde plaats als bal B te komen.\n(b) En als de bal A eerst N keer moet stuiteren voor deze bij B komt?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 11: Aircraft navigation",
+     "problem": "In this problem a navigation aid for aircraft approaching the airport is investigated. Assume that at the end of the runway there is a radio transmitting tower on either side. These transmitting towers are $100\\ \\mathrm{m}$ apart. Both towers emit a signal of frequency $f_0 = 12\\ \\mathrm{MHz}$, and the signals are in phase with each other. An aircraft that has a speed $v$ relative to the ground approaches the runway such that the velocity makes an angle $\\theta$ with the runway (see the figure). For the aircraft, which is still far away, the autopilot has been set via the signals to the point exactly midway between the towers.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-11-fig1.png\n\n(a) From the given position of the aircraft, the intensity of the signal from each of the towers is equal to $I_0$. Determine the result the aircraft receives due to the two signals when the aircraft flies in at an angle $\\theta = 0$ and also at an angle $\\theta = \\pi/2$.\n(b) At which angles $\\theta$ would the aircraft receive no signal? If the aircraft had the instruction to fly in at an angle $\\theta = 30^\\circ$, what kind of signal would the pilot expect from the two towers?\n(c) The aircraft has gone off course and approaches the airport at an angle $\\theta = 0^\\circ$ and is flying exactly towards one of the towers, i.e. not towards the middle of the runway. The aircraft is still very far away, but the closer it gets, the weaker the signal becomes. How far is the aircraft from the nearest tower when the signal has weakened to the minimum?",
+     "problem_orig": "In dit vraagstuk zal een navigatie hulpmiddel voor vliegtuigen die de luchthaven naderen worden onderzocht. Neem aan dat aan het einde van de landingsbaan aan weerszijden een radio zendtoren staat. Deze zendtorens staan op $100\\ \\mathrm{m}$ van elkaar af. Beide torens zenden een signaal uit met een frequentie $f_0 = 12\\ \\mathrm{MHz}$ die met elkaar in fase zijn. Een vliegtuig die een snelheid $v$ ten opzichte van de grond heeft nadert de landingsbaan zodanig dat de snelheid een hoek $\\theta$ met de landingsbaan maakt (zie de figuur). Van het vliegtuig dat nog ver verwijderd is, is de automatische piloot via de signalen ingesteld op het punt precies tussen de torens.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-11-fig1.png\n\n(a) Vanuit de gegeven positie van het vliegtuig is de intensiteit van het signaal van elk van de torens gelijk aan $I_0$. Bepaal het resultaat dat het vliegtuig ontvangt ten gevolge van de twee signalen, als het vliegtuig invliegt onder een hoek $\\theta = 0$ en ook onder een hoek $\\theta = \\pi/2$.\n(b) Onder welke hoeken $\\theta$ zou het vliegtuig geen signaal ontvangen? Als het vliegtuig de opdracht had onder hoek $\\theta = 30^\\circ$ in te vliegen, wat voor soort signaal zou de piloot van de twee torens verwachten?\n(c) Het vliegtuig is uit koers geraakt en nadert de luchthaven onder een hoek $\\theta = 0^\\circ$ en vliegt precies op één van de torens af, dus niet naar het midden van de landingsbaan. Het vliegtuig is nog steeds erg ver, maar hoe dichterbij het komt hoe zwakker het signaal wordt. Hoe ver is het vliegtuig van de dichtstbijzijnde toren als het signaal tot het minimum is afgezwakt?",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 12: Sound along a fence",
+     "problem": "Jaap walks along a long fence of bars spaced 17 cm apart. He notices that at each step (with a hard heel) he hears a kind of whistle like 'tsjioe', which starts high and then dies away with a lower constant tone. He hears it only when that fence is next to him, otherwise not.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-12-fig1.png\n\n(a) Where does that sound come from at each step?\n(b) Give a reasoned estimate of the frequency of the sound.",
+     "problem_orig": "Jaap loopt langs een lang hek van staven van een 17 cm uit elkaar. Het valt hem op dat bij elke stap (met een harde hak) hij een soort fluit als ‘tsjioe’ hoort, dat hoog begint en dan met een lagere constante toon uitdooft. Hij hoort dat alleen als dat hek naast hem is, anders niet.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2022-12-fig1.png\n\n(a) Waar komt dat geluid vandaan bij elke stap?\n(b) Geef een beredeneerde schatting van de frequentie van het geluid.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 13: Bicycle tyre",
+     "problem": "When pumping up a bicycle tyre, one litre of air at normal atmospheric pressure is compressed adiabatically to a pressure of 7 bar. (Air consists mainly of diatomic nitrogen and oxygen.)\n(a) What is the volume of the air after compression?\n(b) Calculate the work required for the compression.\n(c) Calculate the temperature after compression, assuming that the air temperature is initially 300 K.",
+     "problem_orig": "Bij het oppompen van een fietsband wordt een liter lucht bij normale luchtdruk adiabatisch samengeperst tot een druk van 7 bar. (Lucht is vooral twee-atomige stikstof en zuurstof)\n(a) Wat is het volume van de lucht na samenpersen?\n(b) Bereken de arbeid benodigd voor de compressie.\n(c) Bereken de temperatuur na compressie, ervan uitgaande dat de luchttemperatuur in eerste instantie 300 K is.",
+     "orig_lang": "nl"
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 1: Relativistic running",
+     "problem": "Gerrit Einstein has a very fast car. He sometimes drives past an orange (amber) traffic light because he sees it as green. That, however, is nothing. Jan Lorentz runs so fast that he sees a red light as green. The wavelengths of green, orange and red light are $\\lambda_g = 550\\ \\mathrm{nm}$, $\\lambda_o = 600\\ \\mathrm{nm}$ and $\\lambda_r = 700\\ \\mathrm{nm}$, respectively.\nDetermine the difference in speed between Gerrit and Jan.",
+     "problem_orig": "Gerrit Einstein heeft een hele snelle auto. Hij rijdt soms langs een oranje verkeerslicht omdat hij deze als groen ziet. Dat stelt echter niets voor. Jan Lorentz rent zo hard dat hij een rood licht als groen ziet. De golflengtes van groen, oranje en rood licht zijn respectievelijk $\\lambda_g = 550\\ \\mathrm{nm}$, $\\lambda_o = 600\\ \\mathrm{nm}$ en $\\lambda_r = 700\\ \\mathrm{nm}$.\nBepaal het verschil in snelheid tussen Gerrit en Jan.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 2: Burning glass",
+     "problem": "The solar constant is $K = 1361\\ \\mathrm{W/m^2}$.\nAt the beginning of summer, on a sunny day around noon, the temperature is $35^\\circ\\ \\mathrm{C}$.\nWe hold a positive lens with a diameter of $D = 6.0\\ \\mathrm{cm}$ perpendicular to the sun's rays. We place a small black ball with good thermal conductivity and a radius of $1.0\\ \\mathrm{mm}$ in the focal point of the magnifying glass behind the lens.\nWhat will eventually be the temperature of the ball?\nHeat loss by convection may be neglected. $60\\%$ of the sun's radiation passes through the atmosphere on Earth and the burning glass transmits $65\\%$ of the radiation.",
+     "problem_orig": "De zonneconstante is $K = 1361\\ \\mathrm{W/m^2}$.\nAan het begin van de zomer, op een zonnige dag rond het middaguur is de temperatuur $35^\\circ\\ \\mathrm{C}$.\nWe houden een positieve lens met diameter van $D = 6{,}0\\ \\mathrm{cm}$ loodrecht op de zonnestralen. We plaatsen een kleine zwarte goed warmtegeleidende bal met een straal van $1{,}0\\ \\mathrm{mm}$ in het brandpunt van het vergrootglas achter de lens.\nWat wordt uiteindelijk de temperatuur van het balletje?\nWarmteverlies door confectie mag verwaarloosd worden. $60\\%$ van de straling van de zon komt door de atmosfeer op aarde en het brandglas laat $65\\%$ straling door.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 3: LEDs",
+     "problem": "A metal rod moves with constant speed $v$ between the two poles of a large round magnet with a radius $R = 5\\ \\mathrm{cm}$. The strength of the magnetic field is $B = 1.0\\ \\mathrm{T}$. The velocity $v$ is perpendicular to the field lines. See the figure.\nThe rod is longer than $2R$ and is connected to a battery with a voltage of $\\varepsilon_0 = 0.50\\ \\mathrm{V}$ and two LEDs $C_1$ and $C_2$. An LED lights up when the voltage across it is greater than $U \\geq 0.25\\ \\mathrm{V}$. See the circuit diagram for the polarity.\nThe instant at which the rod passes the edge of the magnet is called $t = 0\\ \\mathrm{s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-3-fig1.png\n\n(a) Make a qualitative sketch of the voltage across the LEDs for $0 < t < 2R/v$. Indicate whether and when the LEDs emit light or not. If there are several possibilities, indicate this.\n(b) It turns out that LED $C_1$ gives a very short pulse of light halfway through the interval. Explain with a calculation what the speed $v$ of the rod is.",
+     "problem_orig": "Een metalen staaf beweegt met constante snelheid $v$ tussen de twee polen van een grote ronde magneet met een straal $R = 5\\ \\mathrm{cm}$. De strekte van het magneetveld is $B = 1{,}0\\ \\mathrm{T}$. De snelheid $v$ staat loodrecht op de veldlijnen. Zie de figuur.\nDe staaf is langer dan $2R$ en is verbonden met een batterij met een spanning van $\\varepsilon_0 = 0{,}50\\ \\mathrm{V}$ en twee LEDS $C_1$ en $C_2$. Een LED gaat branden als de spanning erover groter is dan $U \\geq 0{,}25\\ \\mathrm{V}$. Zie het schakelschema voor wat betreft de polariteit.\nHet tijdstip dat de staaf de rand van de magneet voorbij gaat noemen we $t = 0\\ \\mathrm{s}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-3-fig1.png\n\n(a) Maak een kwalitatieve schets van de spanning over de LEDs voor $0 < t < 2R/v$. Geef hierbij aan of en wanneer de LEDs licht geven of niet. Als er meerdere mogelijkheden zijn, geef dat dan aan.\n(b) Het blijkt dat LED $C_1$ halverwege het interval een heel kort lichtpulsje geeft. Leg met een berekening uit wat de snelheid $v$ van de staaf is.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 4: Composite system",
+     "problem": "Consider a composite system with two subsystems, $L$ and $R$. Both subsystems contain 4 indistinguishable particles. In both subsystems distinguishable energy levels are available, which however differ between the subsystems $L$ and $R$. In subsystem $L$ levels are available with energy 0, 1, 2, 3, 4, 5, 6, etc. In subsystem $R$ the same levels are available with the exception of the level with energy 2. This is shown schematically in the figure below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-4-fig1.png\n\nIn the initial state the two subsystems are not in thermal or mechanical contact with each other, and together they are and remain thermally insulated from the surroundings. The total energy of subsystem $L$ is 4 and the total energy of subsystem $R$ is 6. Thermal contact is made between the subsystems, which allows the transfer of one or more energy units. Particles cannot be exchanged and the volumes of the subsystems remain the same. A possible process that can take place is the transfer of one energy unit, such that the total energy of both subsystems becomes equal to 5. The process is shown schematically in the figure below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-4-fig2.png\n\n(a) Show that the total number of ways $\\Omega$ in which 4 indistinguishable particles in subsystem $R$ have a total energy of 6 is equal to 38. Use the attachment.\n(b) Show that the entropy of the combined subsystems in the initial state, calculated with the Boltzmann formula, is equal to $S_i = k_B \\ln 1330$. Use the attachment.\n\nAttachment to test 1:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-4-fig3.png",
+     "problem_orig": "Beschouw een samengesteld systeem met twee deelsystemen, $L$ en $R$. Beide deelsystemen bevatten 4 ononderscheidbare deeltjes. In beide deelsystemen zijn onderscheidbare energieniveaus beschikbaar, die echter verschillen tussen de deelsystemen $L$ en $R$. In deelsysteem $L$ zijn niveaus beschikbaar met energie 0, 1, 2, 3, 4, 5, 6, enz… In deelsysteem $R$ zijn dezelfde niveaus beschikbaar met uitzondering van het niveau met energie 2. Schematisch is dit weergegeven in onderstaande figuur.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-4-fig1.png\n\nIn de begintoestand zijn de beide deelsystemen thermisch en mechanisch niet in contact met elkaar en tezamen zijn en blijven ze thermisch geïsoleerd van de omgeving. De totale energie van deelsysteem $L$ is 4 en de totale energie van deelsysteem $R$ is 6. Er wordt thermisch contact gemaakt tussen de deelsystemen, hetgeen overdracht van een of meer energie-eenheden mogelijk maakt. Deeltjes kunnen niet worden uitgewisseld en de volumes van de deelsystemen blijven gelijk. Een mogelijk proces dat kan plaatsvinden is de overdracht van een energie-eenheid, zodanig dat de totale energie van beide deelsystemen gelijk wordt aan 5. Het proces is schematisch weergegeven in onderstaande figuur.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-4-fig2.png\n\n(a) Laat zien dat het totaal aantal mogelijkheden $\\Omega$ waarop in het deelsysteem $R$ 4 ononderscheidbare deeltjes een totale energie van 6 hebben gelijk is aan 38. Gebruik de bijlage.\n(b) Laat zien dat de entropie van de gecombineerde deelsystemen in de begintoestand berekend volgens de Boltzmann formule gelijk is aan $S_i = k_B \\ln 1330$. Gebruik de bijlage.\n\nBijlage bij toets 1:\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-4-fig3.png",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 5: Boiling water with plutonium",
+     "problem": "Calculate the mass of the amount of ${}^{238}Pu$ (in grams) needed to bring $300\\ \\mathrm{mL}$ of water to the boil in $3$ minutes for breakfast while camping. The initial temperature is $T_0 = 15\\ ^\\circ\\mathrm{C}$. Assume that $80\\%$ of the energy of the decay can be used. The half-life of ${}^{238}Pu$ is $87.7$ years, the alpha particles have an average energy of $5.593\\ \\mathrm{MeV}$ and the specific heat capacity of water is $c = 4180\\ \\mathrm{J \\cdot kg^{-1} \\cdot K^{-1}}$.",
+     "problem_orig": "Bereken de massa van de hoeveelheid ${}^{238}Pu$ (in gram) die nodig is om $300\\ \\mathrm{mL}$ water in $3$ minuten aan de kook te krijgen voor het ontbijt tijdens het kamperen. De begintemperatuur is $T_0 = 15\\ ^\\circ\\mathrm{C}$. Neem aan dat $80\\%$ van de energie van het verval gebruikt kan worden. De halfwaardetijd van ${}^{238}Pu$ is $87{,}7$ jaar, de alfa deeltjes hebben een gemiddelde energie van $5{,}593\\ \\mathrm{MeV}$ en de soortelijke warmte van water is $c = 4180\\ \\mathrm{J \\cdot kg^{-1} \\cdot K^{-1}}$.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 6,
+     "paper_label": "Theory, part 1",
+     "title": "Problem 6: Bungee jumping",
+     "problem": "Ad (mass $m = 70\\ \\mathrm{kg}$) jumps from a platform at a height $h = 90\\ \\mathrm{m}$ above a lake. A rubber cord with a length $L$ and a spring constant $k$ is attached to Ad's feet (and, fortunately, with the other end to the platform). Just above the water surface Ad must have no more speed and an acceleration of $a_0 = 2g$. For convenience take $g = 10\\ \\mathrm{m/s^2}$ and assume that the rubber cord obeys Hooke's law. Neglect Ad's dimensions and the mass of the cord. Neglect air resistance and energy loss, at least until the first time Ad just fails to touch the water.\nCalculate:\n(a) The rest length $L$ of the cord and the spring constant $k$.\n(b) The length of the cord when Ad has finally stopped oscillating and hangs in equilibrium somewhere between the platform and the lake.\n(c) The maximum speed $v_{max}$ of Ad.\n(d) The time $\\tau$ Ad needs to reach the water (almost) for the first time.\nFor all answers, show clearly how you arrived at your answer. A picture works wonders.",
+     "problem_orig": "Ad (massa $m = 70\\ \\mathrm{kg}$) springt van een platform op een hoogte $h = 90\\ \\mathrm{m}$ boven een meer. Een rubberen koord met een lengte $L$ en een veerconstante $k$ is bevestigd aan de voeten van Ad (en met het andere einde gelukkig aan het platform). Vlak boven het wateroppervlak mag Ad geen snelheid meer hebben en een versnelling van $a_0 = 2g$. Neem voor het gemak $g = 10\\ \\mathrm{m/s^2}$ en dat het rubberen koord voldoet aan de wet van Hooke. Verwaarloos Ad’s dimensies en de massa van het koord. Verwaarloos luchtweerstand en energieverlies in ieder geval tot de eerste keer dat Ad het water net niet raakt.\nBereken:\n(a) De rustlengte van $L$ van het koord en de veerconstante $k$.\n(b) De lengte van het koord als Ad uiteindelijk uitgetrild is en in evenwicht ergens tussen het platform en het meer hangt.\n(c) De maximale snelheid $v_{max}$ van Ad.\n(d) De tijd $\\tau$ die Ad nodig heeft om voor de eerste keer het water (bijna) te bereiken.\nLaat bij alle antwoorden duidelijk zien hoe je aan je antwoord gekomen bent. Een plaatje doet wonderen.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 7,
+     "paper_label": "Theory, part 1",
+     "title": "Bonus problem B1: Throwing upwards",
+     "problem": "You have probably learned that when an object is thrown straight up in the air, it takes as long to reach the maximum height as it takes to come back to the ground.\nExplain in no more than 6 lines whether this is true.",
+     "problem_orig": "Je hebt waarschijnlijk geleerd dat als een voorwerp in de lucht recht omhoog wordt gegooid, het even lang duurt om de maximum hoogte te bereiken als dat het weer duurt om op de grond te komen.\nLeg in niet meer dan 6 regels uit of dit waar is.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 8,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 7: Seesaw",
+     "problem": "Two small identical metal balls of mass $m$ are attached to the ends of a thin long spoke of length $L$. This spoke is placed on a block of width $l \\ll L$ such that the middle of the spoke is exactly above the middle of the block. The spoke is then given a small deflection $\\alpha \\ll 1$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-8-fig1.png\n\nCalculate the period of small oscillations of the spoke. Assume that the spoke does not slide off the block and that there is no energy loss at the transition from one corner of the block to the other corner.",
+     "problem_orig": "Twee kleine identieke metalen balletjes met massa $m$ zijn bevestigd aan een het einde van een dunne lange spaak met lengte $L$. Deze spaak wordt zo op een blokje met breedte $l \\ll L$ geplaatst dat het midden van de spaak precies boven het midden van het blokje zit. Vervolgens wordt de spaak een kleine uitwijking $\\alpha \\ll 1$ gegeven.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-8-fig1.png\n\nBereken de periode van kleine oscillaties van de spaak. Neem hierbij aan dat de spaak niet van het blokje glijdt en dat er geen energieverlies bij de overgang van de ene hoek van het blokje naar de andere hoek.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 9,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 8: Proton from the Sun",
+     "problem": "An astronomer suddenly saw, close to a sunspot, the eruption of a solar flare on the surface of the Sun. In it a proton was released with a total energy of $E = 1012\\ \\mathrm{MeV}$. The Earth–Sun distance is $l = 1.49 \\cdot 10^9\\ \\mathrm{m}$.\nCalculate how long it takes for the proton to fly to the Earth (from the moment the astronomer observed the eruption).",
+     "problem_orig": "Een astronoom zag vlakbij een zonnevlek plotseling een uitbarsting van een zonnevlam op het oppervlak van de zon. Hierbij kwam een proton vrij met een totale energie van $E = 1012\\ \\mathrm{MeV}$. De afstand aarde-zon is dan $l = 1{,}49 \\cdot 10^9\\ \\mathrm{m}$\nBereken hoe lang het duurt voor het proton om naar de aarde te vliegen (vanaf het moment dat de astronoom de uitbarsting waarnam).",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 10,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 9: Kelvin",
+     "problem": "There is a rumour that Kelvin's archive contains a graph of a thermodynamic cycle performed on one mole of an ideal monatomic gas. The ink has faded over time, so that there are no traces left of the $T$-axis (temperature) and the $V$-axis (volume). According to the notes with the graph, the temperature at point $A$ is $400\\ \\mathrm{K}$, the volume is $4\\ \\mathrm{L}$, the pressure is minimal, and the origin of the coordinates lies in the lower part of the plot. The scale of the graph is also still visible.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-10-fig1.png\n\n(a) Construct the $T$- and $V$-axes in the figure on the attachment. Explain your construction.\n(b) Determine the maximum gas pressure in the cycle.",
+     "problem_orig": "Er gaat een gerucht dat Kelvins archief een grafiek bevat van een thermodynamische cyclus uitgevoerd over één mol van een ideaal mono atomair gas. De inkt is mettertijd vervaagd, zodat er geen sporen meer zijn van de $T$-as (temperatuur) en de $V$-as (volume). Volgens de opmerkingen bij de grafiek is de temperatuur in het punt $A$ gelijk aan $400\\ \\mathrm{K}$, het volume is $4\\ \\mathrm{L}$, de druk is minimaal, en de coördinatenoorsprong ligt in het onderste deel van de plot. De schaal van de grafiek is ook nog zichtbaar.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-10-fig1.png\n\n(a) Construeer in de figuur op de bijlage de $T$- en de $V$-as. Geef uitleg bij je constructie.\n(b) Bepaal de maximale gasdruk in de cyclus.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 11,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 10: Wave interference",
+     "problem": "A plane wave with wavelength $\\lambda = 0.50\\ \\mathrm{mm}$ is incident perpendicularly on a barrier containing four parallel slits, each with a width of $d = 0.20\\ \\mathrm{mm}$.\nThe distance between the slits is $D = 5.0\\ \\mathrm{mm}$.\n(a) Determine the direction of the first-order minimum.\n(b) Suppose that one of the two slits in the middle is closed. Calculate the new direction of the first-order minimum in that case.",
+     "problem_orig": "Een vlakke golf met de golflengte $\\lambda = 0{,}50\\ \\mathrm{mm}$ valt loodrecht in op een barrière waarin vier evenwijdige spleten zitten met elk een breedte van $d = 0{,}20\\ \\mathrm{mm}$.\nDe afstand tussen de spleten is $D = 5{,}0\\ \\mathrm{mm}$.\n(a) Bepaal de richting van het eerste orde minimum.\n(b) Stel dat een van twee spleten in het midden spleten gesloten is. Bereken dan de nieuwe richting van het eerste orde minimum.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 12,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 11: Colliding charges",
+     "problem": "Two small particles, each with a mass of $m = 0.1\\ \\mathrm{g}$, are at rest in vacuum at a distance $L = 1.0\\ \\mathrm{m}$ from each other. One particle has a charge $Q = 0.1\\ \\mathrm{\\mu C}$, the other the same charge but opposite. The particles are then released.\nCalculate how long it takes for the particles to touch each other. (You do not need to take into account energy loss by bremsstrahlung.) (Hint: Kepler's third law is useful in working out a solution.)",
+     "problem_orig": "Twee kleine deeltjes, elk met een massa van $m = 0{,}1\\ \\mathrm{g}$, staan op een afstand $L = 1{,}0\\ \\mathrm{m}$ van elkaar stil in vacuüm. Eén deeltje heeft een lading $Q = 0{,}1\\ \\mathrm{\\mu C}$, de andere dezelfde lading maar dan tegengesteld. De deeltjes worden dan los gelaten.\nBereken hoe lang het duurt voor de deeltjes elkaar raken. (Je hoeft geen rekening te houden met energieverlies door Brehmsstraling). (Hint: Keplers derde wet is goed te gebruiken bij het geven van een uitwerking)",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 13,
+     "paper_label": "Theory, part 2",
+     "title": "Problem 12: Capacitors",
+     "problem": "A circuit consists of a battery, a switch, resistors and capacitors as in the circuit shown here. The resistors all have the same resistance $R$, the capacitors an equal capacitance $C$, and the battery has a voltage $U$. Point A is earthed and has a potential of $0\\ \\mathrm{V}$. Initially the switch is open and the capacitors have no charge.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-13-fig1.png\n\n(a) Determine the potential of the points B and C after the switch has been closed and we wait until the potential has stabilised everywhere.\n(b) Do the same for point D.",
+     "problem_orig": "Een schakeling bestaat uit een batterij, een schakelaar, weerstanden en condensatoren zoals in de schakeling hiernaast. De weerstanden hebben allen dezelfde weerstandswaarde $R$, de condensatoren een gelijke capaciteit $C$ en de batterij heeft een spanning $U$. Punt A zit aan aarde en heeft een potentiaal van $0\\ \\mathrm{V}$. In het begin is de schakelaar open en de condensatoren hebben geen lading.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-13-fig1.png\n\n(a) Bepaal de potentiaal van de punten B en C nadat de schakelaar is gesloten en we wachten tot de potentiaal overal is gestabiliseerd.\n(b) Doe hetzelfde voor punt D.",
+     "orig_lang": "nl"
+    },
+    {
+     "day": 1,
+     "number": 14,
+     "paper_label": "Theory, part 2",
+     "title": "Bonus problem B2: Hans in the bend",
+     "problem": "Hans drives a car at constant speed along the track shown, consisting of two straight sections with a circular bend of $270^\\circ$ with centre $M$ between them. At $M$ there is an observer who listens to the sound emitted by the source on the car. He plots the frequency he observes as a function of time, see the diagram. The speed of sound is $325\\ \\mathrm{m/s}$.\nDetermine the radius $R$ of the bend that the car has travelled through.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-14-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-14-fig2.png\n\n[frequentie (Hz) = frequency (Hz); tijd (s) = time (s)]",
+     "problem_orig": "Hans rijdt in een auto met constante snelheid langs het getekende traject bestaande uit twee rechte gedeelten met daartussen een cirkelvormige bocht van $270^\\circ$ met middelpunt $M$. In $M$ bevindt zich een waarnemer die luistert naar het geluid dat de bron op de auto uitzendt. Hij zet de door hem waargenomen frequentie uit als functie van de tijd, zie het diagram. De geluidssnelheid bedraagt $325\\ \\mathrm{m/s}$.\nBepaal de straal $R$ van de bocht die de auto heeft doorlopen.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-14-fig1.png\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/nlnno-2023-14-fig2.png",
+     "orig_lang": "nl"
+    }
+   ]
+  },
+  {
    "year": 2024,
    "problems": [
     {

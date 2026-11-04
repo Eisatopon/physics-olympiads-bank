@@ -284,6 +284,7 @@
     --debw1: #3f3f46; --debw1-ink: #27272a; --debw1-tint: #e8e8ea;
     --itf: #047857; --itf-ink: #03543c; --itf-tint: #dcf3ea;
 }
+.problem, .ex-item { --f: var(--ink); }  /* default row colour: the physics rows have no own palette */
 .f-gr { --f: var(--gr); --f-ink: var(--gr-ink); --f-tint: var(--gr-tint); }
 .f-ar { --f: var(--ar); --f-ink: var(--ar-ink); --f-tint: var(--ar-tint); }
 .f-cn { --f: var(--cn); --f-ink: var(--cn-ink); --f-tint: var(--cn-tint); }
@@ -794,6 +795,10 @@ dialog::backdrop { background: rgba(10, 31, 52, .6); }
 dialog h2 { font: 800 1.3rem/1.2 var(--serif); color: var(--ink); margin-bottom: 6px; }
 dialog p { color: var(--muted); font-size: .92rem; }
 .related-card { border-top: 1px solid var(--line-strong); padding: 18px 0; }
+.daily-h { margin: 22px 0 4px; font: 800 1.25rem/1.2 var(--serif); color: var(--ink); }
+.daily-sel-h { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 10px; }
+.results .problem.daily { content-visibility: visible; }
+.daily-star { border-width: 2px 2px 2px 6px; }
 .linkish { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline; cursor: pointer; }
 #wnDialog { width: min(640px, 94vw); max-height: 88vh; overflow-y: auto; }
 .wn-list { list-style: none; margin: 8px 0 0; padding: 0; }
@@ -1102,7 +1107,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261104-copy-tex-news';
+const DATA_VERSION = '20261104-daily';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
@@ -2258,6 +2263,44 @@ function orgDisclaimer(key) {
 }
 function creditHtml(p) { const t = creditText(p); return t ? `<p class="p-credit">${esc(t)}</p>` : ''; }
 
+// Home page: "Problem of the day" and a daily selection, the same for every visitor on a given day.
+let dailyPool = null, dailyLoading = false, dailySeed = Math.floor(Date.now() / 864e5);
+const isHomeView = () => !state.country && state.year === null && !filtersOn() && state.tab !== 'entrance';
+function mulberry32(a) {
+    return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+}
+function loadDaily() {
+    if (dailyLoading || dailyPool) return;
+    dailyLoading = true;
+    fetch('./metadata/runtime/daily.json?v=' + DATA_VERSION, {cache: 'no-cache'}).then(r => r.ok ? r.json() : null)
+        .then(d => { dailyPool = (d && d.pool || []).filter(x => CBY[x.k]); if (isHomeView()) renderResults(); })
+        .catch(() => { dailyPool = []; });
+}
+function dailyCard(x, star) {
+    const c = CBY[x.k];
+    return `
+    <article class="problem daily f-${x.k}${star ? ' daily-star' : ''}">
+        <div class="p-head"><div class="p-id">
+            <span class="p-num">${esc(x.n)}</span>
+            <span class="p-meta">${c.flag} ${c.name} ${x.y}${x.pl ? `, ${esc(x.pl)}` : x.d ? `, Day ${x.d}` : ''}</span>
+        </div><div class="p-actions"><a class="btn btn-sm" href="?p=${encodeURIComponent(x.u)}">Open</a></div></div>
+        <div class="statement">${bodyHtml(x.t)}</div>
+    </article>`;
+}
+function dailyHtml() {
+    if (!isHomeView()) return '';
+    if (!dailyPool) { loadDaily(); return ''; }
+    if (!dailyPool.length) return '';
+    const rnd = mulberry32(dailySeed), a = dailyPool.slice();
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    const picks = [], flags = new Set();
+    for (const x of a) { const f = CBY[x.k].flag; if (flags.has(f)) continue; flags.add(f); picks.push(x); if (picks.length === 9) break; }
+    const [first, ...rest] = picks;
+    return `<section class="daily-box" aria-label="Problem of the day">
+        <h2 class="daily-h">★ Problem of the day</h2>${dailyCard(first, true)}
+        ${rest.length ? `<div class="daily-sel-h"><h2 class="daily-h">Today's selection from around the world</h2><button type="button" class="btn btn-sm" data-daily-shuffle>Shuffle</button></div>${rest.map(x => dailyCard(x)).join('')}` : ''}
+    </section>`;
+}
 function problemHtml(p) {
     const c = CBY[p.country];
     return `
@@ -2344,6 +2387,8 @@ function renderResults() {
         html += `<p class="note">${failed.size === 1 ? 'One country' : failed.size + ' countries'} could not be loaded (${names}), so results may be incomplete.</p>`;
     }
 
+    const daily = dailyHtml();
+    if (daily) html += daily + '<h2 class="daily-h">All problems, newest first</h2>';
     const singleGroup = state.country && state.year !== null;
     if (singleGroup) {
         if (shown.length) html += creditHtml(shown[0]);
@@ -3081,6 +3126,7 @@ document.addEventListener('click', e => {
         return;
     }
     if (t.hasAttribute('data-whats-new')) { showWhatsNew(); return; }
+    if (t.hasAttribute('data-daily-shuffle')) { dailySeed = Math.floor(Math.random() * 2 ** 31); renderResults(); return; }
     if (t.hasAttribute('data-retry')) { failed.clear(); refresh(); return; }
     if (t.hasAttribute('data-more')) {
         limit += PAGE;

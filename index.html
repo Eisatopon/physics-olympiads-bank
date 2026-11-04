@@ -1119,7 +1119,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261104-potd';
+const DATA_VERSION = '20261104-potd-fixed';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
@@ -2319,11 +2319,14 @@ function dailyHtml() {
     if (!isHomeView()) return '';
     if (!dailyPool) { loadDaily(); return ''; }
     if (!dailyPool.length) return '';
-    const rnd = mulberry32(dailySeed), a = dailyPool.slice();
-    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
-    const picks = [], flags = new Set();
-    for (const x of a) { const f = CBY[x.k].flag; if (flags.has(f)) continue; flags.add(f); picks.push(x); if (picks.length === 9) break; }
-    const [first, ...rest] = picks;
+    const shuffled = seed => {
+        const rnd = mulberry32(seed), a = dailyPool.slice();
+        for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+        return a;
+    };
+    // The Problem of the day is always the day's pick; Shuffle reseeds only the selection below it.
+    const first = shuffled(Math.floor(Date.now() / 864e5))[0], rest = [], flags = new Set([CBY[first.k].flag]);
+    for (const x of shuffled(dailySeed)) { const f = CBY[x.k].flag; if (x.u === first.u || flags.has(f)) continue; flags.add(f); rest.push(x); if (rest.length === 8) break; }
     return `<section class="daily-box" aria-label="Problem of the day">
         ${potdHtml(first)}
         ${rest.length ? `<div class="daily-sel-h"><h2 class="daily-h">Today's selection from around the world</h2><button type="button" class="btn btn-sm" data-daily-shuffle>Shuffle</button></div>${rest.map(x => dailyCard(x)).join('')}` : ''}

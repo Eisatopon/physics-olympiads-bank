@@ -807,6 +807,7 @@ dialog p { color: var(--muted); font-size: .92rem; }
 .daily-sel-h { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 10px; }
 .results .problem.daily { content-visibility: visible; }
 .daily-star { border-width: 2px 2px 2px 6px; }
+.tex-lang { font: inherit; font-size: .85rem; padding: 4px 6px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--text); }
 .linkish { background: none; border: 0; padding: 0; font: inherit; color: inherit; text-decoration: underline; cursor: pointer; }
 #wnDialog { width: min(640px, 94vw); max-height: 88vh; overflow-y: auto; }
 .wn-list { list-style: none; margin: 8px 0 0; padding: 0; }
@@ -1123,7 +1124,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261105-tex-zip';
+const DATA_VERSION = '20261105-overleaf';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
@@ -2098,7 +2099,7 @@ function headHtml(count) {
             ${wide || filtersOn() ? '<button type="button" class="btn btn-sm btn-quiet" data-copy-view>Copy link to this view</button>' : ''}
             ${wide ? `<button type="button" class="btn btn-sm" data-all-scope>${state.tab === 'national' ? 'All countries, all years' : 'All competitions, all years'}</button>` : ''}
             ${count && count <= 60 ? `<button type="button" class="btn btn-sm" data-add-all>${ICON.plus} Add all (${count})</button>` : ''}
-            ${count && (state.country || filtersOn()) ? `<button type="button" class="btn btn-sm" data-export-view title="Download every problem of this view as a LaTeX (.tex) file">Export LaTeX (${count})</button><button type="button" class="btn btn-sm" data-copy-tex title="Copy every problem of this view as LaTeX source">Copy LaTeX (${count})</button>` : ''}
+            ${count && (state.country || filtersOn()) ? `<button type="button" class="btn btn-sm" data-export-view title="Download every problem of this view as a LaTeX (.tex) file">Export LaTeX (${count})</button><button type="button" class="btn btn-sm" data-copy-tex title="Copy every problem of this view as LaTeX source">Copy LaTeX (${count})</button><button type="button" class="btn btn-sm" data-overleaf title="Open every problem of this view as a new Overleaf project">Open in Overleaf</button>${shownUids.some(u => (byUid.get(u) || {}).textEl) ? `<select class="tex-lang" data-tex-lang aria-label="Language of the LaTeX">${[['en', 'LaTeX in English'], ['orig', 'LaTeX in the original'], ['both', 'LaTeX in both']].map(([v, l]) => `<option value="${v}"${texLang() === v ? ' selected' : ''}>${l}</option>`).join('')}</select>` : ''}` : ''}
         </div>
     </div>`;
 }
@@ -3034,8 +3035,31 @@ const TEX_CHARS = (() => {
     upper.forEach((n, i) => { if (n !== '-') m[String.fromCharCode(0x391 + i)] = n.length > 1 ? `\\ensuremath{\\${n}}` : `\\ensuremath{\\mathrm{${n}}}`; });
     return m;
 })();
+// Language of the exported statements, for views with stored originals: 'en', 'orig' or 'both'.
+function texLang() { try { const v = localStorage.getItem('nob-texlang'); return ['en', 'orig', 'both'].includes(v) ? v : 'en'; } catch (e) { return 'en'; } }
+const TEX_GREEK = /[\u0370-\u03ff\u1f00-\u1fff]/;
+const LANG_NAMES = {el: 'Greek', nl: 'Dutch', pl: 'Polish', cs: 'Czech', ru: 'Russian', ja: 'Japanese', zh: 'Chinese', de: 'German', fr: 'French'};
+function texOriginal(p, withFigures) {
+    const greek = (p.origLang || 'el') === 'el';
+    let t = String(p.textEl);
+    if (!withFigures) t = t.replace(IMG_RE, '');
+    // Greek letters inside math are typeset as text (\text{Σ}) under babel's Greek.
+    if (greek) t = t.replace(TEX_MATH_RE, m => m === '\\$' ? m : m.replace(/[\u0370-\u03ff\u1f00-\u1fff]+/g, x => `\\text{${x}}`));
+    const out = texStatement(t);
+    return greek ? `\\begin{otherlanguage}{greek}\n${out}\n\\end{otherlanguage}` : out;
+}
+// With babel's Greek loaded, Greek letters outside the Greek original are written as math symbols.
+const texNoGreek = tex => tex.replace(/[\u0370-\u03ff\u1f00-\u1fff]/g, c => TEX_CHARS[c] || `\\foreignlanguage{greek}{${c}}`);
+function texProblem(p, lang = texLang()) {
+    if (lang === 'en') return texStatement(p.text);
+    if (!p.textEl) return texNoGreek(texStatement(p.text));
+    if (lang === 'orig') return texOriginal(p, true);
+    const name = LANG_NAMES[p.origLang || 'el'] || String(p.origLang).toUpperCase();
+    return texNoGreek(texStatement(p.text)) + `\n\n\\medskip\\noindent{\\small\\itshape Original (${name}):}\\par\n` + texOriginal(p, false);
+}
 function texCharDecls(tex) {
-    const seen = new Set([...tex].filter(c => c.codePointAt(0) > 0x17f && !'–—‘’“”…•€™'.includes(c)));
+    const greek = tex.includes('\\begin{otherlanguage}{greek}');
+    const seen = new Set([...tex].filter(c => c.codePointAt(0) > 0x17f && !'–—‘’“”…•€™'.includes(c) && !(greek && TEX_GREEK.test(c))));
     const hex = c => c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
     return seen.size ? `\\ifPDFTeX\n${[...seen].map(c => `\\DeclareUnicodeCharacter{${hex(c)}}{${TEX_CHARS[c] || `[U+${hex(c)}]`}}`).join('\n')}\n\\fi` : '';
 }
@@ -3052,7 +3076,7 @@ function buildTex(items = getSelected(), title = $('#examTitle').value.trim() ||
 \usepackage{amsmath,amssymb,graphicx,array}
 \usepackage[margin=2.2cm]{geometry}
 \usepackage[hidelinks]{hyperref}
-\IfFileExists{cancel.sty}{\usepackage{cancel}}{\providecommand{\cancel}[1]{#1}}
+\IfFileExists{cancel.sty}{\usepackage{cancel}}{}\providecommand{\cancel}[1]{#1}
 \providecommand{\lt}{<}\providecommand{\gt}{>}
 \providecommand{\overarc}[1]{\overset{\frown}{#1}}\providecommand{\overparen}[1]{\overset{\frown}{#1}}
 \providecommand{\bigtimes}{\mathop{\vcenter{\hbox{\Large$\times$}}}}
@@ -3065,11 +3089,12 @@ function buildTex(items = getSelected(), title = $('#examTitle').value.trim() ||
         const src = `${CBY[p.country].name} ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : p.day ? `, Day ${p.day}` : ''}, Problem ${p.num}`;
         const credit = typeof creditText === 'function' ? creditText(p) : '';
         return `\\subsection*{Problem ${i + 1}}\n` + (showSrc ? `{\\small\\itshape ${texText(src)}${credit ? ' · ' + texText(credit) : ''}}\\par\n` : '') +
-            texStatement(p.text) + (space ? `\n\n\\vspace{${space}mm}` : '') + '\n';
+            texProblem(p) + (space ? `\n\n\\vspace{${space}mm}` : '') + '\n';
     }).join('\n');
     const doc = `\\begin{center}{\\Large\\bfseries ${texText(title)}}\\end{center}\n\n` + body;
     const decls = texCharDecls(doc);
-    const extra = (doc.includes('\\mathscr') ? '\\usepackage{mathrsfs}\n' : '') + (decls ? decls + '\n' : '');
+    const extra = (doc.includes('\\mathscr') ? '\\usepackage{mathrsfs}\n' : '') +
+        (doc.includes('\\begin{otherlanguage}{greek}') ? '\\ifPDFTeX\\usepackage[LGR,T1]{fontenc}\\fi\n\\usepackage[greek,english]{babel}\n' : '') + (decls ? decls + '\n' : '');
     return head.replace('\\begin{document}', extra + '\\begin{document}') + doc + '\n\\end{document}\n';
 }
 // "Copy LaTeX": only the list of statements, no preamble, to paste into one's own document.
@@ -3077,7 +3102,7 @@ function buildTexList(items) {
     return '\\begin{enumerate}\n' + items.map(p => {
         const src = `${CBY[p.country].name} ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : p.day ? `, Day ${p.day}` : ''}, Problem ${p.num}`;
         const credit = typeof creditText === 'function' ? creditText(p) : '';
-        return `% ${src}${credit ? ' · ' + credit : ''}`.replace(/\n/g, ' ') + '\n\\item ' + texStatement(p.text) + '\n';
+        return `% ${src}${credit ? ' · ' + credit : ''}`.replace(/\n/g, ' ') + '\n\\item ' + texProblem(p) + '\n';
     }).join('\n') + '\\end{enumerate}\n';
 }
 // Uncompressed ("stored") zip of [name, Uint8Array] pairs, with CRC32: enough for a .tex and its PNG figures.
@@ -3120,6 +3145,30 @@ async function exportTex(items = getSelected(), title = $('#examTitle').value.tr
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     say(name.endsWith('.zip') ? 'LaTeX file and figures downloaded (.zip).' : 'LaTeX file downloaded.');
 }
+// "Open in Overleaf": a form POST to overleaf.com/docs. With figures the .tex goes as a data: URI next to the figures' public URLs
+// (Overleaf refuses encoded_snip together with snip_uri).
+function openOverleaf(items, title) {
+    if (!items.length) return;
+    const tex = buildTex(items, title, true).replace(/^% Compiles with[^\n]*\n%[^\n]*\n/m, '% Compiles with pdfLaTeX. The figures are files of this project.\n');
+    const urls = [...new Set(items.flatMap(p => [...String(p.text).matchAll(IMG_RE)].map(m => `${m[1]}.${m[2]}`)))];
+    const f = document.createElement('form');
+    f.method = 'POST'; f.action = 'https://www.overleaf.com/docs'; f.target = '_blank'; f.style.display = 'none';
+    const add = (n, v) => { const i = document.createElement('input'); i.type = 'hidden'; i.name = n; i.value = v; f.appendChild(i); };
+    if (!urls.length) { add('encoded_snip', encodeURIComponent(tex)); add('snip_name', 'main.tex'); }
+    else {
+        const bytes = new TextEncoder().encode(tex);
+        let bin = '';
+        for (let i = 0; i < bytes.length; i += 32768) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 32768));
+        add('snip_uri[]', 'data:application/x-tex;base64,' + btoa(bin)); add('snip_name[]', 'main.tex');
+        urls.forEach(u => { add('snip_uri[]', u); add('snip_name[]', u.split('/').pop()); });
+    }
+    add('engine', 'pdflatex'); add('main_document', 'main.tex');
+    document.body.appendChild(f); f.submit(); f.remove();
+    say('Opening Overleaf…');
+}
+if (typeof document.addEventListener === 'function') document.addEventListener('change', e => {
+    if (e.target.matches && e.target.matches('[data-tex-lang]')) { try { localStorage.setItem('nob-texlang', e.target.value); } catch (x) {} }
+});
 function parseIncoming() {
     const set = new URLSearchParams(location.search).get('set');
     const out = [];
@@ -3199,6 +3248,12 @@ document.addEventListener('click', e => {
         const [title] = scopeTitle();
         const topic = state.topic !== 'all' ? ` – ${state.topic}` : '';
         exportTex(shownUids.map(u => byUid.get(u)).filter(Boolean), title.replace(/^[^\p{L}\p{N}]+/u, '') + topic, true);
+        return;
+    }
+    if (t.hasAttribute('data-overleaf')) {
+        const [title] = scopeTitle();
+        const topic = state.topic !== 'all' ? ` – ${state.topic}` : '';
+        openOverleaf(shownUids.map(u => byUid.get(u)).filter(Boolean), title.replace(/^[^\p{L}\p{N}]+/u, '') + topic);
         return;
     }
     if (t.hasAttribute('data-copy-tex')) {

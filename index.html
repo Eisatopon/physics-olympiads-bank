@@ -1124,7 +1124,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261105-overleaf';
+const DATA_VERSION = '20261105-greek-textalpha';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
@@ -3043,13 +3043,12 @@ function texOriginal(p, withFigures) {
     const greek = (p.origLang || 'el') === 'el';
     let t = String(p.textEl);
     if (!withFigures) t = t.replace(IMG_RE, '');
-    // Greek letters inside math are typeset as text (\text{Σ}) under babel's Greek.
+    // Greek letters inside math are typeset as text (\text{Σ}) with textalpha.
     if (greek) t = t.replace(TEX_MATH_RE, m => m === '\\$' ? m : m.replace(/[\u0370-\u03ff\u1f00-\u1fff]+/g, x => `\\text{${x}}`));
-    const out = texStatement(t);
-    return greek ? `\\begin{otherlanguage}{greek}\n${out}\n\\end{otherlanguage}` : out;
+    return texStatement(t);
 }
-// With babel's Greek loaded, Greek letters outside the Greek original are written as math symbols.
-const texNoGreek = tex => tex.replace(/[\u0370-\u03ff\u1f00-\u1fff]/g, c => TEX_CHARS[c] || `\\foreignlanguage{greek}{${c}}`);
+// In an export with a Greek original, single Greek letters of the English text stay math symbols.
+const texNoGreek = tex => tex.replace(/[\u0370-\u03ff\u1f00-\u1fff]/g, c => TEX_CHARS[c] || c);
 function texProblem(p, lang = texLang()) {
     if (lang === 'en') return texStatement(p.text);
     if (!p.textEl) return texNoGreek(texStatement(p.text));
@@ -3058,7 +3057,7 @@ function texProblem(p, lang = texLang()) {
     return texNoGreek(texStatement(p.text)) + `\n\n\\medskip\\noindent{\\small\\itshape Original (${name}):}\\par\n` + texOriginal(p, false);
 }
 function texCharDecls(tex) {
-    const greek = tex.includes('\\begin{otherlanguage}{greek}');
+    const greek = texLang() !== 'en' && TEX_GREEK.test(tex);  // Greek original: textalpha sets the Greek letters
     const seen = new Set([...tex].filter(c => c.codePointAt(0) > 0x17f && !'–—‘’“”…•€™'.includes(c) && !(greek && TEX_GREEK.test(c))));
     const hex = c => c.codePointAt(0).toString(16).toUpperCase().padStart(4, '0');
     return seen.size ? `\\ifPDFTeX\n${[...seen].map(c => `\\DeclareUnicodeCharacter{${hex(c)}}{${TEX_CHARS[c] || `[U+${hex(c)}]`}}`).join('\n')}\n\\fi` : '';
@@ -3094,7 +3093,7 @@ function buildTex(items = getSelected(), title = $('#examTitle').value.trim() ||
     const doc = `\\begin{center}{\\Large\\bfseries ${texText(title)}}\\end{center}\n\n` + body;
     const decls = texCharDecls(doc);
     const extra = (doc.includes('\\mathscr') ? '\\usepackage{mathrsfs}\n' : '') +
-        (doc.includes('\\begin{otherlanguage}{greek}') ? '\\ifPDFTeX\\usepackage[LGR,T1]{fontenc}\\fi\n\\usepackage[greek,english]{babel}\n' : '') + (decls ? decls + '\n' : '');
+        (texLang() !== 'en' && TEX_GREEK.test(doc) ? '\\ifPDFTeX\\usepackage[LGR,T1]{fontenc}\\usepackage{textalpha}\\fi\n' : '') + (decls ? decls + '\n' : '');
     return head.replace('\\begin{document}', extra + '\\begin{document}') + doc + '\n\\end{document}\n';
 }
 // "Copy LaTeX": only the list of statements, no preamble, to paste into one's own document.

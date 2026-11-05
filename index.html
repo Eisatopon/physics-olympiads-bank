@@ -796,6 +796,8 @@ dialog h2 { font: 800 1.3rem/1.2 var(--serif); color: var(--ink); margin-bottom:
 dialog p { color: var(--muted); font-size: .92rem; }
 .related-card { border-top: 1px solid var(--line-strong); padding: 18px 0; }
 .potd { margin-top: 18px; padding: 22px 26px 18px; border: 2px solid var(--ink); border-radius: 10px; background: linear-gradient(135deg, var(--surface) 0%, #f1edfb 100%); }
+.potd-junior { border-color: #1d6fb8; background: linear-gradient(135deg, var(--surface) 0%, #e8f1fb 100%); }
+.potd-junior .potd-badge { background: #1d6fb8; }
 .potd-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
 .potd-badge { display: inline-block; padding: 5px 14px; border-radius: 999px; background: var(--ink); color: #fff; font: 700 .9rem/1.2 var(--sans); letter-spacing: .02em; }
 .potd-date { color: var(--muted); font-size: .9rem; }
@@ -1124,7 +1126,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261105-greek-textalpha';
+const DATA_VERSION = '20261105-junior-potd';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
@@ -2290,6 +2292,7 @@ function orgDisclaimer(key) {
 function creditHtml(p) { const t = creditText(p); return t ? `<p class="p-credit">${esc(t)}</p>` : ''; }
 
 // Home page: "Problem of the day" and a daily selection, the same for every visitor on a given day.
+let dailyJunior = [];
 let dailyPool = null, dailyLoading = false, dailySeed = Math.floor(Date.now() / 864e5);
 const isHomeView = () => !state.country && state.year === null && !filtersOn() && state.tab !== 'entrance';
 function mulberry32(a) {
@@ -2299,7 +2302,7 @@ function loadDaily() {
     if (dailyLoading || dailyPool) return;
     dailyLoading = true;
     fetch('./metadata/runtime/daily.json?v=' + DATA_VERSION, {cache: 'no-cache'}).then(r => r.ok ? r.json() : null)
-        .then(d => { dailyPool = (d && d.pool || []).filter(x => CBY[x.k]); if (isHomeView()) renderResults(); })
+        .then(d => { dailyPool = (d && d.pool || []).filter(x => CBY[x.k]); dailyJunior = (d && d.junior || []).filter(x => CBY[x.k]); if (isHomeView()) renderResults(); })
         .catch(() => { dailyPool = []; });
 }
 function dailyCard(x, star) {
@@ -2314,11 +2317,19 @@ function dailyCard(x, star) {
     </article>`;
 }
 function potdRecord(x) { return {uid: x.u, country: x.k, year: x.y, num: x.n, day: x.d, paperLabel: x.pl, text: x.t}; }
-function potdHtml(x) {
+// One junior problem per day, the same for everyone (FNV-1a of the day number).
+function juniorPick() {
+    if (!dailyJunior.length) return null;
+    let h = 0x811C9DC5;
+    for (const ch of String(Math.floor(Date.now() / 864e5))) { h ^= ch.charCodeAt(0); h = Math.imul(h, 0x01000193) >>> 0; }
+    return dailyJunior[h % dailyJunior.length];
+}
+function potdHtml(x, junior = false) {
     const c = CBY[x.k], MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const d = new Date(), left = 864e5 - (Date.now() % 864e5), h = Math.floor(left / 36e5), m = Math.floor(left % 36e5 / 6e4);
-    return `<article class="potd f-${x.k}" aria-labelledby="potdBadge">
-        <div class="potd-top"><span class="potd-badge" id="potdBadge">★ Problem of the day</span><span class="potd-date">${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}</span></div>
+    const id = junior ? 'potdJBadge' : 'potdBadge';
+    return `<article class="potd${junior ? ' potd-junior' : ''} f-${x.k}" aria-labelledby="${id}">
+        <div class="potd-top"><span class="potd-badge" id="${id}">★ ${junior ? 'Junior problem' : 'Problem'} of the day</span><span class="potd-date">${junior ? 'Ages about 14–16' : `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`}</span></div>
         <p class="potd-src">${c.flag} ${c.name} ${x.y}${x.pl ? `, ${esc(x.pl)}` : x.d ? `, Day ${x.d}` : ''} · Problem ${esc(x.n)}${x.tp ? ` <span class="p-tag">${esc(x.tp)}</span>` : ''}</p>
         <div class="statement potd-st">${bodyHtml(x.t)}</div>
         <div class="potd-actions">
@@ -2326,7 +2337,7 @@ function potdHtml(x) {
             <button type="button" class="btn" data-potd-hint="${esc(x.u)}">💡 Get a hint</button>
             <button type="button" class="btn" data-potd-share="${esc(x.u)}">Share</button>
         </div>
-        <p class="potd-next">Next problem in ${h} h ${m} min</p>
+        <p class="potd-next">Next ${junior ? 'one' : 'problem'} in ${h} h ${m} min</p>
     </article>`;
 }
 function dailyHtml() {
@@ -2342,7 +2353,7 @@ function dailyHtml() {
     const first = shuffled(Math.floor(Date.now() / 864e5))[0], rest = [], flags = new Set([CBY[first.k].flag]);
     for (const x of shuffled(dailySeed)) { const f = CBY[x.k].flag; if (x.u === first.u || flags.has(f)) continue; flags.add(f); rest.push(x); if (rest.length === 8) break; }
     return `<section class="daily-box" aria-label="Problem of the day">
-        ${potdHtml(first)}
+        ${potdHtml(first)}${juniorPick() ? potdHtml(juniorPick(), true) : ''}
         ${rest.length ? `<div class="daily-sel-h"><h2 class="daily-h">Today's selection from around the world</h2><button type="button" class="btn btn-sm" data-daily-shuffle>Shuffle</button></div>${rest.map(x => dailyCard(x)).join('')}` : ''}
     </section>`;
 }
@@ -3264,7 +3275,7 @@ document.addEventListener('click', e => {
     }
     if (t.hasAttribute('data-whats-new')) { showWhatsNew(); return; }
     if (t.hasAttribute('data-potd-hint') || t.hasAttribute('data-potd-share')) {
-        const x = (dailyPool || []).find(e => e.u === (t.dataset.potdHint || t.dataset.potdShare));
+        const x = [...(dailyPool || []), ...dailyJunior].find(e => e.u === (t.dataset.potdHint || t.dataset.potdShare));
         if (!x) return;
         const p = potdRecord(x);
         if (t.hasAttribute('data-potd-share')) { copyText(problemLink(p), 'Link copied.'); return; }

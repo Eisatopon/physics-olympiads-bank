@@ -1123,7 +1123,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261104-ercole-quote';
+const DATA_VERSION = '20261105-tex-zip';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia' };
@@ -3016,7 +3016,7 @@ function texStatement(text) {
     out = out.split(/\n\s*\n/).map(x => x.trim().replace(/\n(?=\s*(\([A-E]\)|•))/g, '\n\n')).filter(Boolean).join('\n\n');
     figs.forEach(u => {
         const name = u.split('/').pop();
-        out += `\n\n\\begin{center}\\IfFileExists{${name}}{\\includegraphics[width=0.6\\linewidth]{${name}}}{\\url{${u}}}\\end{center}`;
+        out += `\n\n\\begin{center}\\IfFileExists{${name}}{\\includegraphics[width=0.6\\linewidth]{${name}}\\\\[2pt]{\\scriptsize\\url{${u}}}}{\\url{${u}}}\\end{center}`;
     });
     return out;
 }
@@ -3044,8 +3044,8 @@ function buildTex(items = getSelected(), title = $('#examTitle').value.trim() ||
     const space = viewExport ? 0 : Number($('#solutionSpace').value);
     const head = String.raw`% Exported from Archimedes – World Physics Olympiads Bank
 % https://eisatopon.github.io/physics-olympiads-bank/
-% Compiles with pdfLaTeX, XeLaTeX or LuaLaTeX. Figures: put the PNG files next to this file,
-% otherwise their web address is printed instead.
+% Compiles with pdfLaTeX, XeLaTeX or LuaLaTeX. The figures come in the same .zip; keep them next to
+% this file (without them, their web address is printed instead).
 \documentclass[11pt,a4paper]{article}
 \usepackage{iftex}
 \ifPDFTeX\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\else\usepackage{fontspec}\fi
@@ -3080,14 +3080,45 @@ function buildTexList(items) {
         return `% ${src}${credit ? ' · ' + credit : ''}`.replace(/\n/g, ' ') + '\n\\item ' + texStatement(p.text) + '\n';
     }).join('\n') + '\\end{enumerate}\n';
 }
-function exportTex(items = getSelected(), title = $('#examTitle').value.trim() || 'problem-set', viewExport = false) {
+// Uncompressed ("stored") zip of [name, Uint8Array] pairs, with CRC32: enough for a .tex and its PNG figures.
+function zipStore(files) {
+    const crcT = zipStore.t || (zipStore.t = Array.from({length: 256}, (_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; }));
+    const crc = d => { let c = 0xFFFFFFFF; for (let i = 0; i < d.length; i++) c = crcT[(c ^ d[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+    const enc = new TextEncoder(), parts = [], central = [];
+    let off = 0;
+    for (const [name, data] of files) {
+        const n = enc.encode(name), c = crc(data), h = new DataView(new ArrayBuffer(30));
+        [[0, 0x04034b50, 4], [4, 20, 2], [6, 0x0800, 2], [8, 0, 2], [10, 0, 2], [12, 0x21, 2], [14, c, 4], [18, data.length, 4], [22, data.length, 4], [26, n.length, 2], [28, 0, 2]]
+            .forEach(([o, v, l]) => l === 4 ? h.setUint32(o, v, true) : h.setUint16(o, v, true));
+        parts.push(new Uint8Array(h.buffer), n, data);
+        const e = new DataView(new ArrayBuffer(46));
+        [[0, 0x02014b50, 4], [4, 20, 2], [6, 20, 2], [8, 0x0800, 2], [10, 0, 2], [12, 0, 2], [14, 0x21, 2], [16, c, 4], [20, data.length, 4], [24, data.length, 4], [28, n.length, 2], [30, 0, 2], [32, 0, 2], [34, 0, 2], [36, 0, 2], [38, 0, 4], [42, off, 4]]
+            .forEach(([o, v, l]) => l === 4 ? e.setUint32(o, v, true) : e.setUint16(o, v, true));
+        central.push(new Uint8Array(e.buffer), n);
+        off += 30 + n.length + data.length;
+    }
+    const size = central.reduce((s, x) => s + x.length, 0), end = new DataView(new ArrayBuffer(22));
+    [[0, 0x06054b50, 4], [8, files.length, 2], [10, files.length, 2], [12, size, 4], [16, off, 4]].forEach(([o, v, l]) => l === 4 ? end.setUint32(o, v, true) : end.setUint16(o, v, true));
+    return new Blob([...parts, ...central, new Uint8Array(end.buffer)], {type: 'application/zip'});
+}
+async function exportTex(items = getSelected(), title = $('#examTitle').value.trim() || 'problem-set', viewExport = false) {
     if (!items.length) return;
+    const base = title.normalize('NFKD').replace(/[^\w-]+/g, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'problem-set';
+    const tex = buildTex(items, title, viewExport);
+    const urls = [...new Set(items.flatMap(p => [...String(p.text).matchAll(IMG_RE)].map(m => `${m[1]}.${m[2]}`)))];
+    let blob = null, name = base + '.tex';
+    if (urls.length) {
+        say('Preparing the LaTeX file and its figures…');
+        const figs = (await Promise.all(urls.map(u => fetch(u).then(r => r.ok ? r.arrayBuffer() : null).then(b => b && [u.split('/').pop(), new Uint8Array(b)]).catch(() => null)))).filter(Boolean);
+        if (figs.length) { blob = zipStore([[name, new TextEncoder().encode(tex)], ...figs]); name = base + '.zip'; }
+    }
+    if (!blob) blob = new Blob([tex], {type: 'application/x-tex;charset=utf-8'});
     const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([buildTex(items, title, viewExport)], {type: 'application/x-tex;charset=utf-8'}));
-    a.download = (title.normalize('NFKD').replace(/[^\w-]+/g, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'problem-set') + '.tex';
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-    say('LaTeX file downloaded.');
+    say(name.endsWith('.zip') ? 'LaTeX file and figures downloaded (.zip).' : 'LaTeX file downloaded.');
 }
 function parseIncoming() {
     const set = new URLSearchParams(location.search).get('set');

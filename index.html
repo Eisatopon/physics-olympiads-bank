@@ -1127,10 +1127,10 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261110-physics-cup';
+const DATA_VERSION = '20261110-izho';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
@@ -1156,6 +1156,7 @@ const COUNTRIES = [
     { key: 'apho', name: 'APhO', flag: '🌏', file: 'APhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'Asian Physics Olympiad, theoretical problems' },
     { key: 'nbpho', name: 'NBPhO', flag: '🌍', file: 'NBPhO-problems.json', kind: 'years', scope: 'regional', full: 'Nordic-Baltic Physics Olympiad (formerly Estonian-Finnish Olympiad), theoretical problems, numbered as printed' },
     { key: 'eupho', name: 'EuPhO', flag: '🇪🇺', file: 'EuPhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'European Physics Olympiad, theoretical problems' },
+    { key: 'izho', name: 'IZhO', flag: '🇰🇿', file: 'IZhO-Physics-theory-problems.json', kind: 'years', scope: 'international', full: 'International Zhautykov Olympiad (Almaty), Physics, theoretical competition · problems © IZhO organisers' },
     { key: 'pcup', name: 'Physics Cup', flag: '🌐', file: 'Physics-Cup-problems.json', kind: 'years', scope: 'international', full: 'Physics Cup (Jaan Kalda, TalTech), online competition problems, as first published without hints · problems © Physics Cup' },
     { key: 'ipho', name: 'IPhO', flag: '🌐', file: 'IPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International Physics Olympiad, theoretical and experimental problems' },
 ];
@@ -2273,6 +2274,7 @@ const ORGS = {
     poland: ['Olimpiada Fizyczna', 'the Komitet Główny Olimpiady Fizycznej', 'Komitet Główny Olimpiady Fizycznej', 'Polish'],
     jeep: ['JEE (Advanced)', 'the Indian Institutes of Technology (JEE Advanced)', 'the Indian Institutes of Technology (JEE Advanced)'],
     grpan: ['Panhellenic Exams', 'the Greek Ministry of Education', 'the Greek Ministry of Education'],
+    izho: ['IZhO Physics', 'the International Zhautykov Olympiad (Republican Physics and Mathematics School, Almaty)', 'the IZhO organisers'],
     pcup: ['Physics Cup', 'Physics Cup (Jaan Kalda; Tallinn University of Technology, TalTech)', 'Physics Cup / the problem authors'],
     cypan: ['Pancyprian Exams', 'the Cyprus Ministry of Education (Examinations Service)', 'the Cyprus Ministry of Education (Examinations Service)'],
     oxpat: ['Oxford PAT', 'the University of Oxford (Department of Physics)', 'the University of Oxford'],

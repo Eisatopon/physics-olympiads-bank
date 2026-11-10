@@ -1,0 +1,438 @@
+{
+ "competition": "Physics Cup (Jaan Kalda; IPhO 2012, WoPhO 2013, TalTech from 2019) — online competition problems",
+ "years": [
+  {
+   "year": 2013,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Dodecahedron capacitance",
+     "problem": "Dodecahedron capacitance\n\nEdges of a dodecahedron are made of wire of negligible electrical resistance; each wire includes a capacitor of capacitance $C$, see figure. Let us mark a vertex $A$ and its three neighbours $B$, $D$ and $E$. The wire segments $AB$ and $AD$ are removed. What is the capacitance between the vertices $B$ and $E$?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2013-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Ring on rails",
+     "problem": "Ring on rails\n\nA homogeneous ring lays horizontally on two identical parallel rails. The first rail moves parallel to itself, with a constant speed $v$; the second rail is at rest. The angular distance between the ring-rail contact points, as seen from the centre of the ring, is $2\\alpha$ for the first rail, and $2\\beta$ for the second rail, see figure. Assuming that $\\alpha \\ll 1$ and $\\beta = \\pi/3$, find the speed of the centre of the ring.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2013-2-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Gas bubble in water",
+     "problem": "Gas bubble in water\n\nIntroduction. People living in colder climates have surely noticed that by filling a glass with cold tap water one gets a glass of misty (or rather milky) water. The reason is that depressurizing and warming of the water causes the initially dissolved gas to come out of the solution and form tiny bubbles. In this problem you are going to calculate the size of such gas bubble in water.\n\nA photographer prepared a setup consisting of a rectangular water tank with glass walls, a laser beam entering the water tank perpendicularly to one of its faces, and a camera looking directly towards a neighbouring face of the water tank. A gas bubbled entered the laser beam and the photographer managed to take five photos of the bubble while continuously defocusing the camera. The lens had “internal focusing” design, so that defocusing meant changing the focal length while keeping the position of the lens intact, see figure. The line of sight from the camera to the bubble was perpendicular to the laser beam, and the bubble was entirely inside the beam.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2013-3-fig1.png\n\nIn the figure below, the taken photos are placed side by side and indicated by numbers $1-5$.\n\nTask: calculate the diameter of the gas bubble.\n\nParameters: index of refraction of water with respect to gas: $n = 1.3$; wavelength of the laser: $\\lambda = 488\\,\\mathrm{nm}$; the lens of the camera can be considered as a single convex lens with focal length $f = 10\\,\\mathrm{cm}$ and diameter $D = 3.6\\,\\mathrm{cm}$ (the change of the focal length due to defocusing was less than $10\\%$); the distance from the bubble to the lens: $L = 30\\,\\mathrm{cm}$ (more precisely, this is the distance from the lens to the image of the bubble as seen from the centre of the lens, see figure above).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2013-3-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "High-efficiency LED",
+     "problem": "High-efficiency LED\n\nIntroduction. As compared to ordinary light bulbs, light emitting diodes (LED) provide very high lighting efficiency. The reason is that the spectral energy distribution of ordinary lamps is close to black body radiation, in which case one can say that the photons are in thermal equilibrium with the black body. Then, the total energy radiated by a black body per unit area, unit time, and unit frequency interval is given by Planck’s law\n\n$$I = \\frac{2\\pi h}{c^2}\\frac{\\nu^3}{e^{h\\nu/kT}-1},$$\n\nwhere $\\nu$ is the frequency, $h = 6.626\\times10^{-34}\\,\\mathrm{J\\cdot s}$ — the Planck constant, $c = 2.997\\times10^{8}\\,\\mathrm{m/s}$ — the speed of light, $k = 1.38\\times10^{-23}\\,\\mathrm{J\\cdot K^{-1}}$ — the Boltzmann constant, and $T$ — the temperature; note that\n\n$$\\int_0^\\infty I\\,d\\nu = \\sigma T^4,$$\n\nwhere $\\sigma = 5.678\\times10^{-8}\\,\\mathrm{W\\cdot m^{-2}\\cdot K^{-4}}$ is the Stefan-Boltzmann constant. With a black body radiation, a lot of energy is wasted by radiating non-visible light. Meanwhile, LED-s can be constructed so that they radiate almost only visible light.\n\nIn recent experiments [1], it has been reported that such LED-s have been constructed which have efficiency higher that $100\\%$. Here the efficiency is defined as the ratio of the radiated light energy to the consumed electrical energy.\n\nProblem. Based on reasonable approximations, find what is the theoretically highest possible efficiency of a LED assuming that:\n\n(a) the LED has a heat sink which is kept at the room temperature $T_0 = 293\\,\\mathrm{K}$ (via a fast enough heat exchange with the surrounding medium);\n\n(b) the LED emits light at wavelengths smaller than $\\lambda_0 = 700\\,\\mathrm{nm}$\n\n(b) the surface area of the light-emitting part of the LED is $S = 1\\,\\mathrm{mm^2}$;\n\n(c) the light emission power of the LED is $P = 1\\,\\mathrm{\\mu W}$.\n\n[1] P. Santhanam et al, Thermoelectrically Pumped Light-Emitting Diodes Operating above Unity Efficiency, Phys. Rev. Lett. 108, 097403 (2012)"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Magnetic levitation",
+     "problem": "Magnetic levitation\n\nA rectangular superconducting plate of mass $m$ has four identical circular holes, one near each corner, see figure. Each hole carries a certain magnetic flux (all the four fluxes are equal and of the same polarity). The plate is put on a horizontal surface which is also in a superconducting state. The magnetic push between the plate and the surface compensates the weight of the plate when the width of the air gap beneath the plate is $d$, which is much smaller than the distance between the plate’s and holes’ edges (denoted by $\\Delta$ in figure); $d$ is also much smaller than the radii of the holes.\n\nWhen the plate levitates in such a way above the support, the frequency of its small vertical oscillations is $\\nu_0$. Next, a load of mass $M$ is put on the plate, so that the load lays on the plate, and the plate levitates above the support. What is the new frequency $\\nu$ of small vertical oscillations (when the load and plate together oscillate up and down)?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2013-5-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2017,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Interaction force",
+     "problem": "Interaction force\n\nEstimate by the order of magnitude the interaction force between a point charge $q$ and a circular metallic disc of radius $r$ if the charge is at the axis of the disc, and the distance between the disc and the charge is $L \\gg r$. The total charge of the disc is $0$ and the thickness of the disc is negligibly small."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "N-gon resistance",
+     "problem": "N-gon resistance\n\nThere are $n$ points forming $n$-gon. Adjacent points (sides of $n$-gon) are connected with resistance $R_s = 2\\,\\Omega$, all other pairs (diagonals) are connected with resistance $R_s = 1\\,\\Omega$ Find the full resistance between two adjacent points. Using your expression, calculate answer (as a rational number in ohms) for $n = 3$, $n = 4$, and $n = 5$. Feel free to use mathematics software to ease algebraic calculations, if needed (such as Wolfram Alpha)."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Electron gas temperature",
+     "problem": "Electron gas temperature\n\nConsider a sparse electron gas at temperature $T = T_0$ in homogeneous magnetic field. Initially, the magnetic flux density is $B_0$, and is increased up to $B = 2B_0$; during the process, the growth rate of the $B$-field is kept very small, $\\frac{\\mathrm{d}B}{\\mathrm{d}t} \\ll \\frac{B^2 e}{m}$, where $e$ denotes the elementary charge, and $m$ — the electron mass. Let us define the characteristic time $\\tau$ of this process as the typical value of $\\left(\\frac{\\mathrm{d}\\ln B}{\\mathrm{d}t}\\right)^{-1}$; then, the above given condition can be rewritten as $\\tau \\gg \\frac{m}{Be}$. The sparseness of the electron gas is described by the mean free path length $\\lambda$ of electrons, and by the mean time interval between collisions $t \\approx \\lambda\\sqrt{\\frac{m}{kT}}$. Here we assume that the gas is so sparse that $t \\gg \\tau$. Upon reaching the value $B = 2B_0$, the $B$-field strength is kept constant for a very long time $\\mathcal{T} \\gg t$, and is later slowly decreased back to the original value $B = B_0$ (the characteristic time of the process is again $\\tau$). Now, if we wait until thermal equilibrium is reached, what will be the temperature $T'$ of the electron gas?\n\nKeep in mind that if a quantum-mechanical system is slowly (adiabatically) perturbed, it retains its quantum state if the characteristic time of the process is much longer than $\\hbar/\\Delta E$, where $\\Delta E$ is the energy level difference between neighbouring states."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Lens position",
+     "problem": "Lens position\n\nEllips depicted in the figure below represents a real image of a circle, created by an ideal thin lens. The dot inside it depicts the image of the center of the circle. Both the ellips and the main optical axis of the lens lay in the plane of the figure. Reconstruct the position of the lens (ie. the position of the centre and the orientation).\n\nRemark: you need to copy the ellips onto a sheet of paper and find there the position of the lens, eg. by using geometrical constructions. Alternatively, you can use Geogebra, https://www.geogebra.org/.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2017-4-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Lattice of resistors",
+     "problem": "Lattice of resistors\n\nConsider infinite lattice of resistors as shown in the figure. Each blue piece of wire between neighbouring nodes has resistance $R_b = 1\\,\\Omega$, and each red piece of wire between neighbouring nodes has resistance $R_r = 2018\\,\\Omega$. (Nodes are marked as black circles.) Let the resistance between the nodes $A$ and $B$ (marked in cyan) be $\\rho$. Find such $r$ and $R$ that\n\n$$r \\le \\rho \\le R \\quad\\text{and}\\quad R/r \\le 2.$$\n\n(You need to prove that for the values of $r$ and $R$ suggested by you, these inequalities hold.)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2018-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Spaceship missiles",
+     "problem": "Spaceship missiles\n\nA spaceship travels with a constant acceleration $g$ (as perceived by the passengers) along a straight line. At a certain moment, it launches two missiles in the direction of its motion, one with speed $v$ (comparable to the speed of light $c$), and another with speed $2v$ (these are speeds in the spaceship’s frame). Find the proper time interval in the space ship between catching the first missile and catching the second missile."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Loop inductance",
+     "problem": "Loop inductance\n\nFind the inductance of a circular loop of wire around an infinite ferromagnetic cylinder of radius $r$. The cylinder is made from a ferromagnetic material of relative permeability $\\mu \\gg 1$ (if needed, you can also assume that $\\ln\\mu \\gg 1$); the radius of the loop is slightly larger than $r$ so that it sits tightly around the cylinder."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "V-shaped vessel",
+     "problem": "V-shaped vessel\n\nA V-shaped vessel is made from two plates of width $l$ and length $L \\gg l$ which are connected via a frictionless hinge at its bottom. The vessel is fixed to a ceiling using light ropes of length $l$ as shown in figure. The vessel is filled almost up to the rim with water of density $\\rho$, and is subject to the homogeneous gravity field $g$. The top surface of the water is covered with a weightless thin telescopic plate which cannot be bent, but can be freely extended, and its edges can move frictionlessly up and down along the surfaces of the inclined plates (denoted with a red line in the figure). The purpose of this telescopic plate is to keep the top surface flat during oscillations. The mass of the ropes and plates is negligible. Find the angle between the plates, and the circular frequency of the lowest-frequency mirror-symmetric oscillation mode of this system (evaluate the numerical prefactor of your expression with the precision of four significant digits). Neglect any water motion perpendicular to the plane of the figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2018-4-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Mean free path of a black sphere",
+     "problem": "Mean free path of a black sphere\n\nEstimate the mean free path of a black sphere of mass $m$ and radius $R$ in vacuum at temperature $T$. Mean free path here is defined as the travel distance by which the velocity vector of the sphere turns by an angle $\\pi/2$. Assume that $kTR \\gtrsim hc$, where $k$ and $h$ are the Boltzmann and Planck constants, respectively; $c$ denotes the speed of light. You may find it useful to know that for a random walk when during a time period $\\tau$, a step of length $a$ is taken in a random, the average overall displacement during time $t > \\tau$ is estimated as $a\\sqrt{t/\\tau}$."
+    }
+   ]
+  },
+  {
+   "year": 2019,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Added mass",
+     "problem": "Added mass\n\nWhen a body moves in liquid, the motion of the body puts the liquid into motion, too. The motion of liquid contributes to the total kinetic energy of the system, and hence, leads to an increased effective mass of the body. The difference of the effective mass and the actual mass of the body is referred to as the added mass. The added mass depends on the size and shape of the body.\n\nConsider a certain metallic body of volume $V$ and polarizability $\\alpha$ along its symmetry axis $x$ (i.e. homogeneous externally applied electric field $\\vec E$ induces total dipole moment $\\vec p = \\alpha\\vec E$ on this body). Additionally, the body shape is such that if it were made from a homogeneous dielectric material and put into homogeneous electric field, the electric field inside the body would be also homogeneous. Find the added mass of this body when it starts moving translationally, parallel to the $x$-axis, in an incompressible initially motionless liquid of density $\\rho$. The viscosity of the liquid is negligibly small. Express the answer in terms of $V$, $\\rho$, $\\alpha$, and physical constants.\n\nHint. Initially vortex-free inviscid fluid remains free of vortices, i.e. $\\oint \\vec v\\,\\mathrm{d}\\vec r = 0$ for any integration contour inside the liquid, where $\\vec v \\equiv \\vec v(\\vec r, t)$ is the fluid velocity at position $\\vec r$; $t$ denotes a fixed moment of time."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Heat engines",
+     "problem": "Heat engines\n\nTypically, the Debye model describes well the heat capacity $C_V$ of crystals: for absolute temperatures $T$ much smaller than the so-called Debye temperature $T_D$, $C_V \\propto T^3$; at the opposite limit of $T \\gg T_D$, all the crystal lattice oscillations are thermally unlocked and hence, $C_V \\approx 3Nk_B$, where $N$ is the total number of atoms.\n\nSurprisingly, the heat capacity of ice behaves in a totally different manner: with a very good precision and over a wide range of temperatures (from the melting point $T_0$ down to ca $100\\,\\mathrm{K}$), its specific heat $c_V$ is proportional to the absolute temperature. In what follows, you may assume that for ice, $c_V = \\alpha T$, where $\\alpha \\approx 7.51\\,\\mathrm{J{\\cdot}kg^{-1}K^{-2}}$, and the latent heat of melting $\\lambda = 334\\,\\mathrm{kJ/kg}$.\n\nConsider an isolated system consisting of equal masses $m$ of water at temperature $T_0 = 273.15\\,\\mathrm{K}$, and ice. The ice is at a slightly lower temperature $T_0 - t$, where $t$ is of the order of few kelvins. This isolated system includes also ideal reversible heat engines of negligible heat capacity. One heat engine is used to produce mechanical energy which is consumed by another heat engine which is operated as a refrigerator. What is the lowest temperature $T$ which can be given to a $n$-th part of the ice (of mass $m/n$) if $n \\gg 1$?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Bouncing ball",
+     "problem": "Bouncing ball\n\nAn elastic ball of negligible size is dropped vertically onto a frictionless inclined plane which makes an angle $\\alpha$ with the horizontal. Initially the distance between the plane and the ball is $d$ and the speed of the ball is zero. The trajectory of the bouncing ball consists of parabolic arcs. Show that the foci of these parabolic arcs lie on a well-known shape, and give the parameter(s) defining this shape.\n\nAssume that collisions are perfectly elastic and that air drag is negligible."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Grid of resistors",
+     "problem": "Grid of resistors\n\nConsider an infinite square grid of resistors. Let us introduce coordinates $x$ and $y$ so that all the nodes are at integer coordinates $(n,m)$, with $n,m \\in \\mathbb{Z}$. For this grid of resistors, all the horizontal resistors, i.e. the resistors between node pairs $[(n,m),(n+1,m)]$, have the same resistance $R$; all the vertical resistors, i.e. the resistors between node pairs $[(n,m),(n,m+1)]$ have the same resistance $r$. It appears that for such a grid, the effective resistance $R_{nn}$ between the nodes $(0,0)$ and $(n,n)$ equals to\n\n$$R_{nn} = \\frac{2\\sqrt{Rr}}{\\pi}\\sum_{k=1}^{n}\\frac{1}{2k-1};$$\n\nthis formula can be used in your solution. By how much will change the effective resistance between the nodes $(0,0)$ and $(1,1)$ when the nodes $(n,n)$ and $(n+1,n+1)$ are connected with a piece of wire of negligibly small resistance? In other words, determine $R_{11}' - R_{11}$, where $R_{11}'$ is the new effective resistance between the nodes $(0,0)$ and $(1,1)$ after short-circuiting the nodes $(n,n)$ and $(n+1,n+1)$. Assume that $n > 1$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Diffraction pattern",
+     "problem": "Diffraction pattern\n\nConsider a check-board-like reflective diffraction grating a cross-section of which is shown in the figure below. The height of the reflecting surface above a reference plane is given by\n\n$$z = 20\\lambda_0\\left\\lfloor\\frac{x}{20\\lambda_0}\\right\\rfloor + \\lambda_0\\left\\lfloor\\frac{y}{20\\lambda_0}\\right\\rfloor,$$\n\nwhere $\\lambda_0 = 500\\,\\mathrm{nm}$, $\\lfloor a\\rfloor$ denotes the floor function (real number $a$ is rounded down to the nearest integer), and $|x|, |y| < 5000\\lambda_0$ (thus, the size of the grating is $5\\,\\mathrm{mm}\\times5\\,\\mathrm{mm}$). The side surfaces (vertical edges in the figure below) of the “stairs” are black and absorb all the incident light. A parallel beam of white light containing all the wavelengths from $\\lambda_1 = 400\\,\\mathrm{nm}$ to $\\lambda_2 = 700\\,\\mathrm{nm}$ propagates parallel to the $z$-axis and falls onto the grating. The reflected beam is focused with a lens onto a screen perpendicular to the beam at $z = 50\\,\\mathrm{cm}$. Sketch qualitatively the pattern which can be seen on the screen and show the approximate dimensions of the pattern. For each wavelength, mark only the main diffraction maximum (the brightest spot).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2019-5-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2020,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Small oscillations of a system in an electric field",
+     "problem": "Small oscillations of a system in an electric field\n\nTwo metal balls, both of mass $M$ and radius $R$, are connected with a rigid dielectric weightless rod of length $L$, assume that $L\\gg R$. The system is placed into a uniform external electric field of strength $E$; neglect gravity and friction forces. Find the period of small oscillations of this system around its stable equilibrium state."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Staircase-like surface of a crystal",
+     "problem": "Staircase-like surface of a crystal\n\nThe equilibrium shape of bodies in zero-gravity is determined by the minimum of their surface energy. At low temperature, the equilibrium shape of crystals may have flat facets. The parts of the crystal surface that have a small angle $\\phi$ with the facet are in fact staircases of rare steps on this facet, see the figure below. The height of such steps is equal to the period of the crystal lattice $h$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2020-2-fig1.png\n\nEquilibrium surface profile $y(x)$ of a certain crystal and the corresponding microscopic staircase are shown schematically in the figure on left, where $n$ denotes the step number, counting from $x=0$. The profile shape of this crystal is shown in the figure on right; at $x>0$ it can be approximated as $y(x)=-(x/\\lambda)^{3/2}h$, $\\lambda=45\\,\\mathrm{\\mu m}$, $h=0.3\\,\\mathrm{nm}$.\n\nThis crystal has been studied by the third problem of the second European Physics Olympiad: it has been shown that the distance $d_n$ between two adjacent steps for $n\\gg 1$ is given by $d_n=30\\,\\mathrm{\\mu m}\\,n^{-1/3}$, and that the interaction energy $E$ of two steps depends on the distance $d$ between them as $E(d)=\\mu\\,d^{-2}$. Here it is assumed that only adjacent steps interact, and the energy $E(d)$ is given per unit length of of the steps (i.e. per the length in the $z$-direction in the figure). Assuming that in addition to the interaction energy, the existence of each step contributes the energy per unit length of the step $\\beta=4\\cdot 10^{-15}\\,\\mathrm{J/m}$, find the value of the constant $\\mu$ in this expression using the data and graphs given above."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Thread breaking point",
+     "problem": "Thread breaking point\n\nA small ball of mass $m$ is suspended on an in-extensible massless thread of length $l$. The thread is very thin, flexible, and has a breaking force limit of $T_b=9mg$, where $g$ denotes the free fall acceleration. In the initial moment the thread is horizontal as shown in the figure, and the ball velocity $v=v_0$ is directed downward. It is known that the thread breaks in one of the four positions shown in the figure with dashed lines, when the angle between the thread and the vertical is $60^\\circ$; friction is to be neglected. Find all the possible values for $v_0$. (A solution is considered to be correct only if all the suitable values are algebraically expressed, and no extra/invalid values are included.)\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2020-3-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Heat flux between plates",
+     "problem": "Heat flux between plates\n\nThe space between two parallel infinite metallic plates is filled with homogeneous material of heat conductivity $\\kappa$. The heat conductivity of the metallic plates is much larger than $\\kappa$, the distance between the plates is $L$. One of the plates is kept at temperature $T_1$, and the other – at temperature $T_2$. There is a spherical cavity of radius $R$ in the medium between the plates, at equal distance $L/2$ from the both plates; assume that $R\\ll L$. Initially, the cavity is filled with a gas of negligibly small heat conductivity (much smaller than $\\kappa$). By how much will change the total heat flux $P$ between the plates (measured in watts) if the spherical cavity is filled with a material of very large heat conductivity (much larger than $\\kappa$)?"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Lens position reconstruction",
+     "problem": "Lens position reconstruction\n\nThe two ellipses depicted in the figure below, available as a Geogebra file (https://physicscup.ee/wp-content/uploads/2020/03/two_ellipses.zip), represent real images of circles, created by an ideal thin lens. Both the ellipses and the main optical axis of the lens lay in the plane of the figure. Reconstruct the position of the lens (i.e. the position of the centre and the orientation). Remark: it is recommended to use Geogebra, https://www.geogebra.org/, either as an online service, or as a downloaded application. In you construction steps, you may use everything what Geogebra has to offer: drawing a line through two given points, drawing parallel and perpendicular lines to a given line through a given point, drawing tangents through a given point to a given shape (i.e. a given curve), finding intersection points of shapes (i.e. of curves or lines), drawing circles with a given centre through a given point, or through three given points, or through two diametrically opposite points on it, drawing ellipse with given foci through a point laying on it, or through five given points. Trial-and-error approach (for instance, displacing a certain shape until three certain intersection points lay on a straight line) is not accepted. Alternatively, you may print the ellipses onto a sheet of paper and make constructions by hand using a ruler and a compass (be aware that there may be no solution if you start with arbitrarily positioned two ellipses of arbitrary shape, so make sure to either print the drawing, or take the initial shapes close enough to the provided one).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2020-5-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2021,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Dumbbell in a magnetic field",
+     "problem": "Dumbbell in a magnetic field\n\nTwo hollow spheres of radius $R=10\\,\\mathrm{cm}$ are made of copper and connected with a cylindrical copper rod of length $L=1\\,\\mathrm{m}$ and radius $r=1\\,\\mathrm{mm}$. The total mass of this dumbbell-like system is $m=150\\,\\mathrm{g}$. The entire system is in a very strong magnetic field $B=2\\,\\mathrm{MT}$ which is perpendicular to the rod. This “dumbbell” is given an initial velocity $v=1\\,\\mathrm{m/s}$ which is parallel to the direction of the rod. However, this orientation is unstable: the “dumbbell” will start oscillating; eventually, these oscillations decay so that the “dumbbell” will take a stable orientation and a new final speed $u$. Find an expression for this terminal speed $u$ analytically and evaluate it numerically. The “dumbbell” moves in weightlessness in a total vacuum."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Comet's orbit",
+     "problem": "Comet's orbit\n\nAt two different points in its orbit, a comet has velocities $\\vec v_1$ and $\\vec v_2$. If:\n\n(i) $\\vec v_1$ and $\\vec v_2$ are orthogonal and\n\n(ii) $|\\vec v_1|=2|\\vec v_2|$, what is the smallest possible eccentricity of the orbit?"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Oscillating octagon",
+     "problem": "Oscillating octagon\n\nFind all non-trivial natural oscillation frequencies for a regular octagon made from eight homogeneous bars of mass $m$ and length $l$. While the bars are rigid, the connectors connecting two neighboring bars are such that the angle $\\varphi$ between the bars can be changed without any friction, but a returning torque $T=k(\\varphi-\\frac 34\\pi)$ will appear at the joint as soon as the angle departs from its equilibrium value $\\frac 34\\pi$. Indicate how many linearly independent oscillation modes correspond to each of these frequencies. Consider only planar oscillation modes, i.e. modes by which the bars move only in the plane of the octagon."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Shock wave in an electron gas",
+     "problem": "Shock wave in an electron gas\n\nSparse electron gas is in a $z$-directional magnetic field of strength $B\\gg mk_BT/\\hbar e$, where $T$ denotes the temperature; $m$ and $e$ stand for the mass and charge of the electrons, respectively. Walls that represent very high potential barriers confine the gas into the region $0<z<L$; the pressure exerted by the electrons to these walls is initially equal to $p_0$. A shock wave in the form of a potential barrier of height $U_0=100k_BT$ travels with speed $u$ through this region. This means that while the potential energy of electrons at $z>ut$ is zero, the potential energy at $z<ut$ is $U_0$. Find the pressure exerted on the walls after the shock wave has traveled through the entire space of length $L$ between the walls. Assume that $u\\ll \\sqrt{k_BT/m}$; neglect the electrostatic interaction of the electrons."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Nonlinear circular resonator",
+     "problem": "Nonlinear circular resonator\n\nA circular resonator in fibre optics is made from one circular single-mode fibre coupled to two straight single-mode fibres as shown in the figure. In single-mode fibres, light propagation is essentially one-dimensional: the phase of the electric and magnetic fields in each cross-section of the fibre is constant. The couplings $A$ and $C$ between the circular fibre and the straight fibres are such that a very small fraction $\\alpha\\ll 1$ of light energy propagating in one of the fibres is transmitted through the coupling into the other fibre. Assume that the both couplings are identical. As a wave of amplitude $E$ propagates in the circular fibre, a double-frequency light wave of amplitude $\\mathcal E$ is generated due to nonlinearity of the fibre (however, the double-frequency wave propagates linearly without generating a quadruple-frequency wave). We assume that the dispersion is negligible, i.e. the coefficient of refraction is the same for both the main wave, and for the double-frequency wave so that the increase $\\Delta \\mathcal E$ in the amplitude of the double-frequency wave is proportional to the travel distance. Here we quantify the nonlinearity of the circular fibre with the constant $\\delta$, such that if a wave of amplitude $E$ travels through a semicircle $ABC$, the amplitude $\\mathcal E$ of the co-propagating double-frequency wave is increased by $\\Delta \\mathcal E=\\delta E^2$; this expression is valid assuming that $\\delta \\mathcal E\\ll 1$ (you can use this assumption). The coupling constant $\\alpha$ is a function of the frequency of the wave; here we denote the coupling constant for the main wave by $\\alpha$, and assume that the coupling constant for the double-frequency wave equals to $\\alpha^2$. The length of the circular fibre equals to an integer multiple of the wavelength of the main-frequency wave.\n\nLaser light of intensity $I_0=E_0^2$ (with $E_0$ denoting the amplitude of the wave) and of a very long coherence length is directed into the bottom fibre at the input $O$; at the output $D$, both the main-frequency and double-frequency light will appear. For fixed values of $I_0$ and $\\delta$, the intensity of the double-frequency light $\\mathcal I$ at the output depends on the coupling strength $\\alpha$ which can be easily controlled through the manufacturing process. Find the maximal value $\\mathcal I_m$ of $\\mathcal I$, and the corresponding coupling strength $\\alpha_m$ (express in terms of $I_0$ and $\\delta$; only closed-form expressions are accepted).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2021-5-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2022,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Magnetized ball",
+     "problem": "Magnetized ball\n\nA spherical ball of radius $R=1\\,\\mathrm{cm}$ is made from a NdFeB alloy. The figure below shows the left upper quadrant ($H<0$, $B>0$) of the hysteresis loop of this alloy for two temperatures, $T_1=20^\\circ\\mathrm{C}$, and $T_2=120^\\circ\\mathrm{C}$. Initially, the ball has been magnetized by putting it into a very strong homogeneous magnetic field (with $B\\approx 3\\,\\mathrm{T}$). Then, the external magnetic field is removed while the temperature of the ball is kept equal to $T_1=20^\\circ\\mathrm{C}$. After that, the ball is heated up to the temperature $T_2=120^\\circ\\mathrm{C}$. By how much did the magnetic dipole moment of the ball change due to heating?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2022-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Fastest lap",
+     "problem": "Fastest lap\n\nA boy is periodically running around an equilaterally triangular house of side length $a$ on an icy field. What is the minimum duration of one loop around the house, assuming an optimal trajectory? You may assume a constant coefficient of friction $\\mu$ between the ice and the boy and that the boy’s stride length is negligible compared to the house’s dimensions. Gravitational acceleration is $g$."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Photon rocket",
+     "problem": "Photon rocket\n\nA photon rocket of rest mass $m$ switches on the engines and accelerates in a certain direction; it is not known how the magnitude of the thrust is changed in time, and how much fuel is burned at this stage. Then, the direction of thrust is changed by an angle $\\alpha$, as measured on board of the rocket, and another portion of fuel is burned until the speed of the rocket equals to $\\frac 45c$ and its remaining rest mass is equal to $\\frac 14m$. What is the minimal value of the angle $\\alpha$ by which such a final state can be reached?\n\nRemark: a photon rocket converts part of its rest mass (e.g by electron-positron annihilation) into photons which are used as propellants."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Image of a point",
+     "problem": "Image of a point\n\nFour points, $A$, $B$, $C$ and $D$ lie on a straight line on equal distances from each other, i.e. $|AB|=|BC|=|CD|$. Figure below shows points $A'$, $B'$, and $C'$ which are the images of the points $A$, $B$, and $C$ created by a thin lens. The focal length, position and orientation of the thin lens are not known; the only thing what is known is that the optical axis of the lens lies in the plane of the figure. Construct geometrically the point $D'$, the image of the point $D$. With your full solution, please submit also a Geogebra file (.ggb), and the coordinates of the point $D'$ with three decimal digits.\n\nRemark: Please download and use the Geogebra file with the images of the three points (https://www.ioc.ee/~kalda/ipho/4-points.ggb). With the Geogebra (online app: https://www.geogebra.org/classic), you may use the functionality corresponding to what can be done with a ruler and compass (drawing lines, perpendicular lines, finding midpoints, etc). You are not allowed to make numerical calculations in Geogebra and enter calculated point coordinates.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2022-4-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Satellite",
+     "problem": "Satellite\n\nConsider a satellite that has a shape of a plate of surface area $A$ and of thickness $d\\ll \\sqrt A$. The surface normal of the plate is turned towards Sun. The satellite has to convert solar energy into electrical energy and charge the onboard batteries. At the position of the satellite, the solar energy flux density is $S$. What is the theoretically maximal constant charging power if any devices can be installed inside the satellite, but its outer coating can be only a gray painting (from white to black), i.e. the emissivity has to be independent of the wavelength? Different parts of the satellite can be painted differently. Neglect the cosmic microwave background.\n\nAny numeric values in your final answer should have at least 4 significant digits."
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Sinking cylinder",
+     "problem": "Sinking cylinder\n\nA solid cylinder of radius $R$ and height $H$ has density $\\rho_c$ and is immersed in water of density $\\rho_w$. The cylinder is initially kept at rest so that its axis is vertical, and the distance between its bottom face and the bottom of the water container is $h$. The water container has a flat rigid bottom, and the depth of water in it is larger than $H+h$. At a certain moment, the cylinder is released and starts falling. How long it will take for the cylinder to hit the bottom? Neglect viscosity. Assume that $\\rho_c>\\rho_w$, $H<R$, and $10\\rho_ch\\ll \\rho_wR$."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Phase transitions in a wire",
+     "problem": "Phase transitions in a wire\n\nA thin long wire is made of a material that undergoes a phase transition so that its resistivity takes one of the two values, $\\rho_1$ if its temperature is smaller than $T_c$, and $\\rho_2=2\\rho_1$ if the temperature is larger than $T_c$.\n\nAssume the following:\n(a) the heat flux per unit length of the wire to the ambient medium is $W=\\alpha (T-T_0)$, where $\\alpha$ is a constant, $T$ denotes the temperature of the wire, and $T_0$ is the ambient temperature ($T_0<T_c$);\n(b) the wire is so thin that the thermal flux along the wire can be almost everywhere neglected, and the characteristic thermalization time is much shorter than the time during which the voltage is changed;\n(c) while the coefficient $\\alpha$ and cross-sectional area $A$ are almost constant along the wire, due to imperfections, there are tiny variations;\n(d) the length of the wire $L\\gg\\sqrt A$.\n\nThe voltage $V$ applied to the ends of the wire is increased very slowly, at a constant rate (i.e. linearly in time), from zero until the whole wire has undergone a phase transition, and then reduced back to zero, at the same constant rate. Sketch how the total power $P$ dissipated in the wire depends on time $t$.\n\nYour sketch should show power and voltage values at any point where either $P$ or its time derivative is discontinuous, expressed in terms of $P_0=\\alpha L(T_c-T_0)$ and $V_0=L\\sqrt{\\alpha \\rho_1(T_c-T_0)/A}$. The solution is considered to be correct only if all these points have correct values, and all segments of the graph are qualitatively correct (e.g. a convex curve should not be drawn as a straight line)."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Magnets in conducting liquid",
+     "problem": "Magnets in conducting liquid\n\nTwo spherical permanent magnets of radius $R$ and of magnetic dipole moment $m$ are initially at a distance $3R$ from each other (this is the distance between the centers of the spheres); the dipole moments are parallel to each other and to the axis connecting the centers of the spheres. The magnets are immersed into an incompressible liquid which is brought into a highly conductive state: in your calculations, you can consider it as superconductive, except that the existing magnetic field is not expelled from it. The liquid fills an infinite (i.e. very large) volume of space.\n\nNow, the magnets are pulled from each other along the axis connecting their centers so that the new distance $L$ between the magnets is much larger than $R$. Estimate the magnitude of the force $F$ needed to keep the magnets at these new positions.\n\nRemark: “estimate” means that the numerical prefactor of your answer does not need to be correct, but all the physical parameters need to enter the expression in a correct way."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Spaceship",
+     "problem": "Spaceship\n\nA spaceship takes off from the Earth at $t=0$, and henceforth keeps the modulus of its proper acceleration equal to $g$; here and in what follows, $t$ denotes the spaceship’s proper time. Thus, the astronauts on board will always feel a constant free fall acceleration $g$. However, the direction of the proper acceleration is changed four times at equal intervals, by turning the engines counterclockwise by $90^\\circ$. So, the proper acceleration is:\n• parallel to the $x$-axis when $0\\le t< \\tau$;\n• parallel to the $y$-axis when $\\tau\\le t< 2\\tau$;\n• antiparallel to the $x$-axis when $2\\tau\\le t< 3\\tau$;\n• antiparallel to the $y$-axis when $3\\tau\\le t< 4\\tau$.\n\nIt turns out that the spaceship’s speed relative to the Earth takes exactly the same value $v$ at $t=\\tau$, and $t=4\\tau$. Find this value $v$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Light sources",
+     "problem": "Light sources\n\nThere are three identical point light sources emitting mutually coherent light homogeneously in all directions. The figure below, also available as a GeoGebra file (https://www.ioc.ee/~kalda/ipho/Diffr.ggb), shows the positions of the local light intensity maxima in the plane defined by the three light sources. These positions are not perfectly accurate because they are calculated on the assumption that the light intensity from a single source does not depend on the distance from it. Reconstruct the positions of the light sources using GeoGebra classic (https://www.geogebra.org/classic); you can use all its construction tools except the ones which require inputting numerical values or formulas.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2023-5-fig1.png"
+    }
+   ]
+  },
+  {
+   "year": 2024,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Diving cylinder",
+     "problem": "Diving cylinder\n\nThe video below shows a solid cylinder falling into water in slow motion. Determine the density of the cylinder. You are allowed to take measurements from the video frames.\n\nFor making better measurements you are advised to download the video and open it with a video viewer that allows frame-by-frame navigation (e.g. MPC-HC with Ctrl-> and Ctrl<- for frame-by-frame navigation, or VLC with “e” to go to the next frame). Don’t expect your answer to be very precise due to the inaccuracy of the measurements.\n\nVideo: https://physicscup.ee/wp-content/uploads/2024/FallingDisc.mp4"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Image of a circle",
+     "problem": "Image of a circle\n\nIn the figure below, the ellipse is a real image of a circle created by an ideal thin lens. The point $F$ is the closer-to-the-ellipse main focus of the lens. Optical axis lies in the plane of this figure. Construct geometrically the centre $O$ of this thin lens. Use the figure in .ggb format (https://www.ioc.ee/~kalda/PC2024-Pr-2.ggb). Give the coordinates of the point $O$ with five decimal digits.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2024-2-fig1.png\n\nRemark 1: You are not supposed to use trial-and-error approach (e.g. looking for such a position of some point by which three points are collinear or two points coincide etc). The centre of the lens should come out as an intersection point of some lines or curves without any room for trials.\n\nRemark 2: Please download and use the Geogebra file with the ellipse and the focus (https://www.ioc.ee/~kalda/PC2024-Pr-2.ggb). With the Geogebra (online app: https://www.geogebra.org/classic), you may use the functionality available through the menu buttons (except the Locus, Polar, Complex numbers, Best Fit Line, functions tools, and tools with numeric input). You are not allowed to make numerical calculations in Geogebra and enter calculated point coordinates. The available tools are shown below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2024-2-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Scrap iron sorting",
+     "problem": "Scrap iron sorting\n\nAn assortment of scrap iron is scattered on a wooden table. The scrap consists of small pieces of thin sheet (with a thickness much smaller than their diameter) and tiny spherical balls. To remove the scrap, a spherical permanent magnet is used, approaching it from above with the magnetisation vector pointing downwards. The plates are lifted when the height of the centre of the magnet from the table surface is $a$. What is the height $b$ at which the magnet lifts the spheres? It is assumed that the dimensions of the scrap particles are significantly smaller than $a$. The iron from which the scrap is made of is a soft ferromagnetic with a negligible width of the hysteresis loop; its relative permeability is much greater than one. The interaction between neighbouring scrap particles can be neglected."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Satellites",
+     "problem": "Satellites\n\nTwo satellites orbit Earth on the same plane along elliptic paths of eccentricities $e_1$ and $e_2$ respectively. The angle between their major axes is $\\alpha$. The rate at which a line segment connecting a satellite and the Earth’s centre sweeps out an area is $L_1$ and $L_2$ respectively. What is the maximal relative velocity of the satellites? Provide also a simplified answer for $\\alpha=90^\\circ$ and $L_1=L_2$. The ratio of the orbital periods of the satellites is an irrational number. Earth’s mass is denoted by $M$, and the gravitational constant by $G$."
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Water pipe",
+     "problem": "Water pipe\n\nA water pipe of length $L$ and of internal radius $r$ runs under ground and is surrounded over its entire length by soil at temperature $T_0$. The specific heat of the soil is $c$, the density is $\\rho$, and the heat conductance is $\\kappa$. The characteristics of the pipe walls are identical to those of the soil. A boiler supplying water at a constant temperature $T_1>T_0$ is attached to the inlet of the pipe, and at the moment of time $t=0$, a tap is opened at the outlet of the pipe. The water in pipe starts flowing at a constant speed $v$. How long one has to wait for the water flowing out of the tap to become warm if it is known that this waiting time is significantly bigger than $L/v$? We call water warm if its temperature is higher than $\\frac 12(T_0+T_1)$. Only an estimate of the answer is required: you need to provide the correct functional dependence of the waiting time while estimating the magnitude of its parameters. The specific heat of water is $c_w$, and its density is $\\rho_w$; the water flow in the pipe is turbulent so that the water temperature can be assumed to be constant over a cross-section of the pipe."
+    }
+   ]
+  },
+  {
+   "year": 2025,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Interaction force",
+     "problem": "Interaction force\n\nThe center of a non-magnetic metal ball with radius $R$ is at the origin; the ball is in a homogeneous magnetic field $B$ that is parallel to the x-axis. The ball rotates with an angular speed $\\omega$ around the x-axis. At $x=L$, $y=z=0$, there is another identical metal ball that does not rotate. Find the interaction force between the two balls, assuming that $L\\gg R$ and $R\\ll \\sqrt{\\rho/\\mu\\omega}$, where $\\rho$ denotes the ball’s resistivity and $\\mu$ is the permeability."
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Tetrahedral flock of birds",
+     "problem": "Tetrahedral flock of birds\n\nInitially, four birds, labeled $A$, $B$, $C$, and $D$, are positioned at the vertices of a regular tetrahedron with side length $a$. At time $t=0$, all birds begin flying. For all $t>0$, each bird flies directly toward another bird in the following pattern: $A$ flies toward $B$, $B$ flies toward $C$, $C$ flies toward $D$, and $D$ flies toward $A$. For any $t>0$, the speeds of all the birds are equal.\n\nCalculate the total distance traveled by bird $A$ from the start until all birds meet at a single point."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Oscillating piston",
+     "problem": "Oscillating piston\n\nA monoatomic gas fills a cylinder of height $H$ under a piston. The piston oscillates periodically up and down with amplitude $a$: during the first half-period, it moves upward with a constant speed $u$, and during the second half-period, it moves downward with the same constant speed $u$. Initially, the root-mean-square (RMS) speed of the molecules is $v$. How much time $t$ will it take for the RMS speed to double? Use the following model assumptions: the walls and the piston are perfect heat insulators and have zero heat capacity; the surface of the piston is perfectly flat; the mean free path of the molecules $\\lambda$ satisfies the following conditions: $H\\gg\\lambda\\gg a$ and $\\lambda\\gg \\frac{H^2}{vt}$; additionally, $v\\gg u$."
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Axis of a lens",
+     "problem": "Axis of a lens\n\nIn the figure below, the ellipse is a real image of a circle created by an ideal thin lens whose center is at point $O$. Geometrically construct the main optical axis of this thin lens, which is known to lie in the plane of this figure. Use the figure in .ggb format (https://www.geogebra.org/classic/mktncqhy), also available at https://www.ioc.ee/~kalda/ipho/PC25-P4.ggb.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2025-4-fig1.png\n\nFor an answer-only submission, provide the factor $a$ from the equation $y=ax+b$ defining the optical axis, using 8 decimal digits.\n\nRemark 1: You are not supposed to use trial-and-error approach (e.g. looking for such a position of some point by which three points are collinear or two points coincide etc). The optical axis of the lens should come out from the geometrical construction without any room for trials.\n\nRemark 2: Please download and use the Geogebra file with the ellipse and the focus (https://www.geogebra.org/classic/mktncqhy), also available at https://www.ioc.ee/~kalda/ipho/PC25-P4.ggb. With the Geogebra (online app: https://www.geogebra.org/classic), you may use the functionality available through the menu buttons (except the Locus, Polar, Complex numbers, Best Fit Line, functions tools, and tools with numeric input). You are not allowed to make numerical calculations in Geogebra and enter calculated point coordinates. The available tools are shown below.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2025-4-fig2.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Satellite orbit",
+     "problem": "Satellite orbit\n\nA satellite orbits a planet. At point $A$, its speed is $v_1$. At point $B$, its speed is $v_2$ and its velocity vector forms a right angle with the velocity vector at point $A$. At point $C$, the velocity is exactly opposite to the velocity at point $A$, with a magnitude of $v_3$. Find the eccentricity of the orbit. Also determine the exact numerical value of the eccentricity when $v_1 = 1\\,\\mathrm{km/s}$, $v_2 = 2\\,\\mathrm{km/s}$, and $v_3 = 3\\,\\mathrm{km/s}$."
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Theory",
+     "title": "Brick between planes",
+     "problem": "Brick between planes\n\nA small brick is squeezed between two parallel planes in zero-gravity. The planes are perpendicular to the axis $z$. The lower plane always stays in rest, whilst the upper one is moving with the constant velocity $\\vec v$ along the axis $x$, see the figure. Initially the velocity of the brick $\\vec u_0$ is perpendicular to $\\vec v$ and lies in axis $y$. The friction between the planes and the brick is dry with the same coefficient of kinetic friction. Given the initial acceleration of the brick $a_0$, find the displacement $l_y$ of the brick along the axis $y$ after a long time. Obtain an expression of $l_y$ for arbitrary speeds $v$ and $u_0$, and evaluate the answer for $v=u_0=1\\,\\mathrm{m/s}$, and $a_0=1\\,\\mathrm{m/s^2}$ with four digits.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2026-1-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Theory",
+     "title": "Multi-stream gas flow",
+     "problem": "Multi-stream gas flow\n\nConsider a gas with initial number density $n$ and temperature $T$. At the initial moment, the gas is spatially uniform, while the macroscopic velocity is parallel to the $x$-axis with a profile given by $v_x(x)=v_0 \\sin(kx)$. The molecules can be treated as rigid spheres of mass $m$ and radius $r$.\n\nWhat condition for $v_0$ must be satisfied so that, at a certain moment and location, a multi-stream flow arises? A flow is considered “multi-stream” at a point $x$ if the local velocity distribution function $f(v_x)$ has at least two local maxima, where each maximum is at least twice the value of the local minimum between them.\n\nAssume that $v_0\\gg \\sqrt {k_BT/m}$. It is sufficient to estimate the answer to an order of magnitude; exact numerical prefactors are not required."
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Theory",
+     "title": "Infinite octagonal LC lattice",
+     "problem": "Infinite octagonal LC lattice\n\nAt time $t=0$, a constant voltage $V\\equiv V_0$ is applied between nodes $A$ and $B$ of the infinite circuit shown below. All inductors have inductance $L$, and all capacitors have capacitance $C$. Find the input current $I(t)$ as a function of time.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2026-3-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Theory",
+     "title": "Water in a rotating container",
+     "problem": "Water in a rotating container\n\nA thin cylindrical container of radius $R$, wall thickness $2d\\ll R$, and height $h = d$, filled with water, rotates at angular velocity $\\Omega$. Six radial holes of $h\\times h$ square cross-section are made through the wall at 60° intervals (at clock positions 1, 3, 5, 7, 9, 11). Initially the holes are plugged so that water fills the region of radial distance $r < R + d$ as shown in the figure. The surface tension $\\sigma \\gg \\rho d^2 R\\Omega^2$, where $\\rho$ denotes the water density, and the contact angle is 90°. Assume $R \\gg d$ and neglect gravity. Outside air pressure is atmospheric.\n\nAll plugs are removed simultaneously; immediately after removal, the water is still at rest in the co-rotating frame, but now water can flow through the holes. Let $t = 0$ be when water in one of the holes has displaced by $x$ with $x \\ll d$; it appears that by $t = T_1$, it has displaced by $2x$.\n\nA radial thin partition is now installed along the line connecting the clock positions of 12 and 6, creating two semicircular compartments with three holes in each. The experiment is repeated.\n\nFind $T_2^2-T_1^2$, where $T_2$ is the time from displacement $x$ to displacement $2x$ in the hole at 3 o’clock of the partitioned case.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2026-4-fig1.png"
+    },
+    {
+     "day": 1,
+     "number": 5,
+     "paper_label": "Theory",
+     "title": "Crystal Ball",
+     "problem": "Crystal Ball\n\nA crystal ball contains a tiny sphere of fluorescent dye adjacent to its inner surface. The ball is illuminated from behind with ultraviolet light, and as a result, the dye radiates visible light isotropically. The surface of the ball has an anti-reflection coating, so there are no partial reflections. However, there are microscopic impurities inside the ball that scatter light weakly. The figure shows the image seen on a screen placed in front of the ball; the length of the white line segment equals the diameter $d$ of the ball. Find which fraction of the light energy emitted by the fluorescent dye departs the ball as scattered light. You may take length measurements from the figure. Neglect any light absorption inside the ball. You should aim to have two correct digits in your answer.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/pcup-2026-5-fig1.png\n\nNote: the dim regions of the image are greatly enhanced."
+    }
+   ]
+  }
+ ]
+}

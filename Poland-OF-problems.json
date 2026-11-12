@@ -2,6 +2,751 @@
  "competition": "Poland — Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part",
  "years": [
   {
+   "year": 1952,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Voltmeter readings in a circuit with two bulbs and a source",
+     "problem": "Problem 1\n\nTwo unit bulbs, each of resistance $R=2\\ \\Omega$, are connected in series with a current source of electromotive force $E=4.2\\ \\mathrm{V}$ and internal resistance $r=0.2\\ \\Omega$. Two identical voltmeters of very large resistance are connected in parallel to the bulbs. What do these voltmeters read when:\n\n1) both bulbs are screwed in?\n\n2) one bulb is unscrewed and the other is left screwed in?\n\n3) both bulbs are unscrewed?",
+     "problem_orig": "Zadanie 1\n\nDwie jednostkowe żarówki, każda o oporze $R=2\\ \\Omega$, połączono w szereg ze źródłem prądu o sile elektromotorycznej $E=4{,}2\\ \\mathrm{V}$ i o oporze wewnętrznym $r=0{,}2\\ \\Omega$. Równolegle do żarówek przyłączone są dwa identyczne woltomierze o bardzo wielkich oporach. Co wskazują te woltomierze w przypadkach, gdy:\n\n1) obie żarówki są włączone?\n\n2) wykręcimy jedną żarówkę, a drugą pozostawimy włączoną?\n\n3) wykręcimy obie żarówki?",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Quantities for a jet engine of a flying aircraft",
+     "problem": "Problem 2\n\nThe jet engine of an aircraft flying horizontally at a constant speed of $200\\ \\mathrm{m/s}$ takes in $50\\ \\mathrm{kg/s}$ of air at a temperature of $0^\\circ\\mathrm{C}$ and expels it, at the same pressure, heated to a temperature of $320^\\circ\\mathrm{C}$. The composition of the expelled air differs from that of the air taken in because of the partial consumption of oxygen and the presence of combustion products. These differences, being small, may be neglected. The speed of the air entering the engine is $200\\ \\mathrm{m/s}$ relative to the aircraft, and the speed of the air leaving the engine is $600\\ \\mathrm{m/s}$, also relative to the aircraft. Calculate:\n\n1) the thrust of the jet engine,\n\n2) the useful power of the engine,\n\n3) the amount of energy lost per second with the escaping air,\n\n4) the efficiency of the engine in per cent, neglecting other losses,\n\n5) the fuel consumption per second.\n\nThe specific heat of air at constant pressure is $0.25\\ \\mathrm{kcal/(kg\\cdot deg)}$, the heat of combustion of the fuel is $12\\,000\\ \\mathrm{kcal/kg}$.",
+     "problem_orig": "Zadanie 2\n\nSilnik odrzutowy samolotu lecącego poziomo z prędkością stałą $200\\ \\mathrm{m/s}$ pobiera $50\\ \\mathrm{kg/s}$ powietrza o temperaturze $0^\\circ\\mathrm{C}$ oraz wyrzuca je pod tym samym ciśnieniem ogrzane do temperatury $320^\\circ\\mathrm{C}$. Skład powietrza wyrzucanego różni się od powietrza pobranego wobec częściowego zużycia tlenu i obecności produktów spalania. Różnice te, jako drobne, można zaniedbać. Prędkość powietrza wchodzącego do silnika wynosi względem samolotu $200\\ \\mathrm{m/s}$, prędkość zaś powietrza opuszczającego silnik jest $600\\ \\mathrm{m/s}$, również względem samolotu. Obliczyć:\n\n1) siłę ciągu silnika odrzutowego,\n\n2) moc użyteczną silnika,\n\n3) ilość energii traconej na sekundę wraz z uchodzącym powietrzem,\n\n4) procentową sprawność silnika, zaniedbując inne straty,\n\n5) zużycie paliwa w jednej sekundzie.\n\nCiepło właściwe powietrza pod stałym ciśnieniem równe jest $0{,}25\\ \\mathrm{kcal/(kg\\cdot stop)}$, ciepło spalania paliwa – $12\\,000\\ \\mathrm{kcal/kg}$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Rotating steel rod: rotation rate at rupture and motion of the pieces",
+     "problem": "Problem 3\n\nA uniform steel rod of length $2a=1\\ \\mathrm{m}$ rotates about a vertical axis passing through its midpoint and perpendicular to its length. Knowing that steel ruptures at a stress $\\sigma=1.95\\cdot10^{10}\\ \\mathrm{dyn/cm^2}$ and knowing its density $\\delta=7.8\\ \\mathrm{g/cm^3}$, determine the number $n$ of revolutions per second at which the rod will rupture. Into which pieces will the rod break, and what is their subsequent motion?",
+     "problem_orig": "Zadanie 3\n\nJednorodny pręt stalowy o długości $2a=1\\ \\mathrm{m}$ wiruje dokoła osi pionowej przechodzącej przez jego środek i prostopadłej do jego długości. Wiedząc, że stal ulega zerwaniu przy naprężeniu $\\sigma=1{,}95\\cdot10^{10}\\ \\mathrm{dyn/cm^2}$, znając jej gęstość $\\delta=7{,}8\\ \\mathrm{g/cm^3}$, wyznaczyć liczbę $n$ obrotów na sekundę, przy której pręt ulegnie zerwaniu. Na jakie części rozerwie się pręt i jaki jest ich dalszy ruch?",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 4,
+     "paper_label": "Final (theory)",
+     "title": "Usefulness of given instruments in a spacecraft",
+     "problem": "Problem 4\n\nAn interplanetary spacecraft, for some time, does not use its own propulsion and is outside the limits of the atmosphere; it moves solely under the action of gravity. A traveller in the hermetically sealed cabin of this spacecraft, filled with air at normal pressure, has equipped himself with the following instruments:\n\n1) a pendulum clock,\n\n2) a balance with pans,\n\n3) a dynamometer,\n\n4) an aneroid barometer,\n\n5) a mercury barometer,\n\n6) a mercury thermometer,\n\n7) a spirit level,\n\n8) a spirit burner,\n\n9) a Bunsen burner and a gas cylinder.",
+     "problem_orig": "Zadanie 4\n\nStatek międzyplanetarny przez pewien czas nie korzysta z własnego napędu i znajduje się poza granicami atmosfery; odbywa ruch jedynie pod działaniem siły ciężkości. Podróżny jadący w szczelnie zamkniętej kabinie tego statku, wypełnionej powietrzem pod ciśnieniem normalnym, zaopatrzył się w szereg następujących przyrządów:\n\n1) zegar wahadłowy,\n\n2) wagę szalkową,\n\n3) dynamometr,\n\n4) aneroid,\n\n5) barometr rtęciowy,\n\n6) termometr rtęciowy,\n\n7) poziomicę,\n\n8) palnik spirytusowy,\n\n9) palnik Bunsena i butlę z gazem.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1956,
+   "problems": [
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Focal length of a concave mirror filled with water",
+     "problem": "Problem 3\n\nA horizontally placed spherical concave mirror of radius of curvature $R=60\\ \\mathrm{cm}$ has been filled with water. Find the focal length of this mirror. The refractive index of water is $n=4/3$.\n\nNote. The greatest depth of the water is small compared with the radius of curvature of the mirror.",
+     "problem_orig": "Zadanie 3\n\nPoziomo położone kuliste zwierciadło wklęsłe o promieniu krzywizny $R=60\\ \\mathrm{cm}$ zostało napełnione wodą. Znaleźć ogniskową tego zwierciadła. Współczynnik załamania wody wynosi $n=4/3$\n\nUwaga. Największa głębokość wody jest mała w porównaniu z promieniem krzywizny zwierciadła.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1957,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Motion of a weight on a spring after release",
+     "problem": "Problem 1\n\nA steel wire wound helically forms a spring in which, when it is stretched by a length $a$, an elastic force equal to $P$ arises. The spring is suspended vertically and a light pan is attached to its lower end. A body of weight $P$ is placed on the pan, the pan having first been supported.\n\n1. How far down will the pan drop if the support is removed?\n\n2. What will happen next, after the pan has dropped to its lowest level?\n\nThe answer must be justified.\n\nNote! The weights of the pan and the spring are to be neglected in the calculations, as extremely small compared with the weight $P$.",
+     "problem_orig": "Zadanie 1\n\nStalowy drut zwinięty śrubowo stanowi sprężynę, w której przy rozciągnięciu o długość $a$ powstaje napięcie sprężyste równe $P$. Sprężynę zawieszono pionowo i na jej dolnym końcu umocowano lekką szalkę. Na szalce położono ciało o ciężarze $P$, podpierając ją uprzednio.\n\n1. Jak nisko opadnie szalka, jeżeli usuniemy podporę?\n\n2. Co będzie się działo dalej po opadnięciu szalki do najniższego poziomu?\n\nOdpowiedź należy uzasadnić.\n\nUwaga! Ciężar szalki i sprężyny należy w obliczeniach pominąć jako nader mały w porównaniu z ciężarem $P$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Pitch of the echo of a locomotive whistle in a valley",
+     "problem": "Problem 3\n\nOver a certain stretch the direction of a railway track is perpendicular to the slope of a valley. The driver of a train moving along this track with speed $v_1$ emits a signal of frequency $\\nu$ at some moment. Only after the signal has died away does he hear its echo from the slope of the valley. What is the pitch of the signal – the echo received by the driver?",
+     "problem_orig": "Zadanie 3\n\nKierunek toru kolejowego jest na pewnym odcinku prostopadły do zbocza kotliny. Maszynista pociągu poruszającego się po tym torze z prędkością $v_1$ emituje w pewnym momencie sygnał o częstotliwości $\\nu$. Już po przebrzemieniu sygnału słyszy on jego echo pochodzące od zbocza kotliny. Jaka jest wysokość sygnału – echa odbieranego przez maszynistę?",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1962,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Visibility of an object under a glass funnel in a liquid",
+     "problem": "Problem 2\n\nA small object lies on the bottom of a vessel. It is covered with a thin-walled glass funnel in the shape of a cone with apex angle $2\\varphi$. The funnel fits tightly against the bottom of the vessel. The object is placed at the centre of the base of the cone. The vessel is then filled with a transparent liquid of refractive index $n$, covering the conical part of the funnel completely. What conditions must be satisfied for the object to be visible to an observer looking from above the surface of the liquid?",
+     "problem_orig": "Zadanie 2\n\nNa dnie naczynia znajduje się niewielki przedmiot, który przykryto cienkościennym lejkiem szklanym w kształcie stożka o kącie rozwarcia $2\\varphi$. Lejek szczelnie przylega do dna naczynia. Przedmiot umieszczono w środku podstawy stożka. Następnie naczynie wypełniono przezroczystą cieczą o współczynniku załamania $n$ pokrywając nią całkowicie część stożkową lejka. Jakie warunki muszą być spełnione, aby dla obserwatora patrzącego znad powierzchni cieczy dany przedmiot był widoczny?",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1963,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Pendulum hung in a freely falling frame",
+     "problem": "Problem 1\n\nA ball is suspended on a thread. The end of the thread is fixed to a frame hanging vertically (Fig. 4). The pendulum so made is deflected by an angle $\\alpha$ and then released. At the moment when the ball passes through the equilibrium position (point $B$), the frame begins to fall freely. When the ball reaches position $C$ (the deflection of the pendulum from the equilibrium position being then $90^\\circ$), the frame is suddenly stopped. By what angle $\\alpha$ must the pendulum be deflected so that, just before the frame is stopped, the speed of the ball is equal to zero?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1963-1-fig1.png",
+     "problem_orig": "Zadanie 1\n\nKulkę zawieszono na nici. Koniec nici umocowano na ramie wiszącej pionowo (rys. 4). Tak sporządzone wahadło odchylono o kąt $\\alpha$, a następnie zwolniono. W chwili, gdy kulka przechodziła przez położenie równowagi (punkt $B$) rama zaczęła spadać swobodnie. Gdy kulka osiągnęła położenie $C$ (wychylenie wahadła od położenia równowagi wynosiło wówczas $90^\\circ$) rama została nagle zatrzymana. O jaki kąt $\\alpha$ należy odchylić wahadło, aby na chwilę przed zatrzymaniem ramy prędkość kulki była równa zeru?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1963-1-fig1.png",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Image formed by a converging lens with a concave mirror",
+     "problem": "Problem 2\n\nBehind a converging lens of focal length $20\\ \\mathrm{cm}$, a concave spherical mirror of radius of curvature $20\\ \\mathrm{cm}$ is placed perpendicular to the optical axis at a distance of $30\\ \\mathrm{cm}$. On the other side of the lens, at a distance of $40\\ \\mathrm{cm}$, a luminous object is placed. Where, and of what kind, will the image of the object be?",
+     "problem_orig": "Zadanie 2\n\nZa soczewką zbierającą o ogniskowej $20\\ \\mathrm{cm}$ umieszczono w odległości $30\\ \\mathrm{cm}$ prostopadle do osi optycznej zwierciadło kuliste wklęsłe o promieniu krzywizny $20\\ \\mathrm{cm}$. Z drugiej strony soczewki w odległości $40\\ \\mathrm{cm}$ umieszczono przedmiot świecący. Gdzie i jaki otrzymamy obraz przedmiotu?",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Closed U-tube with water and mercury in weightlessness",
+     "problem": "Problem 3\n\nWater was poured into one arm of a U-shaped tube and mercury into the other. After equilibrium was reached, the openings were closed tightly (Fig. 1). What changes will occur in the tube if it is placed in a state of weightlessness? Justify your answer. Consider also the case in which the openings of the tube were closed under such conditions that the air pressure in the arms of the tube can be neglected.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1963-3-fig1.png\n\n[Labels in the figure: «Rys. 1» = Fig. 1; $h_\\mathrm{w}$ = height of the water column, $h_\\mathrm{r}$ = height difference of the mercury (rtęć) levels.]",
+     "problem_orig": "Zadanie 3\n\nDo rurki w kształcie litery U nalano do jednego ramienia wody, a do drugiego rtęci. Po ustaleniu równowagi otwory szczelnie zamknięto (rys. 1). Jakie zmiany zajdą w rurce w przypadku, gdy znajdzie się ona w stanie nieważkości? Odpowiedź uzasadnij. Rozpatrz też przypadek, gdy zamykanie otworów rurki odbywało się w takich warunkach, że ciśnienie powietrza w ramionach rurki można pominąć.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1963-3-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1969,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Crossing of two parallel rays after refraction in a sphere",
+     "problem": "Problem 1\n\nIn a medium of refractive index equal to $1$ there is an optically homogeneous transparent ball of refractive index $n>1$. The radius of the ball is $R$. Two parallel rays, a distance $d<2R$ apart, fall on the ball symmetrically with respect to its centre.\n\n1) What condition should $d$ and $n$ satisfy so that the rays intersect outside the ball?\n\n2) Determine what the refractive index $n$ would have to be so that the rays intersect outside the ball for any $d<2R$.\n\n3) Determine what the refractive index $n$ would have to be so that the rays do not intersect outside the ball for any $d$.",
+     "problem_orig": "Zadanie 1\n\nW ośrodku o współczynniku załamania równym $1$ znajduje się optycznie jednorodna przezroczysta kula o współczynniku załamania $n>1$. Promień kuli wynosi $R$. Na kulę padają symetrycznie względem środka dwa równoległe promienie odległe o $d<2R$.\n\n1) Jaki warunek powinny spełniać $d$ oraz $n$ na to, aby promienie przecięły się na zewnątrz kuli?\n\n2) Ustalić, jaki musiałby być współczynnik załamania $n$, aby promienie przecięły się na zewnątrz kuli dla dowolnego $d<2R$?\n\n3) Ustalić, jaki musiałby być współczynnik załamania $n$, aby promienie, nie przecięły się na zewnątrz dla żadnego $d$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Equivalent resistance of a ladder network",
+     "problem": "Problem 2\n\nWhat should the resistance $X$ be so that the resistance $R_{AB}$ of the circuit (Fig. 1) does not depend on the number $n$ of repeated identical elements of this circuit?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1969-2-fig1.png\n\n[Labels in the figure: «Rys. 1» = Fig. 1.]",
+     "problem_orig": "Zadanie 2\n\nJaki powinien być opór $X$, aby opór obwodu $R_{AB}$ (rys. 1) nie zależał od liczby $n$ powtarzających się identycznych elementów tego obwodu?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1969-2-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1972,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Oscillations of two bodies joined by a spring on a table",
+     "problem": "Problem 1\n\nTwo small bodies of masses $m_1$ and $m_2$ are joined by a uniform spring of spring constant $k$ and placed on a horizontal smooth table. The spring is stretched by moving the two bodies apart, and then both bodies are released simultaneously. The system starts to oscillate along a straight line. What kind of oscillations are these, and what is their period?",
+     "problem_orig": "Zadanie 1\n\nDwa nieduże ciała o masach $m_1$ i $m_2$ połączono jednorodną sprężyną o stałej sprężystości $k$ i położono na poziomym gładkim stole. Sprężynkę rozciągnięto przez rozsunięcie obu ciał, a następnie oba ciała jednocześnie puszczono. Układ zaczął drgać wzdłuż linii prostej. Jakie to są drgania i jaki jest ich okres?",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Radius of a charged particle's orbit in the field of a charge and a magnetic pole",
+     "problem": "Problem 2\n\nA material point of mass $m$ and electric charge $-e$ moves on a circular orbit in the electric and magnetic field produced by a point electric charge $e$ and the pole of a long thin magnet, both located at the same point. The diameter of the circular orbit is seen at an angle $2\\vartheta$ from the point where the charge and the field-producing pole are located. Assume that the magnetic pole produces the field $\\vec B=\\dfrac{\\alpha}{r^3}\\,\\vec r$, where $\\alpha$ is a given constant.\n\nFind the radius of the orbit.",
+     "problem_orig": "Zadanie 2\n\nW polu elektrycznym i magnetycznym, wytworzonym przez znajdujące się w tym samym punkcie: punktowy ładunek elektryczny $e$ i biegun długiego cienkiego magnesu, porusza się po orbicie kołowej punkt materialny o masie $m$ i ładunku elektrycznym $-e$. Średnicę orbity kołowej – z punktu, w którym znajduje się ładunek i biegun wytwarzający pole – widać pod kątem $2\\vartheta$. Przyjmijmy, że biegun magnetyczny wytwarza pole $\\vec B=\\dfrac{\\alpha}{r^3}\\,\\vec r$, gdzie $\\alpha$ jest zadaną stałą.\n\nWyznacz promień orbity.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Rotation of a plate in a flask of chlorine",
+     "problem": "Problem 3\n\nA flat, thin, rectangular plate of mass $m$ is suspended vertically (symmetrically) on two weightless, inextensible threads, as shown in Fig. 1. Half of the surface on each side of the plate is coated with a chemically active metal. The whole is placed in an initially evacuated glass flask, into which at some moment gaseous chlorine at pressure $p$ is admitted. Assuming that the probability of a chemical reaction when a chlorine molecule collides with the metal is $P<1$, calculate the angle through which the plate turns about the vertical axis in the equilibrium state.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1972-3-fig1.png\n\nHint. Assume that the density of chlorine is practically the same on both sides of the plate, that the drop in chlorine pressure as the reaction proceeds is negligibly small, and that the metal chloride formed stays on the plate. We also assume that during the observation time so little chlorine has reacted that the probability $P$ and the mass $m$ of the plate can be regarded as constant.",
+     "problem_orig": "Zadanie 3\n\nPłaską, cienką, prostokątną płytkę o masie $m$ zawieszono pionowo (w sposób symetryczny) na dwóch nieważkich, nierozciągliwych nitkach tak, jak to pokazuje rysunek 1. Połowę powierzchni z każdej strony płytki pokryto aktywnym chemicznie metalem. Całość umieszczono w bańce szklanej, początkowo opróżnionej, do której w pewnym momencie wpuszczono gazowy chlor pod ciśnieniem $p$. Zakładając, że prawdopodobieństwo zajścia reakcji chemicznej przy zderzeniu cząsteczki chloru z metalem wynosi $P<1$, oblicz kąt, o jaki obróci się płytka wokół osi pionowej w stanie równowagi.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1972-3-fig1.png\n\nWskazówka. Przyjmijmy, że gęstość chloru jest praktycznie taka sama po obu stronach płytki, że spadek ciśnienia chloru w miarę zachodzenia reakcji jest zaniedbywanie mały i że powstający chlorek metalu pozostaje na płytce. Zakładamy również, że w okresie czasu, w którym prowadzimy obserwację, przereagowało na tyle mało chloru, że prawdopodobieństwo $P$ i masę płytki $m$ można uważać za stałe.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1973,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Falling rope and the hooks",
+     "problem": "Problem 1\n\nA thin, uniform, flexible but inextensible rope of total length $l$ and mass $M$ was initially fastened by both ends to two closely spaced hooks and hung freely, as in Fig. 1. At some moment one end of the rope is released and the rope begins to fall (Fig. 2). It is known that the largest load each hook can bear is $N$ (greater than the weight of the rope $Mg$). What exactly is the condition that the quantities $Mg$ and $N$ must satisfy so that during the fall the upper end of the rope does not tear the hook out?\n\nWe assume that during the fall each element of the rope, immediately after reaching its corresponding final position, stops and remains at rest.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1973-1-fig1.png",
+     "problem_orig": "Zadanie 1\n\nCienka, jednorodna, wiotka, ale nierozciągliwa lina o długości całkowitej $l$ i masie $M$ początkowo była umocowana obydwoma końcami do blisko siebie położonych haków i zwisała swobodnie, tak jak na rysunku 1. W pewnej chwili koniec liny zwolniono i lina zaczyna opadać (rys. 2). Wiadomo, że największe obciążenie, które wytrzymuje każdy z haków, wynosi $N$ (większe od ciężaru liny $Mg$). Jaki dokładnie warunek muszą spełniać wielkości $Mg$ i $N$, aby w czasie opadania górny koniec liny nie wyrwał haka.\n\nZakładamy, że w czasie opadania każdy element liny zaraz po osiągnięciu odpowiadającego mu położenia końcowego zatrzymuje się i pozostaje nieruchomy.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1973-1-fig1.png",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Shape of a lens free of spherical aberration",
+     "problem": "Problem 3\n\nDetermine the shape of the surface of a plano-convex lens that focuses a parallel beam of rays without spherical aberration. Assume that the light is incident perpendicularly from the side of the flat surface.\n\nCalculate the thickness of this lens at its centre, taking the following numerical data: lens radius $r=5\\ \\mathrm{cm}$, focal distance from the flat surface of the lens $f=12\\ \\mathrm{cm}$, refractive index of the glass $n=1.5$.\n\nHint: This problem is much easier to solve by analysing the focusing process from the wave point of view.",
+     "problem_orig": "Zadanie 3\n\nWyznacz kształt powierzchni soczewki płasko-wypukłej, która ogniskuje równoległą wiązkę promieni bez aberracji sferycznej. Przyjmujemy, że światło pada prostopadle od strony powierzchni płaskiej.\n\nOblicz grubość tej soczewki w środku, przyjmując następujące dane liczbowe: promień soczewki $r=5\\ \\mathrm{cm}$, odległość ogniskowa od płaskiej powierzchni soczewki $f=12\\ \\mathrm{cm}$, współczynnik załamania szkła $n=1{,}5$.\n\nWskazówka: Zadanie to znacznie łatwiej rozwiązać analizując proces ogniskowania z falowego punktu widzenia.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1974,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Equivalent inductance of two coupled coils",
+     "problem": "Problem 1\n\nTwo coils carrying current can interact with each other in the sense that changes of current in one of them cause an electromotive force to arise in the other, and vice versa. The measure of this interaction is the coefficient of mutual induction $M>0$: the additional electromotive force induced in the first coil is $\\pm M\\dfrac{\\mathrm{d}I_2(t)}{\\mathrm{d}t}$, and in the second $\\pm M\\dfrac{\\mathrm{d}I_1(t)}{\\mathrm{d}t}$, where $I_1(t)$, $I_2(t)$ denote the currents in the first and second coil respectively. The signs of the induced electromotive forces obey Lenz's rule.\n\nUsing the above information, determine the equivalent inductance $L_{AB}$ of the following circuit (the position of the coils and the directions of the windings are marked in Fig. 1):\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1974-1-fig1.png\n\nDoes the result change (and how?) if the winding direction in one of the coils is reversed? What is the largest value the coefficient of mutual induction $M$ can have? From what considerations does this follow?",
+     "problem_orig": "Zadanie 1\n\nDwie cewki z prądem mogą oddziaływać wzajemnie w tym znaczeniu, że zmiany prądu w jednej z nich wywołują powstawanie sił elektromotorycznej w drugiej i na odwrót. Miarą tego oddziaływania jest współczynnik indukcji wzajemnej $M>0$: dodatkowa siła elektromotoryczna indukowana w pierwszej cewce wynosi $\\pm M\\dfrac{\\mathrm{d}I_2(t)}{\\mathrm{d}t}$, a w drugiej $\\pm M\\dfrac{\\mathrm{d}I_1(t)}{\\mathrm{d}t}$, gdzie $I_1(t)$, $I_2(t)$ oznaczają natężenie prądów odpowiednio w pierwszej i drugiej cewce. Znaki indukowanych sił elektromotorycznych spełniają regułę Lenza.\n\nKorzystając z powyższych z informacji wyznacz indukcyjność zastępczą $L_{AB}$ następującego układu (położenie cewek i kierunki uzwojeń zaznaczono na rysunku 1):\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1974-1-fig1.png\n\nCzy (i jak?) wynik uległby zmianie gdybyśmy w jednej z cewek zmienili kierunek uzwojenia na przeciwny? Jaką największą wartość może mieć współczynnik indukcji wzajemnej $M$? Z jakich rozważań to wynika?",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "On an optically active substance",
+     "problem": "Problem 3\n\nSome transparent substances (called optically active substances) rotate the plane of polarization of light passing through them. Consider a plate made of such a substance. Show that, regardless of which side of the plate faces the incident polarized light beam arriving perpendicularly, the angle through which the plane of polarization is rotated is the same.",
+     "problem_orig": "Zadanie 3\n\nNiektóre przezroczyste substancje (zwane substancjami optycznie czynnymi) skręcają płaszczyznę polaryzacji przechodzącego przez nie światła. Weźmy pod uwagę płytkę wykonaną z takiej właśnie substancji. Wykaż, że niezależnie od tego, którą strona płytka będzie zwrócona ku nadbiegającej prostopadle wiązce światła spolaryzowanego, kąt, o jaki ulegnie skręceniu płaszczyzna polaryzacji, będzie taki sam.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1975,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Equilibrium conditions of a picture hung on a thread",
+     "problem": "Problem 1\n\nThe ends of a thread are attached to the corners of a homogeneous rectangular picture with sides $a$ and $b$. What must the length $l$ of the thread be so that the picture can be hung on a nail driven into a vertical wall in the position shown in Fig. 1?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1975-1-fig1.png\n\n[Label in the figure: «Rys. 1» = Fig. 1.]\n\nNote: The picture is to hang in stable equilibrium. Friction is neglected.",
+     "problem_orig": "Zadanie 1\n\nDo rogów jednorodnego, prostokątnego obrazka o bokach $a$ i $b$ przymocowano końce nici. Jaka musi być długość nici $l$, aby obrazek ten można było zawiesić na gwoździu wbitym w pionową ścianę w pozycji pokazanej na rysunku 1.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1975-1-fig1.png\n\nUwaga: Obrazek ma wisieć w równowadze trwałej. Tarcie zaniedbujemy.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Path of a light ray along a parabola",
+     "problem": "Problem 2\n\nA ray of light is incident at a right angle, at the point $y=0$, on a transparent medium whose refractive index depends on the variable $y$ (Fig. 1).\n\nWhat should the form of the function $n(y)$ be so that inside the medium considered the ray follows a parabola? The value $n(0)$ is equal to $n_0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1975-2-fig1.png",
+     "problem_orig": "Zadanie 2\n\nNa ośrodek przezroczysty o współczynniku załamania zależnym od zmiennej $y$, w punkcie $y=0$, pod kątem prostym pada promień światła (rys. 1).\n\nJaka powinna być postać funkcji $n(y)$, aby wewnątrz rozpatrywanego ośrodka promień biegł po paraboli? Wartość $n(0)$ jest równa $n_0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1975-2-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1976,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Motion of a cylinder with a weight on rails",
+     "problem": "Problem 2\n\nA cylinder with a thread wound on it lies on horizontal parallel rails; a weight is attached to the end of the thread. Initially the cylinder is held, and the system cylinder + weight does not move. At some moment the cylinder is released. After some time the axis of the cylinder acquired a constant acceleration $a$ (Fig. 1).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1976-2-fig1.png\n\n[Label in the figure: «Rys. 1» = Fig. 1.]\n\nKnowing that the cylinder moves without slipping, determine:\n\na) the ratio of the mass $m$ of the weight to the mass $M$ of the cylinder,\n\nb) the minimum coefficient of sliding friction of the cylinder on the incline (rolling friction is neglected).",
+     "problem_orig": "Zadanie 2\n\nNa poziomych równoległych szynach znajduje się walec z nawiniętą nitką, na której końcu przymocowany jest ciężarek. Początkowo walec jest przytrzymywany i układ walec + ciężarek nie porusza się. W pewnej chwili walec zwolniono. Po pewnym czasie oś walca uzyskała stałe przyspieszenie $a$ (rys. 1).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1976-2-fig1.png\n\nWiedząc, że ruch walca odbywa się bez poślizgu określ:\n\na) stosunek masy ciężarka $m$ do masy walca $M$,\n\nb) minimalny współczynnik tarcia posuwistego walca o równię (tarcie potoczyste zaniedbujemy).",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Angular radius of a rainbow arc",
+     "problem": "Problem 3\n\nOver a vast, horizontal plain, a liquid, colourless insecticide was sprayed from an aeroplane; its refractive indices for the extreme regions of the visible spectrum are: $n_\\mathrm{cz}=1.460$ (for red) and $n_\\mathrm{f}=1.470$ (for violet). Before the droplets of the liquid fell to the ground, a rainbow associated with the presence of these droplets in the air was observed over the plain. Determine the angular radius of the red and of the violet arc of the rainbow. What restriction on the angular height of the Sun above the horizon follows from the fact that a rainbow was observed at all? We assume that the Sun is a point source of light, very far from the Earth.\n\nHint: Show that for different wavelengths the extreme values of the angle at which a ray leaves a droplet after a single internal reflection are different. Show that the maximum intensity of a given colour corresponds to the extreme value of the angle mentioned above. The effects connected with multiple reflections of rays in the droplets may be disregarded.",
+     "problem_orig": "Zadanie 3\n\nNad rozległą, poziomą równią rozpylono z samolotu ciekły, bezbarwny środek owadobójczy o współczynnikach załamania dla skrajnych obszarów widma widzialnego równych: $n_\\mathrm{cz}=1{,}460$ (dla czerwieni) i $n_\\mathrm{f}=1{,}470$ (dla fioletu). Zanim kropelki cieczy opadły na ziemię, nad równiną zaobserwowano tęczę związaną z występowaniem tych kropelek w powietrzu. Wyznacz promień kątowy czerwonego i fioletowego łuku tęczy. Jakie ograniczanie na wysokość kątową Słońca nad horyzontem wnika z faktu, że tęczę w ogóle zaobserwowano? Zakładamy, że Słońce jest punktowym, bardzo odległym od Ziemi źródłem światła.\n\nWskazówka: Wykaż, że dla różnych długości fali ekstremalne wartości kąta, pod jakim promień opuszcza kropelkę po jednokrotnym wewnętrznym odbiciu, są różne. Wykaż, że maksimum natężenia danej barwy odpowiada ekstremalnej wartości wspomnianego wyżej kąta. Efektów związanych z wielokrotnymi odbiciami promieni w kropelkach nożna nie rozpatrywać.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1977,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Radiation in a cavity",
+     "problem": "Problem 2\n\nIn a cavity of volume $V$ and constant temperature there is radiation of total energy $E$. Equilibrium prevails between the radiation and the walls of the cavity. What relation do the quantities $V$, $E$ and the pressure $p$ of the radiation on the walls satisfy?",
+     "problem_orig": "Zadanie 2\n\nWe wnęce o objętości $V$ i stałej temperaturze znajduje się promieniowanie o energii całkowitej $E$. Między promieniowaniem a ściankami wnęki panuje stan równowagi. Jaki związek spełniają wielkości $V$, $E$ i ciśnienie promieniowania na ścianki $p$?",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Copper tube in a rotating magnetic field",
+     "problem": "Problem 3\n\nIn a magnetic field of induction $B$ rotating with angular velocity $\\omega$ there is a long, thin-walled copper tube open at both ends (Fig. 88). The axis of the tube lies in the plane of rotation of the field. Dimensions of the tube: length $l$, inner radius $r\\ll l$, wall thickness $d\\ll r$. Resistivity of the tube material: $\\rho$. Calculate the instantaneous value of the current flowing around the tube, i.e. the current flowing through the cross-section of the tube wall made by a half-plane issuing from the symmetry axis of the tube. For what values of $\\omega$ can the self-inductance of the tube be neglected?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1977-3-fig1.png\n\n[Label in the figure: «Rys.88» = Fig. 88.]",
+     "problem_orig": "Zadanie 3\n\nW wirującym z prędkością kątową $\\omega$ polu magnetycznym o indukcji $B$ znajduję się długa, cienkościenna rura miedziana otwarta z obu końców (rys. 88). Oś rury leży w płaszczyźnie wirowania pola. Wymiary rury: długość $l$, promień wewnętrzny $r\\ll l$, grubość rury $d\\ll r$. Opór właściwy materiału rury $\\rho$. Oblicz chwilową wartość natężenia prądu opływającego rurę dookoła, czyli natężenie prądu przepływającego przez przekrój ścianki rury półpłaszczyzną wychodzącą z osi symetrii rury. Dla jakich wartości $\\omega$ można zaniedbać samoindukcję rury?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1977-3-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1979,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Five short questions (Lorentz force)",
+     "problem": "Problem 1\n\nState or choose (in question E) the answer and justify it briefly.\n\nA. An alternating current was passed through a taut string, making it glow faintly (Fig. 91). A horseshoe magnet was placed near the string at some point. It was observed that regularly spaced dark and bright places appeared on the string. Why?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig1.png\n\n[Labels in the figure: «struna» = string; «magnes» = magnet.]\n\nB. Fig. 92 shows a sketch made from a photograph taken in a bubble chamber. What is the most probable interpretation of the process shown?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig2.png\n\nC. A sensitive balance (Fig. 93) was balanced while a fly was sitting on the inner surface of the bell jar. How will the balance behave when the fly flies inside the bell jar, keeping a constant position in space below its initial position?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig3.png\n\n[Labels in the figure: «pierwotne położenie muchy» = original position of the fly; «mucha w locie» = fly in flight.]\n\nD. Tiny traces of matter in outer space hinder the motion of satellites. Will friction against the remnants of the atmosphere cause the position of a geostationary satellite to drift to the east or to the west?\n\nE. The rod shown in Fig. 94 rotates with a slowly increasing angular velocity. At a certain angular velocity the rod\n\na) will begin to break off piece by piece at its ends,\n\nb) will break apart near the axis of rotation\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig4.png\n\n[Labels in the figure: «oś obrotu» = axis of rotation.]",
+     "problem_orig": "Zadanie 1\n\nPodaj lub wybierz (w zadaniu E) i krótko uzasadnij odpowiedź.\n\nA. Przez napiętą strunę (rys. 91) puszczono prąd zmienny powodując jej lekkie świecenie. W pewnym miejscu w pobliżu struny umieszczono magnes w kształcie podkowy. Zaobserwowano, że na strunie powstały regularnie rozmieszczone ciemne i jasne miejsca. Dlaczego?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig1.png\n\nB. Na rysunku 92 pokazano szkic zrobiony na podstawie fotografii z komory pęcherzykowej. Jaka jest najprawdopodobniejsza interpretacja przedstawionego procesu?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig2.png\n\nC. Czułą wagę (rys. 93) zrównoważono, gdy mucha siedziała na wewnętrznej powierzchni klosza. Jak będzie wyglądała równowaga wagi, gdy mucha będzie latać wewnątrz klosza utrzymując stałe położenie w przestrzeni poniżej swego położenia początkowego?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig3.png\n\nD. Drobne ślady materii w przestrzeni kosmicznej utrudniają ruch satelitów. Czy wskutek tarcia o resztki atmosfery pozycja satelity stacjonarnego będzie przesuwać się na wschód, czy na zachód?\n\nE. Pokazany na rysunku 94 pręt wiruje z powoli wzrastającą prędkością kątową. Przy pewnej prędkości kątowej pręt\n\na) zacznie urywać się po kawałku przy końcach,\n\nb) rozerwie się w pobliżu osi obrotu\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-1-fig4.png",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Acceleration and heat released by a tape sliding down an incline",
+     "problem": "Problem 2\n\nA thin, inextensible, perfectly flexible tape lies on an inclined plane of inclination angle $\\alpha$. The side of the tape facing the plane is rough enough that the tape does not slide down the plane, while its upper side is perfectly smooth, so that after a very small piece at the upper end of the tape is folded over, the tape starts to slide down over itself – Fig. 1.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-2-fig1.png\n\n[Labels in the figure: «cienka zsuwająca się taśma» = thin sliding tape.]\n\n1) Assuming that the motion of the end of the tape is uniformly accelerated, calculate the value of the acceleration $a$.\n\n2) Calculate the amount of heat released in the moving (folded) part of the tape up to the moment at which its kinetic energy reaches the value $E_k$. (We assume that up to that moment less than half of the length of the tape has slid down).",
+     "problem_orig": "Zadanie 2\n\nNa równi pochyłej o kącie nachylenia $\\alpha$ leży cienka, nierozciągliwa, doskonale wiotka taśma. Strona taśmy zwrócona do równi jest wystarczająco chropowata, by taśma nie zsuwała się po równi, zaś jej strona górna jest idealnie gładka, tak że po zagięciu bardzo małego kawałka w górnym końcu taśmy rozpoczyna się jej zsuwanie po sobie samej – rysunek 1.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-2-fig1.png\n\n1) Zakładając, że ruch końca taśmy jest jednostajnie przyspieszony, oblicz wartość przyspieszenia $a$.\n\n2) Oblicz ilość ciepła, jaka wydzieliła się w ruchomej (zagiętej) części taśmy do chwili, w której jej energia kinetyczna osiągnęła wartość $E_k$. (Przyjmujemy, że do tego momentu zsunęło się mniej niż pół długości taśmy).",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Derivation of the Stefan–Boltzmann law from a Carnot cycle of radiation",
+     "problem": "Problem 3\n\nConsidering a thermodynamic engine whose working substance is electromagnetic radiation, operating in a Carnot cycle (shown in Fig. 1), and using the second law of thermodynamics, derive the Stefan–Boltzmann law, which states that the energy radiated by a unit surface of a perfectly black body per unit time is proportional to the fourth power of the absolute temperature.\n\nNote:\n\n1) In the problem use the relation:\n$$p=\\frac{1}{3}\\,u,$$\nwhere $p$ denotes the radiation pressure and $u$ its volume energy density. This relation was the subject of one of the olympiad problems and need not be proved.\n\n2) The efficiency of an engine operating in a Carnot cycle is:\n$$\\eta=\\frac{T_1-T_2}{T_1},$$\nwhere $T_1$ denotes the temperature of the heater and $T_2$ the temperature of the cooler.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-3-fig1.png",
+     "problem_orig": "Zadanie 3\n\nRozpatrując silnik termodynamiczny, w którym ciałem roboczym jest promieniowanie elektromagnetyczne, pracujący w cyklu Carnota (pokazany na Rys. 1) i korzystając z II zasady termodynamiki wyprowadź prawo Stefana-Boltzmanna głoszące, że energia wypromieniowana przez jednostkę powierzchni ciała doskonale czarnego w ciągu jednostki czasu jest proporcjonalna do czwartej potęgi temperatury bezwzględnej.\n\nUwaga:\n\n1) W zadaniu skorzystaj ze związku:\n$$p=\\frac{1}{3}\\,u,$$\ngdzie: $p$ oznacza ciśnienie promieniowania, $u$ – jego objętościową gęstość energii. Związek ten był przedmiotem jednego z zadań olimpijskich i nie trzeba go dowodzić.\n\n2) Sprawność silnika pracującego w cyklu Carnota wynosi:\n$$\\eta=\\frac{T_1-T_2}{T_1},$$\ngdzie: $T_1$ oznacza temperaturę grzejnika, $T_2$ – temperaturę chłodnicy.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1979-3-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1980,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Five short questions",
+     "problem": "Problem 1\n\nState and briefly justify the correct answer:\n\nA. A convex polyhedron is given. Prove that for at least one face, the straight line passing through the centre of mass of the polyhedron and perpendicular to the plane containing the face in question passes through that face or its edge.\n\nB. A homogeneous cylinder is mounted on an axis in the wall of a vessel containing a liquid, as in Fig. 1. The cylinder fits the opening tightly, and at the same time it can move without friction about the axis. The force of gravity acts on each of the halves of the cylinder, separated by the dashed line. For obvious reasons these forces cannot cause the cylinder to rotate. However, the half of the cylinder located inside the vessel is acted on by the liquid with a buoyant force directed upward. Therefore the cylinder should rotate. Where is the error?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1980-1-fig1.png\n\nC. $2n$ square plates, each of area $S$, were placed one behind the other and then connected to a voltage source (Fig. 2). The distances between the plates are equal to $d\\ll\\sqrt{S}$. What is the capacitance of the capacitor built in this way?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1980-1-fig2.png\n\nD. A copper disc is mounted on an axis and can rotate without friction. Below the disc, also on the axis, there is a bar magnet (Fig. 3). How will the disc behave if the magnet is set into rotation with a constant angular velocity?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1980-1-fig3.png\n\nE. Why can one sometimes scoop up water with a fine-meshed sieve?",
+     "problem_orig": "Zadanie 1\n\nPodaj i krótko uzasadnij właściwą odpowiedz:\n\nA. Dany jest wielościan wypukły. Wykaż, że co najmniej dla jednej ściany prosta przechodząca przez środek masy wielościanu i prostopadła do płaszczyzny zawierającej rozważaną ściankę, przechodzi przez tę ścianę lub jej brzeg.\n\nB. W ściance naczynia z cieczą umocowano na osi jednorodny walec tak, jak na rysunku 1. Walec ściśle wypełnia otwór, a jednocześnie może on poruszać bez tarcia wokół osi. Na każdą z połówek walca, oddzielonych linią przerywaną działa siła ciężkości. Siły te z oczywistych powodów nie mogą spowodować obrotu walca. Jednakże na połówkę walca, znajdującą się wewnątrz naczynia, ze strony cieczy działa siła wyporu skierowana ku górze. Zatem walec powinien się obracać. Gdzie tu tkwi błąd?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1980-1-fig1.png\n\nC. $2n$ płytek kwadratowych, każda o powierzchni $S$, ustawiono jedna za drugą, po czym włączono do źródła napięcia (rys. 2). Odległości między płytkami są równe $d\\ll\\sqrt{S}$. Ile wynosi pojemność tak zbudowanego kondensatora?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1980-1-fig2.png\n\nD. Dana jest tarcza miedziana osadzona na osi i mogąca obracać się bez tarcia. Pod tarczą, również na osi, znajduje się magnes sztabkowy (rys. 3). Jak będzie zachowywać się tarcza, jeżeli magnes wprawimy w ruch obrotowy ze stałą prędkością kątową?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1980-1-fig3.png\n\nE. Dlaczego gęstym sitem można czasem zaczerpnąć wody?",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Temperature of a black ball heated at the focus of a lens by sunlight",
+     "problem": "Problem 2\n\nA thin lens of diameter $d=5\\ \\mathrm{cm}$ and focal length $f=10\\ \\mathrm{cm}$ is given. Using this lens, by focusing sunlight, we want to heat as much as possible a perfectly black body in the form of a small ball of radius $r$. Determine the dependence of the temperature to which the ball can be heated on its radius $r$.\n\nWe assume that the lens transmits all the light falling on it and that the focusing is carried out in vacuum, in surroundings of temperature $T_0=300\\ \\mathrm{K}$. We also assume that the ball conducts heat perfectly, so that at every moment the temperature of all its points is the same.\n\nNumerical data:\n\n1) solar constant\n$$S=0.139\\ \\frac{\\mathrm{J}}{\\mathrm{cm}\\cdot\\mathrm{s}}$$\n\n2) Stefan–Boltzmann constant\n$$\\sigma=5.67\\cdot10^{-12}\\ \\frac{\\mathrm{J}}{\\mathrm{cm}^2\\cdot\\mathrm{s}\\cdot\\mathrm{K}^4}$$\n\n3) temperature of the surface of the Sun\n$$T_S=6000\\ \\mathrm{K}$$\n\nNote: The total energy radiated in 1 s by $1\\ \\mathrm{cm}^2$ of the surface of a perfectly black body is, according to the Stefan–Boltzmann law, $\\sigma T^4$, where $\\sigma$ denotes the Stefan–Boltzmann constant and $T$ the absolute temperature of the body.",
+     "problem_orig": "Zadanie 2\n\nDana jest soczewka cienka o średnicy $d=5\\ \\mathrm{cm}$ i ogniskowej $f=10\\ \\mathrm{cm}$. Za pomocą tej soczewki, przez zogniskowanie promieni słonecznych, chcemy maksymalnie ogrzać ciało doskonale czarne w postaci kulki o promieniu $r$. Wyznacz zależność temperatury, do której możemy ogrzać kulkę, od jej promienia $r$.\n\nZakładamy, że soczewka przepuszcza całe padające nań światło i że proces ogniskowania prowadzimy w próżni w otoczeniu o temperaturze $T_0=300\\ \\mathrm{K}$. Zakładamy ponadto, że kulka doskonale przewodzi ciepło, dzięki czemu w każdej chwili temperatura wszystkich jej punktów jest taka sama.\n\nDane liczbowe:\n\n1) stała słoneczna\n$$S=0{,}139\\ \\frac{\\mathrm{J}}{\\mathrm{cm}\\cdot\\mathrm{s}}$$\n\n2) stała Stefana-Boltzmanna\n$$\\sigma=5{,}67\\cdot10^{-12}\\ \\frac{\\mathrm{J}}{\\mathrm{cm}^2\\cdot\\mathrm{s}\\cdot\\mathrm{K}^4}$$\n\n3) temperatura powierzchni Słońca\n$$T_S=6000\\ \\mathrm{K}$$\n\nUwaga: Całkowita energia wypromieniowania w ciągu 1 s przez $1\\ \\mathrm{cm}^2$ powierzchni ciała doskonale czarnego, zgodnie z prawem Stefana-Boltzmanna, wynosi $\\sigma T^4$, gdzie $\\sigma$ oznacza stałą Stefana-Boltzmanna, a $T$ – temperaturę bezwzględną ciała.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Limiting temperature of cold water heated by hot water without mixing",
+     "problem": "Problem 3\n\nWe have at our disposal $1\\ \\mathrm{l}$ of water at a temperature of $100^\\circ\\mathrm{C}$ and $1\\ \\mathrm{l}$ of water at a temperature of $0^\\circ\\mathrm{C}$. In addition, we have vessels of various kinds (of any size, with walls that conduct heat or do not conduct it, as needed). The two portions of water are coloured differently and must not be mixed with each other.\n\nTo what limiting temperature can the initially cold water be heated using the initially hot water, and how can this be done? Heat losses are neglected.",
+     "problem_orig": "Zadanie 3\n\nMamy do dyspozycji $1\\ \\mathrm{l}$ wody o temperaturze $100^\\circ\\mathrm{C}$ i $1\\ \\mathrm{l}$ wody o temperaturze $0^\\circ\\mathrm{C}$. Poza tym dysponujemy różnego rodzaju naczyniami (dowolnej wielkości, o ściankach przewodzących ciepło lub nieprzewodzących – zależnie od potrzeby). Obie porcje wody są różnie zabarwione i nie wolno ich mieszać ze sobą.\n\nDo jakiej granicznej temperatury można ogrzać wodę początkowo zimną, korzystając z wody początkowo gorącej i jak to zrobić? Straty ciepła pomijamy.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1981,
+   "problems": [
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Condition for stable equilibrium of a floating cylinder",
+     "problem": "Problem 3\n\nA homogeneous cylinder floats in a liquid. What condition must the ratio of the radius $R$ of the cylinder to its height $L$ satisfy so that the position in which the axis of the cylinder is vertical is a position of stable equilibrium regardless of the kind of liquid (Fig. 1)?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1981-3-fig1.png\n\n[Labels in the figure: «śm» = centre of mass.]\n\nNote: The distance of the centre of mass (śm) of the segment of the cylinder, marked in the figure with a thick line, from the axis of the cylinder is:\n$$x_m=\\frac{3\\pi}{16}R.\\qquad(1)$$",
+     "problem_orig": "Zadanie 3\n\nJednorodny walec pływa w cieczy. Jaki warunek musi spełniać stosunek promienia walca $R$ do jego wysokości $L$, aby położenie, w którym oś walca jest pionowa było położeniem równowagi trwałej niezależnie od rodzaju cieczy (Rys. 1).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1981-3-fig1.png\n\nUwaga: Odległość środka masy (śm) wycinka walca, zaznaczonego na rysunku linią pogrubioną, od osi walca wynosi:\n$$x_m=\\frac{3\\pi}{16}R.\\qquad(1)$$",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1982,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Four short questions: charging spheres, lens collimator, crossed fields, photocell voltage",
+     "problem": "Problem 1\n\nA. We have two identical hollow metal spheres with small openings at the top (Fig. 1). The spheres are mounted on non-conducting stands that can be moved. One of the spheres is positively charged with a charge $Q$, and the other is not. In addition, we have at our disposal a small metal ball with a non-conducting handle.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig1.png\n\n[Labels in the figure: «Rys. 1» = Fig. 1.]\n\nIs it possible – and if so, how – to charge one of these spheres with a negative charge of a magnitude comparable to the initial positive charge $Q$?\n\nB. To obtain a parallel beam of the light emitted by a point source, a concavo-convex lens is used whose concave surface is spherical. The source Z is placed at the centre of this sphere, as in Fig. 1. The shape of the convex surface is chosen appropriately so as to ensure that the beam is exactly parallel. The refractive index of the glass of the lens is $n$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig2.png\n\n[Labels in the figure: «Z» = the source Z (the letter Z is the Polish name used in the text); «Rys. 1» = Fig. 1.]\n\nWhat is the maximum angle $\\varphi$ from within which such a lens can collect the radiation emitted by the source?\n\nC. Imagine a device placed in vacuum, consisting of a magnet and a capacitor mounted on it, arranged so that the uniform (in some central region) fields they produce, the electric field $\\vec{E}$ and the magnetic field $\\vec{B}$, are mutually perpendicular (Fig. 1). A beam of electrons with velocity $\\vec{v}$ ($\\vec{v}\\perp\\vec{E}$, $\\vec{v}\\perp\\vec{B}$) enters the region of these crossed fields.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig3.png\n\n[Labels in the figure: «Rys. 1. 2, 5 – okładki kondensatora; 1, 3, 4, 6 – elementy łączące kondensator z magnesem; 7 – obszar jednorodnych pól.» = Fig. 1. 2, 5 – plates of the capacitor; 1, 3, 4, 6 – elements connecting the capacitor to the magnet; 7 – region of uniform fields.]\n\nCan the path of the electrons in this region be rectilinear? If so, does the intensity of such an electron beam affect the force experienced by the elements connecting the capacitor to the magnet?\n\nD. The photocathode FK of a vacuum photocell (Fig. 1) is illuminated with monochromatic light whose wavelength can be varied. The photon flux (the number of photons incident on the photocathode per unit time) is the same each time. When illuminated with light of wavelength $\\lambda_1$, a voltmeter of very high internal resistance connected between the photocathode and the anode A shows a voltage $U_1$, and at wavelength $\\lambda_2$ a voltage $U_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig4.png\n\n[Labels in the figure: «Rys. 1» = Fig. 1.]\n\nWhat is the polarity (sign) of this voltage? Which of the wavelengths $\\lambda_1$, $\\lambda_2$ is larger if $U_1 < U_2$? Discuss the influence on the observed phenomenon of the contact potential difference between the material of the photocathode and the material of the anode.",
+     "problem_orig": "Zadanie 1\n\nA. Mamy dwie identyczne kule metalowe, puste w środku, mające niewielkie otwory u góry (rys. 1). Kule te są zamocowane na nieprzewodzących podstawkach, które dają się przemieszczać. Jedna z kul jest naładowana dodatnio ładunkiem $Q$, a druga nie. Poza tym mamy do dyspozycji małą kulę metalową z nieprzewodzącym uchwytem.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig1.png\n\nCzy jest możliwe – i w jaki sposób – naładowanie jednej z tych kul ładunkiem ujemnym o wielkości porównywalnej z początkowym ładunkiem dodatnim $Q$?\n\nB. W celu uzyskania równoległej wiązki światła emitowanego przez punktowe źródło zastosowano soczewkę wklęsło-wypukłą, której powierzchnia wklęsła ma kształt sferyczny. Źródło Z umieszczone jest w środku tej sfery jak na rys. 1. Kształt powierzchni wypukłej jest dobrany odpowiednio, aby zapewnić dokładną równoległość wiązki. Współczynnik załamania szkła soczewki wynosi $n$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig2.png\n\nZ jakiego maksymalnego kąta $\\varphi$ soczewka taka może zbierać promieniowanie wychodzące ze źródła?\n\nC. Wyobraź sobie umieszczone w próżni urządzenie zawierające magnes oraz zamocowany na nim kondensator tak wzajemnie usytuowane, że wytwarzane przez nie jednorodne (w pewnym środkowym obszarze) pola, elektryczne $\\vec{E}$ i magnetyczne $\\vec{B}$, są wzajemnie prostopadłe (rys. 1). W obszar tych skrzyżowanych pól wpada wiązka elektronów o prędkości $\\vec{v}$ ($\\vec{v}\\perp\\vec{E}$, $\\vec{v}\\perp\\vec{B}$).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig3.png\n\nCzy tor elektronów w omawianym obszarze może być prostoliniowy? Jeśli tak, to czy natężenie takiej wiązki elektronów ma wpływ na siłę odczuwaną przez elementy łączące kondensator z magnesem?\n\nD. Fotokatoda FK fotokomórki próżniowej (rys. 1) jest oświetlana światłem monochromatycznym, którego długość fali możemy zmieniać. Strumień fotonów (liczba fotonów padająca na fotokatodę w jednostce czasu) jest za każdym razem taki sam. Podczas oświetlania światłem o długości fali $\\lambda_1$ podłączony między fotokatodą a anodą A woltomierz o bardzo dużym oporze wewnętrznym wskazuje napięcie $U_1$, zaś przy długości fali $\\lambda_2$ – napięcie $U_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1982-1-fig4.png\n\nJaka jest polaryzacja (znak) tego napięcia? Która z długości fali $\\lambda_1$, $\\lambda_2$ jest większa, jeśli $U_1 < U_2$? Omów wpływ na obserwowane zjawisko kontaktowej różnicy potencjałów między materiałem fotokatody a materiałem anody.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Falling car: position on impact",
+     "problem": "Problem 2\n\nA car drives at a speed $v = 40\\ \\mathrm{km/hm}$ along a straight, horizontal road which ends in a straight edge, perpendicular to the direction of the road, above a precipice of depth $h = 13\\ \\mathrm{m}$. What will be the position of the car at the moment it hits the bottom of the precipice, given:\n\n– the mass of the car $m = 840\\ \\mathrm{kg}$\n\n– the distance between the front and rear axles of the car $d = 2\\ \\mathrm{m}$\n\n– the moment of inertia of the car about a horizontal axis perpendicular to the direction of motion and passing through the centre of gravity, parallel to both axles of the car $I = 750\\ \\mathrm{kg\\cdot m^2}$\n\n– the acceleration due to gravity $g = 9.8\\ \\mathrm{m/s^2}$\n\nDoes the result depend on the stiffness of the springs, and how (the measure of this stiffness is the deflection of a spring under a unit change of the load of the car)?\n\nAssume that the mass of the wheels is very small compared with the mass of the car, and neglect air resistance.",
+     "problem_orig": "Zadanie 2\n\nSamochód jedzie z prędkością $v = 40\\ \\mathrm{km/hm}$ prostą, poziomą drogą, która urywa się równą, prostopadłą do kierunku drogi krawędzią nad przepaścią o głębokości $h = 13\\ \\mathrm{m}$. Jaka będzie pozycja samochodu w momencie uderzenia o dno przepaści, jeśli dane są:\n\n– masa samochodu $m = 840\\ \\mathrm{kg}$\n\n– odległość między przednią i tylną osią samochodu $d = 2\\ \\mathrm{m}$\n\n– moment bezwładności samochodu względem osi poziomej, prostopadłej do kierunku ruchu i przechodzącej przez środek ciężkości, równoległy do obu osi samochodu $I = 750\\ \\mathrm{kg\\cdot m^2}$\n\n– przyspieszenie ziemskie $g = 9{,}8\\ \\mathrm{m/s^2}$\n\nCzy wynik zależy od twardości resorów i jak (miarą tej twardości jest wielkość ugięcia resoru pod wpływem jednostkowej zmiany obciążenia samochodu)?\n\nPrzyjmij, że masa kół jest bardzo mała w porównaniu z masą samochodu i zaniedbaj opór powietrza.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1983,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Rolling a ball onto a kerb",
+     "problem": "Problem 2\n\nOn a horizontal smooth plane there is a step of height $h$ (Fig. 7). A rigid sphere of radius $R$ and speed $v_0$ slides without friction, in pure translation, perpendicular to the step.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1983-2-fig1.png\n\nWhat must the nature of the collision be, and what restricting conditions must the parameters $v_0$, $h$, $R$ and $g$ (acceleration due to gravity) satisfy, so that the sphere climbs completely onto the step and possibly continues its motion without even a momentary loss of contact with the ground or the step. We assume that the sphere and the step are perfectly smooth, that is, that the contact forces are always perpendicular to the sphere at the point of contact. We also assume that the step is not deformed.",
+     "problem_orig": "Zadanie 2\n\nNa poziomej, gładkiej płaszczyźnie znajduje się próg o wysokości $h$ (ryc. 7). Prostopadle do progu sunie bez tarcia ruchem postępowym sztywna kula o promieniu $R$ i prędkości $v_0$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1983-2-fig1.png\n\nJaki musi być charakter zderzenia i jakie warunki ograniczające spełniać muszą parametry $v_0$, $h$, $R$ i $g$ (przyspieszenie ziemskie), by kula wspięła się całkowicie na próg i kontynuowała ewentualnie swój ruch bez choćby chwilowej straty kontaktu z podłożem lub progiem. Zakładamy, że kula i próg są idealnie gładkie, to znaczy, że siły kontaktowe są zawsze prostopadłe do kuli w miejscu styku. Przyjmujemy też, że próg nie ulega odkształceniu.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Wire frame in a magnetic field",
+     "problem": "Problem 3\n\nA rectangular frame made of thin, uniform wire, of resistance $R$ and mass $m$, moving with initial velocity $v_0$, runs into a region of constant, uniform magnetic field of induction $B$ perpendicular to the plane of the frame and to $v_0$. The velocity $v_0$ is perpendicular to one of the sides of the frame. The dimensions of the frame are $a\\times b$. Describe the motion of the frame.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1983-3-fig1.png\n\nNote: The differential equations\n$$\\frac{dx}{dt}+kx=0 \\qquad\\text{and}\\qquad \\frac{dx}{dt}=ae^{-kt}$$\nhave the solutions\n$$x(t)=x_0e^{-kt} \\qquad\\text{and}\\qquad x(t)=x_0+\\frac{a}{k}\\left(1-e^{-kt}\\right)$$\nrespectively.",
+     "problem_orig": "Zadanie 3\n\nProstokątna ramka z cienkiego, jednorodnego drutu, o oporności $R$ i masie $m$ poruszając się z prędkością początkową $v_0$ wbiega w obszar stałego, jednorodnego pola magnetycznego o indukcji $B$ prostopadłej do płaszczyzny ramki oraz do $v_0$. Prędkość $v_0$ jest prostopadła do jednego z boków ramki. Wymiary ramki wynoszą $a\\times b$. Opisz ruch ramki.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1983-3-fig1.png\n\nUwaga: Równania różniczkowe\n$$\\frac{dx}{dt}+kx=0 \\qquad\\text{i}\\qquad \\frac{dx}{dt}=ae^{-kt}$$\nmają rozwiązania równe odpowiednio\n$$x(t)=x_0e^{-kt} \\qquad\\text{i}\\qquad x(t)=x_0+\\frac{a}{k}\\left(1-e^{-kt}\\right)$$",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1984,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Boy walking on a conveyor belt",
+     "problem": "Problem 1\n\nOver two wheels of radii $R$, moments of inertia $B$ and axes a distance $l$ apart, the belt of a conveyor of mass $m$ is stretched horizontally (Fig. 1). A boy of mass $M$ stands at point $P$; at some moment he starts walking towards point $Q$ with speed $v$ relative to the conveyor.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1984-1-fig1.png\n\nWill the boy reach point $Q$, and if so, after what time? We assume that the belt does not slip on the wheels, that the bending of the belt on the wheels is not associated with any dissipation of energy, and that the wheels can rotate about their axes without any resistance.",
+     "problem_orig": "Zadanie 1\n\nPrzez dwa koła o promieniach $R$, momentach bezwładności $B$ i o osiach odległych o $l$ przerzucono poziomo pas transportera o masie $m$ (ryc. 1). W punkcie $P$ stanął chłopiec o masie $M$, który w pewnej chwili rozpoczął marsz w kierunku punktu $Q$ z prędkością $v$ względem transportera.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1984-1-fig1.png\n\nCzy chłopiec ten osiągnie punkt $Q$, a jeżeli tak, to po jakim czasie? Zakładamy, że pas nie ślizga się po kołach, że zginanie pasa na kołach nie jest stowarzyszone z dyssypacją energii i że koła mogą obracać się wokół swych osi bez żadnych oporów.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "A property of the equivalent resistance of a network of n resistors",
+     "problem": "Problem 2\n\nA system of $n$ resistors $R_i$ connected in a definite way is given. Show that the equivalent resistance of the system considered is a non-decreasing function of each of the values $R_i$.",
+     "problem_orig": "Zadanie 2\n\nDany jest układ $n$ oporników $R_i$ połączonych w określony sposób. Wykaż, że opór zastępczy rozważanego układu jest niemalejącą funkcją każdej z wartości $R_i$.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1985,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Friction coefficients for two blocks on an inclined plane",
+     "problem": "Problem 2\n\nOn an inclined plane of inclination angle $\\alpha$ there lies a rectangular block of mass $m_1$, and on it a rectangular block of mass $m_2$ (Fig. 1). Both blocks are initially at rest.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1985-2-fig1.png\n\nWhat conditions must the friction coefficients satisfy: $f_1$ – of the first block against the plane and $f_2$ – of the blocks against each other, so that\n\na) the blocks remain at rest all the time,\n\nb) the first block is at rest and the second slides down on it,\n\nc) both blocks slide down the plane, but without slipping relative to each other,\n\nd) both blocks slide down with additional slipping?\n\nMark the corresponding ranges of the friction coefficients as regions in the plane, plotting $f_1$ and $f_2$ on the axes.",
+     "problem_orig": "Zadanie 2\n\nNa równi pochyłej o kącie nachylenia $\\alpha$ znajduje się prostopadłościan o masie $m_1$, a na nim prostopadłościan o masie $m_2$ (ryc. 1). Oba prostopadłościany w chwili początkowej są nieruchome.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1985-2-fig1.png\n\nJakie warunki muszą spełniać współczynniki tarcia: $f_1$ – pierwszego prostopadłościanu o równię i $f_2$ – prostopadłościanów o siebie, aby\n\na) prostopadłościany pozostawały cały czas nieruchome,\n\nb) pierwszy prostopadłościan był nieruchomy a drugi się po nim zsuwał,\n\nc) oba prostopadłościany zsuwały się po równi, ale bez wzajemnego poślizgu,\n\nd) oba prostopadłościany zsuwały się z dodatkowym poślizgiem.\n\nOdpowiednie zakresy zmienności współczynników tarcia zaznacz jako obszary na płaszczyźnie odkładając na osiach $f_1$ i $f_2$.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1987,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Rebound height of a spring after a brick falls on it",
+     "problem": "Problem 1\n\nA brick falls from a certain height onto an ideal, short spring of negligible mass, and then rebounds to a height $h$. To what height will the spring jump? We assume that the spring deforms uniformly and that the spring itself is uniform. We also assume that the motion of the brick and of the spring takes place only in the vertical direction (Fig. 1).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1987-1-fig1.png\n[Labels in the figure: «cegła» = brick; «sprężyna» = spring]",
+     "problem_orig": "Zadanie 1\n\nZ pewnej wysokości na idealną, krótką sprężynę o znikomej masie spada cegła, po czym odbija się na wysokość $h$. Na jaką wysokość podskoczy sprężyna? Zakładamy, że sprężyna odkształca się w sposób jednorodny, i że sama jest jednorodna. Zakładamy też, że ruch cegły i sprężyny zachodzi jedynie w kierunku pionowym (rys. 1).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1987-1-fig1.png",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Equilibrium of a thin-walled tube with two balls",
+     "problem": "Problem 3\n\nA thin-walled, undeformed tube of radius $R$ stands on a horizontal plane. Two rigid uniform balls, each of weight $P$ and radius $r$, with $R>r>R/2$, are put inside it (Fig. 1). Find the smallest weight $Q$ of the tube for which it will not tip over. Friction is neglected. We assume that the tube is uniform and cut off at both ends perpendicular to its axis.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1987-3-fig1.png",
+     "problem_orig": "Zadanie 3\n\nCienkościenna, nieodkształcona rura o promieniu $R$ stoi na poziomej płaszczyźnie. Do jej wnętrza włożono dwie sztywne jednorodne kule, każda o ciężarze $P$ i promieniu $r$, przy czym $R>r>R/2$ (rys. 1). Wyznacz najmniejszy ciężar rury $Q$, przy którym nie ulegnie ona przechyleniu. Tarcie zaniedbujemy. Zakładamy, że rura jest jednorodna i z obu stron ucięta prostopadle do osi.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1987-3-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1988,
+   "problems": [
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Motion of a prism on a horizontal plane under a constant force",
+     "problem": "Problem 3\n\nA uniform prism of mass $m$ whose base is an equilateral triangle is placed on a horizontal, flat surface – Figure 1. The coefficient of friction between the prism and the surface is $f$. A horizontal constant force $F$, perpendicular to the upper edge of the prism and passing through its midpoint, is applied to that edge.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1988-3-fig1.png\n\nWhat conditions must be satisfied so that none of the edges lifts off the ground?",
+     "problem_orig": "Zadanie 3\n\nNa poziomej, płaskiej powierzchni położono jednorodny graniastosłup o masie $m$ i podstawie w kształcie trójkąta równobocznego – rysunek 1. Współczynnik tarcia graniastosłupa o rozważaną powierzchnię wynosi $f$. Do górnej krawędzi graniastosłupa przyłożono poziomą stałą się $F$, prostopadłą do tej krawędzi i przechodzącą przez jej środek.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1988-3-fig1.png\n\nJakie warunki muszą być spełnione, aby żadna z krawędzi nie oderwała się od podłoża?",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1990,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Particle in an electrostatic field: same path for a different mass and charge",
+     "problem": "Problem 1\n\nA point particle of mass $m$ and electric charge $q$ moves in an electrostatic field of strength $E=E(x,y,z)$ along a path $T$. At the point $P_0$ of the path $T$ the particle has velocity $v_0$. What velocity should a point particle of mass $M$ and charge $Q$ have at this point so that its motion under the influence of the same field $E$ takes place along the same path $T$?\n\nNote! We restrict the considerations to particles whose speeds are small compared with the speed of light.",
+     "problem_orig": "Zadanie 1\n\nCząstka punktowa o masie $m$ i ładunku elektrycznym $q$ porusza się w polu elektrostatycznym o natężeniu $E=E(x,y,z)$ po torze $T$. W punkcie $P_0$ toru $T$ cząstka ma prędkość $v_0$. Jaka prędkość powinna mieć w tym punkcie cząstka punktowa o masie $M$ i ładunku $Q$, aby jej ruch pod wpływem tego samego pola $E$ odbywał się po tym samym torze $T$?\n\nUwaga! Ograniczamy rozważania do cząstek o prędkościach małych w porównaniu z prędkością światła.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Identifying helium or nitrogen from gas processes",
+     "problem": "Problem 2\n\n$n=44$ mol of a certain ideal gas at temperature $t=3.8\\ ^\\circ\\mathrm{C}$ underwent an isobaric and then an isochoric process. As a result of these processes the gas gave off $Q_1=101.3\\ \\mathrm{J}$ of heat, and its internal energy increased by $\\Delta U=506.5\\ \\mathrm{J}$. The identical final state of the gas could also have been reached by subjecting it first to an isochoric and then to an isobaric process. Then the gas would have given off $Q_2=1317\\ \\mathrm{J}$ of heat. Knowing that the gas subjected to the processes was helium or nitrogen, determine which of them it was.\n\nThe value of the gas constant is $R=8.314\\ \\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}$.",
+     "problem_orig": "Zadanie 2\n\n$n=44$ mola pewnego gazu doskonałego o temperaturze $t=3{,}8\\ ^\\circ\\mathrm{C}$ poddano przemianie izobarycznej a następnie izochorycznej. W wyniku tych przemian gaz oddał $Q_1=101{,}3\\ \\mathrm{J}$ ciepła, a jego energia wewnętrzna wzrosła o $\\Delta U=506{,}5\\ \\mathrm{J}$. Identyczny stan końcowy gazu można było by również osiągnąć poddając go najpierw przemianie izochorycznej a potem izobarycznej. Wtedy gaz oddałby $Q_2=1317\\ \\mathrm{J}$ ciepła. Wiedząc, że gazem poddanym przemianom był hel lub azot określ, o który z nich chodzi.\n\nWartość stałej gazowej wynosi $R=8{,}314\\ \\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "History of a photon–proton collision",
+     "problem": "Problem 3\n\nA quantum $\\gamma$ (photon) incident on a proton $p$ at rest caused the reaction\n$$\\gamma+p\\to n+\\Pi^+,$$\nin which a neutron $n$ and a meson $\\Pi^+$ were produced. The reaction products ($n$, $\\Pi^+$) moved along the same straight line and in the same direction with constant velocities. After some time from the moment of its creation the meson $\\Pi^+$ decayed into other particles. In the reference frame in which the meson was at rest, this time was $\\tau$. The path travelled by the meson $\\Pi^+$ in the reference frame in which the proton was at rest was $d$ and was a straight segment. The beginning of this segment corresponded to the creation and the end to the decay of the meson. What energy $E_\\gamma$ did the quantum $\\gamma$ have in the reference frame in which the proton was at rest?\n\nData: $\\tau=2.6\\cdot10^{-8}\\ \\mathrm{s}$; $d=(4/3)c\\tau$, where $c=3\\cdot10^{8}\\ \\mathrm{m\\,s^{-1}}$ is the speed of light; the rest energies of the proton and the neutron are approximately equal, $m_pc^2=m_nc^2=E_0=940\\ \\mathrm{MeV}$; the rest energy of the meson $\\Pi^+$ is $m_{\\Pi^+}c^2=\\sigma E_0$, where $\\sigma=0.15$.",
+     "problem_orig": "Zadanie 3\n\nKwant $\\gamma$ (foton) padając na spoczywający proton $p$ spowodował reakcję\n$$\\gamma+p\\to n+\\Pi^+,$$\nw której powstały neutron $n$ i mezon $\\Pi^+$. Produkty reakcji ($n$, $\\Pi^+$), poruszały się wzdłuż tej samej prostej i w tym samym kierunku ze stałymi prędkościami. Po pewnym czasie od chwili powstania mezon $\\Pi^+$ rozpadł się na inne cząstki. W układzie odniesienia, w którym mezon spoczywał, czas ten wynosił $\\tau$. Droga przebyta przez mezon $\\Pi^+$ w układzie odniesienia, w którym spoczywał proton, wynosiła $d$ i była i była odcinkiem prostej. Początek tego odcinka odpowiadał powstaniu a koniec –rozpadowi mezonu. Jaka energię $E_\\gamma$ miał kwant $\\gamma$ w układzie odniesienia, w którym spoczywał proton.\n\nDane: $\\tau=2{,}6\\cdot10^{-8}\\ \\mathrm{s}$; $d=(4/3)c\\tau$, gdzie $c=3\\cdot10^{8}\\ \\mathrm{m\\,s^{-1}}$ jest prędkością światła; energie spoczynkowe protonu i neutronu są w przybliżeniu równe sobie, $m_pc^2=m_nc^2=E_0=940\\ \\mathrm{MeV}$; energia spoczynkowa mezonu $\\Pi^+$ jest równa $m_{\\Pi^+}c^2=\\sigma E_0$, gdzie $\\sigma=0{,}15$.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1991,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Voltmeter readings in a network of voltmeters and resistors",
+     "problem": "Problem 2\n\nIn the electric circuit shown in Figure 1 a finite number $n>5$ of identical voltmeters and the same number of identical ohmic resistors were used. The first and the third voltmeter showed $U_1=8\\ \\mathrm{V}$ and $U_3=10\\ \\mathrm{V}$, respectively. What voltage does the fifth voltmeter show?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1991-2-fig1.png\n\n[Labels in the figure: «Ryc.1» = Fig. 1; the voltmeters are marked $U_1$, $U_3$ and «?» (the fifth one).]",
+     "problem_orig": "Zadanie 2\n\nW obwodzie elektrycznym przedstawionym na rycinie 1 użyto skończonej liczby $n>5$ jednakowych woltomierzy i takiej samej liczby jednakowych oporników omowych. Woltomierz pierwszy i trzeci wskazywały odpowiednio $U_1=8\\ \\mathrm{V}$ i $U_3=10\\ \\mathrm{V}$. Jakie napięcie wskazuje piąty woltomierz?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1991-2-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1993,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Charge on an oscillating piston of a helium cylinder",
+     "problem": "Problem 2\n\nIn a cylinder that conducts neither heat nor current, placed in a vacuum, a piston of mass $m=5\\ \\mathrm{g}$ moves without friction. Inside the cylinder there is gaseous helium of electric permittivity $\\varepsilon\\approx\\varepsilon_0=8.85\\cdot10^{-12}\\ \\mathrm{C^2/(Nm^2)}$.\n\nOn the surfaces of the piston and of the bottom of the cylinder marked in Fig. 4 (with a thick line) there are thin layers of metal. The bottom of the cylinder is earthed. The piston performs small oscillations with period $T=0.3\\ \\mathrm{s}$ at a small distance from the bottom of the cylinder (small compared with the diameter of the piston), and the volume of the gas oscillates around the value $V_0=0.11$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1993-2-fig1.png\n\n[Labels in the figure: «hel» = helium; «Ryc. 4» = Fig. 4.]\n\nWhat electric charge is on the metallic surface of the piston?\n\nNote! For $x\\ll1$, $(1+x)^{\\alpha}\\approx1+\\alpha x$.",
+     "problem_orig": "Zadanie 2\n\nW nieprzewodzącym ciepła ani prądu cylindrze, umieszczonym w próżni, porusza się bez tarcia tłok o masie $m=5\\ \\mathrm{g}$. Wewnątrz cylindra znajduje się gazowy hel o przenikalności elektrycznej $\\varepsilon\\approx\\varepsilon_0=8{,}85\\cdot10^{-12}\\ \\mathrm{C^2/(Nm^2)}$.\n\nNa zaznaczonych na ryc. 4 (grubą kreską) powierzchniach tłoka i dna cylindra znajdują się cienkie warstwy metalu. Dno cylindra jest uziemione. Tłok wykonuje małe drgania o okresie $T=0{,}3\\ \\mathrm{s}$ w małej (w porównaniu ze średnicą tłoka) odległości od dna cylindra, zaś objętość gazu oscyluje wokół wartości $V_0=0{,}11$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1993-2-fig1.png\n\nJaki ładunek elektryczny znajduje się na metalicznej powierzchni tłoka?\n\nUwaga! Dla $x\\ll1$, $(1+x)^{\\alpha}\\approx1+\\alpha x$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Blackbody radiation: a cube orbiting the Sun",
+     "problem": "Problem 3\n\nIn outer space, at a large distance from the Sun, there is a perfectly black body that conducts heat perfectly. This body, in the shape of a cube with edge $a=10\\ \\mathrm{cm}$, orbits the Sun on a circular orbit. If this body had the shape of a sphere, its equilibrium temperature would be $T_0=300\\ \\mathrm{K}$.\n\n1) What can be the highest and the lowest equilibrium temperature of this body?\n\n2) What is the mean radiated power of this body if it rotates uniformly about the axis marked in Fig. 5 (perpendicular to the plane of the orbit and passing through the centres of opposite faces) so that from time to time a different face is turned towards the Sun?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1993-3-fig1.png\n\n[Labels in the figure: «oś obrotu» = axis of rotation; «Ryc. 5» = Fig. 5; $S$ marks the Sun.]\n\n3) What temperature would the body in question have to have in order to radiate, when placed far from other bodies, with the power calculated in the previous part?\n\nThe Stefan–Boltzmann constant is $\\sigma=5.67\\cdot10^{-8}\\ \\mathrm{W\\cdot m^{-2}\\cdot K^{-4}}$.",
+     "problem_orig": "Zadanie 3\n\nW przestrzeni kosmicznej w dużej odległości od Słońca, znajduje się ciało doskonale czarne i doskonale przewodzące ciepło. Ciało to, w kształcie sześcianu o krawędzi $a=10\\ \\mathrm{cm}$, krąży wokół Słońca po orbicie kołowej. Gdyby ciało to miało kształt kuli, jego temperatura równowagowa byłaby równa $T_0=300\\ \\mathrm{K}$.\n\n1) Jaka może być największa i najmniejsza temperatura równowagowa tego ciała?\n\n2) Jaka jest średnia moc promieniowania tego ciała, jeżeli obraca się ono jednostajnie wokół osi zaznaczonej na ryc. 5 (prostopadłej do płaszczyzny orbity i przechodzącej przez środki przeciwległych ścian) tak, że co pewien czas jest zwrócone do Słońca inną ścianą?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1993-3-fig1.png\n\n3) jaką temperaturę musiałoby mieć rozważane ciało, aby umieszczone z dala od innych ciał promieniowało z mocą obliczoną w poprzednim punkcie?\n\nStała Stefana – Boltzmanna wynosi $\\sigma=5{,}67\\cdot10^{-8}\\ \\mathrm{W\\cdot m^{-2}\\cdot K^{-4}}$.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1994,
+   "problems": [
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Heat flow between two gas chambers compressed by one piston",
+     "problem": "Problem 2\n\nA cylinder closed by a piston contains two ideal gases: $n_A=0.5$ mol of gas A with molar specific heat $C_{VA}=12.47\\ \\mathrm{J\\cdot mol^{-1}K^{-1}}$ and $n_B=0.7$ mol of gas B with molar specific heat $C_{VB}=21.06\\ \\mathrm{J\\cdot mol^{-1}K^{-1}}$ (both specific heats at constant volume). The gases are separated by a tight, movable partition that can move without friction. Initially gases A and B were under normal atmospheric pressure $p_0$ and had temperature $T_0=300\\ \\mathrm{K}$. The gases were compressed by a very slow motion of the piston until the moment when they reached temperature $T_K=348\\ \\mathrm{K}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1994-2-fig1.png\n\nAssuming that:\n\na) neither the cylinder nor the piston conducts heat,\n\nb) the partition conducts heat perfectly,\n\nc) the heat capacity of the partition is zero.\n\n1. Calculate the heat that flowed through the partition and indicate the direction of its flow;\n\n2. Describe the processes of energy transfer taking place during the compression.",
+     "problem_orig": "Zadanie 2\n\nW cylindrze zamkniętym tłokiem znajdują się dwa gazy doskonałe – $n_A=0{,}5$ mola gazu A o molowym cieple właściwym $C_{VA}=12{,}47\\ \\mathrm{J\\cdot mol^{-1}K^{-1}}$ oraz $n_B=0{,}7$ mola gazy B o molowym cieple właściwym $C_{VB}=21{,}06\\ \\mathrm{J\\cdot mol^{-1}K^{-1}}$ (oba ciepła przy stałej objętości). Gaz oddziela szczelna, ruchoma przegroda mogąca poruszać się bez tarcia. Początkowo gazy A i B znajdowały się pod normalnym ciśnieniem atmosferycznym $p_0$ i miały temperaturę $T_0=300\\ \\mathrm{K}$. Gazy poddano sprężaniu poprzez bardzo powolny ruch tłoka aż do momentu, gdy osiągnęły temperaturę $T_K=348\\ \\mathrm{K}$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1994-2-fig1.png\n\nPrzyjmując, że:\n\na) ani cylinder, ani tłok nie przewodzą ciepła,\n\nb) przegroda doskonale przewodzi ciepło,\n\nc) pojemność cieplna przegrody jest równa zeru.\n\n1. Oblicz ciepło, które przepłynęło przez przegrodę i wskaż kierunek jego przepływu;\n\n2. Opisz procesy przekazu energii zachodzące podczas sprężania.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1995,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "The life of stars: central density, pressure and temperature of a star",
+     "problem": "Problem 1\n\nA star similar to our Sun can be regarded as a ball of hot gas. The temperature and the density of this gas take their largest values at the centre of the star. We assume that the only factor preventing the star from collapsing is the gas pressure (\"hydrostatic\" equilibrium). Consider a star whose mass and radius are $M=1.2\\cdot10^{30}\\ \\mathrm{kg}$ and $R=4.5\\cdot10^{8}\\ \\mathrm{m}$, respectively. We denote by $\\rho(r)$ the density of the gas at distance $r$ from the centre of the star, and by $\\rho_0=\\rho(0)$ the density of the gas at the centre. Let $m(r)$ denote the mass contained inside a sphere of radius $r$. According to a good theoretical model the following data are obtained (Table 1):\n\nTable 1\n\n$$\\begin{array}{|c|c|c|}\\hline r/R & \\rho(r)/\\rho_0 & m(r)/M\\\\\\hline 0 & 1 & 0\\\\ 0.1 & 0.897 & 0.014\\\\ 0.2 & 0.649 & 0.116\\\\ 0.3 & 0.385 & 0.305\\\\ 0.4 & 0.199 & 0.515\\\\ 0.5 & 0.096 & 0.691\\\\ 0.6 & 0.046 & 0.817\\\\ 0.7 & 0.024 & 0.904\\\\ 0.8 & 0.011 & 0.961\\\\ 0.9 & 0.003 & 0.991\\\\ 1 & 0 & 1\\\\\\hline\\end{array}$$\n\n1. Using the numerical data above, determine the density $\\rho_0$ at the centre of the star in $\\mathrm{kg/m^3}$ (use reasonable approximations without guessing a mathematical formula for $\\rho=\\rho(r)$).\n\n2a. Give the increase of the gas pressure $p$ [$p=p(r)$] between $r$ and $r+\\Delta r$ as a function of $m(r)$, $\\rho(r)$ and the gravitational constant $G$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1995-1-fig1.png\n\n[Labels in the figure: as printed, «P», «r», «Δr», «m(r)».]\n\n2b. Using the result obtained in part 2a and the numerical data, determine the pressure $p_0$ in $\\mathrm{N/m^2}$ (Pa) at the centre of the star [use approximations similar to those in part 1].\n\n3. Assume that we are dealing with a young star consisting entirely of hydrogen, which is completely ionised at the centre of the star. Ionised hydrogen can be treated as a mixture of two ideal gases. The mass of one mole of protons is $1\\ \\mathrm{g}$, and the mass of one mole of electrons is approximately $0\\ \\mathrm{g}$. Determine the temperature $T_0$ at the centre of the star. Gravitational constant $G=6.67\\cdot10^{-11}\\ \\mathrm{N\\,m^2/kg^2}$, gas constant $R_{gaz}=8.31\\ \\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}$.\n\nNote! In your considerations you may use graph (millimetre) paper.",
+     "problem_orig": "Zadanie 1\n\nGwiazdę podobną do naszego Słońca można uważać za kulę gorącego gazu. Temperatura i gęstość tego gazu przyjmują największe wartości w centrum gwiazdy. Zakładamy, że jedynym czynnikiem powstrzymującym gwiazdę przed zapadnięciem jest ciśnienie gazu (równowaga „hydrostatyczna”). Rozważmy gwiazdę, której masa i promień wynoszą odpowiednio $M=1{,}2\\cdot10^{30}\\ \\mathrm{kg}$ i $R=4{,}5\\cdot10^{8}\\ \\mathrm{m}$. oznaczamy przez $\\rho(r)$ gęstość gazu w odległości $r$ od środka gwiazdy, a przez $\\rho_0=\\rho(0)$ – gęstość gazu w centrum. Niech $m(r)$ oznacza masę zawartą wewnątrz sfery o promieniu $r$. Zgodnie z dobrym teoretycznym modelem otrzymuje się następujące dane (tabela 1):\n\nTabela 1\n\n$$\\begin{array}{|c|c|c|}\\hline r/R & \\rho(r)/\\rho_0 & m(r)/M\\\\\\hline 0 & 1 & 0\\\\ 0{,}1 & 0{,}897 & 0{,}014\\\\ 0{,}2 & 0{,}649 & 0{,}116\\\\ 0{,}3 & 0{,}385 & 0{,}305\\\\ 0{,}4 & 0{,}199 & 0{,}515\\\\ 0{,}5 & 0{,}096 & 0{,}691\\\\ 0{,}6 & 0{,}046 & 0{,}817\\\\ 0{,}7 & 0{,}024 & 0{,}904\\\\ 0{,}8 & 0{,}011 & 0{,}961\\\\ 0{,}9 & 0{,}003 & 0{,}991\\\\ 1 & 0 & 1\\\\\\hline\\end{array}$$\n\n1. Wykorzystując powyższe dane liczbowe wyznacz gęstość $\\rho_0$ w środku gwiazdy w $\\mathrm{kg/m^3}$ (zastosuj rozsądne przybliżenia bez zgadywania wzoru matematycznego $\\rho=\\rho(r)$).\n\n2a. Podaj przyrost ciśnienia gazu $p$ [$p=p(r)$] pomiędzy $r$ i $r+\\Delta r$ w zależności od $m(r)$, $\\rho(r)$ i stałej grawitacji $G$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1995-1-fig1.png\n\n2b. Korzystając z wyniku otrzymanego w punkcie 2a oraz danych liczbowych wyznacz ciśnienie $p_0$ w $\\mathrm{N/m^2}$ (Pa) w centrum gwiazdy [zastosuj przybliżenia podobne jak w punkcie 1].\n\n3. Załóż że mamy do czynienia z młodą gwiazdą składającą się całkowicie z wodoru, który jest w centrum gwiazdy całkowicie zjonizowany. Zjonizowany wodór można traktować jako mieszaninę dwóch gazów doskonałych. Masa jednego mola protonów wynosi $1\\ \\mathrm{g}$, a masa jednego mola elektronów wynosi w przybliżeniu $0\\ \\mathrm{g}$. Wyznacz temperaturę $T_0$ w centrum gwiazdy. Stała grawitacji $G=6{,}67\\cdot10^{-11}\\ \\mathrm{N\\,m^2/kg^2}$, stała gazowa $R_{gaz}=8{,}31\\ \\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}$.\n\nUwaga! W rozważaniach możesz skorzystać z papieru milimetrowego.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Motion of a charged particle with friction in a magnetic field",
+     "problem": "Problem 2\n\nA particle of mass $m$ and charge $q$ moving in a constant uniform magnetic field of induction $B$ is acted on by a braking force proportional to the particle's velocity $v$ and directed opposite to it, $F=-\\gamma v$. At the initial moment the particle had a velocity $v$ perpendicular to the induction vector $B$. Calculate the distance between the position at which the particle will stop after an infinitely long time and the position at which it was at the initial moment.\n\nGiven: $m$, $q$, $B=|B|$, $\\gamma$, $u=|u|$",
+     "problem_orig": "Zadanie 2\n\nNa cząstkę o masie $m$ i ładunku $q$ poruszającą się w stałym jednorodnym polu magnetycznym o indukcji $B$ działa siła hamująca, proporcjonalna do prędkości $v$ cząstki i przeciwnie do niej skierowana. $F=-\\gamma v$. W chwili początkowej cząstka miała prędkość $v$ prostopadłą do wektora indukcji $B$. Oblicz odległość między położeniem, w którym cząstka zatrzyma się po nieskończenie długim czasie, a położeniem w którym znajdowała się w chwili początkowej.\n\nDane: $m$, $q$, $B=|B|$, $\\gamma$, $u=|u|$",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Light and gas: refractive index of air from interference rings",
+     "problem": "Problem 3\n\nThe figure shows an optical system that can be used to measure the refractive indices of gases. It consists of a point source of monochromatic light, two flat parallel glass plates between which the gas under study is located, and a lens and a screen placed in the focal plane of the lens. The surfaces of both plates are coated on the inner side with a thin, semi-transparent film of metal. As a result of the reflections of light between the plates, an interference pattern is observed on the screen, consisting of a series of concentric, alternately bright and dark rings. Reflections from the surfaces not coated with the metal layer may be neglected.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1995-3-fig1.png\n\n[Labels in the figure: «źródło światła» = light source; «gaz» = gas; «d»; «Ekran» = screen.]\n\nThe following experiment was carried out using the system described above. The gas was pumped out from between the plates, and the position of one of the bright fringes was marked on the screen. Then, while observing the fringes, air at some temperature $T_0$ was slowly let in between the plates, until some pressure $p_0$ was reached. It was found that $N=11$ dark fringes moved past the point marked on the screen, after which a bright fringe stopped at this point. Calculate the refractive index of air at pressure $p_0$ and temperature $T_0$, if the distance between the plates was $d=1.04\\ \\mathrm{cm}$, and the lamp emitted light of wavelength in vacuum $\\lambda_0=5461\\cdot10^{-8}\\ \\mathrm{cm}$.\n\nWe assume that the conditions of the experiment described in the problem are such that the laws valid for thin lenses may be used (paraxial beam, all angles small) and that the plates are not deformed when the air is pumped out.",
+     "problem_orig": "Zadanie 3\n\nNa rysunku przedstawiony jest układ optyczny mogący służyć do pomiaru współczynników załamania gazów. Składa się on z punktowego źródła światła monochromatycznego dwu płaskich równoległych płytek szklanych pomiędzy którymi znajduję się badany gaz oraz soczewki i ekranu ustawionego w płaszczyźnie ogniskowej soczewki. Powierzchnie obu płytek są pokryte od strony wewnętrznej cienką, półprzezroczystą warstewką metalu. Na skutek odbić światła pomiędzy płytkami na ekranie obserwuje się obraz interferencyjny składający się z szeregu współśrodkowych, na przemian jasnych i ciemnych pierścieni. Odbicia od powierzchni nie pokrytych warstwą metalu można zaniedbać.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1995-3-fig1.png\n\nWykorzystując wyżej opisany układ przeprowadzono następujące doświadczenie. Spomiędzy płytek odpompowano gaz, a na ekranie zaznaczono położenie jednego z jasnych prążków. Następnie, obserwując prążki, pomiędzy płytki powoli wpuszczano powietrze o pewnej temperaturze $T_0$, aż do uzyskania pewnego ciśnienia $p_0$. Stwierdzono, że przez punkt zaznaczony na ekranie przesunęło się $N=11$ ciemnych prążków po czym na tym punkcie zatrzymał się jasny prążek. Oblicz wartość współczynnika załamania powietrza pod ciśnieniem $p_0$ w temperaturze $T_0$, jeżeli odległość pomiędzy płytkami wynosiła $d=1{,}04\\ \\mathrm{cm}$, a lampa emitowała światło o długości fali w próżni $\\lambda_0=5461\\cdot10^{-8}\\ \\mathrm{cm}$.\n\nZakładamy że warunki doświadczenia opisanego w zadaniu są takie, iż można stosować prawa wazne dla soczewek cienkich (wiązka trzyosiowa, wszystkie kąty małe) oraz płytki nie ulegają deformacji podczas odpompowywania powietrza.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1996,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Firing a cannon eastwards",
+     "problem": "Problem 1\n\nAt a point $P$ on the surface of the Earth, at geographical latitude $\\phi=60^\\circ$, there is a cannon. The barrel of the cannon is set horizontally and points east. Shells fired from this cannon can move along various orbits around the Earth.\n\n1. What is the shortest time $\\tau$ after which a fired shell can meet the point $P$?\n\n2. Calculate the smallest velocity of the fired shell relative to $P$ for which it will meet the point $P$ after the time $\\tau$.\n\nNeglect the existence of the atmosphere and assume that the centre of the Earth is at rest in an inertial frame.\n\nFor the calculations use the following data:\n\n- gravitational constant: $G=6.67\\cdot10^{-11}\\ \\mathrm{N\\cdot m^2/kg^2}$;\n\n- mass of the Earth: $M=5.98\\cdot10^{24}\\ \\mathrm{kg}$;\n\n- radius of the Earth: $R=6.36\\cdot10^{6}\\ \\mathrm{m}$;\n\n- period of the Earth's rotation about its axis: $T=8.62\\cdot10^{4}\\ \\mathrm{s}$.",
+     "problem_orig": "Zadanie 1\n\nW punkcie $P$ na powierzchni Ziemi, na szerokości geograficznej $\\phi=60^\\circ$ znajduje się dzialo. Lufa działa jest ustawiona poziomo i skierowana na wschód. Pociski wystrzeliwane z tego działa mogą poruszać się po różnych orbitach wokółziemskich.\n\n1. Jaki jest najkrótszy czas $\\tau$, po którym może nastąpić spotkanie wystrzelonego pocisku z punktem $P$?\n\n2. Oblicz najmniejszą prędkość wystrzelonego pocisku względem $P$, dla której nastąpi jego spotkanie z punktem $P$ po czasie $\\tau$.\n\nNie uwzględniaj istnienia atmosfery oraz przyjmij, że środek Ziemi spoczywa w układzie inercjalnym.\n\nDo obliczeń przyjmij następujące dane:\n\n- stała grawitacyjna: $G=6{,}67\\cdot10^{-11}\\ \\mathrm{N\\cdot m^2/kg^2}$;\n\n- masa Ziemi: $M=5{,}98\\cdot10^{24}\\ \\mathrm{kg}$;\n\n- promień Ziemi: $R=6{,}36\\cdot10^{6}\\ \\mathrm{m}$;\n\n- okres obrotu Ziemi wokół osi: $T=8{,}62\\cdot10^{4}\\ \\mathrm{s}$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Heating of a conducting ring falling in a non-uniform magnetic field",
+     "problem": "Problem 2\n\nNear the surface of the Earth (gravitational acceleration $g$), in a constant non-uniform magnetic field, axially symmetric about a vertical axis $X$ (Fig. 1), a thin, uniform conducting ring of resistance $R$ and mass $m$ is falling. At the initial moment $t=0$ the ring is at rest in a horizontal position, and its centre is at the point $x=0$. During the motion the plane of the ring is perpendicular to the axis $X$. The magnetic field lines have such a shape that for a horizontally placed ring whose centre is at the point $x$, the magnetic flux $\\Phi$ through this ring is equal to $\\Phi=\\Phi_0+bx$.\n\nRepresent the rate $M=\\mathrm{d}Q/\\mathrm{d}t$ at which heat $Q$ is released in the ring as a function of time $t$. Neglect the changes of the magnetic field caused by the current flowing in the ring.\n\nNote! The general solution of the equation $\\mathrm{d}y/\\mathrm{d}t=B-Ay$, where $A$ and $B$ are constants, is: $y=(B/A)\\bigl(1-\\mathrm{const}\\cdot\\exp(-At)\\bigr)$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1996-2-fig1.png\n\n[Labels in the figure: «Rysunek 1» = Figure 1; $x=0$, $g$, $X$.]",
+     "problem_orig": "Zadanie 2\n\nPrzy powierzchni Ziemi (przyspieszenie grawitacyjne $g$), w stałym niejednorodnym polu magnetycznym, osiowo-symetrycznym wokół pionowej osi $X$ (Rys. 1), opada cienki, jednorodny pierścień przewodzący o oporze $R$ i masie $m$. W chwili początkowej $t=0$ pierścień spoczywa poziomo, zaś jego środek znajduje się w punkcie $x=0$. W czasie ruchu płaszczyzna pierścienia jest prostopadła do osi $X$. Linie pola magnetycznego mają taki kształt, że dla poziomo ustawionego pierścienia, którego środek znajduje się w punkcie $x$, strumień magnetyczny $\\Phi$ przechodzący przez ten pierścień jest równy: $\\Phi=\\Phi_0+bx$.\n\nPrzedstaw szybkość $M=\\mathrm{d}Q/\\mathrm{d}t$, z jaką jest wydzielane ciepło $Q$ w pierścieniu, jako funkcję czasu $t$. Zaniedbaj zmiany pola magnetycznego spowodowane przepływem prądu w pierścieniu.\n\nUwaga! Rozwiązaniem ogólnym równania: $\\mathrm{d}y/\\mathrm{d}t=B-Ay$, gdzie $A$ i $B$ są stałymi, jest: $y=(B/A)\\bigl(1-\\mathrm{const}\\cdot\\exp(-At)\\bigr)$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1996-2-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1997,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Frequency of oscillation of a board hung on two rods",
+     "problem": "Problem 1\n\nA thin uniform rectangular board with sides $a$, $b$ and mass $M$ is suspended on two thin, uniform rods, each of length $l$ and mass $m$, Fig. 1. Calculate the frequency of small oscillations of the system taking place in the plane of the figure.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1997-1-fig1.png\n\n[Labels in the figure: «Rys. 1» = Fig. 1.]",
+     "problem_orig": "Zadanie 1\n\nNa dwóch cienkich, jednorodnych prętach o długości $l$ i masie $m$ każdy, zawieszono cienką jednorodną deskę prostokątną o bokach $a$, $b$ oraz masie $M$, rys. 1. Oblicz częstość małych drgań układu odbywających się w płaszczyźnie rysunku.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1997-1-fig1.png",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1998,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Two hoops: oscillation frequency of a small hoop rolling inside a large one",
+     "problem": "Problem 1\n\nA thin, uniform hoop of radius $R$ and mass $M$ can rotate freely in a vertical plane about a fixed axis $O$, Fig. 1. Inside this hoop, in the same plane, there is a smaller hoop, also thin and uniform, of radius $r$ ($r<R$) and mass $m$. During the motion the smaller hoop rolls without slipping on the inner side of the large hoop. At the initial moment both hoops are at rest, and the small hoop is displaced from the equilibrium position (Fig. 1). The acceleration due to gravity has the value $g$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1998-1-fig1.png\n\n[Labels in the figure: «Rys. 1» = Fig. 1.]\n\nCalculate the frequency of small oscillations of the system in two limiting cases:\n\n1) the mass $m$ is much smaller than $M$ ($m\\ll M$);\n\n2) the mass $m$ is much larger than $M$ ($m\\gg M$).",
+     "problem_orig": "Zadanie 1\n\nCienka, jednorodna obręcz o promieniu $R$ i masie $M$ może obracać się swobodnie w płaszczyźnie pionowej wokół ustalonej osi $O$, rys. 1. Wewnątrz tej obręczy, w tej samej płaszczyźnie znajduje się mniejsza, też cienka i jednorodna obręcz o promieniu $r$ ($r<R$) i masie $m$. Mniejsza obręcz podczas ruchu toczy się bez poślizgu po wewnętrznej stronie dużej obręczy. W chwili początkowej obie obręcze są nieruchome, a mała obręcz jest wychylona z położenia równowagi (rys. 1). Przyspieszenie ziemskie ma wartość $g$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1998-1-fig1.png\n\nOblicz częstość małych drgań układu w dwóch granicznych przypadkach:\n\n1) masa $m$ jest znacznie mniejsza od $M$ ($m\\ll M$);\n\n2) masa $m$ jest znacznie większa od $M$ ($m\\gg M$).",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 1999,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Block sliding on an incline over fixed rollers",
+     "problem": "Problem 1\n\nA row of identical cylinders is mounted on an incline of angle $\\alpha$. The axes of the cylinders are fixed to the incline at equal distances $d$ from one another (fig.). The moment of inertia of each cylinder is $I$ and its radius is $r$. A block of mass $M$ and length $l=nd$ moves over the surface of the cylinders. Each cylinder starts to rotate once it comes into contact with the block. At first the cylinder slides relative to the block. This slipping stops before the block touches the next cylinder lying lower down. The motion of the remaining cylinders that are in contact with the block takes place without slipping. The coefficient of friction between the block and each of the cylinders is $f$.\n\nAssume that at every moment the pressure of the block is distributed uniformly over all the cylinders in contact with it.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-1-fig1.png\n\na) What condition must the coefficient of friction $f$ satisfy so that the average velocity of the block is the same on successive stretches of length $d$?\n\nb) Calculate this average velocity.\n\nNeglect friction in the rotation of the cylinders and rolling friction between the block and each of the cylinders.",
+     "problem_orig": "Zadanie 1\n\nNa równi pochyłej o kącie nachylenia $\\alpha$ zamocowano szereg jednakowych walców. Osie walców przymocowane są do równi w jednakowych odległosciach $d$ od siebie (rys.). Moment bezwładności każdego z walców jest równy $I$, promień wynosi $r$. Po powierzchni walców przemieszcza się kloc o masie $M$ i długości $l=nd$. Każdy walec po zetknięciu z klocem zaczyna się obracać. Początkowo walec ślizga się względem kloca. Poślizg ten ustaje jeszcze przed zetknięciem się kloca z następnym, niżej leżącym walcem. Ruch pozostałych walców będących w kontakcie z klocem odbywa się bez poślizgu. Współczynnik tarcia pomiędzy klocem a każdym z walców jest równy $f$.\n\nPrzyjmij, że w każdej chwili nacisk kloca rozkłada się równomiernie na wszystkie stykające się z nim walce.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-1-fig1.png\n\na) Jaki warunek musi spełniać współczynnik tarcia $f$, by średnia prędkość kloca była taka sama na kolejnych odcinkach o długości $d$?\n\nb) Oblicz tę średnią prędkość.\n\nZaniedbaj opory tarcia w ruchu obrotowym walców oraz tarcie toczne między klocem a każdym z walców.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Tension in a rod with point charges after removing a grounded plate",
+     "problem": "Problem 2\n\nAt the ends of an electrically neutral, non-conducting, non-polarisable rigid rod there are point electric charges of the same sign but of different magnitude. A large (compared with the dimensions of the rod), grounded conducting plate is placed perpendicular to the rod. The distances $AB$ and $BC$ marked in the figure are equal. The electric charges induced on the surface of the plate cause the rod to be attracted to the plate. Keeping the rod at a constant distance from the plate would require a force $T=0.02\\ \\mathrm{N}$ to be applied to the end $C$. The rod would then be stretched by a force $R=0.01\\ \\mathrm{N}$.\n\nCalculate the force with which this rod is stretched after the plate is removed.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-2-fig1.png",
+     "problem_orig": "Zadanie 2\n\nNa końcach obojętnego elektrycznie, nie przewodzącego i nie ulegającego polaryzacji sztywnego pręta znajdują się jednoimienne, lecz różne punktowe ładunki elektryczne. Prostopadle do pręta umieszczono dużą (w porównaniu z wymiarami pręta), uziemioną płytę przewodzącą. Odległości $AB$ oraz $BC$ zaznaczone na rysunku są jednakowe. Indukowane na powierzchni płyty ładunki elektryczne powodują przyciąganie pręta do płyty. Utrzymanie pręta w stałej odległości od płyty wymagałoby przyłożenia siły $T=0{,}02\\ \\mathrm{N}$ do końca $C$. Pręt byłby wtedy rozciągany z siłą $R=0{,}01\\ \\mathrm{N}$.\n\nOblicz siłę, z jaką jest rozciągany ten pręt po usunięciu płyty.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-2-fig1.png",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Interplanar spacing of a polycrystal from electron diffraction",
+     "problem": "Problem 3\n\nA beam of electrons of equal energy directed at a crystal is diffracted by reflection from atomic planes, similarly to X-rays. Particularly strong reflection of the beam occurs for certain angles $\\vartheta$ (fig. 1), which is an expression of the wave nature of matter.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-3-fig1.png\n[Labels in the figure: «Rys. 1» = Fig. 1]\n\nIn a certain experiment, whose scheme is shown in fig. 2, electrons from a heated filament W are accelerated through a potential difference $U$ towards the collimator K.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-3-fig2.png\n[Labels in the figure: «Rys. 2 (5)» = Fig. 2 (5)]\n\nThe electron beam formed in this way falls on a very thin polycrystalline foil C made of gold. After passing through it, it forms a diffraction pattern on a photographic plate placed at a distance $l=30\\ \\mathrm{cm}$ from the foil. The foil is so thin that only single reflections occur from the crystals making up the polycrystal. A series of concentric rings of different radii appears on the plate F, corresponding to the angles for which strong reflection of the electron beam occurs.\n\nThe table gives the results of measurements of the accelerating voltage $U$ and of the corresponding radius $R$ of the smallest diffraction ring. The measurement results given refer to one set of atomic planes with interplanar spacing $d$.\n\n$$\\begin{array}{|c|c|}\\hline U,\\ \\mathrm{V} & 2R,\\ \\mathrm{cm}\\\\ \\hline 58\\,000 & 1.50\\\\ \\hline 55\\,000 & 1.58\\\\ \\hline 44\\,000 & 1.75\\\\ \\hline 33\\,700 & 2.00\\\\ \\hline 21\\,000 & 2.40\\\\ \\hline\\end{array}$$\n\nDetermine the distance $d$, knowing that every plane of the given set of atomic planes reflects the electron beam like a mirror, independently of the angle of incidence of the beam. (The atomic planes should not be identified with the surfaces bounding the foil.)\n\nNeglect relativistic effects.\n\nPlanck constant $h=6.6\\cdot10^{-34}\\ \\mathrm{J\\cdot s}$, electron mass $m=9.1\\cdot10^{-31}\\ \\mathrm{kg}$, electron charge $e=1.6\\cdot10^{-19}\\ \\mathrm{C}$.",
+     "problem_orig": "Zadanie 3\n\nWiązka elektronów o jednakowej energii skierowana na kryształ ulega dyfrakcji wskutek odbicia od płaszczyzn atomowych, podobnie jak promieniowanie Roentgena. Szczególnie silne odbicie wiązki zachodzi dla niektórych kątów $\\vartheta$ (rys. 1), co jest wyrazem falowej natury materii.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-3-fig1.png\n\nW pewnym eksperymencie, którego schemat jest przedstawiony na rys. 2, elektrony z ogrzewanego włókna W są przyspieszane przez różnicę potencjałów $U$ w kierunku kolimatora K.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-1999-3-fig2.png\n\nUtworzona w ten sposób wiązka elektronów pada na wykonaną ze złota, bardzo cienką, polikrystaliczną folię C. Po przejściu przez nią tworzy obraz dyfrakcyjny na kliszy fotograficznej położonej w odległości $l=30\\ \\mathrm{cm}$ od folii. Folia jest na tyle cienka, że zachodzą tylko jednokrotne odbicia od kryształów tworzących polikryształ. Na kliszy F powstaje szereg koncentrycznych pierścieni o różnych promieniach odpowiadających kątom, dla których zachodzi silne odbicie wiązki elektronowej.\n\nW tabeli podano wyniki pomiarów napięcia przyspieszającego $U$ i odpowiadającego mu promienia $R$ najmniejszego pierścienia dyfrakcyjnego. Podane wyniki pomiarów odnoszą się do jednego zespołu płaszczyzn atomowych o odległości międzypłaszczyznowej $d$.\n\n$$\\begin{array}{|c|c|}\\hline U,\\ \\mathrm{V} & 2R,\\ \\mathrm{cm}\\\\ \\hline 58\\,000 & 1{,}50\\\\ \\hline 55\\,000 & 1{,}58\\\\ \\hline 44\\,000 & 1{,}75\\\\ \\hline 33\\,700 & 2{,}00\\\\ \\hline 21\\,000 & 2{,}40\\\\ \\hline\\end{array}$$\n\nWyznacz odległość $d$, wiedząc, że każda płaszczyzna danego zespołu płaszczyzn atomowych odbija wiązkę elektronów jak zwierciadło, niezależnie od kąta padania wiązki. (Płaszczyzn atomowych nie należy utożsamiać z powierzchniami ograniczającymi folię).\n\nZaniedbaj efekty relatywistyczne.\n\nStała Plancka $h=6{,}6\\cdot10^{-34}\\ \\mathrm{J\\cdot s}$, masa elektronu $m=9{,}1\\cdot10^{-31}\\ \\mathrm{kg}$, ładunek elektronu $e=1{,}6\\cdot10^{-19}\\ \\mathrm{C}$.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 2003,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Force between two charged hemispheres",
+     "problem": "Problem 1\n\nTwo hemispheres of radius $R$, made of an insulator, were charged uniformly with charges of volume densities $\\rho_1$ and $\\rho_2$ and were brought together to a very small distance - figure.\n\nCalculate the force of mutual interaction of these hemispheres.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2003-1-fig1.png",
+     "problem_orig": "Zadanie 1\n\nDwie półkule o promieniach $R$, wykonano z izolatora, naładowano równomiernie ładunkami o gęstościach objętościowych $\\rho_1$ i $\\rho_2$ i zbliżono do siebie na bardzoo niewielką odległość- rysunek.\n\nOblicz siłę wzajemnego oddziaływania tych półkul.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2003-1-fig1.png",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Screen of black plates between two black surfaces",
+     "problem": "Problem 3\n\nA flat perfectly black surface at a constant temperature $T_w$ is placed parallel to another perfectly black plane at a constant temperature $T_n$, lower than $T_w$. There is a vacuum between the surfaces. In order to reduce the heat flow between the surfaces caused by radiation, a screen consisting of $m$ thin black plates, thermally insulated from one another and lying parallel to the planes, was placed between them.\n\nBy what factor did the radiation flux (energy transferred per unit time per unit area) between the planes decrease after the screen was inserted? Determine the temperatures of the successive plates $1, 2,\\dots, m$ and give numerical values for $m=9$, $T_w=1300\\,^\\circ\\mathrm{C}$, $T_n=300\\,^\\circ\\mathrm{C}$. Neglect effects connected with the finite size of the surfaces.",
+     "problem_orig": "Zadanie 3\n\nPłaska doskonale czarna powierzchnia o stałej temperaturze $T_w$ jest umieszczona równolegle do innej doskonale czarnej płaszczyzny o stałej temperaturze $T_n$, niższej od $T_w$. Między powierzchniami jest próżnia. W celu zmniejszenia powodowanego promieniowaniem przepływu ciepła pomiędzy powierzchniami umieszczono ekran złożony z $m$ cienkich czarnych płyt odizolowanych od siebie termicznie i leżących równolegle do płaszczyzn.\n\nIle razy zmniejszył się strumień promieniowania (energia przekazana w jednostce czasu na jednostkę powierzchni) pomiędzy płaszczyznami po wstawieniu ekranu? Wyznacz temperatury kolejnych płyt $1, 2,\\dots, m$ i podaj wartości liczbowe dla $m=9$, $T_w=1300\\,^\\circ\\mathrm{C}$, $T_n=300\\,^\\circ\\mathrm{C}$. Efekty związane ze skończonymi rozmiarami powierzchni zaniedbaj.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
+   "year": 2004,
+   "problems": [
+    {
+     "day": 1,
+     "number": 1,
+     "paper_label": "Final (theory)",
+     "title": "Three-wheeled vehicle on a bend",
+     "problem": "Problem 1\n\nA vehicle consists of a rectangular body of width $d$ and length $l$ and of three wheels. One wheel is fixed at the middle of the front edge of the body in such a way that it can be turned by the driver about a vertical axis passing through the centre of the wheel. The other two wheels are placed at the ends of one axle coinciding with the rear edge of the body (see the figure).\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2004-1-fig1.png\n\nOn a bend, with the wheel turned by an angle $\\alpha=\\pi/4$, the vehicle moves at the maximum speed at which it does not yet skid. At what speed will the vehicle move after it comes out onto the straight road, if the driver straightens the front wheel very gently? The coefficient of static friction between wheel and ground is $\\mu$. The total mass of the vehicle together with the driver is $m$ and is uniformly distributed inside the body. The wheels are identical, narrow and rotate independently of one another. Their mass is neglected. In the considerations also neglect the height of the vehicle. The engine of the vehicle is running along the whole route considered; rolling resistance and air resistance are neglected. The road is perfectly horizontal. The acceleration due to gravity is $g$.",
+     "problem_orig": "Zadanie 1\n\nPojazd składa się prostopadłościennego nadwozia o szerokości $d$ i długości $l$ oraz z trzech kół. Jedno koło umocowane jest na środku przedniej krawędzi nadwozia w taki sposób, że może być skręcane przez kierującego pojazdem wokół osi pionowej przechodzącej przez środek koła. Pozostałe dwa koła umieszczone są na końcach jednej osi pokrywającej się z tylną krawędzią nadwozia (patrz rysunek )\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/poland-2004-1-fig1.png\n\nNa zakręcie, mając skręcone koło o kąt $\\alpha=\\pi/4$, pojazd porusza się maksymalną prędkością, przy której jeszcze nie wpada w poślizg. Z jaką prędkością pojazd będzie się poruszał po wyjechaniu na prostą, jeżeli kierowca będzie bardzo łagodnie prostował przednie koło? Współczynnik tarcia statycznego koło-podłoże wynosi $\\mu$. Całkowita masa pojazdu wraz z kierowcą wynosi $m$ i jest równomiernie rozłożona wewnątrz nadwozia. Koła są jednakowe, wąskie i obracają się niezależnie od siebie. Ich masę pomijamy. W rozważaniach zaniedbaj również wysokość pojazdu. Silnik pojazdu jest włączony na całej rozważanej drodze, opór toczenia i opór powietrza pomijamy. Droga jest idealnie pozioma. Przyspieszenie ziemskie wynosi $g$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 2,
+     "paper_label": "Final (theory)",
+     "title": "Balloons filled with hot air and with steam",
+     "problem": "Problem 2\n\nTwo balloons were built, the first of which is filled with hot air at a temperature $T=373\\ \\mathrm{K}$, and the second with water vapour at the same temperature. It was checked that just above the ground each of the balloons can lift a mass $m=300\\ \\mathrm{kg}$, including the mass of the envelope, the ropes and other structural elements. The ambient temperature is $T_0=293\\ \\mathrm{K}$ and the pressure is $p=10^5\\ \\mathrm{Pa}$.\n\na) What are the volumes $V_1$ and $V_2$ of the balloons?\n\nb) What is the minimum amount of heat needed to heat the air in the first balloon (from the ambient temperature)? What is the minimum amount of heat needed to produce, from water at the ambient temperature, the water vapour required to fill the second balloon?\n\nc) It was found that just after the first balloon is filled, the rate of loss of its lifting force (lift) is $k_1=0.3\\ \\mathrm{N/s}$. What is the rate of loss of the lifting force $k_2$ of the second balloon just after it is filled? Consider two possibilities: (i) all the condensed vapour from the second balloon remains inside it (it collects in a special container), and (ii) all the condensed vapour from the second balloon is removed at once (it falls to the ground). The shape of both balloons is the same, the envelopes have the same thermal conductivity, are inextensible, limp, and let through neither vapour nor air. We assume that the vapour obeys the ideal gas equation of state. Each balloon has a small opening at the bottom. After the balloons are filled, no heat is supplied to them.\n\nFor the calculations take the following values: molar mass of air $M_p=0.029\\ \\mathrm{kg/mol}$; molar mass of water $M_w=0.018\\ \\mathrm{kg/mol}$; gas constant $R=8.3\\ \\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}$; molar heat capacity of air at constant volume $c_V=\\left(\\frac{5}{2}\\right)R$; specific heat of water $c_w=4200\\ \\mathrm{J\\cdot kg^{-1}\\cdot K^{-1}}$; boiling point of water at pressure $p=10^5\\ \\mathrm{Pa}$ – $373\\ \\mathrm{K}$; latent heat of vaporisation of water at $373\\ \\mathrm{K}$ (and pressure $p=10^5\\ \\mathrm{Pa}$) $r=2.3\\cdot10^6\\ \\mathrm{J/kg}$; acceleration due to gravity $g=9.8\\ \\mathrm{m/s^2}$.",
+     "problem_orig": "Zadanie 2\n\nSkonstruowano dwa balony, z których pierwszy jest wypełniony gorącym powietrzem o temperaturze $T=373\\ \\mathrm{K}$, a drugi parą wodną o takiej samej temperaturze. Sprawdzono, że tuż nad powierzchnią ziemi każdy z balonów może unieść masę $m=300\\ \\mathrm{kg}$, włączając w to masę powłoki, linek i innych elementów konstrukcyjnych. Temperatura otoczenia wynosi $T_0=293\\ \\mathrm{K}$, ciśnienie $p=10^5\\ \\mathrm{Pa}$.\n\na) Ile wynoszą objętości $V_1$ i $V_2$ balonów?\n\nb) Jaka jest minimalna ilość ciepła niezbędna do podgrzania (od temperatury otoczenia) powietrza w pierwszym balonie? Ile wynosi minimalna ilość ciepła niezbędna do wytworzenia, z wody o temperaturze równej temperaturze otoczenia, pary wodnej potrzebnej do wypełnienia drugiego balonu?\n\nc) Stwierdzono, że tuż po napełnieniu pierwszego balonu, tempo utraty jego siły nośnej (udźwigu) jest równe $k_1=0{,}3\\ \\mathrm{N/s}$. Ile wynosi tempo utraty siły nośnej drugiego balonu $k_2$ tuż po jego napełnieniu? Rozważ dwie możliwości: (i) cała skroplona para z drugiego balonu pozostaje w jego wnętrzu (zbiera się w specjalnym pojemniku) oraz (ii) cała skroplona para z drugiego balonu jest natychmiast usuwana (spada na ziemie). Kształt obu balonów jest taki sam, powłoki mają takie same przewodnictwo cieplne, są nierozciągliwe, wiotkie i nie przepuszczają ani pary, ani powietrza. Zakładamy, że para spełnia równanie stanu gazu doskonałego. Każdy z balonów ma na dole mały otwór. Po napełnieniu balonów nie jest do nich dostarczane ciepło.\n\nDo obliczeń przyjmij następujące wartości: masa molowa powietrza $M_p=0{,}029\\ \\mathrm{kg/mol}$; masa molowa wody $M_w=0{,}018\\ \\mathrm{kg/mol}$; stała gazowa $R=8{,}3\\ \\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}$; ciepło molowe powietrza przy stałej objętości $c_V=\\left(\\frac{5}{2}\\right)R$; ciepło właściwe wody $c_w=4200\\ \\mathrm{J\\cdot kg^{-1}\\cdot K^{-1}}$; temperatura wrzenia wody pod ciśnieniem $p=10^5\\ \\mathrm{Pa}$ – $373\\ \\mathrm{K}$; ciepło parowania wody w temperaturze $373\\ \\mathrm{K}$ (i ciśnieniu $p=10^5\\ \\mathrm{Pa}$) $r=2{,}3\\cdot10^6\\ \\mathrm{J/kg}$; przyspieszenie ziemskie $g=9{,}8\\ \\mathrm{m/s^2}$.",
+     "orig_lang": "pl"
+    },
+    {
+     "day": 1,
+     "number": 3,
+     "paper_label": "Final (theory)",
+     "title": "Current-carrying frame levitating above a superconductor",
+     "problem": "Problem 3\n\nThe magnetic induction vector $\\vec B$ just above the surface of a superconductor is always tangent to that surface.\n\na) Using this fact, calculate the force per unit length acting on an infinitely long, thin, straight wire situated at a distance $d$ from the plane of the superconductor. Determine the field $\\vec B$ just above the superconductor. A current $I$ flows in the wire.\n\nb) Consider a rectangular frame made of a conductor, of dimensions $a\\times b$, with $a\\gg b$, in which a steady current of unknown magnitude flows. The mass of the frame is $m$. The conductor is thin.\n\nIt was checked that when the frame is oriented so that its shorter sides are vertical, it floats (levitates) above the horizontal superconducting plane at a height $d_\\perp$ measured to the centre of the frame, with $a\\gg d_\\perp\\gg b$.\n\nWill the frame also float when its plane is parallel to the surface of the superconductor? If so, at what height $d_\\parallel$?\n\nThe gravitational acceleration is $g$.\n\nNote!\nIn both cases the current flowing in the frame is the same.",
+     "problem_orig": "Zadanie 3\n\nWektor indukcji magnetycznej $\\vec B$ tuż nad powierzchnią nadprzewodnika jest zawsze styczny do tej powierzchni\n\na) Korzystając z tego faktu, oblicz siłę działającą na jednostkę długości nieskończenie długiego, cienkiego, prostoliniowego przewodu znajdującego się w odległości $d$ od płaszczyzny nadprzewodnika. Wyznacz pole $\\vec B$ tuż nad nadprzewodnikiem. W przewodzie płynie prąd o natężeniu $I$.\n\nb) Rozważmy wykonaną z przewodnika, prostokątną ramkę o wymiarach $a\\times b$, przy czym $a\\gg b$, w której płynie ustalony prąd o nieznanym natężeniu. Masa ramki jest równa $m$. Przewodnik jest cienki.\n\nSprawdzono, że gdy ramka ustawiona jest tak, że jej krótsze boki są pionowe, to unosi się (lewituje) nad poziomą, nadprzewodzącą łaszczyzną na wysokość $d_\\perp$ liczonej do środka ramki, przy czym $a\\gg d_\\perp\\gg b$.\n\nCzy ramka będzie się unosić również w przypadku, gdy jej płaszczyzna będzie równoległa do powierzchni nadprzewodnika? Jeśli tak to na jakiej wysokości $d_\\parallel$?\n\nPrzyspieszenie grawitacyjne jest równe $g$.\n\nUwaga!\nW obu przypadkach natężenie prądu płynącego w ramce jest jednakowe.",
+     "orig_lang": "pl"
+    }
+   ]
+  },
+  {
    "year": 2006,
    "problems": [
     {

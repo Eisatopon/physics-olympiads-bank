@@ -1129,10 +1129,10 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261112-poland-1952';
+const DATA_VERSION = '20261112-germany';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
@@ -1142,6 +1142,7 @@ const COUNTRIES = [
     { key: 'greece', name: 'Greece', flag: '🇬🇷', file: 'Greece-EEF-problems.json', kind: 'years', full: 'Panhellenic Physics Competition of the Hellenic Physical Society (ΕΕΦ), Grades 10–12 national final · English translation · problems © ΕΕΦ' },
     { key: 'bphor2', name: 'BPhO Round 2', flag: '🇬🇧', file: 'BPhO-R2-problems.json', kind: 'years', full: 'British Physics Olympiad, Round 2 (Paper 3 until 2010) · problems © BPhO' },
     { key: 'cpho', name: 'China', flag: '🇨🇳', file: 'CPhO-problems.json', kind: 'years', full: 'Chinese Physics Olympiad (Chinese Physical Society), final and semifinal theory · English translation' },
+    { key: 'germany', name: 'Germany', flag: '🇩🇪', file: 'Germany-PhysikOlympiade-problems.json', kind: 'years', full: 'PhysikOlympiade in Deutschland (selection competition for the IPhO), Round 2, with sample problems of Rounds 3–4 · German original and English translation' },
     { key: 'jpho', name: 'Japan', flag: '🇯🇵', file: 'JPhO-problems.json', kind: 'years', full: 'Physics Challenge (Japan Physics Olympiad), Second Challenge theory · English translation' },
     { key: 'nlnno', name: 'Netherlands', flag: '🇳🇱', file: 'Netherlands-NNO-problems.json', kind: 'years', full: 'Dutch National Physics Olympiad (Nationale Natuurkunde Olympiade), final round, theory · Dutch original and English translation' },
     { key: 'poland', name: 'Poland', flag: '🇵🇱', file: 'Poland-OF-problems.json', kind: 'years', full: 'Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part · English translation (1952–2004: a selection, with the Polish original)' },
@@ -2277,6 +2278,7 @@ const ORGS = {
     cpho: ['CPhO', 'the Chinese Physical Society', 'Chinese Physical Society', 'Chinese'],
     jpho: ['Physics Challenge (JPhO)', 'the Japan Physics Olympiad Committee (JPhO)', 'JPhO', 'Japanese'],
     nlnno: ['Natuurkunde Olympiade', 'the Stichting Natuurkunde Olympiade Nederland', 'Stichting Natuurkunde Olympiade Nederland', 'Dutch'],
+    germany: ['PhysikOlympiade', 'the PhysikOlympiade in Deutschland (IPN Kiel)', 'PhysikOlympiade in Deutschland (IPN Kiel)', 'German'],
     poland: ['Olimpiada Fizyczna', 'the Komitet Główny Olimpiady Fizycznej', 'Komitet Główny Olimpiady Fizycznej', 'Polish'],
     jeep: ['JEE (Advanced)', 'the Indian Institutes of Technology (JEE Advanced)', 'the Indian Institutes of Technology (JEE Advanced)'],
     grpan: ['Panhellenic Exams', 'the Greek Ministry of Education', 'the Greek Ministry of Education'],

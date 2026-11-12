@@ -204,6 +204,7 @@
     --usemo: #c0663a; --usemo-ink: #7f4025; --usemo-tint: #f9ebe3;
     --rmm: #1f7a6b; --rmm-ink: #14524a; --rmm-tint: #e0f2ee;
     --izho: #7a6a1f; --izho-ink: #524714; --izho-tint: #f3efdc;
+    --oibf: #b5532a; --oibf-ink: #7a3516; --oibf-tint: #f8e9e1;
     --ir2: #2e8b57; --ir2-ink: #1d5c39; --ir2-tint: #e3f3ea;
     --ir3: #8b5e2e; --ir3-ink: #5c3d1d; --ir3-tint: #f5ece2;
     --trt: #a33a3a; --trt-ink: #6e2626; --trt-tint: #f7e4e4;
@@ -426,6 +427,7 @@
 .f-usemo { --f: var(--usemo); --f-ink: var(--usemo-ink); --f-tint: var(--usemo-tint); }
 .f-rmm { --f: var(--rmm); --f-ink: var(--rmm-ink); --f-tint: var(--rmm-tint); }
 .f-izho { --f: var(--izho); --f-ink: var(--izho-ink); --f-tint: var(--izho-tint); }
+.f-oibf { --f: var(--oibf); --f-ink: var(--oibf-ink); --f-tint: var(--oibf-tint); }
 .f-ir2 { --f: var(--ir2); --f-ink: var(--ir2-ink); --f-tint: var(--ir2-tint); }
 .f-ir3 { --f: var(--ir3); --f-ink: var(--ir3-ink); --f-tint: var(--ir3-tint); }
 .f-trt { --f: var(--trt); --f-ink: var(--trt-ink); --f-tint: var(--trt-tint); }
@@ -1127,10 +1129,10 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261111-romania-2003';
+const DATA_VERSION = '20261112-oibf';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
@@ -1158,6 +1160,7 @@ const COUNTRIES = [
     { key: 'apho', name: 'APhO', flag: '🌏', file: 'APhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'Asian Physics Olympiad, theoretical problems' },
     { key: 'nbpho', name: 'NBPhO', flag: '🌍', file: 'NBPhO-problems.json', kind: 'years', scope: 'regional', full: 'Nordic-Baltic Physics Olympiad (formerly Estonian-Finnish Olympiad), theoretical problems, numbered as printed' },
     { key: 'eupho', name: 'EuPhO', flag: '🇪🇺', file: 'EuPhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'European Physics Olympiad, theoretical problems' },
+    { key: 'oibf', name: 'OIbF', flag: '🌎', file: 'OIbF-theory-problems.json', kind: 'years', scope: 'regional', full: 'Ibero-American Physics Olympiad (Olimpiada Iberoamericana de Física), theoretical paper · Spanish original and English · problems © OIbF' },
     { key: 'izho', name: 'IZhO', flag: '🇰🇿', file: 'IZhO-Physics-theory-problems.json', kind: 'years', scope: 'international', full: 'International Zhautykov Olympiad (Almaty), Physics, theoretical competition · problems © IZhO organisers' },
     { key: 'opho', name: 'OPhO', flag: '🌐', file: 'OPhO-problems.json', kind: 'years', scope: 'international', full: 'Online Physics Olympiad, Open round and Invitational round (theory) · problems © OPhO' },
     { key: 'pcup', name: 'Physics Cup', flag: '🌐', file: 'Physics-Cup-problems.json', kind: 'years', scope: 'international', full: 'Physics Cup (Jaan Kalda, TalTech), online competition problems, as first published without hints · problems © Physics Cup' },
@@ -2282,6 +2285,7 @@ const ORGS = {
     pcup: ['Physics Cup', 'Physics Cup (Jaan Kalda; Tallinn University of Technology, TalTech)', 'Physics Cup / the problem authors'],
     cypan: ['Pancyprian Exams', 'the Cyprus Ministry of Education (Examinations Service)', 'the Cyprus Ministry of Education (Examinations Service)'],
     oxpat: ['Oxford PAT', 'the University of Oxford (Department of Physics)', 'the University of Oxford'],
+    oibf: ['Olimpiada Iberoamericana de Física', 'the Ibero-American Physics Olympiad (Olimpiada Iberoamericana de Física, OIbF)', 'Olimpiada Iberoamericana de Física', 'Spanish'],
     roonf: ['Olimpiada Națională de Fizică', 'the Romanian Ministry of Education (Olimpiada Națională de Fizică)', 'Ministerul Educației', 'Romanian'],
     skfo: ['Fyzikálna olympiáda', 'NIVAM (Národný inštitút vzdelávania a mládeže) and the Slovak Physics Olympiad Committee', 'NIVAM / Slovenská komisia fyzikálnej olympiády', 'Slovak'],
     czech: ['Fyzikální olympiáda', 'the Central Committee of the Czech Physics Olympiad (Ústřední komise fyzikální olympiády)', 'Ústřední komise fyzikální olympiády (CC BY 3.0 CZ)', 'Czech'],
@@ -3060,7 +3064,7 @@ const TEX_CHARS = (() => {
 // Language of the exported statements, for views with stored originals: 'en', 'orig' or 'both'.
 function texLang() { try { const v = localStorage.getItem('nob-texlang'); return ['en', 'orig', 'both'].includes(v) ? v : 'en'; } catch (e) { return 'en'; } }
 const TEX_GREEK = /[\u0370-\u03ff\u1f00-\u1fff]/;
-const LANG_NAMES = {el: 'Greek', nl: 'Dutch', pl: 'Polish', cs: 'Czech', ru: 'Russian', ja: 'Japanese', zh: 'Chinese', de: 'German', fr: 'French'};
+const LANG_NAMES = {el: 'Greek', nl: 'Dutch', pl: 'Polish', cs: 'Czech', ru: 'Russian', ja: 'Japanese', zh: 'Chinese', de: 'German', fr: 'French', es: 'Spanish', pt: 'Portuguese', ro: 'Romanian', sk: 'Slovak'};
 function texOriginal(p, withFigures) {
     const greek = (p.origLang || 'el') === 'el';
     let t = String(p.textEl);

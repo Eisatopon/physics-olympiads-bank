@@ -210,7 +210,7 @@
      "number": 2,
      "paper_label": "Grade 9 (old numbering, = grade 10 today), Round 1",
      "title": "Problem 2",
-     "problem": "Problem 2\n\nA construction vibrator is a metal platform on which a heavy asymmetric flywheel, driven by an electric motor, is mounted; with the motor switched on it makes $n=50$ revolutions per second about a horizontal axis rigidly fixed to this platform. Estimate the speed at which the vibrator will move over a very rough concrete floor if it is pushed in the horizontal direction with a force $F=100\\ \\mathrm{N}$. The mass of the vibrator is $M=50\\ \\mathrm{kg}$."
+     "problem": "Problem 2\n\nA construction vibrator is a metal platform on which a heavy asymmetric flywheel, driven by an electric motor, is mounted; with the motor switched on it makes $n=50$ revolutions per second about a horizontal axis rigidly fixed to this platform. Estimate the speed at which the vibrator will move over a very rough concrete floor if it is pushed in the horizontal direction with a force $F=100\\ \\mathrm{N}$. The mass of the vibrator is $M=50\\ \\mathrm{kg}$."
     },
     {
      "day": 3,
@@ -1412,7 +1412,7 @@
      "number": 3,
      "paper_label": "Grade 10, Round 1",
      "title": "Problem 3",
-     "problem": "Problem 3\n\nAn ideal monatomic gas does work in a quasi-static process 1–2, which is represented on the $pV$ diagram by a semicircle (see figure). Find the total quantity of heat received and given up by the gas in the course of this process. Consider the values $V_1$, $V_2$, $p_0$, $p_1$ known.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-1995-3-3-fig1.png"
+     "problem": "Problem 3\n\nAn ideal monatomic gas does work in a quasi-static process 1–2, which is represented on the $pV$ diagram by a semicircle (see figure). Find the total quantity of heat received and given up by the gas in the course of this process. Consider the values $V_1$, $V_2$, $p_0$, $p_1$ known.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-1995-3-3-fig1.png"
     },
     {
      "day": 3,
@@ -1571,7 +1571,7 @@
      "number": 2,
      "paper_label": "Grade 11, Round 2",
      "title": "Problem 2",
-     "problem": "Problem 2\n\nThe efficiency of the propulsion plant of a motorboat, consisting of an internal combustion engine and a water-jet propulsor, is $\\eta$. Estimate the lower bound of the maximum temperature $T_1$ in the cylinders of the boat's engine when the boat moves at a constant speed, knowing that the temperature of the exhaust gases is $T_2$, the cross-sectional area of the water intake pipe of the water-jet propulsor is $S_1$, the cross-sectional area of the water jet ejected from the propulsor is $S_2$, and water enters the intake pipe at a speed equal to the speed of the boat relative to the water."
+     "problem": "Problem 2\n\nThe efficiency of the propulsion plant of a motorboat, consisting of an internal combustion engine and a water-jet propulsor, is $\\eta$. Estimate the lower bound of the maximum temperature $T_1$ in the cylinders of the boat's engine when the boat moves at a constant speed, knowing that the temperature of the exhaust gases is $T_2$, the cross-sectional area of the water intake pipe of the water-jet propulsor is $S_1$, the cross-sectional area of the water jet ejected from the propulsor is $S_2$, and water enters the intake pipe at a speed equal to the speed of the boat relative to the water."
     },
     {
      "day": 2,
@@ -1980,7 +1980,7 @@
      "number": 2,
      "paper_label": "Grade 10, Round 1",
      "title": "Problem 2",
-     "problem": "Problem 2\n\nDuring the celebrations of the 850th anniversary of the founding of Moscow, many \"flying\" balloons were on sale. Some of the more resourceful schoolchildren used a small weight to \"hang\" them from the sloping ceilings of the Moscow metro (see figure). What mass $M$ of the weight is suitable for this purpose? In solving the problem assume that the balloon has the shape of a sphere of radius $R$, and there is no slipping against the ceiling. The mass of the rubber envelope of the balloon is $m$, the density of the gas inside the balloon is $\\rho$, the density of the atmosphere is $\\rho_0$, and the ceiling has the angle of inclination $\\alpha$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-1998-3-2-fig1.png"
+     "problem": "Problem 2\n\nDuring the celebrations of the 850th anniversary of the founding of Moscow, many \"flying\" balloons were on sale. Some of the more resourceful schoolchildren used a small weight to \"hang\" them from the sloping ceilings of the Moscow metro (see figure). What mass $M$ of the weight is suitable for this purpose? In solving the problem assume that the balloon has the shape of a sphere of radius $R$, and there is no slipping against the ceiling. The mass of the rubber envelope of the balloon is $m$, the density of the gas inside the balloon is $\\rho$, the density of the atmosphere is $\\rho_0$, and the ceiling has the angle of inclination $\\alpha$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-1998-3-2-fig1.png"
     },
     {
      "day": 3,
@@ -2083,7 +2083,7 @@
      "number": 3,
      "paper_label": "Grade 11, Round 1",
      "title": "Problem 3",
-     "problem": "Problem 3\n\nA load is connected to a source with output voltage $U=2$ kV by means of a long two-strip line. The strips of the line have width $a=4$ cm and are arranged parallel to each other, one above the other, at a distance $b=4$ mm. At some load resistance, much larger than the resistance of the conductors of the line, the force of their interaction is zero. What will be the magnitude and direction of this force per unit length of the line if the load resistance is increased by a factor of $n=5$?"
+     "problem": "Problem 3\n\nA load is connected to a source with output voltage $U=2$ kV by means of a long two-strip line. The strips of the line have width $a=4$ cm and are arranged parallel to each other, one above the other, at a distance $b=4$ mm. At some load resistance, much larger than the resistance of the conductors of the line, the force of their interaction is zero. What will be the magnitude and direction of this force per unit length of the line if the load resistance is increased by a factor of $n=5$?"
     },
     {
      "day": 1,
@@ -2721,7 +2721,7 @@
      "number": 1,
      "paper_label": "Grade 10, Round 1",
      "title": "Problem 1",
-     "problem": "Problem 1\n\nA small ball moving towards a massive smooth cylinder of radius $R$, which is moving translationally with speed $u$, strikes the cylinder; the ball moves perpendicular to the axis of the cylinder with speed $v$ (see figure). The distance between the line along which the ball moves and the plane in which the axis of the cylinder moves is $L$ ($L<R$). Find the magnitude of the ball's speed $v_1$ after the perfectly elastic impact with the cylinder. Gravity is absent.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2002-3-1-fig1.png"
+     "problem": "Problem 1\n\nA small ball moving towards a massive smooth cylinder of radius $R$, which is moving translationally with speed $u$, strikes the cylinder; the ball moves perpendicular to the axis of the cylinder with speed $v$ (see figure). The distance between the line along which the ball moves and the plane in which the axis of the cylinder moves is $L$ ($L<R$). Find the magnitude of the ball's speed $v_1$ after the perfectly elastic impact with the cylinder. Gravity is absent.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2002-3-1-fig1.png"
     },
     {
      "day": 3,
@@ -2992,7 +2992,7 @@
      "number": 1,
      "paper_label": "Grade 9, Round 1",
      "title": "Problem 1",
-     "problem": "Problem 1\n\nTwo ships are at sea and move uniformly and in straight lines. The first at noon was 40 miles north of a small island and moved with a speed of 15 miles per hour in the direction east. The second at 8 o'clock in the morning of the same day was 100 miles east of the same island and moved with a speed of 15 miles per hour in the direction south. What was the minimum distance between the ships as they passed, and at what moment of time did this happen?"
+     "problem": "Problem 1\n\nTwo ships are at sea and move uniformly and in straight lines. The first at noon was 40 miles north of a small island and moved with a speed of 15 miles per hour in the direction east. The second at 8 o'clock in the morning of the same day was 100 miles east of the same island and moved with a speed of 15 miles per hour in the direction south. What was the minimum distance between the ships as they passed, and at what moment of time did this happen?"
     },
     {
      "day": 5,
@@ -3179,7 +3179,7 @@
      "number": 4,
      "paper_label": "Grade 10, Round 2",
      "title": "Problem 4",
-     "problem": "Problem 4\n\nAn ideal monatomic gas is in a smooth vertical cylinder under a weightless piston on which a weight of mass $m$ stands. Outside the cylinder there is a vacuum, and there is no heat exchange of the gas with the surrounding bodies. A process consisting of $n$ stages is carried out on the gas; at each stage the mass of the weight is increased by the same factor compared with its previous value, and equilibrium is allowed to be established. The final mass of the weight is $M$. By what factor will the volume of the gas change after the completion of this process? Solve the problem in the general case and then obtain an approximate answer for $n=2004$, $M/m=4$. The acceleration due to gravity is $g$; the action of gravity on the gas may be neglected.\n\nNote. For small $\\varepsilon$ and $\\lambda\\varepsilon\\ll1$ the following relation holds: $(1+\\varepsilon)^{\\lambda}=1+\\lambda\\varepsilon$."
+     "problem": "Problem 4\n\nAn ideal monatomic gas is in a smooth vertical cylinder under a weightless piston on which a weight of mass $m$ stands. Outside the cylinder there is a vacuum, and there is no heat exchange of the gas with the surrounding bodies. A process consisting of $n$ stages is carried out on the gas; at each stage the mass of the weight is increased by the same factor compared with its previous value, and equilibrium is allowed to be established. The final mass of the weight is $M$. By what factor will the volume of the gas change after the completion of this process? Solve the problem in the general case and then obtain an approximate answer for $n=2004$, $M/m=4$. The acceleration due to gravity is $g$; the action of gravity on the gas may be neglected.\n\nNote. For small $\\varepsilon$ and $\\lambda\\varepsilon\\ll1$ the following relation holds: $(1+\\varepsilon)^{\\lambda}=1+\\lambda\\varepsilon$."
     },
     {
      "day": 4,
@@ -3518,7 +3518,7 @@
      "number": 5,
      "paper_label": "Grade 11, Round 2",
      "title": "Problem 5",
-     "problem": "Problem 5\n\nA thin glass plano-convex lens is partly immersed in water (refractive index $n_{\\mathrm{w}}$), with its plane side horizontal and under the water, and the thickness of the lens equal to $H$ (see the figure). A parallel beam of light falls vertically on this system. Two equally bright images appear in the water at depths $l$ and $L>l$. What are the radius $R$ of the convex surface of the lens, the refractive index $n$ of the lens material and the depth $h$ of its immersion in the water? Neglect the reflection of light from the water and from the lens, and the absorption of light.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2006-2-5-fig1.png"
+     "problem": "Problem 5\n\nA thin glass plano-convex lens is partly immersed in water (refractive index $n_{\\mathrm{w}}$), with its plane side horizontal and under the water, and the thickness of the lens equal to $H$ (see the figure). A parallel beam of light falls vertically on this system. Two equally bright images appear in the water at depths $l$ and $L>l$. What are the radius $R$ of the convex surface of the lens, the refractive index $n$ of the lens material and the depth $h$ of its immersion in the water? Neglect the reflection of light from the water and from the lens, and the absorption of light.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2006-2-5-fig1.png"
     },
     {
      "day": 3,
@@ -3941,7 +3941,7 @@
      "number": 3,
      "paper_label": "Grade 11, Round 1",
      "title": "Problem 3",
-     "problem": "Problem 3\n\nThe cycle of a heat engine consists of two isobars and two isotherms, and the work done in the isobaric expansion is the same as in the isothermal expansion. Find the efficiency of this cycle if the working substance is helium and the maximum temperature in the process is twice the minimum temperature."
+     "problem": "Problem 3\n\nThe cycle of a heat engine consists of two isobars and two isotherms, and the work done in the isobaric expansion is the same as in the isothermal expansion. Find the efficiency of this cycle if the working substance is helium and the maximum temperature in the process is twice the minimum temperature."
     },
     {
      "day": 1,
@@ -4462,7 +4462,7 @@
      "number": 5,
      "paper_label": "Grade 10, Round 1",
      "title": "Problem 5",
-     "problem": "Problem 5\n\nThe schoolboy Vasya connects electric light bulbs to a power source whose circuit is shown in the figure. Having connected one light bulb to the source, Vasya found that a power $P$ is released in it. Having connected to the source four identical bulbs connected in parallel, Vasya found that a power $P$ is also released in them altogether. What power $P_n$ will be released in the bulbs when Vasya connects $n$ bulbs in parallel to the power source? Assume that the resistance of a bulb does not depend on the current.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2010-3-5-fig1.png"
+     "problem": "Problem 5\n\nThe schoolboy Vasya connects electric light bulbs to a power source whose circuit is shown in the figure. Having connected one light bulb to the source, Vasya found that a power $P$ is released in it. Having connected to the source four identical bulbs connected in parallel, Vasya found that a power $P$ is also released in them altogether. What power $P_n$ will be released in the bulbs when Vasya connects $n$ bulbs in parallel to the power source? Assume that the resistance of a bulb does not depend on the current.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2010-3-5-fig1.png"
     },
     {
      "day": 4,
@@ -5460,7 +5460,7 @@
      "number": 4,
      "paper_label": "Grade 10, Round 1",
      "title": "Problem 4",
-     "problem": "Problem 4\n\nIn the lower part of a vertical cylindrical vessel, divided by a movable light piston, there is argon. The upper part of the vessel is completely filled with water of mass $m=1\\ \\mathrm{kg}$ and is open to the atmosphere. At temperature $t_1=27\\ ^\\circ\\mathrm{C}$ the piston is located at a height equal to $1/4$ of the height of the vessel. After heating the whole system to temperature $t_2=127\\ ^\\circ\\mathrm{C}$, equilibrium is reached with the piston located at $1/2$ of the height of the vessel. Find the cross-sectional area $S$ of the vessel and the height $H$ of the vessel. The atmospheric pressure is $p_0=10^{5}\\ \\mathrm{Pa}$. Take absolute zero to be $t_0=-273\\ ^\\circ\\mathrm{C}$, the density of water $\\rho=1000\\ \\mathrm{kg/m^3}$, the acceleration of gravity $g=10\\ \\mathrm{m/s^2}$."
+     "problem": "Problem 4\n\nIn the lower part of a vertical cylindrical vessel, divided by a movable light piston, there is argon. The upper part of the vessel is completely filled with water of mass $m=1\\ \\mathrm{kg}$ and is open to the atmosphere. At temperature $t_1=27\\ ^\\circ\\mathrm{C}$ the piston is located at a height equal to $1/4$ of the height of the vessel. After heating the whole system to temperature $t_2=127\\ ^\\circ\\mathrm{C}$, equilibrium is reached with the piston located at $1/2$ of the height of the vessel. Find the cross-sectional area $S$ of the vessel and the height $H$ of the vessel. The atmospheric pressure is $p_0=10^{5}\\ \\mathrm{Pa}$. Take absolute zero to be $t_0=-273\\ ^\\circ\\mathrm{C}$, the density of water $\\rho=1000\\ \\mathrm{kg/m^3}$, the acceleration of gravity $g=10\\ \\mathrm{m/s^2}$."
     },
     {
      "day": 3,
@@ -6313,7 +6313,7 @@
      "number": 2,
      "paper_label": "Grade 9, Round 1",
      "title": "Problem 2: Balance board",
-     "problem": "Problem 2: Balance board\n\nA balance board is a trainer for developing the sense of balance (Fig. 1); it is a rigid board lying on a cylindrical roller. The basic exercise consists in keeping balance while rolling on the roller, and it is desirable that the board stay practically horizontal. Let the interaction of the feet with the board take place at the points $A$ and $B$ (see Fig. 2), and let the positions of the points $A$ and $B$ relative to the board not change during the exercise. The roller does not slip either on the floor or on the board. In the extreme right position the horizontal distances between the points $A$ and $B$ and the vertical line on which the axis $C$ of the roller lies are $L_1$ and $L_2$ respectively. The person rolls to the extreme left position, in which the horizontal distance between the point $A$ and $C$ becomes equal to $L_2$.\n\n1) By what horizontal distance is the centre of mass of the person displaced: relative to the board; relative to the ground?\n\n2) By what horizontal distance is the point $A$ displaced?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2019-5-2-fig1.png\n\n[Labels in the figure: «Рис. 1» = Fig. 1]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2019-5-2-fig2.png\n\n[Labels in the figure: «Рис. 2» = Fig. 2]"
+     "problem": "Problem 2: Balance board\n\nA balance board is a trainer for developing the sense of balance (Fig. 1); it is a rigid board lying on a cylindrical roller. The basic exercise consists in keeping balance while rolling on the roller, and it is desirable that the board stay practically horizontal. Let the interaction of the feet with the board take place at the points $A$ and $B$ (see Fig. 2), and let the positions of the points $A$ and $B$ relative to the board not change during the exercise. The roller does not slip either on the floor or on the board. In the extreme right position the horizontal distances between the points $A$ and $B$ and the vertical line on which the axis $C$ of the roller lies are $L_1$ and $L_2$ respectively. The person rolls to the extreme left position, in which the horizontal distance between the point $A$ and $C$ becomes equal to $L_2$.\n\n1) By what horizontal distance is the centre of mass of the person displaced: relative to the board; relative to the ground?\n\n2) By what horizontal distance is the point $A$ displaced?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2019-5-2-fig1.png\n\n[Labels in the figure: «Рис. 1» = Fig. 1]\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2019-5-2-fig2.png\n\n[Labels in the figure: «Рис. 2» = Fig. 2]"
     },
     {
      "day": 5,
@@ -6837,7 +6837,7 @@
      "number": 1,
      "paper_label": "Grade 11, Round 2",
      "title": "Problem 1: As in a transformer",
-     "problem": "Problem 1: As in a transformer\n\nA coil is wound on a toroidal core of high magnetic permeability. A wire is connected to the turn in the middle of the coil, and the circuit shown in the figure on the left is assembled. The voltage at the terminals of the ideal generator varies according to a harmonic law, its amplitude does not depend on the connected load, the internal resistance is negligibly small. The ideal AC ammeters $\\mathrm{A}_1$ and $\\mathrm{A}_2$ show the currents $I_1$ and $I_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2023-2-1-fig1.png\n\nWhat does the ideal AC ammeter show in the circuit in the figure on the right, if this circuit is made of the same elements as the circuit in the figure on the left?"
+     "problem": "Problem 1: As in a transformer\n\nA coil is wound on a toroidal core of high magnetic permeability. A wire is connected to the turn in the middle of the coil, and the circuit shown in the figure on the left is assembled. The voltage at the terminals of the ideal generator varies according to a harmonic law, its amplitude does not depend on the connected load, the internal resistance is negligibly small. The ideal AC ammeters $\\mathrm{A}_1$ and $\\mathrm{A}_2$ show the currents $I_1$ and $I_2$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2023-2-1-fig1.png\n\nWhat does the ideal AC ammeter show in the circuit in the figure on the right, if this circuit is made of the same elements as the circuit in the figure on the left?"
     },
     {
      "day": 2,
@@ -7080,7 +7080,7 @@
      "number": 5,
      "paper_label": "Grade 9, Round 2",
      "title": "Problem 5: Tilt-Shift",
-     "problem": "Problem 5: Tilt-Shift\n\nThe design of a photographic tilt-shift lens allows the optical axis of the lens to be tilted and shifted relative to the line of sight (the line connecting the camera and the object being photographed). Tilting the optical axis makes it possible to obtain sharp images of extended objects whose different points are at different distances from the camera.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2024-6-5-fig1.png\n\nIn the simplified diagram shown in the figure, the converging lens $L$ represents the lens (objective). The principal optical axis of the lens $oo_1$ is deflected by an angle $\\varphi$ from the line of sight $AA_1$, which makes an angle $\\alpha$ with the horizontal. The photographed object is represented by the segment $BC$; $pp_1$ is the plane in which the light-sensitive sensor of the camera (or the film, in the case of a film camera) is located.\n\nLet the horizontal distance $AB=5\\ \\mathrm{m}$ between the camera sensor and the object, the focal length of the lens $f=50\\ \\mathrm{mm}$, and also the angle $\\alpha=\\frac{\\pi}{4}$ between the line of sight and the horizontal be known. The angle $\\varphi$ of rotation of the principal optical axis is chosen so that all points of the luminous segment $BC$ are imaged in the plane $pp_1$ of the camera sensor as sharply as possible. Find the angle $\\varphi$, assuming it is small.\n\nHint. For a small angle $\\beta$ ($|\\beta|\\ll1$) the following approximate relations hold:\n$$\\sin\\beta\\approx\\beta,\\qquad \\tan\\beta\\approx\\beta,\\qquad \\cos\\beta\\approx1.$$"
+     "problem": "Problem 5: Tilt-Shift\n\nThe design of a photographic tilt-shift lens allows the optical axis of the lens to be tilted and shifted relative to the line of sight (the line connecting the camera and the object being photographed). Tilting the optical axis makes it possible to obtain sharp images of extended objects whose different points are at different distances from the camera.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/moscow-2024-6-5-fig1.png\n\nIn the simplified diagram shown in the figure, the converging lens $L$ represents the lens (objective). The principal optical axis of the lens $oo_1$ is deflected by an angle $\\varphi$ from the line of sight $AA_1$, which makes an angle $\\alpha$ with the horizontal. The photographed object is represented by the segment $BC$; $pp_1$ is the plane in which the light-sensitive sensor of the camera (or the film, in the case of a film camera) is located.\n\nLet the horizontal distance $AB=5\\ \\mathrm{m}$ between the camera sensor and the object, the focal length of the lens $f=50\\ \\mathrm{mm}$, and also the angle $\\alpha=\\frac{\\pi}{4}$ between the line of sight and the horizontal be known. The angle $\\varphi$ of rotation of the principal optical axis is chosen so that all points of the luminous segment $BC$ are imaged in the plane $pp_1$ of the camera sensor as sharply as possible. Find the angle $\\varphi$, assuming it is small.\n\nHint. For a small angle $\\beta$ ($|\\beta|\\ll1$) the following approximate relations hold:\n$$\\sin\\beta\\approx\\beta,\\qquad \\tan\\beta\\approx\\beta,\\qquad \\cos\\beta\\approx1.$$"
     }
    ]
   },

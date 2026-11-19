@@ -1185,7 +1185,7 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261117-cards2';
+const DATA_VERSION = '20261119-nbsp';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
 const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', moscow: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe' };
@@ -1434,14 +1434,14 @@ function stmtHtml(text, p, rec = p) {
    The browser receives a short fingerprint of each reviewed statement instead of a full copy
    (see scripts/build_runtime_metadata.py). 32-bit FNV-1a over UTF-16 code units. */
 function textHash(text) {
-    const s = String(text);
+    const s = String(text).replace(/\u00a0/g, ' ');  // the public copy marks some spaces as U+00A0
     let h = 0x811c9dc5;
     for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193); }
     return (h >>> 0).toString(16).padStart(8, '0');
 }
 function sameStatement(record, text) {
     if (!record) return false;
-    if (typeof record.reviewed_statement === 'string') return record.reviewed_statement === text;
+    if (typeof record.reviewed_statement === 'string') return record.reviewed_statement === String(text).replace(/\u00a0/g, ' ');
     return typeof record.h === 'string' && record.h === textHash(text);
 }
 const TOPICS = ['Mechanics', 'Electromagnetism', 'Thermodynamics & Statistical physics', 'Optics & Waves', 'Modern physics', 'Experimental & Data analysis'];
@@ -2272,7 +2272,7 @@ const CONCEPTS = [
 ];
 function reviewedDna(p) {
     const record = problemDna.records?.[p.uid];
-    return record && record.reviewed_statement === p.text && Array.isArray(record.techniques)
+    return record && record.reviewed_statement === String(p.text).replace(/\u00a0/g, ' ') && Array.isArray(record.techniques)
         && record.techniques.every(t => problemDna.techniques?.[t])
         && Number.isInteger(record.practice_level) && record.practice_level >= 1 && record.practice_level <= 3 ? record : null;
 }

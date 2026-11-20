@@ -149,7 +149,7 @@
      "number": 7,
      "paper_label": "PAT, Mathematics for Physics",
      "title": "Question 7",
-     "problem": "Question 7\n\nThree dice are thrown, one after the other. Calculate the probability that\n\n(i) all three dice give a six;\n\n(ii) all three dice give the same number;\n\n(iii) only the third die gives a six. [3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
+     "problem": "Question 7\n\nThree dice are thrown, one after the other. Calculate the probability that\n\n(i) all three dice give a six;\n\n(ii) all three dice give the same number;\n\n(iii) only the third die gives a six. [3 marks]\n\n[Editorial note: the instructions of the Mathematics for Physics paper state that no calculators or tables may be used.]"
     },
     {
      "day": 2,
@@ -530,7 +530,7 @@
      "number": 22,
      "paper_label": "PAT",
      "title": "Question 22",
-     "problem": "Question 22\n\nWhen using Einstein’s formula $E=mc^2$ a student enters the mass $m$ in grams. If he uses a value of $c=3.0\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$ for the speed of light, what are the units of the energy $E$? [1 mark]\n\n(A) $\\mathrm{mJ}$\n\n(B) $\\mathrm{J}$\n\n(C) $\\mathrm{kJ}$\n\n(D) $\\mathrm{MJ}$"
+     "problem": "Question 22\n\nWhen using Einstein’s formula $E=mc^2$ a student enters the mass $m$ in grams. If he uses a value of $c=3.0\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$ for the speed of light, what are the units of the energy $E$? [1 mark]\n\n(A) $\\mathrm{mJ}$\n\n(B) $\\mathrm{J}$\n\n(C) $\\mathrm{kJ}$\n\n(D) $\\mathrm{MJ}$"
     },
     {
      "day": 1,
@@ -551,7 +551,7 @@
      "number": 25,
      "paper_label": "PAT",
      "title": "Question 25",
-     "problem": "Question 25\n\nA forest is inhabited by three species of macaw which are all the same shape but are different sizes and colours. The food consumption of each type is proportional to the square of its length. Given that\n\n(a) A crimson macaw and a ruby macaw put together are twice as long as a scarlet macaw\n\n(b) A crimson macaw and a scarlet macaw put together eat as much as a ruby macaw\n\n(c) 2 crimson macaws and a scarlet macaw put together are $1\\,\\mathrm{m}$ long\n\ndetermine the lengths of the three types of macaw. [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
+     "problem": "Question 25\n\nA forest is inhabited by three species of macaw which are all the same shape but are different sizes and colours. The food consumption of each type is proportional to the square of its length. Given that\n\n(a) A crimson macaw and a ruby macaw put together are twice as long as a scarlet macaw\n\n(b) A crimson macaw and a scarlet macaw put together eat as much as a ruby macaw\n\n(c) 2 crimson macaws and a scarlet macaw put together are $1\\,\\mathrm{m}$ long\n\ndetermine the lengths of the three types of macaw. [6 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures; no calculators, tables or formula sheets may be used.]"
     },
     {
      "day": 1,
@@ -1402,7 +1402,7 @@
      "number": 16,
      "paper_label": "PAT",
      "title": "Question 16",
-     "problem": "Question 16\n\nA four wheeled car, of mass $1000\\,\\mathrm{kg}$, rests on the ground. If each tyre is inflated to $2\\,\\mathrm{bar}$ (where $1\\,\\mathrm{bar}=100\\,\\mathrm{kPa}$), what area of each tyre is in contact with the ground? (Assume a uniform distribution of mass across the car.) [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures, that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used, and that no calculators, tables or formula sheets may be used.]"
+     "problem": "Question 16\n\nA four wheeled car, of mass $1000\\,\\mathrm{kg}$, rests on the ground. If each tyre is inflated to $2\\,\\mathrm{bar}$ (where $1\\,\\mathrm{bar}=100\\,\\mathrm{kPa}$), what area of each tyre is in contact with the ground? (Assume a uniform distribution of mass across the car.) [4 marks]\n\n[Editorial note: the paper's general instructions state that numeric answers in Part B should be calculated to 2 significant figures, that $g=10\\,\\mathrm{m\\,s^{-2}}$ should be used, and that no calculators, tables or formula sheets may be used.]"
     },
     {
      "day": 1,
@@ -1898,7 +1898,7 @@
      "number": 2,
      "paper_label": "PAT",
      "title": "Question 2",
-     "problem": "Question 2\n\nWhich equation has the same solutions as $2x^2-2x-12=0$? [2 marks]\n\n(A) $(x+2)(x-3)=0$\n\n(B) $2(x-2)(x+3)=0$\n\n(C) $(x-6)(x+1)=0$\n\n(D) $(x-1-2\\sqrt{10})(x-1+2\\sqrt{10})=0$\n\n(E) $(x-2-\\sqrt{10})(x-2+\\sqrt{10})=0$"
+     "problem": "Question 2\n\nWhich equation has the same solutions as $2x^2-2x-12=0$? [2 marks]\n\n(A) $(x+2)(x-3)=0$\n\n(B) $2(x-2)(x+3)=0$\n\n(C) $(x-6)(x+1)=0$\n\n(D) $(x-1-2\\sqrt{10})(x-1+2\\sqrt{10})=0$\n\n(E) $(x-2-\\sqrt{10})(x-2+\\sqrt{10})=0$"
     },
     {
      "day": 1,
@@ -2251,7 +2251,7 @@
      "number": 5,
      "paper_label": "PAT",
      "title": "Question 5",
-     "problem": "Question 5\n\nIn which range of $\\alpha$ does the following equation have real solutions? [2 marks]\n\n$$\\sec^2\\theta + \\alpha\\tan\\theta = 0$$\n\n(A) $\\alpha\\le -2$ or $\\alpha\\ge 2$\n\n(B) $\\alpha\\le -2$\n\n(C) $\\alpha\\ge 2$\n\n(D) $\\alpha\\ge -0$\n\n(E) $\\alpha\\le 0$"
+     "problem": "Question 5\n\nIn which range of $\\alpha$ does the following equation have real solutions? [2 marks]\n\n$$\\sec^2\\theta + \\alpha\\tan\\theta = 0$$\n\n(A) $\\alpha\\le -2$ or $\\alpha\\ge 2$\n\n(B) $\\alpha\\le -2$\n\n(C) $\\alpha\\ge 2$\n\n(D) $\\alpha\\ge -0$\n\n(E) $\\alpha\\le 0$"
     },
     {
      "day": 1,
@@ -2550,7 +2550,7 @@
      "number": 23,
      "paper_label": "PAT",
      "title": "Question 23",
-     "problem": "Question 23\n\nA monochromatic beam of light travels through air of refractive index $n_a$ and strikes a liquid of refractive index $n_l$ at an angle of incidence $\\theta$ as shown in the figure below. At the bottom of the tank which contains the liquid is a plane mirror at angle $\\phi$ to the horizontal. The tank can be considered infinitely long.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-23-fig1.png\n\nBeyond a certain value of $\\theta$ the light no longer leaves the tank after the first reflection in the mirror. Find the value of $\\theta$ for this case given $\\phi=10^\\circ$, $n_a=1$ and $n_l=\\frac{4}{3}$. [5 marks]"
+     "problem": "Question 23\n\nA monochromatic beam of light travels through air of refractive index $n_a$ and strikes a liquid of refractive index $n_l$ at an angle of incidence $\\theta$ as shown in the figure below. At the bottom of the tank which contains the liquid is a plane mirror at angle $\\phi$ to the horizontal. The tank can be considered infinitely long.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2020-23-fig1.png\n\nBeyond a certain value of $\\theta$ the light no longer leaves the tank after the first reflection in the mirror. Find the value of $\\theta$ for this case given $\\phi=10^\\circ$, $n_a=1$ and $n_l=\\frac{4}{3}$. [5 marks]"
     },
     {
      "day": 1,
@@ -2625,7 +2625,7 @@
      "number": 7,
      "paper_label": "PAT",
      "title": "Question 7",
-     "problem": "Question 7\n\nA light ray follows a path through three media separated by plane boundaries as shown in the diagram, with refractive indices $n_1$, $n_2$ and $n_3$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-7-fig1.png\n\nWhich of the following sequences puts the refractive indices in order of increasing value? [2 marks]\n\n(A) $n_1, n_2, n_3$\n(B) $n_2, n_1, n_3$\n(C) $n_1, n_3, n_2$\n(D) $n_3, n_1, n_2$\n(E) $n_3, n_2, n_1$"
+     "problem": "Question 7\n\nA light ray follows a path through three media separated by plane boundaries as shown in the diagram, with refractive indices $n_1$, $n_2$ and $n_3$.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/oxpat-2021-7-fig1.png\n\nWhich of the following sequences puts the refractive indices in order of increasing value? [2 marks]\n\n(A) $n_1, n_2, n_3$\n(B) $n_2, n_1, n_3$\n(C) $n_1, n_3, n_2$\n(D) $n_3, n_1, n_2$\n(E) $n_3, n_2, n_1$"
     },
     {
      "day": 1,
@@ -2784,7 +2784,7 @@
      "number": 5,
      "paper_label": "PAT",
      "title": "Question 5",
-     "problem": "Question 5\n\nAn asteroid of mass $10^3\\,\\mathrm{kg}$ is moving towards a space station at $1\\,\\mathrm{m\\,s^{-1}}$. It is proposed to stop it by firing a $1\\,\\mathrm{MW}$ laser at it. For how long must the laser be fired? You may assume that the surface of the asteroid is perfectly reflective, all photons are incident perpendicular to the surface of the asteroid, and a photon's momentum is related to its energy by $p=\\frac{E}{c}$, where $c=3\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$ is the speed of light. [2 marks]\n\n(A) $3\\times10^{-3}\\,\\mathrm{s}$\n(B) $7.5\\times10^{4}\\,\\mathrm{s}$\n(C) $1.5\\times10^{5}\\,\\mathrm{s}$\n(D) $3\\times10^{5}\\,\\mathrm{s}$\n(E) $3\\times10^{11}\\,\\mathrm{s}$"
+     "problem": "Question 5\n\nAn asteroid of mass $10^3\\,\\mathrm{kg}$ is moving towards a space station at $1\\,\\mathrm{m\\,s^{-1}}$. It is proposed to stop it by firing a $1\\,\\mathrm{MW}$ laser at it. For how long must the laser be fired? You may assume that the surface of the asteroid is perfectly reflective, all photons are incident perpendicular to the surface of the asteroid, and a photon's momentum is related to its energy by $p=\\frac{E}{c}$, where $c=3\\times10^{8}\\,\\mathrm{m\\,s^{-1}}$ is the speed of light. [2 marks]\n\n(A) $3\\times10^{-3}\\,\\mathrm{s}$\n(B) $7.5\\times10^{4}\\,\\mathrm{s}$\n(C) $1.5\\times10^{5}\\,\\mathrm{s}$\n(D) $3\\times10^{5}\\,\\mathrm{s}$\n(E) $3\\times10^{11}\\,\\mathrm{s}$"
     },
     {
      "day": 1,

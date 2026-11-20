@@ -72,7 +72,7 @@
      "number": 10,
      "paper_label": "Part A",
      "title": "Question 10",
-     "problem": "Question 10\n\nTwo atoms interact with each other according to the following force $F$, and potential, $V$ diagrams. What is their equilibrium separation?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-10-fig1.png\n\n(a) The separation $u$ which is equal to $y$\n\n(b) The separation $u$ which is equal to $z$\n\n(c) The separation $w$ which is equal to $y$\n\n(d) The separation $w$ which is equal to $z$"
+     "problem": "Question 10\n\nTwo atoms interact with each other according to the following force $F$, and potential, $V$ diagrams. What is their equilibrium separation?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-1994-1-10-fig1.png\n\n(a) The separation $u$ which is equal to $y$\n\n(b) The separation $u$ which is equal to $z$\n\n(c) The separation $w$ which is equal to $y$\n\n(d) The separation $w$ which is equal to $z$"
     },
     {
      "day": 1,
@@ -350,7 +350,7 @@
      "number": 1,
      "paper_label": "Part B",
      "title": "Question 1",
-     "problem": "Question 1\n\nPhysicists at UBC do microgravity experiments on board a NASA KC-135 (Boeing 707). The KC-135 flies parabolic flight paths to follow as closely as possible the trajectory and speed of a free-falling body. Once the plane is on the parabolic flight path (both ascending and descending), its engines are only used to overcome air resistance. The aircraft is known, with some justification, as the \"Vomit Comet\". The KC-135 cannot fly at a speed of less than $300\\,\\mathrm{km/hr}$ (as it has to be under control at all times) or more than $500\\,\\mathrm{km/hr}$ (or the $g$-forces in recovery will be too great).\n\n(a) While the plane is executing its parabolic trajectory at an altitude of $10{,}000\\,\\mathrm{m}$, a physicist of mass $m=65\\,\\mathrm{kg}$ demonstrates her \"weightlessness\" by floating freely in the large open cargo bay. Draw a force diagram for the physicist showing all forces acting on her body. Find the force of gravity acting on the physicist and find her net acceleration. Explain in your own words, and referring to your preceding calculations, why people call this experience \"weightlessness\".\n\n(b) At what angle to the horizontal should the KC-135 enter its parabolic path?\n\n(c) How much time do the physicists get under \"weightless\" conditions?\n\n(d) While an aircraft is in level flight and travelling at constant velocity, passengers on board are said to experience a 1-$g$ \"force\" downwards and can walk around the cabin normally. Sketch the trajectory of the path the aircraft would have to follow so that it could execute a 1-$g$ vertical loop. In this situation, the aircraft must execute a full vertical loop while at all times allowing the passengers to experience only a 1-$g$ \"force\" towards the floor of the cabin. All on board would be able to walk around normally at all times. What is the acceleration of the aircraft, in units of $g$, when it is at the top, and bottom of the loop? What is the acceleration of the aircraft, in units of $g$, when it is headed vertically upwards and downwards?\n\n[Data from the paper: $R_E=6380\\,\\mathrm{km}$, $M_E=5.98\\times10^{24}\\,\\mathrm{kg}$, $G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2/kg^2}$, $g=9.81\\,\\mathrm{m/s^2}$.]"
+     "problem": "Question 1\n\nPhysicists at UBC do microgravity experiments on board a NASA KC-135 (Boeing 707). The KC-135 flies parabolic flight paths to follow as closely as possible the trajectory and speed of a free-falling body. Once the plane is on the parabolic flight path (both ascending and descending), its engines are only used to overcome air resistance. The aircraft is known, with some justification, as the \"Vomit Comet\". The KC-135 cannot fly at a speed of less than $300\\,\\mathrm{km/hr}$ (as it has to be under control at all times) or more than $500\\,\\mathrm{km/hr}$ (or the $g$-forces in recovery will be too great).\n\n(a) While the plane is executing its parabolic trajectory at an altitude of $10{,}000\\,\\mathrm{m}$, a physicist of mass $m=65\\,\\mathrm{kg}$ demonstrates her \"weightlessness\" by floating freely in the large open cargo bay. Draw a force diagram for the physicist showing all forces acting on her body. Find the force of gravity acting on the physicist and find her net acceleration. Explain in your own words, and referring to your preceding calculations, why people call this experience \"weightlessness\".\n\n(b) At what angle to the horizontal should the KC-135 enter its parabolic path?\n\n(c) How much time do the physicists get under \"weightless\" conditions?\n\n(d) While an aircraft is in level flight and travelling at constant velocity, passengers on board are said to experience a 1-$g$ \"force\" downwards and can walk around the cabin normally. Sketch the trajectory of the path the aircraft would have to follow so that it could execute a 1-$g$ vertical loop. In this situation, the aircraft must execute a full vertical loop while at all times allowing the passengers to experience only a 1-$g$ \"force\" towards the floor of the cabin. All on board would be able to walk around normally at all times. What is the acceleration of the aircraft, in units of $g$, when it is at the top, and bottom of the loop? What is the acceleration of the aircraft, in units of $g$, when it is headed vertically upwards and downwards?\n\n[Data from the paper: $R_E=6380\\,\\mathrm{km}$, $M_E=5.98\\times10^{24}\\,\\mathrm{kg}$, $G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2/kg^2}$, $g=9.81\\,\\mathrm{m/s^2}$.]"
     },
     {
      "day": 2,
@@ -390,7 +390,7 @@
      "number": 3,
      "paper_label": "Part A",
      "title": "Question 3",
-     "problem": "Question 3\n\nA loudspeaker is placed over the open end of a pipe. By changing the frequency of the sound from the speaker, it is found that the pipe has resonances at $700\\,\\mathrm{Hz}$ and $900\\,\\mathrm{Hz}$ but not $800\\,\\mathrm{Hz}$. This means that:\n\n(a) The pipe is closed at one end and the fundamental is $100\\,\\mathrm{Hz}$.\n\n(b) The pipe is closed at one end and the fundamental is $200\\,\\mathrm{Hz}$.\n\n(c) The pipe is open at both ends and the fundamental is $100\\,\\mathrm{Hz}$.\n\n(d) The pipe is open at both ends and the fundamental is $200\\,\\mathrm{Hz}$."
+     "problem": "Question 3\n\nA loudspeaker is placed over the open end of a pipe. By changing the frequency of the sound from the speaker, it is found that the pipe has resonances at $700\\,\\mathrm{Hz}$ and $900\\,\\mathrm{Hz}$ but not $800\\,\\mathrm{Hz}$. This means that:\n\n(a) The pipe is closed at one end and the fundamental is $100\\,\\mathrm{Hz}$.\n\n(b) The pipe is closed at one end and the fundamental is $200\\,\\mathrm{Hz}$.\n\n(c) The pipe is open at both ends and the fundamental is $100\\,\\mathrm{Hz}$.\n\n(d) The pipe is open at both ends and the fundamental is $200\\,\\mathrm{Hz}$."
     },
     {
      "day": 1,
@@ -759,7 +759,7 @@
      "number": 2,
      "paper_label": "Part B",
      "title": "Question 2",
-     "problem": "Question 2\n\nA solid metal sphere of radius $2\\,\\mathrm{cm}$ carries a net negative charge $-Q$. The air around the sphere will hence be subjected to an electric field. If an electric field in excess of $3.0\\times10^{6}\\,\\mathrm{V/m}$ is applied across an \"air molecule\", the molecule will ionize. This will appear as sparking and is called \"break down\". You may assume spherical symmetry in this problem (although in actuality, sparking will break this symmetry).\n\n(a) Sketch the electric field lines within and around the charged sphere and show on your diagram how the excess charge on the sphere is distributed.\n\n(b) What is the minimum charge that the sphere must have to cause the break down of air near its surface?\n\n(c) It requires about $1.6\\times10^{-18}\\,\\mathrm{J}$ of energy to ionize an air molecule. Consider a free electron near the surface of the sphere carrying this minimum charge as in part (b). What radial distance must the electron travel before attaining a kinetic energy equal to the ionization energy for an air molecule? An electron typically travels only $1.0\\times10^{-6}\\,\\mathrm{m}$ before colliding with an air molecule. Is it possible for our accelerated electron to cause ionization of air molecules away from the surface of the sphere?\n\n(d) What is the potential (in units of V) on the surface of the sphere when break down just occurs?\n\n[Paper data: $1/4\\pi\\epsilon_o=8.99\\times10^{9}\\,\\mathrm{Nm^2/C^2}$; $e=1.60\\times10^{-19}\\,\\mathrm{C}$.]"
+     "problem": "Question 2\n\nA solid metal sphere of radius $2\\,\\mathrm{cm}$ carries a net negative charge $-Q$. The air around the sphere will hence be subjected to an electric field. If an electric field in excess of $3.0\\times10^{6}\\,\\mathrm{V/m}$ is applied across an \"air molecule\", the molecule will ionize. This will appear as sparking and is called \"break down\". You may assume spherical symmetry in this problem (although in actuality, sparking will break this symmetry).\n\n(a) Sketch the electric field lines within and around the charged sphere and show on your diagram how the excess charge on the sphere is distributed.\n\n(b) What is the minimum charge that the sphere must have to cause the break down of air near its surface?\n\n(c) It requires about $1.6\\times10^{-18}\\,\\mathrm{J}$ of energy to ionize an air molecule. Consider a free electron near the surface of the sphere carrying this minimum charge as in part (b). What radial distance must the electron travel before attaining a kinetic energy equal to the ionization energy for an air molecule? An electron typically travels only $1.0\\times10^{-6}\\,\\mathrm{m}$ before colliding with an air molecule. Is it possible for our accelerated electron to cause ionization of air molecules away from the surface of the sphere?\n\n(d) What is the potential (in units of V) on the surface of the sphere when break down just occurs?\n\n[Paper data: $1/4\\pi\\epsilon_o=8.99\\times10^{9}\\,\\mathrm{Nm^2/C^2}$; $e=1.60\\times10^{-19}\\,\\mathrm{C}$.]"
     },
     {
      "day": 2,
@@ -1306,7 +1306,7 @@
      "number": 19,
      "paper_label": "Part A",
      "title": "Question 19",
-     "problem": "Question 19\n\nWhich of the following statements is false?\n\n(a) The momentum of a heavy object is greater than that of a light object moving at the same speed.\n\n(b) In a perfectly inelastic collision, all the initial kinetic energy of the colliding bodies is dissipated.\n\n(c) The momentum of a system of colliding bodies may be conserved even though the total mechanical energy may not.\n\n(d) The velocity of the center of mass of a system is the system's total momentum divided by its total mass."
+     "problem": "Question 19\n\nWhich of the following statements is false?\n\n(a) The momentum of a heavy object is greater than that of a light object moving at the same speed.\n\n(b) In a perfectly inelastic collision, all the initial kinetic energy of the colliding bodies is dissipated.\n\n(c) The momentum of a system of colliding bodies may be conserved even though the total mechanical energy may not.\n\n(d) The velocity of the center of mass of a system is the system's total momentum divided by its total mass."
     },
     {
      "day": 1,
@@ -1409,7 +1409,7 @@
      "number": 5,
      "paper_label": "Part A",
      "title": "Question 5",
-     "problem": "Question 5\n\nThe figure shows the path of a ray of light as it passes through three different materials with refractive indices $n_1$, $n_2$ and $n_3$. The figure is drawn to scale. What can we conclude concerning the indices of these three materials?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-5-fig1.png\n\n(a) $n_3<n_2<n_1$.\n\n(b) $n_3<n_1<n_2$.\n\n(c) $n_2<n_1<n_3$.\n\n(d) $n_1<n_3<n_2$."
+     "problem": "Question 5\n\nThe figure shows the path of a ray of light as it passes through three different materials with refractive indices $n_1$, $n_2$ and $n_3$. The figure is drawn to scale. What can we conclude concerning the indices of these three materials?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2001-1-5-fig1.png\n\n(a) $n_3<n_2<n_1$.\n\n(b) $n_3<n_1<n_2$.\n\n(c) $n_2<n_1<n_3$.\n\n(d) $n_1<n_3<n_2$."
     },
     {
      "day": 1,
@@ -1743,7 +1743,7 @@
      "number": 24,
      "paper_label": "Part A",
      "title": "Question 24",
-     "problem": "Question 24\n\nA jet-fighter pilot, wishing to experience weightlessness conditions, enters a parabolic trajectory closely approximating that of a projectile in free-fall. His aircraft must fly at a minimum speed of $400\\,\\mathrm{km/hr}$ to keep control, and he should not exceed $600\\,\\mathrm{km/hr}$ so as not to suffer a black-out when he pulls out of the trajectory at the end. There is no wind and air resistance can be compensated by the engine. In order to be weightless as long as possible, he should enter the parabola at an upward angle (with respect to the horizontal ground) of\n\n(a) $33.7^\\circ$.\n\n(b) $41.8^\\circ$.\n\n(c) $56.3^\\circ$.\n\n(d) $48.2^\\circ$."
+     "problem": "Question 24\n\nA jet-fighter pilot, wishing to experience weightlessness conditions, enters a parabolic trajectory closely approximating that of a projectile in free-fall. His aircraft must fly at a minimum speed of $400\\,\\mathrm{km/hr}$ to keep control, and he should not exceed $600\\,\\mathrm{km/hr}$ so as not to suffer a black-out when he pulls out of the trajectory at the end. There is no wind and air resistance can be compensated by the engine. In order to be weightless as long as possible, he should enter the parabola at an upward angle (with respect to the horizontal ground) of\n\n(a) $33.7^\\circ$.\n\n(b) $41.8^\\circ$.\n\n(c) $56.3^\\circ$.\n\n(d) $48.2^\\circ$."
     },
     {
      "day": 1,
@@ -2152,7 +2152,7 @@
      "number": 25,
      "paper_label": "Part A",
      "title": "Question 25",
-     "problem": "Question 25\n\nAn ice cube of pure fresh water floats on pure fresh water in a glass. A huge ice shelf, also of pure fresh water, floats on the ocean away from Antarctica. Neglecting the contribution due to the density of air, as the ice cube and the iceberg melt,\n\n(a) the water level rises both in the glass and in the ocean;\n\n(b) the water level does not change in either case;\n\n(c) the water level stays the same in the glass but rises in the ocean;\n\n(d) the water level decreases in the glass but stays the same in the ocean."
+     "problem": "Question 25\n\nAn ice cube of pure fresh water floats on pure fresh water in a glass. A huge ice shelf, also of pure fresh water, floats on the ocean away from Antarctica. Neglecting the contribution due to the density of air, as the ice cube and the iceberg melt,\n\n(a) the water level rises both in the glass and in the ocean;\n\n(b) the water level does not change in either case;\n\n(c) the water level stays the same in the glass but rises in the ocean;\n\n(d) the water level decreases in the glass but stays the same in the ocean."
     },
     {
      "day": 2,
@@ -2192,7 +2192,7 @@
      "number": 2,
      "paper_label": "Part A",
      "title": "Question 2",
-     "problem": "Question 2\n\nA physics textbook of mass $m$ rests flat on a horizontal table of mass $M$ placed on the ground. Let $\\boldsymbol{N}_{\\mathrm{a}\\to\\mathrm{b}}$ be the contact force exerted $\\textit{by}$ body \"a\" $\\textit{on}$ body \"b\". According to Newton's 3rd Law, which of the following is an action-reaction pair of forces?\n\n(a) $m\\boldsymbol{g}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{book}}$;\n\n(b) $(m+M)\\boldsymbol{g}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{book}}$;\n\n(c) $\\boldsymbol{N}_{\\mathrm{ground}\\to\\mathrm{table}}$ and $M\\boldsymbol{g} + \\boldsymbol{N}_{\\mathrm{book}\\to\\mathrm{table}}$;\n\n(d) $\\boldsymbol{N}_{\\mathrm{ground}\\to\\mathrm{table}}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{ground}}$."
+     "problem": "Question 2\n\nA physics textbook of mass $m$ rests flat on a horizontal table of mass $M$ placed on the ground. Let $\\boldsymbol{N}_{\\mathrm{a}\\to\\mathrm{b}}$ be the contact force exerted $\\textit{by}$ body \"a\" $\\textit{on}$ body \"b\". According to Newton's 3rd Law, which of the following is an action-reaction pair of forces?\n\n(a) $m\\boldsymbol{g}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{book}}$;\n\n(b) $(m+M)\\boldsymbol{g}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{book}}$;\n\n(c) $\\boldsymbol{N}_{\\mathrm{ground}\\to\\mathrm{table}}$ and $M\\boldsymbol{g} + \\boldsymbol{N}_{\\mathrm{book}\\to\\mathrm{table}}$;\n\n(d) $\\boldsymbol{N}_{\\mathrm{ground}\\to\\mathrm{table}}$ and $\\boldsymbol{N}_{\\mathrm{table}\\to\\mathrm{ground}}$."
     },
     {
      "day": 1,
@@ -2484,7 +2484,7 @@
      "number": 15,
      "paper_label": "Part A",
      "title": "Question 15",
-     "problem": "Question 15\n\nA light ray strikes a prism as shown in the drawing. The angles of the prism are $90^\\circ$, $45^\\circ$, and $45^\\circ$. The critical angle of the prism material is $49^\\circ$. What rays are the possible continuations of the incident ray?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-15-fig1.png\n\n(a) The ray 1 only.\n\n(b) The ray 2 only.\n\n(c) The ray 3 only.\n\n(d) Both rays 1 and 3.\n\n(e) Both rays 2 and 3."
+     "problem": "Question 15\n\nA light ray strikes a prism as shown in the drawing. The angles of the prism are $90^\\circ$, $45^\\circ$, and $45^\\circ$. The critical angle of the prism material is $49^\\circ$. What rays are the possible continuations of the incident ray?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2006-1-15-fig1.png\n\n(a) The ray 1 only.\n\n(b) The ray 2 only.\n\n(c) The ray 3 only.\n\n(d) Both rays 1 and 3.\n\n(e) Both rays 2 and 3."
     },
     {
      "day": 1,
@@ -2533,7 +2533,7 @@
      "number": 2,
      "paper_label": "Part B",
      "title": "Question 22",
-     "problem": "Question 22\n\nA long vertical tube with a weightless movable piston inside has its lower end under water. The tube is motionless throughout the experiment. The cross-sectional area of the piston is $A$. The initial position of the piston is just over the surface of the water. Then it is slowly moved upwards. Sketch a graph of the force necessary to lift the piston as a function of the height of the piston."
+     "problem": "Question 22\n\nA long vertical tube with a weightless movable piston inside has its lower end under water. The tube is motionless throughout the experiment. The cross-sectional area of the piston is $A$. The initial position of the piston is just over the surface of the water. Then it is slowly moved upwards. Sketch a graph of the force necessary to lift the piston as a function of the height of the piston."
     },
     {
      "day": 2,
@@ -3510,7 +3510,7 @@
      "number": 23,
      "paper_label": "Part A",
      "title": "Question 23",
-     "problem": "Question 23\n\nRank in order, from brightest to dimmest, the identical bulbs A to D.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-23-fig1.png\n\na) $A=B=C=D$.\n\nb) $A=B>C=D$.\n\nc) $A>C>B>D$.\n\nd) $A>C=D>B$.\n\ne) $C=D>B=A$."
+     "problem": "Question 23\n\nRank in order, from brightest to dimmest, the identical bulbs A to D.\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2011-1-23-fig1.png\n\na) $A=B=C=D$.\n\nb) $A=B>C=D$.\n\nc) $A>C>B>D$.\n\nd) $A>C=D>B$.\n\ne) $C=D>B=A$."
     },
     {
      "day": 2,
@@ -4244,7 +4244,7 @@
      "number": 15,
      "paper_label": "Part A",
      "title": "Question 15",
-     "problem": "Question 15\n\nThree identical closed containers are filled with gases at the same temperature. Container A is filled with 64 g of oxygen, container B is filled with 84 g of nitrogen, and container C is filled with 8 g of hydrogen. Which is the correct ranking of the pressures in the containers?\n\na) $P_A > P_B > P_C$\n\nb) $P_A > P_C > P_B$\n\nc) $P_A < P_C < P_B$\n\nd) $P_A < P_B < P_C$\n\ne) $P_A = P_B > P_C$"
+     "problem": "Question 15\n\nThree identical closed containers are filled with gases at the same temperature. Container A is filled with 64 g of oxygen, container B is filled with 84 g of nitrogen, and container C is filled with 8 g of hydrogen. Which is the correct ranking of the pressures in the containers?\n\na) $P_A > P_B > P_C$\n\nb) $P_A > P_C > P_B$\n\nc) $P_A < P_C < P_B$\n\nd) $P_A < P_B < P_C$\n\ne) $P_A = P_B > P_C$"
     },
     {
      "day": 1,
@@ -4875,7 +4875,7 @@
      "number": 20,
      "paper_label": "Section A",
      "title": "Question 20",
-     "problem": "Question 20\n\nYou want to launch a projectile from a cannon into deep space from the Moon, and are able to launch at different angles with respect to the ground. At what angle would you need the lowest velocity to make the projectile escape Moon's gravity? (Neglect the rotational speed of the moon.)\n\na) $\\theta = 0^\\circ$\n\nb) $\\theta = 45^\\circ$\n\nc) $\\theta = 60^\\circ$\n\nd) $\\theta = 90^\\circ$\n\ne) Minimum velocity does not depend on $\\theta$"
+     "problem": "Question 20\n\nYou want to launch a projectile from a cannon into deep space from the Moon, and are able to launch at different angles with respect to the ground. At what angle would you need the lowest velocity to make the projectile escape Moon's gravity? (Neglect the rotational speed of the moon.)\n\na) $\\theta = 0^\\circ$\n\nb) $\\theta = 45^\\circ$\n\nc) $\\theta = 60^\\circ$\n\nd) $\\theta = 90^\\circ$\n\ne) Minimum velocity does not depend on $\\theta$"
     },
     {
      "day": 1,
@@ -5373,7 +5373,7 @@
      "number": 4,
      "paper_label": "Section A",
      "title": "Question 4",
-     "problem": "Question 4\n\nA very smart bird is sitting on a roof holding a shell in its beak. It wants to throw the shell so that it hits the ground with the highest speed possible. Assuming air resistance is negligible, and initial speed is constant in all scenarios ($v_A = v_B = v_c$), how should the bird throw the shell so that its final speed before hitting the ground is greatest?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2023-1-4-fig1.png\n\na) Throw it upwards ($v_A$)\n\nb) Throw it horizontally ($v_B$)\n\nc) Throw it downwards ($v_C$)\n\nd) A and C produce a faster final speed than B\n\ne) A, B, and C all produce the same final speed"
+     "problem": "Question 4\n\nA very smart bird is sitting on a roof holding a shell in its beak. It wants to throw the shell so that it hits the ground with the highest speed possible. Assuming air resistance is negligible, and initial speed is constant in all scenarios ($v_A = v_B = v_c$), how should the bird throw the shell so that its final speed before hitting the ground is greatest?\n\nhttps://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/images/cap-2023-1-4-fig1.png\n\na) Throw it upwards ($v_A$)\n\nb) Throw it horizontally ($v_B$)\n\nc) Throw it downwards ($v_C$)\n\nd) A and C produce a faster final speed than B\n\ne) A, B, and C all produce the same final speed"
     },
     {
      "day": 1,
@@ -5553,7 +5553,7 @@
      "number": 1,
      "paper_label": "Section A",
      "title": "Question 1",
-     "problem": "Question 1\n\nBlack holes have a very strong gravitational field from which nothing can escape, including light. Approximately, what is the radius of a black hole having mass equal to the sun?\n\nHint: Use Newtonian mechanics.\n\nA. $1.5\\,\\mathrm{km}$.\n\nB. $3\\,\\mathrm{km}$.\n\nC. $15\\,\\mathrm{km}$.\n\nD. $30\\,\\mathrm{km}$.\n\nE. The mass is too small to be a black hole."
+     "problem": "Question 1\n\nBlack holes have a very strong gravitational field from which nothing can escape, including light. Approximately, what is the radius of a black hole having mass equal to the sun?\n\nHint: Use Newtonian mechanics.\n\nA. $1.5\\,\\mathrm{km}$.\n\nB. $3\\,\\mathrm{km}$.\n\nC. $15\\,\\mathrm{km}$.\n\nD. $30\\,\\mathrm{km}$.\n\nE. The mass is too small to be a black hole."
     },
     {
      "day": 1,
@@ -6018,7 +6018,7 @@
      "number": 10,
      "paper_label": "Section A",
      "title": "Question 10",
-     "problem": "Question 10\n\nThe oven is at a temperature of $215^\\circ C$. You can put your hand inside the oven without an injury as long as you don’t touch anything. This is because\n\n(A) The temperature of the air inside the oven is much lower than $215^\\circ C$.\n\n(B) Thermal energy of the air inside the oven is much less than the thermal energy of the oven walls.\n\n(C) The air has very low heat conductivity.\n\n(D) Convection currents inside the oven move heat away from your hand instead of toward it."
+     "problem": "Question 10\n\nThe oven is at a temperature of $215^\\circ C$. You can put your hand inside the oven without an injury as long as you don’t touch anything. This is because\n\n(A) The temperature of the air inside the oven is much lower than $215^\\circ C$.\n\n(B) Thermal energy of the air inside the oven is much less than the thermal energy of the oven walls.\n\n(C) The air has very low heat conductivity.\n\n(D) Convection currents inside the oven move heat away from your hand instead of toward it."
     },
     {
      "day": 1,

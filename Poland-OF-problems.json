@@ -27,8 +27,8 @@
      "number": 3,
      "paper_label": "Final (theory)",
      "title": "Rotating steel rod: rotation rate at rupture and motion of the pieces",
-     "problem": "Problem 3\n\nA uniform steel rod of length $2a=1\\ \\mathrm{m}$ rotates about a vertical axis passing through its midpoint and perpendicular to its length. Knowing that steel ruptures at a stress $\\sigma=1.95\\cdot10^{10}\\ \\mathrm{dyn/cm^2}$ and knowing its density $\\delta=7.8\\ \\mathrm{g/cm^3}$, determine the number $n$ of revolutions per second at which the rod will rupture. Into which pieces will the rod break, and what is their subsequent motion?",
-     "problem_orig": "Zadanie 3\n\nJednorodny pręt stalowy o długości $2a=1\\ \\mathrm{m}$ wiruje dokoła osi pionowej przechodzącej przez jego środek i prostopadłej do jego długości. Wiedząc, że stal ulega zerwaniu przy naprężeniu $\\sigma=1{,}95\\cdot10^{10}\\ \\mathrm{dyn/cm^2}$, znając jej gęstość $\\delta=7{,}8\\ \\mathrm{g/cm^3}$, wyznaczyć liczbę $n$ obrotów na sekundę, przy której pręt ulegnie zerwaniu. Na jakie części rozerwie się pręt i jaki jest ich dalszy ruch?",
+     "problem": "Problem 3\n\nA uniform steel rod of length $2a=1\\ \\mathrm{m}$ rotates about a vertical axis passing through its midpoint and perpendicular to its length. Knowing that steel ruptures at a stress $\\sigma=1.95\\cdot10^{10}\\ \\mathrm{dyn/cm^2}$ and knowing its density $\\delta=7.8\\ \\mathrm{g/cm^3}$, determine the number $n$ of revolutions per second at which the rod will rupture. Into which pieces will the rod break, and what is their subsequent motion?",
+     "problem_orig": "Zadanie 3\n\nJednorodny pręt stalowy o długości $2a=1\\ \\mathrm{m}$ wiruje dokoła osi pionowej przechodzącej przez jego środek i prostopadłej do jego długości. Wiedząc, że stal ulega zerwaniu przy naprężeniu $\\sigma=1{,}95\\cdot10^{10}\\ \\mathrm{dyn/cm^2}$, znając jej gęstość $\\delta=7{,}8\\ \\mathrm{g/cm^3}$, wyznaczyć liczbę $n$ obrotów na sekundę, przy której pręt ulegnie zerwaniu. Na jakie części rozerwie się pręt i jaki jest ich dalszy ruch?",
      "orig_lang": "pl"
     },
     {

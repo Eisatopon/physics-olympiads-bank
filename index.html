@@ -8,13 +8,13 @@
 <meta name="theme-color" content="#241452">
 <link rel="icon" type="image/png" href="assets/eisatopon-logo.png">
 <link rel="apple-touch-icon" href="assets/eisatopon-logo.png">
-<link rel="canonical" href="https://archimedes.eisatopon.gr/">
+<link rel="canonical" href="https://eisatopon.github.io/physics-olympiads-bank/">
 <!-- Link previews (Facebook, X, LinkedIn, Reddit, Viber, WhatsApp) -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="eisatopon.gr">
 <meta property="og:title" content="Archimedes – World Physics Olympiads Bank">
 <meta property="og:description" content="Physics olympiad problems from IPhO and other physics olympiads, in English with LaTeX, with figures and data tables. Statements only. Free, searchable, printable.">
-<meta property="og:url" content="https://archimedes.eisatopon.gr/">
+<meta property="og:url" content="https://eisatopon.github.io/physics-olympiads-bank/">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Archimedes – World Physics Olympiads Bank">
 <meta name="twitter:description" content="Physics olympiad problems (IPhO and more), in English with LaTeX. Statements only. Free, searchable, printable.">
@@ -63,6 +63,35 @@
     --sans: 'Public Sans', system-ui, 'Segoe UI', Roboto, sans-serif;
 
     /* Country -> colour */
+    /* physics rows (oibf, izho below) */
+    --plancks: #6a3fb5; --plancks-ink: #45297a; --plancks-tint: #efe9f8;
+    --greece: #1f5fbf; --greece-ink: #163f82; --greece-tint: #e6eefb;
+    --bphor2: #ad1457; --bphor2-ink: #780e3c; --bphor2-tint: #fbe4ee;
+    --cpho: #c62828; --cpho-ink: #8f1c1c; --cpho-tint: #fbe3e3;
+    --eefo: #0072ce; --eefo-ink: #004a87; --eefo-tint: #e3f0fb;
+    --germany: #424242; --germany-ink: #212121; --germany-tint: #eeeeee;
+    --jpho: #8e24aa; --jpho-ink: #4a148c; --jpho-tint: #f3e5f5;
+    --nlnno: #e65100; --nlnno-ink: #a33a00; --nlnno-tint: #fff0e0;
+    --poland: #c2185b; --poland-ink: #880e4f; --poland-tint: #fce4ec;
+    --roonf: #c79100; --roonf-ink: #6d4c00; --roonf-tint: #fff8e1;
+    --skfo: #0b6aa8; --skfo-ink: #074a75; --skfo-tint: #e2f0f9;
+    --czech: #3949ab; --czech-ink: #1f2a6b; --czech-tint: #e9ebf8;
+    --oxpat: #002147; --oxpat-ink: #001a38; --oxpat-tint: #e3e9f1;
+    --grpan: #0d5eaf; --grpan-ink: #083f78; --grpan-tint: #e7f0fa;
+    --cypan: #bc761a; --cypan-ink: #7a4b0d; --cypan-tint: #fcf2e3;
+    --jeep: #00838f; --jeep-ink: #005662; --jeep-tint: #e0f4f5;
+    --inpho: #ef6c00; --inpho-ink: #a84300; --inpho-tint: #fff0e0;
+    --russia: #1565c0; --russia-ink: #0d47a1; --russia-tint: #e3f2fd;
+    --moscow: #a3262a; --moscow-ink: #741a1d; --moscow-tint: #fbeaea;
+    --aso: #0a7d6e; --aso-ink: #055046; --aso-tint: #dff3ef;
+    --cap: #d84315; --cap-ink: #9a2f0e; --cap-tint: #fde9e2;
+    --usapho: #5b3fa0; --usapho-ink: #3f2b70; --usapho-tint: #ece6f7;
+    --apho: #2e7d32; --apho-ink: #1f5723; --apho-tint: #e3f2e4;
+    --nbpho: #4891d9; --nbpho-ink: #2b5e94; --nbpho-tint: #e6f0fb;
+    --eupho: #283593; --eupho-ink: #1a237e; --eupho-tint: #e8eaf6;
+    --opho: #75449a; --opho-ink: #502573; --opho-tint: #f1e9f7;
+    --pcup: #00695c; --pcup-ink: #004d40; --pcup-tint: #e0f2f1;
+    --ipho: #0e7490; --ipho-ink: #0a5266; --ipho-tint: #e0f2f7;
     --gr: #1f5fbf; --gr-ink: #163f82; --gr-tint: #e6eefb;
     --ar: #0b8fae; --ar-ink: #0a5b70; --ar-tint: #e0f4f8;
     --cn: #c62828; --cn-ink: #8f1c1c; --cn-tint: #fbe3e3;
@@ -286,6 +315,34 @@
     --itf: #047857; --itf-ink: #03543c; --itf-tint: #dcf3ea;
 }
 .problem, .ex-item { --f: var(--ink); }  /* default row colour: the physics rows have no own palette */
+.f-plancks { --f: var(--plancks); --f-ink: var(--plancks-ink); --f-tint: var(--plancks-tint); }
+.f-greece { --f: var(--greece); --f-ink: var(--greece-ink); --f-tint: var(--greece-tint); }
+.f-bphor2 { --f: var(--bphor2); --f-ink: var(--bphor2-ink); --f-tint: var(--bphor2-tint); }
+.f-cpho { --f: var(--cpho); --f-ink: var(--cpho-ink); --f-tint: var(--cpho-tint); }
+.f-eefo { --f: var(--eefo); --f-ink: var(--eefo-ink); --f-tint: var(--eefo-tint); }
+.f-germany { --f: var(--germany); --f-ink: var(--germany-ink); --f-tint: var(--germany-tint); }
+.f-jpho { --f: var(--jpho); --f-ink: var(--jpho-ink); --f-tint: var(--jpho-tint); }
+.f-nlnno { --f: var(--nlnno); --f-ink: var(--nlnno-ink); --f-tint: var(--nlnno-tint); }
+.f-poland { --f: var(--poland); --f-ink: var(--poland-ink); --f-tint: var(--poland-tint); }
+.f-roonf { --f: var(--roonf); --f-ink: var(--roonf-ink); --f-tint: var(--roonf-tint); }
+.f-skfo { --f: var(--skfo); --f-ink: var(--skfo-ink); --f-tint: var(--skfo-tint); }
+.f-czech { --f: var(--czech); --f-ink: var(--czech-ink); --f-tint: var(--czech-tint); }
+.f-oxpat { --f: var(--oxpat); --f-ink: var(--oxpat-ink); --f-tint: var(--oxpat-tint); }
+.f-grpan { --f: var(--grpan); --f-ink: var(--grpan-ink); --f-tint: var(--grpan-tint); }
+.f-cypan { --f: var(--cypan); --f-ink: var(--cypan-ink); --f-tint: var(--cypan-tint); }
+.f-jeep { --f: var(--jeep); --f-ink: var(--jeep-ink); --f-tint: var(--jeep-tint); }
+.f-inpho { --f: var(--inpho); --f-ink: var(--inpho-ink); --f-tint: var(--inpho-tint); }
+.f-russia { --f: var(--russia); --f-ink: var(--russia-ink); --f-tint: var(--russia-tint); }
+.f-moscow { --f: var(--moscow); --f-ink: var(--moscow-ink); --f-tint: var(--moscow-tint); }
+.f-aso { --f: var(--aso); --f-ink: var(--aso-ink); --f-tint: var(--aso-tint); }
+.f-cap { --f: var(--cap); --f-ink: var(--cap-ink); --f-tint: var(--cap-tint); }
+.f-usapho { --f: var(--usapho); --f-ink: var(--usapho-ink); --f-tint: var(--usapho-tint); }
+.f-apho { --f: var(--apho); --f-ink: var(--apho-ink); --f-tint: var(--apho-tint); }
+.f-nbpho { --f: var(--nbpho); --f-ink: var(--nbpho-ink); --f-tint: var(--nbpho-tint); }
+.f-eupho { --f: var(--eupho); --f-ink: var(--eupho-ink); --f-tint: var(--eupho-tint); }
+.f-opho { --f: var(--opho); --f-ink: var(--opho-ink); --f-tint: var(--opho-tint); }
+.f-pcup { --f: var(--pcup); --f-ink: var(--pcup-ink); --f-tint: var(--pcup-tint); }
+.f-ipho { --f: var(--ipho); --f-ink: var(--ipho-ink); --f-tint: var(--ipho-tint); }
 .f-gr { --f: var(--gr); --f-ink: var(--gr-ink); --f-tint: var(--gr-tint); }
 .f-ar { --f: var(--ar); --f-ink: var(--ar-ink); --f-tint: var(--ar-tint); }
 .f-cn { --f: var(--cn); --f-ink: var(--cn-ink); --f-tint: var(--cn-tint); }
@@ -714,6 +771,7 @@ svg.i { width: 1em; height: 1em; flex: none; stroke: currentColor; fill: none; s
 .p-id { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
 .p-num { display: inline-grid; place-items: center; min-width: 40px; height: 40px; padding: 0 8px; border-radius: 4px; background: var(--f); color: #fff; font: 800 1.15rem/1 var(--serif); }
 .p-meta { font: 600 .96rem var(--serif); color: var(--ink); }
+.p-title { font: 700 1.04rem/1.35 var(--serif); color: var(--f-ink, var(--ink)); margin: 0 0 10px; }
 .p-tag { font-size: .82rem; font-weight: 600; color: var(--f-ink); background: var(--f-tint); padding: 2px 9px; border-radius: 3px; }
 
 .statement { font: 400 1.08rem/1.75 var(--serif); max-width: 74ch; overflow-wrap: anywhere; }
@@ -927,11 +985,11 @@ dialog p { color: var(--muted); font-size: .92rem; }
     <div class="wrap brandbar">
         <a class="brand" href="https://eisatopon.gr" target="_top" aria-label="eisatopon.gr"><img class="logo" src="assets/eisatopon-logo.png" width="32" height="32" alt=""><span>eisatopon.gr</span></a>
         <nav class="subjects" aria-label="Other olympiad banks">
-            <a class="subj" href="https://pythagoras.eisatopon.gr/" title="Pythagoras – World Mathematical Olympiads Bank"><span aria-hidden="true">←</span>Mathematics</a>
-            <a class="subj" href="https://democritus.eisatopon.gr/" title="Democritus – World Chemistry Olympiads Bank"><span aria-hidden="true">🧪</span>Chemistry</a>
-            <a class="subj" href="https://antikythera.eisatopon.gr/" title="Antikythera – World Informatics Olympiads Bank"><span aria-hidden="true">💻</span>Informatics</a>
-            <a class="subj" href="https://aristotle.eisatopon.gr/" title="Aristotle – World Biology Olympiads Bank"><span aria-hidden="true">🧬</span>Biology</a>
-            <a class="subj" href="https://hipparchus.eisatopon.gr/" title="Hipparchus – World Astronomy &amp; Astrophysics Olympiads Bank"><span aria-hidden="true">🔭</span>Astronomy</a>
+            <a class="subj" href="https://eisatopon.github.io/national-olympiads-bank/" title="Pythagoras – World Mathematical Olympiads Bank"><span aria-hidden="true">←</span>Mathematics</a>
+            <a class="subj" href="https://eisatopon.github.io/chemistry-olympiads-bank/" title="Democritus – World Chemistry Olympiads Bank"><span aria-hidden="true">🧪</span>Chemistry</a>
+            <a class="subj" href="https://eisatopon.github.io/informatics-olympiads-bank/" title="Antikythera – World Informatics Olympiads Bank"><span aria-hidden="true">💻</span>Informatics</a>
+            <a class="subj" href="https://eisatopon.github.io/biology-olympiads-bank/" title="Aristotle – World Biology Olympiads Bank"><span aria-hidden="true">🧬</span>Biology</a>
+            <a class="subj" href="https://eisatopon.github.io/astronomy-olympiads-bank/" title="Hipparchus – World Astronomy &amp; Astrophysics Olympiads Bank"><span aria-hidden="true">🔭</span>Astronomy</a>
         </nav>
     </div>
 
@@ -1051,33 +1109,29 @@ dialog p { color: var(--muted); font-size: .92rem; }
         <div class="praise-grid">
             <blockquote>
                 <p>I think it's great for budding mathematicians that you're compiling this resource.</p>
-                <footer><span><b>Jim Propp</b><br>Professor of Mathematics, Kennedy College of Sciences, University of Massachusetts Lowell (UMass Lowell)</span><a class="on" href="https://pythagoras.eisatopon.gr/">on Pythagoras</a></footer>
+                <footer><span><b>Jim Propp</b><br>mathematician, UMass Lowell</span><a class="on" href="https://eisatopon.github.io/national-olympiads-bank/">on Pythagoras</a></footer>
             </blockquote>
             <blockquote>
                 <p>This is quite a collection of problems from many different olympiads. Hipparchus will definitely be useful for our students for the next year's olympiad.</p>
-                <footer><span><b>Loa Hellsing</b><br>Project Leader, Swedish Astronomical Olympiad</span><a class="on" href="https://hipparchus.eisatopon.gr/">on Hipparchus</a></footer>
-            </blockquote>
-            <blockquote>
-                <p>This is just a wonderful initiative and an excellent work that benefits everyone.</p>
-                <footer><span><b>Dr Hakim Luthfi Malasan</b><br>astronomer, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung (ITB), Indonesia</span><a class="on" href="https://hipparchus.eisatopon.gr/">on Hipparchus</a></footer>
+                <footer><span><b>Loa Hellsing</b><br>Project Leader, Swedish Astronomical Olympiad</span><a class="on" href="https://eisatopon.github.io/astronomy-olympiads-bank/">on Hipparchus</a></footer>
             </blockquote>
             <blockquote>
                 <p>The resource is amazing.</p>
-                <footer><span><b><a class="who" href="https://www.theguardian.com/profile/alexbellos" target="_blank" rel="noopener">Alex Bellos</a></b><br>author and Guardian puzzle columnist</span><a class="on" href="https://pythagoras.eisatopon.gr/">on Pythagoras</a></footer>
+                <footer><span><b><a class="who" href="https://www.theguardian.com/profile/alexbellos" target="_blank" rel="noopener">Alex Bellos</a></b><br>author and Guardian puzzle columnist</span><a class="on" href="https://eisatopon.github.io/national-olympiads-bank/">on Pythagoras</a></footer>
             </blockquote>
             <blockquote>
                 <p>Pythagoras is an invaluable resource for mathematics enthusiasts, problem solvers, and olympiad participants worldwide, offering a remarkable collection of competition problems from across the globe.</p>
-                <footer><span><b><a class="who" href="https://www.esuppa.it/" target="_blank" rel="noopener">Ercole Suppa</a></b><br>mathematics teacher and author, Italy</span><a class="on" href="https://pythagoras.eisatopon.gr/">on Pythagoras</a></footer>
+                <footer><span><b><a class="who" href="https://www.esuppa.it/" target="_blank" rel="noopener">Ercole Suppa</a></b><br>mathematics teacher and author, Italy</span><a class="on" href="https://eisatopon.github.io/national-olympiads-bank/">on Pythagoras</a></footer>
             </blockquote>
         </div>
-        <p class="praise-fact">🏅 <b>Featured by:</b> <a href="https://ioaastrophysics.org/current-ioaa/news/hipparchus" target="_blank" rel="noopener">IOAA</a> (Hipparchus) · <a href="https://www.mathematik.de/schuelerwettbewerbe" target="_blank" rel="noopener">German Mathematical Society – DMV</a> (Pythagoras) · <a href="https://www.sea-astronomia.es/recursos-para-secundaria" target="_blank" rel="noopener">Spanish Astronomical Society – SEA</a> (Hipparchus) · <a href="https://www.theguardian.com/science/2026/nov/09/can-you-solve-it-the-multi-choice-maths-quiz-taking-over-the-world" target="_blank" rel="noopener">The Guardian</a> (Pythagoras)</p>
+        <p class="praise-fact">🏅 Hipparchus is listed by the IOAA among its <a href="https://ioaastrophysics.org/resources/other-resources" target="_blank" rel="noopener">Other Resources</a></p>
     </div>
 </section>
 
 <footer class="footer">
     <div class="wrap">
-        <span>eisatopon.gr © 2026–<span id="yr">2026</span> – Archimedes, World Physics Olympiads Bank</span>
-        <p class="thanks">Statements are reproduced from the competitions' official papers for study; the problems remain the work of their authors and organising committees. Archimedes is an independent project: it is not affiliated with, endorsed by or supported by any competition organiser (in particular not by AAPT, USAPhO or the U.S. Physics Team). Problems remain the property of their organisers; any organiser may ask for corrections or removal at <a href="mailto:sokkorom@gmail.com">sokkorom@gmail.com</a>. Sister project of <a href="https://pythagoras.eisatopon.gr/">Pythagoras – World Mathematical Olympiads Bank</a>.</p>
+        <span>© 2026–<span id="yr">2026</span> eisatopon.gr – Archimedes, World Physics Olympiads Bank · All rights reserved · <a href="terms.html">Terms of use</a></span>
+        <p class="thanks">Statements are reproduced from the competitions' official papers for study; the problems remain the work of their authors and organising committees. Archimedes is an independent project: it is not affiliated with, endorsed by or supported by any competition organiser (in particular not by AAPT, USAPhO or the U.S. Physics Team). Problems remain the property of their organisers; any organiser may ask for corrections or removal at <a href="mailto:sokkorom@gmail.com">sokkorom@gmail.com</a>. Sister project of <a href="https://eisatopon.github.io/national-olympiads-bank/">Pythagoras – World Mathematical Olympiads Bank</a>.</p>
     </div>
 </footer>
 
@@ -1133,20 +1187,21 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261113-moscow2000';
+const DATA_VERSION = '20261121-eefo';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', moscow: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', moscow: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe', eefo: 'europe' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
 
 const COUNTRIES = [
-    { key: 'plancks', name: 'PLANCKS', flag: '🎓', file: 'PLANCKS-problems.json', kind: 'years', scope: 'undergraduate', full: 'PLANCKS (IAPS), international final of the theoretical physics competition for undergraduate and master students' },
-    { key: 'greece', name: 'Greece', flag: '🇬🇷', file: 'Greece-EEF-problems.json', kind: 'years', full: 'Panhellenic Physics Competition of the Hellenic Physical Society (ΕΕΦ), Grades 10–12 national final · English translation · problems © ΕΕΦ' },
-    { key: 'bphor2', name: 'BPhO Round 2', flag: '🇬🇧', file: 'BPhO-R2-problems.json', kind: 'years', full: 'British Physics Olympiad, Round 2 (Paper 3 until 2010) · problems © BPhO' },
+    { key: 'plancks', titled: true, name: 'PLANCKS', flag: '🎓', file: 'PLANCKS-problems.json', kind: 'years', scope: 'undergraduate', full: 'PLANCKS (IAPS), international final of the theoretical physics competition for undergraduate and master students' },
+    { key: 'greece', titled: true, name: 'Greece', flag: '🇬🇷', file: 'Greece-EEF-problems.json', kind: 'years', full: 'Panhellenic Physics Competition of the Hellenic Physical Society (ΕΕΦ), Grades 10–12 national final · English translation · problems © ΕΕΦ' },
+    { key: 'bphor2', titled: true, name: 'BPhO Round 2', flag: '🇬🇧', file: 'BPhO-R2-problems.json', kind: 'years', full: 'British Physics Olympiad, Round 2 (Paper 3 until 2010) · problems © BPhO' },
     { key: 'cpho', name: 'China', flag: '🇨🇳', file: 'CPhO-problems.json', kind: 'years', full: 'Chinese Physics Olympiad (Chinese Physical Society), final and semifinal theory · English translation' },
-    { key: 'germany', name: 'Germany', flag: '🇩🇪', file: 'Germany-PhysikOlympiade-problems.json', kind: 'years', full: 'PhysikOlympiade in Deutschland (selection competition for the IPhO), Round 2, with sample problems of Rounds 3–4 · German original and English translation' },
+    { key: 'eefo', titled: true, name: 'Estonia', flag: '🇪🇪', file: 'Estonia-EFO-problems.json', kind: 'years', full: 'Estonian Physics Olympiad (Eesti koolinoorte füüsikaolümpiaad), final round, gymnasium paper, grades 10–12 · Estonian original and English' },
+    { key: 'germany', titled: true, name: 'Germany', flag: '🇩🇪', file: 'Germany-PhysikOlympiade-problems.json', kind: 'years', full: 'PhysikOlympiade in Deutschland (selection competition for the IPhO), Round 2, with sample problems of Rounds 3–4 · German original and English translation' },
     { key: 'jpho', name: 'Japan', flag: '🇯🇵', file: 'JPhO-problems.json', kind: 'years', full: 'Physics Challenge (Japan Physics Olympiad), Second Challenge theory · English translation' },
     { key: 'nlnno', name: 'Netherlands', flag: '🇳🇱', file: 'Netherlands-NNO-problems.json', kind: 'years', full: 'Dutch National Physics Olympiad (Nationale Natuurkunde Olympiade), final round, theory · Dutch original and English translation' },
     { key: 'poland', name: 'Poland', flag: '🇵🇱', file: 'Poland-OF-problems.json', kind: 'years', full: 'Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part · English translation (1952–2004: a selection, with the Polish original)' },
@@ -1160,17 +1215,17 @@ const COUNTRIES = [
     { key: 'inpho', name: 'India', flag: '🇮🇳', file: 'INPhO-problems.json', kind: 'years', full: 'Indian National Physics Olympiad (HBCSE) · problems © HBCSE' },
     { key: 'russia', name: 'Russia', flag: '🇷🇺', file: 'Russia-VOS-problems.json', kind: 'years', full: 'All-Russian Olympiad in Physics, final stage, theoretical round, grades 9–11 · English translation' },
     { key: 'moscow', name: 'Russia – Moscow Olympiad', flag: '🇷🇺', file: 'Russia-Moscow-problems.json', kind: 'years', full: 'Moscow School Olympiad in Physics, final stage, grades 9–11 · English translation' },
-    { key: 'aso', name: 'Australia', flag: '🇦🇺', file: 'ASO-Physics-problems.json', kind: 'years', full: 'Australian Science Olympiad – Physics (Australian Science Innovations) · problems © ASI' },
+    { key: 'aso', titled: true, name: 'Australia', flag: '🇦🇺', file: 'ASO-Physics-problems.json', kind: 'years', full: 'Australian Science Olympiad – Physics (Australian Science Innovations) · problems © ASI' },
     { key: 'cap', name: 'Canada', flag: '🇨🇦', file: 'CAP-problems.json', kind: 'years', full: 'CAP High School/CEGEP Prize Exam (Canadian Physics Olympiad), Sections A and B · problems © CAP / CPO' },
     { key: 'usapho', name: 'USAPhO', flag: '🇺🇸', file: 'USAPhO-problems.json', kind: 'years', full: 'United States Physics Olympiad (AAPT), Parts A and B · problems © AAPT', credit: 'Adapted from USAPhO (retyped, statement only). © AAPT. Not affiliated with AAPT, USAPhO or the U.S. Physics Team.' },
-    { key: 'apho', name: 'APhO', flag: '🌏', file: 'APhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'Asian Physics Olympiad, theoretical problems' },
-    { key: 'nbpho', name: 'NBPhO', flag: '🌍', file: 'NBPhO-problems.json', kind: 'years', scope: 'regional', full: 'Nordic-Baltic Physics Olympiad (formerly Estonian-Finnish Olympiad), theoretical problems, numbered as printed' },
-    { key: 'eupho', name: 'EuPhO', flag: '🇪🇺', file: 'EuPhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'European Physics Olympiad, theoretical problems' },
+    { key: 'apho', titled: true, name: 'APhO', flag: '🌏', file: 'APhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'Asian Physics Olympiad, theoretical problems' },
+    { key: 'nbpho', titled: true, name: 'NBPhO', flag: '🌍', file: 'NBPhO-problems.json', kind: 'years', scope: 'regional', full: 'Nordic-Baltic Physics Olympiad (formerly Estonian-Finnish Olympiad), theoretical problems, numbered as printed' },
+    { key: 'eupho', titled: true, name: 'EuPhO', flag: '🇪🇺', file: 'EuPhO-theory-problems.json', kind: 'years', scope: 'regional', full: 'European Physics Olympiad, theoretical problems' },
     { key: 'oibf', name: 'OIbF', flag: '🌎', file: 'OIbF-theory-problems.json', kind: 'years', scope: 'regional', full: 'Ibero-American Physics Olympiad (Olimpiada Iberoamericana de Física), theoretical paper · Spanish original and English · problems © OIbF' },
     { key: 'izho', name: 'IZhO', flag: '🇰🇿', file: 'IZhO-Physics-theory-problems.json', kind: 'years', scope: 'international', full: 'International Zhautykov Olympiad (Almaty), Physics, theoretical competition · problems © IZhO organisers' },
-    { key: 'opho', name: 'OPhO', flag: '🌐', file: 'OPhO-problems.json', kind: 'years', scope: 'international', full: 'Online Physics Olympiad, Open round and Invitational round (theory) · problems © OPhO' },
-    { key: 'pcup', name: 'Physics Cup', flag: '🌐', file: 'Physics-Cup-problems.json', kind: 'years', scope: 'international', full: 'Physics Cup (Jaan Kalda, TalTech), online competition problems, as first published without hints · problems © Physics Cup' },
-    { key: 'ipho', name: 'IPhO', flag: '🌐', file: 'IPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International Physics Olympiad, theoretical and experimental problems' },
+    { key: 'opho', titled: true, name: 'OPhO', flag: '🌐', file: 'OPhO-problems.json', kind: 'years', scope: 'international', full: 'Online Physics Olympiad, Open round and Invitational round (theory) · problems © OPhO' },
+    { key: 'pcup', titled: true, name: 'Physics Cup', flag: '🌐', file: 'Physics-Cup-problems.json', kind: 'years', scope: 'international', full: 'Physics Cup (Jaan Kalda, TalTech), online competition problems, as first published without hints · problems © Physics Cup' },
+    { key: 'ipho', titled: true, name: 'IPhO', flag: '🌐', file: 'IPhO-theory-problems.json', kind: 'years', scope: 'international', full: 'International Physics Olympiad, theoretical and experimental problems' },
 ];
 COUNTRIES.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
 const CBY = Object.fromEntries(COUNTRIES.map(c => [c.key, c]));
@@ -1350,6 +1405,31 @@ function bodyHtml(text, record) {
     return html;
 }
 
+/* Display only: the statement's own heading line ("Problem 3: Title [10 points]") is not repeated in the text;
+   the number is in the badge and the rest (title, points) is shown as a small heading. The stored text is untouched. */
+const HEAD_RE = /^(?:(?:Theoretical|Theory|Experimental)\s+)?(?:Problem|Question|Qu\.?|Q|Task|Problema|Problème|Zadanie|Úloha|Задача|Aufgabe|Opgave|Opdracht|Πρόβλημα|Θέμα|Feladat)\s*(?:No\.?\s*)?([A-Z]?\d+[A-Za-z]?)\.?\s*((?:[([][^)\]\n]*[)\]]\s*)*)(?:[:.–—-]\s*(.+?))?\s*((?:[([][^)\]\n]*[)\]]\s*)*)$/iu;
+function splitHead(text, p) {
+    const t = String(text).replace(/^\s+/, ''), i = t.indexOf('\n');
+    const none = {head: '', body: String(text)};
+    if (i < 0 || !p) return none;
+    const line = t.slice(0, i).trim(), rest = t.slice(i + 1);
+    if (!rest.trim() || line.length > 160) return none;
+    const m = line.match(HEAD_RE);
+    if (m) {
+        const pts = [m[2], m[4]].map(x => (x || '').trim()).filter(Boolean).join(' ');
+        const title = (m[3] || '').trim().replace(/\.$/, '');
+        const head = String(m[1]) === String(p.num) ? [title, pts].filter(Boolean).join(' ') : line;
+        return {head, body: rest};
+    }
+    // Rows whose statements open with a bare title line (EuPhO, Physics Cup, ...).
+    if (CBY[p.country] && CBY[p.country].titled && line.length <= 100 && !/\$|https?:/.test(line) && /^[ \t]*\n/.test(rest)) return {head: line, body: rest};
+    return none;
+}
+function stmtHtml(text, p, rec = p) {
+    const {head, body} = splitHead(text, p);
+    return (head ? `<div class="p-title">${esc(head)}</div>` : '') + bodyHtml(body, rec);
+}
+
 /* ==========================================================
    Data loading and normalization
    ========================================================== */
@@ -1357,14 +1437,14 @@ function bodyHtml(text, record) {
    The browser receives a short fingerprint of each reviewed statement instead of a full copy
    (see scripts/build_runtime_metadata.py). 32-bit FNV-1a over UTF-16 code units. */
 function textHash(text) {
-    const s = String(text);
+    const s = String(text).replace(/\u00a0/g, ' ');  // the public copy marks some spaces as U+00A0
     let h = 0x811c9dc5;
     for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193); }
     return (h >>> 0).toString(16).padStart(8, '0');
 }
 function sameStatement(record, text) {
     if (!record) return false;
-    if (typeof record.reviewed_statement === 'string') return record.reviewed_statement === text;
+    if (typeof record.reviewed_statement === 'string') return record.reviewed_statement === String(text).replace(/\u00a0/g, ' ');
     return typeof record.h === 'string' && record.h === textHash(text);
 }
 const TOPICS = ['Mechanics', 'Electromagnetism', 'Thermodynamics & Statistical physics', 'Optics & Waves', 'Modern physics', 'Experimental & Data analysis'];
@@ -2195,7 +2275,7 @@ const CONCEPTS = [
 ];
 function reviewedDna(p) {
     const record = problemDna.records?.[p.uid];
-    return record && record.reviewed_statement === p.text && Array.isArray(record.techniques)
+    return record && record.reviewed_statement === String(p.text).replace(/\u00a0/g, ' ') && Array.isArray(record.techniques)
         && record.techniques.every(t => problemDna.techniques?.[t])
         && Number.isInteger(record.practice_level) && record.practice_level >= 1 && record.practice_level <= 3 ? record : null;
 }
@@ -2229,7 +2309,7 @@ function relatedCard(item) {
     const p = item.problem, country = CBY[p.country];
     const reason = item.methods.length ? 'Shared techniques: ' + item.methods.map(t => problemDna.techniques[t]).join(', ') : 'Shared concepts: ' + item.shared.map(conceptLabel).join(', ');
     return `<article class="related-card"><h3>${esc(country.name)} ${p.year}${p.paperLabel ? `, ${esc(p.paperLabel)}` : p.day ? `, Day ${p.day}` : ''}, #${esc(p.num)}</h3><p>${esc(reason)}</p>
-        <div class="statement">${bodyHtml(p.text, p)}</div><div class="ex-actions"><button type="button" class="btn btn-sm" data-open-problem="${esc(p.uid)}">Open problem</button><button type="button" class="btn btn-sm" data-toggle-uid="${esc(p.uid)}" aria-pressed="${selected.includes(p.uid)}">Add / remove from my set</button></div></article>`;
+        <div class="statement">${stmtHtml(p.text, p)}</div><div class="ex-actions"><button type="button" class="btn btn-sm" data-open-problem="${esc(p.uid)}">Open problem</button><button type="button" class="btn btn-sm" data-toggle-uid="${esc(p.uid)}" aria-pressed="${selected.includes(p.uid)}">Add / remove from my set</button></div></article>`;
 }
 let relatedToken = 0;
 async function showRelated(uid) {
@@ -2284,6 +2364,7 @@ const ORGS = {
     cpho: ['CPhO', 'the Chinese Physical Society', 'Chinese Physical Society', 'Chinese'],
     jpho: ['Physics Challenge (JPhO)', 'the Japan Physics Olympiad Committee (JPhO)', 'JPhO', 'Japanese'],
     nlnno: ['Natuurkunde Olympiade', 'the Stichting Natuurkunde Olympiade Nederland', 'Stichting Natuurkunde Olympiade Nederland', 'Dutch'],
+    eefo: ['Eesti füüsikaolümpiaad', 'the Estonian Physics Olympiad (Estonian Physical Society / University of Tartu Science School)', 'Eesti koolinoorte füüsikaolümpiaad', 'Estonian'],
     germany: ['PhysikOlympiade', 'the PhysikOlympiade in Deutschland (IPN Kiel)', 'PhysikOlympiade in Deutschland (IPN Kiel)', 'German'],
     poland: ['Olimpiada Fizyczna', 'the Komitet Główny Olimpiady Fizycznej', 'Komitet Główny Olimpiady Fizycznej', 'Polish'],
     jeep: ['JEE (Advanced)', 'the Indian Institutes of Technology (JEE Advanced)', 'the Indian Institutes of Technology (JEE Advanced)'],
@@ -2336,7 +2417,7 @@ function dailyCard(x, star) {
             <span class="p-num">${esc(x.n)}</span>
             <span class="p-meta">${c.flag} ${c.name} ${x.y}${x.pl ? `, ${esc(x.pl)}` : x.d ? `, Day ${x.d}` : ''}</span>
         </div><div class="p-actions"><a class="btn btn-sm" href="?p=${encodeURIComponent(x.u)}">Open</a></div></div>
-        <div class="statement">${bodyHtml(x.t)}</div>
+        <div class="statement">${stmtHtml(x.t, potdRecord(x), undefined)}</div>
     </article>`;
 }
 function potdRecord(x) { return {uid: x.u, country: x.k, year: x.y, num: x.n, day: x.d, paperLabel: x.pl, text: x.t}; }
@@ -2354,7 +2435,7 @@ function potdHtml(x, junior = false) {
     return `<article class="potd${junior ? ' potd-junior' : ''} f-${x.k}" aria-labelledby="${id}">
         <div class="potd-top"><span class="potd-badge" id="${id}">★ ${junior ? 'Junior problem' : 'Problem'} of the day</span><span class="potd-date">${junior ? 'Ages about 14–16' : `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`}</span></div>
         <p class="potd-src">${c.flag} ${c.name} ${x.y}${x.pl ? `, ${esc(x.pl)}` : x.d ? `, Day ${x.d}` : ''} · Problem ${esc(x.n)}${x.tp ? ` <span class="p-tag">${esc(x.tp)}</span>` : ''}</p>
-        <div class="statement potd-st">${bodyHtml(x.t)}</div>
+        <div class="statement potd-st">${stmtHtml(x.t, potdRecord(x), undefined)}</div>
         <div class="potd-actions">
             <a class="btn btn-primary" href="?p=${encodeURIComponent(x.u)}">Open the problem</a>
             <button type="button" class="btn" data-potd-hint="${esc(x.u)}">💡 Get a hint</button>
@@ -2401,7 +2482,7 @@ function problemHtml(p) {
             </button>
             </div>
         </div>
-        ${p.textEl ? `<div class="lang-sw" role="group" aria-label="Language of the statement"><button type="button" class="btn btn-sm" data-lang="en">EN</button><button type="button" class="btn btn-sm" data-lang="el">${p.origLang === 'el' || !p.origLang ? 'ΕΛ' : esc(p.origLang.toUpperCase())}</button></div><div class="statement st-en">${bodyHtml(p.text, p)}</div><div class="statement st-el" lang="${esc(p.origLang || 'el')}">${bodyHtml(p.textEl, p)}</div>` : `<div class="statement">${bodyHtml(p.text, p)}</div>`}
+        ${p.textEl ? `<div class="lang-sw" role="group" aria-label="Language of the statement"><button type="button" class="btn btn-sm" data-lang="en">EN</button><button type="button" class="btn btn-sm" data-lang="el">${p.origLang === 'el' || !p.origLang ? 'ΕΛ' : esc(p.origLang.toUpperCase())}</button></div><div class="statement st-en">${stmtHtml(p.text, p)}</div><div class="statement st-el" lang="${esc(p.origLang || 'el')}">${stmtHtml(p.textEl, p)}</div>` : `<div class="statement">${stmtHtml(p.text, p)}</div>`}
         ${provenanceHtml(p)}
         ${dnaHtml(p)}
     </article>`;
@@ -2630,7 +2711,7 @@ function renderPrintSheet() {
                 <div class="ps-num">${i + 1}.</div>
                 <div class="ps-body">
                     ${showSrc ? `<p class="ps-src">${CBY[p.country].name} ${p.year}${p.paperLabel ? `, ${esc(p.paperLabel)}` : p.day ? `, Day ${p.day}` : ''}, Problem ${esc(p.num)}${p.topic ? ` (${esc(p.topic)})` : ''}</p>` : ''}
-                    <div class="statement">${bodyHtml(p.text, p)}</div>
+                    <div class="statement">${stmtHtml(p.text, p)}</div>
                     ${creditHtml(p)}
                     ${showSrc ? provenanceHtml(p, true) : ''}
                     ${$('#solutionSpace').value !== '0' ? `<div class="solution-space" style="height:${Number($('#solutionSpace').value)}mm" aria-label="Space for solution"></div>` : ''}
@@ -2876,7 +2957,7 @@ function showUpdated() {
 /* ---------- Share one problem ----------
    Links go through the share worker (workers/share): its page carries the problem's title and statement
    for link previews and sends people on to ?p=<uid>. */
-const SHARE_URL = 'https://archimedes.eisatopon.gr/p/';
+const SHARE_URL = 'https://archimedes.sokkorom.workers.dev/p/';
 function problemLabel(p) {
     const c = CBY[p.country];
     return `${c.flag} ${c.name} ${p.year}${p.paperLabel ? `, ${p.paperLabel}` : p.day ? `, Day ${p.day}` : ''} – Problem ${p.num}`;
@@ -2975,8 +3056,8 @@ async function problemImage(p) {
     const link = problemLink(p);
     const node = document.createElement('div');
     node.className = 'share-card f-' + p.country;
-    node.innerHTML = `<div class="sc-head">${esc(problemLabel(p))}</div><div class="statement">${bodyHtml(p.text, p)}</div>${typeof creditHtml === 'function' ? creditHtml(p) : ''}
-        <div class="sc-foot"><div class="sc-text"><b>Archimedes</b> – World Physics Olympiads Bank · archimedes.eisatopon.gr<br>Open this problem: <span class="sc-link">${esc(link.replace(/^https:\/\//, ''))}</span></div>${qrcode ? `<div class="sc-qr">${qrSvg(qrcode, link)}</div>` : ''}</div>`;
+    node.innerHTML = `<div class="sc-head">${esc(problemLabel(p))}</div><div class="statement">${stmtHtml(p.text, p)}</div>${typeof creditHtml === 'function' ? creditHtml(p) : ''}
+        <div class="sc-foot"><div class="sc-text"><b>Archimedes</b> – World Physics Olympiads Bank · eisatopon.github.io/physics-olympiads-bank<br>Open this problem: <span class="sc-link">${esc(link.replace(/^https:\/\//, ''))}</span></div>${qrcode ? `<div class="sc-qr">${qrSvg(qrcode, link)}</div>` : ''}</div>`;
     node.querySelectorAll('img').forEach(img => { img.loading = 'eager'; });
     document.body.appendChild(node);
     try {
@@ -3015,7 +3096,7 @@ function shareAction(kind, uid) {
     const url = problemLink(p);
     if (kind === 'native') navigator.share({title: problemLabel(p), text: problemLabel(p), url}).catch(() => {});
     else if (kind === 'link') copyText(url, 'Link copied — the preview shows this problem.');
-    else if (kind === 'latex') copyText(`${problemLabel(p)}\n\n${p.text}${typeof creditText === 'function' && creditText(p) ? `\n\n(${creditText(p)})` : ''}\n\n${url}`, 'Statement copied (LaTeX).');
+    else if (kind === 'latex') copyText(`${problemLabel(p)}${(h => h.head ? '\n' + h.head + '\n\n' + h.body.trim() : '\n\n' + p.text)(splitHead(p.text, p))}${typeof creditText === 'function' && creditText(p) ? `\n\n(${creditText(p)})` : ''}\n\n${url}`, 'Statement copied (LaTeX).');
     else if (kind === 'image') shareImage(p);
 }
 // ?p=<uid> opens one problem and highlights it.
@@ -3072,23 +3153,27 @@ const TEX_CHARS = (() => {
 // Language of the exported statements, for views with stored originals: 'en', 'orig' or 'both'.
 function texLang() { try { const v = localStorage.getItem('nob-texlang'); return ['en', 'orig', 'both'].includes(v) ? v : 'en'; } catch (e) { return 'en'; } }
 const TEX_GREEK = /[\u0370-\u03ff\u1f00-\u1fff]/;
-const LANG_NAMES = {el: 'Greek', nl: 'Dutch', pl: 'Polish', cs: 'Czech', ru: 'Russian', ja: 'Japanese', zh: 'Chinese', de: 'German', fr: 'French', es: 'Spanish', pt: 'Portuguese', ro: 'Romanian', sk: 'Slovak'};
+const LANG_NAMES = {el: 'Greek', nl: 'Dutch', pl: 'Polish', cs: 'Czech', ru: 'Russian', ja: 'Japanese', zh: 'Chinese', de: 'German', fr: 'French', es: 'Spanish', pt: 'Portuguese', ro: 'Romanian', sk: 'Slovak', et: 'Estonian'};
 function texOriginal(p, withFigures) {
     const greek = (p.origLang || 'el') === 'el';
     let t = String(p.textEl);
     if (!withFigures) t = t.replace(IMG_RE, '');
     // Greek letters inside math are typeset as text (\text{Σ}) with textalpha.
     if (greek) t = t.replace(TEX_MATH_RE, m => m === '\\$' ? m : m.replace(/[\u0370-\u03ff\u1f00-\u1fff]+/g, x => `\\text{${x}}`));
-    return texStatement(t);
+    return texHeadStatement(t, p);
 }
 // In an export with a Greek original, single Greek letters of the English text stay math symbols.
 const texNoGreek = tex => tex.replace(/[\u0370-\u03ff\u1f00-\u1fff]/g, c => TEX_CHARS[c] || c);
+function texHeadStatement(text, p) {
+    const {head, body} = splitHead(text, p);
+    return (head ? `\\noindent\\textbf{${texStatement(head)}}\\par\n` : '') + texStatement(body);
+}
 function texProblem(p, lang = texLang()) {
-    if (lang === 'en') return texStatement(p.text);
-    if (!p.textEl) return texNoGreek(texStatement(p.text));
+    if (lang === 'en') return texHeadStatement(p.text, p);
+    if (!p.textEl) return texNoGreek(texHeadStatement(p.text, p));
     if (lang === 'orig') return texOriginal(p, true);
     const name = LANG_NAMES[p.origLang || 'el'] || String(p.origLang).toUpperCase();
-    return texNoGreek(texStatement(p.text)) + `\n\n\\medskip\\noindent{\\small\\itshape Original (${name}):}\\par\n` + texOriginal(p, false);
+    return texNoGreek(texHeadStatement(p.text, p)) + `\n\n\\medskip\\noindent{\\small\\itshape Original (${name}):}\\par\n` + texOriginal(p, false);
 }
 function texCharDecls(tex) {
     const greek = texLang() !== 'en' && TEX_GREEK.test(tex);  // Greek original: textalpha sets the Greek letters
@@ -3100,7 +3185,7 @@ function buildTex(items = getSelected(), title = $('#examTitle').value.trim() ||
     const showSrc = viewExport || $('#showSource').checked;
     const space = viewExport ? 0 : Number($('#solutionSpace').value);
     const head = String.raw`% Exported from Archimedes – World Physics Olympiads Bank
-% https://archimedes.eisatopon.gr/
+% https://eisatopon.github.io/physics-olympiads-bank/
 % Compiles with pdfLaTeX, XeLaTeX or LuaLaTeX. The figures come in the same .zip; keep them next to
 % this file (without them, their web address is printed instead).
 \documentclass[11pt,a4paper]{article}

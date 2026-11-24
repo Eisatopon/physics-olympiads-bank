@@ -69,7 +69,6 @@
     --bphor2: #ad1457; --bphor2-ink: #780e3c; --bphor2-tint: #fbe4ee;
     --cpho: #c62828; --cpho-ink: #8f1c1c; --cpho-tint: #fbe3e3;
     --eefo: #0072ce; --eefo-ink: #004a87; --eefo-tint: #e3f0fb;
-    --swisspho: #d52b1e; --swisspho-ink: #8f1d14; --swisspho-tint: #fde8e6;
     --germany: #424242; --germany-ink: #212121; --germany-tint: #eeeeee;
     --jpho: #8e24aa; --jpho-ink: #4a148c; --jpho-tint: #f3e5f5;
     --nlnno: #e65100; --nlnno-ink: #a33a00; --nlnno-tint: #fff0e0;
@@ -322,7 +321,6 @@
 .f-bphor2 { --f: var(--bphor2); --f-ink: var(--bphor2-ink); --f-tint: var(--bphor2-tint); }
 .f-cpho { --f: var(--cpho); --f-ink: var(--cpho-ink); --f-tint: var(--cpho-tint); }
 .f-eefo { --f: var(--eefo); --f-ink: var(--eefo-ink); --f-tint: var(--eefo-tint); }
-.f-swisspho { --f: var(--swisspho); --f-ink: var(--swisspho-ink); --f-tint: var(--swisspho-tint); }
 .f-germany { --f: var(--germany); --f-ink: var(--germany-ink); --f-tint: var(--germany-tint); }
 .f-jpho { --f: var(--jpho); --f-ink: var(--jpho-ink); --f-tint: var(--jpho-tint); }
 .f-nlnno { --f: var(--nlnno); --f-ink: var(--nlnno-ink); --f-tint: var(--nlnno-tint); }
@@ -1138,7 +1136,7 @@ dialog p { color: var(--muted); font-size: .92rem; }
 
 <footer class="footer">
     <div class="wrap">
-        <span>© 2026–<span id="yr">2026</span> eisatopon.gr – Archimedes, World Physics Olympiads Bank · All rights reserved · <a href="terms.html">Terms of use</a></span>
+        <span>© 2026–<span id="yr">2026</span> eisatopon.gr – Archimedes, World Physics Olympiads Bank · All rights reserved · <a href="terms.html">Terms of use</a> · <a href="https://ko-fi.com/olympiadproblems" target="_blank" rel="noopener">☕ Support this free project</a></span>
         <p class="thanks about"><b>About.</b> Archimedes is created and maintained by Sokratis Romanidis (<a href="https://eisatopon.gr/">eisatopon.gr</a>) as a free resource for students and teachers. Translations, topic tags and source checks are prepared with the help of AI tools, so errors are possible. If you have papers or other material to send us, please write to <a href="mailto:info@eisatopon.gr">info@eisatopon.gr</a>. “All rights reserved” covers the selection, the translations and the code of this site, not the problems themselves, which remain the property of their organisers.</p>
         <p class="thanks">Archimedes is an independent project; it is not affiliated with, endorsed by or supported by any competition organiser. Problems remain the property of their organisers and are reproduced as statements only, without solutions; any organiser may ask for corrections or removal at <a href="mailto:info@eisatopon.gr">info@eisatopon.gr</a>.</p>
     </div>
@@ -1196,10 +1194,10 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261124-swisspho';
+const DATA_VERSION = '20261121-rmph';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', moscow: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe', eefo: 'europe', rmph: 'world', swisspho: 'europe' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', moscow: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe', eefo: 'europe', rmph: 'world' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
@@ -1216,7 +1214,6 @@ const COUNTRIES = [
     { key: 'poland', name: 'Poland', flag: '🇵🇱', file: 'Poland-OF-problems.json', kind: 'years', full: 'Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part · English translation (1952–2004: a selection, with the Polish original)' },
     { key: 'roonf', name: 'Romania', flag: '🇷🇴', file: 'Romania-ONF-problems.json', kind: 'years', full: 'Romanian National Physics Olympiad (ONF), national stage, theoretical paper, grades IX–XII · Romanian original and English' },
     { key: 'skfo', name: 'Slovakia', flag: '🇸🇰', file: 'Slovakia-FO-problems.json', kind: 'years', full: 'Slovak Physics Olympiad (Fyzikálna olympiáda), category A, national round, theoretical problems · Slovak original and English' },
-    { key: 'swisspho', titled: true, name: 'Switzerland', flag: '🇨🇭', file: 'Switzerland-SwissPhO-problems.json', kind: 'years', full: 'Swiss Physics Olympiad (SwissPhO), Second Round and Final Round, theory problems and multiple-choice questions · official English papers' },
     { key: 'czech', name: 'Czechia', flag: '🇨🇿', file: 'Czech-FO-problems.json', kind: 'years', full: 'Czech Physics Olympiad (Fyzikální olympiáda), category A, national round, theoretical problems · English translation' },
     { key: 'oxpat', name: 'UK – Oxford PAT', flag: '🇬🇧', file: 'UK-Oxford-PAT-problems.json', kind: 'years', scope: 'entrance', full: 'Oxford Physics Aptitude Test (PAT), University of Oxford · statements only' },
     { key: 'grpan', name: 'Greece – Panhellenic Exams', flag: '🇬🇷', file: 'Greece-panhellenic-problems.json', kind: 'years', scope: 'entrance', full: 'Panhellenic university entrance examinations, Physics (Greek Ministry of Education) · Greek original and English translation' },
@@ -2385,7 +2382,6 @@ const ORGS = {
     pcup: ['Physics Cup', 'Physics Cup (Jaan Kalda; Tallinn University of Technology, TalTech)', 'Physics Cup / the problem authors'],
     cypan: ['Pancyprian Exams', 'the Cyprus Ministry of Education (Examinations Service)', 'the Cyprus Ministry of Education (Examinations Service)'],
     oxpat: ['Oxford PAT', 'the University of Oxford (Department of Physics)', 'the University of Oxford'],
-    swisspho: ['Swiss Physics Olympiad', 'the Swiss Physics Olympiad (Verein Schweizer Physik-Olympiade)', 'Swiss Physics Olympiad'],
     rmph: ['Romanian Master of Physics', 'the Romanian Master of Physics (Colegiul Național de Informatică „Tudor Vianu”, Bucharest)', 'Romanian Master of Physics'],
     oibf: ['Olimpiada Iberoamericana de Física', 'the Ibero-American Physics Olympiad (Olimpiada Iberoamericana de Física, OIbF)', 'Olimpiada Iberoamericana de Física', 'Spanish'],
     roonf: ['Olimpiada Națională de Fizică', 'the Romanian Ministry of Education (Olimpiada Națională de Fizică)', 'Ministerul Educației', 'Romanian'],

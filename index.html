@@ -69,6 +69,8 @@
     --bphor2: #ad1457; --bphor2-ink: #780e3c; --bphor2-tint: #fbe4ee;
     --cpho: #c62828; --cpho-ink: #8f1c1c; --cpho-tint: #fbe3e3;
     --eefo: #0072ce; --eefo-ink: #004a87; --eefo-tint: #e3f0fb;
+    --norway: #ba0c2f; --norway-ink: #7a081f; --norway-tint: #fbe5ea;
+    --swisspho: #d52b1e; --swisspho-ink: #8f1d14; --swisspho-tint: #fde8e6;
     --germany: #424242; --germany-ink: #212121; --germany-tint: #eeeeee;
     --jpho: #8e24aa; --jpho-ink: #4a148c; --jpho-tint: #f3e5f5;
     --nlnno: #e65100; --nlnno-ink: #a33a00; --nlnno-tint: #fff0e0;
@@ -321,6 +323,8 @@
 .f-bphor2 { --f: var(--bphor2); --f-ink: var(--bphor2-ink); --f-tint: var(--bphor2-tint); }
 .f-cpho { --f: var(--cpho); --f-ink: var(--cpho-ink); --f-tint: var(--cpho-tint); }
 .f-eefo { --f: var(--eefo); --f-ink: var(--eefo-ink); --f-tint: var(--eefo-tint); }
+.f-norway { --f: var(--norway); --f-ink: var(--norway-ink); --f-tint: var(--norway-tint); }
+.f-swisspho { --f: var(--swisspho); --f-ink: var(--swisspho-ink); --f-tint: var(--swisspho-tint); }
 .f-germany { --f: var(--germany); --f-ink: var(--germany-ink); --f-tint: var(--germany-tint); }
 .f-jpho { --f: var(--jpho); --f-ink: var(--jpho-ink); --f-tint: var(--jpho-tint); }
 .f-nlnno { --f: var(--nlnno); --f-ink: var(--nlnno-ink); --f-tint: var(--nlnno-tint); }
@@ -1200,10 +1204,10 @@ const BASE = './';
 // Figures are linked inside the statements with their published raw URL; a local copy shows its own images/.
 const RAW = 'https://raw.githubusercontent.com/Eisatopon/physics-olympiads-bank/main/';
 // Bump on every data change so browsers never mix old and new files.
-const DATA_VERSION = '20261121-rmph';
+const DATA_VERSION = '20261124-norway';
 const FIRST = 1967, LAST = 2026;
 const REGIONS = [['europe', 'Europe'], ['asia', 'Asia'], ['americas', 'Americas'], ['africa', 'Africa'], ['oceania', 'Oceania'], ['world', 'World'], ['other', 'Other']];
-const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', moscow: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe', eefo: 'europe', rmph: 'world' };
+const REGION_OF = { ipho: 'world', eupho: 'europe', nbpho: 'europe', apho: 'asia', usapho: 'americas', plancks: 'world', bphor2: 'europe', greece: 'europe', cap: 'americas', aso: 'oceania', russia: 'europe', moscow: 'europe', inpho: 'asia', cpho: 'asia', jpho: 'asia', poland: 'europe', nlnno: 'europe', czech: 'europe', oxpat: 'europe', cypan: 'europe', grpan: 'europe', jeep: 'asia', pcup: 'world', izho: 'asia', opho: 'world', skfo: 'europe', roonf: 'europe', oibf: 'americas', germany: 'europe', eefo: 'europe', rmph: 'world', swisspho: 'europe', norway: 'europe' };
 const regionOf = key => REGION_OF[key] || 'other';
 const PAGE = 20;
 const STORAGE_KEY = 'eisatopon-physics:set:v1';  // same origin as the math bank: keep the keys apart
@@ -1217,9 +1221,11 @@ const COUNTRIES = [
     { key: 'germany', name: 'Germany', flag: '🇩🇪', file: 'Germany-PhysikOlympiade-problems.json', titled: true, kind: 'years', full: 'PhysikOlympiade in Deutschland (selection competition for the IPhO), Round 2, with sample problems of Rounds 3–4 · German original and English translation' },
     { key: 'jpho', name: 'Japan', flag: '🇯🇵', file: 'JPhO-problems.json', kind: 'years', full: 'Physics Challenge (Japan Physics Olympiad), Second Challenge theory · English translation' },
     { key: 'nlnno', name: 'Netherlands', flag: '🇳🇱', file: 'Netherlands-NNO-problems.json', kind: 'years', full: 'Dutch National Physics Olympiad (Nationale Natuurkunde Olympiade), final round, theory · Dutch original and English translation' },
+    { key: 'norway', name: 'Norway', flag: '🇳🇴', file: 'Norway-Fysikkolympiaden-problems.json', kind: 'years', full: 'Norwegian Physics Olympiad (Fysikkolympiaden), Second Round and Norwegian Final · Norwegian original and English translation' },
     { key: 'poland', name: 'Poland', flag: '🇵🇱', file: 'Poland-OF-problems.json', kind: 'years', full: 'Polish Physics Olympiad (Olimpiada Fizyczna), final stage, theoretical part · English translation (1952–2004: a selection, with the Polish original)' },
     { key: 'roonf', name: 'Romania', flag: '🇷🇴', file: 'Romania-ONF-problems.json', kind: 'years', full: 'Romanian National Physics Olympiad (ONF), national stage, theoretical paper, grades IX–XII · Romanian original and English' },
     { key: 'skfo', name: 'Slovakia', flag: '🇸🇰', file: 'Slovakia-FO-problems.json', kind: 'years', full: 'Slovak Physics Olympiad (Fyzikálna olympiáda), category A, national round, theoretical problems · Slovak original and English' },
+    { key: 'swisspho', titled: true, name: 'Switzerland', flag: '🇨🇭', file: 'Switzerland-SwissPhO-problems.json', kind: 'years', full: 'Swiss Physics Olympiad (SwissPhO), Second Round and Final Round, theory problems and multiple-choice questions · official English papers' },
     { key: 'czech', name: 'Czechia', flag: '🇨🇿', file: 'Czech-FO-problems.json', kind: 'years', full: 'Czech Physics Olympiad (Fyzikální olympiáda), category A, national round, theoretical problems · English translation' },
     { key: 'oxpat', name: 'UK – Oxford PAT', flag: '🇬🇧', file: 'UK-Oxford-PAT-problems.json', kind: 'years', scope: 'entrance', full: 'Oxford Physics Aptitude Test (PAT), University of Oxford · statements only' },
     { key: 'grpan', name: 'Greece – Panhellenic Exams', flag: '🇬🇷', file: 'Greece-panhellenic-problems.json', kind: 'years', scope: 'entrance', full: 'Panhellenic university entrance examinations, Physics (Greek Ministry of Education) · Greek original and English translation' },
@@ -2388,6 +2394,8 @@ const ORGS = {
     pcup: ['Physics Cup', 'Physics Cup (Jaan Kalda; Tallinn University of Technology, TalTech)', 'Physics Cup / the problem authors'],
     cypan: ['Pancyprian Exams', 'the Cyprus Ministry of Education (Examinations Service)', 'the Cyprus Ministry of Education (Examinations Service)'],
     oxpat: ['Oxford PAT', 'the University of Oxford (Department of Physics)', 'the University of Oxford'],
+    norway: ['Fysikkolympiaden', 'the Norwegian Physics Olympiad (Norsk Fysikklærerforening and the Department of Physics, University of Oslo)', 'Norsk Fysikklærerforening / Fysikkolympiaden', 'Norwegian'],
+    swisspho: ['Swiss Physics Olympiad', 'the Swiss Physics Olympiad (Verein Schweizer Physik-Olympiade)', 'Swiss Physics Olympiad'],
     rmph: ['Romanian Master of Physics', 'the Romanian Master of Physics (Colegiul Național de Informatică „Tudor Vianu”, Bucharest)', 'Romanian Master of Physics'],
     oibf: ['Olimpiada Iberoamericana de Física', 'the Ibero-American Physics Olympiad (Olimpiada Iberoamericana de Física, OIbF)', 'Olimpiada Iberoamericana de Física', 'Spanish'],
     roonf: ['Olimpiada Națională de Fizică', 'the Romanian Ministry of Education (Olimpiada Națională de Fizică)', 'Ministerul Educației', 'Romanian'],
@@ -3168,7 +3176,7 @@ const TEX_CHARS = (() => {
 // Language of the exported statements, for views with stored originals: 'en', 'orig' or 'both'.
 function texLang() { try { const v = localStorage.getItem('nob-texlang'); return ['en', 'orig', 'both'].includes(v) ? v : 'en'; } catch (e) { return 'en'; } }
 const TEX_GREEK = /[\u0370-\u03ff\u1f00-\u1fff]/;
-const LANG_NAMES = {el: 'Greek', nl: 'Dutch', pl: 'Polish', cs: 'Czech', ru: 'Russian', ja: 'Japanese', zh: 'Chinese', de: 'German', fr: 'French', es: 'Spanish', pt: 'Portuguese', ro: 'Romanian', sk: 'Slovak', et: 'Estonian'};
+const LANG_NAMES = {el: 'Greek', nl: 'Dutch', pl: 'Polish', cs: 'Czech', ru: 'Russian', ja: 'Japanese', zh: 'Chinese', de: 'German', fr: 'French', es: 'Spanish', pt: 'Portuguese', ro: 'Romanian', sk: 'Slovak', et: 'Estonian', no: 'Norwegian'};
 function texOriginal(p, withFigures) {
     const greek = (p.origLang || 'el') === 'el';
     let t = String(p.textEl);

@@ -14,3 +14,7 @@ Copying the collection, mirroring the site, scraping, republishing substantial p
 a derivative bank and using the content to train AI systems are not allowed without written permission. The transcriptions,
 translations, figures, organisation, code and the database as a whole are protected (EU Directive 96/9/EC). See the
 [terms of use](https://archimedes.eisatopon.gr/terms.html).
+
+## Support
+
+This is a free project. If you find it useful, you can support it at [ko-fi.com/olympiadproblems](https://ko-fi.com/olympiadproblems).
